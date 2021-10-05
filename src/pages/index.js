@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
+import { Button } from "react-bootstrap"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -11,6 +11,9 @@ const IndexPage = () => (
     <h1>Hi people of the Matrix</h1>
     <p>Welcome to your eye opener site.</p>
     <p>Now go build something great.</p>
+    <Button variant="primary">Primary</Button>
+    <br />
+    <br />
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
