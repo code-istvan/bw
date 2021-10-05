@@ -1,12 +1,12 @@
 import React from "react"
-// import "../sass/components/_animeLogo.scss"
+import "../sass/components/_logobw.scss"
 
 function LogoBW() {
   return (
     <svg
-      width="44"
+      width="48"
       height="48"
-      viewBox="0 0 44 48"
+      viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
