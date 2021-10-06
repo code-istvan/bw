@@ -4,9 +4,9 @@ import "../sass/components/_logobwlong.scss"
 function LogoBWlong() {
   return (
     <svg
-      width="203"
+      width="150"
       height="20"
-      viewBox="0 0 270 20"
+      viewBox="0 0 203 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className="logoBWlong__size"
