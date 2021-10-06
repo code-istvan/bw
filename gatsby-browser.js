@@ -1,7 +1,7 @@
 import "/src/sass/global.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
-// import "bootstrap/dist/js/bootstrap.min"
-// import "bootstrap/dist/js/bootstrap.min.js"
+import "bootstrap/dist/js/bootstrap.min"
+import "bootstrap/dist/js/bootstrap.min.js"
 
 /**
  * Implement Gatsby's Browser APIs in this file.
