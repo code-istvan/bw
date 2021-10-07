@@ -9,6 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "./navbarBW"
+import Container from "react-bootstrap/Container"
 import "../sass/components/_layout.scss"
 
 const Layout = ({ children }) => {
@@ -25,16 +26,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
-      <footer
-        style={{
-          marginTop: `2rem`,
-        }}
-      >
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer>
+      <Container>
+        <main>{children}</main>
+      </Container>
     </>
   )
 }

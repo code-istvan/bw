@@ -2,6 +2,18 @@
   margin-right: 0rem !important;
 }
 
+.show {
+  background-color: black;
+}
+
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.55);
+  padding-left: 40px;
+}
+.dropdown-menu {
+  background-color: rgba(38, 38, 38);
+}
+
 .navbar-nav {
   margin-left: auto !important;
   // align-items: center;
@@ -23,6 +35,7 @@
 .toggler-icon {
   width: 30px;
   height: 3px;
+  border-radius: 2px;
   background-color: white;
 
   display: block;
