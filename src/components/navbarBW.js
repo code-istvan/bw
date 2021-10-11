@@ -85,6 +85,26 @@ export default function NavbarBW() {
                       HÁZIREND
                     </Link>
                   </Nav.Item>
+                  <Nav.Item as="li">
+                    <Link className="dropdown-item" to="/mantra">
+                      MANTRÁK
+                    </Link>
+                  </Nav.Item>
+                  <Nav.Item as="li">
+                    <Link className="dropdown-item" to="/sorozatabrak">
+                      SOROZATÁBRÁK
+                    </Link>
+                  </Nav.Item>
+                  <Nav.Item as="li">
+                    <Link className="dropdown-item" to="/holdnapok">
+                      HOLDNAPOK
+                    </Link>
+                  </Nav.Item>
+                  <Nav.Item as="li">
+                    <Link className="dropdown-item" to="/osztondij">
+                      ÖSZTÖNDÍJ
+                    </Link>
+                  </Nav.Item>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -112,6 +132,24 @@ export default function NavbarBW() {
                   <Nav.Item as="li">
                     <Link className="dropdown-item" to="/mysore-program">
                       MYSORE PROGRAM
+                    </Link>
+                  </Nav.Item>
+                  <Nav.Item as="li">
+                    <Link className="dropdown-item" to="/tanfolyam">
+                      TANFOLYAMOK
+                    </Link>
+                  </Nav.Item>
+                  <Nav.Item as="li">
+                    <Link className="dropdown-item" to="/oktatok">
+                      OKTATÓK
+                    </Link>
+                  </Nav.Item>
+                  <Nav.Item as="li">
+                    <Link
+                      className="dropdown-item"
+                      to="/vinyasza-jogairanyzatok"
+                    >
+                      VINYÁSZA JÓGAIRÁNYZATOK
                     </Link>
                   </Nav.Item>
                 </ul>
