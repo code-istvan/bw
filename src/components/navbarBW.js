@@ -5,8 +5,8 @@ import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import "../sass/components/_navbarbw.scss"
 // import Container from "react-bootstrap/Container"
-// import Row from "react-bootstrap/Row"
-// import Col from "react-bootstrap/Col"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 // import Navbar from "react-bootstrap/Navbar"
 // import Nav from "react-bootstrap/Nav"
 // import NavDropdown from "react-bootstrap/NavDropdown"
@@ -30,7 +30,7 @@ export default function NavbarBW() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
           className="offcanvas offcanvas-end"
@@ -39,19 +39,20 @@ export default function NavbarBW() {
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div className="offcanvas-header">
-            {/* <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-              Offcanvasqqq
-            </h5> */}
-            <LogoBW />
-            <LogoBWlong />
+            <div className="offcanvas-title" id="offcanvasNavbarLabel">
+              <LogoBW />
+              <LogoBWlong />
+            </div>
+
             <button
               type="button"
-              className="btn-close text-reset"
+              className="btn-close btn-close-white text-reset"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
+
+          <div className="offcanvas-body">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
               <Nav.Item as="li">
                 <Link className="nav-link active" aria-current="page" to="/">

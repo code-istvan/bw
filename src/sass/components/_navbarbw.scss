@@ -2,12 +2,15 @@
   margin-right: 0rem !important;
 }
 
-.btn-close {
-  color: white !important;
-}
-
 .show {
   background-color: #333333;
+  width: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+  .offcanvas-body {
+    margin-left: auto !important;
+  }
 }
 
 .dropdown-item {
@@ -18,10 +21,10 @@
   background-color: rgba(38, 38, 38);
 }
 
-.navbar-nav {
-  margin-left: auto !important;
-  // align-items: center;
-}
+// .navbar-nav {
+//   // margin-left: auto !important;
+//   left: 0;
+// }
 
 .navbar-toggler {
   border: 0;
