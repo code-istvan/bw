@@ -15,7 +15,7 @@ import LogoBWlong from "./LogoBWlong"
 
 export default function NavbarBW() {
   return (
-    <nav className="navbar fixed-top navbar-expand-xxl navbar-dark">
+    <nav className="navbar fixed-top navbar-expand-xl navbar-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           <LogoBW />
