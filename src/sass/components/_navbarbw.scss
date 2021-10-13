@@ -119,3 +119,8 @@
   height: 1.65em;
   line-height: 1.17em;
   }
+
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: #e9ecef;
+}
