@@ -16,6 +16,7 @@
 .dropdown-item {
   color: rgba(255, 255, 255, 0.55);
   padding-left: 20px;
+  pointer-events: none;
 }
 .dropdown-menu {
   background-color: rgba(38, 38, 38);
@@ -28,6 +29,7 @@
 
 .navbar-toggler {
   border: 0;
+  padding-right: 0px;
 }
 
 .navbar-toggler:focus,
