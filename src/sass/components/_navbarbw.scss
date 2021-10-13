@@ -92,3 +92,37 @@
 .navbar-toggler.collapsed .toggler-icon {
   background-color: white;
 }
+
+/* Navbar Mobile View improvements */
+.nav-link.dropdown-toggle:after {
+  content: "+";
+  display: block;
+  font-size: 1.5em;
+  font-weight: 100;
+  font-family: auto;
+  float: right;
+  margin: -0.255em 0 0 0;
+  border:0;
+  padding-left: 0.25em;
+  height: 1.65em;
+  line-height: 1.17em;
+}
+
+.nav-link.dropdown-toggle.show:after {
+  content: "–";
+  display: block;
+  font-size: 1.5em;
+  font-weight: 100;
+  font-family: auto;
+  float: right;
+  margin: -0.255em 0.35em 0 0;
+  border:0;
+  padding-left: 0.25em;
+  height: 1.65em;
+  line-height: 1.17em;
+  }
+
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: #e9ecef;
+}
