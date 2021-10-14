@@ -7,6 +7,11 @@
   width: 100%;
 }
 
+.offcanvas-body {
+  padding-left: 0px;
+  padding-right: 3rem;
+}
+
 @media screen and (min-width: 1200px) {
   .offcanvas-body {
     margin-left: auto !important;
@@ -16,10 +21,13 @@
 .dropdown-item {
   color: rgba(255, 255, 255, 0.55);
   padding-left: 20px;
-  pointer-events: none;
 }
 .dropdown-menu {
-  background-color: rgba(38, 38, 38);
+  // background-color: rgba(38, 38, 38);
+  background-color: red;
+  margin-left: -1rem;
+  margin-right: 0px;
+  width: 100%;
 }
 
 // .navbar-nav {
@@ -90,7 +98,8 @@
 
 /* Color of Toggler when collapsed */
 .navbar-toggler.collapsed .toggler-icon {
-  background-color: white;
+  background-color: red;
+  // color: white;
 }
 
 /* Navbar Mobile View improvements */
@@ -102,7 +111,7 @@
   font-family: auto;
   float: right;
   margin: -0.255em 0 0 0;
-  border:0;
+  border: 0;
   padding-left: 0.25em;
   height: 1.65em;
   line-height: 1.17em;
@@ -116,13 +125,14 @@
   font-family: auto;
   float: right;
   margin: -0.255em 0.35em 0 0;
-  border:0;
+  border: 0;
   padding-left: 0.25em;
   height: 1.65em;
   line-height: 1.17em;
-  }
+}
 
-  .dropdown-item:focus, .dropdown-item:hover {
-    color: #1e2125;
-    background-color: #e9ecef;
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #1e2125;
+  background-color: #e9ecef;
 }
