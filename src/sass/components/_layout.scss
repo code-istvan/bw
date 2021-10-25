@@ -1,3 +1,5 @@
+@import "/src/sass/variable";
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -8,7 +10,7 @@ html {
 body {
   // margin: 0;
   margin-top: 70px;
-  background-color: #333333;
+  background-color: $primary-background-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
