@@ -46,7 +46,7 @@ export default function NavbarBW() {
               aria-label="Close"
             ></button>
           </div>
-          <Row className="offcanvas-body">
+          <div className="offcanvas-body">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
               <li className="nav-item dropdown">
                 <a
@@ -163,7 +163,7 @@ export default function NavbarBW() {
                 </Link>
               </Nav.Item>
             </ul>
-          </Row>
+          </div>
         </div>
       </div>
     </nav>
