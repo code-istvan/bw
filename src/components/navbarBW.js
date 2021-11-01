@@ -3,11 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import "../sass/components/_navbarbw.scss"
-import Container from "react-bootstrap/Container"
-// import Row from "react-bootstrap/Row"
-// import Col from "react-bootstrap/Col"
 import LogoBW from "./LogoBW"
-import LogoBWlong from "./LogoBWlong"
 
 export default function NavbarBW() {
   return (
@@ -37,7 +33,6 @@ export default function NavbarBW() {
           <div className="offcanvas-header">
             <div className="offcanvas-title" id="offcanvasNavbarLabel">
               <LogoBW />
-              {/* <LogoBWlong /> */}
             </div>
             <button
               type="button"
