@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import "../sass/components/_navbarbw.scss"
 import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+// import Row from "react-bootstrap/Row"
+// import Col from "react-bootstrap/Col"
 import LogoBW from "./LogoBW"
 import LogoBWlong from "./LogoBWlong"
 
@@ -15,7 +15,7 @@ export default function NavbarBW() {
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           <LogoBW />
-          <LogoBWlong />
+          {/* <LogoBWlong /> */}
         </a>
         <button
           className="navbar-toggler"
@@ -37,7 +37,7 @@ export default function NavbarBW() {
           <div className="offcanvas-header">
             <div className="offcanvas-title" id="offcanvasNavbarLabel">
               <LogoBW />
-              <LogoBWlong />
+              {/* <LogoBWlong /> */}
             </div>
             <button
               type="button"
