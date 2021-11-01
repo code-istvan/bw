@@ -85,7 +85,7 @@ export default function NavbarBW() {
                       className="dropdown-item"
                       to="/vinyasza-jogairanyzatok"
                     >
-                      VINYÁSZA JÓGAIRÁNYZATOK
+                      JÓGAIRÁNYZATOK
                     </Link>
                   </Nav.Item>
                 </ul>
