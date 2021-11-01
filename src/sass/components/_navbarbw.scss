@@ -12,6 +12,7 @@
 .offcanvas-body {
   padding-left: 0px;
   padding-right: 0rem;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 .offcanvas-end {
@@ -31,8 +32,10 @@
     margin: 0;
     background-color: #424242;
   }
+  .dropdown-item:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
 }
-
 
 @media screen and (min-width: 1200px) {
   .offcanvas-body {
@@ -56,7 +59,6 @@
   opacity: 0;
   visibility: hidden;
   max-height: 0;
-  overflow: hidden;
   transition: all 200ms ease-in-out;
   border-radius: 0;
 
@@ -140,7 +142,7 @@
 .nav-link.dropdown-toggle:after {
   content: "+";
   display: inline-flex;
-  align-items:  center;
+  align-items: center;
   height: inherit;
   font-size: 1.5em;
   font-weight: 100;
@@ -166,7 +168,6 @@
 .dropdown-item:hover {
   color: rgba(255, 255, 255, 0.55);
 }
-
 
 @media screen and (min-width: 1200px) {
   .offcanvas-body {
