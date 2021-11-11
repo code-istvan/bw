@@ -1,7 +1,6 @@
 @import "/src/sass/variable";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap");
 
-
 // .navbar-brand {
 //   margin-right: 0rem !important;
 // }
@@ -15,7 +14,7 @@
   .navbar-nav {
     padding: 0;
     margin: 0;
-  
+
     .nav-link {
       margin: 0;
       height: 54px;
@@ -34,7 +33,7 @@
     background-color: #333333;
     width: 100%;
   }
-  
+
   .offcanvas-body {
     padding-left: 0px;
     padding-right: 0rem;
@@ -68,7 +67,7 @@
     max-height: 0;
     transition: all 200ms ease-in-out;
     border-radius: 0;
-  
+
     &.show {
       max-height: 400px;
       opacity: 1;
@@ -78,8 +77,8 @@
       margin: 0;
     }
   }
-  
-    /* Bootstrap hamburger eltuntetese KEZDET */
+
+  /* Bootstrap hamburger eltuntetese KEZDET */
   .navbar-toggler {
     border: 0;
     padding-right: 0px;
@@ -94,7 +93,7 @@
     border: 0;
   }
 
-    /* Lines of the Toggler */
+  /* Lines of the Toggler */
   .toggler-icon {
     width: 30px;
     height: 3px;
@@ -126,30 +125,26 @@
   }
   /* State when navbar is opened (END) */
   /* Navbar Mobile View improvements */
-.nav-link.dropdown-toggle:after {
-  content: "+";
-  display: inline-flex;
-  align-items: center;
-  height: inherit;
-  font-size: 1.5em;
-  font-weight: 100;
-  font-family: auto;
-  float: right;
-  margin: -0.255em 0 0 0;
-  border: 0;
-  padding-left: 0.25em;
-  line-height: 1.17em;
-}
+  .nav-link.dropdown-toggle:after {
+    content: "+";
+    display: inline-flex;
+    align-items: center;
+    height: inherit;
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: auto;
+    float: right;
+    margin: -0.255em 0 0 0;
+    border: 0;
+    padding-left: 0.25em;
+    line-height: 1.17em;
+  }
 
-.nav-link.dropdown-toggle.show:after {
-  content: "–";
-}
-
+  .nav-link.dropdown-toggle.show:after {
+    content: "–";
+  }
 }
 /* Hamburger menus beallitasok (END) */
-
-
-
 
 // /* State when navbar is collapsed (START) */
 // .navbar-toggler.collapsed .top-bar {
@@ -169,10 +164,8 @@
 /* Color of Toggler when collapsed */
 // .navbar-toggler.collapsed .toggler-icon {
 //   background-color: red;
-  // color: white;
+// color: white;
 // }
-
-
 
 // .dropdown-item:focus,
 // .dropdown-item:hover {
@@ -183,7 +176,7 @@
 @media screen and (min-width: 1200px) {
   .offcanvas-body {
     margin-left: auto !important;
-    
+
     li {
       margin-top: auto;
       margin-bottom: auto;
@@ -195,7 +188,6 @@
   .nav-link.dropdown-toggle:after {
     display: none !important;
   }
-
 }
 
 .nav-link {
@@ -206,11 +198,16 @@
 div {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll; 
+  overflow-y: scroll;
 }
 
 div::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 
+.navbar-toggler-icon {
+  background-color: red;
+}
 
+.vegan-hamburger {
+}
