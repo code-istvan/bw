@@ -22,7 +22,8 @@ export default function NavbarBW() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          {/* <span className="vegan-hamburger"></span> */}
+           <span className="navbar-toggler-icon"></span>
         </button>
         <div
           className="offcanvas offcanvas-end"
