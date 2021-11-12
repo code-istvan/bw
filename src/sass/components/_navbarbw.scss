@@ -5,9 +5,9 @@
 //   margin-right: 0rem !important;
 // }
 
-.offcanvas-end {
-  border: none;
-}
+// .offcanvas-end {
+//   border: none;
+// }
 
 /* Hamburger menus beallitasok (START) */
 @media screen and (max-width: 1200px) {
@@ -29,9 +29,17 @@
     }
   }
 
-  .show {
-    background-color: #333333;
-    width: 100%;
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+      outline: none;
+      box-shadow: none;
+  }
+
+  .btn-close-white:focus,
+  .btn-close-white:active {
+    outline: none;
+    box-shadow: none;
   }
 
   .offcanvas-body {
@@ -39,6 +47,8 @@
     padding-right: 0rem;
   }
   .show {
+    background-color: #333333;
+    width: 100%;
     a {
       font-family: "Nunito Sans", sans-serif;
       font-size: x-large !important;
@@ -82,48 +92,11 @@
   .navbar-toggler {
     border: 0;
     padding-right: 0px;
+    outline: none !important;
   }
-  /* Bootstrap hamburger eltuntetese VEGE*/
+  /* Bootstrap hamburger eltuntetese VEGE */
 
-  .navbar-toggler:focus,
-  .navbar-toggler:active,
-  .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 0;
-  }
-
-  /* Lines of the Toggler */
-  .toggler-icon {
-    width: 30px;
-    height: 3px;
-    border-radius: 2px;
-    background-color: white;
-    display: block;
-    transition: all 0.2s;
-  }
-
-  /* Adds Space between the lines */
-  .middle-bar {
-    margin: 5px auto;
-  }
-
-  /* State when navbar is opened (START) */
-  .navbar-toggler .top-bar {
-    transform: rotate(45deg);
-    transform-origin: 10% 10%;
-  }
-
-  .navbar-toggler .middle-bar {
-    opacity: 0;
-    filter: alpha(opacity=0);
-  }
-
-  .navbar-toggler .bottom-bar {
-    transform: rotate(-45deg);
-    transform-origin: 10% 90%;
-  }
-  /* State when navbar is opened (END) */
+  
   /* Navbar Mobile View improvements */
   .nav-link.dropdown-toggle:after {
     content: "+";
@@ -146,27 +119,6 @@
 }
 /* Hamburger menus beallitasok (END) */
 
-// /* State when navbar is collapsed (START) */
-// .navbar-toggler.collapsed .top-bar {
-//   transform: rotate(0);
-// }
-
-// .navbar-toggler.collapsed .middle-bar {
-//   opacity: 1;
-//   filter: alpha(opacity=100);
-// }
-
-// .navbar-toggler.collapsed .bottom-bar {
-//   transform: rotate(0);
-// }
-/* State when navbar is collapsed (END) */
-
-/* Color of Toggler when collapsed */
-// .navbar-toggler.collapsed .toggler-icon {
-//   background-color: red;
-// color: white;
-// }
-
 // .dropdown-item:focus,
 // .dropdown-item:hover {
 //   color: rgba(255, 255, 255, 0.55);
@@ -185,9 +137,24 @@
     }
   }
 
-  .nav-link.dropdown-toggle:after {
-    display: none !important;
-  }
+/* Almenus menupont haromszog eltuntetese */
+  // .nav-link.dropdown-toggle:after {
+  //   display: none !important;
+  // }
+
+  .dropdown-menu {
+      height: 100%;
+      background-color: red;
+      display: block;
+    
+    }
+
+    .nav-item {
+      margin: 0;
+    }
+
+
+
 }
 
 .nav-link {
@@ -205,9 +172,4 @@ div::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 
-.navbar-toggler-icon {
-  background-color: red;
-}
 
-.vegan-hamburger {
-}

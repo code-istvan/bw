@@ -22,7 +22,6 @@ export default function NavbarBW() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          {/* <span className="vegan-hamburger"></span> */}
            <span className="navbar-toggler-icon"></span>
         </button>
         <div
@@ -149,9 +148,7 @@ export default function NavbarBW() {
                 </Link>
               </Nav.Item>
               <Nav.Item as="li">
-                <Link className="nav-link" to="https://bandha-payments.hu">
-                  SHOP
-                </Link>
+                <a className="nav-link" href="https://bandha-payments.hu">SHOP</a>
               </Nav.Item>
               <Nav.Item as="li">
                 <Link className="nav-link" to="/kapcsolat">
