@@ -51,7 +51,7 @@
     width: 100%;
     a {
       font-family: "Nunito Sans", sans-serif;
-      font-size: x-large !important;
+      font-size: large !important;
       margin-left: 10px;
     }
     ul {
@@ -133,25 +133,46 @@
       margin-top: auto;
       margin-bottom: auto;
       font-family: "Nunito Sans", sans-serif;
-      font-size: x-large !important;
+      font-size: large !important;
     }
   }
 
 /* Almenus menupont haromszog eltuntetese */
-  // .nav-link.dropdown-toggle:after {
-  //   display: none !important;
-  // }
+  .nav-link.dropdown-toggle:after {
+    display: none !important;
+  }
 
   .dropdown-menu {
-      background-color: red;
+      background-color: $primary-orange-color; 
+      border-radius: 0;
+      border: 0;
+      margin: 0 !important;
+    //   width: 100%;
+    // display: block;
     }
+
+.dropdown-toggle:hover {
+  background-color: $primary-orange-color;
+  
+}
+
 
     .nav-item {
       margin: 0;
     }
 
+// .nav-link:hover {
+//   color: $primary-orange-color;
+// }
+
+}
 
 
+.container-fluid {
+  overflow: visible;
+} 
+.offcanvas {
+  overflow: visible;
 }
 
 .nav-link {
