@@ -142,17 +142,35 @@
     display: none !important;
   }
 
+  .nav-link.dropdown-toggle {
+    transition: all .15s ease-in-out;
+  }
+
   .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
       background-color: $primary-orange-color; 
       border-radius: 0;
       border: 0;
       margin: 0 !important;
     //   width: 100%;
     // display: block;
+    transition: all .15s ease-in-out;
     }
-
+.nav-item.dropdown:hover {
+  .dropdown-toggle {
+    color: rgba(255,255,255,.75);
+    background-color: #f39e12;
+  }
+  .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+}
 .dropdown-toggle:hover {
   background-color: $primary-orange-color;
+
   
 }
 
