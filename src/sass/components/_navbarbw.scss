@@ -96,25 +96,30 @@
   }
   /* Bootstrap hamburger eltuntetese VEGE */
 
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   
   /* Navbar Mobile View improvements */
-  .nav-link.dropdown-toggle:after {
-    content: "+";
+  .nav-link.dropdown-toggle:after, 
+  .nav-link.dropdown-toggle.show:after {
+    content: "";
+    mask-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10 13.5H2V9.5H10V2H14V9.5H22V13.5H14V22H10V13.5Z' /%3E%3C/svg%3E%0A");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
     display: inline-flex;
-    align-items: center;
-    height: inherit;
-    font-size: 1.5em;
-    font-weight: 100;
-    font-family: auto;
-    float: right;
-    margin: -0.255em 0 0 0;
+    width: 24px;
+    height: 24px;
     border: 0;
     padding-left: 0.25em;
-    line-height: 1.17em;
   }
 
   .nav-link.dropdown-toggle.show:after {
-    content: "–";
+    mask-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 10H22V14H2V10Z' /%3E%3C/svg%3E");
   }
 }
 /* Hamburger menus beallitasok (END) */
