@@ -1,3 +1,9 @@
+@import "/src/sass/variable";
+
+
 #logo {
-  fill: #f8f7f7f1;
+  fill: $primary-orange-color;
+}
+#text {
+  fill: $primary-orange-color;
 }

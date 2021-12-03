@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import "../sass/components/_navbarbw.scss"
 import LogoBW from "./LogoBW"
-import LogoBWtext from "./LogoBWtext"
 
 export default function NavbarBW() {
   return (
@@ -12,7 +11,6 @@ export default function NavbarBW() {
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           <LogoBW />
-          <LogoBWtext />
         </a>
         <button
           className="navbar-toggler"
