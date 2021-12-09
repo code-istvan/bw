@@ -8,11 +8,25 @@ import LogoBW from "./LogoBW"
 export default function NavbarBW() {
   return (
     <nav className="navbar fixed-top navbar-expand-xl navbar-dark">
-      <div className="container-fluid">
+      <div className="container-fluid p-0">
         <a className="navbar-brand" href="/">
           <LogoBW />
         </a>
-        <button
+        <div className="navbar-custom-toggler">
+          <input id="navbarToggle" className="navbar-custom-toggler-input" type="checkbox" autocomplete="off" />
+          <label for="navbarToggle" className="navbar-custom-toggler-icon"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          >
+            <div className="navbar-custom-toggler-line navbar-custom-toggler-line--top"></div>
+            <div className="navbar-custom-toggler-line navbar-custom-toggler-line--middle"></div>
+            <div className="navbar-custom-toggler-line navbar-custom-toggler-line--bottom"></div>
+          </label>
+        </div>
+        {/*<button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
@@ -22,14 +36,14 @@ export default function NavbarBW() {
           aria-label="Toggle navigation"
         >
            <span className="navbar-toggler-icon"></span>
-        </button>
+        </button>*/}
         <div
           className="offcanvas offcanvas-end"
           tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div className="offcanvas-header">
+          {/*<div className="offcanvas-header">
             <div className="offcanvas-title" id="offcanvasNavbarLabel">
               <LogoBW />
             </div>
@@ -39,7 +53,7 @@ export default function NavbarBW() {
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
-          </div>
+          </div>*/}
           <div className="offcanvas-body">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
               <li className="nav-item dropdown">
