@@ -265,6 +265,14 @@
     }
   }
 
+#navbarToggle {
+  visibility: hidden;
+}
+
+.navbar {
+  padding: 0 var(--overlay-side-padding) !important;
+}
+
 /* Almenus menupont haromszog eltuntetese */
   .nav-link.dropdown-toggle:after {
     display: none !important;
@@ -298,10 +306,7 @@
 }
 .dropdown-toggle:hover {
   background-color: $primary-orange-color;
-
-  
 }
-
 
     .nav-item {
       margin: 0;
