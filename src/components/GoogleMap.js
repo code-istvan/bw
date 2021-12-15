@@ -22,8 +22,8 @@ const GoogleMap = () => (
       defaultZoom={defaultProps.zoom}
     >
       <AnyReactComponent
-        lat={47.51311038168244}
-        lng={19.03772877769014}
+        lat={47.513110}
+        lng={19.037728}
         text={'Kreyser Avrora'}
       />
     </GoogleMapReact>
