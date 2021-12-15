@@ -8,7 +8,7 @@ const defaultProps = {
     lat: 47.51,
     lng: 19.03,
   },
-  zoom: 3,
+  zoom: 11,
 }
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>
