@@ -15,7 +15,6 @@ export default function Kapcsolat() {
         <Col>
           <h1>Kapcsolat {process.env.GATSBY_MY_ENVIRONMENT}</h1>
           <GoogleMap />
-
           <form
         // className="kapcsolat__inputfield"
         name="contact bandhaworks"

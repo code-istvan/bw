@@ -1,5 +1,7 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react'
+import { Container, Row } from "react-bootstrap"
+import "../sass/components/_googlemap.scss"
 
 const defaultProps = {
   center: {
@@ -12,9 +14,10 @@ const defaultProps = {
 const AnyReactComponent = ({ text }) => <div>{text}</div>
 
 const GoogleMap = () => (
-  <div style={{ height: '100vh', width: '100%' }}>
+  <>
+  <Container fluid>
+  <Row className='GoogleMap__size'>
     <GoogleMapReact
-      // bootstrapURLKeys={{ key: 'AIzaSyCsVBzaEz5v1jQ7hhMIw1FfkYFDfzK_Ju8' }}
       bootstrapURLKeys={{ key: 'AIzaSyCsVBzaEz5v1jQ7hhMIw1FfkYFDfzK_Ju8' }}
       defaultCenter={defaultProps.center}
       defaultZoom={defaultProps.zoom}
@@ -25,7 +28,10 @@ const GoogleMap = () => (
         text={'Kreyser Avrora'}
       />
     </GoogleMapReact>
-  </div>
+  </Row>
+</Container>
+  </>
+
 )
 
 export default GoogleMap
