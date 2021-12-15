@@ -4,7 +4,7 @@ import Seo from "../components/seo"
 import Button from "react-bootstrap/Button"
 import { Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
-import GoogleMap from '../components/GoogleMap'
+// import GoogleMap from '../components/GoogleMap'
 // import "../sass/components/_kapcsolat.scss"
 
 export default function Kapcsolat() {
@@ -13,9 +13,8 @@ export default function Kapcsolat() {
       <Seo title="Kapcsolat" />
       <Row>
         <Col>
-          <h1>Kapcsolat</h1>
-          {/* <iframe src="https://snazzymaps.com/embed/359666" width="100%" height="400px"></iframe> */}
-          <GoogleMap />
+          <h1>Kapcsolat {process.env.GATSBY_MY_ENVIRONMENT}</h1>
+          {/* <GoogleMap /> */}
 
           <form
         // className="kapcsolat__inputfield"
