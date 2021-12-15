@@ -9,8 +9,6 @@ import GoogleMap from '../components/GoogleMap'
 
 export default function Kapcsolat() {
   
-  console.log(process.env.GATSBY_TEST);
-  
   return (
     <Layout>
       <Seo title="Kapcsolat" />
