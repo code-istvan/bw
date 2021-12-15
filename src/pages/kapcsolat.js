@@ -4,7 +4,7 @@ import Seo from "../components/seo"
 import Button from "react-bootstrap/Button"
 import { Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
-// import GoogleMap from '../components/GoogleMap'
+import GoogleMap from '../components/GoogleMap'
 // import "../sass/components/_kapcsolat.scss"
 
 export default function Kapcsolat() {
@@ -14,7 +14,7 @@ export default function Kapcsolat() {
       <Row>
         <Col>
           <h1>Kapcsolat {process.env.GATSBY_MY_ENVIRONMENT}</h1>
-          {/* <GoogleMap /> */}
+          <GoogleMap />
 
           <form
         // className="kapcsolat__inputfield"
