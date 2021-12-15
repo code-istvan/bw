@@ -5,8 +5,8 @@ import "../sass/components/_googlemap.scss"
 
 const defaultProps = {
   center: {
-    lat: 47.51,
-    lng: 19.03,
+    lat: 47.51311038168244,
+    lng: 19.03772877769014,
   },
   zoom: 3,
 }
