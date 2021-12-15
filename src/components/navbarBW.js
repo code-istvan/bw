@@ -13,7 +13,7 @@ export default function NavbarBW() {
           <LogoBW />
         </a>
         <div className="navbar-custom-toggler">
-          <input id="navbarToggle" className="navbar-custom-toggler-input" type="checkbox" autocomplete="off" />
+          <input id="navbarToggle" className="navbar-custom-toggler-input" type="checkbox" autoComplete="off" />
           <label for="navbarToggle" className="navbar-custom-toggler-icon"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"

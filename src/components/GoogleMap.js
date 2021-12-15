@@ -14,11 +14,10 @@ const defaultProps = {
 const AnyReactComponent = ({ text }) => <div>{text}</div>
 
 const GoogleMap = () => (
-  <>
-  <Container fluid>
-  <Row className='GoogleMap__size'>
+
+<div style={{ height: '30vh', width: '100%' }}>
     <GoogleMapReact
-      bootstrapURLKeys={{ key: 'AIzaSyCsVBzaEz5v1jQ7hhMIw1FfkYFDfzK_Ju8' }}
+      bootstrapURLKeys={{ key: process.env.GATSBY_GOOGLE_MAP }}
       defaultCenter={defaultProps.center}
       defaultZoom={defaultProps.zoom}
     >
@@ -28,10 +27,7 @@ const GoogleMap = () => (
         text={'Kreyser Avrora'}
       />
     </GoogleMapReact>
-  </Row>
-</Container>
-  </>
-
+    </div>
 )
 
 export default GoogleMap

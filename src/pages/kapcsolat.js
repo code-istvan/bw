@@ -8,12 +8,17 @@ import GoogleMap from '../components/GoogleMap'
 // import "../sass/components/_kapcsolat.scss"
 
 export default function Kapcsolat() {
+  
+  console.log(process.env.GATSBY_TEST);
+  
   return (
     <Layout>
       <Seo title="Kapcsolat" />
       <Row>
         <Col>
-          <h1>Kapcsolat {process.env.GATSBY_MY_ENVIRONMENT}</h1>
+          <h1>Kapcsolat {process.env.GATSBY_TEST}</h1>
+        </Col>
+      </Row>
           <GoogleMap />
           <form
         // className="kapcsolat__inputfield"
@@ -64,8 +69,6 @@ export default function Kapcsolat() {
           </Col>
         </Row>
       </form>
-        </Col>
-      </Row>
     </Layout>
   )
 }

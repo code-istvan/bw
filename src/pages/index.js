@@ -14,7 +14,7 @@ const IndexPage = () => (
     <Seo title="FŐOLDAL" />
     <Row>
       <Col>
-        <h1>FŐOLDAL</h1>
+        <h1>FŐOLDAL {process.env.GATSBY_TEST}</h1>
       </Col>
     </Row>
   </Layout>
