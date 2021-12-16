@@ -217,6 +217,9 @@
   }
   
   /* Navbar Mobile View improvements */
+  $toggleAnimationSpeed: 400ms;
+  $toggleAnimationSpeedMod: 150ms;
+
   .nav-link.dropdown-toggle {
     &:before,
     &:after {
@@ -229,20 +232,71 @@
       border: none;
       position: absolute;
       right: calc(var(--overlay-side-padding) + 2px);
-      transition: all .2s ease-in-out;
+    }
+
+    &:before {
+      animation: dropdownToggleIconSpinBack $toggleAnimationSpeed forwards;
+      animation-delay: $toggleAnimationSpeedMod;
     }
 
     &:after {
       width: 2px;
       height: 1em;
       right: calc(var(--overlay-side-padding) + 2px + .5em - 1px);
+      animation: dropdownToggleIconSpinMoreBack $toggleAnimationSpeed + $toggleAnimationSpeedMod forwards;
     }
     
     &.show {
+      &:before {
+        animation: dropdownToggleIconSpin $toggleAnimationSpeed forwards;
+        animation-delay: 0;
+      }
       &:after {
-        transform: rotate(90deg);
+        animation: dropdownToggleIconSpinMore $toggleAnimationSpeed + $toggleAnimationSpeedMod forwards;
       }
     }
+  }
+}
+
+@keyframes dropdownToggleIconSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes dropdownToggleIconSpinMore {
+  0% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
+}
+
+@keyframes dropdownToggleIconSpinBack {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes dropdownToggleIconSpinMoreBack {
+  0% {
+    transform: rotate(270deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 /* Hamburger menus beallitasok (END) */
