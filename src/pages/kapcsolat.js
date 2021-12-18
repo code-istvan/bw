@@ -14,7 +14,7 @@ export default function Kapcsolat() {
       <Seo title="Kapcsolat" />
       <Row>
         <Col>
-          <h1>Kapcsolat {process.env.GATSBY_TEST}</h1>
+          <h1>Kapcsolat</h1>
         </Col>
       </Row>
           <GoogleMap />
