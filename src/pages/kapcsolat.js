@@ -4,7 +4,6 @@ import Seo from "../components/seo"
 import Button from "react-bootstrap/Button"
 import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
-import LayoutContact from "../components/LayoutContact"
 import "../sass/components/_kapcsolat.scss"
 // import GoogleMap from '../components/GoogleMap'
 import Navbar from "../components/navbarBW"
