@@ -24,7 +24,7 @@ export default function Kapcsolat() {
      </Row> */}
      <Row>
      <Col>
-    <h3>Bandha Works Jógaiskola</h3>
+    <h2>Bandha Works Jógaiskola</h2>
     </Col>
     </Row>
     <Row>
