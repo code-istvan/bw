@@ -95,7 +95,7 @@ export default function NavbarBW() {
                   </Nav.Item>
                   <Nav.Item as="li">
                     <Link
-                      className="dropdown-item"
+                      className="dropdown-item disabled"
                       to="/vinyasza-jogairanyzatok"
                     >
                       JÓGAIRÁNYZATOK
@@ -146,7 +146,7 @@ export default function NavbarBW() {
                     </Link>
                   </Nav.Item>
                   <Nav.Item as="li">
-                    <Link className="dropdown-item" to="/osztondij">
+                    <Link className="dropdown-item disabled" to="/osztondij">
                       ÖSZTÖNDÍJ
                     </Link>
                   </Nav.Item>

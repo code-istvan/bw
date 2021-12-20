@@ -17,13 +17,31 @@ export default function Kapcsolat() {
     <SnazzyGoogleMap />
     <Container>
     <Seo title="Kapcsolat" />
-   <Row>
+   {/* <Row>
      <Col>
     <h1>Kapcsolat</h1>
     </Col>
-     </Row>
+     </Row> */}
+     <Row>
+     <Col>
+    <h3>Bandha Works Jógaiskola</h3>
+    </Col>
+    </Row>
+    <Row>
+     <Col>
+     <address>
+      <strong>1027. Budapest, Frankel Leó út. 18. </strong>
+      <br/>A bejárat az utcafrontról nyílik, a főbejárattól balra található ajtón tudsz bejönni hozzánk.
+    </address>
+    </Col>
+
+    </Row>
+
+   
+
+
     <form
-        // className="kapcsolat__inputfield"
+        className="kapcsolat__inputfield"
         name="contact bandhaworks"
         method="post"
         data-netlify="true"
@@ -48,7 +66,7 @@ export default function Kapcsolat() {
           </Col>
           <Col md={6}>
             <textarea
-              // className="kapcsolat__textarea"
+              className="kapcsolat__textarea"
               name="comments"
               rows="2"
               placeholder="Üzenet"
