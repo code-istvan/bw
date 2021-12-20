@@ -17,14 +17,14 @@ export default function Kapcsolat() {
     <SnazzyGoogleMap />
     <Container>
     <Seo title="Kapcsolat" />
-   {/* <Row>
+   <Row>
      <Col>
     <h1>Kapcsolat</h1>
     </Col>
-     </Row> */}
+     </Row>
      <Row>
      <Col>
-    <h2>Bandha Works Jógaiskola</h2>
+    <h3>Bandha Works Jógaiskola</h3>
     </Col>
     </Row>
     <Row>
