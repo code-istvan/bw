@@ -17,7 +17,7 @@ export default function Kapcsolat() {
           <h1>Kapcsolat</h1>
         </Col>
       </Row>
-          <GoogleMap />
+          {/* <GoogleMap /> */}
 <div className="embed-responsive embed-responsive-16by9">
 <iframe className="embed-responsive-item" src="https://snazzymaps.com/embed/360639" frameborder="0" title="Google mAps"></iframe>
 
