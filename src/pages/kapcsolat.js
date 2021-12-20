@@ -1,31 +1,29 @@
 import * as React from "react"
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Button from "react-bootstrap/Button"
-import { Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
-import GoogleMap from '../components/GoogleMap'
-// import "../sass/components/_kapcsolat.scss"
+import LayoutContact from "../components/LayoutContact"
+import "../sass/components/_kapcsolat.scss"
+// import GoogleMap from '../components/GoogleMap'
+import Navbar from "../components/navbarBW"
+import SnazzyGoogleMap from "../components/SnazzyGoogleMap"
 
 export default function Kapcsolat() {
   
   return (
-    <Layout>
-      <Seo title="Kapcsolat" />
-      <Row>
-        <Col>
-          <h1>Kapcsolat</h1>
-        </Col>
-      </Row>
-          {/* <GoogleMap /> */}
-<div className="embed-responsive">
-<iframe className="embed-responsive-item" src="https://snazzymaps.com/embed/360639" frameborder="0" width="100%" height="400px"  title="Google mAps"></iframe>
-
-</div>
-
-
-
-          <form
+    <>
+    <Navbar />
+    <SnazzyGoogleMap />
+    <Container>
+    <Seo title="Kapcsolat" />
+   <Row>
+     <Col>
+    <h1>Kapcsolat</h1>
+    </Col>
+     </Row>
+    <form
         // className="kapcsolat__inputfield"
         name="contact bandhaworks"
         method="post"
@@ -74,6 +72,7 @@ export default function Kapcsolat() {
           </Col>
         </Row>
       </form>
-    </Layout>
+    </Container>
+  </>
   )
 }
