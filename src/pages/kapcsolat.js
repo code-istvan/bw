@@ -18,6 +18,13 @@ export default function Kapcsolat() {
         </Col>
       </Row>
           <GoogleMap />
+<div className="embed-responsive embed-responsive-16by9">
+<iframe className="embed-responsive-item" src="https://snazzymaps.com/embed/360639" frameborder="0" title="Google mAps"></iframe>
+
+</div>
+
+
+
           <form
         // className="kapcsolat__inputfield"
         name="contact bandhaworks"
