@@ -18,8 +18,8 @@ export default function Kapcsolat() {
         </Col>
       </Row>
           {/* <GoogleMap /> */}
-<div className="embed-responsive embed-responsive-16by9">
-<iframe className="embed-responsive-item" src="https://snazzymaps.com/embed/360639" frameborder="0" title="Google mAps"></iframe>
+<div className="embed-responsive">
+<iframe className="embed-responsive-item" src="https://snazzymaps.com/embed/360639" frameborder="0" width="100%" height="400px"  title="Google mAps"></iframe>
 
 </div>
 
