@@ -171,6 +171,7 @@ export default function NavbarBW() {
             </ul>
           </div>
         </div>
+        <div className="offcanvas-background"></div>
       </div>
     </nav>
   )
