@@ -3,7 +3,6 @@ import "../sass/components/_logobw.scss"
 
 function LogoBW() {
   return (
-
 <svg width="176" height="42" viewBox="0 0 176 42"  xmlns="http://www.w3.org/2000/svg">
 <g id="Group 35">
 <g id="Vector">
