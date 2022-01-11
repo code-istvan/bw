@@ -1,7 +1,16 @@
-// @import "/src/sass/base/_reset";
+// variables & functions
+@import "/src/sass/base/_variable";
+
+// base
+@import "/src/sass/base/_reset";
+@import "/src/sass/base/_fonts";
+
+// colors
+@import "/src/sass/base/_colors";
 
 
+// components (button, card, navbar)
 
 
-
+// utilites (margin, padding, opacity
 
