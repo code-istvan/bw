@@ -1,17 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
-// p {
-//   font-family: "Roboto", sans-serif;
-//   font-size: medium;
-// }
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: medium;
+}
 
-// a {
-//   font-size: large !important;
-// }
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 2rem;
+}
 
+// Hamburger Menu Font Set
+@media screen and (max-width: 1200px) {
+  .hamburger-menu-font a {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 900 !important;
+  }
+}
 
-
-
-
-
+// Desktop Menu Font Set
+@media screen and (min-width: 1200px) {
+  .hamburger-menu-font a {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 900 !important;
+  }
+}

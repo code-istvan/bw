@@ -55,7 +55,7 @@ export default function NavbarBW() {
             ></button>
           </div>*/}
           <div className="offcanvas-body">
-            <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav ml-auto mb-2 mb-lg-0 hamburger-menu-font">
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
