@@ -18,14 +18,14 @@ export default function Kapcsolat() {
         <Seo title="Kapcsolat" />
         <Row>
           <Col>
-            <h1>Kapcsolat</h1>
+            <h1>Bandha Works Jógaiskola</h1>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col>
             <h3>Bandha Works Jógaiskola</h3>
           </Col>
-        </Row>
+        </Row> */}
         <Row>
           <Col>
             <address>
