@@ -1,7 +1,13 @@
 import * as React from "react"
 import "../sass/components/_button.scss"
 
-const STYLES = ["btn--primary--solid", "btn--mobil--primary--solid", "btn--mobil--primary--outline", "btn--primary--outline"]
+const STYLES = [
+  "btn--primary--solid",
+  "btn--mobil--primary--solid",
+  "btn--mobil--primary--outline",
+  "btn--mobil--secondary--solid",
+  "btn--primary--outline",
+]
 
 const SIZES = ["btn--medium", "btn--small"]
 

@@ -3,10 +3,15 @@ input {
   height: 2rem;
   margin-bottom: 0.3rem;
   border-radius: 2px;
-  border-style: none;
+  border: solid 2px $primary-gray-color;
+  background: transparent;
+  font-size: 1rem;
+  color: $primary-gray-color;
+  font-weight: bold;
 
   &:focus {
     border: 2px solid $primary-orange-color;
+    color: $primary-orange-color;
   }
 }
 
@@ -19,9 +24,14 @@ textarea {
   height: 4.3rem;
   margin-bottom: 0.3rem;
   border-radius: 2px;
-  border-style: none;
+  border: solid 2px $primary-gray-color;
+  background: transparent;
+  font-size: 1rem;
+  color: $primary-gray-color;
+  font-weight: bold;
 
   &:focus {
     border: 2px solid $primary-orange-color;
+    color: $primary-orange-color;
   }
 }

@@ -1,7 +1,7 @@
 import * as React from "react"
 // import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Button from "react-bootstrap/Button"
+import Button from "../components/Button"
 import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
 import "../sass/components/_kapcsolat.scss"
@@ -21,11 +21,6 @@ export default function Kapcsolat() {
             <h1>Bandha Works Jógaiskola</h1>
           </Col>
         </Row>
-        {/* <Row>
-          <Col>
-            <h3>Bandha Works Jógaiskola</h3>
-          </Col>
-        </Row> */}
         <Row>
           <Col>
             <address>
@@ -57,7 +52,7 @@ export default function Kapcsolat() {
                 id="email"
                 type="email"
                 name="email"
-                placeholder="E-mail cím"
+                placeholder="E-mail"
                 required
               />
             </Col>
@@ -74,8 +69,12 @@ export default function Kapcsolat() {
 
           <Row>
             <Col className="d-grid gap-2">
-              <Button type="submit" className="kapcsolat__button">
-                Küldés
+              <Button
+                type="submit"
+                buttonStyle="btn--mobil--secondary--solid"
+                buttonSize="btn--small"
+              >
+                KÜLDÉS
               </Button>
 
               <label>
