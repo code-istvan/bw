@@ -32,7 +32,11 @@ export default function Kapcsolat() {
             </address>
           </Col>
         </Row>
-
+        <Row>
+          <Col>
+            <h4>Üzenet</h4>
+          </Col>
+        </Row>
         <form
           name="contact bandhaworks"
           method="post"
@@ -77,8 +81,8 @@ export default function Kapcsolat() {
                 KÜLDÉS
               </Button>
 
-              <label>
-                <input type="checkbox" className="styled__checkbox" required />{" "}
+              <label className="form-control">
+                <input type="checkbox" name="checkbox" required />
                 Megismertem és elfogadom az
                 <Link href="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
                 hozzájárulok e-mail címem kezeléséhez.
