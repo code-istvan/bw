@@ -78,7 +78,8 @@ export default function Kapcsolat() {
               </Button>
 
               <label>
-                <input type="checkbox" required /> Megismertem és elfogadom az
+                <input type="checkbox" className="styled__checkbox" required />{" "}
+                Megismertem és elfogadom az
                 <Link href="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
                 hozzájárulok e-mail címem kezeléséhez.
               </label>
