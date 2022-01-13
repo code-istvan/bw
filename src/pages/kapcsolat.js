@@ -72,7 +72,7 @@ export default function Kapcsolat() {
           </Row>
 
           <Row>
-            <Col className="d-grid gap-2">
+            <Col className="d-grid gap-2 contact_checkbox">
               <Button
                 type="submit"
                 buttonStyle="btn--mobil--secondary--solid"
