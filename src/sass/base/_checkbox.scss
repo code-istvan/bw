@@ -24,12 +24,12 @@
     width: 0.65em;
     height: 0.65em;
     transform: scale(0);
-    transition: 120ms transform ease-in-out;
+    transition: 120ms transform rotate(90deg);
     box-shadow: inset 1em 1em var(--form-control-color);
     /* Windows High Contrast Mode */
     background-color: $primary-orange-color;
 
-    transform-origin: bottom left;
+    transform-origin: center;
     clip-path: polygon(
       20% 0%,
       0% 20%,
