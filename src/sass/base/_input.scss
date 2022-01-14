@@ -5,7 +5,9 @@ input[type="text"] {
   border-radius: 2px;
   border: solid 1px $primary-gray-color;
   background: transparent;
+  padding-left: 8px;
   font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
   color: $primary-gray-color;
   font-weight: bold;
 
@@ -22,7 +24,9 @@ input[type="email"] {
   border-radius: 2px;
   border: solid 1px $primary-gray-color;
   background: transparent;
+  padding-left: 8px;
   font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
   color: $primary-gray-color;
   font-weight: bold;
 
@@ -43,7 +47,9 @@ textarea {
   border-radius: 2px;
   border: solid 1px $primary-gray-color;
   background: transparent;
+  padding-left: 8px;
   font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
   color: $primary-gray-color;
   font-weight: bold;
 
