@@ -26,8 +26,8 @@ export default function Kapcsolat() {
             <address>
               <strong>1027. Budapest, Frankel Leó út. 18. </strong>
               <p>
-                A bejárat az utcafrontról nyílik, a főbejárattól balra található
-                ajtón tudsz bejönni hozzánk.
+                A bejárat az utcafrontról nyílik, a társasházi főbejárattól
+                balra található barna ajtón tudsz lejönni hozzánk.
               </p>
             </address>
           </Col>

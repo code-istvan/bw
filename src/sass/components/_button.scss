@@ -5,11 +5,11 @@
   font-weight: 400;
   border-radius: 10px;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .btn:hover {
-  transform: translateY(-3px);
+  transform: translateY(0px);
   background-color: $primary-orange-color;
   color: $primary-black-color;
 }
@@ -38,7 +38,7 @@
   background-color: $primary-gray-color;
   color: $primary-black-color;
   border-radius: 2px;
-  padding: 2px !important;
+  padding: 4px !important;
   width: 100%;
 }
 
@@ -55,5 +55,5 @@
 
 .btn--small {
   padding: 15px 30px;
-  font-size: 20px;
+  font-size: 16px;
 }
