@@ -2,20 +2,12 @@
 
 #logo {
   fill: $bw-logo-color;
+  -webkit-transition: -webkit-transform 1s;
+  transform-origin: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  #logo:hover {
-    animation: inside-spin 1s ease-out;
-    transform-origin: center;
-  }
-}
-
-@keyframes inside-spin {
-  from {
-    transform: rotateZ(0deg);
-  }
-  to {
-    transform: rotateZ(360deg);
+.navbar-brand:hover {
+  #logo {
+    -webkit-transform: rotate(360deg) translateZ(0);
   }
 }
