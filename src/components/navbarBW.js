@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import "../sass/components/_navbarbw.scss"
 import LogoBW from "./LogoBW"
+import LogoBWtext from "./LogoBWtext"
 
 export default function NavbarBW() {
   return (
@@ -11,15 +12,23 @@ export default function NavbarBW() {
       <div className="container-fluid p-0">
         <a className="navbar-brand" href="/">
           <LogoBW />
+          <LogoBWtext />
         </a>
         <div className="navbar-custom-toggler">
-          <input id="navbarToggle" className="navbar-custom-toggler-input" type="checkbox" autoComplete="off" />
-          <label for="navbarToggle" className="navbar-custom-toggler-icon"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          <input
+            id="navbarToggle"
+            className="navbar-custom-toggler-input"
+            type="checkbox"
+            autoComplete="off"
+          />
+          <label
+            for="navbarToggle"
+            className="navbar-custom-toggler-icon"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
             <div className="navbar-custom-toggler-line navbar-custom-toggler-line--top"></div>
             <div className="navbar-custom-toggler-line navbar-custom-toggler-line--middle"></div>
@@ -161,7 +170,9 @@ export default function NavbarBW() {
                 </Link>
               </Nav.Item>
               <Nav.Item as="li">
-                <a className="nav-link" href="https://bandha-payments.hu">SHOP</a>
+                <a className="nav-link" href="https://bandha-payments.hu">
+                  SHOP
+                </a>
               </Nav.Item>
               <Nav.Item as="li">
                 <Link className="nav-link" to="/kapcsolat">

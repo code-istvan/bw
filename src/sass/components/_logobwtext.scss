@@ -1,0 +1,14 @@
+@import "/src/sass/global";
+
+#text {
+  fill: whitesmoke;
+}
+
+#Vector {
+  fill: $bw-logo-color;
+}
+
+._logo_text {
+  margin-left: 10px;
+  margin-top: 18px;
+}
