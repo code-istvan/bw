@@ -12,8 +12,8 @@ import SnazzyGoogleMap from "../components/SnazzyGoogleMap"
 export default function Kapcsolat() {
   return (
     <>
-      <Navbar />
       <Container fluid>
+        <Navbar />
         <SnazzyGoogleMap />
       </Container>
       <Container>
