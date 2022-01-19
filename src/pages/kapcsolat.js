@@ -13,7 +13,9 @@ export default function Kapcsolat() {
   return (
     <>
       <Navbar />
-      <SnazzyGoogleMap />
+      <Container fluid>
+        <SnazzyGoogleMap />
+      </Container>
       <Container>
         <Seo title="Kapcsolat" />
         <Row>
