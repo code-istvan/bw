@@ -10,6 +10,7 @@ const SnazzyGoogleMap = () => (
         frameborder="0"
         width="100%"
         height="400px"
+        loading="lazy"
         title="Google maps"
       ></iframe>
     </div>
