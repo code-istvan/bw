@@ -12,12 +12,10 @@ import SnazzyGoogleMap from "../components/SnazzyGoogleMap"
 export default function Kapcsolat() {
   return (
     <>
-      <Container fluid>
-        <Navbar />
-        <SnazzyGoogleMap />
-      </Container>
+      <Seo title="Kapcsolat" />
+      <Navbar />
+      <SnazzyGoogleMap />
       <Container>
-        <Seo title="Kapcsolat" />
         <Row>
           <Col>
             <h1>Bandha Works Jógaiskola</h1>
