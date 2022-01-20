@@ -62,3 +62,7 @@ textarea {
     border-radius: none !important;
   }
 }
+
+#gatsby-focus-wrapper {
+  padding-top: var(--header-height-base);
+}
