@@ -24,7 +24,7 @@
     width: 1.2em;
     height: 1.2em;
     transform: scale(0);
-    transition: 10s transform rotate(90deg);
+    transition: 100ms transform ease-in-out;
     background-color: $primary-orange-color;
 
     transform-origin: center;
