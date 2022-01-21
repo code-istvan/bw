@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
@@ -6,63 +6,60 @@ import "../sass/components/_navbarbw.scss"
 import LogoBW from "./LogoBW"
 import LogoBWtext from "./LogoBWtext"
 
-export default function NavbarBW() {
+const NavbarBW = () => {
+  const [menu, showMenu] = useState(true)
+
+  const toggleMenu = () => {
+    let distanceFromTop = window.pageYOffset
+
+    return function () {
+      let newDistanceFromTop = window.pageYOffset
+      if (newDistanceFromTop < 50 || distanceFromTop >= newDistanceFromTop) {
+        showMenu(true)
+      } else {
+        showMenu(false)
+      }
+      distanceFromTop = newDistanceFromTop
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", toggleMenu())
+    return window.removeEventListener("scroll", toggleMenu())
+  }, [])
+
   return (
-    <nav className="navbar fixed-top navbar-expand-xl navbar-dark">
-      <div className="container-fluid p-0">
-        <a className="navbar-brand" href="/">
-          <LogoBW />
-          <LogoBWtext />
-        </a>
-        <div className="navbar-custom-toggler">
-          <input
-            id="navbarToggle"
-            className="navbar-custom-toggler-input"
-            type="checkbox"
-            autoComplete="off"
-          />
-          <label
-            for="navbarToggle"
-            className="navbar-custom-toggler-icon"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <div className="navbar-custom-toggler-line navbar-custom-toggler-line--top"></div>
-            <div className="navbar-custom-toggler-line navbar-custom-toggler-line--middle"></div>
-            <div className="navbar-custom-toggler-line navbar-custom-toggler-line--bottom"></div>
-          </label>
-        </div>
-        {/*<button
-          className="navbar-toggler"
-          type="button"
+    <nav className={menu ? "nav navbar-expand-xl navbar-dark" : "navbar hide"}>
+      <a className="navbar-brand" href="/">
+        <LogoBW />
+        <LogoBWtext />
+      </a>
+      <div className="navbar-custom-toggler">
+        <input
+          id="navbarToggle"
+          className="navbar-custom-toggler-input"
+          type="checkbox"
+          autoComplete="off"
+        />
+        <label
+          for="navbarToggle"
+          className="navbar-custom-toggler-icon"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-           <span className="navbar-toggler-icon"></span>
-        </button>*/}
+          <div className="navbar-custom-toggler-line navbar-custom-toggler-line--top"></div>
+          <div className="navbar-custom-toggler-line navbar-custom-toggler-line--middle"></div>
+          <div className="navbar-custom-toggler-line navbar-custom-toggler-line--bottom"></div>
+        </label>
         <div
           className="offcanvas offcanvas-end"
           tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          {/*<div className="offcanvas-header">
-            <div className="offcanvas-title" id="offcanvasNavbarLabel">
-              <LogoBW />
-            </div>
-            <button
-              type="button"
-              className="btn-close btn-close-white text-reset"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>*/}
           <div className="offcanvas-body">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0 hamburger-menu-font">
               <li className="nav-item dropdown">
@@ -187,3 +184,5 @@ export default function NavbarBW() {
     </nav>
   )
 }
+
+export default NavbarBW
