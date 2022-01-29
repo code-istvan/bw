@@ -6,14 +6,14 @@ import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
 import "../sass/components/_kapcsolat.scss"
 // import GoogleMap from '../components/GoogleMap'
-import Navbar from "../components/navbarBW"
+import NavbarMain from "../components/navbarMain"
 import SnazzyGoogleMap from "../components/SnazzyGoogleMap"
 
 export default function Kapcsolat() {
   return (
     <>
       <Seo title="Kapcsolat" />
-      <Navbar />
+      <NavbarMain />
       <SnazzyGoogleMap />
       <Container>
         <Row>
