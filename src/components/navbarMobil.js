@@ -9,20 +9,43 @@ import Hamburger from "./Hamburger"
 export default function NavbarMobil() {
   const [menuOpen, setMenuOpen] = useState(false)
 
+  const clickHandler = () => {
+    setMenuOpen(menuOpen => !menuOpen)
+  }
+
   return (
-    <>
-      <nav className="navbar-mobil">
-        <div className="container-fluid p-0">
-          <a className="navbar-logo" href="/">
-            <LogoBW />
-            <LogoBWtext />
-          </a>
-          <div onClick={() => setMenuOpen(menuOpen => !menuOpen)}>
-            <Hamburger />
-          </div>
+    <nav className="navbar-mobil">
+      <div className="container-fluid p-0">
+        <a className="navbar-logo" href="/">
+          <LogoBW />
+          <LogoBWtext />
+        </a>
+        <div onClick={clickHandler}>
+          <Hamburger />
         </div>
-        <div>{menuOpen && <NavbarLinks />}</div>
-      </nav>
-    </>
+      </div>
+      <div>{menuOpen && <NavbarLinks />}</div>
+    </nav>
   )
 }
+
+// export default function NavbarMobil() {
+//   const [menuOpen, setMenuOpen] = useState(false)
+
+//   return (
+//
+//       <nav className="navbar-mobil">
+//         <div className="container-fluid p-0">
+//           <a className="navbar-logo" href="/">
+//             <LogoBW />
+//             <LogoBWtext />
+//           </a>
+//           <div onClick={() => setMenuOpen(menuOpen => !menuOpen)}>
+//             <Hamburger />
+//           </div>
+//         </div>
+//         <div>{menuOpen && <NavbarLinks />}</div>
+//       </nav>
+//
+//   )
+// }
