@@ -10,17 +10,19 @@ export default function NavbarMobil() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <nav className="navbar-mobil">
-      <div className="container-fluid p-0">
-        <a className="navbar-logo" href="/">
-          <LogoBW />
-          <LogoBWtext />
-        </a>
-        <div onClick={() => setMenuOpen(menuOpen => !menuOpen)}>
-          <Hamburger />
+    <>
+      <nav className="navbar-mobil">
+        <div className="container-fluid p-0">
+          <a className="navbar-logo" href="/">
+            <LogoBW />
+            <LogoBWtext />
+          </a>
+          <div onClick={() => setMenuOpen(menuOpen => !menuOpen)}>
+            <Hamburger />
+          </div>
         </div>
-      </div>
-      <div>{menuOpen && <NavbarLinks />}</div>
-    </nav>
+        <div>{menuOpen && <NavbarLinks />}</div>
+      </nav>
+    </>
   )
 }
