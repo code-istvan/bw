@@ -9,6 +9,12 @@ import Hamburger from "./Hamburger"
 export default function NavbarMobil() {
   const [menuOpen, setMenuOpen] = useState(false)
 
+  function handleKeyDown(e) {
+    if (e.keyCode === 13) {
+      setMenuOpen()
+    }
+  }
+
   return (
     <>
       <nav className="navbar-mobil">
@@ -17,7 +23,12 @@ export default function NavbarMobil() {
             <LogoBW />
             <LogoBWtext />
           </a>
-          <div onClick={() => setMenuOpen(menuOpen => !menuOpen)}>
+          <div
+            role={"button"}
+            tabIndex={0}
+            onKeyDown={handleKeyDown}
+            onClick={() => setMenuOpen(menuOpen => !menuOpen)}
+          >
             <Hamburger />
           </div>
         </div>
