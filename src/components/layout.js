@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import NavbarBandha from "./NavbarBandha"
+import Navbar from "./Nav/Navbar"
 import Container from "react-bootstrap/Container"
 import "../sass/components/_layout.scss"
 import Button from "./Button"
@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <NavbarBandha />
+      <Navbar />
       <Container>
         <main>{children}</main>
         <h1>oh jógi ne végezz ászanát vinyásza nélkűl</h1>

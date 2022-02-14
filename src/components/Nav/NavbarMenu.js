@@ -2,9 +2,9 @@ import React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
-import "../sass/components/_navbarlinks.scss"
+import "../../sass/components/_navbarmenu.scss"
 
-const NavbarLinks = () => {
+const NavbarMenu = () => {
   return (
     <div className="mobil-menu">
       <ul className="nav-links">
@@ -129,4 +129,4 @@ const NavbarLinks = () => {
   )
 }
 
-export default NavbarLinks
+export default NavbarMenu

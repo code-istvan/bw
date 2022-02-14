@@ -1,14 +1,14 @@
-import React from "react"
-import "bootstrap/dist/css/bootstrap.min.css"
-import { Link } from "gatsby"
-import Nav from "react-bootstrap/Nav"
-import "../sass/components/_navbardesktop.scss"
-import LogoBW from "./LogoBW"
-import LogoBWtext from "./LogoBWtext"
+// import React from "react"
+// import "bootstrap/dist/css/bootstrap.min.css"
+// import { Link } from "gatsby"
+// import Nav from "react-bootstrap/Nav"
+// import "../sass/components/_navbardesktop.scss"
+// import LogoBW from "./LogoBW"
+// import LogoBWtext from "./LogoBWtext"
 
-export default function NavbarDesktop() {
-  return <div className="nav--desktop"></div>
-}
+// export default function NavbarDesktop() {
+//   return <div className="nav--desktop"></div>
+// }
 
 // export default function NavbarDesktop() {
 //   return (
