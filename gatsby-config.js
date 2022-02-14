@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
+    "gatsby-plugin-breakpoints",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -18,6 +19,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    "@mediacurrent/gatsby-plugin-silence-css-order-warning",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
