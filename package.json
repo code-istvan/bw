@@ -26,6 +26,7 @@
     "gatsby-transformer-remark": "^5.4.0",
     "gatsby-transformer-sharp": "^3.13.0",
     "google-map-react": "^2.1.10",
+    "immer": "^9.0.6",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-bootstrap": "^2.0.0-rc.0",
@@ -35,6 +36,7 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "gatsby-plugin-netlify": "^4.1.0",
     "prettier": "2.4.1"
   },
   "keywords": [
