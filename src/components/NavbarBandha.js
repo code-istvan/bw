@@ -1,6 +1,7 @@
 import * as React from "react"
 // import NavbarDesktop from "./NavbarDesktop"
 import NavbarMobil from "./NavbarMobil"
+import NavbarDesktop from "./NavbarMobil"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Container"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
@@ -10,7 +11,7 @@ const NavbarBandha = () => {
 
   return (
     <Container fluid>
-      <Row>{breakpoints.md ? <NavbarMobil /> : <NavbarMobil />}</Row>
+      <Row>{breakpoints.md ? <NavbarMobil /> : <NavbarDesktop />}</Row>
     </Container>
   )
 }
