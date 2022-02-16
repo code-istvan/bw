@@ -16,11 +16,11 @@ export default function NavbarMobil() {
           <LogoBW />
           <LogoBWtext />
         </a>
-        <div onClick={() => setMenuOpen(menuOpen => !menuOpen)}>
+        <div onClick={() => setMenuOpen(!menuOpen)}>
           <Hamburger />
         </div>
       </div>
-      <div>{menuOpen && <NavbarMenu />}</div>
+      <NavbarMenu open={menuOpen} />
     </nav>
   )
 }

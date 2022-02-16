@@ -4,9 +4,13 @@ import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import "../../sass/components/_navbarmenu.scss"
 
-const NavbarMenu = () => {
+const NavbarMenu = ({ open }) => {
   return (
-    <div className="mobil-menu">
+    <div
+      className={`mobil-menu ${
+        open ? "mobile-menu-open" : "mobile-menu-closed d-none"
+      }`}
+    >
       <ul className="nav-links">
         <li className="nav-item dropdown">
           <a
