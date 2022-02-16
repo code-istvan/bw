@@ -39,7 +39,7 @@ export default function Kapcsolat() {
         </Row>
         <form
           name="contact bandhaworks"
-          action="/pages/mantra"
+          action="/mantra"
           method="post"
           data-netlify="true"
           onSubmit="submit"
