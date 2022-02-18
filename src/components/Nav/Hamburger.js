@@ -1,10 +1,13 @@
 import React from "react"
 import "../../sass/components/_hamburger.scss"
 
-const Hamburger = () => {
+const Hamburger = ({ open }) => {
   return (
     <div className="hamburger--container">
-      <div className="hamburger" id="hamburger-6">
+      <div
+        className={`hamburger ${open ? "hamburger-open" : "hamburger-closed"}`}
+        id="hamburger-6"
+      >
         <span className="line"></span>
         <span className="line"></span>
         <span className="line"></span>

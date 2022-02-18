@@ -17,29 +17,10 @@ export default function NavbarMobil() {
           <LogoBWtext />
         </a>
         <div onClick={() => setMenuOpen(!menuOpen)}>
-          <Hamburger />
+          <Hamburger open={menuOpen} />
         </div>
       </div>
       <NavbarMenu open={menuOpen} />
     </nav>
   )
 }
-
-// export default function NavbarMobil() {
-//   const [menuOpen, setMenuOpen] = useState(false)
-
-//   return (
-//     <nav className="navbar-mobil">
-//       <div className="container-fluid p-0">
-//         <a className="navbar-logo" href="/">
-//           <LogoBW />
-//           <LogoBWtext />
-//         </a>
-//         <div onClick={() => setMenuOpen(menuOpen => !menuOpen)}>
-//           <Hamburger />
-//         </div>
-//       </div>
-//       <div>{menuOpen && <NavbarLinks />}</div>
-//     </nav>
-//   )
-// }

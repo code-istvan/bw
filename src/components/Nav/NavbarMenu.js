@@ -7,9 +7,7 @@ import "../../sass/components/_navbarmenu.scss"
 const NavbarMenu = ({ open }) => {
   return (
     <div
-      className={`mobil-menu ${
-        open ? "mobile-menu-open" : "mobile-menu-closed d-none"
-      }`}
+      className={`mobil-menu ${open ? "mobil-menu-open" : "mobil-menu-closed"}`}
     >
       <ul className="nav-links">
         <li className="nav-item dropdown">
