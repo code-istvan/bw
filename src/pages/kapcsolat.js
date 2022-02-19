@@ -7,6 +7,7 @@ import { Link } from "gatsby"
 import "../sass/components/_kapcsolat.scss"
 // import GoogleMap from '../components/GoogleMap'
 import Navbar from "../components/Nav/Navbar"
+import Footer from "../components/Footer/Footer"
 import SnazzyGoogleMap from "../components/SnazzyGoogleMap"
 
 export default function Kapcsolat() {
@@ -92,6 +93,7 @@ export default function Kapcsolat() {
           </Row>
         </form>
       </Container>
+      <Footer />
     </>
   )
 }

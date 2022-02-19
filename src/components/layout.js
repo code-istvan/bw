@@ -5,6 +5,7 @@ import Navbar from "./Nav/Navbar"
 import Container from "react-bootstrap/Container"
 import "../sass/components/_layout.scss"
 import Button from "./Button"
+import Footer from "./Footer/Footer"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -140,6 +141,7 @@ const Layout = ({ children }) => {
           Mobil PRIMARy
         </Button>
       </Container>
+      <Footer />
     </>
   )
 }
