@@ -1,5 +1,5 @@
 import React from "react"
-import "../../sass/components/_logobwtext.scss"
+import "../sass/components/_logobwtext.scss"
 
 function LogoBWtext() {
   return (

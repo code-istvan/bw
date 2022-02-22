@@ -1,11 +1,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Navbar from "./Nav/Navbar"
+import NavbarMain from "./navbarMain"
 import Container from "react-bootstrap/Container"
 import "../sass/components/_layout.scss"
 import Button from "./Button"
-import Footer from "./Footer/Footer"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -20,9 +19,27 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Navbar />
+      <NavbarMain />
       <Container>
         <main>{children}</main>
+        <Button
+          type="button"
+          buttonStyle="btn--mobil--primary--outline"
+          buttonSize="btn--small"
+        >
+          Mobil GHOST
+        </Button>
+        <br />
+        <br />
+        <Button
+          type="button"
+          buttonStyle="btn--mobil--primary--solid"
+          buttonSize="btn--small"
+        >
+          Mobil PRIMARy
+        </Button>
+        <br />
+        <br />
         <h1>oh jógi ne végezz ászanát vinyásza nélkűl</h1>
         <p>
           Avocado matcha peach strawberry mango a delicious meal guacamole asian
@@ -124,24 +141,7 @@ const Layout = ({ children }) => {
           tofu pad thai avocado basil pesto kung pao pepper entree sleepy
           morning tea blueberry chia seed jam.
         </p>
-        <Button
-          type="button"
-          buttonStyle="btn--mobil--primary--outline"
-          buttonSize="btn--small"
-        >
-          Mobil GHOST
-        </Button>
-        <br />
-        <br />
-        <Button
-          type="button"
-          buttonStyle="btn--mobil--primary--solid"
-          buttonSize="btn--small"
-        >
-          Mobil PRIMARy
-        </Button>
       </Container>
-      <Footer />
     </>
   )
 }

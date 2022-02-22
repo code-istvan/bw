@@ -6,15 +6,14 @@ import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
 import "../sass/components/_kapcsolat.scss"
 // import GoogleMap from '../components/GoogleMap'
-import Navbar from "../components/Nav/Navbar"
-import Footer from "../components/Footer/Footer"
+import NavbarMain from "../components/navbarMain"
 import SnazzyGoogleMap from "../components/SnazzyGoogleMap"
 
 export default function Kapcsolat() {
   return (
     <>
       <Seo title="Kapcsolat" />
-      <Navbar />
+      <NavbarMain />
       <SnazzyGoogleMap />
       <Container>
         <Row>
@@ -40,7 +39,6 @@ export default function Kapcsolat() {
         </Row>
         <form
           name="contact bandhaworks"
-          action="/mantra"
           method="post"
           data-netlify="true"
           onSubmit="submit"
@@ -93,7 +91,6 @@ export default function Kapcsolat() {
           </Row>
         </form>
       </Container>
-      <Footer />
     </>
   )
 }
