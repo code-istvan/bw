@@ -4,10 +4,13 @@
   fill: $bw-logo-color;
   -webkit-transition: -webkit-transform 1s;
   transform-origin: center;
+  position: fixed;
 }
 
-.navbar-brand:hover {
+.navbar-logo:hover {
   #logo {
     -webkit-transform: rotate(360deg) translateZ(0);
+    position: relative;
+    z-index: 9999;
   }
 }

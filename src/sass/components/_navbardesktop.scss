@@ -1,103 +1,110 @@
 @import "/src/sass/global";
 
-:root {
-  --header-height-base: 70px;
-  --overlay-side-padding: 12px;
-  --overlay-toggle-size: 26px;
-  --overlay-background-transition-duration: 600ms;
+.nav--desktop {
+  height: 50px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
-.navbar {
-  height: var(--header-height-base);
-}
-
-// .dropdown-item:focus,
-// .dropdown-item:hover {
-//   color: rgba(255, 255, 255, 0.55);
+// :root {
+//   --header-height-base: 70px;
+//   --overlay-side-padding: 12px;
+//   --overlay-toggle-size: 26px;
+//   --overlay-background-transition-duration: 600ms;
 // }
 
-/* Amikor nyitva van a menu */
-@media screen and (min-width: 1200px) {
-  .offcanvas-body {
-    margin-left: auto !important;
+// .navbar {
+//   height: var(--header-height-base);
+//   padding: 0 var(--overlay-side-padding) !important;
+// }
 
-    li {
-      margin-top: auto;
-      margin-bottom: auto;
-    }
-  }
+// // .dropdown-item:focus,
+// // .dropdown-item:hover {
+// //   color: rgba(255, 255, 255, 0.55);
+// // }
 
-  #navbarToggle {
-    visibility: hidden;
-  }
+// /* Amikor nyitva van a menu */
+// // @media screen and (min-width: 721px) {
+// .offcanvas-body {
+//   margin-left: auto !important;
 
-  .navbar {
-    padding: 0 var(--overlay-side-padding) !important;
-    background-color: red;
-  }
+//   li {
+//     margin-top: auto;
+//     margin-bottom: auto;
+//   }
+// }
 
-  /* Almenus menupont haromszog eltuntetese */
-  .nav-link.dropdown-toggle:after {
-    display: none !important;
-  }
+// #navbarToggle {
+//   visibility: hidden;
+// }
 
-  .nav-link.dropdown-toggle {
-    transition: all 0.15s ease-in-out;
-  }
+// /* Almenus menupont haromszog eltuntetese */
+// .nav-link.dropdown-toggle:after {
+//   display: none !important;
+// }
 
-  .dropdown-menu {
-    display: block;
-    visibility: hidden;
-    opacity: 0;
-    background-color: $primary-orange-color;
-    border-radius: 0;
-    border: 0;
-    margin: 0 !important;
-    //   width: 100%;
-    // display: block;
-    transition: all 0.15s ease-in-out;
-  }
-  .nav-item.dropdown:hover {
-    .dropdown-toggle {
-      color: rgba(255, 255, 255, 0.75);
-      background-color: #f39e12;
-    }
-    .dropdown-menu {
-      opacity: 1;
-      visibility: visible;
-    }
-  }
-  .dropdown-toggle:hover {
-    background-color: $primary-orange-color;
-  }
+// .nav-link.dropdown-toggle {
+//   transition: all 0.15s ease-in-out;
+// }
 
-  .nav-item {
-    margin: 0;
-  }
+// .dropdown-menu {
+//   display: block;
+//   visibility: hidden;
+//   opacity: 0;
+//   background-color: $primary-orange-color;
+//   border-radius: 0;
+//   border: 0;
+//   margin: 0 !important;
+//   //   width: 100%;
+//   // display: block;
+//   transition: all 0.15s ease-in-out;
+// }
+// .nav-item.dropdown:hover {
+//   .dropdown-toggle {
+//     color: rgba(255, 255, 255, 0.75);
+//     background-color: #f39e12;
+//   }
+//   .dropdown-menu {
+//     opacity: 1;
+//     visibility: visible;
+//   }
+// }
+// .dropdown-toggle:hover {
+//   background-color: $primary-orange-color;
+// }
 
-  // .nav-link:hover {
-  //   color: $primary-orange-color;
-  // }
-}
+// .nav-item {
+//   margin: 0;
+// }
 
-.container-fluid {
-  overflow: visible;
-}
-.offcanvas {
-  overflow: visible;
-}
+// // .nav-link:hover {
+// //   color: $primary-orange-color;
+// // }
+// // }
 
-.nav-link {
-  outline: none;
-}
+// .container-fluid {
+//   overflow: visible;
+// }
+// .offcanvas {
+//   overflow: visible;
+// }
 
-/* hide scrollbar but allow scrolling */
-div {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
-}
+// .nav-link {
+//   outline: none;
+// }
 
-div::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
-}
+// /* hide scrollbar but allow scrolling */
+// div {
+//   -ms-overflow-style: none; /* for Internet Explorer, Edge */
+//   scrollbar-width: none; /* for Firefox */
+//   overflow-y: scroll;
+// }
+
+// div::-webkit-scrollbar {
+//   display: none; /* for Chrome, Safari, and Opera */
+// }
