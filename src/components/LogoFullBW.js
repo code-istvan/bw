@@ -4,10 +4,8 @@ import "../sass/components/_logofullbw.scss"
 function LogoFullBW() {
   return (
     <svg
-      width="332"
-      height="84"
-      // width="166"
-      // height="42"
+      width="166"
+      height="42"
       viewBox="0 0 166 42"
       xmlns="http://www.w3.org/2000/svg"
       id="fulllogo"
