@@ -11,7 +11,7 @@ export default function FooterMobil() {
       <StaticImage
         className="footer--logo"
         src="../../images/BW_logo.png"
-        width={280}
+        width={140}
         layout="constrained"
         loading="eager"
         quality={95}
