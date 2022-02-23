@@ -3,15 +3,23 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "../../sass/components/_footermobil.scss"
 import Container from "react-bootstrap/Container"
 import { Row, Col } from "react-bootstrap"
-import LogoBW from "../Nav/LogoBW"
-import LogoBWtext from "../Nav/LogoBWtext"
-import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function FooterMobil() {
   return (
     <div className="footer">
-      <LogoBW /> <LogoBWtext />
-      <p>Astanga Jógaiskola, Paramaguru Sharath Jois áldásával</p>
+      <StaticImage
+        className="footer--logo"
+        src="../../images/BW_logo.png"
+        width={280}
+        layout="constrained"
+        loading="eager"
+        quality={95}
+        formats={["AUTO", "WEBP", "AVIF"]}
+        alt="Bandha Works Jógaiskola"
+        placeholder="blurred"
+      />
+      <p>Astanga Jógaiskola Paramaguru Sharath Jois áldásával</p>
       <strong>IRATKOZZ FEL HÍRLEVELÜNKRE</strong>
       <p>
         Értesülj a legfrisebb eseményeinkről és egyéb jógás hírekről elsőkézből
