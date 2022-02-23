@@ -3,6 +3,16 @@
 .footer {
   background-color: black;
   margin-top: 30px;
-  color: $primary-background-color;
-  height: 200px;
+  color: white;
+  width: 100%;
+  padding-left: 18px;
+  display: block;
+  a:link {
+    text-decoration: none;
+    color: $primary-orange-color;
+  }
+}
+
+.footer--first-row {
+  display: inline !important;
 }
