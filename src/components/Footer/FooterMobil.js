@@ -4,11 +4,12 @@ import "../../sass/components/_footermobil.scss"
 import Container from "react-bootstrap/Container"
 import { Row, Col } from "react-bootstrap"
 import { StaticImage } from "gatsby-plugin-image"
+import LogoFullBW from "../LogoFullBW"
 
 export default function FooterMobil() {
   return (
     <div className="footer">
-      <StaticImage
+      {/* <StaticImage
         className="footer--logo"
         src="../../images/BW_logo.png"
         width={140}
@@ -18,7 +19,8 @@ export default function FooterMobil() {
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="Bandha Works Jógaiskola"
         placeholder="blurred"
-      />
+      /> */}
+      <LogoFullBW />
       <p>Astanga Jógaiskola Paramaguru Sharath Jois áldásával</p>
       <strong>IRATKOZZ FEL HÍRLEVELÜNKRE</strong>
       <p>
