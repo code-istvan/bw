@@ -1,14 +1,14 @@
 @import "/src/sass/global";
 
 .footer {
-  // background-color: black;
-  margin-top: 40px;
+  background-color: 121212;
+  margin-top: 30px;
   color: white;
   width: 100%;
   padding-left: 18px;
   display: block;
-  border-top: solid 1px;
-  border-color: $primary-gray-color;
+  border-top: solid 4px;
+  border-color: orange !important;
 
   a:link {
     text-decoration: none;
@@ -24,4 +24,18 @@
   margin-top: 20px;
   margin-bottom: 10px;
   opacity: 0.9;
+}
+
+.footer__social {
+  svg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    fill: $primary-gray-color;
+    // fill-opacity= "0.81";
+  }
+
+  svg:hover {
+    fill: $primary-orange-color;
+  }
 }

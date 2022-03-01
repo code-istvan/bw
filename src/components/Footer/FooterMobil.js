@@ -5,6 +5,11 @@ import Container from "react-bootstrap/Container"
 import { Row, Col } from "react-bootstrap"
 import { StaticImage } from "gatsby-plugin-image"
 import LogoFullBW from "../LogoFullBW"
+import FacebookIcon from "../Icons/FacebookIcon"
+import InstagramIcon from "../Icons/InstagramIcon"
+import MessengerIcon from "../Icons/MessengerIcon"
+import TelegramIcon from "../Icons/TelegramIcon"
+import Button from "../Button"
 
 export default function FooterMobil() {
   return (
@@ -26,7 +31,24 @@ export default function FooterMobil() {
       <p>
         Értesülj a legfrisebb eseményeinkről és egyéb jógás hírekről elsőkézből
       </p>
-      <strong>KÖZÖSSÉG</strong>
+      <Button
+        type="button"
+        buttonStyle="btn--mobil--secondary--outline"
+        buttonSize="btn--small"
+      >
+        Mobil GHOST
+      </Button>
+      <Row className="footer__social">
+        <Col>
+          <p>
+            <strong>KÖZÖSSÉG</strong>
+          </p>
+          <FacebookIcon url="https://www.facebook.com/nyolcag" />
+          <InstagramIcon url="https://www.instagram.com/bandhaworks/" />
+          <MessengerIcon url="http://m.me/nyolcag" />
+          <TelegramIcon url="https://t.me/@istvan108" />
+        </Col>
+      </Row>
       <br />
       <br />
       <strong>KAPCSOLAT</strong>
