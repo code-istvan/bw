@@ -38,7 +38,7 @@ export default function FooterMobil() {
         buttonStyle="btn--mobil--secondary--outline"
         buttonSize="btn--small"
       >
-        Mobil GHOST
+        FELIRATKOZÁS
       </Button>
       <Row className="footer__social">
         <Col>
@@ -48,8 +48,8 @@ export default function FooterMobil() {
           <FacebookIcon url="https://www.facebook.com/nyolcag" />
           <InstagramIcon url="https://www.instagram.com/bandhaworks/" />
           <SoundcloudIcon url="https://soundcloud.com/bandhaworks-hu/" />
-          <TwitterIcon url="https://soundcloud.com/bandhaworks-hu/" />
-          <MessengerIcon url="http://m.me/nyolcag" />
+          <TwitterIcon url="https://twitter.com/IstvnSzalai5/" />
+          <MessengerIcon url="http://m.me/bandhawork" />
           <TelegramIcon url="https://t.me/@istvan108" />
         </Col>
       </Row>
