@@ -6,7 +6,6 @@ const Hamburger = ({ open }) => {
     <div className="hamburger--container">
       <div
         className={`hamburger ${open ? "hamburger-open" : "hamburger-closed"}`}
-        id="hamburger-6"
       >
         <span className="line"></span>
         <span className="line"></span>

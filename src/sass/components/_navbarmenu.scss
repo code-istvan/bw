@@ -1,18 +1,42 @@
 @import "/src/sass/global";
 
 .mobil-menu {
-  height: 100%;
-  width: 0;
+  height: 100vh;
+  width: 100%;
   position: fixed;
   // z-index: 1;
   overflow-x: hidden;
   padding-top: 60px;
+  clip-path: circle(15px at 98% -22%);
+  -webkit-clip-path: circle(15px at 98% -22%);
+  // -webkit-transition: all 3s ease-out !important;
+  // -o-transition: all 3s ease-out !important ;
+  // transition: all 3s ease-out !important;
 
   li {
     list-style: none;
     padding-left: 0;
     margin-left: 0;
   }
+}
+
+.mobil-menu-open {
+  clip-path: circle(1100px at 91% -4%);
+  -webkit-clip-path: circle(1000px at 91% -4%);
+  pointer-events: all;
+  -webkit-transition: all 1s ease-out !important;
+  -o-transition: all 1s ease-out !important ;
+  transition: all 1s ease-out !important;
+  background-color: red !important;
+}
+
+.mobil-menu-closed {
+  clip-path: circle(15px at 91% -4%);
+  -webkit-clip-path: circle(15px at 91% -4%);
+  opacity: 0;
+  -webkit-transition: all 1s ease-out !important;
+  -o-transition: all 1s ease-out !important ;
+  transition: all 1s ease-out !important;
 }
 
 .nav-link {
@@ -68,15 +92,6 @@
 
 a#navbarDropdown:active {
   color: gray !important;
-}
-
-.mobil-menu-closed {
-  opacity: 0;
-  transition: all 400ms ease-in-out;
-}
-
-.mobil-menu-open {
-  transition: all 400ms ease-in-out;
 }
 
 // Submenu icon starts
