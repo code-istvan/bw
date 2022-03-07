@@ -73,7 +73,6 @@
   border-radius: 0;
   position: relative !important;
   transform: none !important;
-  // text-align: left;
 
   &.show {
     max-height: 400px;
@@ -92,113 +91,25 @@ a#navbarDropdown:active {
 .nav-link.dropdown-toggle {
   &::before,
   &::after {
-    content: "-";
+    content: "+";
     display: block;
-    font-size: 28px;
-    // width: 1em;
-    // height: 2px;
+    font-size: 32px;
     border: none;
     position: absolute;
     right: 22px;
-  }
-  &::before {
-    content: "+";
-  }
-
-  &::after {
-    width: 2px;
+    transition: all 0.6s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    top: 0;
   }
 
   &.show {
     &::before {
-      content: "-";
-    }
-
-    &::after {
-      width: 2px;
+      transform: rotate(45deg);
     }
   }
 }
 
-/* Navbar Mobile View improvements */
-// $toggleAnimationSpeed: 400ms;
-// $toggleAnimationSpeedMod: 150ms;
-
-// .nav-link.dropdown-toggle {
-//   &:before,
-//   &:after {
-//     content: "";
-//     background-color: white;
-//     display: block;
-//     font-size: 20px;
-//     width: 1em;
-//     height: 2px;
-//     border: none;
-//     position: absolute;
-//     right: calc(var(--overlay-side-padding) + 2px);
-//   }
-
-//   &:before {
-//     animation: dropdownToggleIconSpinMoreBack $toggleAnimationSpeed +
-//       $toggleAnimationSpeedMod forwards;
-//   }
-
-//   &:after {
-//     width: 2px;
-//     height: 1em;
-//     right: calc(var(--overlay-side-padding) + 2px + 0.5em - 1px);
-//     animation-delay: $toggleAnimationSpeedMod;
-//     animation: dropdownToggleIconSpinBack $toggleAnimationSpeed forwards;
-//   }
-
-//   &.show {
-//     &:before {
-//       animation: dropdownToggleIconSpinMore $toggleAnimationSpeed +
-//         $toggleAnimationSpeedMod forwards;
-//     }
-//     &:after {
-//       animation-delay: 0;
-//       animation: dropdownToggleIconSpin $toggleAnimationSpeed forwards;
-//     }
-//   }
-// }
-
-// @keyframes dropdownToggleIconSpin {
-//   0% {
-//     transform: rotate(0deg);
-//   }
-//   100% {
-//     transform: rotate(90deg);
-//   }
-// }
-
-// @keyframes dropdownToggleIconSpinMore {
-//   0% {
-//     transform: rotate(0deg);
-//   }
-//   75% {
-//     transform: rotate(0deg);
-//   }
-//   100% {
-//     transform: rotate(0deg);
-//   }
-// }
-
-// @keyframes dropdownToggleIconSpinBack {
-//   0% {
-//     transform: rotate(90deg);
-//   }
-//   100% {
-//     transform: rotate(0deg);
-//   }
-// }
-
-// @keyframes dropdownToggleIconSpinMoreBack {
-//   0% {
-//     transform: rotate(180deg);
-//   }
-//   100% {
-//     transform: rotate(180deg);
-//   }
-// }
-// /* Hamburger menus beallitasok (END) */
+#navbarDropdown.nav-link.dropdown-toggle {
+  position: relative;
+}
