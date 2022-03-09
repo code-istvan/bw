@@ -9,15 +9,17 @@
   z-index: 10;
 }
 
-.hamburger .line {
-  width: 30px;
-  height: 3px;
-  background-color: $bw-logo-color;
-  display: block;
-  margin: 4px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+@media only screen and (max-width: 1025px) {
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background-color: $bw-logo-color;
+    display: block;
+    margin: 4px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 .hamburger-open {

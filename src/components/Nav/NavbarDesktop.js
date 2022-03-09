@@ -1,3 +1,31 @@
+import React, { useState } from "react"
+import "bootstrap/dist/css/bootstrap.min.css"
+import "../../sass/components/_navbarmobil.scss"
+import LogoBW from "./LogoBW"
+import LogoBWtext from "./LogoBWtext"
+import NavbarMenu from "./NavbarMenu"
+import Hamburger from "./Hamburger"
+
+export default function NavbarDesktop() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  return (
+    <nav className="navbar-desktop">
+      <div className="container-fluid p-0">
+        <a className="navbar-logo" href="/">
+          <LogoBW />
+          <LogoBWtext />
+          <p>DESKTOP</p>
+        </a>
+        <div onClick={() => setMenuOpen(!menuOpen)}>
+          <Hamburger open={menuOpen} />
+        </div>
+      </div>
+      <NavbarMenu open={menuOpen} />
+    </nav>
+  )
+}
+
 // import React from "react"
 // import "bootstrap/dist/css/bootstrap.min.css"
 // import { Link } from "gatsby"

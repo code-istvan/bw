@@ -15,31 +15,33 @@ import Button from "../Button"
 
 export default function FooterMobil() {
   return (
-    <div className="footer">
-      {/* <StaticImage
-        className="footer--logo"
-        src="../../images/BW_logo.png"
-        width={140}
-        layout="constrained"
-        loading="eager"
-        quality={95}
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Bandha Works Jógaiskola"
-        placeholder="blurred"
-      /> */}
-      <LogoFullBW />
-      <p>Astanga Jógaiskola Paramaguru Sharath Jois áldásával</p>
-      <strong>IRATKOZZ FEL HÍRLEVELÜNKRE</strong>
-      <p>
-        Értesülj a legfrisebb eseményeinkről és egyéb jógás hírekről elsőkézből
-      </p>
-      <Button
-        type="button"
-        buttonStyle="btn--mobil--secondary--outline"
-        buttonSize="btn--small"
-      >
-        FELIRATKOZÁS
-      </Button>
+    <Container className="footer">
+      <Row>
+        <Col>
+          <LogoFullBW />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <p>Astanga Jógaiskola Paramaguru Sharath Jois áldásával</p>
+          <strong>IRATKOZZ FEL HÍRLEVELÜNKRE</strong>
+          <p>
+            Értesülj a legfrisebb eseményeinkről és egyéb jógás hírekről
+            elsőkézből
+          </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Button
+            type="button"
+            buttonStyle="btn--mobil--secondary--outline"
+            buttonSize="btn--small"
+          >
+            FELIRATKOZÁS
+          </Button>
+        </Col>
+      </Row>
       <Row className="footer__social">
         <Col>
           <p>
@@ -53,34 +55,26 @@ export default function FooterMobil() {
           <TelegramIcon url="https://t.me/@istvan108" />
         </Col>
       </Row>
-      <br />
-      <br />
-      <strong>KAPCSOLAT</strong>
-      <br />
-      <strong>ADATÉDELEM</strong>
-      <br />
-      <strong>SHOP</strong>
-      <br />
-      <strong>TÁPLÁLKOZÁS</strong>
-      <br />
-      <strong>AJÁNLOTT OLVASMÁNYOK</strong>
-      <br /> <br />
+      <Row>
+        <Col>
+          <br />
+          <strong>KAPCSOLAT</strong>
+          <br />
+          <strong>ADATÉDELEM</strong>
+          <br />
+          <strong>SHOP</strong>
+          <br />
+          <strong>TÁPLÁLKOZÁS</strong>
+          <br />
+          <strong>AJÁNLOTT OLVASMÁNYOK</strong>
+          <br /> <br />
+        </Col>
+      </Row>
+
       <p className="footer--designedby">
         Designed by <br />
         <a href="https://omworks.hu">OMWORKS YOGA CREATIVES</a>
       </p>
-    </div>
-
-    // <Container fluid className="footer">
-    //   <Row className="footer--first-row">
-    //     <Col>
-    //       <LogoBW /> <LogoBWtext />
-    //     </Col>
-    //   </Row>
-    // </Container>
-
-    // <div className="container-fluid p-0 footer--color">
-
-    // </div>
+    </Container>
   )
 }

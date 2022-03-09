@@ -1,6 +1,7 @@
 import * as React from "react"
-// import NavbarDesktop from "./NavbarDesktop"
 import NavbarMobil from "./NavbarMobil"
+import NavbarTablet from "./NavbarTablet"
+import NavbarDesktop from "./NavbarDesktop"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Container"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
@@ -10,15 +11,17 @@ const Navbar = () => {
 
   return (
     <Container fluid>
-      <Row>{breakpoints.md ? <NavbarMobil /> : <NavbarMobil />}</Row>
+      <Row>
+        {breakpoints.sm ? (
+          <NavbarMobil />
+        ) : breakpoints.md ? (
+          <NavbarTablet />
+        ) : (
+          <NavbarDesktop />
+        )}
+      </Row>
     </Container>
   )
 }
 
 export default Navbar
-
-// when the desktop menu is ready
-
-{
-  /* <Row>{breakpoints.md ? <NavbarMobil /> : <NavbarDesktop />}</Row> */
-}
