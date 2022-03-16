@@ -1,15 +1,25 @@
 @import "/src/sass/global";
 
-.nav--desktop {
-  height: 50px;
-  width: 100%;
-  background-color: blue;
-  color: white;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
+.navbar-desktop {
+  display: flex;
+  align-items: center;
 }
+
+// .navbar-logo {
+//   margin-right: auto;
+//   z-index: 1;
+// }
+
+// .nav--desktop {
+//   height: 50px;
+//   width: 100%;
+//   background-color: blue;
+//   color: white;
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   left: 0;
+// }
 
 // :root {
 //   --header-height-base: 70px;
