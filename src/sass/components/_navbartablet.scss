@@ -3,42 +3,20 @@
 .navbar-tablet {
 }
 
-.container-fluid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+// .container-fluid {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 
-nav {
-  position: relative;
-}
+// nav {
+//   position: relative;
+// }
 
-.navbar-logo {
-  margin-right: auto;
-  z-index: 1;
-}
-
-.nav-links {
-  position: fixed;
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  // z-index: 1;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-left: 0;
-  // text-align: right;
-  padding-top: 120px; //Zoli ez igy jó???
-  // position: relative;
-  z-index: 1;
-
-  /* Almenus menupont haromszog eltuntetese */
-  .nav-link.dropdown-toggle:after {
-    display: none !important;
-  }
-}
+// .navbar-logo {
+//   margin-right: auto;
+//   z-index: 1;
+// }
 
 // :root {
 //   --header-height-base: 70px;

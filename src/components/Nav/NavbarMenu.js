@@ -3,13 +3,20 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import "../../sass/components/_navbarmenu.scss"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 const NavbarMenu = ({ open }) => {
+  const breakpoints = useBreakpoint()
+
   return (
     <div
-      className={`mobil-menu ${open ? "mobil-menu-open" : "mobil-menu-closed"}`}
+      className={
+        breakpoints.md
+          ? `${open ? "mobil-menu-open" : "mobil-menu-closed"}`
+          : "desktop-menu"
+      }
     >
-      <ul className="nav-links">
+      <ul className="nav-links gap">
         <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"
@@ -57,75 +64,73 @@ const NavbarMenu = ({ open }) => {
             </Nav.Item>
           </ul>
         </li>
-        <li>
-          <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              TUDNIVALÓK
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Nav.Item as="li">
-                <Link className="dropdown-item" to="/rolunk">
-                  RÓLUNK
-                </Link>
-              </Nav.Item>
-              <Nav.Item as="li">
-                <Link className="dropdown-item" to="/elso-alkalom">
-                  ELSŐ ALKALOM
-                </Link>
-              </Nav.Item>
-              <Nav.Item as="li">
-                <Link className="dropdown-item" to="/hazirend">
-                  HÁZIREND
-                </Link>
-              </Nav.Item>
-              <Nav.Item as="li">
-                <Link className="dropdown-item" to="/mantra">
-                  MANTRÁK
-                </Link>
-              </Nav.Item>
-              <Nav.Item as="li">
-                <Link className="dropdown-item" to="/sorozatabrak">
-                  SOROZATÁBRÁK
-                </Link>
-              </Nav.Item>
-              <Nav.Item as="li">
-                <Link className="dropdown-item" to="/holdnapok">
-                  HOLDNAPOK
-                </Link>
-              </Nav.Item>
-              <Nav.Item as="li">
-                <Link className="dropdown-item disabled" to="/osztondij">
-                  ÖSZTÖNDÍJ
-                </Link>
-              </Nav.Item>
-            </ul>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link disabled">GALÉRIA</a>
-          </li>
-          <Nav.Item as="li">
-            <a className="nav-link" href="https://bandha-payments.hu">
-              SHOP
-            </a>
-          </Nav.Item>
-          <Nav.Item as="li">
-            <Link className="nav-link" to="/blog">
-              BLOG
-            </Link>
-          </Nav.Item>
-          <Nav.Item as="li">
-            <Link className="nav-link" to="/kapcsolat">
-              KAPCSOLAT
-            </Link>
-          </Nav.Item>
+        <li className="nav-item dropdown">
+          <a
+            className="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            TUDNIVALÓK
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <Nav.Item as="li">
+              <Link className="dropdown-item" to="/rolunk">
+                RÓLUNK
+              </Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link className="dropdown-item" to="/elso-alkalom">
+                ELSŐ ALKALOM
+              </Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link className="dropdown-item" to="/hazirend">
+                HÁZIREND
+              </Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link className="dropdown-item" to="/mantra">
+                MANTRÁK
+              </Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link className="dropdown-item" to="/sorozatabrak">
+                SOROZATÁBRÁK
+              </Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link className="dropdown-item" to="/holdnapok">
+                HOLDNAPOK
+              </Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link className="dropdown-item disabled" to="/osztondij">
+                ÖSZTÖNDÍJ
+              </Link>
+            </Nav.Item>
+          </ul>
         </li>
+        <li className="nav-item">
+          <a className="nav-link disabled">GALÉRIA</a>
+        </li>
+        <Nav.Item as="li">
+          <a className="nav-link" href="https://bandha-payments.hu">
+            SHOP
+          </a>
+        </Nav.Item>
+        <Nav.Item as="li">
+          <Link className="nav-link" to="/blog">
+            BLOG
+          </Link>
+        </Nav.Item>
+        <Nav.Item as="li">
+          <Link className="nav-link" to="/kapcsolat">
+            KAPCSOLAT
+          </Link>
+        </Nav.Item>
       </ul>
     </div>
   )

@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
-import "../../sass/components/_navbarmobil.scss"
+import "../../sass/components/_navbartablet.scss"
 import LogoBW from "./LogoBW"
 import LogoBWtext from "./LogoBWtext"
 import NavbarMenu from "./NavbarMenu"
@@ -15,7 +15,6 @@ export default function NavbarTablet() {
         <a className="navbar-logo" href="/">
           <LogoBW />
           <LogoBWtext />
-          <p>TABLET</p>
         </a>
         <div onClick={() => setMenuOpen(!menuOpen)}>
           <Hamburger open={menuOpen} />

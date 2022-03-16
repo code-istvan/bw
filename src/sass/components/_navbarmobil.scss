@@ -18,28 +18,6 @@ nav {
   z-index: 1;
 }
 
-.nav-links {
-  position: fixed;
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  // z-index: 1;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-left: 0;
-  // text-align: right;
-  padding-top: 120px; //Zoli ez igy jó???
-  // position: relative;
-  z-index: 1;
-
-  /* Almenus menupont haromszog eltuntetese */
-  .nav-link.dropdown-toggle:after {
-    display: none !important;
-  }
-}
-
 // :root {
 //   --header-height-base: 70px;
 //   --overlay-side-padding: 12px;

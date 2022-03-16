@@ -1,8 +1,45 @@
 @import "/src/sass/global";
 
+// DESKTOP VIEW STARTRS
+
+.desktop-menu {
+  float: right;
+  @include desktop-menu-fonts;
+
+  li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0;
+    @include desktop-menu-fonts;
+  }
+
+  .nav-links {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+}
+
+nav {
+  vertical-align: middle;
+}
+
+.desktop-menu {
+  // ul {
+  //   margin: 8px;
+  // }
+}
+
+/* Almenus menupont haromszog eltuntetese */
+.nav-link.dropdown-toggle:after {
+  display: none !important;
+}
+
+// DESKTOP VIEW ENDS
+
 // MOBIL VIEW STARTS
-@media only screen and (max-width: 720px) {
-  .mobil-menu {
+@media only screen and (min-width: 1px) and (max-width: 720px) {
+  .mobil-menu-open {
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -10,15 +47,17 @@
     padding-top: 60px;
     clip-path: circle(15px at 98% -22%);
     -webkit-clip-path: circle(15px at 98% -22%);
+    @include mobil-menu-fonts;
 
     li {
       list-style: none;
       padding-left: 0;
       margin-left: 0;
+      @include mobil-menu-fonts;
     }
-  }
 
-  .mobil-menu-open {
+    visibility: visible;
+    pointer-events: auto;
     clip-path: circle(1100px at 91% -4%);
     -webkit-clip-path: circle(1000px at 91% -4%);
     pointer-events: all;
@@ -34,6 +73,28 @@
     -webkit-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
     transition: all 500ms ease-out;
+  }
+
+  .nav-links {
+    position: fixed;
+    background-color: $primary-black-color;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    // z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    // text-align: right;
+    padding-top: 120px; //Zoli ez igy jó???
+    // position: relative;
+    z-index: 1;
+
+    /* Almenus menupont haromszog eltuntetese */
+    .nav-link.dropdown-toggle:after {
+      // display: none !important;
+    }
   }
 
   .nav-link {
@@ -91,10 +152,9 @@
   }
 
   .nav-link.dropdown-toggle {
-    &::before,
     &::after {
       content: "+";
-      display: block;
+      display: block !important;
       font-size: 32px;
       border: none;
       position: absolute;
@@ -106,7 +166,7 @@
     }
 
     &.show {
-      &::before {
+      &::after {
         transform: rotate(45deg);
       }
     }
@@ -119,118 +179,139 @@
 // MOBIL VIEW ENDS
 
 // TABLET VIEW STARTS
-@media only screen and (max-width: 1024px) {
-  // .mobil-menu {
-  //   height: 100vh;
-  //   width: 100%;
-  //   position: fixed;
-  //   overflow-x: hidden;
-  //   padding-top: 60px;
-  //   clip-path: circle(15px at 98% -22%);
-  //   -webkit-clip-path: circle(15px at 98% -22%);
-  // }
+@media only screen and (min-width: 720px) and (max-width: 1024px) {
+  .mobil-menu-open {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 60px;
+    clip-path: circle(15px at 98% -22%);
+    -webkit-clip-path: circle(15px at 98% -22%);
+    visibility: visible;
+    pointer-events: auto;
+    clip-path: circle(1300px at 91% -4%);
+    -webkit-clip-path: circle(1300px at 91% -4%);
+    pointer-events: all;
+    -webkit-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+    @include mobil-menu-fonts;
 
-  // .mobil-menu-open {
-  //   clip-path: circle(1100px at 91% -4%);
-  //   -webkit-clip-path: circle(1000px at 91% -4%);
-  //   pointer-events: all;
-  //   -webkit-transition: all 500ms ease-out;
-  //   -o-transition: all 500ms ease-out;
-  //   transition: all 500ms ease-out;
-  // }
+    ul {
+      list-style-type: none;
+    }
+  }
 
-  // .mobil-menu-closed {
-  //   clip-path: circle(15px at 91% -4%);
-  //   -webkit-clip-path: circle(15px at 91% -4%);
-  //   opacity: 0;
-  //   -webkit-transition: all 500ms ease-out;
-  //   -o-transition: all 500ms ease-out;
-  //   transition: all 500ms ease-out;
-  // }
+  li {
+    @include mobil-menu-fonts;
+  }
 
-  // .nav-link {
-  //   color: white;
-  //   height: 54px;
+  .mobil-menu-closed {
+    clip-path: circle(15px at 91% -4%);
+    -webkit-clip-path: circle(15px at 91% -4%);
+    opacity: 0;
+    -webkit-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+  }
 
-  //   &:hover {
-  //     color: gray !important;
-  //   }
-  // }
+  .nav-links {
+    position: fixed;
+    background-color: $primary-black-color;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    // z-index: 1;
+    top: 0;
+    left: 50%;
+    right: 0;
+    margin: 0;
+    // text-align: right;
+    padding-top: 120px; //Zoli ez igy jó???
+    // position: relative;
+    z-index: 1;
+    // text-align: center;
 
-  // // submenu box
-  // .dropdown-item {
-  //   margin: 0;
-  //   background-color: #424242;
-  //   color: white;
-  //   font-weight: 800;
-  //   font-size: xlarge;
-  //   height: 48px;
-  //   padding-left: 50px;
-  // }
+    /* Almenus menupont haromszog eltuntetese */
+    .nav-link.dropdown-toggle:after {
+      // display: none !important;
+    }
+  }
 
-  // .dropdown-item:hover {
-  //   color: gray;
-  //   background-color: transparent;
-  // }
+  .nav-link {
+    color: white;
+    height: 54px;
 
-  // .dropdown-menu {
-  //   background-color: #424242;
-  //   width: 100%;
-  //   margin: 0 !important;
-  //   border: none;
-  //   display: block;
-  //   opacity: 0;
-  //   padding: 0;
-  //   visibility: hidden;
-  //   max-height: 0;
-  //   transition: all 300ms ease-in-out;
-  //   border-radius: 0;
-  //   position: relative !important;
-  //   transform: none !important;
+    &:hover {
+      color: gray !important;
+    }
+  }
 
-  //   &.show {
-  //     max-height: 400px;
-  //     opacity: 1;
-  //     visibility: visible;
-  //   }
-  //   .nav-item {
-  //     margin: 0;
-  //   }
-  // }
+  // submenu box
+  .dropdown-item {
+    margin: 0;
+    background-color: #424242;
+    color: white;
+    font-weight: 800;
+    font-size: xlarge;
+    height: 48px;
+    padding-left: 50px;
+  }
 
-  // a#navbarDropdown:active {
-  //   color: gray !important;
-  // }
+  .dropdown-item:hover {
+    color: gray;
+    background-color: transparent;
+  }
 
-  // .nav-link.dropdown-toggle {
-  //   &::before,
-  //   &::after {
-  //     content: "+";
-  //     font-size: 32px;
-  //     border: none;
-  //     position: absolute;
-  //     right: 100px;
-  //     transition: all 0.6s ease-in-out;
-  //     text-align: center;
-  //     top: 0;
-  //     background-color: red;
-  //   }
+  .dropdown-menu {
+    background-color: #424242;
+    width: 100%;
+    margin: 0 !important;
+    border: none;
+    display: block;
+    opacity: 0;
+    padding: 0;
+    visibility: hidden;
+    max-height: 0;
+    transition: all 300ms ease-in-out;
+    border-radius: 0;
+    position: relative !important;
+    transform: none !important;
 
-  //   &.show {
-  //     &::before {
-  //       transform: rotate(45deg);
-  //     }
-  //   }
-  // }
-}
-// TABLET VIEW ENDS
+    &.show {
+      max-height: 400px;
+      opacity: 1;
+      visibility: visible;
+    }
+    .nav-item {
+      margin: 0;
+    }
+  }
 
-// DESKTOP VIEW STARTRS
+  a#navbarDropdown:active {
+    color: gray !important;
+  }
 
-@media only screen and (min-width: 1025px) {
-  .mobil-menu {
-    display: none;
+  .nav-link.dropdown-toggle {
+    &::after {
+      content: "+";
+      display: block;
+      font-size: 32px;
+      border: none;
+      position: absolute;
+      right: 100px;
+      transition: all 0.6s ease-in-out;
+      text-align: center;
+      top: 0;
+      background-color: red;
+    }
+
+    &.show {
+      &::after {
+        transform: rotate(45deg);
+      }
+    }
   }
 }
-
-// DESKTOP VIEW ENDS
+// TABLET VIEW ENDS
