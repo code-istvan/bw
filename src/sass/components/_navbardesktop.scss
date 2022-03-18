@@ -3,6 +3,22 @@
 .navbar-desktop {
   display: flex;
   align-items: center;
+
+  a:hover {
+    color: $primary-orange-color;
+  }
+
+  a:visited {
+    color: green !important;
+  }
+
+  a:active {
+    color: yellow;
+  }
+
+  a {
+    color: $primary-gray-color;
+  }
 }
 
 // .navbar-logo {

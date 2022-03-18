@@ -2,37 +2,79 @@
 
 // DESKTOP VIEW STARTRS
 
-.desktop-menu {
-  float: right;
-  @include desktop-menu-fonts;
-
-  li {
-    display: inline-block;
-    list-style: none;
-    text-align: center;
-    margin-bottom: 0;
+@media only screen and (min-width: 1025px) {
+  .desktop-menu {
+    float: right;
     @include desktop-menu-fonts;
+
+    li {
+      display: inline-block;
+      list-style: none;
+      text-align: center;
+      margin-bottom: 0;
+      @include desktop-menu-fonts;
+    }
+
+    .nav-links {
+      margin-bottom: 0;
+      margin-left: 0;
+    }
+
+    .nav-link:focus {
+      outline: none;
+    }
   }
 
-  .nav-links {
-    margin-bottom: 0;
-    margin-left: 0;
+  nav {
+    vertical-align: middle;
   }
-}
 
-nav {
-  vertical-align: middle;
-}
+  /* Almenus menupont haromszog eltuntetese */
+  .nav-link.dropdown-toggle:after {
+    display: none !important;
+  }
 
-.desktop-menu {
-  // ul {
-  //   margin: 8px;
-  // }
-}
+  .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    background-color: $primary-gray-color;
+    border-radius: 0;
+    border: 0;
+    transition: all 0.15s ease-in-out;
+  }
 
-/* Almenus menupont haromszog eltuntetese */
-.nav-link.dropdown-toggle:after {
-  display: none !important;
+  .dropdown-item {
+    a {
+      margin-left: 20px;
+    }
+  }
+
+  .nav-item.dropdown:hover {
+    .dropdown-toggle {
+      color: $secondery-black-color;
+      background-color: $primary-gray-color;
+    }
+    .dropdown-menu {
+      opacity: 1;
+      visibility: visible;
+      background-color: $primary-gray-color;
+    }
+
+    .dropdown-item {
+      color: $secondery-black-color;
+      @include desktop-menu-fonts;
+    }
+
+    .dropdown-item:hover {
+      color: $primary-orange-color;
+      background-color: none;
+    }
+  }
+
+  .dropdown-toggle:hover {
+    background-color: $primary-orange-color;
+  }
 }
 
 // DESKTOP VIEW ENDS
@@ -77,7 +119,7 @@ nav {
 
   .nav-links {
     position: fixed;
-    background-color: $primary-black-color;
+    background-color: $offcanvas-menu-color;
     height: 100%;
     width: 100%;
     flex-direction: column;
