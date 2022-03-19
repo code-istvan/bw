@@ -8,12 +8,9 @@
     color: $primary-orange-color;
   }
 
-  a:visited {
-    color: green !important;
-  }
-
+  a:visited,
   a:active {
-    color: yellow;
+    color: inherit;
   }
 
   a {

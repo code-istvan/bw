@@ -54,6 +54,7 @@
     .dropdown-toggle {
       color: $secondery-black-color;
       background-color: $primary-gray-color;
+      pointer-events: none;
     }
     .dropdown-menu {
       opacity: 1;
