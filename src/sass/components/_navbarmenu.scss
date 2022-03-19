@@ -19,10 +19,6 @@
       margin-bottom: 0;
       margin-left: 0;
     }
-
-    .nav-link:focus {
-      outline: none;
-    }
   }
 
   nav {
@@ -69,7 +65,7 @@
 
     .dropdown-item:hover {
       color: $primary-orange-color;
-      background-color: none;
+      background-color: $primary-gray-color !important;
     }
   }
 
