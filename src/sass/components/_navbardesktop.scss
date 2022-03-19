@@ -4,8 +4,8 @@
   display: flex;
   align-items: center;
 
-  a:hover {
-    color: $primary-orange-color;
+  a {
+    color: $primary-gray-color;
   }
 
   a:visited,
@@ -13,8 +13,8 @@
     color: inherit;
   }
 
-  a {
-    color: $primary-gray-color;
+  a:hover {
+    color: $primary-orange-color;
   }
 }
 
