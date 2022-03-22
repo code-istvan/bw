@@ -74,9 +74,7 @@
   }
 }
 
-// DESKTOP VIEW ENDS
-
-// MOBIL VIEW STARTS
+// DESKTOP VIEW ENDS MOBIL VIEW STARTS-------------------------------------------
 @media only screen and (min-width: 1px) and (max-width: 720px) {
   .mobil-menu-open {
     height: 100vh;
@@ -215,10 +213,10 @@
     position: relative;
   }
 }
-// MOBIL VIEW ENDS
+// MOBIL VIEW ENDS ------------------------------------------------
 
 // TABLET VIEW STARTS
-@media only screen and (min-width: 720px) and (max-width: 1024px) {
+@media only screen and (min-width: 721px) and (max-width: 1024px) {
   .mobil-menu-open {
     height: 100vh;
     width: 100%;
@@ -227,23 +225,23 @@
     padding-top: 60px;
     clip-path: circle(15px at 98% -22%);
     -webkit-clip-path: circle(15px at 98% -22%);
+    @include mobil-menu-fonts;
+
+    li {
+      list-style: none;
+      padding-right: 0px;
+      margin-right: 0px;
+      @include mobil-menu-fonts;
+    }
+
     visibility: visible;
     pointer-events: auto;
-    clip-path: circle(1300px at 91% -4%);
-    -webkit-clip-path: circle(1300px at 91% -4%);
+    clip-path: circle(1500px at 91% -4%);
+    -webkit-clip-path: circle(1500px at 91% -4%);
     pointer-events: all;
     -webkit-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
     transition: all 500ms ease-out;
-    @include mobil-menu-fonts;
-
-    ul {
-      list-style-type: none;
-    }
-  }
-
-  li {
-    @include mobil-menu-fonts;
   }
 
   .mobil-menu-closed {
@@ -257,20 +255,20 @@
 
   .nav-links {
     position: fixed;
-    background-color: $primary-black-color;
+    background-color: $offcanvas-menu-color;
     height: 100%;
-    width: 50%;
+    width: 100%;
     flex-direction: column;
     // z-index: 1;
     top: 0;
-    left: 50%;
+    left: 0;
     right: 0;
-    margin: 0;
-    // text-align: right;
+    margin-left: 0;
+    text-align: right;
+
     padding-top: 120px; //Zoli ez igy jó???
     // position: relative;
     z-index: 1;
-    // text-align: center;
 
     /* Almenus menupont haromszog eltuntetese */
     .nav-link.dropdown-toggle:after {
@@ -317,11 +315,13 @@
     border-radius: 0;
     position: relative !important;
     transform: none !important;
+    text-align: right;
 
     &.show {
       max-height: 400px;
       opacity: 1;
       visibility: visible;
+      padding-right: 40px;
     }
     .nav-item {
       margin: 0;
@@ -335,15 +335,15 @@
   .nav-link.dropdown-toggle {
     &::after {
       content: "+";
-      display: block;
+      display: block !important;
       font-size: 32px;
       border: none;
       position: absolute;
-      right: 100px;
+      right: 222px;
       transition: all 0.6s ease-in-out;
-      text-align: center;
+      justify-content: center;
+      align-items: center;
       top: 0;
-      background-color: red;
     }
 
     &.show {
@@ -352,5 +352,173 @@
       }
     }
   }
+
+  #navbarDropdown.nav-link.dropdown-toggle {
+    position: relative;
+  }
 }
 // TABLET VIEW ENDS
+
+// KESOBB MEGCSINALNI
+// // TABLET VIEW STARTS
+// @media only screen and (min-width: 721px) and (max-width: 1024px) {
+//   .mobil-menu-open {
+//     position: fixed;
+//     top: 0;
+//     right: 0;
+//     height: 100%;
+//     width: 100%;
+//     transition: all 0.6s ease-in-out;
+//     // padding-top: 60px;
+//     @include mobil-menu-fonts;
+//     background-color: $offcanvas-menu-color;
+
+//     // li {
+//     //   list-style: none;
+//     //   padding-left: 0;
+//     //   margin-left: 0;
+//     //   @include mobil-menu-fonts;
+//     // }
+
+//     transition: all 500ms ease-out;
+//   }
+
+//   .mobil-menu-closed {
+//     position: fixed;
+//     top: 0;
+//     right: -100%;
+//     transition: all 500ms ease-in;
+//   }
+
+//   .nav-links {
+//     // position: fixed;
+//     // background-color: $offcanvas-menu-color;
+//     // height: 100%;
+//     // width: 100%;
+//     // flex-direction: column;
+//     // top: 0;
+
+//     // margin-left: 0;
+//     // padding-right: 50px;
+//     // text-align: right;
+//     // padding-top: 120px; //Zoli ez igy jó???
+
+//     // z-index: 1;
+
+//     // /* Almenus menupont haromszog eltuntetese */
+//     // .nav-link.dropdown-toggle:after {
+//     //   // display: none !important;
+//     // }
+
+//     position: absolute;
+//     top: 60%;
+//     left: 50%;
+//     height: 90%;
+//     transform: translate(-50%, -50%);
+//     list-style: none;
+//     text-align: center;
+//     @include mobil-menu-fonts;
+
+//     li {
+//       height: 10%;
+//       margin: 15px 0;
+//     }
+
+//     a {
+//       text-decoration: none;
+
+//       // padding: 5px 30px;
+//       color: #fff;
+//       // border-radius: 50px;
+//       position: absolute;
+//       padding-left: 0 !important;
+//       line-height: 50px;
+//       // margin: 5px 30px;
+//       opacity: 1;
+//       transition: all 0.3s ease;
+//       transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+//     }
+//   }
+
+//   .nav-link {
+//     color: white;
+//     height: 54px;
+
+//     &:hover {
+//       color: gray !important;
+//     }
+//   }
+
+//   // submenu box
+//   .dropdown-item {
+//     margin: 0;
+//     background-color: #424242;
+//     color: white;
+//     font-weight: 800;
+//     font-size: xlarge;
+//     height: 48px;
+//     padding-left: 50px;
+//   }
+
+//   .dropdown-item:hover {
+//     color: gray;
+//     background-color: transparent;
+//   }
+
+//   .dropdown-menu {
+//     background-color: #424242;
+//     width: 100%;
+//     margin: 0 !important;
+//     border: none;
+//     display: block;
+//     opacity: 0;
+//     padding: 0;
+//     visibility: hidden;
+//     max-height: 0;
+//     transition: all 300ms ease-in-out;
+//     border-radius: 0;
+//     position: relative !important;
+//     transform: none !important;
+//     text-align: right;
+//     padding-right: 50px;
+
+//     &.show {
+//       max-height: 400px;
+//       opacity: 1;
+//       visibility: visible;
+//     }
+//     .nav-item {
+//       margin: 0;
+//     }
+//   }
+
+//   a#navbarDropdown:active {
+//     color: gray !important;
+//   }
+
+//   .nav-link.dropdown-toggle {
+//     &::after {
+//       content: "+";
+//       // display: block !important;
+//       font-size: 32px;
+//       border: none;
+//       // position: static;
+//       // right: 10px;
+//       transition: all 0.6s ease-in-out;
+//       justify-content: center;
+//       align-items: center;
+//       top: 0;
+//     }
+
+//     &.show {
+//       &::after {
+//         transform: rotate(45deg);
+//       }
+//     }
+//   }
+
+//   #navbarDropdown.nav-link.dropdown-toggle {
+//     // position: relative;
+//   }
+// }
+// // TABLET VIEW ENDS

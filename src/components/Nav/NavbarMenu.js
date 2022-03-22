@@ -16,7 +16,7 @@ const NavbarMenu = ({ open }) => {
           : "desktop-menu"
       }
     >
-      <ul className="nav-links gap">
+      <ul className="nav-links">
         <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"

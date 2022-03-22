@@ -1,6 +1,10 @@
 @import "/src/sass/global";
 
 .navbar-tablet {
+  a:visited,
+  a:active {
+    color: inherit;
+  }
 }
 
 // .container-fluid {
