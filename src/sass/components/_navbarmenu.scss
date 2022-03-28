@@ -1,5 +1,10 @@
 @import "/src/sass/global";
 
+.nav-link:focus,
+.nav-link:hover {
+  color: inherit;
+}
+
 // DESKTOP VIEW STARTRS
 
 @media only screen and (min-width: 1025px) {
@@ -21,6 +26,10 @@
     }
   }
 
+  .nav-links > *:last-child {
+    padding-right: 0;
+  }
+
   nav {
     vertical-align: middle;
   }
@@ -37,7 +46,7 @@
     background-color: $primary-gray-color;
     border-radius: 0;
     border: 0;
-    transition: all 0.15s ease-in-out;
+    // transition: all 0.15s ease-in-out;
   }
 
   .dropdown-item {
@@ -290,12 +299,16 @@
   // submenu box
   .dropdown-item {
     margin: 0;
-    background-color: $offcanvas-menu-color;
+    // background-color: #424242;
     color: white;
     font-weight: 800;
     font-size: xlarge;
     height: 48px;
     padding-left: 80px;
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $primary-gray-color;
+    -webkit-font-smoothing: antialiased;
   }
 
   .dropdown-item:hover {
@@ -304,8 +317,8 @@
   }
 
   .dropdown-menu {
-    background-color: $offcanvas-menu-color;
-    width: 100%;
+    background-color: transparent;
+    width: 100vw;
     margin: 0 !important;
     border: none;
     display: block;

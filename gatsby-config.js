@@ -11,6 +11,14 @@ module.exports = {
     `gatsby-plugin-image`,
     "gatsby-plugin-breakpoints",
     "gatsby-plugin-netlify",
+
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        exclude: ["/admin", "/search"],
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,6 +42,14 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/bw-favicon.png`,
         // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.example.com",
+        sitemap: "https://www.example.com/sitemap.xml",
+        policy: [{ userAgent: "*", disallow: "/" }],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
