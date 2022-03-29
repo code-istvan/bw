@@ -1,0 +1,17 @@
+@import "/src/sass/global";
+
+.gatsby-image-wrapper {
+  z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__big {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__small {
+    display: none !important;
+  }
+}

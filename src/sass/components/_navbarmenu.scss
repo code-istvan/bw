@@ -85,6 +85,16 @@
 
 // DESKTOP VIEW ENDS MOBIL VIEW STARTS-------------------------------------------
 @media only screen and (min-width: 1px) and (max-width: 720px) {
+  .navbar-mobil {
+    .nav-item {
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      @include mobil-menu-fonts;
+    }
+    @include mobil-menu-fonts;
+  }
+
   .mobil-menu-open {
     height: 100vh;
     width: 100%;
@@ -93,14 +103,7 @@
     padding-top: 60px;
     clip-path: circle(15px at 98% -22%);
     -webkit-clip-path: circle(15px at 98% -22%);
-    @include mobil-menu-fonts;
-
-    li {
-      list-style: none;
-      padding-left: 0;
-      margin-left: 0;
-      @include mobil-menu-fonts;
-    }
+    // @include mobil-menu-fonts;
 
     visibility: visible;
     pointer-events: auto;

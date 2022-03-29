@@ -4,7 +4,6 @@ import "../../sass/components/_navbardesktop.scss"
 import LogoBW from "./LogoBW"
 import LogoBWtext from "./LogoBWtext"
 import NavbarMenu from "./NavbarMenu"
-// import Hamburger from "./Hamburger"
 
 export default function NavbarDesktop() {
   return (
