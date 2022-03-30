@@ -18,7 +18,12 @@ module.exports = {
         exclude: ["/admin", "/search"],
       },
     },
-
+    {
+      resolve: "gatsby-plugin-netlify-cache",
+      options: {
+        cachePublic: true,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
