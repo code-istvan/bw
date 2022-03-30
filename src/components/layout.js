@@ -5,8 +5,8 @@ import Navbar from "./Nav/Navbar"
 import Container from "react-bootstrap/Container"
 import "../sass/components/_layout.scss"
 import Button from "./Button"
-import Bgimage from "./Bg-image"
 import Footer from "./Footer/Footer"
+import Hero from "./Hero"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <Bgimage />
+      <Hero />
       <Container>
         <main>{children}</main>
         <h1>oh jógi ne végezz ászanát vinyásza nélkűl</h1>
