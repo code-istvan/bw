@@ -21,19 +21,19 @@
 .navbar_container {
   position: fixed;
   width: 100%;
-  background-color: #333333;
+  background-color: #000000;
   transition: background-color 500ms linear;
 }
 
 .scrolled {
-  display: block;
-  background-color: black;
-  transition: background-color 500ms linear;
+  visibility: visible;
+  opacity: 1;
 }
 
 .hide {
-  display: none;
-  transition: display 1000ms linear;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s ease-out;
 }
 
 // .navbar-logo {

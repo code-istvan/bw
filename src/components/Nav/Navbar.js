@@ -12,16 +12,18 @@ const Navbar = () => {
   const navRef = React.useRef()
   var prevScroll = 0
 
-  window.addEventListener("scroll", function (event) {
-    let scrollTop = event.target.scrollingElement.scrollTop
-    navRef.current.className =
-      scrollTop >= 300 && scrollTop >= prevScroll
-        ? "navbar_container hide"
-        : scrollTop >= 100
-        ? "navbar_container scrolled"
-        : "navbar_container"
-    prevScroll = scrollTop
-  })
+  const isBrowser = typeof window !== "undefined"
+
+  if (isBrowser) {
+    window.addEventListener("scroll", function (event) {
+      let scrollTop = event.target.scrollingElement.scrollTop
+      navRef.current.className =
+        scrollTop >= 300 && scrollTop >= prevScroll
+          ? "navbar_container hide"
+          : "navbar_container scrolled"
+      prevScroll = scrollTop
+    })
+  }
 
   return (
     <Container fluid className="navbar_container" ref={navRef}>
