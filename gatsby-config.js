@@ -11,14 +11,7 @@ module.exports = {
     `gatsby-plugin-image`,
     "gatsby-plugin-breakpoints",
     "gatsby-plugin-netlify",
-
-    {
-      resolve: "gatsby-plugin-sitemap",
-      options: {
-        exclude: ["/admin", "/search"],
-      },
-    },
-
+    "gatsby-plugin-sitemap",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -8,7 +8,7 @@ const Hero = () => (
     <StaticImage
       className="hero_desktop"
       src="../images/Hero_desktop.jpg"
-      width={2000}
+      // width={2000}
       layout="fullWidth"
       loading="eager"
       quality={95}
@@ -19,7 +19,7 @@ const Hero = () => (
     <StaticImage
       className="hero_tablet"
       src="../images/hero_tablet_test.jpg"
-      width={1024}
+      // width={1024}
       layout="fullWidth"
       loading="eager"
       quality={95}
@@ -30,7 +30,7 @@ const Hero = () => (
     <StaticImage
       className="hero_mobil"
       src="../images/hero_test.jpg"
-      width={674}
+      // width={674}
       layout="fullWidth"
       loading="eager"
       quality={95}
