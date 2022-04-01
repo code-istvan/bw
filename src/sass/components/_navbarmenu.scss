@@ -101,7 +101,6 @@
     position: fixed;
     overflow-x: hidden;
     padding-top: 60px;
-    margin-bottom: 100px;
     clip-path: circle(15px at 98% -22%);
     -webkit-clip-path: circle(15px at 98% -22%);
     // @include mobil-menu-fonts;
@@ -137,7 +136,7 @@
     right: 0;
     margin-left: 0;
     // text-align: right;
-    padding-top: 120px; //Zoli ez igy jó???
+    padding-top: 100px; //Zoli ez igy jó???
     // position: relative;
     z-index: 1;
 
