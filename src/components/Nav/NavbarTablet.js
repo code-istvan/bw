@@ -6,8 +6,13 @@ import LogoBWtext from "./LogoBWtext"
 import NavbarMenu from "./NavbarMenu"
 import Hamburger from "./Hamburger"
 
-export default function NavbarTablet() {
+export default function NavbarTablet(props) {
   const [menuOpen, setMenuOpen] = useState(false)
+
+  const menuOpenHandler = () => {
+    setMenuOpen(!menuOpen)
+    props.setIsMenuOpened(!menuOpen)
+  }
 
   return (
     <nav className="navbar-tablet">
@@ -16,7 +21,7 @@ export default function NavbarTablet() {
           <LogoBW />
           <LogoBWtext />
         </a>
-        <div onClick={() => setMenuOpen(!menuOpen)}>
+        <div onClick={menuOpenHandler}>
           <Hamburger open={menuOpen} />
         </div>
       </div>
