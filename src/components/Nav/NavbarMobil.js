@@ -6,8 +6,13 @@ import LogoBWtext from "./LogoBWtext"
 import NavbarMenu from "./NavbarMenu"
 import Hamburger from "./Hamburger"
 
-export default function NavbarMobil() {
+export default function NavbarMobil(props) {
   const [menuOpen, setMenuOpen] = useState(false)
+
+  const menuOpenHandler = () => {
+    setMenuOpen(!menuOpen)
+    props.setIsMenuOpened(!menuOpen)
+  }
 
   return (
     <nav className="navbar-mobil">
@@ -16,7 +21,7 @@ export default function NavbarMobil() {
           <LogoBW />
           <LogoBWtext />
         </a>
-        <div onClick={() => setMenuOpen(!menuOpen)}>
+        <div onClick={menuOpenHandler}>
           <Hamburger open={menuOpen} />
         </div>
       </div>
