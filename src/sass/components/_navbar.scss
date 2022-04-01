@@ -1,0 +1,17 @@
+@import "/src/sass/global";
+
+.navbar_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $primary-background-color;
+  transition: all 1s linear;
+}
+
+.scrolled {
+}
+
+.hide {
+  transform: translateY(-80px);
+}

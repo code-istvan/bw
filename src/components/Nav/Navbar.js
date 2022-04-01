@@ -5,7 +5,7 @@ import NavbarDesktop from "./NavbarDesktop"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Container"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
-import "../../sass/components/_navbardesktop.scss"
+import "../../sass/components/_navbar.scss"
 
 const Navbar = () => {
   const breakpoints = useBreakpoint()
