@@ -5,14 +5,16 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: $primary-background-color;
+  // background-color: $primary-background-color;
   transition: all 1s linear;
   // height: 60px;
 }
 
 .scrolled {
+  opacity: 1;
 }
 
 .hide {
   transform: translateY(-80px);
+  opacity: 0;
 }

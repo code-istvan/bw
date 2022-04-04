@@ -9,9 +9,9 @@
   .hero_mobil {
     display: none !important;
   }
-  .hero_desktop {
-    margin-top: 60px;
-  }
+  // .hero_desktop {
+  //   margin-top: 60px;
+  // }
 }
 
 @media only screen and (min-width: 721px) and (max-width: 1024px) {
@@ -19,17 +19,11 @@
   .hero_desktop {
     display: none !important;
   }
-  .hero_tablet {
-    margin-top: 60px;
-  }
 }
 
 @media only screen and (min-width: 1px) and (max-width: 720px) {
   .hero_tablet,
   .hero_desktop {
     display: none !important;
-  }
-  .hero_mobil {
-    margin-top: 60px;
   }
 }
