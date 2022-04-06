@@ -6,12 +6,12 @@ import LogoBWtext from "./LogoBWtext"
 import NavbarMenu from "./NavbarMenu"
 import Hamburger from "./Hamburger"
 
-export default function NavbarTablet(props) {
+export default function NavbarTablet() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const menuOpenHandler = () => {
     setMenuOpen(!menuOpen)
-    props.setIsMenuOpened(!menuOpen)
+    //props.setIsMenuOpened(!menuOpen)
   }
 
   return (
