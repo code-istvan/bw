@@ -10,38 +10,52 @@ import "../../sass/components/_navbar.scss"
 const Navbar = () => {
   const breakpoints = useBreakpoint()
   const navRef = React.useRef()
-  const [isMenuOpened, setIsMenuOpened] = React.useState(false)
+  var prevScroll = 0
 
-  let prevScroll = 0
   const isBrowser = typeof window !== "undefined"
 
-  React.useEffect(() => {
-    if (isMenuOpened) {
-      return
-    }
+  if (isBrowser) {
+    window.addEventListener("scroll", function (event) {
+      let scrollTop = event.target.scrollingElement.scrollTop
+      navRef.current.className =
+        scrollTop >= 300 && scrollTop >= prevScroll
+          ? "navbar_container hide"
+          : scrollTop >= 100
+          ? "navbar_container scrolled"
+          : "navbar_container"
+      prevScroll = scrollTop
+    })
+  }
 
-    function scrollHandler(event) {
-      if (isBrowser) {
-        let scrollTop = event.target.scrollingElement.scrollTop
-        navRef.current.className =
-          scrollTop >= 300 && scrollTop >= prevScroll
-            ? "navbar_container hide"
-            : "navbar_container scrolled"
-        prevScroll = scrollTop
-      }
-    }
+  // const [isMenuOpened, setIsMenuOpened] = React.useState(false)
 
-    window.addEventListener("scroll", scrollHandler)
-    return () => window.removeEventListener("scroll", scrollHandler)
-  }, [isMenuOpened])
+  // React.useEffect(() => {
+  //   if (isMenuOpened) {
+  //     return
+  //   }
+
+  //   function scrollHandler(event) {
+  //     if (isBrowser) {
+  //       let scrollTop = event.target.scrollingElement.scrollTop
+  //       navRef.current.className =
+  //         scrollTop >= 300 && scrollTop >= prevScroll
+  //           ? "navbar_container hide"
+  //           : "navbar_container scrolled"
+  //       prevScroll = scrollTop
+  //     }
+  //   }
+
+  //   window.addEventListener("scroll", scrollHandler)
+  //   return () => window.removeEventListener("scroll", scrollHandler)
+  // }, [isMenuOpened])
 
   return (
     <Container fluid className="navbar_container" ref={navRef}>
       <Row>
         {breakpoints.sm ? (
-          <NavbarMobil setIsMenuOpened={setIsMenuOpened} />
+          <NavbarMobil />
         ) : breakpoints.md ? (
-          <NavbarTablet setIsMenuOpened={setIsMenuOpened} />
+          <NavbarTablet />
         ) : (
           <NavbarDesktop />
         )}
