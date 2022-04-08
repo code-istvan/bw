@@ -6,16 +6,18 @@
   left: 0;
   width: 100%;
   // background-color: $primary-background-color;
-  transition: all 1s linear;
+  transition: all 100ms;
   // height: 60px;
 }
 
 .scrolled {
-  opacity: 1;
-  background-color: black;
+  // opacity: 1;
+  background-color: $primary-background-color;
+  // transition: all 100ms;
 }
 
 .hide {
   transform: translateY(-80px);
-  opacity: 0;
+  transition: all 300ms;
+  // opacity: 1;
 }

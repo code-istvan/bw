@@ -18,9 +18,9 @@ const Navbar = () => {
     window.addEventListener("scroll", function (event) {
       let scrollTop = event.target.scrollingElement.scrollTop
       navRef.current.className =
-        scrollTop >= 300 && scrollTop >= prevScroll
+        scrollTop >= 200 && scrollTop >= prevScroll
           ? "navbar_container hide"
-          : scrollTop >= 100
+          : scrollTop >= 80
           ? "navbar_container scrolled"
           : "navbar_container"
       prevScroll = scrollTop
