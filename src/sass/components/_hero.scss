@@ -4,14 +4,15 @@
   z-index: -1;
 }
 
+.hero_mobil {
+  position: relative;
+}
+
 @media only screen and (min-width: 1024px) {
   .hero_tablet,
   .hero_mobil {
     display: none !important;
   }
-  // .hero_desktop {
-  //   margin-top: 60px;
-  // }
 }
 
 @media only screen and (min-width: 721px) and (max-width: 1024px) {
@@ -25,5 +26,12 @@
   .hero_tablet,
   .hero_desktop {
     display: none !important;
+  }
+  .test {
+    position: absolute;
+    top: 9%;
+    // left: 5%;
+    z-index: -1;
+    font-size: 46px;
   }
 }

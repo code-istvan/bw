@@ -20,34 +20,12 @@ const Navbar = () => {
       navRef.current.className =
         scrollTop >= 200 && scrollTop >= prevScroll
           ? "navbar_container hide"
-          : scrollTop >= 80
+          : scrollTop >= 10
           ? "navbar_container scrolled"
           : "navbar_container"
       prevScroll = scrollTop
     })
   }
-
-  // const [isMenuOpened, setIsMenuOpened] = React.useState(false)
-
-  // React.useEffect(() => {
-  //   if (isMenuOpened) {
-  //     return
-  //   }
-
-  //   function scrollHandler(event) {
-  //     if (isBrowser) {
-  //       let scrollTop = event.target.scrollingElement.scrollTop
-  //       navRef.current.className =
-  //         scrollTop >= 300 && scrollTop >= prevScroll
-  //           ? "navbar_container hide"
-  //           : "navbar_container scrolled"
-  //       prevScroll = scrollTop
-  //     }
-  //   }
-
-  //   window.addEventListener("scroll", scrollHandler)
-  //   return () => window.removeEventListener("scroll", scrollHandler)
-  // }, [isMenuOpened])
 
   return (
     <Container fluid className="navbar_container" ref={navRef}>

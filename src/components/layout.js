@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
       <Hero />
       <Container>
         <main>{children}</main>
-        <h1>oh jógi ne végezz ászanát vinyásza nélkűl</h1>
+        <h1 className="scrolled">oh jógi ne végezz ászanát vinyásza nélkűl</h1>
         <p>
           Avocado matcha peach strawberry mango a delicious meal guacamole asian
           pear black bean chili dip seasonal raspberry fizz kimchi sweet potato
