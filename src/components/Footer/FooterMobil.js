@@ -12,6 +12,8 @@ import TelegramIcon from "../Icons/TelegramIcon"
 import SoundcloudIcon from "../Icons/SoundcloudIcon"
 import TwitterIcon from "../Icons/TwitterIcon"
 import Button from "../Button"
+import { Link } from "gatsby"
+import { navigate } from "gatsby"
 
 export default function FooterMobil() {
   return (
@@ -37,6 +39,9 @@ export default function FooterMobil() {
             type="button"
             buttonStyle="btn--mobil--secondary--outline"
             buttonSize="btn--small"
+            onClick={() => {
+              navigate("/hirlevel")
+            }}
           >
             FELIRATKOZÁS
           </Button>
