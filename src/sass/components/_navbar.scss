@@ -1,5 +1,15 @@
 @import "/src/sass/global";
 
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeout {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
 .navbar_container {
   position: fixed;
   top: 0;
@@ -10,9 +20,12 @@
 
 .scrolled {
   background-color: $primary-background-color;
+  transition: background-color 1300ms ease, transform 200ms ease;
 }
 
 .hide {
   transform: translateY(-80px);
   background-color: $primary-background-color;
+  animation: fadeout 0.5s ease-out;
+  opacity: 0;
 }
