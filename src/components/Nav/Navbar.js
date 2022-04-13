@@ -17,12 +17,14 @@ const Navbar = () => {
   if (isBrowser) {
     window.addEventListener("scroll", function (event) {
       let scrollTop = event.target.scrollingElement.scrollTop
-      navRef.current.className =
-        scrollTop >= 200 && scrollTop >= prevScroll
-          ? "navbar_container hide"
-          : scrollTop >= 10
-          ? "navbar_container scrolled"
-          : "navbar_container"
+      if (navRef.current != null) {
+        navRef.current.className =
+          scrollTop >= 200 && scrollTop >= prevScroll
+            ? "navbar_container hide"
+            : scrollTop >= 10
+            ? "navbar_container scrolled"
+            : "navbar_container"
+      }
       prevScroll = scrollTop
     })
   }
