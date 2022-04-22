@@ -11,10 +11,6 @@
   z-index: -1;
 }
 
-.hero_mobil {
-  position: relative;
-}
-
 @media only screen and (min-width: 1024px) {
   .hero_tablet,
   .hero_mobil {
@@ -35,9 +31,17 @@
     display: none !important;
   }
 
+  // .hero_mobil {
+  //   position: relative;
+  // }
+
+  .qqq {
+    position: relative;
+  }
+
   .hero--text {
     position: absolute;
-    top: 13%;
+    top: 25%;
     z-index: -1;
   }
 

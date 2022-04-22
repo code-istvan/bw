@@ -21,11 +21,15 @@ button:focus {
 
 html,
 body {
-  max-width: 100%;
+  width: 100%;
   overflow-x: hidden;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 body::-webkit-scrollbar {
