@@ -21,7 +21,7 @@ const IndexPage = () => (
           buttonStyle="btn--mobil--primary--solid"
           buttonSize="btn--small"
         >
-          TANFOLYAMOK
+          TAN
         </Button>
       </Col>
       <Col>
@@ -31,7 +31,7 @@ const IndexPage = () => (
           buttonStyle="btn--mobil--primary--outline"
           buttonSize="btn--small"
         >
-          ÓRAREND
+          ÓRA
         </Button>
       </Col>
     </Row>
