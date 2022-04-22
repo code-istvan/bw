@@ -8,7 +8,7 @@ import Col from "react-bootstrap/Col"
 
 const Hero = () => (
   <>
-    <div className="qqq">
+    <div className="hero--relative">
       <StaticImage
         className="hero_desktop"
         src="../images/Hero_desktop.jpg"
