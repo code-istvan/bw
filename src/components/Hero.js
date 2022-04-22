@@ -38,8 +38,8 @@ const Hero = () => (
       alt="Astanga jóga Mysore"
       placeholder="blurred"
     />
-    <Container>
-      <Row className="hero--text">
+    <Container className="hero--text">
+      <Row>
         <p className="hero--font-big">
           "óh jógi, ne végezz ászanát vinyásza nélkül"
         </p>
@@ -48,7 +48,7 @@ const Hero = () => (
         <Col sm={4}>
           {" "}
           <StaticImage
-            className="hero_risi"
+            className="hero--risi"
             src="../images/risi.jpg"
             layout="fullWidth"
             loading="eager"
@@ -59,8 +59,10 @@ const Hero = () => (
           />
         </Col>
         <Col sm={8}>
-          <p className="hero--font-small-serif">Jóga korunta</p>
-          <p className="hero--font-small-sans-serif">VÁMANA RISI</p>
+          <div className="hero--author">
+            <p className="hero--font-small-serif">Jóga korunta</p>
+            <p className="hero--font-small-sans-serif">VÁMANA RISI</p>
+          </div>
         </Col>
       </Row>
     </Container>
