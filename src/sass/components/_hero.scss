@@ -1,7 +1,7 @@
 @import "/src/sass/global";
 
 :root {
-  --fs-xl: clamp(2rem, 12vw + 1rem, 3rem);
+  --fs-xl: clamp(2rem, 10vw + 1rem, 3rem);
   --fs-l: clamp(1rem, 1vw + 0.9rem, 2rem);
   --fs-m: clamp(1rem, 1vw + 0.7rem, 2rem);
   --fs-s: 1rem;
@@ -37,7 +37,7 @@
 
   .hero--text {
     position: absolute;
-    top: 12%;
+    top: 11%;
     z-index: -1;
   }
 
@@ -79,7 +79,7 @@
   justify-content: center;
   p {
     margin-bottom: 0;
-    margin-left: 16px;
+    margin-left: 14px;
     line-height: 130%;
   }
 }
