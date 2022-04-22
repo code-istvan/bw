@@ -15,7 +15,30 @@ const IndexPage = () => (
     <Seo title="FŐOLDAL" />
     <Row>
       <Col>
-        <h1>FŐOLDAL</h1>
+        {" "}
+        <Button
+          type="button"
+          buttonStyle="btn--mobil--primary--solid"
+          buttonSize="btn--small"
+        >
+          TANFOLYAMOK
+        </Button>
+      </Col>
+      <Col>
+        {" "}
+        <Button
+          type="button"
+          buttonStyle="btn--mobil--primary--outline"
+          buttonSize="btn--small"
+        >
+          ÓRAREND
+        </Button>
+      </Col>
+    </Row>
+
+    <Row>
+      <Col>
+        {/* <h1>FŐOLDAL</h1> */}
         <h1 className="scrolled">oh jógi ne végezz ászanát vinyásza nélkűl</h1>
         <p>
           Avocado matcha peach strawberry mango a delicious meal guacamole asian

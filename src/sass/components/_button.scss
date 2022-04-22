@@ -6,7 +6,9 @@
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.5s ease;
+  margin-top: 12px;
   margin-bottom: 20px;
+  border-radius: 2px;
 }
 
 .btn:hover {
@@ -38,7 +40,7 @@
 .btn--mobil--secondary--solid {
   background-color: $primary-gray-color;
   color: $primary-black-color;
-  border-radius: 2px;
+  // border-radius: 2px;
   padding: 4px !important;
   width: 100%;
 }
