@@ -30,7 +30,7 @@ const Hero = () => (
     />
     <StaticImage
       className="hero_mobil"
-      src="../images/hero_test.jpg"
+      src="../images/hero_mobil.jpg"
       layout="fullWidth"
       loading="eager"
       quality={95}
