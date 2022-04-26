@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../../sass/components/_navbarmobil.scss"
 import LogoBW from "./LogoBW"
@@ -9,10 +9,18 @@ import Hamburger from "./Hamburger"
 export default function NavbarMobil() {
   const [menuOpen, setMenuOpen] = useState(false)
 
+  const html = document.querySelector("html")
+
   const menuOpenHandler = () => {
     setMenuOpen(!menuOpen)
     //props.setIsMenuOpened(!menuOpen)
   }
+
+  useEffect(() => {
+    menuOpen
+      ? (html.style.overflow = "hidden")
+      : (html.style.overflow = "visible")
+  }, [menuOpen])
 
   return (
     <nav className="navbar-mobil">

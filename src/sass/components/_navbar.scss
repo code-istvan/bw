@@ -19,6 +19,12 @@
 }
 
 .navbar_container {
+  #gatsby-focus-wrapper {
+    margin: 0 !important;
+    height: 100% !important;
+    overflow: hidden !important;
+  }
+
   position: fixed;
   top: 0;
   left: 0;

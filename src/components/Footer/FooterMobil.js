@@ -12,7 +12,6 @@ import TelegramIcon from "../Icons/TelegramIcon"
 import SoundcloudIcon from "../Icons/SoundcloudIcon"
 import TwitterIcon from "../Icons/TwitterIcon"
 import Button from "../Button"
-import { Link } from "gatsby"
 import { navigate } from "gatsby"
 
 export default function FooterMobil() {

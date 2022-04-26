@@ -9,6 +9,7 @@ import Button from "../components/Button"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import "../sass/pages/_index.scss"
+import { navigate } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +21,9 @@ const IndexPage = () => (
           type="button"
           buttonStyle="btn--mobil--primary--solid"
           buttonSize="btn--small"
+          onClick={() => {
+            navigate("/tanfolyam")
+          }}
         >
           TANFOLYAMOK
         </Button>
@@ -30,6 +34,9 @@ const IndexPage = () => (
           type="button"
           buttonStyle="btn--mobil--primary--outline"
           buttonSize="btn--small"
+          onClick={() => {
+            navigate("/orarend")
+          }}
         >
           ÓRAREND
         </Button>
