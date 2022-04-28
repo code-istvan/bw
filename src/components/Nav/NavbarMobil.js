@@ -10,9 +10,13 @@ export default function NavbarMobil() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const html = document.querySelector("html")
+  // const funk = () => {
+  //   html.style.opacity = "0.6"
+  // }
 
   const menuOpenHandler = () => {
     setMenuOpen(!menuOpen)
+    // funk(!menuOpen)
     //props.setIsMenuOpened(!menuOpen)
   }
 
@@ -21,6 +25,14 @@ export default function NavbarMobil() {
       ? (html.style.overflow = "hidden")
       : (html.style.overflow = "visible")
   }, [menuOpen])
+
+  // useEffect(() => {
+  //   if (menuOpen) {
+  //     html.style.color = "black"
+  //   } else {
+  //     html.style.color = "red"
+  //   }
+  // })
 
   return (
     <nav className="navbar-mobil">
