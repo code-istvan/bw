@@ -96,9 +96,14 @@
   }
 
   .mobil-menu-open {
+    body {
+      height: 100%;
+      overflow-y: hidden;
+    }
+
     // height: 100vh;
     width: 100%;
-    // position: fixed;
+    position: fixed;
     overflow-x: hidden !important;
     overflow-y: scroll;
     padding-top: 60px;
