@@ -19,9 +19,7 @@ export default function NavbarMobil() {
   }
 
   useEffect(() => {
-    menuOpen
-      ? (html.style.overflow = "hidden")
-      : (html.style.overflow = "visible")
+    menuOpen ? (html.style.overflow = "hidden") : (html.style.overflow = "auto")
   }, [menuOpen])
 
   useEffect(() => {
