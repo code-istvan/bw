@@ -10,6 +10,7 @@ export default function NavbarMobil() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const html = document.querySelector("html")
+  const body = document.querySelector("body")
 
   const menuOpenHandler = () => {
     setMenuOpen(!menuOpen)
@@ -23,13 +24,9 @@ export default function NavbarMobil() {
       : (html.style.overflow = "visible")
   }, [menuOpen])
 
-  // useEffect(() => {
-  //   if (menuOpen) {
-  //     html.style.color = "black"
-  //   } else {
-  //     html.style.color = "red"
-  //   }
-  // })
+  useEffect(() => {
+    menuOpen ? (body.style.height = "100%") : (body.style.height = "auto")
+  }, [menuOpen])
 
   return (
     <nav className="navbar-mobil">
