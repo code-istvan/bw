@@ -10,14 +10,9 @@ export default function NavbarMobil() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const html = document.querySelector("html")
-  // const funk = () => {
-  //   html.style.opacity = "0.6"
-  // }
 
   const menuOpenHandler = () => {
     setMenuOpen(!menuOpen)
-    // funk(!menuOpen)
-    //props.setIsMenuOpened(!menuOpen)
   }
 
   useEffect(() => {
@@ -35,7 +30,7 @@ export default function NavbarMobil() {
   // })
 
   return (
-    <nav className="navbar-mobil">
+    <nav className="navbar-mobil" style={{ margin: "0", height: "100%" }}>
       <div className="container-fluid p-0">
         <a className="navbar-logo" href="/">
           <LogoBW />

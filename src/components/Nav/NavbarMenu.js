@@ -1,4 +1,5 @@
-import React from "react"
+// import React from "react"
+import React, { useEffect, useState } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
