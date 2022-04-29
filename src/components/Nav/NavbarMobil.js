@@ -13,6 +13,8 @@ export default function NavbarMobil() {
 
   const menuOpenHandler = () => {
     setMenuOpen(!menuOpen)
+
+    console.log(menuOpen)
   }
 
   useEffect(() => {
@@ -30,7 +32,7 @@ export default function NavbarMobil() {
   // })
 
   return (
-    <nav className="navbar-mobil" style={{ margin: "0", height: "100%" }}>
+    <nav className="navbar-mobil">
       <div className="container-fluid p-0">
         <a className="navbar-logo" href="/">
           <LogoBW />
