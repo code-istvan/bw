@@ -14,16 +14,18 @@ export default function NavbarMobil() {
 
   const menuOpenHandler = () => {
     setMenuOpen(!menuOpen)
-
-    console.log(menuOpen)
   }
 
   useEffect(() => {
-    menuOpen ? (html.style.overflow = "hidden") : (html.style.overflow = "auto")
+    menuOpen ? (html.style.overflow = "hidden") : (html.style.overflow = null)
   }, [menuOpen])
 
   useEffect(() => {
-    menuOpen ? (body.style.height = "100%") : (body.style.height = "auto")
+    menuOpen ? (body.style.height = "100%") : (body.style.height = null)
+  }, [menuOpen])
+
+  useEffect(() => {
+    menuOpen ? (body.style.margin = "0") : (body.style.margin = null)
   }, [menuOpen])
 
   return (
