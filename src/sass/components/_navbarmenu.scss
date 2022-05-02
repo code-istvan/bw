@@ -96,15 +96,9 @@
   }
 
   .mobil-menu-open {
-    // body {
-    //   margin: 0 !important;
-    //   height: 100% !important;
-    // }
-
     // height: 100vh;
     width: 100%;
     position: fixed;
-    // overflow-x: hidden !important;
     overflow-y: scroll !important;
     padding-top: 60px;
     clip-path: circle(15px at 98% -22%);
