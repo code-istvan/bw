@@ -1,4 +1,3 @@
-// import React from "react"
 import React, { useEffect, useState } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from "gatsby"
@@ -9,11 +8,7 @@ import { useBreakpoint } from "gatsby-plugin-breakpoints"
 const NavbarMenu = ({ open }) => {
   const breakpoints = useBreakpoint()
 
-  const body = document.querySelector("body")
-
   open ? console.log("menu nyitva") : console.log("menu zarva")
-
-  // body.style.height = "100%"
 
   return (
     <div
