@@ -17,15 +17,15 @@ export default function NavbarMobil() {
   }
 
   useEffect(() => {
-    menuOpen ? (html.style.overflow = "hidden") : html.removeAttribute("style")
-  }, [menuOpen])
-
-  useEffect(() => {
-    menuOpen ? (body.style.height = "100%") : (body.style.height = null)
-  }, [menuOpen])
-
-  useEffect(() => {
-    menuOpen ? (body.style.margin = "0") : (body.style.margin = null)
+    if (menuOpen) {
+      html.style.overflow = "hidden"
+      body.style.height = "100%"
+      body.style.margin = "0"
+    } else {
+      html.style.overflow = "auto"
+      body.style.height = "auto"
+      body.style.margin = "inital"
+    }
   }, [menuOpen])
 
   return (
