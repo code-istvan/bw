@@ -5,7 +5,8 @@ import Seo from "../components/seo"
 import { Row, Col } from "react-bootstrap"
 // import { Link } from "gatsby"
 // import "../sass/components/_kapcsolat.scss"
-import { Helmet } from "react-helmet"
+// import { Helmet } from "react-helmet"
+import Calendar from "../components/Calendar"
 
 export default function Orarend() {
   return (
@@ -16,6 +17,7 @@ export default function Orarend() {
           <h1>ÓRAREND</h1>
           <script src="https://apps.elfsight.com/p/platform.js" defer></script>
           <div class="elfsight-app-fb5099a3-5f9f-48b6-944a-44e4eaad58cf"></div>
+          <Calendar />
         </Col>
       </Row>
     </Layout>
