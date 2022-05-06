@@ -8,7 +8,7 @@ import { ElfsightWidget } from "react-elfsight-widget"
 // }
 
 const Calendar = () => (
-  <ElfsightWidget widgetID="fb5099a3-5f9f-48b6-944a-44e4eaad58cf" />
+  <ElfsightWidget widgetID="a2534d28-1a1a-49b7-87bd-d7b5837db039" />
 )
 
 export default Calendar
