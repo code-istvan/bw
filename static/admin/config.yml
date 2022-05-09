@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: code-istvan/bw
-  branch: main
+  branch: master
   site_domain: https://lucid-easley-756a67.netlify.app
 
 media_folder: "static/blogpostimages"
