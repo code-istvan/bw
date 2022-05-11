@@ -6,6 +6,19 @@ module.exports = {
     siteUrl: `https://https://lucid-easley-756a67.netlify.app`,
   },
   plugins: [
+    {
+      resolve: "gatsby-remark-relative-images",
+      options: {
+        name: "blogpostimages",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
+
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
@@ -37,6 +50,23 @@ module.exports = {
         // This path is relative to the root of the site.
       },
     },
+
+    {
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blogpostimages`,
+        path: `${__dirname}/static/blogpostimages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/blog`,
+        name: `blog`,
+      },
+    },
+
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {

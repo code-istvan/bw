@@ -5,6 +5,7 @@ import Seo from "../components/seo"
 import { Row, Col } from "react-bootstrap"
 // import { Link } from "gatsby"
 // import "../sass/components/_kapcsolat.scss"
+import BlogRoll from "../components/BlogRoll"
 
 export default function Blog() {
   return (
@@ -15,6 +16,7 @@ export default function Blog() {
           <h1>BLOG</h1>
         </Col>
       </Row>
+      <BlogRoll />
     </Layout>
   )
 }

@@ -1,0 +1,56 @@
+@import "/src/sass/global";
+
+img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  // border-radius: 3px;
+}
+
+p {
+  margin-right: 20px;
+}
+
+.blogPosts__same-line {
+  svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    padding-left: 0px !important;
+    fill: $primary-black-color;
+  }
+  p {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    font-size: smaller;
+  }
+}
+
+ul {
+  padding-left: 0px !important;
+}
+
+// li {
+//   padding-right: 10px;
+//   display: inline-flex;
+//   align-items: center;
+//   p {
+//     margin-bottom: 0px;
+//   }
+// }
+
+.blogPost__backgrondColor {
+  background-color: color(gray, secondary);
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3px;
+  border-bottom: 3px solid color(gray);
+}
+
+article {
+  li {
+    display: list-item;
+  }
+}
