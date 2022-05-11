@@ -41,22 +41,38 @@ const NavbarMenu = ({ open, setOpen }) => {
               </Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/arak">
+              <Link
+                className="dropdown-item"
+                to="/arak"
+                onClick={() => setOpen(false)}
+              >
                 ÁRAK
               </Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/mysore-program">
+              <Link
+                className="dropdown-item"
+                to="/mysore-program"
+                onClick={() => setOpen(false)}
+              >
                 MYSORE PROGRAM
               </Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/tanfolyam">
+              <Link
+                className="dropdown-item"
+                to="/tanfolyam"
+                onClick={() => setOpen(false)}
+              >
                 TANFOLYAMOK
               </Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/oktatok">
+              <Link
+                className="dropdown-item"
+                to="/oktatok"
+                onClick={() => setOpen(false)}
+              >
                 OKTATÓK
               </Link>
             </Nav.Item>
@@ -64,6 +80,7 @@ const NavbarMenu = ({ open, setOpen }) => {
               <Link
                 className="dropdown-item disabled"
                 to="/vinyasza-jogairanyzatok"
+                onClick={() => setOpen(false)}
               >
                 JÓGAIRÁNYZATOK
               </Link>
@@ -83,32 +100,56 @@ const NavbarMenu = ({ open, setOpen }) => {
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/rolunk">
+              <Link
+                className="dropdown-item"
+                to="/rolunk"
+                onClick={() => setOpen(false)}
+              >
                 RÓLUNK
               </Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/elso-alkalom">
+              <Link
+                className="dropdown-item"
+                to="/elso-alkalom"
+                onClick={() => setOpen(false)}
+              >
                 ELSŐ ALKALOM
               </Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/hazirend">
+              <Link
+                className="dropdown-item"
+                to="/hazirend"
+                onClick={() => setOpen(false)}
+              >
                 HÁZIREND
               </Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/mantra">
+              <Link
+                className="dropdown-item"
+                to="/mantra"
+                onClick={() => setOpen(false)}
+              >
                 MANTRÁK
               </Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/sorozatabrak">
+              <Link
+                className="dropdown-item"
+                to="/sorozatabrak"
+                onClick={() => setOpen(false)}
+              >
                 SOROZATÁBRÁK
               </Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/holdnapok">
+              <Link
+                className="dropdown-item"
+                to="/holdnapok"
+                onClick={() => setOpen(false)}
+              >
                 HOLDNAPOK
               </Link>
             </Nav.Item>
@@ -128,12 +169,16 @@ const NavbarMenu = ({ open, setOpen }) => {
           </a>
         </Nav.Item>
         <Nav.Item as="li">
-          <Link className="nav-link" to="/blog">
+          <Link className="nav-link" to="/blog" onClick={() => setOpen(false)}>
             BLOG
           </Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Link className="nav-link" to="/kapcsolat">
+          <Link
+            className="nav-link"
+            to="/kapcsolat"
+            onClick={() => setOpen(false)}
+          >
             KAPCSOLAT
           </Link>
         </Nav.Item>
