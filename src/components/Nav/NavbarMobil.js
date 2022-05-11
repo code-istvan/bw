@@ -39,7 +39,7 @@ export default function NavbarMobil() {
           <Hamburger open={menuOpen} />
         </div>
       </div>
-      <NavbarMenu open={menuOpen} />
+      <NavbarMenu open={menuOpen} setOpen={setMenuOpen} />
     </nav>
   )
 }

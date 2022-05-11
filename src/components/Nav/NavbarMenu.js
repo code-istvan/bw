@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav"
 import "../../sass/components/_navbarmenu.scss"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
-const NavbarMenu = ({ open }) => {
+const NavbarMenu = ({ open, setOpen }) => {
   const breakpoints = useBreakpoint()
 
   open ? console.log("menu nyitva") : console.log("menu zarva")
@@ -32,7 +32,11 @@ const NavbarMenu = ({ open }) => {
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <Nav.Item as="li">
-              <Link className="dropdown-item" to="/orarend">
+              <Link
+                className="dropdown-item"
+                to="/orarend"
+                onClick={() => setOpen(false)}
+              >
                 ÓRAREND
               </Link>
             </Nav.Item>
