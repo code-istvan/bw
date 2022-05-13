@@ -40,11 +40,11 @@ const Hero = () => (
         placeholder="blurred"
       />
       <Container className="hero--text">
-        <Row>
-          <p className="hero--font-big">
-            "óh jógi, ne végezz ászanát vinyásza nélkül"
-          </p>
-        </Row>
+        {/* <Row> */}
+        <p className="hero--font-big">
+          "óh jógi, ne végezz ászanát vinyásza nélkül"
+        </p>
+        {/* </Row> */}
         <Row className="hero--text-small">
           <Col sm={4}>
             {" "}
