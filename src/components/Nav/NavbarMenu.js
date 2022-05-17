@@ -8,16 +8,8 @@ import { useBreakpoint } from "gatsby-plugin-breakpoints"
 const NavbarMenu = ({ open, setOpen }) => {
   const breakpoints = useBreakpoint()
 
-  open ? console.log("menu nyitva") : console.log("menu zarva")
-
   return (
-    <div
-      className={
-        breakpoints.md
-          ? `${open ? "mobil-menu-open" : "mobil-menu-closed"}`
-          : "desktop-menu"
-      }
-    >
+    <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
       <ul className="nav-links">
         <li className="nav-item dropdown">
           <a

@@ -1,10 +1,15 @@
 @import "/src/sass/global";
 
+.logo-margin-left {
+  margin-left: $navbar-items-margin;
+}
+
 #logo {
   fill: $bw-logo-color;
   -webkit-transition: -webkit-transform 1s;
   transform-origin: center;
   position: fixed;
+  margin-left: 16px;
 }
 
 .navbar-logo:hover {
