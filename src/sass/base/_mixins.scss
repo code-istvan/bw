@@ -9,3 +9,10 @@
   font-size: xx-large;
   font-weight: 900;
 }
+
+@mixin desktop-submenu-fonts {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  text-transform: lowercase;
+}
