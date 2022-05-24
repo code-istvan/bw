@@ -28,6 +28,12 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/osztondij", label: "ÖSZTÖNDÍJ", extraClass: "disabled" },
   ]
 
+  const menuItemsFomenu = [
+    { link: "/blog", label: "BLOG" },
+    { label: "SHOP", href: "https://bandha-payments.hu" },
+    { link: "/kapcsolat", label: "KAPCSOLAT" },
+  ]
+
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
       <ul className="nav-links">
@@ -81,25 +87,18 @@ const NavbarMenu = ({ open, setOpen }) => {
             ))}
           </ul>
         </li>
-        <Nav.Item as="li">
-          <a className="nav-link" href="https://bandha-payments.hu">
-            SHOP
-          </a>
-        </Nav.Item>
-        <Nav.Item as="li">
-          <Link className="nav-link" to="/blog" onClick={() => setOpen(false)}>
-            BLOG
-          </Link>
-        </Nav.Item>
-        <Nav.Item as="li">
-          <Link
-            className="nav-link"
-            to="/kapcsolat"
-            onClick={() => setOpen(false)}
-          >
-            KAPCSOLAT
-          </Link>
-        </Nav.Item>
+        {menuItemsFomenu.map(({ link, label, href }) => (
+          <Nav.Item as="li">
+            <Link
+              className="nav-link"
+              to={link}
+              href={href}
+              onClick={() => setOpen(false)}
+            >
+              {label}
+            </Link>
+          </Nav.Item>
+        ))}
       </ul>
     </div>
   )
