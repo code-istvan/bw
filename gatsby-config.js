@@ -70,8 +70,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://www.example.com",
-        sitemap: "https://www.example.com/sitemap.xml",
+        host: "https://lucid-easley-756a67.netlify.app",
+        sitemap: "https://lucid-easley-756a67.netlify.app/sitemap.xml",
         policy: [{ userAgent: "*", disallow: "/" }],
       },
     },
