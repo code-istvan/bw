@@ -28,75 +28,66 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/osztondij", label: "ÖSZTÖNDÍJ", extraClass: "disabled" },
   ]
 
+  const menuGroupsFomenu = [
+    { title: "JÓGAÓRÁK", items: menuItemsJogaorak },
+    { title: "TUDNIVALÓK", items: menuItemsTudnivalok },
+  ]
+
   const menuItemsFomenu = [
     { link: "/blog", label: "BLOG" },
-    { label: "SHOP", href: "https://bandha-payments.hu" },
+    { link: "https://bandha-payments.hu", label: "SHOP", isExtenal: true },
     { link: "/kapcsolat", label: "KAPCSOLAT" },
   ]
 
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
       <ul className="nav-links">
-        <li className="nav-item dropdown">
-          <a
-            className="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            JÓGAÓRÁK
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            {menuItemsJogaorak.map(({ link, label, extraClass }) => (
-              <Nav.Item as="li">
-                <Link
-                  className={`dropdown-item ${extraClass}`}
-                  to={link}
-                  onClick={() => setOpen(false)}
-                >
-                  {label}
-                </Link>
-              </Nav.Item>
-            ))}
-          </ul>
-        </li>
-        <li className="nav-item dropdown">
-          <a
-            className="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            TUDNIVALÓK
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            {menuItemsTudnivalok.map(({ link, label, extraClass }) => (
-              <Nav.Item as="li">
-                <Link
-                  className={`dropdown-item ${extraClass}`}
-                  to={link}
-                  onClick={() => setOpen(false)}
-                >
-                  {label}
-                </Link>
-              </Nav.Item>
-            ))}
-          </ul>
-        </li>
-        {menuItemsFomenu.map(({ link, label, href }) => (
-          <Nav.Item as="li">
-            <Link
-              className="nav-link"
-              to={link}
-              href={href}
-              onClick={() => setOpen(false)}
+        {menuGroupsFomenu.map(({ title, items }) => (
+          <li className="nav-item dropdown" key={title}>
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
             >
-              {label}
-            </Link>
+              {title}
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              {items.map(({ link, label, extraClass }) => (
+                <Nav.Item as="li" key={label}>
+                  <Link
+                    className={`dropdown-item ${extraClass}`}
+                    to={link}
+                    onClick={() => setOpen(false)}
+                  >
+                    {label}
+                  </Link>
+                </Nav.Item>
+              ))}
+            </ul>
+          </li>
+        ))}
+        {menuItemsFomenu.map(({ link, label, isExternal }) => (
+          <Nav.Item as="li" key={label}>
+            {isExternal ? (
+              <a
+                className="nav-link"
+                href={link}
+                onClick={() => setOpen(false)}
+              >
+                {label}
+              </a>
+            ) : (
+              <Link
+                className="nav-link"
+                to={link}
+                onClick={() => setOpen(false)}
+              >
+                {label}
+              </Link>
+            )}
           </Nav.Item>
         ))}
       </ul>

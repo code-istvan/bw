@@ -171,8 +171,8 @@
     overflow-x: hidden;
     padding-top: 60px;
 
-    clip-path: circle(15px at 100% -1%);
-    -webkit-clip-path: circle(15px at 100% -1%);
+    // clip-path: circle(15px at 100% -1%);
+    // -webkit-clip-path: circle(15px at 100% -1%);
     @include desktop-menu-fonts;
     // z-index: 2;
 
@@ -233,8 +233,8 @@
     }
 
     pointer-events: auto;
-    clip-path: circle(2000px at 91% -4%);
-    -webkit-clip-path: circle(2000px at 91% -4%);
+    clip-path: circle(2000px at 98% -2%);
+    -webkit-clip-path: circle(2000px at 98% -2%);
     pointer-events: all;
     -webkit-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
@@ -242,8 +242,8 @@
   }
 
   .mobil-menu-closed {
-    clip-path: circle(15px at 91% -4%);
-    -webkit-clip-path: circle(15px at 91% -4%);
+    clip-path: circle(15px at 98% -2%);
+    -webkit-clip-path: circle(15px at 98% -2%);
     opacity: 0;
     -webkit-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
