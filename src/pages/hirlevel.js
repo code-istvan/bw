@@ -11,7 +11,6 @@ const Hirlevel = () => (
     <Layout>
       <Seo title="Hírlevél" />
       <h1>Feliratkozás hírlevélre</h1>
-      <p>Test hírlevél</p>
       <Row>
         <Col>
           <form
