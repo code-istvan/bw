@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import Button from "../components/Button"
+import { Link } from "gatsby"
 
 const Hirlevel = () => (
   <>
@@ -12,17 +14,54 @@ const Hirlevel = () => (
       <p>Test hírlevél</p>
       <Row>
         <Col>
-          {/* <script id="mcjs">
-            !function(c,h,i,m,p)
-            {
-              ((m = c.createElement(h)),
-              (p = c.getElementsByTagName(h)[0]),
-              (m.async = 1),
-              (m.src = i),
-              p.parentNode.insertBefore(m, p))
-            }
-            (document,"script","https://chimpstatic.com/mcjs-connected/js/users/3836bf54ff487c47474950012/d8bbbb9c26d4c2c245e3f4a94.js");
-          </script> */}
+          <form
+            name="newsletter bandhaworks"
+            action="/mantra"
+            method="post"
+            data-netlify="true"
+            onSubmit="submit"
+            data-netlify-honeypot="bot-field"
+          >
+            <input
+              type="hidden"
+              name="form-name"
+              value="newsletter bandhaworks"
+            />
+            <div hidden>
+              <input name="bot-field" />
+            </div>
+            <Row>
+              <Col md={6}>
+                <input type="text" name="name" placeholder="Név" required />
+                <br />
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col className="d-grid gap-2 contact_checkbox">
+                <Button
+                  type="submit"
+                  buttonStyle="btn--mobil--secondary--solid"
+                  buttonSize="btn--small"
+                >
+                  FELIRATKOZÁS
+                </Button>
+
+                <label className="form-control">
+                  <input type="checkbox" name="checkbox" required />
+                  Megismertem és elfogadom az
+                  <Link href="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
+                  hozzájárulok e-mail címem kezeléséhez.
+                </label>
+              </Col>
+            </Row>
+          </form>
         </Col>
       </Row>
     </Layout>
