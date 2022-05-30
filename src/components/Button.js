@@ -7,7 +7,7 @@ const STYLES = [
   "btn--mobil--primary--outline",
   "btn--mobil--secondary--solid",
   "btn--mobil--secondary--outline",
-  "btn--mobil--secondary--outline--test",
+  "btn--mobil--secondary--outline--menu",
   "btn--primary--outline",
 ]
 

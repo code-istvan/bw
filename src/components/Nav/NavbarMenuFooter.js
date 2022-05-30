@@ -9,10 +9,10 @@ const NavbarMenuFooter = () => (
       <li>
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--outline--test"
+          buttonStyle="btn--mobil--secondary--outline--menu"
           buttonSize="btn--small"
           onClick={() => {
-            navigate("/hirlevel")
+            navigate("/english")
           }}
         >
           ENGLISH
@@ -21,48 +21,48 @@ const NavbarMenuFooter = () => (
       <li>
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--outline--test"
+          buttonStyle="btn--mobil--secondary--outline--menu"
           buttonSize="btn--small"
           onClick={() => {
-            navigate("/hirlevel")
+            navigate("/english")
           }}
         >
           日本語
         </Button>
       </li>
-
       <li>
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--outline--test"
+          buttonStyle="btn--mobil--secondary--outline--menu"
           buttonSize="btn--small"
           onClick={() => {
-            navigate("/hirlevel")
-          }}
-        >
-          TANFOLYAMOK
-        </Button>
-      </li>
-      <li>
-        <Button
-          type="button"
-          buttonStyle="btn--mobil--secondary--outline--test"
-          buttonSize="btn--small"
-          onClick={() => {
-            navigate("/hirlevel")
+            navigate("/mysore-program")
           }}
         >
           MYSORE PROGRAM
         </Button>
       </li>
       <li>
+        <Button
+          type="button"
+          buttonStyle="btn--mobil--secondary--outline--menu"
+          buttonSize="btn--small"
+          onClick={() => {
+            navigate("/tanfolyam")
+          }}
+        >
+          TANFOLYAMOK
+        </Button>
+      </li>
+
+      <li>
         {" "}
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--outline--test"
+          buttonStyle="btn--mobil--secondary--outline--menu"
           buttonSize="btn--small"
           onClick={() => {
-            navigate("/hirlevel")
+            navigate("/orarend")
           }}
         >
           ÓRAREND
