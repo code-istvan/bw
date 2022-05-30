@@ -1,7 +1,8 @@
 @import "/src/sass/global";
 
 .menuFooter--box {
-  position: fixed;
+  //   position: fixed;
+  display: block;
   padding: 16px;
   z-index: 1;
 
