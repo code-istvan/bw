@@ -57,6 +57,20 @@
   color: $primary-black-color;
 }
 
+.btn--mobil--secondary--outline--test {
+  background-color: transparent;
+  color: $primary-gray-color;
+  border: 2px solid $primary-gray-color;
+  font-size: x-large !important;
+  font-weight: 900 !important;
+}
+
+.btn--mobil--secondary--outline--test:hover {
+  transform: translateY(0px);
+  background-color: $primary-gray-color;
+  color: $primary-black-color;
+}
+
 .btn--primary--outline {
   background-color: transparent;
   color: $primary-orange-color;

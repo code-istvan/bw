@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import "../../sass/components/_navbarmenu.scss"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
+import NavbarMenuFooter from "./NavbarMenuFooter"
 
 const NavbarMenu = ({ open, setOpen }) => {
   const breakpoints = useBreakpoint()
@@ -90,6 +91,7 @@ const NavbarMenu = ({ open, setOpen }) => {
             )}
           </Nav.Item>
         ))}
+        <NavbarMenuFooter />
       </ul>
     </div>
   )
