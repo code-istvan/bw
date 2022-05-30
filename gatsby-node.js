@@ -18,7 +18,7 @@ const { fmImagesToRelative } = require("gatsby-remark-relative-images")
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(
-    "./src/components/Templates/blogPosts.js"
+    "./src/components/templates/blogPosts.js"
   )
 
   return graphql(`
