@@ -1,0 +1,20 @@
+@import "/src/sass/global";
+
+.menuLanguage--box {
+  display: block;
+  padding-bottom: 16px;
+  // z-index: 1;
+
+  ul {
+    display: block;
+    list-style: none;
+    margin-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    li {
+      display: block;
+      float: left;
+      margin-right: 16px;
+    }
+  }
+}

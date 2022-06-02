@@ -3,20 +3,18 @@
 .menuFooter--box {
   //   position: fixed;
   display: block;
-  padding: 16px;
-  z-index: 1;
+  height: auto;
+  // padding: 16px;
+  // z-index: 1;
 
   ul {
-    border-top: 2px solid $separator-color;
     list-style: none;
     margin-left: 0;
-    padding-top: 16px;
+    // padding-top: 16px;
     li {
+      display: block;
       float: left;
       padding-right: 16px;
     }
-    // li:nth-child(2) {
-    //   padding-right: 100px;
-    // }
   }
 }

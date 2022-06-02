@@ -1,14 +1,15 @@
-import React, { useEffect, useState } from "react"
+import * as React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import "../../sass/components/_navbarmenu.scss"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
+import Separator from "../Separator"
+// import Button from "../Button"
+// import { navigate } from "gatsby"
 import NavbarMenuFooter from "./NavbarMenuFooter"
+import NavbarMenuLanguageOptions from "./NavbarMenuLanguageOptions"
 
 const NavbarMenu = ({ open, setOpen }) => {
-  const breakpoints = useBreakpoint()
-
   const menuItemsJogaorak = [
     { link: "/orarend", label: "ÓRAREND" },
     { link: "/arak", label: "ÁRAK" },
@@ -40,9 +41,19 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/kapcsolat", label: "KAPCSOLAT" },
   ]
 
+  // const menuItemsFooter = [
+  //   { link: "/english", label: "ENGLISH" },
+  //   { link: "/english", label: "日本語" },
+  //   { link: "/mysore-program", label: "MYSORE PROGRAM" },
+  //   { link: "/tanfolyam", label: "TANFOLYAMOK" },
+  //   { link: "/orarend", label: "ÓRAREND" },
+  // ]
+
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
       <ul className="nav-links">
+        <NavbarMenuLanguageOptions />
+        <Separator />
         {menuGroupsFomenu.map(({ title, items }) => (
           <li className="nav-item dropdown" key={title}>
             <a
@@ -91,6 +102,25 @@ const NavbarMenu = ({ open, setOpen }) => {
             )}
           </Nav.Item>
         ))}
+        <Separator />
+        {/* {menuItemsFooter.map(({ link, label }) => (
+          <div className="menuFooter--box" key={label}>
+            <ul>
+              <li>
+                <Button
+                  type="button"
+                  buttonStyle="btn--mobil--secondary--outline--menu"
+                  buttonSize="btn--small"
+                  onClick={() => {
+                    navigate({ link })
+                  }}
+                >
+                  {label}
+                </Button>
+              </li>
+            </ul>
+          </div>
+        ))} */}
         <NavbarMenuFooter />
       </ul>
     </div>

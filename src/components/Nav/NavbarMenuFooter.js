@@ -6,10 +6,10 @@ import { navigate } from "gatsby"
 const NavbarMenuFooter = () => (
   <div className="menuFooter--box">
     <ul>
-      <li>
+      {/* <li>
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--outline--menu"
+          buttonStyle="btn--mobil--secondary--solid--menu"
           buttonSize="btn--small"
           onClick={() => {
             navigate("/english")
@@ -21,7 +21,7 @@ const NavbarMenuFooter = () => (
       <li>
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--outline--menu"
+          buttonStyle="btn--mobil--secondary--solid--menu"
           buttonSize="btn--small"
           onClick={() => {
             navigate("/english")
@@ -29,7 +29,7 @@ const NavbarMenuFooter = () => (
         >
           日本語
         </Button>
-      </li>
+      </li> */}
       <li>
         <Button
           type="button"
@@ -54,7 +54,6 @@ const NavbarMenuFooter = () => (
           TANFOLYAMOK
         </Button>
       </li>
-
       <li>
         {" "}
         <Button
