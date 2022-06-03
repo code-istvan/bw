@@ -7,7 +7,7 @@ import { Row, Col } from "react-bootstrap"
 // import "../sass/components/_kapcsolat.scss"
 // import { Helmet } from "react-helmet"
 // import { ElfsightWidget } from "react-elfsight-widget"
-import Calendar from "../components/Calendar"
+// import Calendar from "../components/Calendar"
 
 export default function Orarend() {
   return (
@@ -17,7 +17,7 @@ export default function Orarend() {
         <Col>
           <h1>ÓRAREND</h1>
           {/* <ElfsightWidget widgetID="elfsight-app-fb5099a3-5f9f-48b6-944a-44e4eaad58cf" /> */}
-          <Calendar />
+          {/* <Calendar /> */}
         </Col>
       </Row>
     </Layout>
