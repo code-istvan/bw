@@ -9,7 +9,17 @@ const NavbarMenuLanguageOptions = () => (
       <li>
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--solid--menu"
+          buttonStyle="btn--mobil--secondary--outline--menu--small"
+          buttonSize="btn--small"
+          onClick={() => {
+            navigate("/english")
+          }}
+        >
+          LOG_IN
+        </Button>
+        <Button
+          type="button"
+          buttonStyle="btn--mobil--secondary--outline--menu--small"
           buttonSize="btn--small"
           onClick={() => {
             navigate("/english")
@@ -21,7 +31,7 @@ const NavbarMenuLanguageOptions = () => (
       <li>
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--solid--menu"
+          buttonStyle="btn--mobil--secondary--outline--menu--small"
           buttonSize="btn--small"
           onClick={() => {
             navigate("/english")

@@ -66,13 +66,20 @@
   color: $primary-black-color;
 }
 
-.btn--mobil--secondary--solid--menu {
-  background-color: $primary-gray-color;
-  color: $primary-black-color;
-  // border-radius: 2px;
+.btn--mobil--secondary--outline--menu--small {
+  background-color: transparent;
+  color: $primary-gray-color;
+  border: 2px solid $primary-gray-color;
   padding: 12px !important;
   font-size: small !important;
   font-weight: 900 !important;
+  margin-right: 16px;
+}
+
+.btn--mobil--secondary--outline--menu--small:hover {
+  transform: translateY(0px);
+  background-color: $primary-gray-color;
+  color: $primary-black-color;
 }
 
 .btn--mobil--secondary--outline--menu {
