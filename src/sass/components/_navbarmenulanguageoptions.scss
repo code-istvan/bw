@@ -2,18 +2,21 @@
 
 .menuLanguage--box {
   display: block;
-  padding-bottom: 16px;
-  // z-index: 1;
+  height: auto;
 
   ul {
-    display: block;
     list-style: none;
     margin-left: 16px;
     padding-right: 16px;
-    padding-bottom: 12px;
+
     li {
       display: block;
       float: left;
     }
+  }
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+    margin: 16px;
   }
 }
