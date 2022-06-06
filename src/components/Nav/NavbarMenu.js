@@ -3,13 +3,13 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from "gatsby"
 import Nav from "react-bootstrap/Nav"
 import "../../sass/components/_navbarmenu.scss"
-import Separator from "../Separator"
-// import Button from "../Button"
-// import { navigate } from "gatsby"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import NavbarMenuFooter from "./NavbarMenuFooter"
 import NavbarMenuLanguageOptions from "./NavbarMenuLanguageOptions"
 
 const NavbarMenu = ({ open, setOpen }) => {
+  const breakpoints = useBreakpoint()
+
   const menuItemsJogaorak = [
     { link: "/orarend", label: "ÓRAREND" },
     { link: "/arak", label: "ÁRAK" },
@@ -52,8 +52,7 @@ const NavbarMenu = ({ open, setOpen }) => {
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
       <ul className="nav-links">
-        <NavbarMenuLanguageOptions />
-        <Separator />
+        {breakpoints.sm ? <NavbarMenuLanguageOptions /> : null}
         {menuGroupsFomenu.map(({ title, items }) => (
           <li className="nav-item dropdown" key={title}>
             <a
@@ -102,26 +101,7 @@ const NavbarMenu = ({ open, setOpen }) => {
             )}
           </Nav.Item>
         ))}
-        <Separator />
-        {/* {menuItemsFooter.map(({ link, label }) => (
-          <div className="menuFooter--box" key={label}>
-            <ul>
-              <li>
-                <Button
-                  type="button"
-                  buttonStyle="btn--mobil--secondary--outline--menu"
-                  buttonSize="btn--small"
-                  onClick={() => {
-                    navigate({ link })
-                  }}
-                >
-                  {label}
-                </Button>
-              </li>
-            </ul>
-          </div>
-        ))} */}
-        <NavbarMenuFooter />
+        {breakpoints.sm ? <NavbarMenuFooter /> : null}
       </ul>
     </div>
   )

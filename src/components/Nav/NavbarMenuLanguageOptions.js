@@ -2,6 +2,7 @@ import * as React from "react"
 import "../../sass/components/_navbarmenulanguageoptions.scss"
 import Button from "../Button"
 import { navigate } from "gatsby"
+import Separator from "../Separator"
 
 const NavbarMenuLanguageOptions = () => (
   <div className="menuLanguage--box">
@@ -12,11 +13,13 @@ const NavbarMenuLanguageOptions = () => (
           buttonStyle="btn--mobil--secondary--outline--menu--small"
           buttonSize="btn--small"
           onClick={() => {
-            navigate("/english")
+            navigate("/admin")
           }}
         >
           LOG_IN
         </Button>
+      </li>
+      <li>
         <Button
           type="button"
           buttonStyle="btn--mobil--secondary--outline--menu--small"
@@ -40,8 +43,9 @@ const NavbarMenuLanguageOptions = () => (
           日本語
         </Button>
       </li>
-      <br />
     </ul>
+    <br /> <br />
+    <hr className="solid"></hr>
   </div>
 )
 

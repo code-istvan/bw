@@ -1,20 +1,22 @@
 @import "/src/sass/global";
 
 .menuFooter--box {
-  //   position: fixed;
   display: block;
   height: auto;
-  // padding: 16px;
-  // z-index: 1;
 
   ul {
     list-style: none;
-    margin-left: 0;
-    // padding-top: 16px;
+    margin-left: 16px;
+    padding-right: 16px;
+
     li {
       display: block;
       float: left;
-      padding-right: 16px;
     }
+  }
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+    margin: 16px;
   }
 }

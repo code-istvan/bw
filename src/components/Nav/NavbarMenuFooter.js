@@ -2,9 +2,11 @@ import * as React from "react"
 import "../../sass/components/_navbarmenufooter.scss"
 import Button from "../Button"
 import { navigate } from "gatsby"
+import Separator from "../Separator"
 
 const NavbarMenuFooter = () => (
   <div className="menuFooter--box">
+    <hr className="solid"></hr>
     <ul>
       {/* <li>
         <Button
@@ -30,6 +32,7 @@ const NavbarMenuFooter = () => (
           日本語
         </Button>
       </li> */}
+      {/* <Separator /> */}
       <li>
         <Button
           type="button"
