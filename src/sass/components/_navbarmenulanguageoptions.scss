@@ -15,8 +15,10 @@
     }
   }
 
-  hr.solid {
-    border-top: 3px solid #bbb;
-    margin: 16px;
+  @media only screen and (min-width: 1px) and (max-width: 720px) {
+    hr.solid {
+      border-top: 3px solid #bbb;
+      margin: 16px;
+    }
   }
 }

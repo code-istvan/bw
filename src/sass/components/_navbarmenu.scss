@@ -22,13 +22,6 @@
     width: 100%;
     display: block;
     position: fixed;
-    // padding-top: 60px !important;
-    // clip-path: circle(15px at 98% -22%);
-    // -webkit-clip-path: circle(15px at 98% -22%);
-
-    // @include mobil-menu-fonts;
-
-    // visibility: visible;
     opacity: 1;
     pointer-events: auto;
     clip-path: circle(1500px at 93% -40%);
@@ -54,14 +47,11 @@
     height: 100%;
     width: 100%;
     flex-direction: column;
-    // z-index: 1;
     top: 0;
     left: 0;
     right: 0;
     margin-left: 0;
-    // text-align: right;
     padding-top: 100px; //Zoli ez igy jó???
-    // position: relative;
     z-index: 1;
     overflow-y: scroll;
 
@@ -174,20 +164,17 @@
     position: fixed;
     overflow-x: hidden;
     padding-top: 60px;
-
-    // clip-path: circle(15px at 100% -1%);
-    // -webkit-clip-path: circle(15px at 100% -1%);
     @include desktop-menu-fonts;
-    // z-index: 2;
 
-    #navbarDropdown {
-      pointer-events: none;
-    }
+    // #navbarDropdown {
+    //   pointer-events: none;
+    // }
 
     & > ul {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: masonry;
+      // grid-template-rows: masonry;
+      grid-template-rows: 30px 30px 30px 30px 30px;
       gap: 50px;
 
       & > li {
@@ -198,7 +185,7 @@
         &:nth-child(n + 3) {
           grid-column-start: 4;
           grid-column-end: 5;
-          block-size: 100px;
+          block-size: 40px;
           grid-row-start: auto;
           grid-row-end: auto;
         }
@@ -232,7 +219,7 @@
 
     .dropdown-item:hover {
       text-decoration-line: underline;
-      text-decoration-color: white;
+      text-decoration-color: $primary-orange-color;
       text-decoration-thickness: 3px;
     }
 
@@ -274,9 +261,24 @@
 
     &:hover {
       text-decoration-line: underline;
-      text-decoration-color: white;
+      text-decoration-color: $primary-orange-color;
       text-decoration-thickness: 4px;
     }
+  }
+
+  // #navbarDropdown:hover {
+  //   background-color: red;
+  //   text-decoration-line: none;
+  //   cursor: default;
+
+  //   .dropdown-item {
+  //     color: red !important;
+  //   }
+  // }
+
+  #navbarDropdown {
+    text-decoration-line: none;
+    cursor: default;
   }
 
   // submenu box
@@ -311,13 +313,11 @@
     border-radius: 0;
     position: relative !important;
     transform: none !important;
-    // text-align: right;
 
     &.show {
       max-height: 400px;
       opacity: 1;
       visibility: visible;
-      // padding-right: 40px;
     }
     .nav-item {
       margin: 0;

@@ -41,14 +41,6 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/kapcsolat", label: "KAPCSOLAT" },
   ]
 
-  // const menuItemsFooter = [
-  //   { link: "/english", label: "ENGLISH" },
-  //   { link: "/english", label: "日本語" },
-  //   { link: "/mysore-program", label: "MYSORE PROGRAM" },
-  //   { link: "/tanfolyam", label: "TANFOLYAMOK" },
-  //   { link: "/orarend", label: "ÓRAREND" },
-  // ]
-
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
       <ul className="nav-links">
@@ -101,6 +93,9 @@ const NavbarMenu = ({ open, setOpen }) => {
             )}
           </Nav.Item>
         ))}
+        <li className="nav-item">
+          {breakpoints.sm ? null : <NavbarMenuLanguageOptions />}
+        </li>
         {breakpoints.sm ? <NavbarMenuFooter /> : null}
       </ul>
     </div>
