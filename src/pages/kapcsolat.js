@@ -75,6 +75,12 @@ export default function Kapcsolat() {
 
           <Row>
             <Col className="d-grid gap-2 contact_checkbox">
+              <label className="form-control">
+                <input type="checkbox" name="checkbox" required />
+                Megismertem és elfogadom az
+                <Link href="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
+                hozzájárulok e-mail címem kezeléséhez.
+              </label>
               <Button
                 type="submit"
                 buttonStyle="btn--mobil--secondary--solid"
@@ -82,13 +88,6 @@ export default function Kapcsolat() {
               >
                 KÜLDÉS
               </Button>
-
-              <label className="form-control">
-                <input type="checkbox" name="checkbox" required />
-                Megismertem és elfogadom az
-                <Link href="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
-                hozzájárulok e-mail címem kezeléséhez.
-              </label>
             </Col>
           </Row>
         </form>
