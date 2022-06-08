@@ -2,7 +2,6 @@ import * as React from "react"
 import "../../sass/components/_navbarmenulanguageoptions.scss"
 import Button from "../Button"
 import { navigate } from "gatsby"
-import Separator from "../Separator"
 
 const NavbarMenuLanguageOptions = () => (
   <div className="menuLanguage--box">
@@ -37,12 +36,37 @@ const NavbarMenuLanguageOptions = () => (
           buttonStyle="btn--mobil--secondary--outline--menu--small"
           buttonSize="btn--small"
           onClick={() => {
+            navigate("/mysore-program")
+          }}
+        >
+          MYSORE PROGRAM
+        </Button>
+      </li>
+      <li>
+        <Button
+          type="button"
+          buttonStyle="btn--mobil--secondary--outline--menu--small"
+          buttonSize="btn--small"
+          onClick={() => {
+            navigate("/tanfolyam")
+          }}
+        >
+          TANFOLYAMOK
+        </Button>
+      </li>
+
+      {/* <li>
+        <Button
+          type="button"
+          buttonStyle="btn--mobil--secondary--outline--menu--small"
+          buttonSize="btn--small"
+          onClick={() => {
             navigate("/english")
           }}
         >
           日本語
         </Button>
-      </li>
+      </li> */}
     </ul>
     <br /> <br />
     <hr className="solid"></hr>

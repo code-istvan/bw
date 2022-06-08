@@ -2,41 +2,15 @@ import * as React from "react"
 import "../../sass/components/_navbarmenufooter.scss"
 import Button from "../Button"
 import { navigate } from "gatsby"
-import Separator from "../Separator"
 
 const NavbarMenuFooter = () => (
   <div className="menuFooter--box">
     <hr className="solid"></hr>
     <ul>
-      {/* <li>
-        <Button
-          type="button"
-          buttonStyle="btn--mobil--secondary--solid--menu"
-          buttonSize="btn--small"
-          onClick={() => {
-            navigate("/english")
-          }}
-        >
-          ENGLISH
-        </Button>
-      </li>
       <li>
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--solid--menu"
-          buttonSize="btn--small"
-          onClick={() => {
-            navigate("/english")
-          }}
-        >
-          日本語
-        </Button>
-      </li> */}
-      {/* <Separator /> */}
-      <li>
-        <Button
-          type="button"
-          buttonStyle="btn--mobil--secondary--outline--menu"
+          buttonStyle="btn--mobil--secondary--outline--menu--small"
           buttonSize="btn--small"
           onClick={() => {
             navigate("/mysore-program")
@@ -48,7 +22,7 @@ const NavbarMenuFooter = () => (
       <li>
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--outline--menu"
+          buttonStyle="btn--mobil--secondary--outline--menu--small"
           buttonSize="btn--small"
           onClick={() => {
             navigate("/tanfolyam")
@@ -61,7 +35,7 @@ const NavbarMenuFooter = () => (
         {" "}
         <Button
           type="button"
-          buttonStyle="btn--mobil--secondary--outline--menu"
+          buttonStyle="btn--mobil--secondary--outline--menu--small"
           buttonSize="btn--small"
           onClick={() => {
             navigate("/orarend")
