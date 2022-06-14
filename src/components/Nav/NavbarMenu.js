@@ -44,7 +44,7 @@ const NavbarMenu = ({ open, setOpen }) => {
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
       <ul className="nav-links">
-        {breakpoints.sm ? <NavbarMenuLanguageOptions /> : null}
+        {breakpoints.md ? <NavbarMenuLanguageOptions /> : null}
         {menuGroupsFomenu.map(({ title, items }) => (
           <li className="nav-item dropdown" key={title}>
             <a
@@ -94,9 +94,9 @@ const NavbarMenu = ({ open, setOpen }) => {
           </Nav.Item>
         ))}
         <li className="nav-item">
-          {breakpoints.sm ? null : <NavbarMenuLanguageOptions />}
+          {breakpoints.md ? null : <NavbarMenuLanguageOptions />}
         </li>
-        {breakpoints.sm ? <NavbarMenuFooter /> : null}
+        {breakpoints.md ? <NavbarMenuFooter /> : null}
       </ul>
     </div>
   )

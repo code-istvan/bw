@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
-import "../../sass/components/_navbartablet.scss"
+// import "../../sass/components/_navbartablet.scss"
 import LogoBW from "./LogoBW"
 import LogoBWtext from "./LogoBWtext"
 import NavbarMenu from "./NavbarMenu"
@@ -11,7 +11,7 @@ export default function NavbarDesktop() {
 
   const menuOpenHandler = () => {
     setMenuOpen(!menuOpen)
-    //props.setIsMenuOpened(!menuOpen)
+    // props.setIsMenuOpened(!menuOpen)
   }
 
   return (

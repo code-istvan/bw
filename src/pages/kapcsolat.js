@@ -51,7 +51,7 @@ export default function Kapcsolat() {
             <input name="bot-field" />
           </div>
           <Row>
-            <Col md={6}>
+            <Col md={4}>
               <input type="text" name="name" placeholder="Név" required />
               <br />
               <input
@@ -62,7 +62,7 @@ export default function Kapcsolat() {
                 required
               />
             </Col>
-            <Col md={6}>
+            <Col md={8}>
               <textarea
                 className="kapcsolat__textarea"
                 name="comments"
@@ -81,6 +81,11 @@ export default function Kapcsolat() {
                 <Link href="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
                 hozzájárulok e-mail címem kezeléséhez.
               </label>
+            </Col>
+          </Row>
+          <br />
+          <Row>
+            <Col md={4}>
               <Button
                 type="submit"
                 buttonStyle="btn--mobil--secondary--solid"

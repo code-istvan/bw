@@ -1,15 +1,16 @@
 import * as React from "react"
 import FooterMobil from "./FooterMobil"
 import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Container"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
+// import Row from "react-bootstrap/Container"
+// import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 const Footer = () => {
-  const breakpoints = useBreakpoint()
+  // const breakpoints = useBreakpoint()
 
   return (
     <Container fluid>
-      {breakpoints.md ? <FooterMobil /> : <FooterMobil />}
+      {/* {breakpoints.md ? <FooterMobil /> : <FooterMobil />} */}
+      <FooterMobil />
     </Container>
   )
 }

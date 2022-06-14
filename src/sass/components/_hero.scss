@@ -11,7 +11,7 @@
   z-index: -1;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 721px) {
   .hero_tablet,
   .hero_mobil {
     display: none !important;
@@ -73,12 +73,12 @@
   }
 }
 
-@media only screen and (min-width: 721px) and (max-width: 1024px) {
-  .hero_mobil,
-  .hero_desktop {
-    display: none !important;
-  }
-}
+// @media only screen and (min-width: 721px) and (max-width: 1024px) {
+//   .hero_mobil,
+//   .hero_desktop {
+//     display: none !important;
+//   }
+// }
 
 @media only screen and (min-width: 1px) and (max-width: 720px) {
   .hero_tablet,

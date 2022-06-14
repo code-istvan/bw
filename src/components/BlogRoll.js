@@ -32,7 +32,7 @@ function BlogRoll({ count }) {
                   image={image}
                   className="blog__thumbnail"
                   alt={post.frontmatter.title}
-                  aspectRatio={4 / 3}
+                  aspectratio={4 / 3}
                 />
                 <div className="card-body">
                   <h5 className="card-title">{title}</h5>
@@ -41,7 +41,7 @@ function BlogRoll({ count }) {
                   <p className="card-text">{post.frontmatter.description}</p>
                   <Link
                     to={`/blog/${post.slug}`}
-                    isCurrent={true}
+                    iscurrent="true"
                     className={"btn btn-primary"}
                   >
                     Olvasd tovább
