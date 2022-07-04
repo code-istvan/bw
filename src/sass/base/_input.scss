@@ -12,8 +12,8 @@ input[type="text"] {
   font-weight: bold;
 
   &:focus {
-    border: 2px solid $primary-orange-color;
-    color: $primary-orange-color;
+    border: 2px solid $color-primary-orange;
+    color: $color-primary-orange;
     border-radius: none !important;
   }
 }
@@ -32,14 +32,14 @@ input[type="email"] {
   font-weight: bold;
 
   &:focus {
-    border: 2px solid $primary-orange-color;
-    color: $primary-orange-color;
+    border: 2px solid $color-primary-orange;
+    color: $color-primary-orange;
     border-radius: none !important;
   }
 }
 
 // input:focus {
-//   border: 2px solid $primary-orange-color;
+//   border: 2px solid $color-primary-orange;
 // }
 
 textarea {
@@ -57,8 +57,8 @@ textarea {
   font-weight: bold;
 
   &:focus {
-    border: 2px solid $primary-orange-color;
-    color: $primary-orange-color;
+    border: 2px solid $color-primary-orange;
+    color: $color-primary-orange;
     border-radius: none !important;
   }
 }

@@ -25,7 +25,7 @@
     height: 1.2em;
     transform: scale(0);
     transition: 100ms transform ease-in-out;
-    background-color: $primary-orange-color;
+    background-color: $color-primary-orange;
 
     transform-origin: center;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);

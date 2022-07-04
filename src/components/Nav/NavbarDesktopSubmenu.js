@@ -1,20 +1,21 @@
 import * as React from "react"
-import "../../sass/components/_navbarmenufooter.scss"
+import "../../sass/components/_navbarmenulanguageoptions.scss"
 import Button from "../Button"
 import { navigate } from "gatsby"
 
-const NavbarMenuFooter = () => {
-  const menuItemsFooter = [
+const NavbarDesktopSubmenu = () => {
+  const desktopSubmenuItems = [
+    { link: "/admin", label: "LOG_IN" },
+    { link: "/english", label: "ENGLISH" },
+    // { link: "/english", label: "日本語" },
     { link: "/mysore-program", label: "MYSORE PROGRAM" },
     { link: "/tanfolyam", label: "TANFOLYAMOK" },
-    { link: "/orarend", label: "ÓRAREND" },
   ]
 
   return (
-    <div className="menuFooter--box">
-      <hr className="solid"></hr>
+    <div className="menuLanguage--box">
       <ul>
-        {menuItemsFooter.map(({ label, link }) => (
+        {desktopSubmenuItems.map(({ label, link }) => (
           <li key={label}>
             <Button
               type="button"
@@ -29,8 +30,10 @@ const NavbarMenuFooter = () => {
           </li>
         ))}
       </ul>
+      <br /> <br />
+      <hr className="solid"></hr>
     </div>
   )
 }
 
-export default NavbarMenuFooter
+export default NavbarDesktopSubmenu

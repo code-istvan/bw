@@ -1,2 +1,20 @@
+@each $color, $shades in $colors {
+  @each $shade, $value in $shades {
+    //text color classes
+    .clr-#{$color}-#{$shade} {
+      color: $value;
+    }
+    //background color classes
+    .bg-#{$color}-#{$shade} {
+      background-color: $value;
+    }
+  }
+}
 
-
+:root {
+  @each $color, $shades in $colors {
+    @each $shade, $value in $shades {
+      #{$color}-#{$shade}: #{$value};
+    }
+  }
+}

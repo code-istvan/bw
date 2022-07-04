@@ -255,7 +255,7 @@
 
     &:hover {
       text-decoration-line: underline;
-      text-decoration-color: $primary-orange-color;
+      text-decoration-color: $color-primary-orange;
       text-decoration-thickness: 6px;
     }
   }
@@ -293,7 +293,7 @@
 
   .dropdown-item:hover {
     text-decoration-line: underline;
-    text-decoration-color: $primary-orange-color;
+    text-decoration-color: $color-primary-orange;
     text-decoration-thickness: 5px;
   }
 

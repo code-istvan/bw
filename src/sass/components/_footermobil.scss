@@ -5,7 +5,7 @@
   margin-top: 30px;
   a:link {
     text-decoration: none;
-    color: $primary-orange-color;
+    color: $color-primary-orange;
   }
 }
 
@@ -29,6 +29,6 @@
   }
 
   svg:hover {
-    fill: $primary-orange-color;
+    fill: $color-primary-orange;
   }
 }

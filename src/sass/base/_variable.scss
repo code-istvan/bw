@@ -1,7 +1,22 @@
 // colors
-// $primary-background-color: #333333;
+
+$colors: (
+  primary: (
+    "orange": hsl(37.3, 90.4%, 51.2%),
+    "black": hsl(0, 0%, 0%),
+  ),
+  shades: (
+    "lightBlack": hsl(240, 10%, 30%),
+    "darkGray": hsl(0, 0%, 90%),
+    "white": hsl(0, 0%, 100%),
+  ),
+  flag: (
+    "notify": red,
+  ),
+);
+
 $primary-background-color: #000000;
-$primary-orange-color: #f39e12;
+$color-primary-orange: hsl(37.3, 90.4%, 51.2%);
 $primary-black-color: #000000;
 $secondery-black-color: #333333;
 $offcanvas-menu-color: rgba(0, 0, 0, 1);
@@ -9,7 +24,6 @@ $primary-white-color: #ffffff;
 $primary-gray-color: hsl(0, 0%, 90%);
 $bw-logo-color: hsl(0, 0%, 90%);
 $separator-color: rgba(255, 255, 255, 0.3);
-// $navbar-scrolled-background-color: rgba(50, 50, 50, 0.72);
 $navbar-scrolled-background-color: #000000;
 
 // font size

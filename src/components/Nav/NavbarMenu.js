@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav"
 import "../../sass/components/_navbarmenu.scss"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import NavbarMenuFooter from "./NavbarMenuFooter"
-import NavbarMenuLanguageOptions from "./NavbarMenuLanguageOptions"
+import NavbarDesktopSubmenu from "./NavbarDesktopSubmenu"
 
 const NavbarMenu = ({ open, setOpen }) => {
   const breakpoints = useBreakpoint()
@@ -44,7 +44,7 @@ const NavbarMenu = ({ open, setOpen }) => {
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
       <ul className="nav-links">
-        {breakpoints.md ? <NavbarMenuLanguageOptions /> : null}
+        {breakpoints.md ? <NavbarDesktopSubmenu /> : null}
         {menuGroupsFomenu.map(({ title, items }) => (
           <li className="nav-item dropdown" key={title}>
             <a
@@ -94,7 +94,7 @@ const NavbarMenu = ({ open, setOpen }) => {
           </Nav.Item>
         ))}
         <li className="nav-item">
-          {breakpoints.md ? null : <NavbarMenuLanguageOptions />}
+          {breakpoints.md ? null : <NavbarDesktopSubmenu />}
         </li>
         {breakpoints.md ? <NavbarMenuFooter /> : null}
       </ul>
