@@ -1,5 +1,4 @@
 // colors
-
 $colors: (
   primary: (
     "orange": hsl(37.3, 90.4%, 51.2%),
@@ -22,7 +21,7 @@ $secondery-black-color: #333333;
 $offcanvas-menu-color: rgba(0, 0, 0, 1);
 $primary-white-color: #ffffff;
 $primary-gray-color: hsl(0, 0%, 90%);
-$bw-logo-color: hsl(0, 0%, 90%);
+$logo-color-primary: $primary-gray-color;
 $separator-color: rgba(255, 255, 255, 0.3);
 $navbar-scrolled-background-color: #000000;
 
