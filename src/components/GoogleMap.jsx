@@ -14,7 +14,7 @@ const defaultProps = {
 const AnyReactComponent = ({ text }) => <div>{text}</div>
 
 const GoogleMap = () => (
-  <div style={{ height: "30vh", width: "100%" }}>
+  <div className="googleMap__box">
     <GoogleMapReact
       bootstrapURLKeys={{ key: process.env.GATSBY_GOOGLE_MAP }}
       defaultCenter={defaultProps.center}

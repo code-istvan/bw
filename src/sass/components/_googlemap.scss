@@ -1,4 +1,13 @@
-GoogleMap__size {
-    height: 30vh; 
-    width: 100%;
+.googleMap__box {
+  width: 100%;
+  margin-top: 60px;
+  display: block;
+
+  @media only screen and (min-width: 721px) {
+    height: 30vw;
+  }
+
+  @media only screen and (min-width: 1px) and (max-width: 720px) {
+    height: 100vw;
+  }
 }
