@@ -44,7 +44,6 @@ export default function Kapcsolat() {
           action="/mantra"
           method="post"
           data-netlify="true"
-          onSubmit="submit"
           data-netlify-honeypot="bot-field"
         >
           <input type="hidden" name="form-name" value="contact bandhaworks" />
@@ -79,7 +78,7 @@ export default function Kapcsolat() {
               <label className="form-control">
                 <input type="checkbox" name="checkbox" required />
                 Megismertem és elfogadom az
-                <Link href="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
+                <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
                 hozzájárulok e-mail címem kezeléséhez.
               </label>
             </Col>

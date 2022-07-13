@@ -20,11 +20,7 @@ const GoogleMap = () => (
       defaultCenter={defaultProps.center}
       defaultZoom={defaultProps.zoom}
     >
-      <AnyReactComponent
-        lat={47.51311}
-        lng={19.037728}
-        text={"Kreyser Avrora"}
-      />
+      <AnyReactComponent lat={47.51311} lng={19.037728} text={"Bandha Works"} />
     </GoogleMapReact>
   </div>
 )
