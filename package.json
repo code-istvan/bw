@@ -9,6 +9,7 @@
     "@mdx-js/react": "^1.6.22",
     "@mediacurrent/gatsby-plugin-silence-css-order-warning": "^1.0.0",
     "@netlify/plugin-gatsby": "^3.0.0",
+    "@react-google-maps/api": "^2.12.0",
     "babel-plugin-styled-components": "^2.0.7",
     "bootstrap": "^5.1.3",
     "gatsby": "4.14.1",
