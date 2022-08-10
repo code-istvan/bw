@@ -14,18 +14,28 @@ $colors: (
   ),
 );
 
-$primary-background-color: #000000;
+// Colors
 $color-primary-orange: hsl(37.3, 90.4%, 51.2%);
-$primary-black-color: #000000;
-$secondery-black-color: #333333;
+$color-primary-black: #000000;
+$color-primary-white: #ffffff;
+$color-primary-gray: hsl(0, 0%, 90%);
+$color-secondery-black: #333333;
+
 $offcanvas-menu-color: rgba(0, 0, 0, 1);
-$primary-white-color: #ffffff;
-$primary-gray-color: hsl(0, 0%, 90%);
-$logo-color-primary: $primary-gray-color;
+$logo-color-primary: $color-primary-gray;
 $separator-color: rgba(255, 255, 255, 0.3);
-$navbar-scrolled-background-color: #000000;
+$navbar-scrolled-background-color: $color-primary-black;
+$primary-background-color: $color-primary-black;
 
 // font size
 
 // Items positions
 $navbar-items-margin: 16px;
+
+// Spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// Borders
+$base-border-thickness: 1px;
+$base-border-radius: 4px;

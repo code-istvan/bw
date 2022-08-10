@@ -3,12 +3,12 @@ input[type="text"] {
   height: 2rem;
   margin-bottom: 0.3rem;
   border-radius: none !important;
-  border: solid 1px $primary-gray-color;
+  border: solid 1px $color-primary-gray;
   background: transparent;
   padding-left: 8px;
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
-  color: $primary-gray-color;
+  color: $color-primary-gray;
   font-weight: bold;
 
   &:focus {
@@ -22,13 +22,13 @@ input[type="email"] {
   width: 100%;
   height: 2rem;
   margin-bottom: 0.3rem;
-  border: solid 1px $primary-gray-color;
+  border: solid 1px $color-primary-gray;
   border-radius: none !important;
   background: transparent;
   padding-left: 8px;
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
-  color: $primary-gray-color;
+  color: $color-primary-gray;
   font-weight: bold;
 
   &:focus {
@@ -46,14 +46,14 @@ textarea {
   width: 100%;
   height: 4.3rem;
   margin-bottom: 0.3rem;
-  border: solid 1px $primary-gray-color;
+  border: solid 1px $color-primary-gray;
   border-radius: none !important;
   background: transparent;
   padding-top: 4px;
   padding-left: 8px;
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
-  color: $primary-gray-color;
+  color: $color-primary-gray;
   font-weight: bold;
 
   &:focus {
