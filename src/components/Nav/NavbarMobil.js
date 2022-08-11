@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
-import "bootstrap/dist/css/bootstrap.min.css"
+// import "bootstrap/dist/css/bootstrap.min.css"
 import "../../sass/components/_navbarmobil.scss"
 import LogoBW from "./LogoBW"
 import LogoBWtext from "./LogoBWtext"

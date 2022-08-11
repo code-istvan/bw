@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Row, Col } from "react-bootstrap"
 // import "../sass/components/card-hover.scss"
 import "../sass/components/_blog.scss"
 // import "../sass/components/card-hover.scss"
@@ -19,14 +18,14 @@ function BlogRoll({ count }) {
   }
 
   return (
-    <Row>
+    <div className="row">
       {posts &&
         posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
           const image = getImage(post.frontmatter.thumbnail)
 
           return (
-            <Col md={6} lg={4}>
+            <div className="col-md-6 col-lg-4">
               <div className="card card-hover" key={post.slug}>
                 <GatsbyImage
                   image={image}
@@ -49,10 +48,10 @@ function BlogRoll({ count }) {
                 </div>
               </div>
               <br />
-            </Col>
+            </div>
           )
         })}
-    </Row>
+    </div>
   )
 }
 

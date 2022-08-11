@@ -1,7 +1,5 @@
 import React from "react"
-import "bootstrap/dist/css/bootstrap.min.css"
 import "../../sass/components/_footermobil.scss"
-import Container from "react-bootstrap/Container"
 import { Row, Col } from "react-bootstrap"
 // import { StaticImage } from "gatsby-plugin-image"
 import LogoFullBW from "../LogoFullBW"
@@ -16,7 +14,7 @@ import { navigate } from "gatsby"
 
 export default function FooterMobil() {
   return (
-    <Container className="footer">
+    <div className="container footer">
       <Row>
         <Col>
           <LogoFullBW />
@@ -79,6 +77,6 @@ export default function FooterMobil() {
         Designed by <br />
         <a href="https://omworks.hu">OMWORKS YOGA CREATIVES</a>
       </p>
-    </Container>
+    </div>
   )
 }

@@ -1,8 +1,7 @@
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import React from "react"
-import { Row, Col } from "react-bootstrap"
-import Container from "react-bootstrap/Container"
+import { Col } from "react-bootstrap"
 import Button from "react-bootstrap/Button"
 import LayoutBlog from "../layoutBlog"
 import AuthorIcon from "../Icons/AuthorIcon"
@@ -20,14 +19,14 @@ const blogPosts = ({ data }) => {
 
   return (
     <LayoutBlog>
-      <Container>
+      <div className="container">
         <Seo
           title={frontmatter.title}
           description={frontmatter.description}
           thumbnail={src}
         />
-        <Row className="blogPosts__card">
-          <Col md={{ span: 8, offset: 2 }} className="blogPost__backgrondColor">
+        <div className="row blogPosts__card">
+          <div className="col blogPost__backgrondColor">
             <h2>{frontmatter.title}</h2>
             <ul>
               {" "}
@@ -55,9 +54,9 @@ const blogPosts = ({ data }) => {
               Vissza
             </Button>
             <br /> <br />
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+      </div>
     </LayoutBlog>
   )
 }

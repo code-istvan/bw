@@ -1,17 +1,15 @@
 import * as React from "react"
 import FooterMobil from "./FooterMobil"
-import Container from "react-bootstrap/Container"
-// import Row from "react-bootstrap/Container"
 // import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 const Footer = () => {
   // const breakpoints = useBreakpoint()
 
   return (
-    <Container fluid>
+    <div className="container fluid">
       {/* {breakpoints.md ? <FooterMobil /> : <FooterMobil />} */}
       <FooterMobil />
-    </Container>
+    </div>
   )
 }
 
@@ -20,5 +18,5 @@ export default Footer
 // when the desktop menu is ready
 
 {
-  /* <Row>{breakpoints.md ? <NavbarMobil /> : <NavbarDesktop />}</Row> */
+  /* <div className="row">{breakpoints.md ? <NavbarMobil /> : <NavbarDesktop />}</div> */
 }
