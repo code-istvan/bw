@@ -2,22 +2,16 @@ import React from "react"
 import "../../sass/components/_footermobil.scss"
 import { Row, Col } from "react-bootstrap"
 // import { StaticImage } from "gatsby-plugin-image"
-import LogoFullBW from "../LogoFullBW"
-import FacebookIcon from "../Icons/FacebookIcon"
-import InstagramIcon from "../Icons/InstagramIcon"
-import MessengerIcon from "../Icons/MessengerIcon"
-import TelegramIcon from "../Icons/TelegramIcon"
-import SoundcloudIcon from "../Icons/SoundcloudIcon"
-import TwitterIcon from "../Icons/TwitterIcon"
 import Button from "../Button"
+import Icon from "../Icons/Icon"
 import { navigate } from "gatsby"
 
 export default function FooterMobil() {
   return (
     <div className="container footer">
       <Row>
-        <Col>
-          <LogoFullBW />
+        <Col className="mt-4 mb-4">
+          <Icon.Logo />
         </Col>
       </Row>
       <Row>
@@ -49,12 +43,12 @@ export default function FooterMobil() {
           <p>
             <strong>KÖZÖSSÉG</strong>
           </p>
-          <FacebookIcon url="https://www.facebook.com/nyolcag" />
-          <InstagramIcon url="https://www.instagram.com/bandhaworks/" />
-          <SoundcloudIcon url="https://soundcloud.com/bandhaworks-hu/" />
-          <TwitterIcon url="https://twitter.com/IstvnSzalai5/" />
-          <MessengerIcon url="http://m.me/bandhawork" />
-          <TelegramIcon url="https://t.me/@istvan108" />
+          <Icon.Facebook url="https://www.facebook.com/bandhaworks" />
+          <Icon.Instagram url="https://www.instagram.com/bandhaworks/" />
+          <Icon.Twitter url="https://twitter.com/IstvnSzalai5/" />
+          <Icon.Soundcloud url="https://soundcloud.com/bandhaworks-hu/" />
+          <Icon.Messenger url="http://m.me/bandhawork" />
+          <Icon.Telegram url="https://t.me/@istvan108" />
         </Col>
       </Row>
       <Row>
