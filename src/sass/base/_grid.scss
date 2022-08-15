@@ -23,6 +23,15 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
   flex-flow: row wrap;
 }
 
+.container-fluid {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
 //grid gaps
 @each $key, $val in $grid-gaps {
   .gap-#{$key} > * {

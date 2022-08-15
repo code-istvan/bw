@@ -5,17 +5,14 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Button from "../components/Button"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 import "../sass/pages/_index.scss"
 import { navigate } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="FŐOLDAL" />
-    <Row>
-      <Col>
-        {" "}
+    <div className="row">
+      <div className="col">
         <Button
           type="button"
           buttonStyle="btn--mobil--primary--solid"
@@ -26,9 +23,8 @@ const IndexPage = () => (
         >
           TANFOLYAMOK
         </Button>
-      </Col>
-      <Col>
-        {" "}
+      </div>
+      <div className="col">
         <Button
           type="button"
           buttonStyle="btn--mobil--primary--outline"
@@ -39,11 +35,10 @@ const IndexPage = () => (
         >
           ÓRAREND
         </Button>
-      </Col>
-    </Row>
-
-    <Row>
-      <Col>
+      </div>
+    </div>
+    <div className="row">
+      <div className="col">
         {/* <h1>FŐOLDAL</h1> */}
         <h1 className="scrolled">oh jógi ne végezz ászanát vinyásza nélkűl</h1>
         <p>
@@ -162,8 +157,8 @@ const IndexPage = () => (
         >
           Mobil PRIMARy
         </Button>
-      </Col>
-    </Row>
+      </div>
+    </div>
   </Layout>
 )
 

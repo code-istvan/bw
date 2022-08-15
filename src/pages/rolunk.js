@@ -1,8 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-// import Button from "react-bootstrap/Button"
-import { Row, Col } from "react-bootstrap"
 // import { Link } from "gatsby"
 // import "../sass/components/_kapcsolat.scss"
 
@@ -10,11 +8,16 @@ export default function Rolunk() {
   return (
     <Layout>
       <Seo title="RÓLUNK" />
-      <Row>
-        <Col>
-          <h1>RÓLUNK</h1>
-        </Col>
-      </Row>
+      <div className="row">
+        <h1>RÓLUNK</h1>
+        {/* <div className="container-fluid bg-primary-orange">
+            <div className="container">
+              <p>
+                mlorem5lorem5lorem5lorem5lorem5lorem5lorem5lorem5lorem5lorem5lorem5lorem5
+              </p>
+            </div>
+          </div> */}
+      </div>
     </Layout>
   )
 }

@@ -2,7 +2,6 @@ import * as React from "react"
 // import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Button from "../components/Button"
-import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
 import "../sass/components/_kapcsolat.scss"
 import GoogleMap from "../components/GoogleMap"
@@ -16,14 +15,14 @@ export default function Kapcsolat() {
       <Seo title="Kapcsolat" />
       <Navbar />
       <GoogleMap />
-      <Container>
-        <Row>
-          <Col>
+      <div className="container">
+        <div className="row">
+          <div className="col">
             <h1>Bandha Works Jógaiskola</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
             <address>
               <strong>1027. Budapest, Frankel Leó út. 18. </strong>
               <p>
@@ -31,13 +30,13 @@ export default function Kapcsolat() {
                 balra található barna ajtón tudsz lejönni hozzánk.
               </p>
             </address>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
             <h4>Üzenet</h4>
-          </Col>
-        </Row>
+          </div>
+        </div>
         <form
           name="contact bandhaworks"
           action="/mantra"
@@ -49,8 +48,8 @@ export default function Kapcsolat() {
           <div hidden>
             <input name="bot-field" />
           </div>
-          <Row>
-            <Col md={4}>
+          <div className="row">
+            <div className="col-4-md">
               <input type="text" name="name" placeholder="Név" required />
               <br />
               <input
@@ -60,8 +59,8 @@ export default function Kapcsolat() {
                 placeholder="E-mail"
                 required
               />
-            </Col>
-            <Col md={8}>
+            </div>
+            <div className="col-8-md">
               <textarea
                 className="kapcsolat__textarea"
                 name="comments"
@@ -69,22 +68,21 @@ export default function Kapcsolat() {
                 placeholder="Üzenet"
                 required
               ></textarea>
-            </Col>
-          </Row>
+            </div>
+          </div>
 
-          <Row>
-            <Col className="d-grid gap-2 contact_checkbox">
+          <div className="row">
+            <div className="col d-grid gap-2 contact_checkbox">
               <label className="form-control">
                 <input type="checkbox" name="checkbox" required />
                 Megismertem és elfogadom az
                 <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
                 hozzájárulok e-mail címem kezeléséhez.
               </label>
-            </Col>
-          </Row>
-          <br />
-          <Row>
-            <Col md={4}>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4-md">
               <Button
                 type="submit"
                 buttonStyle="btn--mobil--secondary--solid"
@@ -92,10 +90,10 @@ export default function Kapcsolat() {
               >
                 KÜLDÉS
               </Button>
-            </Col>
-          </Row>
+            </div>
+          </div>
         </form>
-      </Container>
+      </div>
       <Footer />
     </>
   )
