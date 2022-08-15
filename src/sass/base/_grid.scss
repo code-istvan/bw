@@ -17,7 +17,36 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+
+  @include xs {
+    max-width: map-get($container-max-widths, "xs");
+    padding: 0 14px;
+  }
+
+  @include sm {
+    max-width: map-get($container-max-widths, "sm");
+    padding: 0;
+  }
+
+  @include md {
+    max-width: map-get($container-max-widths, "md");
+    // padding: 0 21px;
+  }
+
+  @include lg {
+    max-width: map-get($container-max-widths, "lg");
+  }
+
+  @include xl {
+    max-width: map-get($container-max-widths, "xl");
+    // padding: 0 24px;
+  }
+
+  @include xxl {
+    max-width: map-get($container-max-widths, "xxl");
+  }
 }
+
 .row {
   display: flex;
   flex-flow: row wrap;
