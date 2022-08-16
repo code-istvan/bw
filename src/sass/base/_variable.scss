@@ -1,3 +1,5 @@
+@use "sass:math";
+
 // colors
 $colors: (
   primary: (
@@ -6,34 +8,91 @@ $colors: (
   ),
   shades: (
     "lightBlack": hsl(240, 10%, 30%),
-    "darkGray": hsl(0, 0%, 90%),
+    "darkGray": hsl(0, 0%, 26%),
+    "lightGray": hsl(0, 0%, 90%),
     "white": hsl(0, 0%, 100%),
   ),
   flag: (
-    "notify": red,
+    "notify": hsl(0, 79%, 63%),
   ),
 );
 
 // Colors
 $color-primary-orange: hsl(37.3, 90.4%, 51.2%);
-$color-primary-black: #000000;
-$color-primary-white: #ffffff;
-$color-primary-gray: hsl(0, 0%, 90%);
-$color-secondery-black: #333333;
+$color-primary-black: hsl(0, 0%, 0%);
+$color-shades-white: hsl(0, 0%, 100%);
+$color-shades-lightGray: hsl(0, 0%, 90%);
+$color-shades-darkGray: hsl(0, 0%, 26%);
+$color-shades-lightBlack: hsl(240, 10%, 30%);
 
 $offcanvas-menu-color: rgba(0, 0, 0, 1);
-$logo-color-primary: $color-primary-gray;
+$logo-color-primary: $color-shades-lightGray;
 $separator-color: rgba(255, 255, 255, 0.3);
 $navbar-scrolled-background-color: $color-primary-black;
 $primary-background-color: $color-primary-black;
 
-// font size
-$base-font-size: 1rem;
-$font-size-sm: $base-font-size * 0.75;
-$font-size-md: $base-font-size;
-$font-size-lg: $base-font-size * 1.5;
-$font-size-xl: $base-font-size * 2;
-$font-size-xxl: $base-font-size * 3;
+//FONTS
+
+// Font familis
+$font-family-primary: "Abril Fatface", cursive;
+$font-family-secondary: "Nunito Sans", sans-serif;
+
+// Weight
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-login-bold: 500;
+$font-weight-semi-bold: 600;
+
+//base font size
+$base-font-size-mobile: 14px;
+$base-font-size-tablet: 14px;
+$base-font-size-desktop: 16px;
+
+// Sizes
+$h1-font-size-mobile: 28px;
+$h1-font-size-tablet: 42px;
+$h1-font-size-desktop: 48px;
+$h2-font-size-mobile: 22px;
+$h2-font-size-tablet: 28px;
+$h2-font-size-desktop: 32px;
+$h3-font-size-mobile: 20px;
+$h3-font-size-desktop: 26px;
+$h4-font-size-mobile: 16px;
+$h4-font-size-desktop: 18px;
+$h5-font-size-mobile: 14px;
+$h5-font-size-desktop: 16px;
+$body-font-size-mobile: 16px;
+$body-font-size-desktop: 18px;
+$span-font-size-mobile: 13px;
+$span-font-size-desktop: 14px;
+$small-font-size-mobile: 14px;
+$small-font-size-desktop: 16px;
+
+@function fontSize($type, $device: "desktop") {
+  @return map-get(map-get($font-sizes, $type), $device);
+}
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 9992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+//font size
+// $base-font-size: 1rem;
+// $font-size-sm: $base-font-size * 0.75;
+// $font-size-md: $base-font-size;
+// $font-size-lg: $base-font-size * 1.5;
+// $font-size-xl: $base-font-size * 2;
+// $font-size-xxl: $base-font-size * 3;
 
 // Items positions
 $navbar-items-margin: 16px;

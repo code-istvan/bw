@@ -37,7 +37,7 @@
 }
 
 .btn--mobil--secondary--solid {
-  background-color: $color-primary-gray;
+  background-color: $color-shades-lightGray;
   color: $color-primary-black;
   // border-radius: 2px;
   padding: 4px !important;
@@ -45,7 +45,7 @@
 }
 
 .btn--mobil--secondary--solid--menu {
-  background-color: $color-primary-gray;
+  background-color: $color-shades-lightGray;
   color: $color-primary-black;
   // border-radius: 2px;
   padding: 4px !important;
@@ -55,21 +55,21 @@
 
 .btn--mobil--secondary--outline {
   background-color: transparent;
-  color: $color-primary-gray;
-  border: 2px solid $color-primary-gray;
+  color: $color-shades-lightGray;
+  border: 2px solid $color-shades-lightGray;
   width: 100%;
 }
 
 .btn--mobil--secondary--outline:hover {
   transform: translateY(0px);
-  background-color: $color-primary-gray;
+  background-color: $color-shades-lightGray;
   color: $color-primary-black;
 }
 
 .btn--mobil--secondary--outline--menu--small {
   background-color: transparent;
-  color: $color-primary-gray;
-  border: 2px solid $color-primary-gray;
+  color: $color-shades-lightGray;
+  border: 2px solid $color-shades-lightGray;
   padding: 12px !important;
   font-size: small !important;
   font-weight: 900 !important;
@@ -78,14 +78,14 @@
 
 .btn--mobil--secondary--outline--menu--small:hover {
   transform: translateY(0px);
-  background-color: $color-primary-gray;
+  background-color: $color-shades-lightGray;
   color: $color-primary-black;
 }
 
 .btn--mobil--secondary--outline--menu {
   background-color: transparent;
-  color: $color-primary-gray;
-  border: 2px solid $color-primary-gray;
+  color: $color-shades-lightGray;
+  border: 2px solid $color-shades-lightGray;
   font-size: large !important;
   font-weight: 900 !important;
   margin-right: 16px;
@@ -93,13 +93,13 @@
 
 .btn--mobil--secondary--outline--menu:hover {
   transform: translateY(0px);
-  background-color: $color-primary-gray;
+  background-color: $color-shades-lightGray;
   color: $color-primary-black;
 }
 
 .btn--primary--outline {
   background-color: transparent;
-  color: $color-primary-gray;
+  color: $color-shades-lightGray;
   border: 2px solid $color-primary-orange;
 }
 

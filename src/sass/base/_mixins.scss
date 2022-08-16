@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @mixin respond($breakpoint) {
   // Mobile Small
   @if $breakpoint == MS {
@@ -35,6 +37,55 @@
   }
 }
 
+// // Mixin that will include the fall back px declaration as well as the calculated rem value.
+@mixin fontSize($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin xs {
+  @media (min-width: map-get($grid-breakpoints, "xs")) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: map-get($grid-breakpoints, "sm")) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: map-get($grid-breakpoints, "md")) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: map-get($grid-breakpoints, "lg")) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: map-get($grid-breakpoints, "xl")) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media (min-width: map-get($grid-breakpoints, "xxl")) {
+    @content;
+  }
+}
+
+@mixin breakpoint($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+//ezeket a mixineket ki kell váltani!!! következő 3at
 @mixin mobil-menu-fonts {
   font-family: "Nunito Sans", sans-serif;
   font-size: x-large;
@@ -53,4 +104,20 @@
   font-weight: 600;
   text-transform: lowercase;
   color: white;
+}
+
+/**
+ * Convert font-size from px to rem with px fallback
+ *
+ * @param $size - the value in pixel you want to convert
+ *
+ * e.g. p {@include fontSize(12px);}
+ *
+ */
+
+// Function for converting a px based font-size to rem.
+@function calculateRem($base, $size) {
+  $remSize: #{math.div($size, $base)};
+  //Default font size on html element is 100%, equivalent to 16px;
+  @return #{$remSize}rem;
 }

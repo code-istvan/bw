@@ -3,10 +3,11 @@ import "../sass/components/_SnazzyGoogleMaps.scss"
 
 const SnazzyGoogleMap = () => (
   <>
-    <div className="map__box">
+    <div id="wcb" className="carbonbadge wcb-d">
       <iframe
         title="Map to Bandha Works"
-        src="https://snazzymaps.com/embed/360639"
+        src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js"
+        defer
       ></iframe>
     </div>
   </>

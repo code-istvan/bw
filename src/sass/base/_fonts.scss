@@ -1,43 +1,251 @@
+@use "sass:math";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
-p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: medium;
+$font-sizes: (
+  h1: (
+    desktop: calculateRem($base-font-size-desktop, $h1-font-size-desktop),
+    tablet: calculateRem($base-font-size-tablet, $h1-font-size-tablet),
+    mobile: calculateRem($base-font-size-mobile, $h1-font-size-mobile),
+  ),
+  h2: (
+    desktop: calculateRem($base-font-size-desktop, $h2-font-size-desktop),
+    tablet: calculateRem($base-font-size-tablet, $h2-font-size-tablet),
+    mobile: calculateRem($base-font-size-mobile, $h2-font-size-mobile),
+  ),
+  h3: (
+    desktop: calculateRem($base-font-size-desktop, $h3-font-size-desktop),
+    tablet: calculateRem($base-font-size-tablet, $h3-font-size-mobile),
+    mobile: calculateRem($base-font-size-mobile, $h3-font-size-mobile),
+  ),
+  h4: (
+    desktop: calculateRem($base-font-size-desktop, $h4-font-size-desktop),
+    tablet: calculateRem($base-font-size-tablet, $h4-font-size-mobile),
+    mobile: calculateRem($base-font-size-mobile, $h4-font-size-mobile),
+  ),
+  h5: (
+    desktop: calculateRem($base-font-size-desktop, $h5-font-size-desktop),
+    tablet: calculateRem($base-font-size-tablet, $h5-font-size-mobile),
+    mobile: calculateRem($base-font-size-mobile, $h5-font-size-mobile),
+  ),
+  body: (
+    desktop: calculateRem($base-font-size-desktop, $body-font-size-desktop),
+    tablet: calculateRem($base-font-size-tablet, $body-font-size-mobile),
+    mobile: calculateRem($base-font-size-mobile, $body-font-size-mobile),
+  ),
+  span: (
+    desktop: calculateRem($base-font-size-desktop, $span-font-size-desktop),
+    tablet: calculateRem($base-font-size-tablet, $span-font-size-mobile),
+    mobile: calculateRem($base-font-size-mobile, $span-font-size-mobile),
+  ),
+  small: (
+    desktop: calculateRem($base-font-size-desktop, $small-font-size-mobile),
+    tablet: calculateRem($base-font-size-tablet, $small-font-size-mobile),
+    mobile: calculateRem($base-font-size-mobile, $small-font-size-desktop),
+  ),
+);
+
+// GLOBAL FONT STYLES
+.heading {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-regular;
+  line-height: 1.2;
+
+  &--1 {
+    font-weight: $font-weight-semi-bold;
+    text-transform: uppercase;
+    @include xs {
+      font-size: #{fontSize(h1, mobile)};
+    }
+    @include md {
+      font-size: #{fontSize(h1, tablet)};
+    }
+    @include xl {
+      font-size: #{fontSize(h1, desktop)};
+    }
+  }
+
+  &--2 {
+    font-weight: $font-weight-regular;
+    text-transform: uppercase;
+    @include xs {
+      font-size: fontSize(h2, mobile);
+    }
+    @include md {
+      font-size: fontSize(h2, tablet);
+      text-align: center;
+    }
+    @include xl {
+      font-size: fontSize(h2, desktop);
+      text-align: center;
+    }
+  }
+
+  &--3 {
+    font-family: $font-family-secondary;
+    font-weight: $font-weight-regular;
+    text-transform: none;
+    @include xs {
+      font-size: fontSize(h3, mobile);
+    }
+    @include md {
+      font-size: fontSize(h3, tablet);
+    }
+    @include xl {
+      font-size: fontSize(h3, desktop);
+    }
+  }
+
+  &--4 {
+    font-weight: $font-weight-semi-bold;
+    text-transform: uppercase;
+    @include xs {
+      font-size: fontSize(h4, mobile);
+    }
+    @include md {
+      font-size: fontSize(h4, tablet);
+    }
+    @include xl {
+      font-size: fontSize(h4, desktop);
+    }
+  }
+
+  &--5 {
+    font-family: $font-family-secondary;
+    font-weight: $font-weight-login-bold;
+    line-height: 18px;
+    text-transform: none;
+    @include xs {
+      font-size: fontSize(h5, mobile);
+    }
+    @include md {
+      font-size: fontSize(h5, tablet);
+    }
+    @include xl {
+      font-size: fontSize(h5, desktop);
+    }
+  }
+
+  &--font-family-secondary {
+    font-family: $font-family-secondary;
+  }
+  &--bold {
+    font-weight: $font-weight-login-bold;
+  }
 }
 
-strong {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: large;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend .heading;
 }
 
 h1 {
-  font-family: "Abril Fatface", cursive;
-  font-size: 2rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  @extend .heading--1;
+}
+
+h2 {
+  @extend .heading--2;
+}
+
+h3 {
+  @extend .heading--3;
 }
 
 h4 {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 1.6rem;
-  margin-bottom: 10px;
+  @extend .heading--4;
 }
 
-// Hamburger Menu Font Set
-@media screen and (max-width: 1200px) {
-  .hamburger-menu-font a {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 900 !important;
+h5 {
+  @extend .heading--5;
+}
+
+.body {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-regular;
+  line-height: 1.4;
+  text-transform: none;
+
+  @include xs {
+    font-size: fontSize(body, mobile);
+  }
+  @include md {
+    font-size: fontSize(body, tablet);
+  }
+  @include xl {
+    font-size: fontSize(body, desktop);
   }
 }
 
-// Desktop Menu Font Set
-@media screen and (min-width: 1200px) {
-  .hamburger-menu-font a {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 1rem;
-    font-weight: 900 !important;
+p {
+  @extend .body;
+}
+
+.span {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-regular;
+  line-height: 1.2;
+  text-transform: none;
+
+  @include xs {
+    font-size: fontSize(span, mobile);
+  }
+  @include md {
+    font-size: fontSize(span, tablet);
+  }
+  @include xl {
+    font-size: fontSize(span, desktop);
+  }
+
+  &--bold {
+    font-weight: $font-weight-semi-bold;
   }
 }
+
+span {
+  @extend .span;
+}
+
+// p {
+//   font-family: "Nunito Sans", sans-serif;
+//   font-size: medium;
+// }
+
+// strong {
+//   font-family: "Nunito Sans", sans-serif;
+//   font-size: large;
+// }
+
+// h1 {
+//   font-family: "Abril Fatface", cursive;
+//   font-size: 2rem;
+//   margin-top: 10px;
+//   margin-bottom: 10px;
+// }
+
+// h4 {
+//   font-family: "Nunito Sans", sans-serif;
+//   font-size: 1.6rem;
+//   margin-bottom: 10px;
+// }
+
+// // Hamburger Menu Font Set
+// @media screen and (max-width: 1200px) {
+//   .hamburger-menu-font a {
+//     font-family: "Nunito Sans", sans-serif;
+//     font-size: 1.3rem;
+//     font-weight: 900 !important;
+//   }
+// }
+
+// // Desktop Menu Font Set
+// @media screen and (min-width: 1200px) {
+//   .hamburger-menu-font a {
+//     font-family: "Nunito Sans", sans-serif;
+//     font-size: 1rem;
+//     font-weight: 900 !important;
+//   }
+// }

@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -8,12 +10,12 @@ $grid-breakpoints: (
 );
 
 $container-max-widths: (
-  // xs: 548px,
+  xs: 548px,
   sm: 548px,
   md: 684px,
   lg: 908px,
   xl: 1072px,
-  xxl: 1272px
+  xxl: 1272px,
 );
 
 @mixin xs {
