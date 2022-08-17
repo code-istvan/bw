@@ -9,6 +9,7 @@ const defaultProps = {
     lng: 19.03,
   },
   zoom: 11,
+  mapId: "ba947539ac0c1ace",
 }
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>
