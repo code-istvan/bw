@@ -4,10 +4,9 @@ import Seo from "../components/seo"
 import Button from "../components/Button"
 import { Link } from "gatsby"
 import "../sass/components/_kapcsolat.scss"
-import GoogleMap from "../components/GoogleMap"
+import GoogleMap from "../components/GoogleMap/GoogleMap"
 import Navbar from "../components/Nav/Navbar"
 import Footer from "../components/Footer/Footer"
-// import SnazzyGoogleMap from "../components/SnazzyGoogleMap"
 
 export default function Kapcsolat() {
   return (
@@ -16,7 +15,7 @@ export default function Kapcsolat() {
       <Navbar />
       <GoogleMap />
       <div className="container">
-        <div className="row">
+        <div className="row mt-4">
           <div className="col">
             <h1>Bandha Works Jógaiskola</h1>
           </div>
@@ -72,16 +71,6 @@ export default function Kapcsolat() {
           </div>
 
           <div className="row">
-            <div className="col d-grid gap-2 contact_checkbox">
-              <label className="form-control">
-                <input type="checkbox" name="checkbox" required />
-                Megismertem és elfogadom az
-                <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
-                hozzájárulok e-mail címem kezeléséhez.
-              </label>
-            </div>
-          </div>
-          <div className="row">
             <div className="col-4-md">
               <Button
                 type="submit"
@@ -90,6 +79,16 @@ export default function Kapcsolat() {
               >
                 KÜLDÉS
               </Button>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col d-grid contact_checkbox">
+              <label className="form-control">
+                <input type="checkbox" name="checkbox" required />
+                Megismertem és elfogadom az
+                <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
+                hozzájárulok e-mail címem kezeléséhez.
+              </label>
             </div>
           </div>
         </form>
