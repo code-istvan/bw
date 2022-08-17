@@ -1,18 +1,16 @@
 import React from "react"
 import GoogleMapReact from "google-map-react"
-// import { Container, Row } from "react-bootstrap"
+import Icon from "./Icons/Icon"
 import "../sass/components/_googlemap.scss"
 
 const defaultProps = {
   center: {
-    lat: 47.51,
-    lng: 19.03,
+    lat: 47.51416,
+    lng: 19.03734,
   },
-  zoom: 11,
+  zoom: 15,
   mapId: "ba947539ac0c1ace",
 }
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>
 
 const GoogleMap = () => (
   <div className="googleMap__box">
@@ -21,7 +19,7 @@ const GoogleMap = () => (
       defaultCenter={defaultProps.center}
       defaultZoom={defaultProps.zoom}
     >
-      <AnyReactComponent lat={47.51311} lng={19.037728} text={"Bandha Works"} />
+      <Icon.Minilogo lat={47.51416} lng={19.03734} text={"Bandha Works"} />
     </GoogleMapReact>
   </div>
 )
