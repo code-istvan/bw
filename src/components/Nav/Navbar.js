@@ -28,7 +28,8 @@ const Navbar = () => {
 
   return (
     <div className="navbar_container fluid" ref={navRef}>
-      <div>{breakpoints.md ? <NavbarMobil /> : <NavbarDesktop />}</div>
+      <NavbarMobil />
+      <NavbarDesktop />
     </div>
   )
 }

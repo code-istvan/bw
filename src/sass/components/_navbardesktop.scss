@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1025px) {
+  .navbar-desktop {
+    display: none;
+  }
+}
+
+.navbar-desktop {
+  a:visited,
+  a:active {
+    color: inherit;
+  }
+}

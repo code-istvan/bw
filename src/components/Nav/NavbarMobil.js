@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
-// import "bootstrap/dist/css/bootstrap.min.css"
 import "../../sass/components/_navbarmobil.scss"
 import LogoBW from "./LogoBW"
 import LogoBWtext from "./LogoBWtext"
@@ -24,7 +23,6 @@ export default function NavbarMobil() {
       body.style.height = "100%"
       body.style.margin = "0"
     } else {
-      console.log("test")
       html.style.overflow = "auto"
       body.style.height = "auto"
       body.style.margin = "inital"
@@ -34,7 +32,6 @@ export default function NavbarMobil() {
   useEffect(() => {
     console.log(breakpoints)
     if (!breakpoints.sm) {
-      console.log("test1")
       setMenuOpen(false)
     }
   }, [breakpoints])

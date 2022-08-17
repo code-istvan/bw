@@ -1,5 +1,11 @@
 @import "/src/sass/global";
 
+@media only screen and (max-width: 1024px) {
+  .navbar-mobil {
+    display: none;
+  }
+}
+
 .navbar-mobil {
   margin: 0 !important;
   height: 100% !important;
