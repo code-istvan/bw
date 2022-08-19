@@ -17,12 +17,13 @@ export default function Kapcsolat() {
       <div className="container">
         <div className="row mt-4">
           <div className="col">
-            <h1>Bandha Works Jógaiskola</h1>
+            <h1>Kapcsolat</h1>
           </div>
         </div>
         <div className="row">
           <address>
-            <h3 className="mb-0">1027. Budapest, Frankel Leó út. 18.</h3>
+            <h4 className="mb-0">BANDHA WORKS JÓGAISKOLA</h4>
+            <p className="mb-0">1027. Budapest, Frankel Leó út. 18.</p>
             <p className="clr-shades-lightGray span span--bold">
               A bejárat az utcafrontról nyílik, a társasházi főbejárattól balra
               található barna ajtón tudsz lejönni hozzánk.
