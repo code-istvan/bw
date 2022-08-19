@@ -4,10 +4,18 @@ import "../../sass/components/_footermobil.scss"
 import Button from "../Button"
 import Icon from "../Icons/Icon"
 import { navigate } from "gatsby"
+import { Helmet } from "react-helmet"
 
 export default function FooterMobil() {
   return (
     <div className="container footer">
+      <Helmet>
+        {" "}
+        <script
+          src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js"
+          defer
+        ></script>
+      </Helmet>
       <div className="row">
         <div className="col mt-4 mb-4">
           <Icon.Logo />
@@ -66,10 +74,6 @@ export default function FooterMobil() {
         </div>
       </div>
       <div id="wcb" class="carbonbadge wcb-d"></div>
-      <script
-        src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js"
-        defer
-      ></script>
 
       <p className="footer--designedby">
         Designed by <br />
