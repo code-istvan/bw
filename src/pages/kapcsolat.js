@@ -21,20 +21,16 @@ export default function Kapcsolat() {
           </div>
         </div>
         <div className="row">
-          <div className="col">
-            <address>
-              <strong>1027. Budapest, Frankel Leó út. 18. </strong>
-              <p>
-                A bejárat az utcafrontról nyílik, a társasházi főbejárattól
-                balra található barna ajtón tudsz lejönni hozzánk.
-              </p>
-            </address>
-          </div>
+          <address>
+            <h3 className="mb-0">1027. Budapest, Frankel Leó út. 18.</h3>
+            <p className="clr-shades-lightGray span span--bold">
+              A bejárat az utcafrontról nyílik, a társasházi főbejárattól balra
+              található barna ajtón tudsz lejönni hozzánk.
+            </p>
+          </address>
         </div>
         <div className="row">
-          <div className="col">
-            <h4>Üzenet</h4>
-          </div>
+          <h3 className="mb-0">Üzenet</h3>
         </div>
         <form
           name="contact bandhaworks"
@@ -59,7 +55,7 @@ export default function Kapcsolat() {
                 required
               />
             </div>
-            <div className="col-8-md">
+            <div className="col-8-md mb-1">
               <textarea
                 className="kapcsolat__textarea"
                 name="comments"
@@ -71,7 +67,7 @@ export default function Kapcsolat() {
           </div>
 
           <div className="row">
-            <div className="col-4-md">
+            <div className="col-4-md mb-2">
               <Button
                 type="submit"
                 buttonStyle="btn--mobil--secondary--solid"
@@ -83,7 +79,7 @@ export default function Kapcsolat() {
           </div>
           <div className="row">
             <div className="col d-grid contact_checkbox">
-              <label className="form-control">
+              <label className="form-control span span--bold clr-shades-lightGray">
                 <input type="checkbox" name="checkbox" required />
                 Megismertem és elfogadom az
                 <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,

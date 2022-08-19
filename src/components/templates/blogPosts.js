@@ -1,7 +1,6 @@
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import React from "react"
-import { Col } from "react-bootstrap"
 import Button from "react-bootstrap/Button"
 import LayoutBlog from "../layoutBlog"
 import AuthorIcon from "../Icons/AuthorIcon"

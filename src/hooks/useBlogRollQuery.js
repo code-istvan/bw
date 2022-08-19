@@ -6,6 +6,7 @@ export const useBlogRoll = () => {
       query BlogRoll {
         allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
           nodes {
+            timeToRead
             excerpt
             slug
             frontmatter {

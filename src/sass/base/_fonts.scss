@@ -66,7 +66,8 @@ $font-sizes: (
   }
 
   &--2 {
-    font-weight: $font-weight-regular;
+    font-family: $font-family-secondary;
+    font-weight: $font-weight-semi-bold;
     text-transform: uppercase;
     @include xs {
       font-size: fontSize(h2, mobile);
@@ -83,7 +84,7 @@ $font-sizes: (
 
   &--3 {
     font-family: $font-family-secondary;
-    font-weight: $font-weight-regular;
+    font-weight: $font-weight-semi-bold;
     text-transform: none;
     @include xs {
       font-size: fontSize(h3, mobile);

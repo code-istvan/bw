@@ -6,7 +6,7 @@ const Footer = () => {
   // const breakpoints = useBreakpoint()
 
   return (
-    <div className="container fluid">
+    <div>
       {/* {breakpoints.md ? <FooterMobil /> : <FooterMobil />} */}
       <FooterMobil />
     </div>
