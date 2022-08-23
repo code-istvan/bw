@@ -1,7 +1,6 @@
 @import "/src/sass/global";
 
 .footer {
-  background-color: 121212;
   margin-top: 30px;
   a:link {
     text-decoration: none;
@@ -9,17 +8,20 @@
   }
 }
 
+.footer__brand {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 // .footer--first-row {
 //   display: inline !important;
 // }
 
-.footer--logo {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  opacity: 0.9;
-}
-
 .footer__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   svg {
     width: 40px;
     height: 40px;
