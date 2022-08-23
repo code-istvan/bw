@@ -6,6 +6,7 @@ import "../../sass/components/_navbarmenu.scss"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import NavbarMenuFooter from "./NavbarMenuFooter"
 import NavbarDesktopSubmenu from "./NavbarDesktopSubmenu"
+import { useState } from "react"
 
 const NavbarMenu = ({ open, setOpen }) => {
   const breakpoints = useBreakpoint()
@@ -17,7 +18,7 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/tanfolyam", label: "TANFOLYAMOK" },
     { link: "/oktatok", label: "OKTATÓK" },
     { link: "/vinyasza-jogairanyzatok", label: "JÓGAIRÁNYZATOK" },
-    { link: "/galeria", label: "GALÉRIA", extraClass: "disabled" },
+    { link: "/galeria", label: "GALÉRIA", extraClass: "" },
   ]
 
   const menuItemsTudnivalok = [
@@ -27,7 +28,7 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/mantra", label: "MANTRÁK" },
     { link: "/sorozatabrak", label: "SOROZATÁBRÁK" },
     { link: "/holdnapok", label: "HOLDNAPOK" },
-    { link: "/osztondij", label: "ÖSZTÖNDÍJ", extraClass: "disabled" },
+    { link: "/osztondij", label: "ÖSZTÖNDÍJ", extraClass: "" },
   ]
 
   const menuGroupsFomenu = [
@@ -40,6 +41,9 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "https://bandha-payments.hu", label: "SHOP", isExtenal: true },
     { link: "/kapcsolat", label: "KAPCSOLAT" },
   ]
+
+  // The submenu flashes for a moment when I move the mouse to the main menu. Only in the desktop view.
+  const [isHovering, setIsHovering] = useState(false)
 
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
@@ -54,6 +58,8 @@ const NavbarMenu = ({ open, setOpen }) => {
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
+              onMouseEnter={() => setIsHovering(true)}
+              onMouseLeave={() => setIsHovering(false)}
             >
               {title}
             </a>
@@ -61,7 +67,9 @@ const NavbarMenu = ({ open, setOpen }) => {
               {items.map(({ link, label, extraClass }) => (
                 <Nav.Item as="li" key={label}>
                   <Link
-                    className={`dropdown-item ${extraClass}`}
+                    className={`dropdown-item ${extraClass} ${
+                      isHovering ? "menu-flash" : ""
+                    }`}
                     to={link}
                     onClick={() => setOpen(false)}
                   >

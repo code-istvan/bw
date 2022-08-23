@@ -12,33 +12,33 @@
 
 .btn:hover {
   transform: translateY(0px);
-  background-color: $color-primary-orange;
-  color: $color-primary-black;
+  background-color: $color-brand-orange;
+  color: $color-shades-black;
 }
 
 .btn--primary--solid {
-  background-color: $color-primary-orange;
-  color: $color-primary-black;
+  background-color: $color-brand-orange;
+  color: $color-shades-black;
   border: none;
 }
 
 .btn--mobil--primary--solid {
-  background-color: $color-primary-orange;
-  color: $color-primary-black;
+  background-color: $color-brand-orange;
+  color: $color-shades-black;
   border: none;
   width: 100%;
 }
 
 .btn--mobil--primary--outline {
   background-color: transparent;
-  color: $color-primary-orange;
-  border: 2px solid $color-primary-orange;
+  color: $color-brand-orange;
+  border: 2px solid $color-brand-orange;
   width: 100%;
 }
 
 .btn--mobil--secondary--solid {
   background-color: $color-shades-lightGray;
-  color: $color-primary-black;
+  color: $color-shades-black;
   // border-radius: 2px;
   padding: 4px !important;
   width: 100%;
@@ -46,7 +46,7 @@
 
 .btn--mobil--secondary--solid--menu {
   background-color: $color-shades-lightGray;
-  color: $color-primary-black;
+  color: $color-shades-black;
   // border-radius: 2px;
   padding: 4px !important;
   font-size: large !important;
@@ -63,7 +63,7 @@
 .btn--mobil--secondary--outline:hover {
   transform: translateY(0px);
   background-color: $color-shades-lightGray;
-  color: $color-primary-black;
+  color: $color-shades-black;
 }
 
 .btn--mobil--secondary--outline--menu--small {
@@ -79,7 +79,7 @@
 .btn--mobil--secondary--outline--menu--small:hover {
   transform: translateY(0px);
   background-color: $color-shades-lightGray;
-  color: $color-primary-black;
+  color: $color-shades-black;
 }
 
 .btn--mobil--secondary--outline--menu {
@@ -94,13 +94,13 @@
 .btn--mobil--secondary--outline--menu:hover {
   transform: translateY(0px);
   background-color: $color-shades-lightGray;
-  color: $color-primary-black;
+  color: $color-shades-black;
 }
 
 .btn--primary--outline {
   background-color: transparent;
   color: $color-shades-lightGray;
-  border: 2px solid $color-primary-orange;
+  border: 2px solid $color-brand-orange;
 }
 
 .btn--medium {

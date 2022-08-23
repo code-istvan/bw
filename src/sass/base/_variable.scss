@@ -2,13 +2,14 @@
 
 // colors
 $colors: (
-  primary: (
+  brand: (
     "orange": hsl(37.3, 90.4%, 51.2%),
-    "black": hsl(0, 0%, 0%),
   ),
   shades: (
+    "black": hsl(0, 0%, 0%),
     "lightBlack": hsl(240, 10%, 30%),
-    "darkGray": hsl(0, 0%, 26%),
+    "darkGray": hsl(0, 0%, 20%),
+    "Gray": hsl(0, 0%, 77%),
     "lightGray": hsl(0, 0%, 90%),
     "white": hsl(0, 0%, 100%),
   ),
@@ -18,8 +19,8 @@ $colors: (
 );
 
 // Colors
-$color-primary-orange: hsl(37.3, 90.4%, 51.2%);
-$color-primary-black: hsl(0, 0%, 0%);
+$color-brand-orange: hsl(37.3, 90.4%, 51.2%);
+$color-shades-black: hsl(0, 0%, 0%);
 $color-shades-white: hsl(0, 0%, 100%);
 $color-shades-lightGray: hsl(0, 0%, 90%);
 $color-shades-darkGray: hsl(0, 0%, 26%);
@@ -28,8 +29,8 @@ $color-shades-lightBlack: hsl(240, 10%, 30%);
 $offcanvas-menu-color: rgba(0, 0, 0, 1);
 $logo-color-primary: $color-shades-lightGray;
 $separator-color: rgba(255, 255, 255, 0.3);
-$navbar-scrolled-background-color: $color-primary-black;
-$primary-background-color: $color-primary-black;
+$navbar-scrolled-background-color: $color-shades-black;
+$primary-background-color: $color-shades-black;
 
 //FONTS
 

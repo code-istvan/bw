@@ -73,7 +73,7 @@ export default function FooterMobil() {
           <br /> <br />
         </div>
       </div>
-      <div id="wcb" class="carbonbadge wcb-d"></div>
+      <div id="wcb" className="carbonbadge wcb-d"></div>
 
       <p className="footer--designedby">
         Designed by <br />
