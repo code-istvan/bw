@@ -57,7 +57,8 @@
   background-color: transparent;
   color: $color-shades-lightGray;
   border: 2px solid $color-shades-lightGray;
-  width: 100%;
+  padding: 16px 32px;
+  // width: 100%;
 }
 
 .btn--mobil--secondary--outline:hover {

@@ -11,15 +11,15 @@
   height: 100% !important;
 }
 
-.container-fluid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: none;
-}
-
 nav {
   position: relative;
+
+  .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+  }
 }
 
 html[style="overflow: hidden;"] {
