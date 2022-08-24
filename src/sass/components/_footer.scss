@@ -3,7 +3,7 @@
 .footer {
   a:link {
     text-decoration: none;
-    color: $color-shades-lightGray;
+    color: $color-shades-lightGray !important;
   }
 }
 
@@ -29,10 +29,6 @@
   padding: 40px 80px;
   gap: 40px;
 }
-
-// .footer--first-row {
-//   display: inline !important;
-// }
 
 .footer__social {
   display: flex;
@@ -61,6 +57,7 @@
   #wcb #wcb_a,
   #wcb #wcb_g {
     border: 0.13rem solid $color-brand-orange;
+    color: $color-shades-lightBlack;
   }
 }
 .footer__bottom__text {
