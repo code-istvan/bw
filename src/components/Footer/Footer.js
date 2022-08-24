@@ -11,10 +11,10 @@ const Footer = () => {
       <div className="row">
         <div className="col">
           <div className="footer__brand">
-            <div className="col">
+            <div className="mr-2">
               <Icon.BwSymbol />
             </div>
-            <div className="col">
+            <div className="footer__icon__text">
               <p>Astanga Jógaiskola Paramaguru Sharath Jois áldásával</p>
             </div>
           </div>

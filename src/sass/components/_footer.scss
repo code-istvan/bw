@@ -1,10 +1,9 @@
 @import "/src/sass/global";
 
 .footer {
-  margin-top: 30px;
   a:link {
     text-decoration: none;
-    color: $color-brand-orange;
+    color: $color-shades-lightGray;
   }
 }
 
@@ -14,6 +13,11 @@
   align-items: center;
   border-bottom: solid 1px $color-shades-lightBlack;
   padding: 2.5rem;
+}
+
+.footer__icon__text {
+  min-width: 200px;
+  max-width: 250px;
 }
 
 .footer__newsletter {
