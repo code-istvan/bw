@@ -2,7 +2,7 @@ import * as React from "react"
 import Button from "../Button"
 import Icon from "../Icons/Icon"
 import { navigate } from "gatsby"
-
+import Carbonbadge from "react-carbonbadge"
 import "../../sass/components/_footer.scss"
 
 const Footer = () => {
@@ -49,6 +49,7 @@ const Footer = () => {
         <Icon.Messenger url="http://m.me/bandhawork" />
         <Icon.Telegram url="https://t.me/@istvan108" />
       </div>
+
       <p className="footer--designedby">
         Designed by <br />
         <a href="https://omworks.hu">OMWORKS YOGA CREATIVES</a>
@@ -74,6 +75,8 @@ const Footer = () => {
         Designed by <br />
         <a href="https://omworks.hu">OMWORKS YOGA CREATIVES</a>
       </p>
+
+      <Carbonbadge darkMode={true} />
     </div>
   )
 }

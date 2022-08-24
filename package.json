@@ -38,6 +38,7 @@
     "prop-types": "^15.8.1",
     "react": "^16.3.0",
     "react-bootstrap": "^2.4.0",
+    "react-carbonbadge": "^1.0.1",
     "react-dom": "^16.3.0",
     "react-helmet": "^6.1.0",
     "sass": "^1.51.0",
