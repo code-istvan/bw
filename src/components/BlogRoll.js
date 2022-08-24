@@ -5,7 +5,6 @@ import "../sass/components/_blog.scss"
 // import "../sass/components/card-hover.scss"
 import { useBlogRoll } from "../hooks/useBlogRollQuery"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { node } from "prop-types"
 
 function BlogRoll({ count }) {
   var posts = []
@@ -17,6 +16,7 @@ function BlogRoll({ count }) {
   if (count !== undefined) {
     posts.length = Math.min(posts.length, count)
   }
+  console.log(posts)
 
   return (
     <div className="row">
@@ -24,7 +24,8 @@ function BlogRoll({ count }) {
         posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
           const image = getImage(post.frontmatter.thumbnail)
-          const { timeToRead } = node
+          const { timeToRead } = post
+          console.log({ timeToRead })
 
           return (
             <div className="col-md-6 col-lg-4">

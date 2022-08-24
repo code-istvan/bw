@@ -2,19 +2,12 @@ import * as React from "react"
 import Button from "../Button"
 import Icon from "../Icons/Icon"
 import { navigate } from "gatsby"
-import { Helmet } from "react-helmet"
+
 import "../../sass/components/_footer.scss"
 
 const Footer = () => {
   return (
     <div className="container footer bg-shades-darkGray mt-3">
-      <Helmet>
-        {" "}
-        <script
-          src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js"
-          defer
-        ></script>
-      </Helmet>
       <div className="row">
         <div className="col">
           <div className="footer__brand">
