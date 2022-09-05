@@ -59,7 +59,9 @@ const Footer = () => {
           </div>
           <p className="footer__bottom__text mb-2">
             Designed and code by{" "}
-            <a href="https://omworks.hu">OmWorks Yoga Creatives</a>
+            <a className="clr-shades-lightGray" href="https://omworks.hu">
+              OmWorks Yoga Creatives
+            </a>
           </p>
           <Carbonbadge darkMode={true} />
         </div>

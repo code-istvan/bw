@@ -123,7 +123,9 @@ const FooterDesktopMenu = () => {
           </li>
           <li>
             <Link to="/adatvedelem">
-              <p className="footer-menuitem">Adatvédelmi tájékoztató</p>
+              <p className="clr-shades-lightGray footer-menuitem">
+                Adatvédelmi tájékoztató
+              </p>
             </Link>
           </li>
         </ul>
