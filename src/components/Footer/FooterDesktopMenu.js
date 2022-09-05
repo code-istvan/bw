@@ -1,4 +1,5 @@
 import React from "react"
+import { useState } from "react"
 import Icon from "../Icons/Icon"
 import { Link } from "gatsby"
 import "../../sass/components/_footerdesktopmenu.scss"
@@ -24,18 +25,38 @@ const FooterDesktopMenu = () => {
     { link: "/osztondij", label: "Ösztöndíj", extraClass: "" },
   ]
 
+  // The submenu flashes for a moment when I move the mouse to the main menu. Only in the desktop view.
+  const [isHoveringJogaorak, setIsHoveringJogaorak] = useState(false)
+  const [isHoveringTudnivalok, setIsHoveringTudnivalok] = useState(false)
+
+  const jaki = () => {
+    alert("Bendi")
+  }
+
   return (
     <div className="row footer-desktop-menu-lists">
       <div className="col">
         <ul>
           <li>
-            <h4>Jógaórák</h4>
+            <h4
+              onMouseEnter={() => setIsHoveringJogaorak(true)}
+              onMouseLeave={() => setIsHoveringJogaorak(false)}
+              onClick={() => setIsHoveringJogaorak(true)}
+            >
+              Jógaórák
+            </h4>
           </li>
 
           {menuItemsJogaorak.map(({ link, label, extraClass }) => (
             <li key={label}>
               <Link to={link}>
-                <p>{label}</p>
+                <p
+                  className={`clr-shades-lightGray footer-submenu ${
+                    isHoveringJogaorak ? "menu-flash" : ""
+                  }`}
+                >
+                  {label}
+                </p>
               </Link>
             </li>
           ))}
@@ -44,12 +65,23 @@ const FooterDesktopMenu = () => {
       <div className="col">
         <ul>
           <li>
-            <h4>Tudnivalók</h4>
+            <h4
+              onMouseEnter={() => setIsHoveringTudnivalok(true)}
+              onMouseLeave={() => setIsHoveringTudnivalok(false)}
+            >
+              Tudnivalók
+            </h4>
           </li>
           {menuItemsTudnivalok.map(({ link, label, extraClass }) => (
             <li key={label}>
               <a href={link}>
-                <p>{label}</p>
+                <p
+                  className={`clr-shades-lightGray footer-submenu ${
+                    isHoveringTudnivalok ? "menu-flash" : ""
+                  }`}
+                >
+                  {label}
+                </p>
               </a>
             </li>
           ))}
@@ -60,7 +92,7 @@ const FooterDesktopMenu = () => {
           <li>
             {" "}
             <Link to="/blog">
-              <h4>Blog</h4>
+              <h4 className="clr-shades-lightGray footer-menuitem">Blog</h4>
             </Link>
           </li>
           <li>
@@ -71,7 +103,9 @@ const FooterDesktopMenu = () => {
             {" "}
             <Link to="/kapcsolat">
               {" "}
-              <h4>Kapcsolat</h4>
+              <h4 className="clr-shades-lightGray footer-menuitem">
+                Kapcsolat
+              </h4>
             </Link>
           </li>
           <li>
@@ -89,7 +123,7 @@ const FooterDesktopMenu = () => {
           </li>
           <li>
             <Link to="/adatvedelem">
-              <p>Adatvédelmi tájékoztató</p>
+              <p className="footer-menuitem">Adatvédelmi tájékoztató</p>
             </Link>
           </li>
         </ul>

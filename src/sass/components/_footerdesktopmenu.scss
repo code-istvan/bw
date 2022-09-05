@@ -37,3 +37,39 @@
     }
   }
 }
+
+.footer-submenu,
+.footer-menuitem {
+  &:hover {
+    text-decoration-line: underline;
+    text-decoration-color: $color-brand-orange;
+    text-decoration-thickness: 3px;
+    color: $color-shades-white !important;
+  }
+}
+
+h4 {
+  cursor: pointer !important;
+}
+
+.menu-flash {
+  color: $color-shades-white;
+  animation-name: flash;
+  animation-duration: 700ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes flash {
+  0% {
+    color: $color-shades-white;
+  }
+  25% {
+    color: $color-brand-orange;
+  }
+  50% {
+    color: $color-brand-orange;
+  }
+  100% {
+    color: $color-brand-orange;
+  }
+}
