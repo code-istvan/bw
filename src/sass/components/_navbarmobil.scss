@@ -1,11 +1,5 @@
 @import "/src/sass/global";
 
-@media only screen and (min-width: 1024px) {
-  .navbar-mobil {
-    display: none;
-  }
-}
-
 .navbar-mobil {
   margin: 0 !important;
   height: 100% !important;
@@ -14,7 +8,7 @@
 nav {
   position: relative;
 
-  .container-fluid {
+  .navbar-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +31,9 @@ html[style="overflow: hidden;"] {
 }
 
 .navbar-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-right: auto;
   z-index: 2;
 }

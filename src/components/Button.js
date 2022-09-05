@@ -6,33 +6,19 @@ const STYLES = [
   "btn--mobil--primary--solid",
   "btn--mobil--primary--outline",
   "btn--mobil--secondary--solid",
-  "btn--mobil--secondary--outline",
+  "btn--secondary--outline",
   "btn--mobil--secondary--outline--menu",
   "btn--mobil--secondary--outline--menu--small",
   "btn--primary--outline",
 ]
 
-const SIZES = ["btn--medium", "btn--small"]
-
-export default function Button({
-  children,
-  type,
-  onClick,
-  buttonStyle,
-  buttonSize,
-}) {
+export default function Button({ children, type, onClick, buttonStyle }) {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0]
 
-  const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
-
   return (
-    <button
-      className={`btn ${checkButtonStyle} ${checkButtonSize} `}
-      onClick={onClick}
-      type={type}
-    >
+    <button className={`btn ${checkButtonStyle}`} onClick={onClick} type={type}>
       {children}
     </button>
   )

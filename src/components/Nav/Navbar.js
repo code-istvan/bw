@@ -1,11 +1,8 @@
 import * as React from "react"
 import NavbarMobil from "./NavbarMobil"
-import NavbarDesktop from "./NavbarDesktop"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import "../../sass/components/_navbar.scss"
 
 const Navbar = () => {
-  const breakpoints = useBreakpoint()
   const navRef = React.useRef()
   var prevScroll = 0
 
@@ -29,7 +26,6 @@ const Navbar = () => {
   return (
     <div className="navbar_container fluid" ref={navRef}>
       <NavbarMobil />
-      <NavbarDesktop />
     </div>
   )
 }

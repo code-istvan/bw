@@ -101,6 +101,7 @@ $font-sizes: (
     font-family: $font-family-secondary;
     font-weight: $font-weight-semi-bold;
     text-transform: uppercase;
+    font-weight: 700;
     @include xs {
       font-size: fontSize(h4, mobile);
     }

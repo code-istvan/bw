@@ -1,0 +1,39 @@
+@import "/src/sass/global";
+
+.footer-desktop-menu-lists {
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    color: $color-shades-lightGray;
+  }
+
+  .separator {
+    border-bottom: solid 1px $color-shades-lightBlack;
+  }
+
+  .footer__english {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+
+    :first-child {
+      margin-right: 0.5rem;
+    }
+    // :nth-child(2) {
+    //   p {
+    //     margin: 0;
+    //   }
+    // }
+  }
+
+  .footer--thirdCol {
+    :nth-child(6) {
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+}

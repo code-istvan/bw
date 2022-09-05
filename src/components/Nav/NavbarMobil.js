@@ -17,7 +17,6 @@ export default function NavbarMobil() {
   useEffect(() => {
     const html = document.querySelector("html")
     const body = document.querySelector("body")
-    console.log(menuOpen)
     if (menuOpen) {
       html.style.overflow = "hidden"
       body.style.height = "100%"
@@ -30,7 +29,6 @@ export default function NavbarMobil() {
   }, [menuOpen])
 
   useEffect(() => {
-    console.log(breakpoints)
     if (!breakpoints.sm) {
       setMenuOpen(false)
     }
@@ -38,8 +36,8 @@ export default function NavbarMobil() {
 
   return (
     <nav className="navbar-mobil">
-      <div className="container-fluid p-0">
-        <a className="navbar-logo" href="/">
+      <div className="container-fluid p-0 navbar-box">
+        <a className="navbar-logo ml-1" href="/">
           <LogoBW />
           <LogoBWtext />
         </a>

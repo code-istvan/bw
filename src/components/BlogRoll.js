@@ -16,7 +16,6 @@ function BlogRoll({ count }) {
   if (count !== undefined) {
     posts.length = Math.min(posts.length, count)
   }
-  console.log(posts)
 
   return (
     <div className="row">
@@ -25,7 +24,6 @@ function BlogRoll({ count }) {
           const title = post.frontmatter.title || post.fields.slug
           const image = getImage(post.frontmatter.thumbnail)
           const { timeToRead } = post
-          console.log({ timeToRead })
 
           return (
             <div className="col-md-6 col-lg-4">

@@ -2,12 +2,14 @@
 
 .btn {
   font-family: "Nunito Sans", sans-serif;
-  // font-weight: 400;
+  font-weight: 400;
   cursor: pointer;
   transition: transform 0.5s ease;
-  // margin-top: 12px;
-  // margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 140%;
   border-radius: 2px;
+  padding: 11px;
+  width: fit-content;
 }
 
 .btn:hover {
@@ -26,14 +28,12 @@
   background-color: $color-brand-orange;
   color: $color-shades-black;
   border: none;
-  width: 100%;
 }
 
 .btn--mobil--primary--outline {
   background-color: transparent;
   color: $color-brand-orange;
   border: 2px solid $color-brand-orange;
-  width: 100%;
 }
 
 .btn--mobil--secondary--solid {
@@ -41,7 +41,6 @@
   color: $color-shades-black;
   // border-radius: 2px;
   padding: 4px !important;
-  width: 100%;
 }
 
 .btn--mobil--secondary--solid--menu {
@@ -53,15 +52,20 @@
   font-weight: 900 !important;
 }
 
-.btn--mobil--secondary--outline {
+// footer button
+.btn--secondary--outline {
   background-color: transparent;
   color: $color-shades-lightGray;
   border: 2px solid $color-shades-lightGray;
-  padding: 16px 32px;
-  // width: 100%;
+
+  @include xl {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 32px;
+  }
 }
 
-.btn--mobil--secondary--outline:hover {
+.btn--secondary--outline:hover {
   transform: translateY(0px);
   background-color: $color-shades-lightGray;
   color: $color-shades-black;
@@ -102,14 +106,4 @@
   background-color: transparent;
   color: $color-shades-lightGray;
   border: 2px solid $color-brand-orange;
-}
-
-.btn--medium {
-  padding: 10px 20px;
-  font-size: 18px;
-}
-
-.btn--small {
-  padding: 12px 12px;
-  font-size: 16px;
 }

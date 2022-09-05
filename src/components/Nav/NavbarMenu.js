@@ -1,7 +1,7 @@
 import * as React from "react"
-import "bootstrap/dist/css/bootstrap.min.css"
+// import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from "gatsby"
-import Nav from "react-bootstrap/Nav"
+// import Nav from "react-bootstrap/Nav"
 import "../../sass/components/_navbarmenu.scss"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import NavbarMenuFooter from "./NavbarMenuFooter"
@@ -52,7 +52,7 @@ const NavbarMenu = ({ open, setOpen }) => {
         {menuGroupsFomenu.map(({ title, items }) => (
           <li className="nav-item dropdown" key={title}>
             <a
-              className="nav-link dropdown-toggle"
+              className="nav-link dropdown-toggle clr-shades-white"
               href="#"
               id="navbarDropdown"
               role="button"
@@ -64,10 +64,10 @@ const NavbarMenu = ({ open, setOpen }) => {
               {title}
             </a>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-              {items.map(({ link, label, extraClass }) => (
-                <Nav.Item as="li" key={label}>
+              {items.map(({ link, label }) => (
+                <li className="nav-item" as="li" key={label}>
                   <Link
-                    className={`dropdown-item ${extraClass} ${
+                    className={`dropdown-item clr-shades-white ${
                       isHovering ? "menu-flash" : ""
                     }`}
                     to={link}
@@ -75,13 +75,13 @@ const NavbarMenu = ({ open, setOpen }) => {
                   >
                     {label}
                   </Link>
-                </Nav.Item>
+                </li>
               ))}
             </ul>
           </li>
         ))}
         {menuItemsFomenu.map(({ link, label, isExternal }) => (
-          <Nav.Item as="li" key={label}>
+          <li className="nav-item" as="li" key={label}>
             {isExternal ? (
               <a
                 className="nav-link"
@@ -92,14 +92,14 @@ const NavbarMenu = ({ open, setOpen }) => {
               </a>
             ) : (
               <Link
-                className="nav-link"
+                className="nav-link clr-shades-white"
                 to={link}
                 onClick={() => setOpen(false)}
               >
                 {label}
               </Link>
             )}
-          </Nav.Item>
+          </li>
         ))}
         <li className="nav-item">
           {breakpoints.md ? null : <NavbarDesktopSubmenu />}
