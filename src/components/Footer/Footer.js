@@ -22,7 +22,8 @@ const Footer = () => {
               <div className="footer__icon__text">
                 <p>
                   Astanga Jógaiskola <br />
-                  Paramaguru Sharath Jois áldásával
+                  Paramaguru Sharath Jois <br />
+                  áldásával
                 </p>
               </div>
               <Button
@@ -60,8 +61,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="row footer__bottom">
-          <div className="footer__social pt-2 pb-2">
+        <div className="footer__social">
+          <div className="footer__social__box pt-2 pb-2">
             <div>
               <Icon.Facebook url="https://www.facebook.com/bandhaworks" />
               <Icon.Instagram url="https://www.instagram.com/bandhaworks/" />
@@ -73,28 +74,29 @@ const Footer = () => {
               <Icon.Telegram url="https://t.me/@istvan108" />
             </div>
           </div>
+          <div className="footer__bottom">
+            <div className="footer__bottom__box">
+              <div>
+                <p className="small">
+                  Designed and code by
+                  <a href="https://omworks.hu"> OmWorks Yoga Creatives</a>
+                </p>
+              </div>
+              <div className="separator"></div>
+              <div>
+                <p className="small">
+                  Copyright© 2015-{new Date().getFullYear()} BandhaWorks
+                </p>
+              </div>
 
-          <div className="footer__bottom__text mb-2">
-            <div>
-              <p className="small">
-                Designed and code by
-                <a href="https://omworks.hu"> OmWorks Yoga Creatives</a>
-              </p>
+              <div className="separator"></div>
+              <div>
+                <p className="small">Adatvédelmi tájékoztató</p>
+              </div>
             </div>
-            <div className="separator"></div>
-            <div>
-              <p className="small">
-                Copyright© 2015-{new Date().getFullYear()} BandhaWorks
-              </p>
+            <div className="mb-2 mt-2">
+              <Carbonbadge darkMode={true} />
             </div>
-            <div className="separator"></div>
-            <div>
-              <p className="small">Adatvédelmi tájékoztató</p>
-            </div>
-          </div>
-          <div>
-            {" "}
-            <Carbonbadge darkMode={true} />
           </div>
         </div>
       </div>

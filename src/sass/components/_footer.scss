@@ -5,23 +5,25 @@
     text-decoration: none;
     color: $color-shades-lightGray !important;
   }
+
+  @media only screen and (min-width: 1px) and (max-width: 320px) {
+    .btn {
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: 321px) {
+    .btn {
+      width: fit-content;
+    }
+  }
 }
 
 .footer-first-row {
   display: flex;
   flex-direction: row;
 }
+
 @media only screen and (min-width: 1px) and (max-width: 768px) {
-  footer {
-    .btn {
-      width: 100%;
-
-      @include sm {
-        width: fit-content;
-      }
-    }
-  }
-
   .footer__brand {
     display: flex;
     flex-direction: column;
@@ -39,8 +41,19 @@
 
   .footer__newsletter__box {
     margin: 40px 1rem;
-    @include sm {
-      align-items: center;
+  }
+
+  .footer__bottom__box {
+    margin: 28px 1rem;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 1199px) {
+  .footer__newsletter__box {
+    align-items: center;
+    p,
+    h3 {
+      text-align: center;
     }
   }
 }
@@ -64,9 +77,6 @@
     align-items: center;
     .footer__newsletter__box {
       padding: 40px 80px;
-    }
-    .btn {
-      width: fit-content;
     }
   }
 }
@@ -95,7 +105,7 @@
   border-right: solid 1px $color-shades-lightBlack;
 }
 
-.footer__social {
+.footer__social__box {
   @media only screen and (min-width: 1px) and (max-width: 370px) {
     display: flex;
     flex-direction: column;
@@ -111,7 +121,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    // gap: 20px;
     div:nth-child(-n + 2) {
       svg {
         padding-right: 20px;
@@ -131,7 +140,7 @@
   }
 }
 
-.footer__bottom {
+.footer__social {
   border-top: solid 1px $color-shades-lightBlack;
   border-bottom: solid 1px $color-shades-lightBlack;
 
@@ -147,14 +156,13 @@
     color: $color-shades-lightBlack;
   }
 }
-.footer__bottom__text {
+.footer__bottom__box {
   p {
     margin: 0;
   }
 
   display: flex;
   flex-direction: column;
-
   text-align: center;
 
   @include lg {
