@@ -39,9 +39,9 @@ $font-sizes: (
     mobile: calculateRem($base-font-size-mobile, $span-font-size-mobile),
   ),
   small: (
-    desktop: calculateRem($base-font-size-desktop, $small-font-size-mobile),
-    tablet: calculateRem($base-font-size-tablet, $small-font-size-mobile),
-    mobile: calculateRem($base-font-size-mobile, $small-font-size-desktop),
+    desktop: calculateRem($base-font-size-mobile, $small-font-size-mobile),
+    tablet: calculateRem($base-font-size-mobile, $small-font-size-mobile),
+    mobile: calculateRem($base-font-size-mobile, $small-font-size-mobile),
   ),
 );
 
@@ -210,6 +210,18 @@ p {
 
 span {
   @extend .span;
+}
+
+.small {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-regular;
+  line-height: 1.4;
+  text-transform: none;
+  font-size: fontSize(small, mobile);
+
+  &--bold {
+    font-weight: $font-weight-semi-bold;
+  }
 }
 
 // p {

@@ -1,6 +1,6 @@
 @import "/src/sass/global";
 
-.menuFooter--box {
+.menuLanguage--box {
   display: block;
   height: auto;
 
@@ -12,12 +12,6 @@
     li {
       display: block;
       float: left;
-    }
-  }
-  @media only screen and (min-width: 1px) and (max-width: 1024px) {
-    hr.solid {
-      border-top: 3px solid #bbb;
-      margin: 16px 16px 24px;
     }
   }
 }

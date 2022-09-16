@@ -1,12 +1,11 @@
 import * as React from "react"
-// import "bootstrap/dist/css/bootstrap.min.css"
-import { Link } from "gatsby"
-// import Nav from "react-bootstrap/Nav"
-import "../../sass/components/_navbarmenu.scss"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
-import NavbarMenuFooter from "./NavbarMenuFooter"
-import NavbarDesktopSubmenu from "./NavbarDesktopSubmenu"
 import { useState } from "react"
+import { Link } from "gatsby"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
+import NavbarDesktopFeatured from "./NavbarDesktopFeatured"
+import NavbarMenuMobilHeader from "./NavbarMenuMobilHeader"
+import NavbarMenuMobilFeatured from "./NavbarMenuMobilFeatured"
+import "../../sass/components/_navbarmenu.scss"
 
 const NavbarMenu = ({ open, setOpen }) => {
   const breakpoints = useBreakpoint()
@@ -47,8 +46,8 @@ const NavbarMenu = ({ open, setOpen }) => {
 
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
+      {breakpoints.md ? <NavbarMenuMobilHeader /> : null}
       <ul className="nav-links">
-        {breakpoints.md ? <NavbarDesktopSubmenu /> : null}
         {menuGroupsFomenu.map(({ title, items }) => (
           <li className="nav-item dropdown" key={title}>
             <a
@@ -102,9 +101,9 @@ const NavbarMenu = ({ open, setOpen }) => {
           </li>
         ))}
         <li className="nav-item">
-          {breakpoints.md ? null : <NavbarDesktopSubmenu />}
+          {breakpoints.md ? null : <NavbarDesktopFeatured />}
         </li>
-        {breakpoints.md ? <NavbarMenuFooter /> : null}
+        {breakpoints.md ? <NavbarMenuMobilFeatured /> : null}
       </ul>
     </div>
   )

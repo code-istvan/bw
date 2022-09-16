@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
-import "../../sass/components/_navbarmobil.scss"
 import LogoBW from "./LogoBW"
 import LogoBWtext from "./LogoBWtext"
 import NavbarMenu from "./NavbarMenu"
 import Hamburger from "./Hamburger"
+import "../../sass/components/_navigation.scss"
 
-export default function NavbarMobil() {
+export default function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false)
   const breakpoints = useBreakpoint()
 
@@ -35,7 +35,7 @@ export default function NavbarMobil() {
   }, [breakpoints])
 
   return (
-    <nav className="navbar-mobil">
+    <nav className="navigation">
       <div className="container-fluid p-0 navbar-box">
         <a className="navbar-logo ml-1" href="/">
           <LogoBW />

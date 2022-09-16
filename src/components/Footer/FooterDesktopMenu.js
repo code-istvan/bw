@@ -1,5 +1,7 @@
 import React from "react"
 import { useState } from "react"
+import Button from "../Button"
+import { navigate } from "gatsby"
 import Icon from "../Icons/Icon"
 import { Link } from "gatsby"
 import "../../sass/components/_footerdesktopmenu.scss"
@@ -115,19 +117,18 @@ const FooterDesktopMenu = () => {
           <li>
             {" "}
             <div className="footer__english">
-              <Icon.English url="/english" />
-              <Link to="/english">
-                <p>English</p>
-              </Link>
+              <Button
+                type="button"
+                buttonStyle="btn--secondary--outline"
+                onClick={() => {
+                  navigate("/english")
+                }}
+              >
+                English
+              </Button>
             </div>
           </li>
-          <li>
-            <Link to="/adatvedelem">
-              <p className="clr-shades-lightGray footer-menuitem">
-                Adatvédelmi tájékoztató
-              </p>
-            </Link>
-          </li>
+          <li></li>
         </ul>
       </div>
     </div>

@@ -14,14 +14,4 @@
       float: left;
     }
   }
-
-  @media only screen and (min-width: 1px) and (max-width: 1024px) {
-    hr.solid {
-      border-top: 3px solid #bbb;
-      margin: 24px 16px 16px;
-    }
-    li:nth-child(n + 3) {
-      display: none;
-    }
-  }
 }

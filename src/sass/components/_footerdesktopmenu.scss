@@ -14,37 +14,18 @@
   }
 
   .footer__english {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 1rem;
-
-    :first-child {
-      margin-right: 0.5rem;
-    }
-    // :nth-child(2) {
-    //   p {
-    //     margin: 0;
-    //   }
-    // }
-  }
-
-  .footer--thirdCol {
-    :nth-child(6) {
-      p {
-        margin-top: 0;
-      }
-    }
+    margin-top: 2rem;
   }
 }
 
 .footer-submenu,
 .footer-menuitem {
   &:hover {
-    text-decoration-line: underline;
-    text-decoration-color: $color-brand-orange;
-    text-decoration-thickness: 3px;
-    color: $color-shades-white !important;
+    color: $color-brand-orange !important;
+    // text-decoration-line: underline;
+    // text-decoration-color: $color-brand-orange;
+    // text-decoration-thickness: 3px;
+    // color: $color-shades-white !important;
   }
 }
 

@@ -9,7 +9,8 @@
   line-height: 140%;
   border-radius: 2px;
   padding: 11px;
-  width: fit-content;
+  // width: fit-content;
+  // width: 100%;
 }
 
 .btn:hover {
@@ -78,7 +79,7 @@
   padding: 12px !important;
   font-size: small !important;
   font-weight: 900 !important;
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .btn--mobil--secondary--outline--menu--small:hover {

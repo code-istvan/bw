@@ -70,7 +70,7 @@ $body-font-size-desktop: 18px;
 $span-font-size-mobile: 13px;
 $span-font-size-desktop: 14px;
 $small-font-size-mobile: 14px;
-$small-font-size-desktop: 16px;
+$small-font-size-desktop: 14px;
 
 @function fontSize($type, $device: "desktop") {
   @return map-get(map-get($font-sizes, $type), $device);

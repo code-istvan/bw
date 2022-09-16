@@ -1,0 +1,20 @@
+@import "/src/sass/global";
+
+.navbar-menu-mobil-featured {
+  // width: 100%;
+  margin: 14px;
+  margin-top: 1rem;
+
+  .navbar-menu-mobil-featured-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 2;
+    padding-top: 1.5rem;
+    border-top: 2px solid $color-shades-white;
+  }
+
+  .box {
+    border-bottom: 1px white solid;
+  }
+}

@@ -124,8 +124,8 @@ const English = props => {
             fill="black"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M9.31675 12L-0.536621 2.14664L0.536692 -2.14661L12 9.31674L23.4634 -2.14661L24.5367 2.14664L14.6833 12L24.5367 21.8534L23.4634 26.1466L12 14.6833L0.536692 26.1466L-0.536621 21.8534L9.31675 12Z"
             fill="white"
           />
@@ -134,8 +134,8 @@ const English = props => {
             fill="black"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M10.2112 12L-0.357737 1.4311L0.357805 -1.43107L12 10.2112L23.6423 -1.43107L24.3578 1.4311L13.7889 12L24.3578 22.5689L23.6423 25.4311L12 13.7889L0.357805 25.4311L-0.357737 22.5689L10.2112 12Z"
             fill="#C8102E"
           />
@@ -144,8 +144,8 @@ const English = props => {
             fill="black"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M10 8.00002V1.78814e-05H14V8.00002H24V16H14V24H10V16H3.62396e-05V8.00002H10Z"
             fill="white"
           />
@@ -154,8 +154,8 @@ const English = props => {
             fill="black"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M10.8 9.60002V1.78814e-05H13.2V9.60002H24V14.4H13.2V24H10.8V14.4H3.62396e-05V9.60002H10.8Z"
             fill="#C8102E"
           />

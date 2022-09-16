@@ -1,9 +1,9 @@
 import * as React from "react"
-import "../../sass/components/_navbarmenulanguageoptions.scss"
 import Button from "../Button"
 import { navigate } from "gatsby"
+import "../../sass/components/_navbardesktopfeatured.scss"
 
-const NavbarDesktopSubmenu = () => {
+const NavbarDesktopFeatured = () => {
   const desktopSubmenuItems = [
     { link: "/admin", label: "LOG_IN" },
     { link: "/english", label: "ENGLISH" },
@@ -36,4 +36,4 @@ const NavbarDesktopSubmenu = () => {
   )
 }
 
-export default NavbarDesktopSubmenu
+export default NavbarDesktopFeatured

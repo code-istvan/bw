@@ -8,13 +8,11 @@
 // MOBIL VIEW STARTS-------------------------------------------
 
 @media only screen and (min-width: 1px) and (max-width: 1024px) {
-  .navbar-mobil {
-    .nav-item {
-      list-style: none;
-      padding-left: 0;
-      margin-left: 0;
-      @include mobil-menu-fonts;
-    }
+  .nav-item {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    @include mobil-menu-fonts;
   }
 
   .mobil-menu-open {
@@ -35,14 +33,14 @@
   .mobil-menu-closed {
     clip-path: circle(15px at 93% -40%);
     -webkit-clip-path: circle(15px at 93% -40%);
-    opacity: 0;
+    opacity: 0 !important;
     -webkit-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
     transition: all 500ms ease-out;
   }
 
   .nav-links {
-    position: fixed;
+    // position: fixed;
     background-color: $offcanvas-menu-color;
     height: 100%;
     width: 100%;
@@ -51,7 +49,7 @@
     left: 0;
     right: 0;
     margin-left: 0;
-    padding-top: 100px; //Zoli ez igy jó???
+    // padding-top: 140px; //Zoli ez igy jó???
     z-index: 1;
     overflow-y: scroll;
 
@@ -76,7 +74,10 @@
     // background-color: red;
 
     &:hover {
-      color: gray !important;
+      background-color: unset !important;
+      color: unset !important;
+
+      // color: gray !important;
     }
   }
 
@@ -84,18 +85,23 @@
   .dropdown-item {
     margin: 0;
     background-color: $color-shades-darkGray !important;
-    padding: 0.5rem 4rem !important;
+    // padding-left: 4rem !important;
+    // width: 200px;
+    // padding: 0.5rem 4rem !important;
     @include mobil-menu-fonts;
+    overflow-x: hidden; // hide horizontal
   }
 
   .dropdown-item:hover {
-    color: $color-shades-lightGray !important;
-    background-color: transparent;
+    background-color: permanent !important;
+    color: $color-shades-white !important;
+    // color: $color-shades-lightGray !important;
+    // background-color: transparent;
   }
 
   .dropdown-menu {
     background-color: transparent !important;
-    width: 100%;
+    width: 100vw !important;
     margin: 0 !important;
     border: none;
     display: block;
@@ -107,11 +113,14 @@
     border-radius: 0;
     position: relative !important;
     transform: none !important;
+    overflow-x: hidden; // hide horizontal
 
     &.show {
       max-height: 400px;
+      width: fit-content;
       opacity: 1;
       visibility: visible;
+      // overflow-x: hidden; // hide horizontal
     }
     .nav-item {
       margin: 0;
@@ -257,13 +266,14 @@
 
   a#navbarDropdown {
     text-decoration-line: none !important;
-    cursor: default !important;
+    cursor: pointer !important;
+    // cursor: default !important;
   }
 
   // submenu box
   .dropdown-item {
     margin: 0;
-    color: $color-shades-lightGray !important;
+    // color: $color-shades-lightGray !important;
     height: 48px;
     @include desktop-submenu-fonts;
 
@@ -312,26 +322,25 @@
   .nav-link.dropdown-toggle:after {
     display: none !important;
   }
-}
 
-.menu-flash {
-  color: $color-shades-white;
-  animation-name: flash;
-  animation-duration: 500ms;
-  animation-timing-function: ease-in-out;
-}
+  .menu-flash {
+    animation-name: flash;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+  }
 
-@keyframes flash {
-  0% {
-    color: $color-shades-white;
-  }
-  25% {
-    color: $color-brand-orange;
-  }
-  50% {
-    color: $color-brand-orange;
-  }
-  100% {
-    color: $color-brand-orange;
+  @keyframes flash {
+    0% {
+      color: $color-shades-white;
+    }
+    25% {
+      color: $color-brand-orange !important;
+    }
+    50% {
+      color: $color-brand-orange !important;
+    }
+    100% {
+      color: $color-brand-orange !important;
+    }
   }
 }

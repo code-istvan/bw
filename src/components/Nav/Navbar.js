@@ -1,5 +1,5 @@
 import * as React from "react"
-import NavbarMobil from "./NavbarMobil"
+import Navigation from "./Navigation"
 import "../../sass/components/_navbar.scss"
 
 const Navbar = () => {
@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar_container fluid" ref={navRef}>
-      <NavbarMobil />
+      <Navigation />
     </div>
   )
 }

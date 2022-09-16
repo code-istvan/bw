@@ -11,29 +11,83 @@
   display: flex;
   flex-direction: row;
 }
+@media only screen and (min-width: 1px) and (max-width: 768px) {
+  footer {
+    .btn {
+      width: 100%;
+
+      @include sm {
+        width: fit-content;
+      }
+    }
+  }
+
+  .footer__brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__icon__text {
+    p {
+      text-align: center;
+    }
+  }
+  .footer__navigation {
+    display: none;
+  }
+
+  .footer__newsletter__box {
+    margin: 40px 1rem;
+    @include sm {
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .footer__brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .btn {
+      display: none;
+    }
+    svg {
+      margin-right: 2rem;
+    }
+  }
+
+  .footer__newsletter {
+    display: flex;
+    align-items: center;
+    .footer__newsletter__box {
+      padding: 40px 80px;
+    }
+    .btn {
+      width: fit-content;
+    }
+  }
+}
 
 .footer__brand {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   border-bottom: solid 1px $color-shades-lightBlack;
   border-right: solid 1px $color-shades-lightBlack;
-  padding: 2.5rem;
+  padding: 40px 1rem;
+  @include md {
+    padding: 2.5rem;
+  }
 }
 
 .footer__icon__text {
   min-width: 200px;
   max-width: 250px;
 }
-.footer__newsletter {
-  display: flex;
-  align-items: center;
-}
 
 .footer__newsletter__box {
   display: flex;
   flex-direction: column;
-  padding: 40px 80px;
 }
 
 .footer__navigation__box {
@@ -42,11 +96,32 @@
 }
 
 .footer__social {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
+  @media only screen and (min-width: 1px) and (max-width: 370px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    div:first-child {
+      margin-bottom: 20px;
+    }
+    svg {
+      padding-right: 20px;
+    }
+  }
+  @media only screen and (min-width: 371px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // gap: 20px;
+    div:nth-child(-n + 2) {
+      svg {
+        padding-right: 20px;
+      }
+    }
+  }
+
   margin-bottom: 1.5rem;
+  border-bottom: solid 1px $color-shades-lightBlack;
+
   svg {
     fill: $color-shades-lightGray;
   }
@@ -73,5 +148,29 @@
   }
 }
 .footer__bottom__text {
+  p {
+    margin: 0;
+  }
+
+  display: flex;
+  flex-direction: column;
+
   text-align: center;
+
+  @include lg {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .separator {
+    border-left: solid 2px $color-shades-lightBlack;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  @media screen and (max-width: 992px) {
+    .separator {
+      display: none;
+    }
+  }
 }
