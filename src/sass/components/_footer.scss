@@ -161,6 +161,10 @@
     margin: 0;
   }
 
+  div:nth-child(-n + 3) {
+    padding-bottom: 12px;
+  }
+
   display: flex;
   flex-direction: column;
   text-align: center;
