@@ -161,6 +161,10 @@
   flex-direction: column;
   text-align: center;
 
+  a:link {
+    color: $color-brand-orange;
+  }
+
   p {
     margin: 0;
   }
