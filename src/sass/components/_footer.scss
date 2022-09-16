@@ -157,21 +157,23 @@
   }
 }
 .footer__bottom__box {
-  p {
-    margin: 0;
-  }
-
-  div:nth-child(-n + 3) {
-    padding-bottom: 12px;
-  }
-
   display: flex;
   flex-direction: column;
   text-align: center;
 
+  p {
+    margin: 0;
+  }
+  div:nth-child(-n + 3) {
+    padding-bottom: 12px;
+  }
+
   @include lg {
     flex-direction: row;
     justify-content: center;
+    div:nth-child(-n + 3) {
+      padding-bottom: 0;
+    }
   }
 
   .separator {
