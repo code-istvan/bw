@@ -1,12 +1,12 @@
 import * as React from "react"
-import Layout from "../components/layout"
+import LayoutPage from "../components/Layouts/LayoutPage"
 import Seo from "../components/seo"
 import Button from "../components/Button"
 import { Link } from "gatsby"
 
 const Hirlevel = () => (
   <>
-    <Layout>
+    <LayoutPage>
       <Seo title="Hírlevél" />
       <h1>Feliratkozás hírlevélre</h1>
       <div className="row">
@@ -60,7 +60,7 @@ const Hirlevel = () => (
           </form>
         </div>
       </div>
-    </Layout>
+    </LayoutPage>
   </>
 )
 
