@@ -18,6 +18,9 @@
     text-decoration: none;
     color: $color-brand-orange !important;
   }
+  a:visited {
+    color: $color-brand-orange !important;
+  }
 }
 
 .hirlevel-input-name {
