@@ -70,7 +70,7 @@ $body-font-size-desktop: 18px;
 $span-font-size-mobile: 13px;
 $span-font-size-desktop: 14px;
 $small-font-size-mobile: 14px;
-$small-font-size-desktop: 14px;
+$small-font-size-desktop: 16px;
 
 @function fontSize($type, $device: "desktop") {
   @return map-get(map-get($font-sizes, $type), $device);
@@ -104,6 +104,7 @@ $navbar-items-margin: 16px;
 // Spacing
 $base-padding: 1rem;
 $base-margin: 1rem;
+$base-margin-items: 20px;
 
 // Borders
 $base-border-thickness: 1px;

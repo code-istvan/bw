@@ -217,7 +217,13 @@ span {
   font-weight: $font-weight-regular;
   line-height: 1.4;
   text-transform: none;
-  font-size: fontSize(small, mobile);
+  // font-size: fontSize(small, mobile);
+  @include xs {
+    font-size: fontSize(small, mobile);
+  }
+  @include xl {
+    font-size: fontSize(small, desktop);
+  }
 
   &--bold {
     font-weight: $font-weight-semi-bold;

@@ -1,0 +1,50 @@
+@import "/src/sass/global";
+
+.hirlevel--image {
+  position: relative;
+}
+
+.hirlevel--text {
+  position: absolute;
+  top: 12%;
+}
+
+.hirlevel--desktop--container {
+  @media only screen and (min-width: 992px) {
+    width: 670px;
+    margin: 0 auto;
+  }
+  a:link {
+    text-decoration: none;
+    color: $color-brand-orange;
+  }
+}
+
+.hirlevel-input-name {
+  @include xs {
+    margin-bottom: $base-margin-items;
+  }
+
+  @include md {
+    margin-bottom: 0;
+  }
+}
+
+.hirlevel-input-email {
+  margin-bottom: $base-margin-items;
+}
+
+.hirlevel-acceptance {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.hirlevel-button {
+  @media only screen and (min-width: 1px) and (max-width: 768px) {
+    .btn {
+      width: 100%;
+    }
+  }
+}

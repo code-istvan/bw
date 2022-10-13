@@ -39,7 +39,6 @@ const IndexPage = () => (
     </div>
     <div className="row">
       <div className="col">
-        {/* <h1>FŐOLDAL</h1> */}
         <h1 className="scrolled">oh jógi ne végezz ászanát vinyásza nélkűl</h1>
         <p>
           Avocado matcha peach strawberry mango a delicious meal guacamole asian

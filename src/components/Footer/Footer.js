@@ -53,7 +53,7 @@ const Footer = () => {
                 type="button"
                 buttonStyle="btn--secondary--outline"
                 onClick={() => {
-                  navigate("/hirlevel")
+                  navigate("/Hirlevel")
                 }}
               >
                 Feliratkozás

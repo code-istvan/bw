@@ -37,11 +37,15 @@
   border: 2px solid $color-brand-orange;
 }
 
-.btn--mobil--secondary--solid {
-  background-color: $color-shades-lightGray;
+.btn--secondary--solid {
+  background-color: $color-shades-gray;
   color: $color-shades-black;
-  // border-radius: 2px;
-  padding: 4px !important;
+
+  @include xl {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 32px;
+  }
 }
 
 .btn--mobil--secondary--solid--menu {

@@ -1,0 +1,33 @@
+@use "sass:math";
+@import "/src/sass/global";
+
+.input--field-box {
+  width: 100%;
+  background: transparent;
+  box-shadow: 0px 0px 0px 1px $color-shades-gray inset;
+  height: 44px;
+
+  &:focus-within {
+    box-shadow: 0px 0px 0px 1px $color-brand-orange inset;
+    color: $color-brand-orange;
+    border-radius: none !important;
+  }
+}
+
+input[type="text"],
+input[type="email"] {
+  background: transparent;
+  padding-left: 16px;
+  font-family: $small-font-size-desktop;
+  color: $color-shades-gray;
+  height: 42px;
+  width: calc(100% - 14px);
+
+  &:focus {
+    color: $color-brand-orange;
+  }
+}
+
+#gatsby-focus-wrapper {
+  padding-top: var(--header-height-base);
+}
