@@ -1,12 +1,39 @@
 @import "/src/sass/global";
 
-.hirlevel--image {
-  position: relative;
+@media screen and (max-width: 768px) {
+  .hero-big-image {
+    display: none;
+  }
 }
 
-.hirlevel--text {
+@media screen and (min-width: 768px) {
+  .hero-mobil-image {
+    display: none !important;
+  }
+}
+
+.hirlevel-hero-container {
+  position: relative;
+  padding: 0 !important;
+}
+
+.hirlevel-title {
   position: absolute;
-  top: 12%;
+  z-index: 2;
+  bottom: 8px;
+  margin: 0;
+}
+
+.hirlevel-hero-image {
+  z-index: 1;
+
+  // @media only screen and (min-width: 721px) {
+  //   height: 30vw;
+  // }
+
+  // @media only screen and (min-width: 1px) and (max-width: 720px) {
+  //   height: 100vw;
+  // }
 }
 
 .hirlevel--desktop--container {
