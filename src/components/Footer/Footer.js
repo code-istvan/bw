@@ -71,7 +71,7 @@ const Footer = () => {
           <div className="footer__bottom__box">
             <div>
               <p className="small">
-                Designed and code by
+                Designed and code by <br className="jaki" />
                 <a href="https://omworks.hu"> OmWorks Yoga Creatives</a>
               </p>
             </div>

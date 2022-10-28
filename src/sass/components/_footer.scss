@@ -121,6 +121,7 @@
     border: 0.13rem solid $color-brand-orange;
     color: $color-shades-lightBlack;
   }
+  margin-bottom: 2rem;
 }
 
 .footer__bottom__box {
@@ -163,6 +164,12 @@
 
   @media screen and (max-width: 992px) {
     .separator {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 577px) {
+    .jaki {
       display: none;
     }
   }
