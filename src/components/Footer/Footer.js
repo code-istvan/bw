@@ -1,7 +1,7 @@
 import * as React from "react"
 import Button from "../Button"
 import SocialIcons from "../SocialIcons"
-import Icons from "../../Icons/Icons"
+import Icons from "../../Icon/Icons"
 import { navigate } from "gatsby"
 import FooterDesktopMenu from "./FooterDesktopMenu"
 import Carbonbadge from "react-carbonbadge"

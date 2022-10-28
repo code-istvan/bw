@@ -1,5 +1,5 @@
 import * as React from "react"
-import Icons from "../Icons/Icons"
+import Icons from "../Icon/Icons"
 import "../sass/components/_socialicons.scss"
 
 export default function SocialIcons() {
