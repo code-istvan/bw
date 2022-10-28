@@ -68,10 +68,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__bottom">
-          <div className="footer__bottom__box">
+          <div className="footer__bottom__box mt-2 mb-2">
             <div>
               <p className="small">
-                Designed and code by <br className="jaki" />
+                Designed and code by <br className="footer-br" />
                 <a href="https://omworks.hu"> OmWorks Yoga Creatives</a>
               </p>
             </div>

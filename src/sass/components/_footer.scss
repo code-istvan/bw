@@ -143,10 +143,10 @@
     padding-bottom: 12px;
   }
 
-  @include md {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-  }
+  // @include md {
+  //   margin-top: 2rem;
+  //   margin-bottom: 2rem;
+  // }
 
   @include lg {
     flex-direction: row;
@@ -169,7 +169,7 @@
   }
 
   @media only screen and (min-width: 577px) {
-    .jaki {
+    .footer-br {
       display: none;
     }
   }
