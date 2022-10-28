@@ -81,12 +81,15 @@ const Footer = () => {
                 Copyright© 2015-{new Date().getFullYear()} BandhaWorks
               </p>
             </div>
-
             <div className="separator"></div>
             <div>
               <p className="small">Adatvédelmi tájékoztató</p>
             </div>
-            <div className="carbon mb-2 mt-2">
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <div className="carbon bg-shades-darkGray">
               <Carbonbadge darkMode={true} />
             </div>
           </div>
