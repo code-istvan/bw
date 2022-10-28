@@ -2,7 +2,7 @@ import React from "react"
 import { useState } from "react"
 import Button from "../Button"
 import { navigate } from "gatsby"
-import Icon from "../Icons/Icon"
+// import Icons from "../../Icons/Icons"
 import { Link } from "gatsby"
 import "../../sass/components/_footerdesktopmenu.scss"
 

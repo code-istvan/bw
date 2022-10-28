@@ -1,6 +1,7 @@
 import * as React from "react"
 import Button from "../Button"
-import Icon from "../Icons/Icon"
+import SocialIcons from "../SocialIcons"
+import Icons from "../../Icons/Icons"
 import { navigate } from "gatsby"
 import FooterDesktopMenu from "./FooterDesktopMenu"
 import Carbonbadge from "react-carbonbadge"
@@ -16,7 +17,7 @@ const Footer = () => {
             <div className="footer__brand">
               <div>
                 <Link to="/">
-                  <Icon.BwSymbol />
+                  <Icons.BwSymbol />
                 </Link>
               </div>
               <div className="footer__icon__text">
@@ -62,41 +63,32 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__social">
-          <div className="footer__social__box pt-2 pb-2">
+          <div className="pt-2 pb-2">
+            <SocialIcons />
+          </div>
+        </div>
+        <div className="footer__bottom">
+          <div className="footer__bottom__box">
             <div>
-              <Icon.Facebook url="https://www.facebook.com/bandhaworks" />
-              <Icon.Instagram url="https://www.instagram.com/bandhaworks/" />
-              <Icon.Twitter url="https://twitter.com/IstvnSzalai5/" />
+              <p className="small">
+                Designed and code by
+                <a href="https://omworks.hu"> OmWorks Yoga Creatives</a>
+              </p>
             </div>
+            <div className="separator"></div>
             <div>
-              <Icon.Soundcloud url="https://soundcloud.com/bandhaworks-hu/" />
-              <Icon.Messenger url="http://m.me/bandhawork" />
-              <Icon.Telegram url="https://t.me/@istvan108" />
+              <p className="small">
+                Copyright© 2015-{new Date().getFullYear()} BandhaWorks
+              </p>
+            </div>
+
+            <div className="separator"></div>
+            <div>
+              <p className="small">Adatvédelmi tájékoztató</p>
             </div>
           </div>
-          <div className="footer__bottom">
-            <div className="footer__bottom__box">
-              <div>
-                <p className="small">
-                  Designed and code by
-                  <a href="https://omworks.hu"> OmWorks Yoga Creatives</a>
-                </p>
-              </div>
-              <div className="separator"></div>
-              <div>
-                <p className="small">
-                  Copyright© 2015-{new Date().getFullYear()} BandhaWorks
-                </p>
-              </div>
-
-              <div className="separator"></div>
-              <div>
-                <p className="small">Adatvédelmi tájékoztató</p>
-              </div>
-            </div>
-            <div className="mb-2 mt-2">
-              <Carbonbadge darkMode={true} />
-            </div>
+          <div className="mb-2 mt-2">
+            <Carbonbadge darkMode={true} />
           </div>
         </div>
       </div>

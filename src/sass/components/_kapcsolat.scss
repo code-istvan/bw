@@ -10,6 +10,16 @@ button[type="submit"] {
   border: 2px solid color(black);
 }
 
+@media screen and (max-width: 768px) {
+  .kapcsolat-buttons {
+    background-color: aquamarine;
+    height: 74px;
+  }
+}
+
+.jaki {
+  display: inline;
+}
 // @media screen and (max-width: 576px) {
 //   button[type="submit"] {
 //     margin-top: 5px;

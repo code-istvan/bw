@@ -1,6 +1,6 @@
 import React from "react"
 import GoogleMapReact from "google-map-react"
-import Icon from "../Icons/Icon"
+import Icon from "../../Icons/Icons"
 import MapStyle from "./MapStyle"
 import "../../sass/components/_googlemap.scss"
 

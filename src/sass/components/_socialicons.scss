@@ -1,0 +1,33 @@
+@import "/src/sass/global";
+
+.socialIcons-box {
+  @media only screen and (min-width: 1px) and (max-width: 370px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    div:first-child {
+      margin-bottom: 20px;
+    }
+    svg {
+      padding-right: 20px;
+    }
+  }
+  @media only screen and (min-width: 371px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    div:nth-child(-n + 2) {
+      svg {
+        padding-right: 20px;
+      }
+    }
+  }
+
+  svg {
+    fill: $color-shades-lightGray;
+  }
+
+  svg:hover {
+    fill: $color-brand-orange;
+  }
+}
