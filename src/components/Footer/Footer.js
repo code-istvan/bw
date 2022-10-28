@@ -87,7 +87,7 @@ const Footer = () => {
               <p className="small">Adatvédelmi tájékoztató</p>
             </div>
           </div>
-          <div className="mb-2 mt-2">
+          <div className="carbon mb-2 mt-2">
             <Carbonbadge darkMode={true} />
           </div>
         </div>
