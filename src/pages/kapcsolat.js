@@ -36,7 +36,7 @@ export default function Kapcsolat() {
               </p>
             </address>
             <h3 className="mb-0">Kövess minket</h3>
-            <SocialIcons />
+            <SocialIcons position="socialIcons-left" />
           </div>
           <div className="col-6-md">
             <div className="row">

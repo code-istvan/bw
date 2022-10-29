@@ -2,9 +2,9 @@ import * as React from "react"
 import Icons from "../Icon/Icons"
 import "../sass/components/_socialicons.scss"
 
-export default function SocialIcons() {
+export default function SocialIcons(props) {
   return (
-    <div className="socialIcons-box">
+    <div className={`socialIcons-box ${props.position}`}>
       <div>
         <Icons.Facebook url="https://www.facebook.com/bandhaworks" />
         <Icons.Instagram url="https://www.instagram.com/bandhaworks/" />

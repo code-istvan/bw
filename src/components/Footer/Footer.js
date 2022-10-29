@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
         <div className="footer__social">
           <div className="pt-2 pb-2">
-            <SocialIcons />
+            <SocialIcons position="socialIcons-center" />
           </div>
         </div>
         <div className="footer__bottom">

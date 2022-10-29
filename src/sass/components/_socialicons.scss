@@ -15,7 +15,8 @@
   @media only screen and (min-width: 371px) {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    // justify-content: center;
+
     div:nth-child(-n + 2) {
       svg {
         padding-right: 20px;
@@ -30,4 +31,12 @@
   svg:hover {
     fill: $color-brand-orange;
   }
+}
+
+.socialIcons-center {
+  justify-content: center;
+}
+
+.socialIcons-left {
+  justify-content: flex-start;
 }
