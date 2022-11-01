@@ -10,15 +10,55 @@ button[type="submit"] {
   border: 2px solid color(black);
 }
 
-@media screen and (max-width: 768px) {
-  .kapcsolat-buttons {
-    background-color: aquamarine;
-    height: 74px;
+.kapcsolat-navigation {
+  width: 450px;
+  overflow-y: auto;
+}
+
+@include md {
+  .kapcsolat-navigation {
+    .btn {
+      display: none;
+    }
   }
 }
 
-.jaki {
+@media screen and (max-width: 768px) {
+  .kapcsolat-navigation-button {
+    .btn {
+      width: 100%;
+    }
+  }
+}
+
+.kapcsolat-address {
   display: inline;
+}
+
+.kapcsolat-title {
+  margin-top: 26px;
+  margin-bottom: 40px;
+
+  @include lg {
+    margin-top: 40px;
+  }
+}
+
+.kapcsolat-social-box {
+  margin-top: 20px;
+  border-top: solid 1px $color-shades-lightBlack;
+
+  @media screen and (min-width: 1px) and (max-width: 768px) {
+    border-bottom: solid 1px $color-shades-lightBlack;
+  }
+
+  .social-icons {
+    margin-bottom: 2rem;
+  }
+}
+
+.kapcsolat-social-text {
+  margin-bottom: 20px;
 }
 // @media screen and (max-width: 576px) {
 //   button[type="submit"] {
@@ -41,3 +81,24 @@ button[type="submit"] {
 label {
   font: 1rem "Nunito Sans", sans-serif;
 }
+
+.kapcsolat-button {
+  @media only screen and (min-width: 1px) and (max-width: 768px) {
+    .btn {
+      width: 100%;
+    }
+  }
+}
+
+// .kapcsolat__textarea {
+//   width: 100%;
+//   background: transparent;
+//   box-shadow: 0px 0px 0px 1px $color-shades-gray inset;
+//   height: 44px;
+
+//   &:focus-within {
+//     box-shadow: 0px 0px 0px 1px $color-brand-orange inset;
+//     color: $color-brand-orange;
+//     border-radius: none !important;
+//   }
+// }

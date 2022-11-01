@@ -8,6 +8,8 @@ import GoogleMap from "../components/GoogleMap/GoogleMap"
 import Navbar from "../components/Nav/Navbar"
 import Footer from "../components/Footer/Footer"
 import SocialIcons from "../components/SocialIcons"
+import InputField from "../components/InputField"
+import TextArea from "../components/TextArea"
 
 export default function Kapcsolat() {
   return (
@@ -16,31 +18,55 @@ export default function Kapcsolat() {
       <Navbar />
       <GoogleMap />
       <div className="container">
-        <div className="row kapcsolat-buttons">
-          <div className="col"></div>
+        <div className="row gap-1 kapcsolat-navigation">
+          <div className="col-4-xs kapcsolat-navigation-button">
+            <Button type="submit" buttonStyle="btn--secondary--outline">
+              Google Maps
+            </Button>
+          </div>
+          <div className="col-4-xs kapcsolat-navigation-button">
+            <Button type="submit" buttonStyle="btn--secondary--outline">
+              Waze
+            </Button>
+          </div>
+          <div className="col-4-xs kapcsolat-navigation-button">
+            <Button type="submit" buttonStyle="btn--secondary--outline">
+              Apple Maps
+            </Button>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <h1 className="kapcsolat-title">Kapcsolat</h1>
+          </div>
         </div>
 
-        <div className="row">
-          <div className="col-6-md">
-            <h1>Kapcsolat</h1>
+        <div className="row gap-2">
+          <div className="col-12-xs col-6-md">
             <address>
               <h3 className="mb-0">Bandha Works Jógaiskola</h3>
-              <p className="mb-0 jaki">Cím: </p>
-              <p className="mb-0 jaki">1027. Budapest, Frankel Leó út. 18.</p>
-              <p className="clr-shades-lightGray span span--bold">
-                A bejárat az utcafrontról nyílik, a társasházi főbejárattól
-                balra található barna ajtón tudsz lejönni hozzánk.
-              </p>
-              <p className="clr-shades-lightGray span span--bold">
-                Parkoló zóna kód: 3022.
+              <p className="kapcsolat-address">Cím: </p>
+              <p className="kapcsolat-address clr-brand-orange">
+                1027. Budapest, Frankel Leó út. 18.
               </p>
             </address>
-            <h3 className="mb-0">Kövess minket</h3>
-            <SocialIcons position="socialIcons-left" />
+            <p className="clr-shades-lightGray span span--bold mt-20px">
+              A bejárat az utcafrontról nyílik, a társasházi főbejárattól <br />
+              balra található barna ajtón tudsz lejönni hozzánk.
+            </p>
+            <p className="clr-shades-lightGray span span--bold mt-1">
+              Parkoló zóna kód: 3022.
+            </p>
+            <div className="kapcsolat-social-box">
+              <h3 className="mt-2 kapcsolat-social-text">Kövess minket</h3>
+              <div className="social-icons">
+                <SocialIcons position="socialIcons-left" />
+              </div>
+            </div>
           </div>
-          <div className="col-6-md">
+          <div className="col-12-xs col-6-md">
             <div className="row">
-              <h3 className="mb-0">Üzenet</h3>
+              <h3 className="mb-20px">Üzenj nekünk</h3>
             </div>
             <form
               name="contact bandhaworks"
@@ -58,10 +84,16 @@ export default function Kapcsolat() {
                 <input name="bot-field" />
               </div>
               <div className="row">
-                <div className="col-4-md">
-                  <input type="text" name="name" placeholder="Név" required />
-                  <br />
-                  <input
+                <div className="col-12-xs col-6-md mb-20px">
+                  <InputField
+                    type="text"
+                    name="name"
+                    placeholder="Név"
+                    required
+                  />
+                </div>
+                <div className="col-12-xs col-6-md mb-20px">
+                  <InputField
                     id="email"
                     type="email"
                     name="email"
@@ -69,36 +101,31 @@ export default function Kapcsolat() {
                     required
                   />
                 </div>
-                <div className="col-8-md mb-1">
-                  <textarea
+                <div className="col-12-xs col-12-md mb-1">
+                  <TextArea
                     className="kapcsolat__textarea"
                     name="comments"
-                    rows="2"
+                    rows="4"
                     placeholder="Üzenet"
                     required
-                  ></textarea>
-                </div>
-              </div>
-
-              <div className="row">
-                <div className="col-4-md mb-2">
-                  <Button
-                    type="submit"
-                    buttonStyle="btn--mobil--secondary--solid"
-                    buttonSize="btn--small"
-                  >
-                    KÜLDÉS
-                  </Button>
+                  ></TextArea>
                 </div>
               </div>
               <div className="row">
                 <div className="col d-grid contact_checkbox">
-                  <label className="form-control span span--bold clr-shades-lightGray">
+                  <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
                     <input type="checkbox" name="checkbox" required />
                     Megismertem és elfogadom az
                     <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
                     hozzájárulok e-mail címem kezeléséhez.
                   </label>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12-xs col-4-md mb-2 kapcsolat-button mt-20px">
+                  <Button type="submit" buttonStyle="btn--secondary--solid">
+                    KÜLDÉS
+                  </Button>
                 </div>
               </div>
             </form>
