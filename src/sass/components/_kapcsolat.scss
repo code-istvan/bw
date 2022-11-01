@@ -13,6 +13,7 @@ button[type="submit"] {
 .kapcsolat-navigation {
   width: 450px;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 @include md {
