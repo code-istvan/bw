@@ -10,12 +10,6 @@ button[type="submit"] {
   border: 2px solid color(black);
 }
 
-.kapcsolat-navigation {
-  width: 450px;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
 @include md {
   .kapcsolat-navigation {
     .btn {
@@ -73,9 +67,19 @@ button[type="submit"] {
     position: relative;
     bottom: 1px;
   }
-
   label {
     display: block;
+  }
+
+  display: flex;
+  flex-direction: row;
+
+  a:link {
+    text-decoration: none;
+    color: $color-brand-orange !important;
+  }
+  a:visited {
+    color: $color-brand-orange !important;
   }
 }
 

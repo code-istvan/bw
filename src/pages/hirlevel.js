@@ -40,7 +40,7 @@ const Hirlevel = () => (
     </div>
 
     <div className="row hirlevel--desktop--container">
-      <div className="col">
+      <div className="col mt-20px mb-20px">
         <p>
           Iratkozz fel hírlevelünkre, hogy elsőként értesülj jógaiskolánkat
           érintő történésekről. Havonta max. egy hírlevelet küldünk. Harmadik
@@ -81,7 +81,6 @@ const Hirlevel = () => (
       </div>
       <div className="row hirlevel--desktop--container">
         <div className="col">
-          {/* <div className="col d-grid gap-2 contact_checkbox"> */}
           <label className="form-control hirlevel-acceptance bw-checkbox">
             <input type="checkbox" name="checkbox" required />
             <span>

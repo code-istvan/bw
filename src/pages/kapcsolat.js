@@ -1,9 +1,8 @@
 import * as React from "react"
-// import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Button from "../components/Button"
 import { Link } from "gatsby"
-import "../sass/components/_kapcsolat.scss"
+import "../sass/pages/_kapcsolat.scss"
 import GoogleMap from "../components/GoogleMap/GoogleMap"
 import Navbar from "../components/Nav/Navbar"
 import Footer from "../components/Footer/Footer"
@@ -18,22 +17,22 @@ export default function Kapcsolat() {
       <Navbar />
       <GoogleMap />
       <div className="container">
-        <div className="row gap-1 kapcsolat-navigation">
-          <div className="col-4-xs kapcsolat-navigation-button">
+        <div className="row gap-1">
+          <div className="col-6-xs kapcsolat-navigation-button">
             <Button type="submit" buttonStyle="btn--secondary--outline">
               Google Maps
             </Button>
           </div>
-          <div className="col-4-xs kapcsolat-navigation-button">
+          <div className="col-6-xs kapcsolat-navigation-button">
             <Button type="submit" buttonStyle="btn--secondary--outline">
               Waze
             </Button>
           </div>
-          <div className="col-4-xs kapcsolat-navigation-button">
+          {/* <div className="col-4-xs kapcsolat-navigation-button">
             <Button type="submit" buttonStyle="btn--secondary--outline">
               Apple Maps
             </Button>
-          </div>
+          </div> */}
         </div>
         <div className="row">
           <div className="col">
@@ -89,7 +88,7 @@ export default function Kapcsolat() {
                     type="text"
                     name="name"
                     placeholder="Név"
-                    required
+                    required="required"
                   />
                 </div>
                 <div className="col-12-xs col-6-md mb-20px">
@@ -98,7 +97,7 @@ export default function Kapcsolat() {
                     type="email"
                     name="email"
                     placeholder="E-mail"
-                    required
+                    required="required"
                   />
                 </div>
                 <div className="col-12-xs col-12-md mb-1">
@@ -112,12 +111,14 @@ export default function Kapcsolat() {
                 </div>
               </div>
               <div className="row">
-                <div className="col d-grid contact_checkbox">
+                <div className="col contact_checkbox">
                   <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
                     <input type="checkbox" name="checkbox" required />
-                    Megismertem és elfogadom az
-                    <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
-                    hozzájárulok e-mail címem kezeléséhez.
+                    <span>
+                      Megismertem és elfogadom az
+                      <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
+                      hozzájárulok e-mail címem kezeléséhez.
+                    </span>
                   </label>
                 </div>
               </div>
