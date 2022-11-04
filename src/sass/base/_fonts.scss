@@ -53,7 +53,6 @@ $font-sizes: (
 
   &--1 {
     font-weight: $font-weight-semi-bold;
-    text-transform: uppercase;
     @include xs {
       font-size: #{fontSize(h1, mobile)};
     }

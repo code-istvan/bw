@@ -9,6 +9,7 @@ import Footer from "../components/Footer/Footer"
 import SocialIcons from "../components/SocialIcons"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
+import Icons from "../Icon/Icons"
 
 export default function Kapcsolat() {
   return (
@@ -17,7 +18,7 @@ export default function Kapcsolat() {
       <Navbar />
       <GoogleMap />
       <div className="container">
-        <div className="row gap-1">
+        <div className="row gap-1 kapcsolat-navigation ">
           <div className="col-6-xs kapcsolat-navigation-button">
             <Button type="submit" buttonStyle="btn--secondary--outline">
               Google Maps
@@ -28,11 +29,6 @@ export default function Kapcsolat() {
               Waze
             </Button>
           </div>
-          {/* <div className="col-4-xs kapcsolat-navigation-button">
-            <Button type="submit" buttonStyle="btn--secondary--outline">
-              Apple Maps
-            </Button>
-          </div> */}
         </div>
         <div className="row">
           <div className="col">
@@ -44,14 +40,17 @@ export default function Kapcsolat() {
           <div className="col-12-xs col-6-md">
             <address>
               <h3 className="mb-0">Bandha Works Jógaiskola</h3>
-              <p className="kapcsolat-address">Cím: </p>
-              <p className="kapcsolat-address clr-brand-orange">
-                1027. Budapest, Frankel Leó út. 18.
-              </p>
+              <div className="kapcsolat-address">
+                <p>Cím: </p>
+                <p className="clr-brand-orange">
+                  1027. Budapest, Frankel Leó út. 18.
+                </p>
+                <Icons.GoogleMapIcon url="https://www.facebook.com/bandhaworks" />
+              </div>
             </address>
-            <p className="clr-shades-lightGray span span--bold mt-20px">
-              A bejárat az utcafrontról nyílik, a társasházi főbejárattól <br />
-              balra található barna ajtón tudsz lejönni hozzánk.
+            <p className="clr-shades-lightGray span span--bold mt-20px kapcsolat-text">
+              A bejárat az utcafrontról nyílik, a társasházi főbejárattól balra
+              található barna ajtón tudsz lejönni hozzánk.
             </p>
             <p className="clr-shades-lightGray span span--bold mt-1">
               Parkoló zóna kód: 3022.
