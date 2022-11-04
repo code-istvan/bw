@@ -5,6 +5,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Button from "../components/Button"
+import Icons from "../Icon/Icons"
 import "../sass/pages/_index.scss"
 import { navigate } from "gatsby"
 
@@ -38,8 +39,18 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="row">
+      <div className="col index-namaste">
+        <Icons.Namaste />
+      </div>
+    </div>
+
+    <div className="row">
       <div className="col">
-        <h1 className="scrolled">oh jógi ne végezz ászanát vinyásza nélkűl</h1>
+        <h1 className="scrolled">
+          A Bandha Works jógaiskolát három mérnök alapította. Összeköt bennünket
+          a törekvés, hogy a tradicionális astanga vinyásza jógát népszerűsítsük
+          Magyarországon.
+        </h1>
         <p>
           Avocado matcha peach strawberry mango a delicious meal guacamole asian
           pear black bean chili dip seasonal raspberry fizz kimchi sweet potato

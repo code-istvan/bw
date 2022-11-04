@@ -49,7 +49,7 @@ button[type="submit"] {
 
 .kapcsolat-title {
   margin-top: 26px;
-  margin-bottom: 40px;
+  // margin-bottom: 40px;
 
   @include lg {
     margin-top: 40px;
@@ -108,5 +108,11 @@ label {
     .btn {
       width: 100%;
     }
+  }
+}
+
+.kapcsolat-google-icon {
+  @media only screen and (min-width: 1px) and (max-width: 768px) {
+    display: none;
   }
 }
