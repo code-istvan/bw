@@ -3,9 +3,9 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Button from "../components/Button"
 import Icons from "../Icon/Icons"
-import "../sass/pages/_index.scss"
 import { navigate } from "gatsby"
-import SectionRolunk from "../components/sections/SectionRolunk"
+import SectionRolunk from "../components/Sections/SectionRolunk"
+import "../sass/pages/_index.scss"
 
 const IndexPage = () => (
   <Layout>
