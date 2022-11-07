@@ -1,11 +1,26 @@
 import React from "react"
 import Button from "../Button"
 import { navigate } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import "../../sass/components/_sectionparampara.scss"
 
 const SectionParampara = () => {
   return (
     <section className="section--rolunk">
+      <div className="row">
+        <div className="col">
+          <StaticImage
+            className="container-fluid"
+            src="../../images/SharathJi.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
+        </div>
+      </div>
       <div className="row mt-20px">
         <div className="col">
           <h1 className="mb-20px">Bandha Works Parampara</h1>
