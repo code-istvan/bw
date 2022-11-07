@@ -1,7 +1,7 @@
 @import "/src/sass/global";
 
 :root {
-  --fs-xl: clamp(2.1rem, 8vw + 1rem, 2.5rem);
+  --fs-xl: clamp(2.2rem, 8vw + 1rem, 4rem);
   --fs-l: clamp(1rem, 1vw + 0.9rem, 2rem);
   --fs-m: clamp(1rem, 1vw + 0.7rem, 2rem);
   --fs-s: 1rem;
@@ -30,7 +30,10 @@
     font-family: "Abril Fatface", cursive;
     font-size: var(--fs-xl);
     line-height: 110%;
-    margin-bottom: 26px;
+    margin-bottom: 36px;
+    @include sm {
+      color: red;
+    }
   }
   .hero--font-small-serif {
     font-family: "Abril Fatface", cursive;
