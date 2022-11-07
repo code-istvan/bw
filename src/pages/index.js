@@ -1,6 +1,5 @@
 import * as React from "react"
 import Seo from "../components/seo"
-import Button from "../components/Button"
 import Navbar from "../components/Nav/Navbar"
 import Footer from "../components/Footer/Footer"
 import Hero from "../components/Hero"
