@@ -20,7 +20,10 @@
   position: absolute;
   z-index: 2;
   bottom: 0px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 8px;
 
   @include xl {
     margin: 40px;
@@ -29,7 +32,7 @@
   .hero--font-big {
     font-family: "Abril Fatface", cursive;
     font-size: var(--fs-xl);
-    line-height: 110%;
+    line-height: 130%;
     margin-bottom: 36px;
     @include sm {
       color: red;
