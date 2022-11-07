@@ -1,15 +1,15 @@
 @import "/src/sass/global";
 
 :root {
-  --fs-xl: clamp(3.4rem, 8vw + 1rem, 3.6rem);
+  --fs-xl: clamp(2.1rem, 8vw + 1rem, 2.3rem);
   --fs-l: clamp(1rem, 1vw + 0.9rem, 2rem);
   --fs-m: clamp(1rem, 1vw + 0.7rem, 2rem);
   --fs-s: 1rem;
 }
 
-// .gatsby-image-wrapper {
-//   z-index: -1;
-// }
+.gatsby-image-wrapper {
+  z-index: -1;
+}
 
 .hero-container {
   position: relative;
@@ -30,6 +30,7 @@
     font-family: "Abril Fatface", cursive;
     font-size: var(--fs-xl);
     line-height: 110%;
+    margin-bottom: 26px;
   }
   .hero--font-small-serif {
     font-family: "Abril Fatface", cursive;
@@ -77,6 +78,10 @@
   .hero_mobil {
     display: none !important;
   }
+
+  .hero-buttons-underhero {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1px) and (max-width: 720px) {
@@ -96,9 +101,4 @@
     margin-left: 14px;
     line-height: 130%;
   }
-}
-
-.breki {
-  margin-left: 20px;
-  margin-right: 20px;
 }
