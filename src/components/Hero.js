@@ -12,9 +12,9 @@ const Hero = () => (
           <div className="col">
             <div className="hero-text">
               <p className="hero--font-big mb-20px">
-                "óh jógi, ne <br />
+                óh jógi, ne <br />
                 végezz ászanát <br />
-                vinyásza nélkül"
+                vinyásza nélkül
               </p>
               <div className="row">
                 <div className="hero-risi-section">
