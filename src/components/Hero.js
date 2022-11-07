@@ -33,32 +33,32 @@ const Hero = () => (
                     <p className="hero--font-small-sans-serif">VÁMANA RISI</p>
                   </div>
                 </div>
-                {/* <div className="row hero-buttons">
-                <div className="col-12-xs col-6-sm mb-20px">
-                  <Button
-                    type="button"
-                    buttonStyle="btn--mobil--primary--solid"
-                    buttonSize="btn--small"
-                    onClick={() => {
-                      navigate("/mysore-program")
-                    }}
-                  >
-                    Mysore program
-                  </Button>
+                <div className="row hero-buttons hero-buttons-onthehero">
+                  <div className="col-12-xs col-6-sm mb-20px">
+                    <Button
+                      type="button"
+                      buttonStyle="btn--mobil--primary--solid"
+                      buttonSize="btn--small"
+                      onClick={() => {
+                        navigate("/mysore-program")
+                      }}
+                    >
+                      Mysore program
+                    </Button>
+                  </div>
+                  <div className="col-12-xs col-6-sm">
+                    <Button
+                      type="button"
+                      buttonStyle="btn--mobil--primary--outline"
+                      buttonSize="btn--small"
+                      onClick={() => {
+                        navigate("/tanfolyam")
+                      }}
+                    >
+                      Tanfolyamok
+                    </Button>
+                  </div>
                 </div>
-                <div className="col-12-xs col-6-sm">
-                  <Button
-                    type="button"
-                    buttonStyle="btn--mobil--primary--outline"
-                    buttonSize="btn--small"
-                    onClick={() => {
-                      navigate("/tanfolyam")
-                    }}
-                  >
-                    Tanfolyamok
-                  </Button>
-                </div>
-              </div> */}
               </div>
             </div>
 

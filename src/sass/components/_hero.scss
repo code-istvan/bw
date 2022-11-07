@@ -92,6 +92,12 @@
   .hero_desktop {
     display: none !important;
   }
+
+  .hero-buttons-onthehero {
+    .btn {
+      display: none;
+    }
+  }
 }
 
 .hero--author {
