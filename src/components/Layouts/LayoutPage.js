@@ -2,8 +2,8 @@ import * as React from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "../Nav/Navbar"
-import "../../sass/components/_layoutpage.scss"
 import Footer from "../Footer/Footer"
+import "../../sass/components/_layoutpage.scss"
 
 const LayoutPage = ({ children }) => {
   // const data = useStaticQuery(graphql`

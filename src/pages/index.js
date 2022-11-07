@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Button from "../components/Button"
+import Hero from "../components/Hero"
 import Icons from "../Icon/Icons"
 // import { navigate } from "gatsby"
 import SectionRolunk from "../components/Sections/SectionRolunk"
@@ -10,6 +11,7 @@ import "../sass/pages/_index.scss"
 const IndexPage = () => (
   <Layout>
     <Seo title="FŐOLDAL" />
+    <Hero />
     <div className="row">
       <div className="col index-namaste mt-20px mb-20px">
         <Icons.Namaste />

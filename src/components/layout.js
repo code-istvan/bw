@@ -4,7 +4,6 @@ import PropTypes from "prop-types"
 import Navbar from "./Nav/Navbar"
 import "../sass/components/_layout.scss"
 import Footer from "./Footer/Footer"
-import Hero from "./Hero"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -19,7 +18,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <Hero />
       <div className="container">
         <main>{children}</main>
       </div>
