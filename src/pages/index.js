@@ -3,39 +3,13 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Button from "../components/Button"
 import Icons from "../Icon/Icons"
-import { navigate } from "gatsby"
+// import { navigate } from "gatsby"
 import SectionRolunk from "../components/Sections/SectionRolunk"
 import "../sass/pages/_index.scss"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="FŐOLDAL" />
-    <div className="row">
-      <div className="col">
-        <Button
-          type="button"
-          buttonStyle="btn--mobil--primary--solid"
-          buttonSize="btn--small"
-          onClick={() => {
-            navigate("/tanfolyam")
-          }}
-        >
-          TANFOLYAMOK
-        </Button>
-      </div>
-      <div className="col">
-        <Button
-          type="button"
-          buttonStyle="btn--mobil--primary--outline"
-          buttonSize="btn--small"
-          onClick={() => {
-            navigate("/orarend")
-          }}
-        >
-          ÓRAREND
-        </Button>
-      </div>
-    </div>
     <div className="row">
       <div className="col index-namaste mt-20px mb-20px">
         <Icons.Namaste />

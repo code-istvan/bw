@@ -1,14 +1,75 @@
 @import "/src/sass/global";
 
 :root {
-  --fs-xl: clamp(1.8rem, 8vw + 1rem, 2.2rem);
+  --fs-xl: clamp(3.4rem, 8vw + 1rem, 3.6rem);
   --fs-l: clamp(1rem, 1vw + 0.9rem, 2rem);
   --fs-m: clamp(1rem, 1vw + 0.7rem, 2rem);
   --fs-s: 1rem;
 }
 
-.gatsby-image-wrapper {
-  z-index: -1;
+// .gatsby-image-wrapper {
+//   z-index: -1;
+// }
+
+.hero-container {
+  position: relative;
+  padding: 0 !important;
+}
+
+.hero-text {
+  position: absolute;
+  z-index: 2;
+  bottom: 8px;
+  margin: 20px;
+
+  @include xl {
+    margin: 40px;
+  }
+
+  .hero--font-big {
+    font-family: "Abril Fatface", cursive;
+    font-size: var(--fs-xl);
+    line-height: 110%;
+  }
+  .hero--font-small-serif {
+    font-family: "Abril Fatface", cursive;
+    font-size: var(--fs-l);
+    line-height: 110%;
+    margin-bottom: 4px;
+  }
+  .hero--font-small-sans-serif {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: var(--fs-m);
+    line-height: 110%;
+  }
+}
+
+.hero-risi-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-buttons {
+  @media only screen and (min-width: 1px) and (max-width: 768px) {
+    .btn {
+      width: 100%;
+    }
+  }
+}
+
+.hero--risi {
+  border-radius: 50%;
+  @include xs {
+    height: 44px;
+    width: 44px;
+    border: solid 2px white;
+  }
+
+  @include xl {
+    height: 75px;
+    width: 75px;
+    border: solid 4px white;
+  }
 }
 
 @media only screen and (min-width: 721px) {
@@ -16,115 +77,13 @@
   .hero_mobil {
     display: none !important;
   }
-
-  .hero--relative {
-    position: relative;
-  }
-
-  .hero--text {
-    position: absolute;
-    top: 27%;
-    z-index: -1;
-  }
-
-  .hero--text-small {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-  }
-
-  .hero--font-big {
-    font-family: "Abril Fatface", cursive;
-    font-size: var(--fs-xl);
-    line-height: 110%;
-  }
-
-  .hero--font-small-serif {
-    font-family: "Abril Fatface", cursive;
-    font-size: var(--fs-l);
-    line-height: 110%;
-  }
-  .hero--font-small-sans-serif {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: var(--fs-m);
-    line-height: 110%;
-  }
-
-  .hero--risi {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    border: solid 4px white;
-  }
-  .col-sm-4 {
-    width: 8%;
-  }
 }
-
-.hero--author {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-  p {
-    // margin-bottom: 0;
-    margin-left: 14px;
-    line-height: 130%;
-  }
-}
-
-// @media only screen and (min-width: 721px) and (max-width: 1024px) {
-//   .hero_mobil,
-//   .hero_desktop {
-//     display: none !important;
-//   }
-// }
 
 @media only screen and (min-width: 1px) and (max-width: 720px) {
   .hero_tablet,
   .hero_desktop {
     display: none !important;
   }
-
-  .hero--relative {
-    position: relative;
-  }
-
-  .hero--text {
-    position: absolute;
-    top: 27%;
-    z-index: -1;
-  }
-
-  .hero--text-small {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-  }
-
-  .hero--font-big {
-    font-family: "Abril Fatface", cursive;
-    font-size: var(--fs-xl);
-    line-height: 110%;
-  }
-
-  .hero--font-small-serif {
-    font-family: "Abril Fatface", cursive;
-    font-size: var(--fs-l);
-    line-height: 110%;
-  }
-  .hero--font-small-sans-serif {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: var(--fs-m);
-    line-height: 110%;
-  }
-
-  .hero--risi {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: solid 3px white;
-  }
 }
 
 .hero--author {
@@ -137,4 +96,9 @@
     margin-left: 14px;
     line-height: 130%;
   }
+}
+
+.breki {
+  margin-left: 20px;
+  margin-right: 20px;
 }
