@@ -5,6 +5,7 @@ import Footer from "../components/Footer/Footer"
 import Hero from "../components/Hero"
 import Icons from "../Icon/Icons"
 import SectionRolunk from "../components/Sections/SectionRolunk"
+import SectionParampara from "../components/Sections/SectionParampara"
 import "../sass/pages/_index.scss"
 
 const IndexPage = () => (
@@ -19,6 +20,7 @@ const IndexPage = () => (
         </div>
       </div>
       <SectionRolunk />
+      <SectionParampara />
       <div className="row">
         <div className="col">
           <p>
