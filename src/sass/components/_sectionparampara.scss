@@ -1,10 +1,50 @@
 @import "/src/sass/global";
 
-.section--rolunk {
-  max-width: 670px;
+.section--parampara {
+  .container-fluid {
+    background-color: $color-shades-darkerGray;
+  }
+
   @media only screen and (min-width: 1px) and (max-width: 768px) {
     .btn {
       width: 100%;
     }
+  }
+}
+
+.section--parampara--wapper {
+  @include xl {
+    padding-block: 56px;
+  }
+}
+
+.section--parampara--image {
+  z-index: 2;
+
+  @include xs {
+    order: 0;
+  }
+  @include xl {
+    order: 1;
+  }
+
+  @include xl {
+    img {
+      width: 260px;
+      height: 260px;
+    }
+  }
+}
+
+.section--parampara-text {
+  max-width: 732px;
+  @include xs {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  @include xl {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }

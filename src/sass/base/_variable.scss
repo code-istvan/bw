@@ -9,6 +9,7 @@ $colors: (
     "black": hsl(0, 0%, 0%),
     "lightBlack": hsl(240, 10%, 30%),
     "darkGray": hsl(0, 0%, 20%),
+    "darkerGray": hsl(0, 0%, 15%),
     "Gray": hsl(0, 0%, 77%),
     "lightGray": hsl(0, 0%, 90%),
     "white": hsl(0, 0%, 100%),
@@ -24,7 +25,8 @@ $color-shades-black: hsl(0, 0%, 0%);
 $color-shades-white: hsl(0, 0%, 100%);
 $color-shades-lightGray: hsl(0, 0%, 90%);
 $color-shades-gray: hsl(0, 0%, 77%);
-$color-shades-darkGray: hsl(0, 0%, 26%);
+$color-shades-darkGray: hsl(0, 0%, 20%);
+$color-shades-darkerGray: hsl(0, 0%, 15%);
 $color-shades-lightBlack: hsl(240, 10%, 30%);
 
 $offcanvas-menu-color: rgba(0, 0, 0, 1);
