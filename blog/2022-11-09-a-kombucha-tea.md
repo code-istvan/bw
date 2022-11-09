@@ -8,7 +8,7 @@ author: István
 tags:
   - életmód
 date: 2022-06-01T12:39:56.203Z
-thumbnail: https://www.bandha.works/bandhaworks/kombucha-bandha.jpeg
+thumbnail: /blogpostimages/kombucha-bandha.jpeg
 ---
 ![kombucha tea](https://www.bandha.works/bandhaworks/kombucha-bandha.jpeg)
 
