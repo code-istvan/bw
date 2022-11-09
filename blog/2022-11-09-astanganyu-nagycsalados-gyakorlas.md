@@ -7,7 +7,7 @@ author: István
 tags:
   - astanga interjú
 date: 2022-10-11T12:00:49.973Z
-thumbnail: https://www.bandha.works/bandhaworks/AstangaAnya.png
+thumbnail: /blogpostimages/astangaanya.png
 ---
 Időhiány és túl korai kelés. Ez a két leggyakoribb ok, amire az **astanga** szimpatizánsok hivatkoznak, ha szóba kerül, hogy miért nem választják a napi rendszeres, reggeli mysore programot. Most induló interjúsorozatunkban két anyukával és egy apukával ismerkedhettek meg, akik lenyűgözően bűvészkednek az idővel, és rendszeres gyakorlással alapozzák meg a család jóllétét. Elsőként fogadjátok szeretettel Lillát.
 
