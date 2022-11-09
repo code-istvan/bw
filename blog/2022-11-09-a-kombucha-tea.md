@@ -8,8 +8,10 @@ author: István
 tags:
   - életmód
 date: 2022-06-01T12:39:56.203Z
-thumbnail: /blogpostimages/kombucha-bandha.jpeg
+thumbnail: https://www.bandha.works/bandhaworks/kombucha-bandha.jpeg
 ---
+![kombucha tea](https://www.bandha.works/bandhaworks/kombucha-bandha.jpeg)
+
 Az astanga jóga tudománya nem merül ki az ászanák napi rendszerességű gyakorlásával, hanem egy komplett életmódról van szó, aminek megkerülhetetlen része a jógikus táplálkozás. Számos szenior astanga gyakorló, napi rendszerességgel fogyaszt saját készítésű kombucha teát, ezzel támogatva testi és lelki egészségét. Ebben a cikkben szeretnénk megosztani Veletek tapasztalatainkat ezzel a nagyszerű ősi gyógyírral kapcsolatosan, aminek gyökerei izgalmas módon egészen Patandzsali Jóga Szútrák idejébe nyúlnak.
 
 Az agy és a bélrendszer között nagyon fontos anatómiai kölcsönhatás alakult ki az evolúció során. Az idegrendszeren, pontosabban a bolygóidegen keresztül kommunikálnak, segíthetik, de akadályozhatják is egymás működését. A tápcsatornát úgy is nevezik, hogy a “második agyunk”. A megfelelő működése nélkül a szellemi képességeinket nem tudjuk teljes mértékben kihasználni. Éppen ezért nagyon fontos, hogy tudatosan is támogassuk a működését és biztosítsuk számára a megfelelő tápanyagokat és mikroorganizmusokat.
