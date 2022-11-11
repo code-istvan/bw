@@ -1,5 +1,10 @@
 @import "/src/sass/global";
 
+.blog-card {
+  border-bottom: solid 1px $color-shades-lightBlack;
+  padding-bottom: 24px;
+}
+
 .blog-card-header {
   display: flex;
   flex-direction: row;
@@ -29,12 +34,13 @@
 }
 
 .blog-card-footer-button {
-  margin-top: 12px;
+  margin-top: 20px;
 
   a {
     color: $color-brand-orange;
     margin: 4px 0px;
     line-height: 1.4;
+    font-size: 16px;
   }
 
   a:link {
@@ -59,7 +65,7 @@
   flex-direction: row;
   p {
     margin-right: 1rem;
-    padding: 4px 8px;
+    padding: 4px 12px;
     background-color: $color-shades-darkGray;
   }
 }
