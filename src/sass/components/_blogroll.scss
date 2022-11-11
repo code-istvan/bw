@@ -1,0 +1,65 @@
+@import "/src/sass/global";
+
+.blog-card-header {
+  display: flex;
+  flex-direction: row;
+  p {
+    color: $color-shades-white;
+  }
+  padding-bottom: 0.5rem;
+}
+
+.blog-card-header-separator {
+  border-left: solid 1px $color-shades-lightBlack;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.blog-card-body {
+  margin-top: 8px;
+  .blog-card-title {
+    margin-bottom: 8px;
+  }
+  .blog-card-text {
+    margin-bottom: 16px;
+  }
+}
+
+.blog-card-footer {
+  margin-top: 0.5rem;
+}
+
+.blog-card-footer-button {
+  margin-top: 12px;
+
+  a {
+    color: $color-brand-orange;
+    margin: 4px 0px;
+    line-height: 1.4;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: underline;
+  }
+}
+
+.blog-card-footer-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.breki {
+  display: flex;
+  flex-direction: row;
+  p {
+    margin-right: 1rem;
+    padding: 4px 8px;
+    background-color: $color-shades-darkGray;
+  }
+}

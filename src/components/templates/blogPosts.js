@@ -12,7 +12,7 @@ import "../../sass/components/_blogposts.scss"
 import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
 
 const blogPosts = ({ data }) => {
-  const { frontmatter, body } = data.mdx
+  const { frontmatter, body, timeToRead } = data.mdx
   const src = getSrc(frontmatter.thumbnail) || ""
   const image = getImage(frontmatter.thumbnail)
 
@@ -28,7 +28,6 @@ const blogPosts = ({ data }) => {
           <div className="col blogPost__backgrondColor">
             <h2>{frontmatter.title}</h2>
             <ul>
-              {" "}
               <li className="blogPosts__same-line">
                 <AuthorIcon />
                 <p>{frontmatter.author}</p>
@@ -40,6 +39,10 @@ const blogPosts = ({ data }) => {
               <li className="blogPosts__same-line">
                 <TagsIcon />
                 <p>{frontmatter.tags}</p>
+              </li>
+              <li className="blogPosts__same-line">
+                <TagsIcon />
+                <p>{timeToRead}</p>
               </li>
             </ul>
             <GatsbyImage image={image} alt={frontmatter.title} />
@@ -66,6 +69,7 @@ export const query = graphql`
   query PostsBySlug($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       body
+      timeToRead
       frontmatter {
         title
         description

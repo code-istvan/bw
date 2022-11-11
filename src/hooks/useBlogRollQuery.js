@@ -13,6 +13,8 @@ export const useBlogRoll = () => {
               date(formatString: "YYYY. MM. DD.")
               description
               title
+              author
+              tags
               thumbnail {
                 childImageSharp {
                   gatsbyImageData(
