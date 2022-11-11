@@ -1,7 +1,8 @@
 ---
 published: true
 title: Ez egy próba
-description: Ez egy próba blog post
+description: "Appetizer seasonal four-layer green grapes black beans maple
+  orange tempeh black bean wraps cinnamon toast "
 author: István
 tags:
   - bilibásan
