@@ -6,6 +6,7 @@ author: István
 tags:
   - bilibásan
   - jojojo
+  - makita
 date: 2022-11-09T15:12:37.169Z
 thumbnail: https://www.bandha.works/bandhaworks/defected_test.png
 ---
