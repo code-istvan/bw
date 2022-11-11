@@ -35,10 +35,7 @@ function BlogRoll({ count }) {
             console.log(jaki)
 
             return (
-              <div
-                className="blog-card blog-card-hover mt-40px mb-40px"
-                key={post.slug}
-              >
+              <div className="mt-40px mb-40px" key={post.slug}>
                 <div className="blog-card">
                   <div className="blog-card-header">
                     <p>{author}</p>
@@ -46,12 +43,12 @@ function BlogRoll({ count }) {
                     <p>{post.frontmatter.date}</p>
                   </div>
                   <div className="blog-card-body">
-                    <GatsbyImage
+                    {/* <GatsbyImage
                       image={image}
                       className="blog__thumbnail"
                       alt={post.frontmatter.title}
                       aspectratio={4 / 3}
-                    />
+                    /> */}
                     <h3 className="blog-card-title">{title}</h3>
                     <p className="blog-card-text">
                       {post.frontmatter.description}
