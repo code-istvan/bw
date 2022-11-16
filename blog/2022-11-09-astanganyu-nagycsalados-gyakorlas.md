@@ -11,7 +11,7 @@ thumbnail: /blogpostimages/astangaanya.png
 ---
 Időhiány és túl korai kelés. Ez a két leggyakoribb ok, amire az **astanga** szimpatizánsok hivatkoznak, ha szóba kerül, hogy miért nem választják a napi rendszeres, reggeli mysore programot. Most induló interjúsorozatunkban két anyukával és egy apukával ismerkedhettek meg, akik lenyűgözően bűvészkednek az idővel, és rendszeres gyakorlással alapozzák meg a család jóllétét. Elsőként fogadjátok szeretettel Lillát.
 
-Lilla hivatását tekintve szülésznő és elhivatott gyakorló, aki jelenleg a negyedik kisbabáját várja. A legidősebb gyermeke 6 éves, így az elmúlt 6 év sűrű és koncentrált megtapasztalása volt számára az anyaságnak, és az anyaság-jóga kapcsolatának egyaránt.
+Lilla hivatását tekintve szülésznő és elhivatott gyakorló, aki jelenleg a negyedik kisbabáját várja. A legidősebb gyermeke 6 éves, így az elmúlt 6 év sűrű és koncentrált megtapasztalása volt számára az anyaságnak, és az anyaság-jóga kapcsolatának egyaránt.<br />
 
 **Mennyivel nagyobb kihívás édesanyaként, várandósan gyakorolni? Mit ad pluszban számodra a gyakorlás ebben a különleges állapotban, amikor is a befelé figyelés nem is feltétlenül csak rólad szól?**
 
