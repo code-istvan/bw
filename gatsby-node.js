@@ -14,7 +14,9 @@ exports.onCreateWebpackConfig = helper => {
 
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
+const _ = require("lodash")
 const { fmImagesToRelative } = require("gatsby-remark-relative-images")
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(

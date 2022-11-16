@@ -60,3 +60,19 @@ section {
 .mb-40px {
   margin-bottom: 40px;
 }
+
+.tag-button {
+  // display: flex;
+  // flex-direction: row;
+
+  p {
+    margin-right: 1rem;
+    padding: 4px 12px;
+    background-color: $color-shades-darkGray;
+  }
+
+  a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit;
+  }
+}
