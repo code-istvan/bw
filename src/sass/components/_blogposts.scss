@@ -16,6 +16,12 @@
   border-bottom: 3px solid color(gray);
 }
 
+.blog-post-image {
+  @media only screen and (min-width: 1px) and (max-width: 720px) {
+    height: 100vw;
+  }
+}
+
 article {
   li {
     display: list-item;
