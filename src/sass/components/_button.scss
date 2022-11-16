@@ -76,6 +76,17 @@
   color: $color-shades-black;
 }
 
+.btn--third--naked {
+  background-color: transparent;
+  color: $color-brand-orange;
+}
+
+.btn--third--naked:hover {
+  transform: translateY(0px);
+  background-color: transparent;
+  color: $color-brand-orange;
+}
+
 .btn--mobil--secondary--outline--menu--small {
   background-color: transparent;
   color: $color-shades-lightGray;

@@ -1,7 +1,7 @@
+import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import React from "react"
-import Button from "react-bootstrap/Button"
+import Button from "../Button"
 import LayoutBlog from "../Layouts/LayoutBlog"
 import { Link } from "gatsby"
 import Seo from "../seo"
@@ -54,8 +54,16 @@ const blogPosts = ({ data }) => {
         <MDXRenderer>{body}</MDXRenderer>
       </article>
       {/* <Button variant="primary" href="/blog"> */}
-      <Button variant="primary" onClick={() => navigate(-1)}>
-        Vissza
+
+      <Button
+        type="button"
+        buttonStyle="btn--third--naked"
+        // buttonSize="btn--small"
+        onClick={() => {
+          navigate("/blog")
+        }}
+      >
+        Vissza az összes bejegyzéshez
       </Button>
     </LayoutBlog>
   )

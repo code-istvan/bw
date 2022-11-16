@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { useBlogRoll } from "../hooks/useBlogRollQuery"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+// import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import TagsRoll from "./templates/tagsRoll"
 import "../sass/components/_blogroll.scss"
 
