@@ -35,9 +35,8 @@ const blogPosts = ({ data }) => {
           <p>{frontmatter.author}</p>
           <div className="blog-card-header-separator"></div>
           <p>{timeToRead} perc olvasás</p>
-          {/* <p>{frontmatter.date}</p> */}
           {/* <div className="blog-card-header-separator"></div>
-          <div className="tag-button"></div> */}
+          <p>{frontmatter.date}</p> */}
         </div>
       </div>
       <div className="blog-card-footer-text tag-button">
@@ -49,11 +48,6 @@ const blogPosts = ({ data }) => {
           )
         })}
       </div>
-      {/* <div className="row">
-        <div className="col">
-          <p>{timeToRead} perc olvasás</p>
-        </div>
-      </div> */}
       <br />
       <br />
       <article>
