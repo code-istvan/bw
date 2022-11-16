@@ -7,17 +7,18 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-remark-relative-images",
+      resolve: `gatsby-remark-relative-images-v2`,
       options: {
         name: "blogpostimages",
       },
     },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [`.mdx`, `.md`],
-      },
-    },
+
+    // {
+    //   resolve: "gatsby-remark-relative-images",
+    //   options: {
+    //     name: "blogpostimages",
+    //   },
+    // },
 
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
@@ -66,7 +67,12 @@ module.exports = {
         name: `blog`,
       },
     },
-
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
