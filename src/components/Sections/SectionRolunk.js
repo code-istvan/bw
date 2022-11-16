@@ -22,8 +22,7 @@ const SectionRolunk = () => {
         <div className="col mt-20px">
           <Button
             type="button"
-            buttonStyle="btn--mobil--primary--outline"
-            buttonSize="btn--small"
+            buttonStyle="btn--primary--outline"
             onClick={() => {
               navigate("/rolunk")
             }}

@@ -22,7 +22,7 @@ const blogPosts = ({ data }) => {
         description={frontmatter.description}
         thumbnail={src}
       />
-      <div className="container-fluid">
+      <div className="container-fluid blog-post-image">
         <GatsbyImage image={image} alt={frontmatter.title} />
       </div>
       <div className="row">

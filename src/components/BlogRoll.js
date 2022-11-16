@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import { useBlogRoll } from "../hooks/useBlogRollQuery"
+import Button from "./Button"
+import { navigate } from "gatsby"
 // import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import TagsRoll from "./templates/tagsRoll"
 import "../sass/components/_blogroll.scss"
@@ -71,13 +73,15 @@ function BlogRoll({ count }) {
                         {timeToRead} perc olvasás
                       </p>
                       <div className="blog-card-footer-button">
-                        <Link
-                          to={`/blog/${post.slug}`}
-                          iscurrent="true"
-                          className={""}
+                        <Button
+                          type="button"
+                          buttonStyle="btn--third--naked"
+                          onClick={() => {
+                            navigate(`/blog/${post.slug}`)
+                          }}
                         >
                           Olvasd tovább
-                        </Link>
+                        </Button>
                       </div>
                     </div>
                   </div>

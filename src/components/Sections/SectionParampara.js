@@ -38,8 +38,7 @@ const SectionParampara = () => {
                 <div className="mt-20px">
                   <Button
                     type="button"
-                    buttonStyle="btn--mobil--primary--outline"
-                    buttonSize="btn--small"
+                    buttonStyle="btn--primary--outline"
                     onClick={() => {
                       navigate("/")
                     }}

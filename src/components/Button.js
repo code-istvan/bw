@@ -3,13 +3,13 @@ import "../sass/components/_button.scss"
 
 const STYLES = [
   "btn--primary--solid",
-  "btn--mobil--primary--solid",
-  "btn--mobil--primary--outline",
+  // "btn--mobil--primary--solid",
+  // "btn--mobil--primary--outline",
   "btn--secondary--solid",
   "btn--secondary--outline",
   "btn--third--naked",
-  "btn--mobil--secondary--outline--menu",
-  "btn--mobil--secondary--outline--menu--small",
+  // "btn--mobil--secondary--outline--menu",
+  // "btn--mobil--secondary--outline--menu--small",
   "btn--primary--outline",
 ]
 
