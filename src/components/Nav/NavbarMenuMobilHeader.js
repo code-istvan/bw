@@ -17,7 +17,7 @@ const NavbarMenuMobilHeader = () => {
           <Button
             key={label}
             type="button"
-            buttonStyle="btn--mobil--secondary--outline--menu--small"
+            buttonStyle="btn--secondary--outline"
             onClick={() => {
               navigate(link)
             }}

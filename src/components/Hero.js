@@ -37,8 +37,7 @@ const Hero = () => (
                   <div className="col-12-xs col-6-sm mb-20px">
                     <Button
                       type="button"
-                      buttonStyle="btn--mobil--primary--solid"
-                      buttonSize="btn--small"
+                      buttonStyle="btn--primary--outline"
                       onClick={() => {
                         navigate("/mysore-program")
                       }}
@@ -49,13 +48,12 @@ const Hero = () => (
                   <div className="col-12-xs col-6-sm">
                     <Button
                       type="button"
-                      buttonStyle="btn--mobil--primary--outline"
-                      buttonSize="btn--small"
+                      buttonStyle="btn--primary--outline"
                       onClick={() => {
-                        navigate("/tanfolyam")
+                        navigate("/")
                       }}
                     >
-                      Tanfolyamok
+                      Tanítói láncolatunk
                     </Button>
                   </div>
                 </div>
@@ -101,8 +99,7 @@ const Hero = () => (
         <div className="col-12-xs col-6-sm mb-20px">
           <Button
             type="button"
-            buttonStyle="btn--mobil--primary--solid"
-            buttonSize="btn--small"
+            buttonStyle="btn--primary--solid"
             onClick={() => {
               navigate("/mysore-program")
             }}
@@ -113,8 +110,7 @@ const Hero = () => (
         <div className="col-12-xs col-6-sm">
           <Button
             type="button"
-            buttonStyle="btn--mobil--primary--outline"
-            buttonSize="btn--small"
+            buttonStyle="btn--primary--outline"
             onClick={() => {
               navigate("/tanfolyam")
             }}

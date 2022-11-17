@@ -19,8 +19,7 @@ const NavbarDesktopFeatured = () => {
           <li key={label}>
             <Button
               type="button"
-              buttonStyle="btn--mobil--secondary--outline--menu--small"
-              buttonSize="btn--small"
+              buttonStyle="btn--secondary--outline"
               onClick={() => {
                 navigate(link)
               }}
