@@ -1,5 +1,5 @@
 import React from "react"
-import Button from "../Button"
+import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"

@@ -1,5 +1,5 @@
 import * as React from "react"
-import Button from "../Button"
+import Button from "../Buttons/Button"
 import SocialIcons from "../SocialIcons"
 import Icons from "../../Icon/Icons"
 import { navigate } from "gatsby"

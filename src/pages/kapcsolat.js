@@ -1,6 +1,6 @@
 import * as React from "react"
 import Seo from "../components/seo"
-import Button from "../components/Button"
+import Button from "../components/Buttons/Button"
 import { Link } from "gatsby"
 import "../sass/pages/_kapcsolat.scss"
 import GoogleMap from "../components/GoogleMap/GoogleMap"

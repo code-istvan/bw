@@ -1,7 +1,7 @@
 import * as React from "react"
 import LayoutPage from "../components/Layouts/LayoutPage"
 import Seo from "../components/seo"
-import Button from "../components/Button"
+import Button from "../components/Buttons/Button"
 import InputField from "../components/InputField"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"

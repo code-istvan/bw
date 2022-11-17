@@ -1,0 +1,21 @@
+@import "/src/sass/global";
+
+.btn-icon {
+  font-family: $font-family-secondary;
+  color: $color-brand-orange;
+  font-weight: 600 !important;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 140%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  gap: 8px;
+  padding-left: 0;
+
+  i {
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from "react"
-import Button from "../Button"
+import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
 // import Icons from "../../Icons/Icons"
 import { Link } from "gatsby"

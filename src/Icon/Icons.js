@@ -49,8 +49,8 @@ const ColorSwitch = propColor => {
     case "white":
       fillColor = "#FFFFFF"
       break
-    case "red":
-      fillColor = "#FF0055"
+    case "orange":
+      fillColor = "#F39E12"
       break
     default:
       fillColor = "$logo-color-primary"
@@ -80,6 +80,29 @@ const Facebook = props => {
         <path d="M40 20C40 8.95312 31.0469 0 20 0C8.95312 0 0 8.95312 0 20C0 31.0469 8.95312 40 20 40C20.1172 40 20.2344 40 20.3516 39.9922V24.4297H16.0547V19.4219H20.3516V15.7344C20.3516 11.4609 22.9609 9.13281 26.7734 9.13281C28.6016 9.13281 30.1719 9.26562 30.625 9.32812V13.7969H28C25.9297 13.7969 25.5234 14.7812 25.5234 16.2266V19.4141H30.4844L29.8359 24.4219H25.5234V39.2266C33.8828 36.8281 40 29.1328 40 20Z" />
       </svg>
     </a>
+  )
+}
+
+const ArrowLeft = props => {
+  ColorSwitch(props.color)
+
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M23 13.0919L3 13.0919L3 10.0919L23 10.0919L23 13.0919Z"
+        fill={fillColor}
+      />
+      <path
+        d="M13 18.9706L10.8787 21.0919L3.45406 13.6673L1.33274 11.546L3.45406 9.42466L10.8787 2.00004L13 4.12136L5.57538 11.546L13 18.9706Z"
+        fill={fillColor}
+      />
+    </svg>
   )
 }
 
@@ -365,6 +388,7 @@ const Twitter = props => {
 }
 
 const Icons = {
+  ArrowLeft,
   BwSymbol,
   English,
   Logo,
