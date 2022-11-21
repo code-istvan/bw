@@ -2,14 +2,15 @@ import * as React from "react"
 import Seo from "../components/seo"
 import Button from "../components/Buttons/Button"
 import { Link } from "gatsby"
-import "../sass/pages/_kapcsolat.scss"
+
 import GoogleMap from "../components/GoogleMap/GoogleMap"
 import Navbar from "../components/Nav/Navbar"
 import Footer from "../components/Footer/Footer"
 import SocialIcons from "../components/SocialIcons"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
-import Icons from "../Icon/Icons"
+import Icons from "../components/Icon/Icons"
+import "../sass/pages/_kapcsolat.scss"
 
 export default function Kapcsolat() {
   return (
