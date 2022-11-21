@@ -1,6 +1,6 @@
 import * as React from "react"
 import Button from "../Buttons/Button"
-import SocialIcons from "../SocialIcons"
+import SocialIcons from "../Icon/SocialIcons"
 import Icons from "../Icon/Icons"
 import { navigate } from "gatsby"
 import FooterDesktopMenu from "./FooterDesktopMenu"

@@ -1,6 +1,6 @@
 import * as React from "react"
-import Icons from "./Icon/Icons"
-import "../sass/components/_socialicons.scss"
+import Icons from "./Icons"
+import "../../sass/components/_socialicons.scss"
 
 export default function SocialIcons(props) {
   return (
