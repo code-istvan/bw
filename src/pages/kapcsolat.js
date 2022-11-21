@@ -5,10 +5,10 @@ import { Link } from "gatsby"
 import GoogleMap from "../components/GoogleMap/GoogleMap"
 import Navbar from "../components/Nav/Navbar"
 import Footer from "../components/Footer/Footer"
-import SocialIcons from "../components/Icon/SocialIcons"
+import SocialIcons from "../components/Icons/SocialIcons"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
-import Icons from "../components/Icon/Icons"
+import Icons from "../components/Icons/Icons"
 import "../sass/pages/_kapcsolat.scss"
 
 export default function Kapcsolat() {
