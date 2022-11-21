@@ -24,17 +24,17 @@ const IndexPage = () => (
       <div className="row">
         <div className="col">
           <p>
-            Avocado matcha peach strawberry mango a delicious meal guacamole
-            asian pear black bean chili dip seasonal raspberry fizz kimchi sweet
-            potato kale spiced pumpkin chili double dark chocolate grapefruit
-            Bolivian rainbow pepper samosa chocolate lemon lime minty. Balsamic
-            vinaigrette tasty coriander vine tomatoes spring tabasco pepper
-            strawberry spinach salad picnic salad pinch of yum green pepper
-            ginger lemongrass agave green tea arugula salad red amazon pepper
-            almond milk chai latte pine nuts sesame soba noodles. Miso turmeric
-            glazed aubergine lemon tahini dressing miso dressing banana bread
-            springtime strawberry with cremini mushrooms chickpea crust pizza
-            cherry bomb pepper candy cane winter.
+            Avocado matcha pichu peach strawberry mango a delicious meal
+            guacamole asian pear black bean chili dip seasonal raspberry fizz
+            kimchi sweet potato kale spiced pumpkin chili double dark chocolate
+            grapefruit Bolivian rainbow pepper samosa chocolate lemon lime
+            minty. Balsamic vinaigrette tasty coriander vine tomatoes spring
+            tabasco pepper strawberry spinach salad picnic salad pinch of yum
+            green pepper ginger lemongrass agave green tea arugula salad red
+            amazon pepper almond milk chai latte pine nuts sesame soba noodles.
+            Miso turmeric glazed aubergine lemon tahini dressing miso dressing
+            banana bread springtime strawberry with cremini mushrooms chickpea
+            crust pizza cherry bomb pepper candy cane winter.
           </p>
           <p>
             Green tea lime cilantro thyme tempeh Italian linguine puttanesca
