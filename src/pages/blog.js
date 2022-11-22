@@ -3,10 +3,13 @@ import LayoutBlog from "../components/Layouts/LayoutBlog"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 // import { Link } from "gatsby"
+import { useTagsRoll } from "../hooks/useTagsRoll"
 import BlogRoll from "../components/BlogRoll"
 import "../sass/pages/_blog.scss"
 
 export default function Blog() {
+  const tags = useTagsRoll()
+
   return (
     <LayoutBlog>
       <Seo title="BLOG" />
@@ -37,22 +40,10 @@ export default function Blog() {
             />
           </div>
         </div>
-        {/* For tags - not working yet */}
-        {/* <div className="row">
-          <div className="col">
-            <ul>
-              {post.frontmatter.tags.map(tag => {
-                return (
-                  <li>
-                    <Link to={`/tags/${tag}`}>{tag}</Link>
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
-        </div> */}
-        {/* For tags - ends */}
       </div>
+      {tags?.map(tag => {
+        return <div>{tag}</div>
+      })}
 
       <BlogRoll />
     </LayoutBlog>

@@ -1,3 +1,5 @@
+const slugify = require(`./src/utils/slugify`)
+
 exports.onCreateWebpackConfig = helper => {
   const { stage, actions, getConfig } = helper
   if (stage === "develop" || stage === "build-javascript") {
@@ -67,6 +69,7 @@ exports.createPages = ({ actions, graphql }) => {
   const blogPostTemplate = path.resolve(
     "./src/components/templates/blogPosts.js"
   )
+  const tagsTemplate = path.resolve("./src/components/templates/tags.js")
 
   return graphql(`
     {
@@ -80,6 +83,7 @@ exports.createPages = ({ actions, graphql }) => {
           }
           frontmatter {
             title
+            tags
           }
         }
       }
@@ -89,10 +93,19 @@ exports.createPages = ({ actions, graphql }) => {
       throw result.errors
     }
     const posts = result.data.allMdx.nodes
+    let tags = []
+    posts.forEach(({ frontmatter }) => {
+      tags.push(...frontmatter.tags)
+    })
+    tags = Array.from(new Set(tags))
 
-    // Create page for tags starts
-    // createTagPage(createPage, posts)
-    // Create page for tags ends
+    tags.forEach(tag => {
+      createPage({
+        path: `tags/${slugify(tag)}`,
+        component: tagsTemplate,
+        context: { tag },
+      })
+    })
 
     // create page for each mdx node
     posts.forEach(post => {
