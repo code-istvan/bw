@@ -9,7 +9,15 @@ export default function Developmentpage() {
       <div className="row">
         <h1 className="mb-2">Development-page</h1>
 
-        <p className="mb-2">I use Gatsby, Netlify CMS and Netlify</p>
+        <p>I use Gatsby, Netlify CMS and Netlify</p>
+        <p className="mb-2">
+          GitHub repo:{" "}
+          <a href="    https://github.com/code-istvan/bw">
+            https://github.com/code-istvan/bw
+          </a>
+          .
+        </p>
+
         <h3>Task1: Create TAG page</h3>
         <br />
         <p>
