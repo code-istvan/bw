@@ -1,6 +1,6 @@
 import * as React from "react"
 import Seo from "../components/seo"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 export default function Developmentpage() {
   return (
@@ -8,9 +8,45 @@ export default function Developmentpage() {
       <Seo title="Developer page" />
       <div className="row">
         <h1 className="mb-2">Development-page</h1>
-        <h3 className="mb-2">Tags challenge</h3>
-        <p className="span">Span - Nunito Sans</p>
-        <p className="span span--bold">SpanBold - Nunito Sans</p>
+
+        <p className="mb-2">I use Gatsby, Netlify CMS and Netlify</p>
+        <h3>Task1: Create TAG page</h3>
+        <br />
+        <p>
+          The linked tags work within the blog post. This is my blog page:{" "}
+          <a href="https://lucid-easley-756a67.netlify.app/blog">
+            https://lucid-easley-756a67.netlify.app/blog
+          </a>
+          .
+        </p>
+        <p>
+          What I'd like your help me to write the code in gatsby-node.js to
+          render the page of the posts associated with the tags. Unfortunately,
+          I haven't managed to do this yet.
+        </p>
+        <p>This is my tags.js code:</p>
+        <a href="https://codepen.io/santosa8/pen/ExRQvdx?editors=0010">
+          https://codepen.io/santosa8/pen/ExRQvdx?editors=0010
+        </a>
+        <p>This is my gatsby-node.js code:</p>
+        <a
+          className="mb-2"
+          href="https://codepen.io/santosa8/pen/XWYZZVK?editors=0010"
+        >
+          https://codepen.io/santosa8/pen/XWYZZVK?editors=0010
+        </a>
+        <h3>Task2: Blog roll</h3>
+        <p>
+          2.1 I want to create a blog roll component that I can use elsewhere.
+        </p>
+        <p>
+          2.2 I want to create a blog roll page, that render all the tags on one
+          page.
+        </p>
+        <p>This is my blogtags.js code:</p>
+        <a href="https://codepen.io/santosa8/pen/YzveaVg?editors=0010">
+          https://codepen.io/santosa8/pen/YzveaVg?editors=0010
+        </a>
       </div>
     </div>
   )
