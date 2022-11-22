@@ -37,6 +37,21 @@ export default function Blog() {
             />
           </div>
         </div>
+        {/* For tags - not working yet */}
+        {/* <div className="row">
+          <div className="col">
+            <ul>
+              {post.frontmatter.tags.map(tag => {
+                return (
+                  <li>
+                    <Link to={`/tags/${tag}`}>{tag}</Link>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        </div> */}
+        {/* For tags - ends */}
       </div>
 
       <BlogRoll />

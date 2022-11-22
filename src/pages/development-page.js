@@ -1,6 +1,5 @@
 import * as React from "react"
 import Seo from "../components/seo"
-import { Link } from "gatsby"
 
 export default function Developmentpage() {
   return (

@@ -31,10 +31,6 @@ const FooterDesktopMenu = () => {
   const [isHoveringJogaorak, setIsHoveringJogaorak] = useState(false)
   const [isHoveringTudnivalok, setIsHoveringTudnivalok] = useState(false)
 
-  const jaki = () => {
-    alert("Bendi")
-  }
-
   return (
     <div className="row footer-desktop-menu-lists">
       <div className="col">
