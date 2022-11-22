@@ -91,7 +91,7 @@ exports.createPages = ({ actions, graphql }) => {
     const posts = result.data.allMdx.nodes
 
     // Create page for tags starts
-    createTagPage(createPage, posts)
+    // createTagPage(createPage, posts)
     // Create page for tags ends
 
     // create page for each mdx node
