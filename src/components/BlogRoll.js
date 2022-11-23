@@ -22,14 +22,6 @@ function BlogRoll({ count }) {
     <>
       <div className="row">
         <div className="col">
-          <h4>CIMKÉK</h4>
-          {/* tags roll starts */}
-          {/* <TagsRoll /> */}
-          {/* tags roll  */}
-        </div>
-      </div>
-      <div className="row">
-        <div className="col">
           {posts &&
             posts.map(post => {
               const title = post.frontmatter.title || post.fields.slug

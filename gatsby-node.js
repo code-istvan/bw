@@ -19,51 +19,6 @@ const path = require(`path`)
 const _ = require("lodash")
 const { fmImagesToRelative } = require("gatsby-remark-relative-images")
 
-// Create page for tags starts
-
-// const createTagPages = (createPage, posts) => {
-//   const tagPageTemplate = path.resolve(`src/templates/tags.js`)
-//   const allTagsTemplate = path.resolve(`src/templates/blogtags.js`)
-
-//   const postsByTags = {}
-
-//   posts.forEach(({ node }) => {
-//     if (node.frontmatter.tags) {
-//       node.frontmatter.tags.forEach(tag => {
-//         if (!postsByTags[tag]) {
-//           postsByTags[tag] = []
-//         }
-
-//         postsByTags[tag].push(node)
-//       })
-//     }
-//   })
-
-//   const tags = Object.keys(postsByTags)
-
-//   createPage({
-//     path: `/tags`,
-//     component: allTagsTemplate,
-//     context: {
-//       tags: tags.sort(),
-//     },
-//   })
-
-//   tags.forEach(tagName => {
-//     const posts = postsByTags[tagName]
-
-//     createPage({
-//       path: `/tags/${tagName}`,
-//       component: tagPageTemplate,
-//       context: {
-//         posts,
-//         tagName,
-//       },
-//     })
-//   })
-// }
-// Create page for tags ends
-
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(

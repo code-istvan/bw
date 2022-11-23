@@ -16,9 +16,6 @@ const blogPosts = ({ data }) => {
   const image = getImage(frontmatter.thumbnail)
   const { tags } = frontmatter
 
-  console.log("ezaz")
-  console.log(image)
-
   return (
     <LayoutBlog>
       <Seo

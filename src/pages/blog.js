@@ -2,18 +2,14 @@ import * as React from "react"
 import LayoutBlog from "../components/Layouts/LayoutBlog"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-// import { Link } from "gatsby"
-import { useTagsRoll } from "../hooks/useTagsRoll"
 import BlogRoll from "../components/BlogRoll"
+import BlogTags from "../components/BlogTags"
 import "../sass/pages/_blog.scss"
 
 export default function Blog() {
-  const tags = useTagsRoll()
-
   return (
     <LayoutBlog>
       <Seo title="BLOG" />
-
       <div className="blog-hero-container">
         <div className="row hirlevel--desktop--container">
           <div className="col">
@@ -41,10 +37,13 @@ export default function Blog() {
           </div>
         </div>
       </div>
-      {tags?.map(tag => {
-        return <div>{tag}</div>
-      })}
+      <div className="row">
+        <div className="col">
+          <h4>CIMKÉK</h4>
+        </div>
+      </div>
 
+      <BlogTags />
       <BlogRoll />
     </LayoutBlog>
   )
