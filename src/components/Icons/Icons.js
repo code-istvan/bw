@@ -333,6 +333,27 @@ const Namaste = props => {
   )
 }
 
+const SearchIcon = props => {
+  //   ColorSwitch(props.color)
+
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M12.5275 6.59691C12.5275 3.32159 9.87256 0.666668 6.59724 0.666668C3.32192 0.666668 0.666992 3.32159 0.666992 6.59691C0.666992 9.87223 3.32192 12.5272 6.59724 12.5272C7.87382 12.5272 9.05616 12.1238 10.0238 11.4377L13.9772 15.3911L15.3914 13.9769L11.438 10.0235C12.1242 9.05583 12.5275 7.8735 12.5275 6.59691ZM6.59724 2.66667C8.76799 2.66667 10.5275 4.42616 10.5275 6.59691C10.5275 8.76766 8.76799 10.5272 6.59724 10.5272C4.42649 10.5272 2.66699 8.76766 2.66699 6.59691C2.66699 4.42616 4.42649 2.66667 6.59724 2.66667Z"
+        fill="white"
+      />
+    </svg>
+  )
+}
+
 const Soundcloud = props => {
   //   ColorSwitch(props.color)
 
@@ -398,6 +419,7 @@ const Icons = {
   Messenger,
   Minilogo,
   Namaste,
+  SearchIcon,
   Soundcloud,
   Telegram,
   Twitter,

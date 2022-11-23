@@ -4,7 +4,6 @@ import { useBlogRoll } from "../hooks/useBlogRollQuery"
 import Button from "./Buttons/Button"
 import { navigate } from "gatsby"
 // import { GatsbyImage, getImage } from "gatsby-plugin-image"
-// import TagsRoll from "./templates/tagsRoll"
 import "../sass/components/_blogroll.scss"
 
 function BlogRoll({ count }) {

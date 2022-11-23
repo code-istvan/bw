@@ -4,6 +4,7 @@ import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import BlogRoll from "../components/BlogRoll"
 import BlogTags from "../components/BlogTags"
+import SearchBar from "../components/SearchBar"
 import "../sass/pages/_blog.scss"
 
 export default function Blog() {
@@ -37,12 +38,16 @@ export default function Blog() {
           </div>
         </div>
       </div>
+      <div className="row mt-20px">
+        <div className="col">
+          <SearchBar id="" type="text" name="serach" placeholder="Keresés" />
+        </div>
+      </div>
       <div className="row">
         <div className="col">
           <h4>CIMKÉK</h4>
         </div>
       </div>
-
       <BlogTags />
       <BlogRoll />
     </LayoutBlog>
