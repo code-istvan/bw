@@ -3,7 +3,7 @@ published: true
 title: Ez egy próba
 description: "Appetizer seasonal four-layer green grapes black beans maple
   orange tempeh black bean wraps cinnamon toast "
-author: István
+author: bandha.works@gmail.com
 tags:
   - bilibásan
   - jojojo
