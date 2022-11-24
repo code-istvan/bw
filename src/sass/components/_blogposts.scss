@@ -16,3 +16,10 @@ article {
   }
   color: white;
 }
+
+.blog-posts-body-style {
+  p {
+    white-space: pre-line;
+    margin-bottom: 1rem;
+  }
+}

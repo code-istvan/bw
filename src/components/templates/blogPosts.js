@@ -49,7 +49,7 @@ const blogPosts = ({ data }) => {
           )
         })}
       </div>
-      <article className="mb-20px mt-20px">
+      <article className="mb-20px mt-20px blog-posts-body-style">
         <MDXRenderer>{body}</MDXRenderer>
       </article>
       <ButtonIcon
