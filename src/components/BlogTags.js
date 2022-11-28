@@ -17,15 +17,3 @@ function BlogTags() {
 }
 
 export default BlogTags
-
-{
-  /* <div className="blog-card-footer-text tag-button">
-{post.frontmatter.tags.map(tag => {
-  return (
-    <p key={tag}>
-      <Link to={`/tags/${tag}`}>{tag}</Link>
-    </p>
-  )
-})}
-</div> */
-}
