@@ -30,7 +30,7 @@
     "gatsby-remark-relative-images-v2": "^0.1.5",
     "gatsby-remark-responsive-iframe": "^5.24.0",
     "gatsby-source-filesystem": "^4.24.0",
-    "gatsby-transformer-remark": "^5.24.0",
+    "gatsby-transformer-remark": "^6.0.0",
     "gatsby-transformer-sharp": "^4.24.0",
     "gbimage-bridge": "^0.2.2",
     "google-map-react": "^2.2.0",
