@@ -17,7 +17,7 @@ exports.onCreateWebpackConfig = helper => {
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
 const _ = require("lodash")
-const { fmImagesToRelative } = require("gatsby-remark-relative-images")
+const { fmImagesToRelative } = require("gatsby-remark-relative-images-v2")
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -29,7 +29,7 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(`
     {
       allMdx(
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { frontmatter: { date: DESC } }
         filter: { frontmatter: { published: { eq: true } } }
       ) {
         nodes {
