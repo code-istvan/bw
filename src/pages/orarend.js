@@ -3,7 +3,6 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 // import { Link } from "gatsby"
 // import "../sass/components/_kapcsolat.scss"
-// import { Helmet } from "react-helmet"
 // import { ElfsightWidget } from "react-elfsight-widget"
 // import Calendar from "../components/Calendar"
 

@@ -22,7 +22,6 @@
     "gatsby-plugin-netlify": "^5.1.0",
     "gatsby-plugin-offline": "^6.2.0",
     "gatsby-plugin-page-creator": "^5.2.0",
-    "gatsby-plugin-react-helmet": "^6.2.0",
     "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sass": "^6.2.0",
     "gatsby-plugin-sharp": "^5.2.0",
@@ -42,7 +41,6 @@
     "react-bootstrap": "^2.6.0",
     "react-carbonbadge": "^1.0.1",
     "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
     "sass": "^1.56.1"
   },
   "devDependencies": {

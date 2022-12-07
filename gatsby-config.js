@@ -4,6 +4,10 @@ module.exports = {
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@omworks`,
     siteUrl: `https://https://lucid-easley-756a67.netlify.app`,
+    social: {
+      facebook: `bandhaworks`,
+      twitter: `IstvnSzalai5`,
+    },
   },
   plugins: [
     {
@@ -40,7 +44,6 @@ module.exports = {
       },
     },
 
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     "gatsby-plugin-breakpoints",
