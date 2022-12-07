@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
+// import { MDXRenderer } from "gatsby-plugin-mdx"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
 import LayoutBlog from "../Layouts/LayoutBlog"
@@ -10,7 +10,7 @@ import { navigate } from "gatsby"
 // import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
 import "../../sass/components/_blogposts.scss"
 
-const blogPosts = ({ data }) => {
+const BlogPosts = ({ data, children }) => {
   // const { frontmatter, body } = data.mdx
   const post = data.mdx
   // const src = getSrc(frontmatter.thumbnail) || ""
@@ -18,6 +18,8 @@ const blogPosts = ({ data }) => {
   const { tags } = post.frontmatter
 
   console.log("bebe" + post.frontmatter.title)
+
+  // return <p>HELLO</p>
 
   return (
     <LayoutBlog>
@@ -53,7 +55,7 @@ const blogPosts = ({ data }) => {
         })}
       </div>
       <article className="mb-20px mt-20px blog-posts-body-style">
-        <MDXRenderer>{post.body}</MDXRenderer>
+        {children}
       </article>
       <ButtonIcon
         buttonType="icon-text"
@@ -68,7 +70,7 @@ const blogPosts = ({ data }) => {
   )
 }
 
-export default blogPosts
+export default BlogPosts
 
 export const query = graphql`
   query PostsBySlug($slug: String!) {
@@ -80,7 +82,6 @@ export const query = graphql`
         date
         tags
       }
-      body
     }
   }
 `

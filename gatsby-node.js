@@ -36,9 +36,13 @@ exports.createPages = ({ actions, graphql }) => {
           fields {
             slug
           }
+
           frontmatter {
             title
             tags
+          }
+          internal {
+            contentFilePath
           }
         }
       }
@@ -66,7 +70,9 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach(post => {
       createPage({
         path: `blog${post.fields.slug}`,
-        component: blogPostTemplate,
+        // component: blogPostTemplate,
+        component: `${blogPostTemplate}?__contentFilePath=${post.internal.contentFilePath}`,
+
         context: {
           slug: post.fields.slug,
         },
