@@ -2,6 +2,7 @@ import React from "react"
 import { useState } from "react"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
+// import { filterKeyEnter, accessibleOnClick } from "../Helper"
 // import Icons from "../../Icons/Icons"
 import { Link } from "gatsby"
 import "../../sass/components/_footerdesktopmenu.scss"
@@ -36,13 +37,13 @@ const FooterDesktopMenu = () => {
       <div className="col">
         <ul>
           <li>
-            <h4
+            <button
+              className="fake-button clr-shades-lightGray heading heading--4 mb-20px"
               onMouseEnter={() => setIsHoveringJogaorak(true)}
               onMouseLeave={() => setIsHoveringJogaorak(false)}
-              onClick={() => setIsHoveringJogaorak(true)}
             >
               Jógaórák
-            </h4>
+            </button>
           </li>
 
           {menuItemsJogaorak.map(({ link, label, extraClass }) => (
@@ -63,12 +64,13 @@ const FooterDesktopMenu = () => {
       <div className="col">
         <ul>
           <li>
-            <h4
+            <button
+              className="fake-button clr-shades-lightGray heading heading--4 mb-20px"
               onMouseEnter={() => setIsHoveringTudnivalok(true)}
               onMouseLeave={() => setIsHoveringTudnivalok(false)}
             >
               Tudnivalók
-            </h4>
+            </button>
           </li>
           {menuItemsTudnivalok.map(({ link, label, extraClass }) => (
             <li key={label}>
@@ -90,17 +92,16 @@ const FooterDesktopMenu = () => {
           <li>
             {" "}
             <Link to="/blog">
-              <h4 className="clr-shades-lightGray footer-menuitem">Blog</h4>
+              <h4 className="clr-shades-lightGray footer-menuitem mt-0">
+                Blog
+              </h4>
             </Link>
           </li>
           <li>
-            {" "}
             <h4>Shop</h4>
           </li>
           <li>
-            {" "}
             <Link to="/kapcsolat">
-              {" "}
               <h4 className="clr-shades-lightGray footer-menuitem">
                 Kapcsolat
               </h4>

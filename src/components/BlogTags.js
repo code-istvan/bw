@@ -9,7 +9,7 @@ function BlogTags() {
     <div className="row">
       <div className="col blogtags tag-button">
         {tags?.map(tag => {
-          return <p>{tag}</p>
+          return <p key={tag}>{tag}</p>
         })}
       </div>
     </div>

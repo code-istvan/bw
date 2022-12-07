@@ -7,35 +7,38 @@ import LayoutBlog from "../Layouts/LayoutBlog"
 import { Link } from "gatsby"
 import Seo from "../seo"
 import { navigate } from "gatsby"
-import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
+// import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
 import "../../sass/components/_blogposts.scss"
 
 const blogPosts = ({ data }) => {
-  const { frontmatter, body, timeToRead } = data.mdx
-  const src = getSrc(frontmatter.thumbnail) || ""
-  const image = getImage(frontmatter.thumbnail)
-  const { tags } = frontmatter
+  // const { frontmatter, body } = data.mdx
+  const post = data.mdx
+  // const src = getSrc(frontmatter.thumbnail) || ""
+  // const image = getImage(frontmatter.thumbnail)
+  const { tags } = post.frontmatter
+
+  console.log("bebe" + post.frontmatter.title)
 
   return (
     <LayoutBlog>
       <Seo
-        title={frontmatter.title}
-        description={frontmatter.description}
-        thumbnail={src}
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        // thumbnail={src}
       />
       <div className="container-fluid blog-post-image">
-        <GatsbyImage image={image} alt={frontmatter.title} />
+        {/* <GatsbyImage image={image} alt={post.frontmatter.title} /> */}
       </div>
       <div className="row">
         <div className="col">
-          <h2>{frontmatter.title}</h2>
+          <h2>{post.frontmatter.title}</h2>
         </div>
       </div>
       <div className="row">
         <div className="col blog-post-details">
-          <p>{frontmatter.author}</p>
+          <p>{post.frontmatter.author}</p>
           <div className="blog-card-header-separator"></div>
-          <p>{timeToRead} perc olvasás</p>
+          {/* <p>{timeToRead} perc olvasás</p> */}
           {/* <div className="blog-card-header-separator"></div>
           <p>{frontmatter.date}</p> */}
         </div>
@@ -50,7 +53,7 @@ const blogPosts = ({ data }) => {
         })}
       </div>
       <article className="mb-20px mt-20px blog-posts-body-style">
-        <MDXRenderer>{body}</MDXRenderer>
+        <MDXRenderer>{post.body}</MDXRenderer>
       </article>
       <ButtonIcon
         buttonType="icon-text"
@@ -70,25 +73,58 @@ export default blogPosts
 export const query = graphql`
   query PostsBySlug($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
-      body
-      timeToRead
+      id
       frontmatter {
-        title
-        description
         author
+        title
+        date
         tags
-        date(formatString: "YYYY. MM. DD.")
-        thumbnail {
-          childImageSharp {
-            gatsbyImageData(
-              placeholder: BLURRED
-              blurredOptions: { width: 100 }
-              transformOptions: { cropFocus: CENTER }
-              formats: [AUTO, WEBP, AVIF]
-            )
-          }
-        }
       }
+      body
     }
   }
 `
+
+//old query
+
+// export const query = graphql`
+//   query PostsBySlug($slug: String!) {
+//     mdx(fields: { slug: { eq: $slug } }) {
+//       body
+//       timeToRead
+//       frontmatter {
+//         title
+//         description
+//         author
+//         tags
+//         date(formatString: "YYYY. MM. DD.")
+//         thumbnail {
+//           childImageSharp {
+//             gatsbyImageData(
+//               placeholder: BLURRED
+//               blurredOptions: { width: 100 }
+//               transformOptions: { cropFocus: CENTER }
+//               formats: [AUTO, WEBP, AVIF]
+//             )
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
+
+// query PostsBySlug($slug: String!) {
+//   mdx(fields: { slug: { eq: $slug } }) {
+//     body
+//     fields {
+//       slug
+//     }
+//     frontmatter {
+//       title
+//       description
+//       author
+//       tags
+//       date(formatString: "YYYY. MM. DD.")
+//     }
+//   }
+// }

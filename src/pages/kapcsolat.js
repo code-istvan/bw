@@ -8,7 +8,6 @@ import Footer from "../components/Footer/Footer"
 import SocialIcons from "../components/Icons/SocialIcons"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
-import Icons from "../components/Icons/Icons"
 import "../sass/pages/_kapcsolat.scss"
 
 export default function Kapcsolat() {
@@ -45,9 +44,6 @@ export default function Kapcsolat() {
                 <p className="clr-brand-orange">
                   1027. Budapest, Frankel Leó út. 18.
                 </p>
-                <div className="kapcsolat-google-icon">
-                  <Icons.GoogleMapIcon url="https://www.facebook.com/bandhaworks" />
-                </div>
               </div>
             </address>
             <p className="clr-shades-lightGray span span--bold mt-20px kapcsolat-text">

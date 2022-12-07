@@ -27,10 +27,10 @@ function BlogRoll({ count }) {
               // const image = getImage(post.frontmatter.thumbnail)
               const author = post.frontmatter.author
               // const tags = post.frontmatter.tags
-              const { timeToRead } = post
+              // const { timeToRead } = post
 
               return (
-                <div className="mt-40px mb-40px" key={post.slug}>
+                <div className="mt-40px mb-40px" key={post.frontmatter.title}>
                   <div className="blog-card">
                     <div className="blog-card-header">
                       <p>{author}</p>
@@ -39,11 +39,11 @@ function BlogRoll({ count }) {
                     </div>
                     <div className="blog-card-body">
                       {/* <GatsbyImage
-                      image={image}
-                      className="blog__thumbnail"
-                      alt={post.frontmatter.title}
-                      aspectratio={4 / 3}
-                    /> */}
+                        image={image}
+                        className="blog__thumbnail"
+                        alt={post.frontmatter.title}
+                        aspectratio={4 / 3}
+                      /> */}
                       <h3 className="blog-card-title">{title}</h3>
                       <p className="blog-card-text">
                         {post.frontmatter.description}
@@ -54,14 +54,14 @@ function BlogRoll({ count }) {
                       <div className="blog-card-footer-text tag-button">
                         {post.frontmatter.tags.map(tag => {
                           return (
-                            <p key={tag}>
+                            <p key={post.frontmatter.date}>
                               <Link to={`/tags/${tag}`}>{tag}</Link>
                             </p>
                           )
                         })}
                       </div>
                       <p className="timetoread-text">
-                        {timeToRead} perc olvasás
+                        {/* {timeToRead} perc olvasás */}
                       </p>
                       <div className="blog-card-footer-button">
                         <Button
