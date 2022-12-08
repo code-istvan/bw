@@ -17,12 +17,16 @@ function BlogRoll({ count }) {
     posts.length = Math.min(posts.length, count)
   }
 
+  console.log(posts)
+
   return (
     <>
       <div className="row">
         <div className="col">
           {posts &&
-            posts.map(post => {
+            postsQueried.map(post => {
+              const link = Object.entries(post)[1][1].slug
+              console.log(link)
               const title = post.frontmatter.title || post.fields.slug
               // const image = getImage(post.frontmatter.thumbnail)
               const author = post.frontmatter.author
@@ -68,7 +72,7 @@ function BlogRoll({ count }) {
                           type="button"
                           buttonStyle="btn--third--naked"
                           onClick={() => {
-                            navigate(`/blog/${post.slug}`)
+                            navigate(`/blog${link}`)
                           }}
                         >
                           Olvasd tovább
