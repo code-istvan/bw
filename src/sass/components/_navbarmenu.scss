@@ -8,16 +8,6 @@
 // MOBIL VIEW STARTS-------------------------------------------
 
 @media only screen and (min-width: 1px) and (max-width: 1024px) {
-  .nav-item {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-    @include mobil-menu-fonts;
-    a {
-      padding-left: 20px;
-    }
-  }
-
   .mobil-menu-open {
     opacity: 1;
     visibility: visible;
@@ -54,6 +44,16 @@
     -webkit-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
     transition: all 500ms ease-out;
+  }
+
+  .nav-item {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    @include mobil-menu-fonts;
+    a {
+      padding: 10px 20px;
+    }
   }
 
   .nav-links {

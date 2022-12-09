@@ -1,9 +1,7 @@
 @import "/src/sass/global";
 
 .navbar-menu-mobil-header {
-  // width: 100%;
-  margin: 14px;
-  margin-top: 4rem;
+  margin: 28px 14px 0;
 
   .navbar-menu-mobil-header-container {
     display: flex;
@@ -13,10 +11,10 @@
     flex-wrap: wrap;
     z-index: 2;
     padding-bottom: 1.5rem;
-    border-bottom: 2px solid $color-shades-white;
+    border-bottom: 1px solid $color-shades-darkGray;
   }
 
-  .box {
-    border-bottom: 1px white solid;
-  }
+  // .box {
+  //   border-bottom: 1px white solid;
+  // }
 }
