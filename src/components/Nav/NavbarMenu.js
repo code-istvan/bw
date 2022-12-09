@@ -100,11 +100,11 @@ const NavbarMenu = ({ open, setOpen }) => {
             )}
           </li>
         ))}
-        <li className="nav-item">
-          {breakpoints.md ? null : <NavbarDesktopFeatured />}
-        </li>
-        {breakpoints.md ? <NavbarMenuMobilFeatured /> : null}
       </ul>
+      {/* <li className="nav-item">
+        {breakpoints.md ? null : <NavbarDesktopFeatured />}
+      </li> */}
+      {breakpoints.md ? <NavbarMenuMobilFeatured /> : null}
     </div>
   )
 }
