@@ -24,7 +24,7 @@ const IndexPage = () => (
       <div className="row">
         <div className="col">
           <p>
-            Avocado matcha pichu peach strawberry mango a delicious meal
+            Avocado kiwi matcha pichu peach strawberry mango a delicious meal
             guacamole asian pear black bean chili dip seasonal raspberry fizz
             kimchi sweet potato kale spiced pumpkin chili double dark chocolate
             grapefruit Bolivian rainbow pepper samosa chocolate lemon lime
