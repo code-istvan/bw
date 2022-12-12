@@ -47,7 +47,7 @@ const NavbarMenu = ({ open, setOpen }) => {
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
       {breakpoints.md ? <NavbarMenuMobilHeader /> : null}
-      <ul className="nav-links">
+      <ul className="nav-links mt-20px">
         {menuGroupsFomenu.map(({ title, items }) => (
           <li className="nav-item dropdown" key={title}>
             <a
