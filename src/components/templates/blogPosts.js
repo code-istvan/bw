@@ -17,7 +17,7 @@ const BlogPosts = ({ data, children }) => {
   // const image = getImage(frontmatter.thumbnail)
   const { tags } = post.frontmatter
 
-  console.log("bebe" + post.frontmatter.title)
+  console.log("bebe", post.frontmatter)
 
   // return <p>HELLO</p>
 
@@ -30,6 +30,7 @@ const BlogPosts = ({ data, children }) => {
       />
       <div className="container-fluid blog-post-image">
         {/* <GatsbyImage image={image} alt={post.frontmatter.title} /> */}
+        <img src={post.frontmatter.thumbnail} />
       </div>
       <div className="row">
         <div className="col">
@@ -81,6 +82,7 @@ export const query = graphql`
         title
         date
         tags
+        thumbnail
       }
     }
   }

@@ -9,7 +9,11 @@ export const useBlogRoll = () => {
             excerpt
             fields {
               slug
+              timeToRead {
+                minutes
+              }
             }
+
             frontmatter {
               date(formatString: "YYYY. MM. DD.")
               description

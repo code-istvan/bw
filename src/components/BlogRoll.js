@@ -26,7 +26,11 @@ function BlogRoll({ count }) {
           {posts &&
             postsQueried.map(post => {
               const link = Object.entries(post)[1][1].slug
-              console.log(link)
+
+              const timeToRead = Math.ceil(
+                Object.entries(post)[1][1].timeToRead.minutes
+              )
+              console.log(timeToRead)
               const title = post.frontmatter.title || post.fields.slug
               // const image = getImage(post.frontmatter.thumbnail)
               const author = post.frontmatter.author
@@ -65,7 +69,7 @@ function BlogRoll({ count }) {
                         })}
                       </div>
                       <p className="timetoread-text">
-                        {/* {timeToRead} perc olvasás */}
+                        {timeToRead} perc olvasás
                       </p>
                       <div className="blog-card-footer-button">
                         <Button

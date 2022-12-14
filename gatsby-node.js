@@ -1,4 +1,6 @@
 const slugify = require(`./src/utils/slugify`)
+const readingTime = require(`reading-time`)
+const { fmImagesToRelative } = require(`gatsby-remark-relative-images-v2`)
 
 exports.onCreateWebpackConfig = helper => {
   const { stage, actions, getConfig } = helper
@@ -17,7 +19,6 @@ exports.onCreateWebpackConfig = helper => {
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
 const _ = require("lodash")
-const { fmImagesToRelative } = require("gatsby-remark-relative-images-v2")
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -90,5 +91,21 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+    createNodeField({
+      node,
+      name: `timeToRead`,
+      value: readingTime(node.body),
+    })
   }
+}
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes, createNodeField } = actions
+
+  createTypes(`#graphql
+    type Mdx implements Node {
+      # You can also use other keys from fields.timeToRead if you don't want "minutes"
+      timeToRead: Float @proxy(from: "fields.timeToRead.minutes")
+    }
+  `)
 }
