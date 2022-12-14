@@ -100,6 +100,14 @@ module.exports = {
       },
     },
 
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/blogpostimages/_authors`,
+      },
+    },
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {
