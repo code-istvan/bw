@@ -11,19 +11,53 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-remark-relative-images-v2`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "blogpostimages",
+        path: `${__dirname}/blog`,
+        name: `blog`,
       },
     },
-
-    // {
-    //   resolve: "gatsby-remark-relative-images",
-    //   options: {
-    //     name: "blogpostimages",
-    //   },
-    // },
-
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/blogpostimages`,
+        name: `uploads`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blogpostimages`,
+        path: `${__dirname}/static/blogpostimages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-image`,
+    "gatsby-plugin-breakpoints",
+    "gatsby-plugin-netlify",
+    "gatsby-plugin-sitemap",
+    "@mediacurrent/gatsby-plugin-silence-css-order-warning",
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: { maxWidth: 1024, withWebp: true },
+          },
+        ],
+      }
+    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -39,42 +73,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/blog`,
-        name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/static/blogpostimages`,
-        name: `uploads`,
-      },
-    },
-
-    {
       resolve: `gatsby-plugin-page-creator`,
       options: {
         path: `${__dirname}/blog`,
       },
     },
-
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-image`,
-    "gatsby-plugin-breakpoints",
-    "gatsby-plugin-netlify",
-    "gatsby-plugin-sitemap",
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    "@mediacurrent/gatsby-plugin-silence-css-order-warning",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -90,31 +93,6 @@ module.exports = {
         // This path is relative to the root of the site.
       },
     },
-
-    {
-      // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blogpostimages`,
-        path: `${__dirname}/static/blogpostimages`,
-      },
-    },
-
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1200,
-              withWebp: true,
-            },
-          },
-        ],
-      },
-    },
-
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
@@ -123,8 +101,7 @@ module.exports = {
         policy: [{ userAgent: "*", disallow: "/" }],
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
+
   ],
 }

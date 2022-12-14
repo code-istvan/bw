@@ -1,25 +1,15 @@
 import React from "react"
-import { graphql } from "gatsby"
-// import { MDXRenderer } from "gatsby-plugin-mdx"
+import { graphql,  Link , navigate } from "gatsby"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
 import LayoutBlog from "../Layouts/LayoutBlog"
-import { Link } from "gatsby"
 import Seo from "../seo"
-import { navigate } from "gatsby"
-// import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
 import "../../sass/components/_blogposts.scss"
+import {GatsbyImage} from 'gatsby-plugin-image';
 
-const BlogPosts = ({ data, children }) => {
-  // const { frontmatter, body } = data.mdx
+const BlogPosts = ({ data, children, pageContext }) => {
   const post = data.mdx
-  // const src = getSrc(frontmatter.thumbnail) || ""
-  // const image = getImage(frontmatter.thumbnail)
   const { tags } = post.frontmatter
-
-  console.log("bebe", post.frontmatter)
-
-  // return <p>HELLO</p>
 
   return (
     <LayoutBlog>
@@ -29,8 +19,7 @@ const BlogPosts = ({ data, children }) => {
         // thumbnail={src}
       />
       <div className="container-fluid blog-post-image">
-        {/* <GatsbyImage image={image} alt={post.frontmatter.title} /> */}
-        <img src={post.frontmatter.thumbnail} />
+       <GatsbyImage image={pageContext.postThumbnail.node.childImageSharp.gatsbyImageData} alt={post.frontmatter.title ?? 'some value'} />
       </div>
       <div className="row">
         <div className="col">
