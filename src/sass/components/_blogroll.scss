@@ -2,7 +2,7 @@
 
 .blog-card {
   border-bottom: solid 1px $color-shades-lightBlack;
-  padding-bottom: 24px;
+  padding-bottom: 20px;
 }
 
 .blog-card-header {
@@ -31,6 +31,13 @@
 
 .blog-card-footer {
   margin-top: 0.5rem;
+}
+
+.blog-card-footer-first-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .blog-card-footer-button {

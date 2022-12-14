@@ -30,7 +30,7 @@ function BlogRoll({ count }) {
               const timeToRead = Math.ceil(
                 Object.entries(post)[1][1].timeToRead.minutes
               )
-              console.log(timeToRead)
+
               const title = post.frontmatter.title || post.fields.slug
               // const image = getImage(post.frontmatter.thumbnail)
               const author = post.frontmatter.author
@@ -43,6 +43,7 @@ function BlogRoll({ count }) {
                     <div className="blog-card-header">
                       <p>{author}</p>
                       <div className="blog-card-header-separator"></div>
+
                       <p>{post.frontmatter.date}</p>
                     </div>
                     <div className="blog-card-body">
@@ -59,18 +60,19 @@ function BlogRoll({ count }) {
                     </div>
 
                     <div className="blog-card-footer">
-                      <div className="blog-card-footer-text tag-button">
-                        {post.frontmatter.tags.map(tag => {
-                          return (
-                            <p key={post.frontmatter.date}>
-                              <Link to={`/tags/${tag}`}>{tag}</Link>
-                            </p>
-                          )
-                        })}
+                      <div className="blog-card-footer-first-row">
+                        <div className="blog-card-footer-text tag-button">
+                          {post.frontmatter.tags.map(tag => {
+                            return (
+                              <p key={post.frontmatter.date}>
+                                <Link to={`/tags/${tag}`}>{tag}</Link>
+                              </p>
+                            )
+                          })}
+                        </div>
+                        <p>{timeToRead} perc olvasás</p>
                       </div>
-                      <p className="timetoread-text">
-                        {timeToRead} perc olvasás
-                      </p>
+
                       <div className="blog-card-footer-button">
                         <Button
                           type="button"

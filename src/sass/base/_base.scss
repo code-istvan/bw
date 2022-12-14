@@ -77,3 +77,19 @@ section {
     text-decoration: inherit;
   }
 }
+
+.separator-full {
+  padding: 0;
+  border: none;
+
+  &:before {
+    // full-width divider
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    max-width: 100%;
+    width: 100%;
+    border-top: 1px solid $color-shades-lightBlack;
+  }
+}
