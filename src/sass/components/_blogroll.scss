@@ -33,6 +33,13 @@
   margin-top: 0.5rem;
 }
 
+.blog-card-footer-first-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .blog-card-footer-button {
   margin-top: 20px;
 

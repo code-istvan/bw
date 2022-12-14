@@ -19,8 +19,6 @@ const BlogPosts = ({ data, children }) => {
 
   console.log("bebe", post.frontmatter)
 
-  // return <p>HELLO</p>
-
   return (
     <LayoutBlog>
       <Seo
