@@ -2,7 +2,7 @@
 published: true
 title: Jaki a legcukibb
 description: Jaki a legcukibb ez nem kérdéses
-author: bandha.works@gmail.com
+author: István
 tags:
   - cuki
 date: 2022-11-24T12:59:02.680Z
