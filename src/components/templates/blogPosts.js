@@ -32,7 +32,7 @@ const BlogPosts = ({ data, children }) => {
       </div>
       <div className="row">
         <div className="col">
-          <h2>{post.frontmatter.title}</h2>
+          <h1>{post.frontmatter.title}</h1>
         </div>
       </div>
       <div className="row">

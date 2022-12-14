@@ -49,6 +49,7 @@ export default function Blog() {
         </div>
       </div>
       <BlogTags />
+      <div className="separator-full mt-20px"></div>
       <BlogRoll />
     </LayoutBlog>
   )
