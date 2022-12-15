@@ -1,9 +1,18 @@
 @import "/src/sass/global";
 
-.blog-post-details {
+.blog-post-header {
+  // display: flex;
+  // flex-direction: row;
+  // margin-bottom: 12px;
+}
+
+.meta {
   display: flex;
-  flex-direction: row;
-  margin-bottom: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 0px 4px;
+  gap: 4px;
 }
 
 .blog-post-image {

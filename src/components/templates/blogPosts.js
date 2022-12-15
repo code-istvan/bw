@@ -1,15 +1,16 @@
 import React from "react"
-import { graphql,  Link , navigate } from "gatsby"
+import { graphql, Link, navigate } from "gatsby"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
 import LayoutBlog from "../Layouts/LayoutBlog"
 import Seo from "../seo"
 import "../../sass/components/_blogposts.scss"
-import {GatsbyImage} from 'gatsby-plugin-image';
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const BlogPosts = ({ data, children, pageContext }) => {
   const post = data.mdx
   const { tags } = post.frontmatter
+  const timeToRead = post.fields.timeToRead.minutes
 
   return (
     <LayoutBlog>
@@ -19,23 +20,43 @@ const BlogPosts = ({ data, children, pageContext }) => {
         // thumbnail={src}
       />
       <div className="container-fluid blog-post-image">
-       <GatsbyImage image={pageContext.postThumbnail.node.childImageSharp.gatsbyImageData} alt={post.frontmatter.title ?? 'some value'} />
+        <GatsbyImage
+          image={pageContext.postThumbnail.node.childImageSharp.gatsbyImageData}
+          alt={post.frontmatter.title ?? "some value"}
+        />
       </div>
-      <div className="row">
-        <div className="col">
-          <h2>{post.frontmatter.title}</h2>
+      <div className="blog-post-header">
+        <div className="row">
+          <div className="col">
+            <h1>{post.frontmatter.title}</h1>
+          </div>
+        </div>
+
+        <div className="meta">
+          <p>{post.frontmatter.author}</p>
+          <div className="blog-card-footer-text tag-button">
+            {tags.map(tag => {
+              return (
+                <p key="tag">
+                  <Link to={`/tags/${tag}`}>{tag}</Link>
+                </p>
+              )
+            })}
+          </div>
+          <p>{post.frontmatter.date}</p>
+          <p>{timeToRead}</p>
         </div>
       </div>
       <div className="row">
-        <div className="col blog-post-details">
-          <p>{post.frontmatter.author}</p>
-          <div className="blog-card-header-separator"></div>
+        <div className="col">
+          {/* <p>{post.frontmatter.author}</p> */}
+          {/* <div className="blog-card-header-separator"></div> */}
           {/* <p>{timeToRead} perc olvasás</p> */}
           {/* <div className="blog-card-header-separator"></div>
           <p>{frontmatter.date}</p> */}
         </div>
       </div>
-      <div className="blog-card-footer-text tag-button">
+      {/* <div className="blog-card-footer-text tag-button">
         {tags.map(tag => {
           return (
             <p key="tag">
@@ -43,7 +64,7 @@ const BlogPosts = ({ data, children, pageContext }) => {
             </p>
           )
         })}
-      </div>
+      </div> */}
       <article className="mb-20px mt-20px blog-posts-body-style">
         {children}
       </article>
@@ -66,6 +87,13 @@ export const query = graphql`
   query PostsBySlug($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       id
+      excerpt
+      fields {
+        slug
+        timeToRead {
+          minutes
+        }
+      }
       frontmatter {
         author
         title
