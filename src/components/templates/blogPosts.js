@@ -10,7 +10,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 const BlogPosts = ({ data, children, pageContext }) => {
   const post = data.mdx
   const { tags } = post.frontmatter
-  const timeToRead = post.fields.timeToRead.minutes
+  const timeToRead = Math.ceil(post.fields.timeToRead.minutes)
 
   return (
     <LayoutBlog>
@@ -33,20 +33,27 @@ const BlogPosts = ({ data, children, pageContext }) => {
         </div>
 
         <div className="meta">
-          <p>{post.frontmatter.author}</p>
-          <div className="blog-card-footer-text tag-button">
-            {tags.map(tag => {
-              return (
-                <p key="tag">
-                  <Link to={`/tags/${tag}`}>{tag}</Link>
-                </p>
-              )
-            })}
+          <div className="meta-first-line">
+            <p>{post.frontmatter.author}</p>
+            <div className="blog-card-footer-text tag-button">
+              {tags.map(tag => {
+                return (
+                  <p key="tag">
+                    <Link to={`/tags/${tag}`}>{tag}</Link>
+                  </p>
+                )
+              })}
+            </div>
           </div>
-          <p>{post.frontmatter.date}</p>
-          <p>{timeToRead}</p>
+
+          <div className="meta-second-line">
+            <p>{post.frontmatter.date}</p>
+            <p>{timeToRead} perc olvasás</p>
+          </div>
         </div>
       </div>
+      <div className="separator-full mt-40px"></div>
+
       <div className="row">
         <div className="col">
           {/* <p>{post.frontmatter.author}</p> */}
@@ -97,7 +104,7 @@ export const query = graphql`
       frontmatter {
         author
         title
-        date
+        date(formatString: "YYYY MMMM DD.", locale: "hu-HU")
         tags
         thumbnail
       }

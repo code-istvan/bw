@@ -15,6 +15,20 @@
   gap: 4px;
 }
 
+.meta-first-line,
+.meta-second-line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  .tag-button {
+    p {
+      margin-right: 0;
+    }
+  }
+}
+
 .blog-post-image {
   margin-top: 60px;
 }
