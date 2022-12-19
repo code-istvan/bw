@@ -25,7 +25,7 @@ const BlogPosts = ({ data, children, pageContext }) => {
           alt={post.frontmatter.title ?? "some value"}
         />
       </div>
-      <div className="blog-post-header">
+      <div className="blog-post-header mt-20px">
         <div className="row">
           <div className="col">
             <h1>{post.frontmatter.title}</h1>
@@ -53,28 +53,7 @@ const BlogPosts = ({ data, children, pageContext }) => {
         </div>
       </div>
       <div className="separator-full mt-40px"></div>
-
-      <div className="row">
-        <div className="col">
-          {/* <p>{post.frontmatter.author}</p> */}
-          {/* <div className="blog-card-header-separator"></div> */}
-          {/* <p>{timeToRead} perc olvasás</p> */}
-          {/* <div className="blog-card-header-separator"></div>
-          <p>{frontmatter.date}</p> */}
-        </div>
-      </div>
-      {/* <div className="blog-card-footer-text tag-button">
-        {tags.map(tag => {
-          return (
-            <p key="tag">
-              <Link to={`/tags/${tag}`}>{tag}</Link>
-            </p>
-          )
-        })}
-      </div> */}
-      <article className="mb-20px mt-20px blog-posts-body-style">
-        {children}
-      </article>
+      <article className="mb-20px blog-posts-body-style">{children}</article>
       <ButtonIcon
         buttonType="icon-text"
         className=""

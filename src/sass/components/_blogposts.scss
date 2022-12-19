@@ -1,9 +1,9 @@
 @import "/src/sass/global";
 
 .blog-post-header {
-  // display: flex;
-  // flex-direction: row;
-  // margin-bottom: 12px;
+  h1:first-child {
+    margin-bottom: 12px;
+  }
 }
 
 .meta {
@@ -13,6 +13,10 @@
   align-items: flex-start;
   padding: 0px 0px 4px;
   gap: 4px;
+}
+
+.meta-first-line {
+  margin-bottom: 9px;
 }
 
 .meta-first-line,
@@ -41,6 +45,8 @@ article {
 }
 
 .blog-posts-body-style {
+  margin-top: 80px;
+
   p {
     white-space: pre-line;
     margin-bottom: 1rem;
