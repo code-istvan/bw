@@ -31,6 +31,15 @@ module.exports = {
         path: `${__dirname}/static/blogpostimages`,
       },
     },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `authorFull`,
+        path: `${__dirname}/static/blogpostimages/_authors`,
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

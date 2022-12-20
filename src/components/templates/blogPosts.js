@@ -11,6 +11,7 @@ const BlogPosts = ({ data, children, pageContext }) => {
   const post = data.mdx
   const { tags } = post.frontmatter
   const timeToRead = Math.ceil(post.fields.timeToRead.minutes)
+  const { authorsJson: author } = data
 
   return (
     <LayoutBlog>
@@ -34,6 +35,9 @@ const BlogPosts = ({ data, children, pageContext }) => {
 
         <div className="meta">
           <div className="meta-first-line">
+            <GatsbyImage
+              image={author.authorimage.childImageSharp.gatsbyImageData}
+            />
             <p>{post.frontmatter.author}</p>
             <div className="blog-card-footer-text tag-button">
               {tags.map(tag => {
@@ -70,7 +74,17 @@ const BlogPosts = ({ data, children, pageContext }) => {
 export default BlogPosts
 
 export const query = graphql`
-  query PostsBySlug($slug: String!) {
+  query PostsBySlug($slug: String!, $author: String) {
+    authorsJson(name: { eq: $author }) {
+      name
+      email
+      authorimage {
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+
     mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt
