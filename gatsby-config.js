@@ -48,6 +48,12 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "@mediacurrent/gatsby-plugin-silence-css-order-warning",
     {
+      resolve: "gatsby-transformer-json",
+      options: {
+        path: `${__dirname}/static/blogpostimages/_authors`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -56,7 +62,7 @@ module.exports = {
             options: { maxWidth: 1024, withWebp: true },
           },
         ],
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-mdx`,
@@ -102,6 +108,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cms`,
-
   ],
 }
