@@ -13,7 +13,6 @@ export const useBlogRoll = () => {
                 minutes
               }
             }
-
             frontmatter {
               date(formatString: "YYYY. MM. DD.")
               description
