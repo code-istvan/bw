@@ -5,8 +5,8 @@ import Button from "./Buttons/Button"
 import { navigate } from "gatsby"
 // import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import "../sass/components/_blogroll.scss"
-import {useAuthors} from '../hooks/useAuthors';
-import {GatsbyImage} from 'gatsby-plugin-image';
+import { useAuthors } from "../hooks/useAuthors"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 function BlogRoll({ count }) {
   let posts = []
@@ -31,9 +31,10 @@ function BlogRoll({ count }) {
               /* EXPLANATION: aking advantage of the loop (because we are looping through the posts) and you are getting the exact data for each post ("post" as the iterable variable)
                  and having all authors, you just need to find which author of the post (post.frontmatter.author) is the same as the author.name (author.name is the name of the author) because the other node holds the image data (and other)
               * */
-              const currentAuthor = authors.find(author => author.name === post.frontmatter.author)
+              const currentAuthor = authors.find(
+                author => author.name === post.frontmatter.author
+              )
 
-              
               const link = Object.entries(post)[1][1].slug
 
               const timeToRead = Math.ceil(
@@ -50,11 +51,19 @@ function BlogRoll({ count }) {
                 <div className="mt-40px mb-40px" key={post.frontmatter.title}>
                   <div className="blog-card">
                     <div className="blog-card-header">
-                      {/*EXPLANATION: just calling the GatsbyImage and passing the needed data*/}
-                      <GatsbyImage alt={author} image={currentAuthor.authorimage.childImageSharp.gatsbyImageData}/>
-                      <p>{author}</p>
+                      <div className="meta-author">
+                        {/*EXPLANATION: just calling the GatsbyImage and passing the needed data*/}
+                        <GatsbyImage
+                          alt={author}
+                          image={
+                            currentAuthor.authorimage.childImageSharp
+                              .gatsbyImageData
+                          }
+                          className="avatar-image"
+                        />
+                        <p>{author}</p>
+                      </div>
                       <div className="blog-card-header-separator"></div>
-
                       <p>{post.frontmatter.date}</p>
                     </div>
                     <div className="blog-card-body">

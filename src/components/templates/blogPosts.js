@@ -35,10 +35,14 @@ const BlogPosts = ({ data, children, pageContext }) => {
 
         <div className="meta">
           <div className="meta-first-line">
-            <GatsbyImage
-              image={author.authorimage.childImageSharp.gatsbyImageData}
-            />
-            <p>{post.frontmatter.author}</p>
+            <div className="meta-author">
+              <GatsbyImage
+                image={author.authorimage.childImageSharp.gatsbyImageData}
+                className="avatar-image"
+              />
+              <p>{post.frontmatter.author}</p>
+            </div>
+
             <div className="blog-card-footer-text tag-button">
               {tags.map(tag => {
                 return (
