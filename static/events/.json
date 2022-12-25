@@ -1,10 +1,12 @@
 {
+  "Shortdescription": "Ha még nem astangáztál vagy újrakezdő vagy ez a tanfolyam neked szól.",
+  "teacher": "István",
   "published": true,
   "date": "2023-01-10T11:38:01.105Z",
-  "title": "Astanga kezdő tanfolyam",
-  "Shortdescription": "Ha még nem astangáztál vagy újrakezdő vagy ez a tanfolyam neked szól.",
-  "day": "kedd",
-  "teacher": "István",
   "authorimage": "hero_mobil.jpg",
-  "eventlink": "/astanga-kezdo-tanfolyam/"
+  "eventlink": "/astanga-kezdo-tanfolyam/",
+  "title": "Astanga kezdő tanfolyam",
+  "teacherimage": "hero_mobil.jpg",
+  "teacherlink": "https://bandhaworks.hu/pages/team/team-member/szalai-istvan/",
+  "day": "kedd"
 }
