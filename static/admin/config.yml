@@ -64,7 +64,7 @@ collections:
     public_folder: ""
     format: "json"
     create: true
-    slug: "{{title}}"
+    slug: "{{eventid}}"
     fields:
       - {
           label: "Published",
@@ -72,6 +72,7 @@ collections:
           widget: "boolean",
           default: true,
         }
+      - { label: Eventid, name: eventid, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Shortdescription, name: Shortdescription, widget: text }
       - { label: Eventlink, name: eventlink, widget: string }
