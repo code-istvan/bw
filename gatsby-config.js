@@ -36,7 +36,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `authorFull`,
-        path: `${__dirname}/static/blogpostimages/_authors`,
+        path: `${__dirname}/static/_authors`,
       },
     },
 
@@ -59,7 +59,7 @@ module.exports = {
     {
       resolve: "gatsby-transformer-json",
       options: {
-        path: `${__dirname}/static/blogpostimages/_authors`,
+        path: `${__dirname}/static/_authors`,
       },
     },
     {
