@@ -72,6 +72,12 @@ collections:
           widget: "boolean",
           default: true,
         }
+      - {
+          label: "Featured",
+          name: "featured",
+          widget: "boolean",
+          default: true,
+        }
       - { label: Eventid, name: eventid, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Shortdescription, name: Shortdescription, widget: text }
