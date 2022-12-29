@@ -6,6 +6,7 @@ import Hero from "../components/Hero"
 import Icons from "../components/Icons/Icons"
 import SectionRolunk from "../components/Sections/SectionRolunk"
 import SectionParampara from "../components/Sections/SectionParampara"
+import SectionEvents from "../components/Sections/SectionEvents"
 import "../sass/pages/_index.scss"
 
 const IndexPage = () => (
@@ -21,6 +22,7 @@ const IndexPage = () => (
       </div>
       <SectionRolunk />
       <SectionParampara />
+      <SectionEvents />
       <div className="row">
         <div className="col">
           <p>

@@ -41,10 +41,7 @@ function BlogRoll({ count }) {
               )
 
               const title = post.frontmatter.title || post.fields.slug
-              // const image = getImage(post.frontmatter.thumbnail)
               const author = post.frontmatter.author
-              // const tags = post.frontmatter.tags
-              // const { timeToRead } = post
 
               return (
                 <div className="mt-40px mb-40px" key={post.frontmatter.title}>
