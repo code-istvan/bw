@@ -23,22 +23,22 @@ export default function EventsRoll() {
           <div className="event-card-footer">
             <Button
               type="button"
-              buttonStyle="btn--primary--solid"
+              buttonStyle="btn--third--naked-orange"
               onClick={() => {
                 navigate("/mysore-program")
               }}
             >
               Részletek
             </Button>
-            <Button
+            {/* <Button
               type="button"
-              buttonStyle="btn--primary--outline"
+              buttonStyle="btn--third--naked-gray"
               onClick={() => {
                 navigate("/mysore-program")
               }}
             >
               Jelentkezés
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

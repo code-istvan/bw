@@ -5,7 +5,7 @@ const STYLES = [
   "btn--primary--solid",
   "btn--secondary--solid",
   "btn--secondary--outline",
-  "btn--third--naked",
+  "btn--third--naked-orange",
   "btn--primary--outline",
 ]
 

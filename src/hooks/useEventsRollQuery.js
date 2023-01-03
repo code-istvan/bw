@@ -4,7 +4,7 @@ export const useEventsRoll = () => {
   const { allEventsJson } = useStaticQuery(
     graphql`
       query EventsRoll {
-        allEventsJson {
+        allEventsJson(sort: { date: ASC }) {
           nodes {
             date(formatString: "YYYY. MM. DD.")
             day
