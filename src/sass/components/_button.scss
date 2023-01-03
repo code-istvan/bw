@@ -61,15 +61,15 @@
   color: $color-shades-black;
 }
 
-//blog posts button
-.btn--third--naked {
+//blog posts, events button
+.btn--third--naked-orange {
   background-color: transparent;
   color: $color-brand-orange;
   font-weight: 600;
   padding-left: 0;
 }
 
-.btn--third--naked:hover {
+.btn--third--naked-orange:hover {
   transform: translateY(0px);
   background-color: transparent;
   color: $color-brand-orange;
