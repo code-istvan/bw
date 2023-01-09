@@ -1,6 +1,7 @@
 import React from "react"
 import { useEventsRoll } from "../hooks/useEventsRollQuery"
 import Button from "../components/Buttons/Button"
+import { Link } from "gatsby"
 import { navigate } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import "../sass/components/_eventsroll.scss"
@@ -9,7 +10,16 @@ export default function EventsRoll() {
   let events = useEventsRoll()
 
   return events.map(
-    ({ title, date, day, Shortdescription, teacher, teacherimage }) => {
+    ({
+      title,
+      date,
+      day,
+      Shortdescription,
+      teacher,
+      teacherimage,
+      teacherlink,
+      eventlink,
+    }) => {
       // console.log("ezaz", teacherimage.childrenImageSharp[0].fixed)
 
       return (
@@ -20,10 +30,12 @@ export default function EventsRoll() {
               <div className="event-card-header-secondline">
                 <GatsbyImage
                   image={teacherimage.childrenImageSharp[0].fixed}
-                  alt={day}
+                  alt={teacher}
                   className="avatar-image"
                 />
-                <p>{teacher}</p>
+                <Link to={teacherlink}>
+                  <p>{teacher}</p>
+                </Link>
                 <div className="blog-card-header-separator"></div>
                 <p>
                   {date} {day}
