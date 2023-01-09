@@ -4,10 +4,10 @@
   "featured": true,
   "published": true,
   "date": "2023-01-29T16:54:58.428Z",
-  "eventlink": "https://bandhaworks.hu/astanga_konferencia/",
+  "eventlink": "/test",
   "eventid": "Konferencia-id1",
   "title": "Astanga konferencia",
   "teacherimage": "ke-pernyo-foto-2022-12-30-18.00.47.png",
-  "teacherlink": "https://bandhaworks.hu/pages/team/team-member/szalai-istvan/",
+  "teacherlink": "/istvan",
   "day": "vasárnap"
 }
