@@ -29,7 +29,8 @@ export default function EventsRoll() {
               <h3>{title}</h3>
               <div className="event-card-header-secondline">
                 <GatsbyImage
-                  image={teacherimage.childrenImageSharp[0].fixed}
+                  // image={teacherimage.childrenImageSharp[0].fixed}
+
                   alt={teacher}
                   className="avatar-image"
                 />
