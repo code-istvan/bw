@@ -94,15 +94,15 @@ collections:
           search_fields: ["name"],
         }
 
-      - name: "eventteachers"
-        label: "Eventteachers"
-        folder: "static/events/_eventteachers"
-        media_folder: ""
-        public_folder: ""
-        format: "json"
-        create: true
-        slug: "{{name}}"
-        fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Link, name: link, widget: string }
-          - { label: Image, name: authorimage, widget: image }
+  - name: "eventteachers"
+    label: "Eventteachers"
+    folder: "static/events/_eventteachers"
+    media_folder: ""
+    public_folder: ""
+    format: "json"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Link, name: link, widget: string }
+      - { label: Image, name: authorimage, widget: image }
