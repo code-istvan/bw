@@ -10,16 +10,7 @@ export default function EventsRoll() {
   let events = useEventsRoll()
 
   return events.map(
-    ({
-      title,
-      date,
-      day,
-      Shortdescription,
-      teacher,
-      teacherimage,
-      teacherlink,
-      eventlink,
-    }) => {
+    ({ title, date, day, Shortdescription, eventteacher, eventlink }) => {
       // console.log("ezaz", teacherimage.childrenImageSharp[0].fixed)
 
       return (
@@ -33,9 +24,9 @@ export default function EventsRoll() {
                   alt={teacher}
                   className="avatar-image"
                 /> */}
-                <Link to={teacherlink}>
-                  <p>{teacher}</p>
-                </Link>
+                {/* <Link to={teacherlink}> */}
+                <p>{eventteacher}</p>
+                {/* </Link> */}
                 <div className="blog-card-header-separator"></div>
                 <p>
                   {date} {day}

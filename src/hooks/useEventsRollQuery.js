@@ -9,22 +9,9 @@ export const useEventsRoll = () => {
             date(formatString: "YYYY. MM. DD.")
             day
             eventlink
-            teacher
+            eventteacher
             title
             Shortdescription
-            teacherlink
-            teacherimage {
-              childrenImageSharp {
-                fixed(height: 100) {
-                  base64
-                  tracedSVG
-                  aspectRatio
-                  srcWebp
-                  srcSetWebp
-                  originalName
-                }
-              }
-            }
           }
         }
       }
