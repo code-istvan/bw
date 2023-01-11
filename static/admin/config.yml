@@ -84,6 +84,25 @@ collections:
       - { label: Eventlink, name: eventlink, widget: string }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: Day, name: day, widget: string }
-      - { label: Teacher, name: teacher, widget: string }
-      - { label: Teacherimage, name: teacherimage, widget: image }
-      - { label: Teacherlink, name: teacherlink, widget: string }
+      - {
+          label: Eventteacher,
+          name: eventteacher,
+          widget: relation,
+          collection: "eventteachers",
+          value_field: "name",
+          display_fields: ["name"],
+          search_fields: ["name"],
+        }
+
+      - name: "eventteachers"
+        label: "Eventteachers"
+        folder: "static/events/_eventteachers"
+        media_folder: ""
+        public_folder: ""
+        format: "json"
+        create: true
+        slug: "{{name}}"
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Link, name: link, widget: string }
+          - { label: Image, name: authorimage, widget: image }
