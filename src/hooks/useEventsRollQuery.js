@@ -9,7 +9,7 @@ export const useEventsRoll = () => {
             date(formatString: "YYYY. MM. DD.")
             day
             eventlink
-            eventteacher
+            teacher
             title
             Shortdescription
           }
