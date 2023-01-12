@@ -85,18 +85,18 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: Day, name: day, widget: string }
       - {
-          label: Eventteacher,
-          name: eventteacher,
+          label: Teacher,
+          name: teacher,
           widget: relation,
-          collection: "eventteachers",
+          collection: "teachers",
           value_field: "name",
           display_fields: ["name"],
           search_fields: ["name"],
         }
 
-  - name: "eventteachers"
-    label: "Eventteachers"
-    folder: "static/events/_eventteachers"
+  - name: "teachers"
+    label: "Teachers"
+    folder: "static/events/_teachers"
     media_folder: ""
     public_folder: ""
     format: "json"
