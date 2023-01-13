@@ -11,12 +11,13 @@ export const useTeachers = () => {
       query getTeachers {
         allTeachersJson {
           nodes {
-            authorimage {
+            teacherimage {
               childImageSharp {
                 gatsbyImageData
               }
             }
             name
+            link
           }
         }
       }

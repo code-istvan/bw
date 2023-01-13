@@ -21,11 +21,16 @@ export default function EventsRoll() {
           Shortdescription,
           teacher: teacherName,
           eventlink,
+          teacher: teacherLink,
         }) => {
           const currentTeacher = teachers.find(
             teacher => teacher.name === teacherName
           )
-          console.log(currentTeacher)
+          const currentTeacherLink = teachers.find(
+            teacher => teacher.link === teacherLink
+          )
+
+          console.log("ezaz", currentTeacherLink)
           return (
             <div className="event-card col-12-xs col-6-md" key={date}>
               <div className="event-card-content-wrapper">
@@ -34,15 +39,15 @@ export default function EventsRoll() {
                   <div className="event-card-header-secondline">
                     <GatsbyImage
                       image={
-                        currentTeacher.authorimage.childImageSharp
+                        currentTeacher.thecherimage.childImageSharp
                           .gatsbyImageData
                       }
                       alt={teacherName}
                       className="avatar-image"
                     />
-                    {/* <Link to={teacherlink}> */}
-                    <p>{teacherName}</p>
-                    {/* </Link> */}
+                    <Link to={teachers.link}>
+                      <p>{teacherName}</p>
+                    </Link>
                     <div className="blog-card-header-separator"></div>
                     <p>
                       {date} {day}
