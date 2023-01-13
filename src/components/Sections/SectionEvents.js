@@ -10,9 +10,7 @@ const SectionEvents = () => {
       <div className="container-fluid">
         <div className="container">
           <h1 className="mb-20px">Programok</h1>
-          <div className="events-row">
-            <EventsRoll />
-          </div>
+          <EventsRoll />
           <Button
             type="button"
             buttonStyle="btn--primary--outline"
