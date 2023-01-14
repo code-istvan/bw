@@ -26,26 +26,24 @@ export default function EventsRoll() {
           const currentTeacher = teachers.find(
             teacher => teacher.name === teacherName
           )
-          const currentTeacherLink = teachers.find(
-            teacher => teacher.link === teacherLink
-          )
 
-          console.log("ezaz", currentTeacherLink)
+          // console.log("ezaz", teachers)
           return (
             <div className="event-card col-12-xs col-6-md" key={date}>
               <div className="event-card-content-wrapper">
                 <div className="event-card-header">
                   <h3>{title}</h3>
                   <div className="event-card-header-secondline">
-                    <GatsbyImage
-                      image={
-                        currentTeacher.thecherimage.childImageSharp
-                          .gatsbyImageData
-                      }
-                      alt={teacherName}
-                      className="avatar-image"
-                    />
-                    <Link to={teachers.link}>
+                    <Link to={currentTeacher.link}>
+                      <GatsbyImage
+                        image={
+                          currentTeacher.teacherimage.childImageSharp
+                            .gatsbyImageData
+                        }
+                        alt={teacherName}
+                        className="avatar-image"
+                      />
+
                       <p>{teacherName}</p>
                     </Link>
                     <div className="blog-card-header-separator"></div>
