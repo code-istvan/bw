@@ -114,8 +114,8 @@ collections:
     public_folder: ""
     format: "json"
     create: true
-    slug: "{{name}}"
+    slug: "{{classid}}"
     fields:
+      - { label: Classid, name: classid, widget: string }
       - { label: Class, name: class, widget: string }
       - { label: Shortdescription, name: shortdescription, widget: text }
-      - { label: Time, name: time, widget: string }
