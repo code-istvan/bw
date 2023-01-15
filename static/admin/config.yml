@@ -106,3 +106,16 @@ collections:
       - { label: Name, name: name, widget: string }
       - { label: Link, name: link, widget: string }
       - { label: Image, name: teacherimage, widget: image }
+
+  - name: "classes"
+    label: "Classes"
+    folder: "static/_classes"
+    media_folder: ""
+    public_folder: ""
+    format: "json"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: Class, name: class, widget: string }
+      - { label: Shortdescription, name: shortdescription, widget: text }
+      - { label: Time, name: time, widget: string }
