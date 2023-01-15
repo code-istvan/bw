@@ -85,7 +85,7 @@ module.exports = {
     {
       resolve: "gatsby-transformer-json",
       options: {
-        path: `${__dirname}/static/_classes`,
+        path: `${__dirname}/static/classes`,
       },
     },
 
