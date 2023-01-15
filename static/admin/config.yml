@@ -96,7 +96,7 @@ collections:
 
   - name: "teachers"
     label: "Teachers"
-    folder: "static/events/_teachers"
+    folder: "static/teachers"
     media_folder: ""
     public_folder: ""
     format: "json"
