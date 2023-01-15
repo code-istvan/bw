@@ -109,7 +109,7 @@ collections:
 
   - name: "classes"
     label: "Classes"
-    folder: "static/_classes"
+    folder: "static/classes"
     media_folder: ""
     public_folder: ""
     format: "json"
