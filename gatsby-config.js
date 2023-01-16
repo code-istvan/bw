@@ -73,15 +73,16 @@ module.exports = {
     {
       resolve: "gatsby-transformer-json",
       options: {
-        path: `${__dirname}/static/events`,
+        path: `${__dirname}/static/teachers`,
       },
     },
     {
       resolve: "gatsby-transformer-json",
       options: {
-        path: `${__dirname}/static/teachers`,
+        path: `${__dirname}/static/events`,
       },
     },
+
     {
       resolve: "gatsby-transformer-json",
       options: {

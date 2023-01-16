@@ -141,12 +141,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     description: String!
     eventsFull: EventsJson @link(by: "teacherlink", from: "teacher")
   }
-  type Frontmatter @infer {
-    title: String!
-    date: Date! @dateformat
-    description: String!
-    teachersFull: TeachersJson @link(by: "name", from: "teacher")
-  }
 `
   createTypes(typeDefs)
 
