@@ -45,12 +45,13 @@ module.exports = {
         name: `teachersFull`,
         path: `${__dirname}/static/teachers`,
       },
-      {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-          name: `teachersFull`,
-          path: `${__dirname}/static/classes`,
-        },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `teachersFull`,
+        path: `${__dirname}/static/classes`,
+      },
     },
 
     {
