@@ -139,7 +139,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     title: String!
     date: Date! @dateformat
     description: String!
-    eventsFull: EventsJson @link(by: "teacherlink", from: "teacher")
+    eventsFull: EventsJson @link(by: "link", from: "teacher")
   }
 `
   createTypes(typeDefs)
