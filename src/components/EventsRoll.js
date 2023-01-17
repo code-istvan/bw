@@ -9,7 +9,7 @@ import { useTeachers } from "../hooks/useTeachers"
 
 export default function EventsRoll() {
   let events = useEventsRoll()
-  // const teachers = useTeachers()
+  const teachers = useTeachers()
 
   return (
     <div className="row">
@@ -19,13 +19,13 @@ export default function EventsRoll() {
           date,
           day,
           Shortdescription,
-          // teacher: teacherName,
+          teacher: teacherName,
           eventlink,
           // teacher: teacherLink,
         }) => {
-          // const currentTeacher = teachers.find(
-          //   teacher => teacher.name === teacherName
-          // )
+          const currentTeacher = teachers.find(
+            teacher => teacher.name === teacherName
+          )
 
           // console.log("ezaz", teachers)
           return (
@@ -34,7 +34,7 @@ export default function EventsRoll() {
                 <div className="event-card-header">
                   <h3>{title}</h3>
                   <div className="event-card-header-secondline">
-                    {/* <Link to={currentTeacher.link}>
+                    <Link to={currentTeacher.link}>
                       <GatsbyImage
                         image={
                           currentTeacher.teacherimage.childImageSharp
@@ -45,7 +45,7 @@ export default function EventsRoll() {
                       />
 
                       <p>{teacherName}</p>
-                    </Link> */}
+                    </Link>
                     <div className="blog-card-header-separator"></div>
                     <p>
                       {date} {day}
