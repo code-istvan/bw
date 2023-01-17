@@ -125,7 +125,7 @@ collections:
           search_fields: ["class", "signup"],
           required: false,
         }
-      - { label: Time, name: time3, widget: string, optional: true }
+      - { label: Time, name: time3, widget: string, required: false }
       - {
           label: Teacher,
           name: teacher3,
@@ -146,7 +146,7 @@ collections:
           search_fields: ["class", "signup"],
           required: false,
         }
-      - { label: Time, name: time4, widget: string, optional: true }
+      - { label: Time, name: time4, widget: string, required: false }
       - {
           label: Teacher,
           name: teacher4,
