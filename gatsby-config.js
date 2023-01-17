@@ -31,7 +31,6 @@ module.exports = {
         path: `${__dirname}/static/blogpostimages`,
       },
     },
-
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -53,7 +52,6 @@ module.exports = {
         path: `${__dirname}/static/schedule`,
       },
     },
-
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -109,6 +107,12 @@ module.exports = {
       resolve: "gatsby-transformer-json",
       options: {
         path: `${__dirname}/static/classes`,
+      },
+    },
+    {
+      resolve: "gatsby-transformer-json",
+      options: {
+        path: `${__dirname}/static/schedule`,
       },
     },
 
