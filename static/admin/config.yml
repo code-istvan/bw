@@ -119,3 +119,4 @@ collections:
       - { label: Classid, name: classid, widget: string }
       - { label: Class, name: class, widget: string }
       - { label: Shortdescription, name: shortdescription, widget: text }
+      - { label: Signup, name: signup, widget: string }
