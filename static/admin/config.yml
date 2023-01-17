@@ -73,16 +73,37 @@ collections:
           default: true,
         }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: Time, name: time, widget: string }
+
       - {
-          label: Class,
-          name: class,
+          label: Class1,
+          name: class1,
           widget: relation,
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
           search_fields: ["class", "signup"],
         }
+      - { label: Time, name: time, widget: string }
+      - {
+          label: Teacher,
+          name: teacher,
+          widget: relation,
+          collection: "teachers",
+          value_field: "name",
+          display_fields: ["name"],
+          search_fields: ["name", "link"],
+        }
+
+      - {
+          label: Class2,
+          name: class2,
+          widget: relation,
+          collection: "classes",
+          value_field: "class",
+          display_fields: ["class"],
+          search_fields: ["class", "signup"],
+        }
+      - { label: Time, name: time, widget: string }
       - {
           label: Teacher,
           name: teacher,
