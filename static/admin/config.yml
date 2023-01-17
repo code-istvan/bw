@@ -83,10 +83,10 @@ collections:
           display_fields: ["class"],
           search_fields: ["class", "signup"],
         }
-      - { label: Time, name: time, widget: string }
+      - { label: Time, name: time1, widget: string }
       - {
           label: Teacher,
-          name: teacher,
+          name: teacher1,
           widget: relation,
           collection: "teachers",
           value_field: "name",
@@ -103,10 +103,10 @@ collections:
           display_fields: ["class"],
           search_fields: ["class", "signup"],
         }
-      - { label: Time, name: time, widget: string }
+      - { label: Time, name: time2, widget: string }
       - {
           label: Teacher,
-          name: teacher,
+          name: teacher2,
           widget: relation,
           collection: "teachers",
           value_field: "name",
