@@ -102,8 +102,9 @@ collections:
           value_field: "class",
           display_fields: ["class"],
           search_fields: ["class", "signup"],
+          optional: true,
         }
-      - { label: Time, name: time2, widget: string }
+      - { label: Time, name: time2, widget: string, optional: true }
       - {
           label: Teacher,
           name: teacher2,
@@ -112,6 +113,49 @@ collections:
           value_field: "name",
           display_fields: ["name"],
           search_fields: ["name", "link"],
+          optional: true,
+        }
+      - {
+          label: Class3,
+          name: class3,
+          widget: relation,
+          collection: "classes",
+          value_field: "class",
+          display_fields: ["class"],
+          search_fields: ["class", "signup"],
+          optional: true,
+        }
+      - { label: Time, name: time3, widget: string, optional: true }
+      - {
+          label: Teacher,
+          name: teacher3,
+          widget: relation,
+          collection: "teachers",
+          value_field: "name",
+          display_fields: ["name"],
+          search_fields: ["name", "link"],
+          optional: true,
+        }
+      - {
+          label: Class4,
+          name: class4,
+          widget: relation,
+          collection: "classes",
+          value_field: "class",
+          display_fields: ["class"],
+          search_fields: ["class", "signup"],
+          optional: true,
+        }
+      - { label: Time, name: time4, widget: string, optional: true }
+      - {
+          label: Teacher,
+          name: teacher4,
+          widget: relation,
+          collection: "teachers",
+          value_field: "name",
+          display_fields: ["name"],
+          search_fields: ["name", "link"],
+          optional: true,
         }
 
   - name: "events"
