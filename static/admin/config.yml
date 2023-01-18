@@ -6,6 +6,8 @@ backend:
 
 media_folder: "static/blogpostimages"
 public_folder: "/blogpostimages"
+logo_url: http://bandha.works/bandhaworks/bw_logo.svg
+
 slug:
   encoding: "ascii"
   clean_accents: true
