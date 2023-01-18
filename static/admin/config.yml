@@ -64,7 +64,7 @@ collections:
     public_folder: ""
     format: "json"
     create: true
-    slug: "{{date}}"
+    slug: "{{year}}-{{month}}-{{day}}"
     fields:
       - {
           label: "Published",
