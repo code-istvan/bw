@@ -64,6 +64,7 @@ collections:
     public_folder: ""
     format: "json"
     create: true
+    identifier_field: "{{year}}-{{month}}-{{day}}"
     slug: "{{year}}-{{month}}-{{day}}"
     fields:
       - {
