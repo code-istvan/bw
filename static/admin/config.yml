@@ -79,7 +79,9 @@ collections:
           name: "date",
           widget: "datetime",
           date_format: "YYYY.MM.DD",
-          time_format: false,
+          time_format: "HH:mm",
+          format: "LLL",
+          picker_utc: false,
         }
 
       - {
