@@ -92,7 +92,15 @@ collections:
           display_fields: ["class"],
           search_fields: ["class", "signup"],
         }
-      - { label: Time, name: time1, widget: string }
+      - {
+          label: Time,
+          name: time1,
+          widget: relation,
+          collection: "customdate",
+          value_field: "customdate",
+          display_fields: ["customdate"],
+          search_fields: ["customdate"],
+        }
       - {
           label: Teacher,
           name: teacher1,
