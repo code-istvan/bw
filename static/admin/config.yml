@@ -235,3 +235,14 @@ collections:
           required: false,
         }
       - { label: Signup, name: signup, widget: string, required: false }
+
+  - name: "customdate"
+    label: "Customdate"
+    folder: "static/customdate"
+    media_folder: ""
+    public_folder: ""
+    format: "json"
+    create: true
+    slug: "{{customdate}}"
+    fields:
+      - { label: Customdate, name: customdate, widget: string }
