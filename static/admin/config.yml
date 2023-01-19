@@ -79,7 +79,6 @@ collections:
           name: "date",
           widget: "datetime",
           date_format: "YYYY.MM.DD",
-          time_format: "HH:mm",
           format: "LL",
           picker_utc: false,
         }
@@ -229,5 +228,10 @@ collections:
     fields:
       - { label: Classid, name: classid, widget: string }
       - { label: Class, name: class, widget: string }
-      - { label: Shortdescription, name: shortdescription, widget: text }
-      - { label: Signup, name: signup, widget: string }
+      - {
+          label: Shortdescription,
+          name: shortdescription,
+          widget: text,
+          required: false,
+        }
+      - { label: Signup, name: signup, widget: string, required: false }
