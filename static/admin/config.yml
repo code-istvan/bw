@@ -54,9 +54,9 @@ collections:
     fields:
       - { label: Name, name: name, widget: string }
       - { label: Title, name: title, widget: string }
-      - { label: Email, name: email, widget: string }
-      - { label: Shortbio, name: shortbio, widget: text }
-      - { label: Image, name: authorimage, widget: image }
+      - { label: Email, name: email, widget: string, required: false }
+      - { label: Shortbio, name: shortbio, widget: text, required: false }
+      - { label: Image, name: authorimage, widget: image, required: false }
 
   - name: "schedule"
     label: "Schedule"
@@ -199,9 +199,9 @@ collections:
       - { label: Eventid, name: eventid, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Shortdescription, name: Shortdescription, widget: text }
-      - { label: Eventlink, name: eventlink, widget: string }
+      - { label: Eventlink, name: eventlink, widget: string, required: false }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: Day, name: day, widget: string }
+      - { label: Day, name: day, widget: string, required: false }
       - {
           label: Teacher,
           name: teacher,
