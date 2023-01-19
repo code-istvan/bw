@@ -80,7 +80,7 @@ collections:
           widget: "datetime",
           date_format: "YYYY.MM.DD",
           time_format: "HH:mm",
-          format: "LLL",
+          format: "LL",
           picker_utc: false,
         }
 
