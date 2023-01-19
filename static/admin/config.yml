@@ -214,8 +214,8 @@ collections:
     slug: "{{name}}"
     fields:
       - { label: Name, name: name, widget: string }
-      - { label: Link, name: link, widget: string }
-      - { label: Image, name: teacherimage, widget: image }
+      - { label: Link, name: link, widget: string, required: false }
+      - { label: Image, name: teacherimage, widget: image, required: false }
 
   - name: "classes"
     label: "Classes"
