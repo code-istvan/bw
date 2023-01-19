@@ -71,6 +71,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `customdateFull`,
+        path: `${__dirname}/static/customdate`,
+      },
+    },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
@@ -113,6 +121,12 @@ module.exports = {
       resolve: "gatsby-transformer-json",
       options: {
         path: `${__dirname}/static/schedule`,
+      },
+    },
+    {
+      resolve: "gatsby-transformer-json",
+      options: {
+        path: `${__dirname}/static/customdate`,
       },
     },
 
