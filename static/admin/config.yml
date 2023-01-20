@@ -112,7 +112,7 @@ collections:
         }
 
       - {
-          label: Class2,
+          label: Class,
           name: class2,
           widget: relation,
           collection: "classes",
@@ -133,7 +133,7 @@ collections:
           required: false,
         }
       - {
-          label: Class3,
+          label: Class,
           name: class3,
           widget: relation,
           collection: "classes",
@@ -154,7 +154,7 @@ collections:
           required: false,
         }
       - {
-          label: Class4,
+          label: Class,
           name: class4,
           widget: relation,
           collection: "classes",
