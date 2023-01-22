@@ -1,19 +1,15 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
-// import { Link } from "gatsby"
-// import "../sass/components/_kapcsolat.scss"
-// import { ElfsightWidget } from "react-elfsight-widget"
-// import Calendar from "../components/Calendar"
+import ScheduleRoll from "../components/ScheduleRoll"
 
 export default function Orarend() {
   return (
     <Layout>
       <Seo title="ÓRAREND" />
-      <div className="row">
+      <div className="row mt-80px">
         <h1>ÓRAREND</h1>
-        {/* <ElfsightWidget widgetID="elfsight-app-fb5099a3-5f9f-48b6-944a-44e4eaad58cf" /> */}
-        {/* <Calendar /> */}
+        <ScheduleRoll />
       </div>
     </Layout>
   )

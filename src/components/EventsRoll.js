@@ -27,7 +27,6 @@ export default function EventsRoll() {
             teacher => teacher.name === teacherName
           )
 
-          // console.log("ezaz", teachers)
           return (
             <div className="event-card col-12-xs col-6-md" key={date}>
               <div className="event-card-content-wrapper">

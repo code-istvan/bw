@@ -9,17 +9,17 @@ export const useSchedule = () => {
   const data = useStaticQuery(
     graphql`
       query getSchedule {
-         allScheduleJson {
-    nodes {
-      class1
-      teacher1
-      time1
-      date
-      class2
-      teacher2
-      time2
-    }
-  }
+        allScheduleJson {
+          nodes {
+            class1
+            teacher1
+            time1
+            date
+            class2
+            teacher2
+            time2
+          }
+        }
       }
     `
   )
