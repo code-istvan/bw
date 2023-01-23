@@ -1,5 +1,5 @@
 import React from "react"
-import { useTagsRoll } from "../hooks/useTagsRoll"
+import { useTagsRoll } from "../hooks/useTagsRollQuery"
 import "../sass/components/_blogtags.scss"
 
 function BlogTags() {

@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import { navigate } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import "../sass/components/_eventsroll.scss"
-import { useTeachers } from "../hooks/useTeachers"
+import { useTeachers } from "../hooks/useTeachersQuery"
 
 export default function EventsRoll() {
   let events = useEventsRoll()

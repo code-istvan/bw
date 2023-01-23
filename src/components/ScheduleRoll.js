@@ -1,7 +1,7 @@
 import React from "react"
-import { useSchedule } from "../hooks/useSchedule"
-import { useClasses } from "../hooks/useClasses"
-import { useTeachers } from "../hooks/useTeachers"
+import { useSchedule } from "../hooks/useScheduleQuery"
+import { useClasses } from "../hooks/useClassesQuery"
+import { useTeachers } from "../hooks/useTeachersQuery"
 
 export default function ScheduleRoll() {
   let schedule = useSchedule()
