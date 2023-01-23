@@ -17,6 +17,8 @@ export default function ScheduleRoll() {
           //   class1 => class1.shortdescription === classData1
           // )
 
+          // const mergedClasses = {...class1, ...class2, class3}
+
           // const currentTeacher = teachers.find(
           //   teacher => teacher.name === teacherName
           // )
