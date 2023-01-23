@@ -12,9 +12,9 @@ export default function Blog() {
     <LayoutBlog>
       <Seo title="BLOG" />
       <div className="blog-hero-container">
-        <div className="row hirlevel--desktop--container">
+        <div className="row blog--desktop--container">
           <div className="col">
-            <h1 className="hirlevel-title">BLOG</h1>
+            <h1 className="blog-title">BLOG</h1>
             <StaticImage
               className="container-fluid blog-hero-image hero-big-image"
               src="../images/blog_hero.jpg"

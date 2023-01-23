@@ -38,7 +38,6 @@ const Hirlevel = () => (
         </div>
       </div>
     </div>
-
     <div className="row hirlevel--desktop--container">
       <div className="col mt-20px mb-20px">
         <p>
