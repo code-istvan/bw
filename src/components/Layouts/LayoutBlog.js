@@ -1,6 +1,5 @@
-import React, { useRef, useState, useEffect } from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
-// import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "../Nav/Navbar"
 import ProgressBar from "../ProgressBar"
 import "../../sass/components/_layout.scss"
@@ -13,7 +12,6 @@ const LayoutBlog = ({ children, articleProperties }) => {
   useScrollPosition(
     function setScrollPosition({ currentPosition }) {
       let { y: currentYPosition } = currentPosition
-
       setScroll(currentYPosition)
     },
     [scroll]

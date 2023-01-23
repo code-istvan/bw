@@ -1,0 +1,8 @@
+@import "/src/sass/global";
+
+.progress-line {
+  height: 3px;
+  background-color: $color-brand-orange;
+  position: fixed;
+  z-index: 999;
+}

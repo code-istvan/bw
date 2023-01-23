@@ -17,4 +17,8 @@
 .simple-header-style {
   height: 50px;
   background-color: $color-shades-darkGray;
+  border-top: 1px solid $color-shades-lightBlack;
+  border-bottom: 1px solid $color-shades-lightBlack;
+  display: flex;
+  align-items: center;
 }

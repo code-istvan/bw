@@ -1,5 +1,6 @@
 import * as React from "react"
 import { useWindowSize } from "../hooks/useWindowSize"
+import "../sass/components/_progressbar.scss"
 
 const ProgressBar = ({ scroll, articleProperties }) => {
   let currentScroll = Math.abs(scroll),
@@ -12,7 +13,14 @@ const ProgressBar = ({ scroll, articleProperties }) => {
     )
   if (currentProgress >= 100) currentProgress = 100
 
-  return <div style={{ width: `${currentProgress}vw` }} />
+  return (
+    <div className="container-fluid">
+      <div
+        style={{ width: `${currentProgress}vw` }}
+        className="progress-line"
+      />
+    </div>
+  )
 }
 
 export default ProgressBar
