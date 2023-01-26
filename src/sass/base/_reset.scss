@@ -1,5 +1,13 @@
 // input field border highlight remove
 
+* {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -9,14 +17,6 @@ button:focus {
 
 *:focus {
   outline: none;
-}
-
-* {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0;
-  border: 0;
 }
 
 html,

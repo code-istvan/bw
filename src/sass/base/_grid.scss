@@ -1,6 +1,7 @@
 @use "sass:math";
 
 $grid-columns: 12;
+
 $grid-gaps: (
   "0": 0,
   "1": 10px,
@@ -17,6 +18,20 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+
+  .container-fluid {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
   @include xs {
     max-width: map-get($container-max-widths, "xs");
@@ -47,28 +62,14 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
   }
 }
 
-.row {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.container-fluid {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-
 //grid gaps
 @each $key, $val in $grid-gaps {
   .gap-#{$key} > * {
     padding: $val;
   }
   .gap-#{$key} {
-    margin-left: -$val;
-    margin-right: -$val;
+    margin-left: -$val !important;
+    margin-right: -$val !important;
   }
 }
 

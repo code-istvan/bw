@@ -34,7 +34,7 @@ const FooterDesktopMenu = () => {
 
   return (
     <div className="row footer-desktop-menu-lists">
-      <div className="col">
+      <div className="col-6-md">
         <ul>
           <li>
             <button
@@ -61,7 +61,7 @@ const FooterDesktopMenu = () => {
           ))}
         </ul>
       </div>
-      <div className="col">
+      <div className="col-6-md">
         <ul>
           <li>
             <button

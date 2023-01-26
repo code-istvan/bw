@@ -78,7 +78,7 @@ const Footer = () => {
             <div className="separator"></div>
             <div>
               <p className="small">
-                Copyright© 2015-{new Date().getFullYear()} BandhaWorks
+                Copyright© 2013-{new Date().getFullYear()} BandhaWorks
               </p>
             </div>
             <div className="separator"></div>

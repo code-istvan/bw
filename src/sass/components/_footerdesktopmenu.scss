@@ -1,6 +1,9 @@
 @import "/src/sass/global";
 
 .footer-desktop-menu-lists {
+  display: flex;
+  flex-direction: row;
+
   ul {
     list-style-type: none;
   }

@@ -1,5 +1,9 @@
 @import "/src/sass/global";
 
+.a {
+  border: 2px white solid;
+}
+
 .hazirend--desktop--container {
   @media only screen and (min-width: 992px) {
     width: 670px;

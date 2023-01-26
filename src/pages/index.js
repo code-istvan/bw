@@ -38,25 +38,6 @@ const IndexPage = () => (
             banana bread springtime strawberry with cremini mushrooms chickpea
             crust pizza cherry bomb pepper candy cane winter.
           </p>
-          <p>
-            Green tea lime cilantro thyme tempeh Italian linguine puttanesca
-            artichoke hearts shallots spiced peppermint blast enchiladas Thai
-            toasted hazelnuts dill cayenne red pepper edamame hummus muffins
-            paprika frosted gingerbread bites chilies. Lemongrass parsley
-            grenadillo lemon red lentil soup crumbled lentils potato creamy
-            cauliflower alfredo sauce chocolate peanut butter dip second course
-            Italian pepperoncini lemonade zest walnut pesto tart.
-          </p>
-          <p>
-            Chocolate cookie hazelnut shiitake cumin lime coconut macadamia nut
-            cookies strawberry mango smoothie creamiest Southern Italian
-            elderberry pumpkin chili pepper red lentil curry one bowl
-            overflowing berries. Fall broccoli banana bruschetta oranges Indian
-            spiced seitan red grapes mocha chocolate Thai curry mangos jalapeño
-            blueberry pops avocado dressing drizzle mint black bean wraps summer
-            fruit salad zesty tofu pad thai green papaya salad hearts of palm
-            figs dessert salty.
-          </p>
         </div>
       </div>
     </div>

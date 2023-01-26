@@ -6,8 +6,6 @@
   }
   border: solid 2px $color-shades-darkGray;
   border-radius: 2px;
-  margin-bottom: 20px;
-  // background-color: $color-shades-darkGray;
 }
 
 .event-card-content-wrapper {
@@ -17,6 +15,11 @@
 .event-card-body {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.avatar-group {
+  align-items: center;
+  gap: 8px;
 }
 
 .event-card-footer {
@@ -31,4 +34,8 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
+
+  a:link {
+    text-decoration: none;
+  }
 }

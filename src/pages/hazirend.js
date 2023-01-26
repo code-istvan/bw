@@ -14,7 +14,17 @@ export default function Házirend() {
           <h1>HÁZIREND</h1>
         </div>
       </div>
-
+      <div className="row gap-1">
+        <div className="col-12-xs col-6-md col-4-xl">
+          <div className="a">1</div>
+        </div>
+        <div className="col-12-xs col-6-md col-4-xl">
+          <div className="a">2</div>
+        </div>
+        <div className="col-12-xs col-6-md col-4-xl">
+          <div className="a">3</div>
+        </div>
+      </div>
       <div className="row">
         <div className="col">
           <ol type="1" className="body">
