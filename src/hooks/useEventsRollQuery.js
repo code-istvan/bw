@@ -12,6 +12,7 @@ export const useEventsRoll = () => {
             teacher
             title
             Shortdescription
+            featured
           }
         }
       }
