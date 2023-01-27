@@ -15,6 +15,9 @@
 .event-card-body {
   padding-top: 20px;
   padding-bottom: 20px;
+  @include md {
+    height: 120px;
+  }
 }
 
 .avatar-group {
@@ -35,10 +38,21 @@
   justify-content: flex-start;
   gap: 5px;
 
+  .blog-card-header-separator {
+    display: none;
+  }
+
   @include md {
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
+    justify-content: flex-end;
     gap: 10px;
+
+    .blog-card-header-separator {
+      display: block;
+      height: 30px;
+      margin: 0px 8px;
+    }
   }
 
   a:link {

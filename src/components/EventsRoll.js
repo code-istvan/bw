@@ -34,12 +34,14 @@ export default function EventsRoll() {
                     <h3>{title}</h3>
                     <div className="event-card-header-secondline">
                       <div className="col">
-                        {/* <div className="blog-card-header-separator"></div> */}
                         <p className="clr-shades-gray">
                           {date} {day}
                         </p>
                       </div>
-
+                      <div className="col">
+                        {" "}
+                        <div className="blog-card-header-separator" />
+                      </div>
                       <div className="col">
                         <Link to={currentTeacher.link}>
                           <div className="row avatar-group">
