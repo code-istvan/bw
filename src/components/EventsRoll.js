@@ -33,25 +33,29 @@ export default function EventsRoll() {
                   <div className="event-card-header">
                     <h3>{title}</h3>
                     <div className="event-card-header-secondline">
-                      <Link to={currentTeacher.link}>
-                        <div className="row avatar-group">
-                          <GatsbyImage
-                            image={
-                              currentTeacher.teacherimage.childImageSharp
-                                .gatsbyImageData
-                            }
-                            alt={teacherName}
-                            className="avatar-image"
-                          />
+                      <div className="col">
+                        {/* <div className="blog-card-header-separator"></div> */}
+                        <p className="clr-shades-gray">
+                          {date} {day}
+                        </p>
+                      </div>
 
-                          <p className="clr-shades-gray">{teacherName}</p>
-                        </div>
-                      </Link>
+                      <div className="col">
+                        <Link to={currentTeacher.link}>
+                          <div className="row avatar-group">
+                            <GatsbyImage
+                              image={
+                                currentTeacher.teacherimage.childImageSharp
+                                  .gatsbyImageData
+                              }
+                              alt={teacherName}
+                              className="avatar-image"
+                            />
 
-                      <div className="blog-card-header-separator"></div>
-                      <p className="clr-shades-gray">
-                        {date} {day}
-                      </p>
+                            <p className="clr-shades-gray">{teacherName}</p>
+                          </div>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                   <div className="event-card-body">

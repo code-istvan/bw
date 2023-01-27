@@ -31,9 +31,15 @@
 .event-card-header-secondline {
   margin-top: 8px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+
+  @include md {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
 
   a:link {
     text-decoration: none;
