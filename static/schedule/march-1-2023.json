@@ -5,7 +5,9 @@
   "date": "March 1, 2023",
   "teacher1": "István",
   "teacher2": "István",
-  "class1": "Mysore astanga",
+  "class1": [
+    "Mysore astanga"
+  ],
   "class2": "Vinyásza krama",
   "class3": ""
 }
