@@ -10,7 +10,7 @@ const SectionEvents = () => {
       <div className="container-fluid">
         <div className="container">
           <h1 className="mb-20px">Programok</h1>
-          <EventsRoll />
+          <EventsRoll onlyFeatured={true} />
           <Button
             type="button"
             buttonStyle="btn--primary--outline"
