@@ -15,6 +15,9 @@ export const useSchedule = () => {
             teacher1
             time1
             date
+            class2
+            teacher2
+            time2
           }
         }
       }

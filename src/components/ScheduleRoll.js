@@ -37,9 +37,13 @@ export default function ScheduleRoll() {
 
           return (
             <>
-              <div className="row">{date}</div>
               <div className="row">
-                {time1} {class1} {teacher1}
+                <div className="col">{date}</div>
+              </div>
+              <div className="row">
+                <div className="col">
+                  {time1} {class1} {teacher1}
+                </div>
               </div>
               <div className="row">
                 {time2} {class2} {teacher2}
