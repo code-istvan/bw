@@ -96,8 +96,8 @@ collections:
           label: Time,
           name: time1,
           widget: relation,
-          collection: "customdate",
-          value_field: "customdate",
+          collection: "customdates",
+          value_field: "customdates",
           display_fields: ["customdate"],
           search_fields: ["customdate"],
         }
@@ -121,7 +121,16 @@ collections:
           search_fields: ["class", "signup"],
           required: false,
         }
-      - { label: Time, name: time2, widget: string, required: false }
+      - {
+          label: Time,
+          name: time2,
+          widget: relation,
+          collection: "customdates",
+          value_field: "customdates",
+          display_fields: ["customdate"],
+          search_fields: ["customdate"],
+          required: false,
+        }
       - {
           label: Teacher,
           name: teacher2,
@@ -142,7 +151,16 @@ collections:
           search_fields: ["class", "signup"],
           required: false,
         }
-      - { label: Time, name: time3, widget: string, required: false }
+      - {
+          label: Time,
+          name: time3,
+          widget: relation,
+          collection: "customdates",
+          value_field: "customdates",
+          display_fields: ["customdate"],
+          search_fields: ["customdate"],
+          required: false,
+        }
       - {
           label: Teacher,
           name: teacher3,
@@ -163,7 +181,16 @@ collections:
           search_fields: ["class", "signup"],
           required: false,
         }
-      - { label: Time, name: time4, widget: string, required: false }
+      - {
+          label: Time,
+          name: time4,
+          widget: relation,
+          collection: "customdates",
+          value_field: "customdates",
+          display_fields: ["customdate"],
+          search_fields: ["customdate"],
+          required: false,
+        }
       - {
           label: Teacher,
           name: teacher4,
@@ -244,8 +271,8 @@ collections:
         }
       - { label: Signup, name: signup, widget: string, required: false }
 
-  - name: "customdate"
-    label: "Customdate"
+  - name: "customdates"
+    label: "Customdates"
     folder: "static/customdate"
     media_folder: ""
     public_folder: ""

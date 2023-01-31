@@ -46,7 +46,9 @@ export default function ScheduleRoll() {
                 </div>
               </div>
               <div className="row">
-                {time2} {class2} {teacher2}
+                <div className="col">
+                  {time2} {class2} {teacher2}
+                </div>
               </div>
             </>
           )
