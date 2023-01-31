@@ -106,7 +106,7 @@ collections:
           name: teacher1,
           widget: relation,
           collection: "teachers",
-          value_field: "name",
+          value_field: "{{fields.name}} - {{fields.link}}",
           display_fields: ["name"],
           search_fields: ["name", "link"],
         }
