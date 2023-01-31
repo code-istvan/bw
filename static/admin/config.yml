@@ -87,7 +87,6 @@ collections:
           label: Class1,
           name: class1,
           widget: relation,
-          multiple: true,
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
