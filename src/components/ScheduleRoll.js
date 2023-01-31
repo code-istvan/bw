@@ -10,25 +10,32 @@ export default function ScheduleRoll() {
     <div>
       {schedule.map(
         ({
-          class1,
-          teacher1,
-          time1,
           date,
+          class1,
           class2,
-          teacher2,
-          time2,
+          class3,
+          class4,
           description1,
           description2,
+          description3,
+          description4,
           signup1,
           signup2,
+          signup3,
+          signup4,
+          time1,
+          time2,
+          time3,
+          time4,
+          teacher1,
+          teacher2,
+          teacher3,
+          teacher4,
           teacherlink1,
           teacherlink2,
+          teacherlink3,
+          teacherlink4,
         }) => {
-          // const classShortdescription = classes.find(
-          //   classid => classid.shortdescription === classShortdescription
-          // )
-          // console.log(classShortdescription)
-
           return (
             <>
               <div>
@@ -42,6 +49,14 @@ export default function ScheduleRoll() {
               <div>
                 {time2} {class2} {description2} {signup2} {teacher2}{" "}
                 {teacherlink2}
+              </div>
+              <div>
+                {time3} {class3} {description3} {signup3} {teacher3}{" "}
+                {teacherlink3}
+              </div>
+              <div>
+                {time4} {class4} {description4} {signup4} {teacher4}{" "}
+                {teacherlink4}
               </div>
             </>
           )

@@ -11,19 +11,31 @@ export const useSchedule = () => {
       query getSchedule {
         allScheduleJson {
           nodes {
-            class1
-            teacher1
-            time1
             date
+            class1
             class2
-            teacher2
-            time2
-            teacherlink1
-            teacherlink2
+            class3
+            class4
             description1
             description2
+            description3
+            description4
             signup1
             signup2
+            signup3
+            signup4
+            time1
+            time2
+            time3
+            time4
+            teacher1
+            teacher2
+            teacher3
+            teacher4
+            teacherlink1
+            teacherlink2
+            teacherlink3
+            teacherlink4
           }
         }
       }
