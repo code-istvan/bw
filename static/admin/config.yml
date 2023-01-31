@@ -128,7 +128,15 @@ collections:
           display_fields: ["name"],
           search_fields: ["name", "link"],
         }
-
+      - {
+          label: Teacherlink,
+          name: teacherlink1,
+          widget: relation,
+          collection: "teachers",
+          value_field: "link",
+          display_fields: ["link"],
+          search_fields: ["link"],
+        }
       - {
           label: Class,
           name: class2,
