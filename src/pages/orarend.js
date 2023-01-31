@@ -9,8 +9,8 @@ export default function Orarend() {
       <Seo title="ÓRAREND" />
       <div className="row mt-80px">
         <h1>ÓRAREND</h1>
-        <ScheduleRoll />
       </div>
+      <ScheduleRoll />
     </Layout>
   )
 }

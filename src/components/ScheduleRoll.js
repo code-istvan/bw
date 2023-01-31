@@ -1,19 +1,29 @@
 import React from "react"
 import { useSchedule } from "../hooks/useScheduleQuery"
-import { useClasses } from "../hooks/useClassesQuery"
-import { useTeachers } from "../hooks/useTeachersQuery"
-import { element } from "prop-types"
 
 export default function ScheduleRoll() {
   let schedule = useSchedule()
-  const classes = useClasses()
 
   console.log(schedule)
-  console.log(classes)
+
   return (
-    <div className="row">
+    <div>
       {schedule.map(
-        ({ class1, teacher1, time1, date, class2, teacher2, time2 }) => {
+        ({
+          class1,
+          teacher1,
+          time1,
+          date,
+          class2,
+          teacher2,
+          time2,
+          description1,
+          description2,
+          signup1,
+          signup2,
+          teacherlink1,
+          teacherlink2,
+        }) => {
           // const classShortdescription = classes.find(
           //   classid => classid.shortdescription === classShortdescription
           // )
@@ -21,18 +31,17 @@ export default function ScheduleRoll() {
 
           return (
             <>
-              <div className="row">
-                <div className="col">{date}</div>
+              <div>
+                <h3>{date}</h3>
               </div>
-              <div className="row">
-                <div className="col">
-                  {time1} {class1} {teacher1}
-                </div>
+              <br />
+              <div>
+                {time1} {class1} {description1} {signup1} {teacher1}{" "}
+                {teacherlink1}
               </div>
-              <div className="row">
-                <div className="col">
-                  {time2} {class2} {teacher2}
-                </div>
+              <div>
+                {time2} {class2} {description2} {signup2} {teacher2}{" "}
+                {teacherlink2}
               </div>
             </>
           )
