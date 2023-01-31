@@ -88,9 +88,27 @@ collections:
           name: class1,
           widget: relation,
           collection: "classes",
-          value_field: "{{fields.class}},{{fields.signup}},{{fields.shortdescription}}",
+          value_field: "class",
           display_fields: ["class"],
           search_fields: ["class", "signup"],
+        }
+      - {
+          label: Description1,
+          name: description1,
+          widget: relation,
+          collection: "classes",
+          value_field: "shortdescription",
+          display_fields: ["shortdescription"],
+          search_fields: ["signup"],
+        }
+      - {
+          label: Signup1,
+          name: signup1,
+          widget: relation,
+          collection: "classes",
+          value_field: "signup",
+          display_fields: ["signup"],
+          search_fields: ["signup"],
         }
       - {
           label: Time,
@@ -106,7 +124,7 @@ collections:
           name: teacher1,
           widget: relation,
           collection: "teachers",
-          value_field: "{{fields.name}},{{fields.link}}",
+          value_field: "name",
           display_fields: ["name"],
           search_fields: ["name", "link"],
         }
