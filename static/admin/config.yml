@@ -138,13 +138,33 @@ collections:
           search_fields: ["link"],
         }
       - {
-          label: Class,
+          label: Class2,
           name: class2,
           widget: relation,
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
           search_fields: ["class", "signup"],
+          required: false,
+        }
+      - {
+          label: Description2,
+          name: description2,
+          widget: relation,
+          collection: "classes",
+          value_field: "shortdescription",
+          display_fields: ["shortdescription"],
+          search_fields: ["signup"],
+          required: false,
+        }
+      - {
+          label: Signup2,
+          name: signup2,
+          widget: relation,
+          collection: "classes",
+          value_field: "signup",
+          display_fields: ["signup"],
+          search_fields: ["signup"],
           required: false,
         }
       - {
@@ -168,13 +188,43 @@ collections:
           required: false,
         }
       - {
-          label: Class,
+          label: Teacherlink,
+          name: teacherlink2,
+          widget: relation,
+          collection: "teachers",
+          value_field: "link",
+          display_fields: ["link"],
+          search_fields: ["link"],
+          required: false,
+        }
+      - {
+          label: Class3,
           name: class3,
           widget: relation,
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
           search_fields: ["class", "signup"],
+          required: false,
+        }
+      - {
+          label: Description3,
+          name: description3,
+          widget: relation,
+          collection: "classes",
+          value_field: "shortdescription",
+          display_fields: ["shortdescription"],
+          search_fields: ["signup"],
+          required: false,
+        }
+      - {
+          label: Signup3,
+          name: signup3,
+          widget: relation,
+          collection: "classes",
+          value_field: "signup",
+          display_fields: ["signup"],
+          search_fields: ["signup"],
           required: false,
         }
       - {
@@ -198,13 +248,43 @@ collections:
           required: false,
         }
       - {
-          label: Class,
+          label: Teacherlink,
+          name: teacherlink3,
+          widget: relation,
+          collection: "teachers",
+          value_field: "link",
+          display_fields: ["link"],
+          search_fields: ["link"],
+          required: false,
+        }
+      - {
+          label: Class4,
           name: class4,
           widget: relation,
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
           search_fields: ["class", "signup"],
+          required: false,
+        }
+      - {
+          label: Description4,
+          name: description4,
+          widget: relation,
+          collection: "classes",
+          value_field: "shortdescription",
+          display_fields: ["shortdescription"],
+          search_fields: ["signup"],
+          required: false,
+        }
+      - {
+          label: Signup4,
+          name: signup4,
+          widget: relation,
+          collection: "classes",
+          value_field: "signup",
+          display_fields: ["signup"],
+          search_fields: ["signup"],
           required: false,
         }
       - {
@@ -225,6 +305,16 @@ collections:
           value_field: "name",
           display_fields: ["name"],
           search_fields: ["name", "link"],
+          required: false,
+        }
+      - {
+          label: Teacherlink,
+          name: teacherlink4,
+          widget: relation,
+          collection: "teachers",
+          value_field: "link",
+          display_fields: ["link"],
+          search_fields: ["link"],
           required: false,
         }
 
