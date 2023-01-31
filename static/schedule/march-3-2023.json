@@ -1,7 +1,9 @@
 {
   "published": true,
   "date": "March 3, 2023",
-  "class1": "Mysore astanga",
+  "class1": [
+    "Mysore astanga"
+  ],
   "time1": "5:30 - 9:00",
   "teacher1": "Réka",
   "class2": ""
