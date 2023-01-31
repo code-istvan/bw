@@ -1,10 +1,10 @@
 {
   "published": true,
   "date": "March 2, 2023",
-  "class1": "Mysore astanga",
+  "class1": "Mysore astanga,/orarend,This is the shortdescription of Mysore astanga",
   "time1": "5:30 - 9:00",
-  "teacher1": "Réka",
-  "class2": "Vinyásza krama",
-  "time2": "18:00 - 19:30",
-  "teacher2": "Noémi"
+  "teacher1": "Réka,/mysore-program",
+  "class2": "",
+  "time2": "",
+  "teacher2": ""
 }
