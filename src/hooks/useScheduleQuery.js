@@ -18,6 +18,12 @@ export const useSchedule = () => {
             class2
             teacher2
             time2
+            teacherlink1
+            teacherlink2
+            description1
+            description2
+            signup1
+            signup2
           }
         }
       }
