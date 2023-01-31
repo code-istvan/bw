@@ -88,7 +88,7 @@ collections:
           name: class1,
           widget: relation,
           collection: "classes",
-          value_field: "{{fields.class}} - {{fields.signup}}",
+          value_field: "{{fields.class}} - {{fields.signup}} - {{fields.shortdescription}}",
           display_fields: ["class"],
           search_fields: ["class", "signup"],
         }
