@@ -41,11 +41,11 @@ export default function ScheduleRoll() {
               <div>
                 <h3>{date}</h3>
               </div>
-              <br />
               <div>
                 {time1} {class1} {description1} {signup1} {teacher1}{" "}
                 {teacherlink1}
               </div>
+
               <div>
                 {time2} {class2} {description2} {signup2} {teacher2}{" "}
                 {teacherlink2}
@@ -58,6 +58,7 @@ export default function ScheduleRoll() {
                 {time4} {class4} {description4} {signup4} {teacher4}{" "}
                 {teacherlink4}
               </div>
+              <br />
             </>
           )
         }
