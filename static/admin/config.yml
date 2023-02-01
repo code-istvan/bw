@@ -145,7 +145,6 @@ collections:
           value_field: "class",
           display_fields: ["class"],
           search_fields: ["class", "signup"],
-        
         }
       - {
           label: Description2,
@@ -155,7 +154,6 @@ collections:
           value_field: "shortdescription",
           display_fields: ["shortdescription"],
           search_fields: ["signup"],
-       
         }
       - {
           label: Signup2,
@@ -165,7 +163,6 @@ collections:
           value_field: "signup",
           display_fields: ["signup"],
           search_fields: ["signup"],
-         
         }
       - {
           label: Time,
@@ -175,7 +172,6 @@ collections:
           value_field: "customdate",
           display_fields: ["customdate"],
           search_fields: ["customdate"],
-         
         }
       - {
           label: Teacher,
@@ -185,7 +181,6 @@ collections:
           value_field: "name",
           display_fields: ["name"],
           search_fields: ["name", "link"],
-          
         }
       - {
           label: Teacherlink,
@@ -195,7 +190,6 @@ collections:
           value_field: "link",
           display_fields: ["link"],
           search_fields: ["link"],
-        
         }
       - {
           label: Class3,
@@ -206,7 +200,6 @@ collections:
           display_fields: ["class"],
           search_fields: ["class", "signup"],
           default: "null",
-         
         }
       - {
           label: Description3,
@@ -216,8 +209,7 @@ collections:
           value_field: "shortdescription",
           display_fields: ["shortdescription"],
           search_fields: ["signup"],
-           default: "null",
-      
+          default: "null",
         }
       - {
           label: Signup3,
@@ -227,8 +219,7 @@ collections:
           value_field: "signup",
           display_fields: ["signup"],
           search_fields: ["signup"],
-           default: "null",
-         
+          default: "null",
         }
       - {
           label: Time,
@@ -238,8 +229,7 @@ collections:
           value_field: "customdate",
           display_fields: ["customdate"],
           search_fields: ["customdate"],
-           default: "null",
-        
+          default: "null",
         }
       - {
           label: Teacher,
@@ -249,8 +239,7 @@ collections:
           value_field: "name",
           display_fields: ["name"],
           search_fields: ["name", "link"],
-           default: "null",
-         
+          default: "null",
         }
       - {
           label: Teacherlink,
@@ -260,8 +249,7 @@ collections:
           value_field: "link",
           display_fields: ["link"],
           search_fields: ["link"],
-           default: "null",
-        
+          default: "null",
         }
       - {
           label: Class4,
