@@ -14,21 +14,22 @@ export const useSchedule = () => {
             date
             class1
             class2
-
+            class3
             description1
             description2
-
+            description3
             signup1
             signup2
-
+            signup3
             time1
             time2
-
+            time3
             teacher1
             teacher2
-
+            teacher3
             teacherlink1
             teacherlink2
+            teacherlink3
           }
         }
       }
