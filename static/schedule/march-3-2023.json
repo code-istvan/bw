@@ -1,0 +1,22 @@
+{
+  "time1": "5:30 - 9:00",
+  "time2": "18:00 - 19:30",
+  "time3": "null",
+  "published": true,
+  "date": "March 3, 2023",
+  "teacher1": "István",
+  "teacher2": "Noémi",
+  "teacher3": "null",
+  "teacherlink1": "/holdnapok",
+  "description1": "This is the shortdescription of Mysore astanga",
+  "teacherlink2": "/holdnapok",
+  "description2": "Astanga vezetett első sorozat tradicionális szanszkrit számolással",
+  "teacherlink3": "null",
+  "description3": "null",
+  "class1": "Mysore astanga",
+  "signup1": "/orarend",
+  "class2": "Astanga vezetett első sorozat",
+  "signup2": "/orarend",
+  "class3": "Mysore astanga",
+  "signup3": "null"
+}
