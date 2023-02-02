@@ -1,5 +1,6 @@
 import React from "react"
 import { useSchedule } from "../hooks/useScheduleQuery"
+import "../sass/components/_scheduleroll.scss"
 
 export default function ScheduleRoll() {
   let schedule = useSchedule()
@@ -46,18 +47,18 @@ export default function ScheduleRoll() {
                 {teacherlink1}
               </div>
 
-              <div>
+              <div className={class2 == "null" ? "hide-class" : ""}>
                 {time2} {class2} {description2} {signup2} {teacher2}{" "}
                 {teacherlink2}
               </div>
-              <div>
+              <div className={class3 == "null" ? "hide-class" : ""}>
                 {time3} {class3} {description3} {signup3} {teacher3}{" "}
                 {teacherlink3}
               </div>
-              {/* <div>
+              <div className={class4 == "null" ? "hide-class" : ""}>
                 {time4} {class4} {description4} {signup4} {teacher4}{" "}
                 {teacherlink4}
-              </div> */}
+              </div>
               <br />
             </>
           )
