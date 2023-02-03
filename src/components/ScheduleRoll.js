@@ -1,11 +1,11 @@
 import React from "react"
 import { useSchedule } from "../hooks/useScheduleQuery"
+import { Link } from "gatsby"
+import Accordion from "./Accordion"
 import "../sass/components/_scheduleroll.scss"
 
 export default function ScheduleRoll() {
   let schedule = useSchedule()
-
-  console.log(schedule)
 
   return (
     <div>
@@ -43,10 +43,12 @@ export default function ScheduleRoll() {
                 <h3>{date}</h3>
               </div>
               <div>
-                {time1} {class1} {description1} {signup1} {teacher1}{" "}
-                {teacherlink1}
+                {time1} {class1} <Link to={teacherlink1}>{teacher1}</Link>{" "}
+                <Link to={signup1}>JEGY VÁSÁRLÁS</Link>
+                <br />
+                Részletek
+                <Accordion content={description1} />
               </div>
-
               <div className={class2 == "null" ? "hide-class" : ""}>
                 {time2} {class2} {description2} {signup2} {teacher2}{" "}
                 {teacherlink2}
