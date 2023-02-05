@@ -4,7 +4,7 @@
 .accordion__section {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #eeeeee;
+  // border-bottom: 1px solid #eeeeee;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -17,19 +17,21 @@
   border: none;
   outline: none;
   transition: background-color 0.6s ease;
+  width: 24px;
+  padding: 0;
 
-  @include xs {
-    padding: 0.79rem 0.5rem !important;
-  }
-  @include sm {
-    padding: 1.1rem 0.5rem !important;
-  }
-  @include md {
-    padding: 1.2rem 1rem !important;
-  }
-  @include xl {
-    padding: 1.3rem 1rem !important;
-  }
+  // @include xs {
+  //   padding: 0.79rem 0.5rem !important;
+  // }
+  // @include sm {
+  //   padding: 1.1rem 0.5rem !important;
+  // }
+  // @include md {
+  //   padding: 1.2rem 1rem !important;
+  // }
+  // @include xl {
+  //   padding: 1.3rem 1rem !important;
+  // }
 }
 
 /* Style the accordion content title */
@@ -45,14 +47,15 @@
 
 /* Style the accordion chevron icon */
 .accordion__icon {
-  margin-left: auto;
+  margin-right: auto;
   transition: transform 0.6s ease;
   flex-shrink: 0;
+  transform: rotate(-90deg);
 }
 
 /* Style to rotate icon when state is active */
 .rotate {
-  transform: rotate(90deg);
+  transform: rotate(0deg);
 }
 
 /* Style the accordion content panel. Note: hidden by default */

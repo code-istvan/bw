@@ -3,3 +3,29 @@
 .hide-class {
   display: none;
 }
+
+.schedule-class {
+  display: flex;
+  flex-direction: column;
+
+  @include md {
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+.schedule-details {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.schedule-main-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .schedule-buy-ticket {
+    margin-left: auto;
+  }
+}

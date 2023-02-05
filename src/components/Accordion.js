@@ -25,14 +25,15 @@ function Accordion(props) {
   return (
     <div className="accordion__section">
       <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
-        <p className="accordion__title">{props.title}</p>
+        {/* <p className="accordion__title">{props.title}</p> */}
         {/* <Chevron className={`${setRotate} `} /> */}
         <Chevron
           className={`${setRotate}`}
           width={breakpoints.xl ? 14 : 16}
           height={breakpoints.xl ? 9 : 10}
-          fill={"#00FF7F"}
+          fill={"hsl(37.3, 90.4%, 51.2%)"}
         />
+        <p className={props.className}>{props.text}</p>
       </button>
       <div
         ref={content}

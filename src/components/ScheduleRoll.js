@@ -39,16 +39,40 @@ export default function ScheduleRoll() {
         }) => {
           return (
             <>
+              <br /> <br />
               <div>
                 <h3>{date}</h3>
               </div>
               <div>
-                {time1} {class1} <Link to={teacherlink1}>{teacher1}</Link>{" "}
-                <Link to={signup1}>JEGY VÁSÁRLÁS</Link>
-                <br />
-                Részletek
-                <Accordion content={description1} />
+                <div className="schedule-main-row">
+                  <div className="schedule-class">
+                    <div>{time1}</div>
+                    <div>{class1}</div>
+                    <div>
+                      <Link
+                        to={teacherlink1}
+                        className="link-decoration-remove clr-shades-white"
+                      >
+                        {teacher1}
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="schedule-buy-ticket link-decoration-remove ">
+                    <Link to={signup1} className="clr-shades-white">
+                      JEGY VÁSÁRLÁS
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="schedule-details">
+                  <Accordion
+                    content={description1}
+                    text="Részletek"
+                    className="clr-brand-orange"
+                  />
+                </div>
               </div>
+              <br />
               <div className={class2 == "null" ? "hide-class" : ""}>
                 {time2} {class2} {description2} {signup2} {teacher2}{" "}
                 {teacherlink2}
