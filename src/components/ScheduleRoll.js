@@ -59,7 +59,7 @@ export default function ScheduleRoll() {
                   </div>
                   <div className="schedule-buy-ticket link-decoration-remove ">
                     <Link to={signup1} className="clr-shades-white">
-                      JEGY VÁSÁRLÁS
+                      BUY TICKET
                     </Link>
                   </div>
                 </div>
@@ -72,18 +72,89 @@ export default function ScheduleRoll() {
                   />
                 </div>
               </div>
-              <br />
               <div className={class2 == "null" ? "hide-class" : ""}>
-                {time2} {class2} {description2} {signup2} {teacher2}{" "}
-                {teacherlink2}
+                <div className="schedule-main-row">
+                  <div className="schedule-class">
+                    <div>{time2}</div>
+                    <div>{class2}</div>
+                    <div>
+                      <Link
+                        to={teacherlink2}
+                        className="link-decoration-remove clr-shades-white"
+                      >
+                        {teacher2}
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="schedule-buy-ticket link-decoration-remove ">
+                    <Link to={signup2} className="clr-shades-white">
+                      BUY TICKET
+                    </Link>
+                  </div>
+                </div>
+                <div className="schedule-details">
+                  <Accordion
+                    content={description2}
+                    text="Részletek"
+                    className="clr-brand-orange"
+                  />
+                </div>
               </div>
               <div className={class3 == "null" ? "hide-class" : ""}>
-                {time3} {class3} {description3} {signup3} {teacher3}{" "}
-                {teacherlink3}
+                <div className="schedule-main-row">
+                  <div className="schedule-class">
+                    <div>{time3}</div>
+                    <div>{class3}</div>
+                    <div>
+                      <Link
+                        to={teacherlink3}
+                        className="link-decoration-remove clr-shades-white"
+                      >
+                        {teacher3}
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="schedule-buy-ticket link-decoration-remove ">
+                    <Link to={signup3} className="clr-shades-white">
+                      BUY TICKET
+                    </Link>
+                  </div>
+                </div>
+                <div className="schedule-details">
+                  <Accordion
+                    content={description3}
+                    text="Részletek"
+                    className="clr-brand-orange"
+                  />
+                </div>
               </div>
               <div className={class4 == "null" ? "hide-class" : ""}>
-                {time4} {class4} {description4} {signup4} {teacher4}{" "}
-                {teacherlink4}
+                <div className="schedule-main-row">
+                  <div className="schedule-class">
+                    <div>{time4}</div>
+                    <div>{class4}</div>
+                    <div>
+                      <Link
+                        to={teacherlink4}
+                        className="link-decoration-remove clr-shades-white"
+                      >
+                        {teacher4}
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="schedule-buy-ticket link-decoration-remove ">
+                    <Link to={signup4} className="clr-shades-white">
+                      BUY TICKET
+                    </Link>
+                  </div>
+                </div>
+                <div className="schedule-details">
+                  <Accordion
+                    content={description4}
+                    text="Részletek"
+                    className="clr-brand-orange"
+                  />
+                </div>
               </div>
               <br />
             </>
