@@ -85,11 +85,11 @@ export default function ScheduleRoll() {
                         <div>{class2}</div>
                         <div>
                           <CustomLink
+                            //isInternal=false
                             link={teacherlink2}
-                            className="link-decoration-remove clr-shades-white"
-                          >
-                            {teacher2}
-                          </CustomLink>
+                            classNames="link-decoration-remove clr-shades-white"
+                            title={teacher2}
+                          />
                         </div>
                       </div>
                       <div className="schedule-buy-ticket link-decoration-remove ">
@@ -113,11 +113,11 @@ export default function ScheduleRoll() {
                         <div>{class3}</div>
                         <div>
                           <CustomLink
+                            //isInternal=false
                             link={teacherlink3}
-                            className="link-decoration-remove clr-shades-white"
-                          >
-                            {teacher3}
-                          </CustomLink>
+                            classNames="link-decoration-remove clr-shades-white"
+                            title={teacher3}
+                          />
                         </div>
                       </div>
                       <div className="schedule-buy-ticket link-decoration-remove ">
@@ -141,11 +141,11 @@ export default function ScheduleRoll() {
                         <div>{class4}</div>
                         <div>
                           <CustomLink
+                            //isInternal=false
                             link={teacherlink4}
-                            className="link-decoration-remove clr-shades-white"
-                          >
-                            {teacher4}
-                          </CustomLink>
+                            classNames="link-decoration-remove clr-shades-white"
+                            title={teacher4}
+                          />
                         </div>
                       </div>
                       <div className="schedule-buy-ticket link-decoration-remove ">

@@ -51,7 +51,7 @@ export default function Kapcsolat() {
               található barna ajtón tudsz lejönni hozzánk.
             </p>
             <p className="clr-shades-lightGray span span--bold mt-1">
-              Parkoló zóna kód: 3022.
+              Parkoló zóna kód az utcában: 0201.
             </p>
             <div className="kapcsolat-social-box">
               <h3 className="mt-2 kapcsolat-social-text">Kövess minket</h3>

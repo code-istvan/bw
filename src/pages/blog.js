@@ -13,29 +13,27 @@ export default function Blog() {
       <Seo title="BLOG" />
       <div className="blog-hero-container">
         <div className="row blog--desktop--container">
-          <div className="col">
-            <h1 className="blog-title">BLOG</h1>
-            <StaticImage
-              className="container-fluid blog-hero-image hero-big-image"
-              src="../images/blog_hero.jpg"
-              layout="fullWidth"
-              loading="eager"
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="Astanga jóga Mysore"
-              placeholder="blurred"
-            />
-            <StaticImage
-              className="container-fluid blog-hero-image hero-mobil-image"
-              src="../images/blog_hero.jpg"
-              layout="fullWidth"
-              loading="eager"
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="Astanga jóga Mysore"
-              placeholder="blurred"
-            />
-          </div>
+          <h1 className="blog-title">BLOG</h1>
+          <StaticImage
+            className="container-fluid blog-hero-image hero-big-image"
+            src="../images/blog_hero.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
+          <StaticImage
+            className="container-fluid blog-hero-image hero-mobil-image"
+            src="../images/blog_hero.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
         </div>
       </div>
       <div className="row mt-20px">
