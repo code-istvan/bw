@@ -19,13 +19,21 @@
   flex-flow: row wrap;
   align-items: center;
   align-content: flex-start;
+  padding-bottom: 16px;
 }
 
 .schedule-main-row {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
+  // align-items: center;
+  justify-content: space-between;
+}
+
+.schedule-date-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  .schedule-buy-ticket {
-    margin-left: auto;
-  }
+  height: 48px;
 }

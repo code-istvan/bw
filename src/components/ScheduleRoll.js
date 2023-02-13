@@ -40,32 +40,55 @@ export default function ScheduleRoll() {
             teacherlink3,
             teacherlink4,
           }) => {
+            let daysArray = [
+              "vasárnap",
+              "hétfő",
+              "kedd",
+              "szerda",
+              "csütörtök",
+              "péntek",
+              "szombat",
+            ]
+            let day = new Date(date).getDay()
+            let dayName = daysArray[day].toUpperCase()
+            let monthDay = new Date(date)
+              .toLocaleDateString("hu-HU", {
+                month: "long",
+                day: "numeric",
+              })
+              .toUpperCase()
+
             return (
               <>
                 <br /> <br />
                 <div className="schedule-wrapper">
-                  <div>
-                    <h3>{date}</h3>
+                  <div className="bg-shades-darkerGray container-fluid">
+                    <div className="container">
+                      <div className="schedule-date-line clr-shades-gray">
+                        <p>{dayName}</p>
+                        <p>{monthDay}</p>
+                      </div>
+                    </div>
                   </div>
                   <div>
                     <div className="schedule-main-row">
                       <div className="schedule-class">
-                        <div>{time1}</div>
-                        <div>{class1}</div>
+                        <h3>{time1}</h3>
+                        <p>{class1}</p>
                         <div>
                           <CustomLink
                             //isInternal=false
                             link={teacherlink1}
-                            classNames="link-decoration-remove clr-shades-white"
+                            classNames="body link-decoration-remove clr-brand-orange"
                             title={teacher1}
                           />
                         </div>
                       </div>
-                      <div className="schedule-buy-ticket link-decoration-remove ">
+                      <div className="schedule-buy-ticket link-decoration-remove">
                         <CustomLink
                           link={signup1}
-                          classNames="clr-shades-white"
-                          title="BUY TICKET"
+                          classNames="body clr-brand-orange"
+                          title="Vásárlás"
                         />
                       </div>
                     </div>
@@ -74,7 +97,7 @@ export default function ScheduleRoll() {
                       <Accordion
                         content={description1}
                         text="Részletek"
-                        className="clr-brand-orange"
+                        className="clr-shades-white span"
                       />
                     </div>
                   </div>
@@ -171,64 +194,3 @@ export default function ScheduleRoll() {
     </div>
   )
 }
-
-//Ferran's code
-// import React from "react"
-// import { useSchedule } from "../hooks/useScheduleQuery"
-// import { useClasses } from "../hooks/useClassesQuery"
-// import { useTeachers } from "../hooks/useTeachersQuery"
-// import { element } from "prop-types"
-
-// export default function ScheduleRoll() {
-//   let schedule = useSchedule()
-//   const classes = useClasses()
-//   const getClassData = currentClass => {
-//     const classData = classes.find(item => item.class === currentClass)
-//     return classData
-//   }
-//   console.log(schedule)
-//   return (
-//     <div className="row">
-//       {schedule.map(
-//         ({ class1, teacher1, time1, date, class2, teacher2, time2 }) => {
-//           let currentClass
-
-//           if (class1) {
-//             currentClass = getClassData(class1)
-//           }
-//           if (class2) {
-//             currentClass = getClassData(class2)
-//           }
-//           console.log(currentClass)
-//           // const currentClass = classes.find(
-//           //   class1 => class1.shortdescription === classData1
-//           // )
-
-//           // const mergedClasses = {...class1, ...class2, class3}
-
-//           // const currentTeacher = teachers.find(
-//           //   teacher => teacher.name === teacherName
-//           // )
-
-//           return (
-//             <>
-//               <div className="row">
-//                 <div className="col">{date}</div>
-//               </div>
-//               <div className="row">
-//                 <div className="col">
-//                   {time1} {class1} {teacher1}
-//                 </div>
-//               </div>
-//               <div className="row">
-//                 <div className="col">
-//                   {time2} {class2} {teacher2}
-//                 </div>
-//               </div>
-//             </>
-//           )
-//         }
-//       )}
-//     </div>
-//   )
-// }
