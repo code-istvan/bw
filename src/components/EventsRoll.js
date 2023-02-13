@@ -10,7 +10,7 @@ import { useTeachers } from "../hooks/useTeachersQuery"
 export default function EventsRoll({ onlyFeatured = false }) {
   let events = useEventsRoll()
   const teachers = useTeachers()
-  const featuredEvents = events.filter(item => item.featured == true)
+  const featuredEvents = events.filter(item => item.featured === true)
   const displayEvents = onlyFeatured ? featuredEvents : events
 
   return (
