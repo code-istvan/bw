@@ -21,7 +21,7 @@ const LayoutBlog = ({ children, articleProperties }) => {
     <>
       <Navbar />
       <div className="container">
-        {articleProperties && scroll && (
+        {articleProperties && scroll < 0 && (
           <ProgressBar scroll={scroll} articleProperties={articleProperties} />
         )}
         <main>{children}</main>

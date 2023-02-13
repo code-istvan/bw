@@ -82,6 +82,12 @@ export default function ScheduleRoll() {
                             classNames="body link-decoration-remove clr-brand-orange"
                             title={teacher1}
                           />
+                          <CustomLink
+                            //isInternal=false
+                            link="http://bandha.works/bandhaworks/defected_test.png"
+                            classNames="body link-decoration-remove clr-brand-orange"
+                            title={teacher1}
+                          />
                         </div>
                       </div>
                       <div className="schedule-buy-ticket link-decoration-remove">

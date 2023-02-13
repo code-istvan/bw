@@ -17,6 +17,8 @@ const BlogPosts = ({ data, children, pageContext }) => {
   const sectionRef = useRef(null)
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
+  console.log("pageContext", pageContext)
+
   return (
     <LayoutBlog articleProperties={articleProperties}>
       <section ref={sectionRef}>
@@ -26,12 +28,16 @@ const BlogPosts = ({ data, children, pageContext }) => {
           // thumbnail={src}
         />
         <div className="container-fluid blog-post-image">
-          <GatsbyImage
-            image={
-              pageContext.postThumbnail.node.childImageSharp.gatsbyImageData
-            }
-            alt={post.frontmatter.title ?? "some value"}
-          />
+          {!pageContext.postThumbnail ? (
+            <img src={pageContext.frontmatter.thumbnail} />
+          ) : (
+            <GatsbyImage
+              image={
+                pageContext.postThumbnail.node.childImageSharp.gatsbyImageData
+              }
+              alt={post.frontmatter.title ?? "some value"}
+            />
+          )}
         </div>
         <div className="blog-post-header mt-20px">
           <div className="row">
