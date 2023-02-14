@@ -70,21 +70,14 @@ export default function ScheduleRoll() {
                       </div>
                     </div>
                   </div>
-                  <div>
+                  <div className="schedule-card">
                     <div className="schedule-main-row">
                       <div className="schedule-class">
                         <h3>{time1}</h3>
                         <p>{class1}</p>
                         <div>
                           <CustomLink
-                            //isInternal=false
                             link={teacherlink1}
-                            classNames="body link-decoration-remove clr-brand-orange"
-                            title={teacher1}
-                          />
-                          <CustomLink
-                            //isInternal=false
-                            link="http://bandha.works/bandhaworks/defected_test.png"
                             classNames="body link-decoration-remove clr-brand-orange"
                             title={teacher1}
                           />
@@ -98,7 +91,6 @@ export default function ScheduleRoll() {
                         />
                       </div>
                     </div>
-
                     <div className="schedule-details">
                       <Accordion
                         content={description1}
@@ -108,90 +100,100 @@ export default function ScheduleRoll() {
                     </div>
                   </div>
                   <div className={class2 == "null" ? "hide-class" : ""}>
-                    <div className="schedule-main-row">
-                      <div className="schedule-class">
-                        <div>{time2}</div>
-                        <div>{class2}</div>
-                        <div>
-                          <CustomLink
-                            //isInternal=false
-                            link={teacherlink2}
-                            classNames="link-decoration-remove clr-shades-white"
-                            title={teacher2}
+                    <div className="schedule-card">
+                      <div>
+                        <div className="schedule-main-row">
+                          <div className="schedule-class">
+                            <h3>{time2}</h3>
+                            <p>{class2}</p>
+                            <div>
+                              <CustomLink
+                                link={teacherlink2}
+                                classNames="body link-decoration-remove clr-brand-orange"
+                                title={teacher2}
+                              />
+                            </div>
+                          </div>
+                          <div className="schedule-buy-ticket link-decoration-remove">
+                            <CustomLink
+                              link={signup2}
+                              classNames="body clr-brand-orange"
+                              title="Vásárlás"
+                            />
+                          </div>
+                        </div>
+                        <div className="schedule-details">
+                          <Accordion
+                            content={description2}
+                            text="Részletek"
+                            className="clr-shades-white span"
                           />
                         </div>
                       </div>
-                      <div className="schedule-buy-ticket link-decoration-remove ">
-                        <CustomLink link={signup2} className="clr-shades-white">
-                          BUY TICKET
-                        </CustomLink>
-                      </div>
-                    </div>
-                    <div className="schedule-details">
-                      <Accordion
-                        content={description2}
-                        text="Részletek"
-                        className="clr-brand-orange"
-                      />
                     </div>
                   </div>
                   <div className={class3 == "null" ? "hide-class" : ""}>
-                    <div className="schedule-main-row">
-                      <div className="schedule-class">
-                        <div>{time3}</div>
-                        <div>{class3}</div>
-                        <div>
+                    <div className="schedule-card">
+                      <div className="schedule-main-row">
+                        <div className="schedule-class">
+                          <h3>{time3}</h3>
+                          <p>{class3}</p>
+                          <div>
+                            <CustomLink
+                              link={teacherlink3}
+                              classNames="body link-decoration-remove clr-brand-orange"
+                              title={teacher3}
+                            />
+                          </div>
+                        </div>
+                        <div className="schedule-buy-ticket link-decoration-remove">
                           <CustomLink
-                            //isInternal=false
-                            link={teacherlink3}
-                            classNames="link-decoration-remove clr-shades-white"
-                            title={teacher3}
+                            link={signup3}
+                            classNames="body clr-brand-orange"
+                            title="Vásárlás"
                           />
                         </div>
                       </div>
-                      <div className="schedule-buy-ticket link-decoration-remove ">
-                        <CustomLink link={signup3} className="clr-shades-white">
-                          BUY TICKET
-                        </CustomLink>
+                      <div className="schedule-details">
+                        <Accordion
+                          content={description3}
+                          text="Részletek"
+                          className="clr-shades-white span"
+                        />
                       </div>
-                    </div>
-                    <div className="schedule-details">
-                      <Accordion
-                        content={description3}
-                        text="Részletek"
-                        className="clr-brand-orange"
-                      />
                     </div>
                   </div>
                   <div className={class4 == "null" ? "hide-class" : ""}>
-                    <div className="schedule-main-row">
-                      <div className="schedule-class">
-                        <div>{time4}</div>
-                        <div>{class4}</div>
-                        <div>
+                    <div className="schedule-card">
+                      <div className="schedule-main-row">
+                        <div className="schedule-class">
+                          <h3>{time4}</h3>
+                          <p>{class4}</p>
+                          <div>
+                            <CustomLink
+                              link={teacherlink4}
+                              classNames="body link-decoration-remove clr-brand-orange"
+                              title={teacher4}
+                            />
+                          </div>
+                        </div>
+                        <div className="schedule-buy-ticket link-decoration-remove">
                           <CustomLink
-                            //isInternal=false
-                            link={teacherlink4}
-                            classNames="link-decoration-remove clr-shades-white"
-                            title={teacher4}
+                            link={signup4}
+                            classNames="body clr-brand-orange"
+                            title="Vásárlás"
                           />
                         </div>
                       </div>
-                      <div className="schedule-buy-ticket link-decoration-remove ">
-                        <CustomLink link={signup4} className="clr-shades-white">
-                          BUY TICKET
-                        </CustomLink>
+                      <div className="schedule-details">
+                        <Accordion
+                          content={description4}
+                          text="Részletek"
+                          className="clr-shades-white span"
+                        />
                       </div>
                     </div>
-                    <div className="schedule-details">
-                      <Accordion
-                        content={description4}
-                        text="Részletek"
-                        className="clr-brand-orange"
-                      />
-                    </div>
                   </div>
-                  <br />
                 </div>
               </>
             )
