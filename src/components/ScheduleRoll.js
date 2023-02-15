@@ -73,8 +73,8 @@ export default function ScheduleRoll() {
                   <div className="schedule-card">
                     <div className="schedule-main-row">
                       <div className="schedule-class">
-                        <h3>{time1}</h3>
-                        <p>{class1}</p>
+                        <p>{time1}</p>
+                        <h3>{class1}</h3>
                         <div>
                           <CustomLink
                             link={teacherlink1}
@@ -104,8 +104,8 @@ export default function ScheduleRoll() {
                       <div>
                         <div className="schedule-main-row">
                           <div className="schedule-class">
-                            <h3>{time2}</h3>
-                            <p>{class2}</p>
+                            <p>{time2}</p>
+                            <h3>{class2}</h3>
                             <div>
                               <CustomLink
                                 link={teacherlink2}
@@ -136,8 +136,8 @@ export default function ScheduleRoll() {
                     <div className="schedule-card">
                       <div className="schedule-main-row">
                         <div className="schedule-class">
-                          <h3>{time3}</h3>
-                          <p>{class3}</p>
+                          <p>{time3}</p>
+                          <h3>{class3}</h3>
                           <div>
                             <CustomLink
                               link={teacherlink3}
@@ -167,8 +167,8 @@ export default function ScheduleRoll() {
                     <div className="schedule-card">
                       <div className="schedule-main-row">
                         <div className="schedule-class">
-                          <h3>{time4}</h3>
-                          <p>{class4}</p>
+                          <p>{time4}</p>
+                          <h3>{class4}</h3>
                           <div>
                             <CustomLink
                               link={teacherlink4}
