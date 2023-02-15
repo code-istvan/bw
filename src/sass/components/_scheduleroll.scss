@@ -8,9 +8,29 @@
   display: flex;
   flex-direction: column;
 
+  // @include md {
+  //   flex-direction: row;
+  //   align-items: center;
+  //   gap: 10px;
+  // }
+}
+
+.schedule-class-second-line {
+  .blog-card-header-separator {
+    display: none;
+  }
+
   @include md {
+    display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 10px;
+    .schedule-teacher {
+      font-size: 1.57rem;
+    }
+    .blog-card-header-separator {
+      display: inline-block;
+    }
   }
 }
 
@@ -28,6 +48,13 @@
   flex-direction: row;
   // align-items: center;
   justify-content: space-between;
+}
+
+.schedule-buy-ticket {
+  @include md {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .schedule-date-line {

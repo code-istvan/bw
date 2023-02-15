@@ -74,11 +74,12 @@ export default function ScheduleRoll() {
                     <div className="schedule-main-row">
                       <div className="schedule-class">
                         <p>{time1}</p>
-                        <h3>{class1}</h3>
-                        <div>
+                        <div className="schedule-class-second-line">
+                          <h3>{class1}</h3>
+                          <div className="blog-card-header-separator" />
                           <CustomLink
                             link={teacherlink1}
-                            classNames="body link-decoration-remove clr-brand-orange"
+                            classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
                             title={teacher1}
                           />
                         </div>

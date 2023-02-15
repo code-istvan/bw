@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 export const CustomLink = ({ link, title, classNames }) => {
-  const isExternal = link.includes("http")
+  const isExternal = link.includes("https")
 
   return isExternal ? (
     <a
