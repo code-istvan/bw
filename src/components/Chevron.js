@@ -1,19 +1,17 @@
 import React from "react"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 function Chevron(props) {
-  const breakpoints = useBreakpoint()
-
   return (
     <svg
       className={props.className}
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      width={props.width}
-      height={props.height}
-      viewBox={breakpoints.xl ? "0 0 14 9" : "0 0 16 10"}
     >
       <path
-        d="M12.355 0.0217285L7 5.36506L1.645 0.0217285L0 1.66673L7 8.66673L14 1.66673L12.355 0.0217285Z"
+        d="M6 4.12132L8.12132 2L15.5459 9.42462L17.6673 11.5459L15.5459 13.6673L8.12132 21.0919L6 18.9706L13.4246 11.5459L6 4.12132Z"
         fill={props.fill}
       />
     </svg>

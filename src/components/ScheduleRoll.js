@@ -83,6 +83,13 @@ export default function ScheduleRoll() {
                             title={teacher1}
                           />
                         </div>
+                        <div className="schedule-details">
+                          <Accordion
+                            content={description1}
+                            text="Részletek"
+                            className="clr-shades-white span"
+                          />
+                        </div>
                       </div>
                       <div className="schedule-buy-ticket link-decoration-remove">
                         <CustomLink
@@ -92,42 +99,34 @@ export default function ScheduleRoll() {
                         />
                       </div>
                     </div>
-                    <div className="schedule-details">
-                      <Accordion
-                        content={description1}
-                        text="Részletek"
-                        className="clr-shades-white span"
-                      />
-                    </div>
                   </div>
                   <div className={class2 == "null" ? "hide-class" : ""}>
                     <div className="schedule-card">
-                      <div>
-                        <div className="schedule-main-row">
-                          <div className="schedule-class">
-                            <p>{time2}</p>
+                      <div className="schedule-main-row">
+                        <div className="schedule-class">
+                          <p>{time2}</p>
+                          <div className="schedule-class-second-line">
                             <h3>{class2}</h3>
-                            <div>
-                              <CustomLink
-                                link={teacherlink2}
-                                classNames="body link-decoration-remove clr-brand-orange"
-                                title={teacher2}
-                              />
-                            </div>
-                          </div>
-                          <div className="schedule-buy-ticket link-decoration-remove">
+                            <div className="vertical-separator" />
                             <CustomLink
-                              link={signup2}
-                              classNames="body clr-brand-orange"
-                              title="Vásárlás"
+                              link={teacherlink2}
+                              classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+                              title={teacher2}
+                            />
+                          </div>
+                          <div className="schedule-details">
+                            <Accordion
+                              content={description2}
+                              text="Részletek"
+                              className="clr-shades-white span"
                             />
                           </div>
                         </div>
-                        <div className="schedule-details">
-                          <Accordion
-                            content={description2}
-                            text="Részletek"
-                            className="clr-shades-white span"
+                        <div className="schedule-buy-ticket link-decoration-remove">
+                          <CustomLink
+                            link={signup2}
+                            classNames="body clr-brand-orange"
+                            title="Vásárlás"
                           />
                         </div>
                       </div>
@@ -138,12 +137,20 @@ export default function ScheduleRoll() {
                       <div className="schedule-main-row">
                         <div className="schedule-class">
                           <p>{time3}</p>
-                          <h3>{class3}</h3>
-                          <div>
+                          <div className="schedule-class-second-line">
+                            <h3>{class3}</h3>
+                            <div className="vertical-separator" />
                             <CustomLink
                               link={teacherlink3}
-                              classNames="body link-decoration-remove clr-brand-orange"
+                              classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
                               title={teacher3}
+                            />
+                          </div>
+                          <div className="schedule-details">
+                            <Accordion
+                              content={description3}
+                              text="Részletek"
+                              className="clr-shades-white span"
                             />
                           </div>
                         </div>
@@ -155,13 +162,6 @@ export default function ScheduleRoll() {
                           />
                         </div>
                       </div>
-                      <div className="schedule-details">
-                        <Accordion
-                          content={description3}
-                          text="Részletek"
-                          className="clr-shades-white span"
-                        />
-                      </div>
                     </div>
                   </div>
                   <div className={class4 == "null" ? "hide-class" : ""}>
@@ -169,12 +169,20 @@ export default function ScheduleRoll() {
                       <div className="schedule-main-row">
                         <div className="schedule-class">
                           <p>{time4}</p>
-                          <h3>{class4}</h3>
-                          <div>
+                          <div className="schedule-class-second-line">
+                            <h3>{class4}</h3>
+                            <div className="vertical-separator" />
                             <CustomLink
                               link={teacherlink4}
-                              classNames="body link-decoration-remove clr-brand-orange"
+                              classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
                               title={teacher4}
+                            />
+                          </div>
+                          <div className="schedule-details">
+                            <Accordion
+                              content={description4}
+                              text="Részletek"
+                              className="clr-shades-white span"
                             />
                           </div>
                         </div>
@@ -185,13 +193,6 @@ export default function ScheduleRoll() {
                             title="Vásárlás"
                           />
                         </div>
-                      </div>
-                      <div className="schedule-details">
-                        <Accordion
-                          content={description4}
-                          text="Részletek"
-                          className="clr-shades-white span"
-                        />
                       </div>
                     </div>
                   </div>

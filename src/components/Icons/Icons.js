@@ -90,6 +90,25 @@ const ArrowLeft = props => {
   )
 }
 
+const ChevronRight = props => {
+  ColorSwitch(props.color)
+
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M6 4.12132L8.12132 2L15.5459 9.42462L17.6673 11.5459L15.5459 13.6673L8.12132 21.0919L6 18.9706L13.4246 11.5459L6 4.12132Z"
+        fill={fillColor}
+      />
+    </svg>
+  )
+}
+
 const BwSymbol = props => {
   ColorSwitch(props.color)
 
@@ -287,6 +306,7 @@ const Twitter = props => {
 
 const Icons = {
   ArrowLeft,
+  ChevronRight,
   BwSymbol,
   Logo,
   Facebook,
