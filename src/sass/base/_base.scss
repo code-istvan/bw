@@ -98,6 +98,13 @@ section {
   }
 }
 
+.vertical-separator {
+  border-left: solid 1px $color-shades-lightBlack;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 28px;
+}
+
 .link-decoration-remove {
   text-decoration: none;
   a:visited {

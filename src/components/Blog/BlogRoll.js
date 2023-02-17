@@ -59,7 +59,7 @@ function BlogRoll({ count }) {
                         />
                         <p>{author}</p>
                       </div>
-                      <div className="blog-card-header-separator"></div>
+                      <div className="vertical-separator"></div>
                       <p>{post.frontmatter.date}</p>
                     </div>
                     <div className="blog-card-body">

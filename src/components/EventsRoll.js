@@ -44,7 +44,7 @@ export default function EventsRoll({ onlyFeatured = false }) {
                       </div>
                       <div className="col">
                         {" "}
-                        <div className="blog-card-header-separator" />
+                        <div className="vertical-separator" />
                       </div>
                       <div className="col">
                         <Link to={currentTeacher.link}>

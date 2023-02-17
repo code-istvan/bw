@@ -76,7 +76,7 @@ export default function ScheduleRoll() {
                         <p>{time1}</p>
                         <div className="schedule-class-second-line">
                           <h3>{class1}</h3>
-                          <div className="blog-card-header-separator" />
+                          <div className="vertical-separator" />
                           <CustomLink
                             link={teacherlink1}
                             classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
