@@ -109,6 +109,7 @@ collections:
           value_field: "signup",
           display_fields: ["signup"],
           search_fields: ["signup"],
+          required: false,
         }
       - {
           label: Time,
@@ -118,6 +119,7 @@ collections:
           value_field: "customdate",
           display_fields: ["customdate"],
           search_fields: ["customdate"],
+          required: false,
         }
       - {
           label: Teacher,

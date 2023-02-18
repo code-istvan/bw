@@ -1,9 +1,5 @@
 @import "/src/sass/global";
 
-.hide-class {
-  display: none;
-}
-
 .schedule-class {
   display: flex;
   flex-direction: column;
@@ -64,4 +60,8 @@
 
 .schedule-card {
   border-bottom: 1px solid $color-shades-lightBlack;
+}
+
+.hide-class {
+  display: none;
 }
