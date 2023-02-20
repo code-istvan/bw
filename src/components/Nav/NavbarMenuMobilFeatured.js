@@ -7,7 +7,8 @@ const NavbarMenuMobilFeatured = () => {
   const mobilFeaturedItems = [
     { link: "/mysore-program", label: "MYSORE PROGRAM" },
     { link: "/tanfolyam", label: "TANFOLYAMOK" },
-    { link: "/orarend", label: "ÓRAREND" },
+    { link: "/admin", label: "LOG_IN" },
+    { link: "/english", label: "日本語" },
   ]
 
   return (

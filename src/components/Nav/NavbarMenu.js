@@ -17,6 +17,7 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/tanfolyam", label: "TANFOLYAMOK" },
     { link: "/oktatok", label: "OKTATÓK" },
     { link: "/vinyasza-jogairanyzatok", label: "JÓGAIRÁNYZATOK" },
+    { link: "/sorozatabrak", label: "SOROZATÁBRÁK" },
     { link: "/galeria", label: "GALÉRIA", extraClass: "" },
   ]
 
@@ -25,9 +26,10 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/elso-alkalom", label: "ELSŐ ALKALOM" },
     { link: "/hazirend", label: "HÁZIREND" },
     { link: "/mantra", label: "MANTRÁK" },
-    { link: "/sorozatabrak", label: "SOROZATÁBRÁK" },
     { link: "/holdnapok", label: "HOLDNAPOK" },
     { link: "/osztondij", label: "ÖSZTÖNDÍJ", extraClass: "" },
+    { link: "/taplalkozas", label: "TÁPLÁLKOZÁS" },
+    { link: "/ajanlottolvasmanyok", label: "AJÁNLOTT OLVASMÁNYOK" },
   ]
 
   const menuGroupsFomenu = [
