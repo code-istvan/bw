@@ -37,9 +37,7 @@ export default function Blog() {
         </div>
       </div>
       <div className="row mt-20px">
-        <div className="col">
-          <SearchBar id="" type="text" name="serach" placeholder="Keresés" />
-        </div>
+        <SearchBar id="" type="text" name="serach" placeholder="Keresés" />
       </div>
       <div className="row">
         <div className="col">
