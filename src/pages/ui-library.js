@@ -18,6 +18,17 @@ export default function Uilibrary() {
         <p className="span">Span - Nunito Sans</p>
         <p className="span span--bold">SpanBold - Nunito Sans</p>
       </div>
+      <div className="row gap-1">
+        <div className="col-12-xs col-6-md col-4-xl">
+          <div className="a">1</div>
+        </div>
+        <div className="col-12-xs col-6-md col-4-xl">
+          <div className="a">2</div>
+        </div>
+        <div className="col-12-xs col-6-md col-4-xl">
+          <div className="a">3</div>
+        </div>
+      </div>
     </div>
   )
 }
