@@ -8,7 +8,7 @@ export default function ScheduleRoll() {
   let schedule = useSchedule()
 
   return (
-    <div>
+    <div className="schedule tight--desktop--container">
       {schedule
         .filter(schedule => new Date(schedule.date).getTime() > new Date())
         .sort((a, b) => new Date(a.date) - new Date(b.date))
@@ -60,11 +60,10 @@ export default function ScheduleRoll() {
 
             return (
               <>
-                <br /> <br />
                 <div className="schedule-wrapper">
                   <div className="bg-shades-darkerGray container-fluid">
                     <div className="container">
-                      <div className="schedule-date-line clr-shades-gray">
+                      <div className="schedule-date-line clr-shades-gray tight--desktop--container">
                         <p>{dayName}</p>
                         <p>{monthDay}</p>
                       </div>
@@ -77,7 +76,6 @@ export default function ScheduleRoll() {
                           <p>{time1}</p>
                           <div className="schedule-class-second-line">
                             <h3>{class1}</h3>
-                            <div className="vertical-separator" />
                             <CustomLink
                               link={teacherlink1}
                               classNames="body link-decoration-remove clr-brand-orange schedule-teacher"

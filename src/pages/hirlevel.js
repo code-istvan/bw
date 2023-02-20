@@ -12,7 +12,7 @@ const Hirlevel = () => (
     <Seo title="Hírlevél" />
 
     <div className="hirlevel-hero-container">
-      <div className="row hirlevel--desktop--container">
+      <div className="row tight--desktop--container">
         <h1 className="hirlevel-title">Feliratkozás hírlevélre</h1>
         <StaticImage
           className="container-fluid hirlevel-hero-image hero-big-image"
@@ -36,7 +36,7 @@ const Hirlevel = () => (
         />
       </div>
     </div>
-    <div className="row hirlevel--desktop--container">
+    <div className="row tight--desktop--container">
       <div className="col mt-20px mb-20px">
         <p>
           Iratkozz fel hírlevelünkre, hogy elsőként értesülj jógaiskolánkat
@@ -57,7 +57,7 @@ const Hirlevel = () => (
       <div hidden>
         <input name="bot-field" />
       </div>
-      <div className="row hirlevel--desktop--container">
+      <div className="row tight--desktop--container">
         <div className="col-12-xs col-6-md hirlevel-input-name">
           <InputField
             type="text"
@@ -76,7 +76,7 @@ const Hirlevel = () => (
           />
         </div>
       </div>
-      <div className="row hirlevel--desktop--container">
+      <div className="row tight--desktop--container">
         <div className="col">
           <label className="form-control hirlevel-acceptance bw-checkbox">
             <input type="checkbox" name="checkbox" required />
@@ -89,7 +89,7 @@ const Hirlevel = () => (
         </div>
       </div>
 
-      <div className="row hirlevel--desktop--container">
+      <div className="row tight--desktop--container">
         <div className="col hirlevel-button">
           <Button type="submit" buttonStyle="btn--secondary--solid">
             Feliratkozás

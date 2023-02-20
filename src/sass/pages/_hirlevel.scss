@@ -36,20 +36,6 @@
   // }
 }
 
-.hirlevel--desktop--container {
-  @media only screen and (min-width: 992px) {
-    width: 670px;
-    margin: 0 auto;
-  }
-  a:link {
-    text-decoration: none;
-    color: $color-brand-orange !important;
-  }
-  a:visited {
-    color: $color-brand-orange !important;
-  }
-}
-
 .hirlevel-input-name {
   @include xs {
     margin-bottom: $base-margin-items;

@@ -1,5 +1,8 @@
 @import "/src/sass/global";
 
+.schedule {
+  padding-top: 20px;
+}
 .schedule-class {
   display: flex;
   flex-direction: column;
@@ -8,19 +11,6 @@
 .schedule-class-second-line {
   .vertical-separator {
     display: none;
-  }
-
-  @include md {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    .schedule-teacher {
-      font-size: 1.57rem;
-    }
-    .vertical-separator {
-      display: inline-block;
-    }
   }
 }
 
@@ -59,7 +49,11 @@
 }
 
 .schedule-card {
-  border-bottom: 1px solid $color-shades-lightBlack;
+  border-top: 1px solid $color-shades-lightBlack;
+
+  &:first-child {
+    border-top: none;
+  }
 }
 
 .hide-class {
