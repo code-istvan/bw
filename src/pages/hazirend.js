@@ -13,7 +13,7 @@ export default function Házirend() {
       rule: "Óra előtt kapcsold ki a mobiltelefonod, és ne hozd be a terembe.",
     },
     {
-      rule: "Szükséged lesz kényelmes ruhára, egy kisebb (az igazításokhoz) és egy nagyobb (a matracra teríteni) törülközőre vagy jógaszőnyegre. Ha nagyon izzadós vagy, érdemes egy másik törülközőt is bekészítened (zuhanyzáshoz). Jógamatracot biztosítunk, de ha van sajátod, bátran hozd magaddal.",
+      rule: "Szükséged lesz kényelmes ruhára, egy kisebb (az igazításokhoz) és egy nagyobb (a matracra teríteni) törülközőre vagy jógaszőnyegre. Ha nagyon izzadós vagy, érdemes egy másik törülközőt is bekészítened (zuhanyzáshoz). Jógamatracot (Manduka Black Mat PRO) biztosítunk, de ha van sajátod, bátran hozd magaddal.",
     },
     {
       rule: "Ne használj parfümöt vagy erős illatú kozmetikumot (melegítő krémet sem) óra előtt.",
