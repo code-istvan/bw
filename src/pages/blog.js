@@ -36,17 +36,17 @@ export default function Blog() {
           />
         </div>
       </div>
-      <div className="row mt-20px">
-        <SearchBar id="" type="text" name="serach" placeholder="Keresés" />
-      </div>
-      <div className="row">
-        <div className="col">
+      <div className="row blog-frame gap-2">
+        <div className="col-12-xs col-4-md col-4-xl blog-right-column">
+          <SearchBar id="" type="text" name="serach" placeholder="Keresés" />
           <h4>CIMKÉK</h4>
+          <BlogTags />
+          <div className="separator-horizontal-full mt-40px"></div>
+        </div>
+        <div className="col-12-xs col-8-md col-8-xl">
+          <BlogRoll />
         </div>
       </div>
-      <BlogTags />
-      <div className="separator-full mt-40px"></div>
-      <BlogRoll />
     </LayoutBlog>
   )
 }

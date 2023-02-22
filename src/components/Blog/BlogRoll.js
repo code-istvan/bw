@@ -44,7 +44,7 @@ function BlogRoll({ count }) {
               const author = post.frontmatter.author
 
               return (
-                <div className="mt-40px mb-40px" key={post.frontmatter.title}>
+                <div className="mb-40px" key={post.frontmatter.title}>
                   <div className="blog-card">
                     <div className="blog-card-header">
                       <div className="meta-author">
@@ -92,7 +92,7 @@ function BlogRoll({ count }) {
                       <div className="blog-card-footer-button">
                         <Button
                           type="button"
-                          buttonStyle="btn--third--naked"
+                          buttonStyle="btn--third--naked-orange"
                           onClick={() => {
                             navigate(`/blog${link}`)
                           }}

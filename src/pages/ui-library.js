@@ -29,6 +29,14 @@ export default function Uilibrary() {
           <div className="a">3</div>
         </div>
       </div>
+      <div className="row gap-1">
+        <div className="col-12-xs col-8-md col-8-xl">
+          <div className="a">BLOG</div>
+        </div>
+        <div className="col-12-xs col-4-md col-4-xl">
+          <div className="a">TAGS</div>
+        </div>
+      </div>
     </div>
   )
 }

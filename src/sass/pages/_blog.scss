@@ -52,3 +52,18 @@
     color: $color-brand-orange !important;
   }
 }
+
+.blog-frame {
+  @include md {
+    .blog-right-column {
+      order: 2;
+    }
+    // gap: 10px;
+  }
+
+  .separator-horizontal-full {
+    @include md {
+      display: none;
+    }
+  }
+}

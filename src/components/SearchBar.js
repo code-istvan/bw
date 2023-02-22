@@ -3,7 +3,7 @@ import Icons from "./Icons/Icons"
 import "../sass/components/_searchbar.scss"
 
 const SearchBar = ({ id, value, label, name, placeholder, type, onChange }) => (
-  <div className="searchbar--field-box">
+  <div className="searchbar--field-box mt-40px">
     <input
       id={id}
       type={type}
