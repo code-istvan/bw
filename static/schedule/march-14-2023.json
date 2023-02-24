@@ -1,4 +1,5 @@
 {
+  "newmoon": false,
   "time1": "5:30 - 9:00",
   "time2": "5:30 - 9:00",
   "time3": "18:00 - 19:30",
@@ -25,5 +26,6 @@
   "class3": "Vinyásza krama",
   "signup3": "/orarend",
   "class4": "Vinyásza krama",
-  "signup4": "/orarend"
+  "signup4": "/orarend",
+  "ekadashi": false
 }
