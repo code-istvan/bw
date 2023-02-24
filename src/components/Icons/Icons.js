@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 let fillColor
 const ColorSwitch = propColor => {
@@ -148,6 +149,30 @@ const Instagram = props => {
   )
 }
 
+const Fullmoon = props => {
+  ColorSwitch(props.color)
+
+  return (
+    <Link to="/holdnapok">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill={fillColor}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="12.0988"
+          cy="12.0988"
+          r="9"
+          transform="rotate(0.632419 12.0988 12.0988)"
+          fill={fillColor}
+        />
+      </svg>
+    </Link>
+  )
+}
+
 const Messenger = props => {
   ColorSwitch(props.color)
 
@@ -229,7 +254,25 @@ const Namaste = props => {
   )
 }
 
-const SearchIcon = props => {
+const Newmoon = props => {
+  ColorSwitch(props.color)
+
+  return (
+    <Link to="/holdnapok">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="12" cy="12" r="10" stroke={fillColor} stroke-width="2" />
+      </svg>
+    </Link>
+  )
+}
+
+const Search = props => {
   ColorSwitch(props.color)
 
   return (
@@ -311,10 +354,12 @@ const Icons = {
   Logo,
   Facebook,
   Instagram,
+  Fullmoon,
   Messenger,
   Minilogo,
   Namaste,
-  SearchIcon,
+  Newmoon,
+  Search,
   Soundcloud,
   Telegram,
   Twitter,

@@ -14,7 +14,7 @@ const SearchBar = ({ id, value, label, name, placeholder, type, onChange }) => (
       placeholder={placeholder}
       onChange={onChange}
     />
-    <Icons.SearchIcon />
+    <Icons.Search />
   </div>
 )
 

@@ -36,6 +36,9 @@ export const useSchedule = () => {
             teacherlink2
             teacherlink3
             teacherlink4
+            fullmoon
+            newmoon
+            ekadashi
           }
         }
       }

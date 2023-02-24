@@ -2,6 +2,7 @@ import React from "react"
 import { useSchedule } from "../hooks/useScheduleQuery"
 import { CustomLink } from "./CustomLink"
 import Accordion from "./Accordion"
+import Icons from "./Icons/Icons"
 import "../sass/components/_scheduleroll.scss"
 
 export default function ScheduleRoll() {
@@ -39,6 +40,9 @@ export default function ScheduleRoll() {
             teacherlink2,
             teacherlink3,
             teacherlink4,
+            fullmoon,
+            newmoon,
+            ekadashi,
           }) => {
             let daysArray = [
               "vasárnap",
@@ -58,15 +62,28 @@ export default function ScheduleRoll() {
               })
               .toUpperCase()
 
-            console.log(class1, class2, class3, class4)
-
             return (
               <>
                 <div className="schedule-wrapper">
                   <div className="bg-shades-darkerGray container-fluid">
                     <div className="container">
                       <div className="schedule-date-line clr-shades-gray tight--desktop--container">
-                        <p>{dayName}</p>
+                        <div>
+                          <p>{dayName}</p>
+                          {fullmoon === true && (
+                            <Icons.Fullmoon url="/holdnapok" />
+                          )}
+                          {newmoon === true && (
+                            <Icons.Newmoon url="/holdnapok" />
+                          )}
+                          {ekadashi === true && (
+                            <CustomLink
+                              link="/holdnapok"
+                              title="ekadashi"
+                              classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+                            />
+                          )}
+                        </div>
                         <p>{monthDay}</p>
                       </div>
                     </div>
