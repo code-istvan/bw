@@ -82,7 +82,19 @@ collections:
           format: "LL",
           picker_utc: false,
         }
-
+      - {
+          label: "Fullmoon",
+          name: "fullmoon",
+          widget: "boolean",
+          default: false,
+        }
+      - { label: "Newmoon", name: "newmoon", widget: "boolean", default: false }
+      - {
+          label: "Ekadashi",
+          name: "ekadashi",
+          widget: "boolean",
+          default: false,
+        }
       - {
           label: Class1,
           name: class1,
