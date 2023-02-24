@@ -1,5 +1,5 @@
 {
-  "newmoon": true,
+  "newmoon": false,
   "time1": "5:30 - 9:00",
   "time2": "null",
   "time3": "null",
@@ -8,7 +8,7 @@
   "date": "February 13, 2023",
   "teacher1": "István",
   "teacher2": "null",
-  "fullmoon": true,
+  "fullmoon": false,
   "teacher3": "null",
   "teacher4": "null",
   "teacherlink1": "/mysore-program",
@@ -27,5 +27,5 @@
   "signup3": "null",
   "class4": "null",
   "signup4": "null",
-  "ekadashi": true
+  "ekadashi": false
 }
