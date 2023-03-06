@@ -70,13 +70,9 @@ export default function ScheduleRoll() {
                       <div className="schedule-date-line clr-shades-gray tight--desktop--container">
                         <div>
                           <p>{dayName}</p>
-                          {fullmoon === true && (
-                            <Icons.Fullmoon url="/holdnapok" />
-                          )}
-                          {newmoon === true && (
-                            <Icons.Newmoon url="/holdnapok" />
-                          )}
-                          {ekadashi === true && (
+                          {fullmoon && <Icons.Fullmoon url="/holdnapok" />}
+                          {newmoon && <Icons.Newmoon url="/holdnapok" />}
+                          {ekadashi && (
                             <CustomLink
                               link="/holdnapok"
                               title="ekadashi"

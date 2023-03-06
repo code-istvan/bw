@@ -192,7 +192,7 @@
     width: 100%;
     position: fixed;
     overflow-x: hidden;
-    padding-top: 60px;
+    padding-top: 40px;
     @include desktop-menu-fonts;
 
     & > ul {
@@ -276,10 +276,14 @@
 
   .nav-link {
     &:hover {
-      text-decoration-line: underline;
-      text-decoration-color: $color-brand-orange;
-      text-decoration-thickness: 6px;
-      color: $color-shades-white !important;
+      // text-decoration-line: underline;
+      // text-decoration-color: $color-brand-orange;
+      // text-decoration-thickness: 6px;
+      // color: $color-shades-white !important;
+      color: $color-brand-orange !important;
+      // a:nth-child(1) {
+      //   color: $color-shades-white !important;
+      // }
     }
   }
 
@@ -291,9 +295,11 @@
 
   // submenu box
   .dropdown-item {
+    position: relative;
     margin: 0;
-    // color: $color-shades-lightGray !important;
-    height: 48px;
+    padding-left: 0 !important;
+    color: $color-shades-gray !important;
+    height: 44px;
     @include desktop-submenu-fonts;
 
     &:first-letter {
@@ -301,15 +307,9 @@
     }
   }
 
-  .dropdown-item {
-    position: relative;
-  }
-
   .dropdown-item:hover {
-    text-decoration-line: underline;
-    text-decoration-color: $color-brand-orange;
-    text-decoration-thickness: 5px;
     background-color: transparent !important;
+    color: $color-brand-orange !important;
   }
 
   .dropdown-menu {
@@ -350,7 +350,7 @@
 
   @keyframes flash {
     0% {
-      color: $color-shades-white;
+      color: $color-shades-gray;
     }
     25% {
       color: $color-brand-orange !important;
