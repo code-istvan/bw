@@ -28,9 +28,42 @@ exports.createPages = ({ actions, graphql }) => {
     "./src/components/templates/blogPosts.js"
   )
   const tagsTemplate = path.resolve("./src/components/templates/tags.js")
+  const scheduleTemplate = path.resolve("./src/components/templates/orarend.js")
 
   return graphql(`
     {
+      allScheduleJson(sort: { date: DESC }) {
+        nodes {
+          date
+          class1
+          class2
+          class3
+          class4
+          description1
+          description2
+          description3
+          description4
+          signup1
+          signup2
+          signup3
+          signup4
+          time1
+          time2
+          time3
+          time4
+          teacher1
+          teacher2
+          teacher3
+          teacher4
+          teacherlink1
+          teacherlink2
+          teacherlink3
+          teacherlink4
+          fullmoon
+          newmoon
+          ekadashi
+        }
+      }
       allFile(filter: { sourceInstanceName: { eq: "uploads" } }) {
         edges {
           node {
@@ -64,6 +97,25 @@ exports.createPages = ({ actions, graphql }) => {
     if (result.errors) {
       throw result.errors
     }
+
+    const schedule = result.data.allScheduleJson.nodes
+    const schedulePerPage = 7
+    // console.log("SCHEDULE LENGTH", schedule.length)
+    const numPages = Math.ceil(schedule.length / schedulePerPage)
+    // console.log("SCHEDULE LENGTH", numPages)
+    Array.from({ length: numPages }).forEach((_, i) => {
+      createPage({
+        path: i === 0 ? `/orarend` : `/orarend/${i + 1}`, // todo: change this for the name
+        component: scheduleTemplate,
+        context: {
+          limit: schedulePerPage,
+          skip: i * schedulePerPage,
+          numPages,
+          currentPage: i + 1,
+        },
+      })
+    })
+
     const posts = result.data.allMdx.nodes
     let tags = []
     posts.forEach(({ frontmatter }) => {
