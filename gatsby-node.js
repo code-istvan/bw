@@ -137,7 +137,7 @@ exports.createPages = ({ actions, graphql }) => {
         .split(".")[0]
 
       const postThumbnail = result.data.allFile.edges.find(({ node }) =>
-        node.childImageSharp?.gatsbyImageData?.images?.sources[0].srcSet?.includes(
+        node.childImageSharp?.gatsbyImageData?.images?.sources[0]?.srcSet?.includes(
           imageName
         )
       )
