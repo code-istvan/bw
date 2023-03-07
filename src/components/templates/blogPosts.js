@@ -17,8 +17,6 @@ const BlogPosts = ({ data, children, pageContext }) => {
   const sectionRef = useRef(null)
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
-  console.log("pageContext", pageContext)
-
   return (
     <LayoutBlog articleProperties={articleProperties}>
       <section ref={sectionRef}>
@@ -122,47 +120,3 @@ export const query = graphql`
     }
   }
 `
-
-//old query
-
-// export const query = graphql`
-//   query PostsBySlug($slug: String!) {
-//     mdx(fields: { slug: { eq: $slug } }) {
-//       body
-//       timeToRead
-//       frontmatter {
-//         title
-//         description
-//         author
-//         tags
-//         date(formatString: "YYYY. MM. DD.")
-//         thumbnail {
-//           childImageSharp {
-//             gatsbyImageData(
-//               placeholder: BLURRED
-//               blurredOptions: { width: 100 }
-//               transformOptions: { cropFocus: CENTER }
-//               formats: [AUTO, WEBP, AVIF]
-//             )
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
-
-// query PostsBySlug($slug: String!) {
-//   mdx(fields: { slug: { eq: $slug } }) {
-//     body
-//     fields {
-//       slug
-//     }
-//     frontmatter {
-//       title
-//       description
-//       author
-//       tags
-//       date(formatString: "YYYY. MM. DD.")
-//     }
-//   }
-// }
