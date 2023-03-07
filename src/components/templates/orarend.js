@@ -20,7 +20,7 @@ const Orarend = ({ pageContext, data }) => {
   return (
     <Layout>
       <Seo title="ÓRAREND" />
-      <div className="row mt-80px">
+      <div className="row mt-80px mb-20px">
         <h1>ÓRAREND</h1>
       </div>
       <ul>
