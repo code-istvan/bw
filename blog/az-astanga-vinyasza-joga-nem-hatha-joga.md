@@ -6,7 +6,7 @@ author: Fruzsi
 tags:
   - elmélet
 date: 2016-11-06T14:37:00.000Z
-thumbnail: /blogpostimages/gurujis.jpg
+thumbnail: /blogpostimages/astangaanya.png
 ---
 Gyakran kerül érdeklődés középpontjába Pattabhi Jois ászana-rendszere: honnan ered és hogyan fejlődött az évek során, ugyanakkor a diskurzusok során kevesen helyezik bele Guruji rendszerét az Astanga (nyolcágú) jóga egészébe, ami egyike a hat orthodox indiai filozófiai irányzatnak (darshana).
 
