@@ -14,7 +14,6 @@ const Orarend = ({ pageContext, data }) => {
   const prevPage =
     currentPage - 1 === 1 ? "/orarend" : (currentPage - 1).toString()
   const nextPage = (currentPage + 1).toString()
-
   const schedule = data.allScheduleJson.edges
 
   return (
