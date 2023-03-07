@@ -68,3 +68,10 @@
     }
   }
 }
+
+.blogposts-only-desktop {
+  display: none;
+  @include md {
+    display: block;
+  }
+}

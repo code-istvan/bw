@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 import { useBlogRoll } from "../../hooks/useBlogRollQuery"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
-import "../../sass/components/_blogroll.scss"
 import { useAuthors } from "../../hooks/useAuthorsQuery"
 import { GatsbyImage } from "gatsby-plugin-image"
+import "../../sass/components/_blogroll.scss"
 
 function BlogRoll({ count }) {
   let posts = []
