@@ -5,7 +5,7 @@ description: Guruji mindig azt mondta, hogy amit ő tanít, az az eredeti Patanj
 author: Fruzsi
 tags:
   - jógafilozófia
-date: 2023-03-07T19:24:00.104Z
+date: 2013-11-06T19:24:00.104Z
 thumbnail: /blogpostimages/astangaanya.png
 ---
 Gyakran kerül érdeklődés középpontjába Pattabhi Jois ászana-rendszere: honnan ered és hogyan fejlődött az évek során, ugyanakkor a diskurzusok során kevesen helyezik bele Guruji rendszerét az Astanga (nyolcágú) jóga egészébe, ami egyike a hat orthodox indiai filozófiai irányzatnak (darshana).
