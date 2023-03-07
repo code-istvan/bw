@@ -3,7 +3,7 @@ import { useSchedule } from "../hooks/useScheduleQuery"
 import { CustomLink } from "./CustomLink"
 import Accordion from "./Accordion"
 import Icons from "./Icons/Icons"
-import "../sass/components/_scheduleroll.scss"
+// import "../sass/components/_scheduleroll.scss"
 
 export default function ScheduleRoll() {
   let schedule = useSchedule()
