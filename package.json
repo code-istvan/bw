@@ -41,7 +41,7 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
-    "react-carbonbadge": "^1.0.1",
+    "react-carbonbadge": "^2.0.0",
     "react-dom": "^18.2.0",
     "reading-time": "^1.5.0",
     "sass": "^1.56.1"
