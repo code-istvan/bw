@@ -2,7 +2,7 @@
 published: true
 title: Test Blog post
 description: Test Blog post for the best
-author: István
+author: Fruzsi
 tags:
   - test
 date: 2023-02-13T15:34:56.365Z
