@@ -42,6 +42,9 @@ export default function Blog() {
           <h4>CIMKÉK</h4>
           <BlogTags />
           <div className="separator-horizontal-full mt-40px"></div>
+          <div className="">
+            <h4>LEGKEDVELTEBB BEJEGZÉSEK</h4>
+          </div>
         </div>
         <div className="col-12-xs col-8-md col-8-xl">
           <BlogRoll />

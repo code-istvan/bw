@@ -57,6 +57,7 @@
   @include md {
     .blog-right-column {
       order: 2;
+      border-left: solid 1px $color-shades-lightBlack;
     }
     // gap: 10px;
   }
