@@ -100,12 +100,10 @@ exports.createPages = ({ actions, graphql }) => {
 
     const schedule = result.data.allScheduleJson.nodes
     const schedulePerPage = 7
-    // console.log("SCHEDULE LENGTH", schedule.length)
     const numPages = Math.ceil(schedule.length / schedulePerPage)
-    // console.log("SCHEDULE LENGTH", numPages)
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({
-        path: i === 0 ? `/orarend` : `/orarend/${i + 1}`, // todo: change this for the name
+        path: i === 0 ? `/orarend` : `/orarend/${i + 1}`,
         component: scheduleTemplate,
         context: {
           limit: schedulePerPage,
