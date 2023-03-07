@@ -36,7 +36,7 @@ const IndexPage = () => (
             amazon pepper almond milk chai latte pine nuts sesame soba noodles.
             Miso turmeric glazed aubergine lemon tahini dressing miso dressing
             banana bread springtime strawberry with cremini mushrooms chickpea
-            crust pizza cherry bomb pepper candy cane winter.
+            crust pizza cherry bomb pepper candy cane winter coconut.
           </p>
         </div>
       </div>
