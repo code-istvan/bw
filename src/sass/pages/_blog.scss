@@ -7,8 +7,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-mobil-image {
+  .hero-mobil-image,
+  .blog-header-only-mobil {
     display: none !important;
+  }
+  .blogroll-desktop {
+    margin-top: 40px;
   }
 }
 
@@ -57,12 +61,11 @@
   @include md {
     .blog-right-column {
       order: 2;
-      border-left: solid 1px $color-shades-lightBlack;
     }
-    // gap: 10px;
   }
 
   .separator-horizontal-full {
+    margin-top: 40px;
     @include md {
       display: none;
     }

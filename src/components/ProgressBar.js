@@ -14,7 +14,7 @@ const ProgressBar = ({ scroll, articleProperties }) => {
   if (currentProgress >= 100) currentProgress = 100
 
   return (
-    <div className="container-fluid">
+    <div className={`container-fluid ${currentScroll > 2000 ? "hide" : ""}`}>
       <div
         style={{ width: `${currentProgress}vw` }}
         className="progress-line"

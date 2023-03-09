@@ -2,12 +2,16 @@ import * as React from "react"
 import LayoutBlog from "../components/Layouts/LayoutBlog"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import BlogRoll from "../components/Blog/BlogRoll"
 import BlogTags from "../components/Blog/BlogTags"
+import BlogSidebar from "../components/Blog/BlogSidebar"
 import SearchBar from "../components/SearchBar"
 import "../sass/pages/_blog.scss"
 
 export default function Blog() {
+  const breakpoints = useBreakpoint()
+
   return (
     <LayoutBlog>
       <Seo title="BLOG" />
@@ -37,16 +41,17 @@ export default function Blog() {
         </div>
       </div>
       <div className="row blog-frame gap-2">
-        <div className="col-12-xs col-4-md col-4-xl blog-right-column">
-          <SearchBar id="" type="text" name="serach" placeholder="Keresés" />
-          <h4>CIMKÉK</h4>
-          <BlogTags />
-          <div className="separator-horizontal-full mt-40px"></div>
-          <div className="blogposts-only-desktop">
-            <h4>LEGKEDVELTEBB BEJEGZÉSEK</h4>
+        <div className="col-12-xs col-3-md col-3-xl blog-right-column">
+          <div className="blog-header-only-mobil">
+            <SearchBar id="" type="text" name="serach" placeholder="Keresés" />
+            <h4>CIMKÉK</h4>
+            <BlogTags />
           </div>
+
+          <div className="separator-horizontal-full"></div>
+          {breakpoints.sm ? null : <BlogSidebar />}
         </div>
-        <div className="col-12-xs col-8-md col-8-xl">
+        <div className="col-12-xs col-9-md col-9-xl blogroll-desktop">
           <BlogRoll />
         </div>
       </div>
