@@ -1,29 +1,29 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import Navbar from "../Nav/Navbar"
-import ProgressBar from "../ProgressBar"
 import "../../sass/components/_layout.scss"
 import Footer from "../Footer/Footer"
-import { useScrollPosition } from "../../hooks/useScrollPosition"
 
 const LayoutBlog = ({ children, articleProperties }) => {
-  const [scroll, setScroll] = useState(0)
-
-  useScrollPosition(
-    function setScrollPosition({ currentPosition }) {
-      let { y: currentYPosition } = currentPosition
-      setScroll(currentYPosition)
-    },
-    [scroll]
+  const [hasSeenMessage, setHasSeenMessage] = useState(
+    localStorage.getItem("hasSeenMessage") ?? false
   )
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setHasSeenMessage(true)
+      // localStorage.setItem("hasSeenMessage", true)
+    }, 100000)
+
+    return () => {
+      clearTimeout(timeoutId)
+    }
+  }, [])
 
   return (
     <>
-      <Navbar />
+      {!hasSeenMessage && <div>A FANCY MESSAGE</div>}
+      <Navbar articleProperties={articleProperties} />
       <div className="container">
-        {articleProperties && scroll < 0 && (
-          <ProgressBar scroll={scroll} articleProperties={articleProperties} />
-        )}
         <main>{children}</main>
       </div>
       <Footer />

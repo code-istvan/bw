@@ -24,6 +24,9 @@ exports.onCreateWebpackConfig = helper => {
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
+  const blogListTamplate = path.resolve(
+    "./src/components/templates/blogList.js"
+  )
   const blogPostTemplate = path.resolve(
     "./src/components/templates/blogPosts.js"
   )
@@ -129,6 +132,8 @@ exports.createPages = ({ actions, graphql }) => {
       })
     })
 
+    const postsPerPage = 5
+    const postNumPages = Math.ceil(posts.length / postsPerPage)
     // create page for each mdx node
     posts.forEach(post => {
       const imageName = post.frontmatter.thumbnail
@@ -141,6 +146,19 @@ exports.createPages = ({ actions, graphql }) => {
           imageName
         )
       )
+
+      Array.from({ length: postNumPages }).forEach((_, i) => {
+        createPage({
+          path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+          component: blogListTamplate,
+          context: {
+            limit: postsPerPage,
+            skip: i * postsPerPage,
+            numPages,
+            currentPage: i + 1,
+          },
+        })
+      })
 
       createPage({
         path: `blog${post.fields.slug}`,

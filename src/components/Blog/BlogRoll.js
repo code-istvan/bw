@@ -7,26 +7,26 @@ import { useAuthors } from "../../hooks/useAuthorsQuery"
 import { GatsbyImage } from "gatsby-plugin-image"
 import "../../sass/components/_blogroll.scss"
 
-function BlogRoll({ count }) {
-  let posts = []
-  const postsQueried = useBlogRoll()
+function BlogRoll({ count, posts }) {
+  // let posts = []
+  // const postsQueried = useBlogRoll()
   // EXPLANATION: just calling the result of useAuthors and assigning it to an "authors" variable
   const authors = useAuthors()
 
   //This hardcopy operation is needed specifically because the component is being used w. different {count} parameters
   //Since the static query runs only once, we query all posts
   //and slice the array of posts on render time
-  posts = [...postsQueried]
-  if (count !== undefined) {
-    posts.length = Math.min(posts.length, count)
-  }
+  // posts = [...postsQueried]
+  // if (count !== undefined) {
+  //   posts.length = Math.min(posts.length, count)
+  // }
 
   return (
     <>
       <div className="row">
         <div className="col">
           {posts &&
-            postsQueried.map(post => {
+            posts.map(post => {
               /* EXPLANATION: aking advantage of the loop (because we are looping through the posts) and you are getting the exact data for each post ("post" as the iterable variable)
                  and having all authors, you just need to find which author of the post (post.frontmatter.author) is the same as the author.name (author.name is the name of the author) because the other node holds the image data (and other)
               * */

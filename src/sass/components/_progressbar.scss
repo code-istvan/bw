@@ -6,3 +6,12 @@
   position: fixed;
   z-index: 999;
 }
+.progress-bar-wrapper {
+  z-index: 9999;
+  position: sticky;
+  top: 58px;
+  transition: all 1.5s;
+  &.potato {
+    top: 0;
+  }
+}

@@ -1,10 +1,21 @@
-import * as React from "react"
+import React, { useState } from "react"
 import Navigation from "./Navigation"
+import ProgressBar from "../ProgressBar"
+import { useScrollPosition } from "../../hooks/useScrollPosition"
 import "../../sass/components/_navbar.scss"
 
-const Navbar = () => {
+const Navbar = ({ articleProperties }) => {
   const navRef = React.useRef()
   var prevScroll = 0
+  const [scroll, setScroll] = useState(0)
+
+  useScrollPosition(
+    function setScrollPosition({ currentPosition }) {
+      let { y: currentYPosition } = currentPosition
+      setScroll(currentYPosition)
+    },
+    [scroll]
+  )
 
   const isBrowser = typeof window !== "undefined"
 
@@ -24,9 +35,14 @@ const Navbar = () => {
   }
 
   return (
-    <div className="navbar_container fluid" ref={navRef}>
-      <Navigation />
-    </div>
+    <>
+      <div className="navbar_container fluid" ref={navRef}>
+        <Navigation />
+      </div>
+      {articleProperties && scroll < 0 && (
+        <ProgressBar scroll={scroll} articleProperties={articleProperties} />
+      )}
+    </>
   )
 }
 
