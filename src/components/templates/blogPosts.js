@@ -28,7 +28,6 @@ const BlogPosts = ({ data, children, pageContext }) => {
             description={post.frontmatter.description}
             // thumbnail={src}
           />
-          {/* <div className="blog-post-image container-fluid"> */}
           <div
             className={`${
               breakpoints.md
@@ -53,9 +52,32 @@ const BlogPosts = ({ data, children, pageContext }) => {
                 <h1>{post.frontmatter.title}</h1>
               </div>
             </div>
-
-            <div className="meta">
-              <div className="meta-first-line">
+            {/* <div className="meta">
+                <div className="meta-first-line">
+                  <div className="meta-author">
+                    <GatsbyImage
+                      image={author.authorimage.childImageSharp.gatsbyImageData}
+                      className="avatar-image"
+                    />
+                    <p>{post.frontmatter.author}</p>
+                  </div>
+                  <div className="blog-card-footer-text tag-button">
+                    {tags.map(tag => {
+                      return (
+                        <p key="tag">
+                          <Link to={`/tags/${tag}`}>{tag}</Link>
+                        </p>
+                      )
+                    })}
+                  </div>
+                </div>
+                <div className="meta-second-line">
+                  <p>{post.frontmatter.date}</p>
+                  <p>{timeToRead} perc olvasás</p>
+                </div>
+              </div> */}
+            <div className="meta mt-20px">
+              <div className="blog-posts-meta-first-line">
                 <div className="meta-author">
                   <GatsbyImage
                     image={author.authorimage.childImageSharp.gatsbyImageData}
@@ -63,7 +85,12 @@ const BlogPosts = ({ data, children, pageContext }) => {
                   />
                   <p>{post.frontmatter.author}</p>
                 </div>
-
+                <div className="vertical-separator"></div>
+                <p>{post.frontmatter.date}</p>
+              </div>
+              <div className="blog-posts-meta-second-line">
+                <div className="vertical-separator"></div>
+                <p>{timeToRead} perc olvasás</p>
                 <div className="blog-card-footer-text tag-button">
                   {tags.map(tag => {
                     return (
@@ -73,11 +100,6 @@ const BlogPosts = ({ data, children, pageContext }) => {
                     )
                   })}
                 </div>
-              </div>
-
-              <div className="meta-second-line">
-                <p>{post.frontmatter.date}</p>
-                <p>{timeToRead} perc olvasás</p>
               </div>
             </div>
           </div>

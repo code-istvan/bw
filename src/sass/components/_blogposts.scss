@@ -8,30 +8,47 @@
 
 .meta {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px 0px 4px;
-  gap: 4px;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  div:nth-last-child(1) {
+    margin-left: 12px;
+  }
 }
-
-.meta-first-line {
-  margin-bottom: 9px;
-}
-
-.meta-first-line,
-.meta-second-line {
-  width: 100%;
+.blog-posts-meta-first-line,
+.blog-posts-meta-second-line {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  .tag-button {
-    p {
-      margin-right: 0;
-    }
-  }
+  gap: 14px;
 }
+
+// .meta {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: flex-start;
+//   padding: 0px 0px 4px;
+//   gap: 4px;
+// }
+
+// .meta-first-line {
+//   margin-bottom: 9px;
+// }
+
+// .meta-first-line,
+// .meta-second-line {
+//   width: 100%;
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   justify-content: space-between;
+//   .tag-button {
+//     p {
+//       margin-right: 0;
+//     }
+//   }
+// }
 
 .blog-post-image {
   margin-top: 60px;
@@ -47,12 +64,10 @@ article {
   }
   color: white;
   blockquote {
-    background-color: hsla(39, 100%, 50%, 0.4);
-    padding-left: 20px;
-    padding-right: 20px;
-    border-left: 10px solid orange;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    background-color: rgba(255, 166, 0, 0.6);
+    border-left: 8px solid $color-brand-orange;
+    color: black;
+    padding: 12px 20px;
     margin-left: 0;
     margin-right: 0;
     width: fit-content;
@@ -72,7 +87,43 @@ article {
 }
 
 @media screen and (max-width: 768px) {
-  .hide-blogsidebar {
+  .hide-blogsidebar,
+  .vertical-separator {
     display: none;
+  }
+  .blog-posts-meta-first-line {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .blog-posts-meta-second-line {
+    flex-direction: column-reverse;
+    p:nth-child(2) {
+      align-self: flex-end;
+    }
+  }
+  .meta {
+    div:nth-child(2) {
+      margin-left: auto;
+    }
+  }
+
+  .tag-button p {
+    margin-right: 0;
+  }
+
+  .meta-author {
+    align-self: flex-start;
+  }
+  div.blog-card-footer.tag-button {
+    align-self: flex-end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .separator-horizontal-full {
+    display: none;
+  }
+  .blog-posts-body-style {
+    margin-top: 48px;
   }
 }
