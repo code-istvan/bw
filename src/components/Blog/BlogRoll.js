@@ -44,62 +44,60 @@ function BlogRoll({ count, posts }) {
               const author = post.frontmatter.author
 
               return (
-                <div className="mb-40px" key={post.frontmatter.title}>
-                  <div className="blog-card">
-                    <div className="blog-card-header">
-                      <div className="meta-author">
-                        {/*EXPLANATION: just calling the GatsbyImage and passing the needed data*/}
-                        <GatsbyImage
-                          alt={author}
-                          image={
-                            currentAuthor.authorimage.childImageSharp
-                              .gatsbyImageData
-                          }
-                          className="avatar-image"
-                        />
-                        <p>{author}</p>
-                      </div>
-                      <div className="vertical-separator"></div>
-                      <p>{post.frontmatter.date}</p>
+                <div className="mb-40px blog-card" key={post.frontmatter.title}>
+                  <div className="blog-card-header">
+                    <div className="meta-author">
+                      {/*EXPLANATION: just calling the GatsbyImage and passing the needed data*/}
+                      <GatsbyImage
+                        alt={author}
+                        image={
+                          currentAuthor.authorimage.childImageSharp
+                            .gatsbyImageData
+                        }
+                        className="avatar-image"
+                      />
+                      <p>{author}</p>
                     </div>
-                    <div className="blog-card-body">
-                      {/* <GatsbyImage
+                    <div className="vertical-separator"></div>
+                    <p>{post.frontmatter.date}</p>
+                  </div>
+                  <div className="blog-card-body">
+                    {/* <GatsbyImage
                         image={image}
                         className="blog__thumbnail"
                         alt={post.frontmatter.title}
                         aspectratio={4 / 3}
                       /> */}
-                      <h3 className="blog-card-title">{title}</h3>
-                      <p className="blog-card-text">
-                        {post.frontmatter.description}
-                      </p>
+                    <h3 className="blog-card-title">{title}</h3>
+                    <p className="blog-card-text">
+                      {post.frontmatter.description}
+                    </p>
+                  </div>
+
+                  <div className="blog-card-footer">
+                    <div className="blog-card-footer-first-row">
+                      <div className="blog-card-footer-text tag-button">
+                        {post.frontmatter.tags.map(tag => {
+                          return (
+                            <p key={post.frontmatter.date}>
+                              <Link to={`/tags/${tag}`}>{tag}</Link>
+                            </p>
+                          )
+                        })}
+                      </div>
+                      <p>{timeToRead} perc olvasás</p>
                     </div>
 
-                    <div className="blog-card-footer">
-                      <div className="blog-card-footer-first-row">
-                        <div className="blog-card-footer-text tag-button">
-                          {post.frontmatter.tags.map(tag => {
-                            return (
-                              <p key={post.frontmatter.date}>
-                                <Link to={`/tags/${tag}`}>{tag}</Link>
-                              </p>
-                            )
-                          })}
-                        </div>
-                        <p>{timeToRead} perc olvasás</p>
-                      </div>
-
-                      <div className="blog-card-footer-button">
-                        <Button
-                          type="button"
-                          buttonStyle="btn--third--naked-orange"
-                          onClick={() => {
-                            navigate(`/blog${link}`)
-                          }}
-                        >
-                          Olvasd tovább
-                        </Button>
-                      </div>
+                    <div className="blog-card-footer-button">
+                      <Button
+                        type="button"
+                        buttonStyle="btn--third--naked-orange"
+                        onClick={() => {
+                          navigate(`/blog${link}`)
+                        }}
+                      >
+                        Olvasd tovább
+                      </Button>
                     </div>
                   </div>
                 </div>

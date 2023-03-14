@@ -13,7 +13,9 @@ const LayoutBlog = ({ children, articleProperties }) => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setHasSeenMessage(true)
-      localStorage.setItem("hasSeenMessage", true)
+      if (typeof window !== "undefined") {
+        localStorage.setItem("hasSeenMessage", true)
+      }
     }, 1000)
 
     return () => {

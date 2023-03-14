@@ -35,6 +35,10 @@
 
 .blog-post-image {
   margin-top: 60px;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 article {

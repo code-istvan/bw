@@ -5,6 +5,11 @@
   padding-bottom: 20px;
 }
 
+div.blog-card:nth-last-child(1) {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
 .blog-card-header {
   display: flex;
   flex-direction: row;

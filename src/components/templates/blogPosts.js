@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react"
 import { graphql, Link, navigate } from "gatsby"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
 import LayoutBlog from "../Layouts/LayoutBlog"
@@ -9,7 +10,7 @@ import BlogSidebar from "../../components/Blog/BlogSidebar"
 import "../../sass/components/_blogposts.scss"
 
 const BlogPosts = ({ data, children, pageContext }) => {
-  // const size = useWindowSize()
+  const breakpoints = useBreakpoint()
   const [articleProperties, setArticleProperties] = useState({})
   const post = data.mdx
   const { tags } = post.frontmatter
@@ -27,7 +28,14 @@ const BlogPosts = ({ data, children, pageContext }) => {
             description={post.frontmatter.description}
             // thumbnail={src}
           />
-          <div className="blog-post-image">
+          {/* <div className="blog-post-image container-fluid"> */}
+          <div
+            className={`${
+              breakpoints.md
+                ? "blog-post-image container-fluid"
+                : "blog-post-image"
+            }`}
+          >
             {!pageContext.postThumbnail ? (
               <img src={pageContext.frontmatter.thumbnail} />
             ) : (

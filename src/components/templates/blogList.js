@@ -9,7 +9,7 @@ import BlogSidebar from "../Blog/BlogSidebar"
 import SearchBar from "../SearchBar"
 import BlogRoll from "../Blog/BlogRoll"
 import { CustomLink } from "../CustomLink"
-import "../../sass/pages/_blog.scss"
+import "../../sass/components/_bloglist.scss"
 
 export default function Blog({ pageContext, data }) {
   const breakpoints = useBreakpoint()
@@ -26,8 +26,8 @@ export default function Blog({ pageContext, data }) {
     <LayoutBlog>
       <Seo title="BLOG" />
       <div className="blog-hero-container">
+        <h1 className="blog-title">BLOG</h1>
         <div className="row blog--desktop--container">
-          <h1 className="blog-title">BLOG</h1>
           <StaticImage
             className="container-fluid blog-hero-image hero-big-image"
             src="../../images/blog_hero.jpg"
@@ -69,14 +69,14 @@ export default function Blog({ pageContext, data }) {
           <CustomLink
             link={prevPage}
             classNames="btn btn--secondary--outline link-decoration-remove"
-            title="Back"
+            title="Előző öt bejegyzés"
           />
         )}
         {!isLast && (
           <CustomLink
             link={nextPage}
             classNames="btn btn--secondary--outline link-decoration-remove"
-            title="Next"
+            title="Következő öt bejegyzés"
           />
         )}
       </div>

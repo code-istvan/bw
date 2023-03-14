@@ -1,0 +1,21 @@
+@import "/src/sass/global";
+
+.most-popular-posts {
+  color: $color-shades-white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  svg {
+    display: block;
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.most-popular-ul li {
+  margin-bottom: 8px;
+  a:hover {
+    color: $color-brand-orange;
+  }
+}
