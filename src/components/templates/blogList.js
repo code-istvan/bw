@@ -30,7 +30,7 @@ export default function Blog({ pageContext, data }) {
           <h1 className="blog-title">BLOG</h1>
           <StaticImage
             className="container-fluid blog-hero-image hero-big-image"
-            src="../images/blog_hero.jpg"
+            src="../../images/blog_hero.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -40,7 +40,7 @@ export default function Blog({ pageContext, data }) {
           />
           <StaticImage
             className="container-fluid blog-hero-image hero-mobil-image"
-            src="../images/blog_hero.jpg"
+            src="../../images/blog_hero.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -57,7 +57,6 @@ export default function Blog({ pageContext, data }) {
             <h4>CIMKÉK</h4>
             <BlogTags />
           </div>
-
           <div className="separator-horizontal-full"></div>
           {breakpoints.sm ? null : <BlogSidebar />}
         </div>
