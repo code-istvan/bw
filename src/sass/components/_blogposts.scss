@@ -46,6 +46,20 @@ article {
     display: list-item;
   }
   color: white;
+  blockquote {
+    background-color: hsla(39, 100%, 50%, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 10px solid orange;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 0;
+    margin-right: 0;
+    width: fit-content;
+    p {
+      margin-bottom: 0 !important;
+    }
+  }
 }
 
 .blog-posts-body-style {
