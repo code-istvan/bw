@@ -64,7 +64,7 @@ article {
   }
   color: white;
   blockquote {
-    background-color: rgba(255, 166, 0, 0.6);
+    background-color: $color-shades-gray;
     border-left: 8px solid $color-brand-orange;
     color: black;
     padding: 12px 20px;
@@ -106,15 +106,14 @@ article {
       margin-left: auto;
     }
   }
-
-  .tag-button p {
-    margin-right: 0;
-  }
-
   .meta-author {
     align-self: flex-start;
   }
   div.blog-card-footer.tag-button {
+    align-self: flex-end;
+  }
+  .blogposts-tag-button {
+    margin: 0 !important;
     align-self: flex-end;
   }
 }

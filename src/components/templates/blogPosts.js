@@ -21,38 +21,40 @@ const BlogPosts = ({ data, children, pageContext }) => {
 
   return (
     <LayoutBlog articleProperties={articleProperties}>
-      <div className="row gap-2">
-        <section ref={sectionRef} className="col-12-xs col-9-md col-9-xl">
-          <Seo
-            title={post.frontmatter.title}
-            description={post.frontmatter.description}
-            // thumbnail={src}
-          />
-          <div
-            className={`${
-              breakpoints.md
-                ? "blog-post-image container-fluid"
-                : "blog-post-image"
-            }`}
-          >
-            {!pageContext.postThumbnail ? (
-              <img src={pageContext.frontmatter.thumbnail} />
-            ) : (
-              <GatsbyImage
-                image={
-                  pageContext.postThumbnail.node.childImageSharp.gatsbyImageData
-                }
-                alt={post.frontmatter.title ?? "some value"}
-              />
-            )}
-          </div>
-          <div className="blog-post-header mt-20px">
-            <div className="row">
-              <div className="col">
-                <h1>{post.frontmatter.title}</h1>
-              </div>
+      <div className="blog-posts-wrapper">
+        <div className="row gap-2">
+          <section ref={sectionRef} className="col-12-xs col-9-md col-9-xl">
+            <Seo
+              title={post.frontmatter.title}
+              description={post.frontmatter.description}
+              // thumbnail={src}
+            />
+            <div
+              className={`${
+                breakpoints.md
+                  ? "blog-post-image container-fluid"
+                  : "blog-post-image"
+              }`}
+            >
+              {!pageContext.postThumbnail ? (
+                <img src={pageContext.frontmatter.thumbnail} />
+              ) : (
+                <GatsbyImage
+                  image={
+                    pageContext.postThumbnail.node.childImageSharp
+                      .gatsbyImageData
+                  }
+                  alt={post.frontmatter.title ?? "some value"}
+                />
+              )}
             </div>
-            {/* <div className="meta">
+            <div className="blog-post-header mt-20px">
+              <div className="row">
+                <div className="col">
+                  <h1>{post.frontmatter.title}</h1>
+                </div>
+              </div>
+              {/* <div className="meta">
                 <div className="meta-first-line">
                   <div className="meta-author">
                     <GatsbyImage
@@ -76,49 +78,50 @@ const BlogPosts = ({ data, children, pageContext }) => {
                   <p>{timeToRead} perc olvasás</p>
                 </div>
               </div> */}
-            <div className="meta mt-20px">
-              <div className="blog-posts-meta-first-line">
-                <div className="meta-author">
-                  <GatsbyImage
-                    image={author.authorimage.childImageSharp.gatsbyImageData}
-                    className="avatar-image"
-                  />
-                  <p>{post.frontmatter.author}</p>
+              <div className="meta mt-20px">
+                <div className="blog-posts-meta-first-line">
+                  <div className="meta-author">
+                    <GatsbyImage
+                      image={author.authorimage.childImageSharp.gatsbyImageData}
+                      className="avatar-image"
+                    />
+                    <p>{post.frontmatter.author}</p>
+                  </div>
+                  <div className="vertical-separator"></div>
+                  <p>{post.frontmatter.date}</p>
                 </div>
-                <div className="vertical-separator"></div>
-                <p>{post.frontmatter.date}</p>
-              </div>
-              <div className="blog-posts-meta-second-line">
-                <div className="vertical-separator"></div>
-                <p>{timeToRead} perc olvasás</p>
-                <div className="blog-card-footer-text tag-button">
-                  {tags.map(tag => {
-                    return (
-                      <p key="tag">
-                        <Link to={`/tags/${tag}`}>{tag}</Link>
-                      </p>
-                    )
-                  })}
+                <div className="blog-posts-meta-second-line">
+                  <div className="vertical-separator"></div>
+                  <p>{timeToRead} perc olvasás</p>
+                  <div className="blog-card-footer-text tag-button blogposts-tag-button">
+                    {tags.map(tag => {
+                      return (
+                        <p key="tag" className="blogposts-tag-button">
+                          <Link to={`/tags/${tag}`}>{tag}</Link>
+                        </p>
+                      )
+                    })}
+                  </div>
                 </div>
               </div>
             </div>
+            <div className="separator-horizontal-full mt-40px"></div>
+            <article className="mb-20px blog-posts-body-style">
+              {children}
+            </article>
+            <ButtonIcon
+              buttonType="icon-text"
+              className=""
+              text="Vissza az összes bejegyzéshez"
+              icon={<Icons.ArrowLeft color="orange" />}
+              onClick={() => {
+                navigate("/blog")
+              }}
+            />
+          </section>
+          <div className="col-12-xs col-3-md col-3-xl mt-20px hide-blogsidebar">
+            <BlogSidebar />
           </div>
-          <div className="separator-horizontal-full mt-40px"></div>
-          <article className="mb-20px blog-posts-body-style">
-            {children}
-          </article>
-          <ButtonIcon
-            buttonType="icon-text"
-            className=""
-            text="Vissza az összes bejegyzéshez"
-            icon={<Icons.ArrowLeft color="orange" />}
-            onClick={() => {
-              navigate("/blog")
-            }}
-          />
-        </section>
-        <div className="col-12-xs col-3-md col-3-xl mt-20px hide-blogsidebar">
-          <BlogSidebar />
         </div>
       </div>
     </LayoutBlog>
