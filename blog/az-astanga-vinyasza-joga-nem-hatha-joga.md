@@ -8,42 +8,42 @@ tags:
 date: 2013-11-06T19:24:00.104Z
 thumbnail: /blogpostimages/gurujis.jpg
 ---
-Gyakran kerül érdeklődés középpontjába Pattabhi Jois ászana-rendszere: honnan ered és hogyan fejlődött az évek során, ugyanakkor a diskurzusok során kevesen helyezik bele Guruji rendszerét az Astanga (nyolcágú) jóga egészébe, ami egyike a hat orthodox indiai filozófiai irányzatnak (darshana).
+Gyakran kerül érdeklődés középpontjába Pattabhi Jois ászana rendszere: honnan ered és hogyan fejlődött az évek során, ugyanakkor a diskurzusok során kevesen helyezik bele Guruji rendszerét az **astanga** (nyolcágú) **jóga** egészébe, ami egyike a hat orthodox indiai filozófiai irányzatnak (darshana).
 
-Guruji mindig azt mondta, hogy amit ő tanít, az az eredeti Patanjali jóga.
+Guruji mindig azt mondta, hogy amit ő tanít, az az eredeti **Patandzsali jóga**.
 
 És hogy miből következik mindez?
 
-Napjaink tudósai úgy vélik , hogy az ászanagyakorlás elsőként a Hatha jóga irodalmában – mint a Hatha Yoga Pradipika vagy a Gheranda Samhita – nagyjából 1000 évvel ezelőtt jelent meg, éppen ezért merül fel Patthabi Jois ászana-rendszerével kapcsolatban a kérdés, hogy az vajon ősinek vagy inkább modernnek tekinthető, esetleg egy ősi gyakorlás modern verziójának.1
+Napjaink tudósai úgy vélik, hogy az ászanagyakorlás elsőként a Hatha jóga irodalmában – mint a Hatha Jóga Pradipika vagy a Gheranda Samhita – nagyjából 1000 évvel ezelőtt jelent meg, éppen ezért merül fel Patthabi Jois ászana rendszerével kapcsolatban a kérdés, hogy az vajon ősinek vagy inkább modernnek tekinthető, esetleg egy ősi gyakorlás modern verziójának.1
 
-Az indológusok általánosan úgy gondolják, hogy Patanjali a Hatha jóga szövegeinek megjelenése előtt mintegy 1000 évvel élt, így Guruji állítása Patanjali eredeti tanításaival kapcsolatban a nyugati tudósok szemében kissé ellentmondásosnak tűnik.
+Az indológusok általánosan úgy gondolják, hogy Patanjali a hatha jóga szövegeinek megjelenése előtt mintegy 1000 évvel élt, így Guruji állítása Patandzsali eredeti tanításaival kapcsolatban a nyugati tudósok szemében kissé ellentmondásosnak tűnik.
 
-Guruji a tradicionális Patanjali jógáról, gurujától, Krishnamacharya-tól tanult, aki a Yoga Korunta bölcsességét adta tovább tanítványának:
+Guruji a tradicionális Patandzsalii jógáról, gurujától, Krishnamacharya-tól tanult, aki a Yoga Korunta bölcsességét adta tovább tanítványának:
 
-> “Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Yoga Koruntát) gurkhali nyelven. Ez a terjedelmes mű Patanjali Jóga szútráját dolgozta ki aprólékosan, és látta el kommentárokkal, amikre a Szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patanjali Jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.” 2
+> “Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Jóga koruntát) gurkhali nyelven. Ez a terjedelmes mű Patandzsali jóga szútráját dolgozta ki aprólékosan és látta el kommentárokkal, amikre a szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patandzsali jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.” 2
 
-Guruji szerint a Yoga Koruntában volt először megemlítve a drishti, bandha, vinyasa – mint az astanga jóga “alapelemei” –  és itt lettek először csoportosítva az ászanák azok terápiás, tisztító vagy erősítő jellegüknél fogva.
+Guruji szerint a Yoga Koruntában volt először megemlítve a drishti, bandha, vinyásza – mint az astanga jóga “alapelemei” –  és itt lettek először csoportosítva az ászanák azok terápiás, tisztító vagy erősítő jellegüknél fogva.
 
-Tudomásunk szerint a Yoga Koruntán kívül nincs egyetlen egy másik szöveg sem, amelyik megmagyarázná az ászanák szerepét és gyakorlását.  Bár maga a mű – úgy tűnik, hogy – elveszett, tanításainak bölcsessége Krishnamacharya és tanítványain keresztül továbbra is virágzik a Vini jóga, Astanga Vinyásza jóga és az Iyengar jóga segítségével.
+Tudomásunk szerint a Yoga Koruntán kívül nincs egyetlen egy másik szöveg sem, amelyik megmagyarázná az ászanák szerepét és gyakorlását.  Bár maga a mű – úgy tűnik, hogy – elveszett, tanításainak bölcsessége Krishnamacharya és tanítványain keresztül továbbra is virágzik a Vini jóga, Astanga vinyásza jóga és az Iyengar jóga segítségével.
 
-Létezett ugyanakkor néhány más, korai szöveg, ami ászanákkal foglalkozott – mint Nammalovar Tirumantiram-ja ( 5. Század) vagy a Yoga Yajnavalkyasamhita ( Kr.e. 2 – Kr. u 4 század). Ezeknek a szövegeknek a fordítása azonban csak nemrég látott napvilágot, keletkezésük ideje pedig vitatott. Nemrégiben az Indus-völgyi civilizációk tanulmányozása céljából folytatott régészeti ásatások közben találtak jóga ászanákat ábrázoló, mintegy 4000 éves pecséteket is, így már nem meggyőző az ászanák felbukkanását a Hatha jóga középkorból származó szövegeiben keresni.
+Létezett ugyanakkor néhány más, korai szöveg, ami ászanákkal foglalkozott – mint Nammalovar Tirumantiram-ja ( 5. század) vagy a Yoga Yajnavalkyasamhita ( Kr.e. 2 – Kr. u 4 század). Ezeknek a szövegeknek a fordítása azonban csak nemrég látott napvilágot, keletkezésük ideje pedig vitatott. Nemrégiben az Indus-völgyi civilizációk tanulmányozása céljából folytatott régészeti ásatások közben találtak jóga ászanákat ábrázoló, mintegy 4000 éves pecséteket is, így már nem meggyőző az ászanák felbukkanását a Hatha jóga középkorból származó szövegeiben keresni.
 
-Az ászanák mindig is a hindu kultúra részei voltak. Egy társadalomban, amelyik székek helyett mindig a földön ült, különféle ülő pózok természetesen adaptálódtak. Különböző ászanákat adaptálódtak a  különböző tevékenységekhez – például a “baddha konasana” cipészpóz néven is ismert – ugyanis ilyen pozícióban készítették és javították a cipészek a cipőket – lábfejeiket használva munkapadként. Ami szintén ismeretes, más pózok alkalmasak meditációra és légzőgyakorlatok (pranayama) végzésére, zenélésre vagy éppen a különböző rituálék elvégzésére – ezek a hindu kultúrában már időtlen idők óta használatosak voltak. Éppen ezek miatt tűnik furcsának bármilyen szövegben ászanák után kutatni, vagy valamelyik szövegből származtatni őket. Egy kicsit olyan, mintha azt mondanánk, hogy zene sem létezett mindaddig, amíg valaki el nem készítette az első kottát.
+Az ászanák mindig is a hindu kultúra részei voltak. Egy társadalomban, amelyik székek helyett mindig a földön ült, különféle ülő pózok természetesen adaptálódtak. Különböző ászanákat adaptálódtak a  különböző tevékenységekhez – például a “baddha konasana” cipészpóz néven is ismert – ugyanis ilyen pozícióban készítették és javították a cipészek a cipőket – lábfejeiket használva munkapadként. Ami szintén ismeretes, más pózok alkalmasak meditációra és légzőgyakorlatok (pránajáma) végzésére, zenélésre vagy éppen a különböző rituálék elvégzésére – ezek a hindu kultúrában már időtlen idők óta használatosak voltak. Éppen ezek miatt tűnik furcsának bármilyen szövegben ászanák után kutatni, vagy valamelyik szövegből származtatni őket. Egy kicsit olyan, mintha azt mondanánk, hogy zene sem létezett mindaddig, amíg valaki el nem készítette az első kottát.
 
-De nem csupán az ászana volt az élet része:  a jóga és az ayurvéda tudománya Dél-Indiában szorosan összeolvadt. Krishnamacharya és Guruji egyaránt testvértudományoknak nevezte őket, és mindketten elmélyülten kutatták ezek kapcsolatát, összefüggéseit. Krishnamacharya a Dél-Indiai bölcsességek forrásához kapcsolódott, Tamil bölcsek és a Nath jógik vérvonalához.
+De nem csupán az ászana volt az élet része:  a jóga és az ajurvéda tudománya Dél-Indiában szorosan összeolvadt. Krishnamacharya és Guruji egyaránt testvértudományoknak nevezte őket, és mindketten elmélyülten kutatták ezek kapcsolatát, összefüggéseit. Krishnamacharya a Dél-Indiai bölcsességek forrásához kapcsolódott, Tamil bölcsek és a Nath jógik vérvonalához.
 
 De félretéve a kor és eredet kérdését, észrevehetjük, hogy eltávolodtunk egy sokkal fontosabb kérdéstől:
 
-Az Astanga jóga Hatha jóga, vagy a Patandzsali jóga valami egészen más?
+Az astanga jóga, hatha jóga, vagy a Patandzsali jóga valami egészen más?
 
 Norman Allen:
 
-> “…ha az emberek egyszerűen Hatha jógának hívják, az rosszabb, mintha Astanga jógának nevezik, sokkal rosszabb. Felmerül a kérdés: nevezhetjük-e a Patanjali jógát rendszernek még akkor is, ha egy konkrét ászana leírásáról sincs benne szó ?!)”
-> “…a Hatha jógik különböző gyakorlatokat végeztek, hogy testüket a felszabadulás eszközeként tudják használni.Kristály tisztaságú és keménységű test elérésére törekedtek. Át akarták alakítani a testüket abból a célból, hogy az lelkük valódi hordozó-eszközévé váljon. Láttuk őket Pondicherryben : átvágták az ínszalagot a nyelvük alatt,  hogy megakadályozzák a szómának, az “élet nektárjának” lecsepegését és elpazarlódását. Extrém módon alkalmazták a brahmacharya-t, például nem mehettek és üríthették ki beleiket bármikor – ez Hatha jóga. A Nap és a Hold, Shiva és Shakti összeolvadása; ez az, amit láttunk. Valószínűleg nem foglalkoztak volna a hatha jógával, ha nem tudták volna, mi is az. „3
+> “…ha az emberek egyszerűen hatha jógának hívják, az rosszabb, mintha astanga jógának nevezik, sokkal rosszabb. Felmerül a kérdés: nevezhetjük-e a Patandzsali jógát rendszernek még akkor is, ha egy konkrét ászana leírásáról sincs benne szó ?!”
+> “…a hatha jógik különböző gyakorlatokat végeztek, hogy testüket a felszabadulás eszközeként tudják használni. Kristály tisztaságú és keménységű test elérésére törekedtek. Át akarták alakítani a testüket abból a célból, hogy az lelkük valódi hordozó-eszközévé váljon. Láttuk őket Pondicherryben: átvágták az ínszalagot a nyelvük alatt,  hogy megakadályozzák a szómának, az “élet nektárjának” lecsepegését és elpazarlódását. Extrém módon alkalmazták a brahmacsarja-t, például nem mehettek és üríthették ki beleiket bármikor – ez hatha jóga. A Nap és a Hold, Shiva és Shakti összeolvadása; ez az, amit láttunk. Valószínűleg nem foglalkoztak volna a hatha jógával, ha nem tudták volna, mi is az. „3
 
-Guruji a Hatha jógára Észak-Indiai jógaként tekintett, és teljes mértékben lebeszélt minket arról, hogy azzal foglalkozzunk, finoman célozva arra, hogy némely gyakorlat inkább visszahúzó hatású. A hatha jóga az ászanákon és a légzőgyakorlatokon kívül mudrákat (kéztartásokat) és kriyákat (tisztító célzatú gyakorlatokat) használ: például a saját vizelet elfogyasztását, a test hamuval való befedését, a nyelv alatti ínszalag átvágását stb. (lásd: Hatha Jóga Pradipika és Gheranda Samhita)
+Guruji a hatha jógára Észak-Indiai jógaként tekintett, és teljes mértékben lebeszélt minket arról, hogy azzal foglalkozzunk, finoman célozva arra, hogy némely gyakorlat inkább visszahúzó hatású. A hatha jóga az ászanákon és a légzőgyakorlatokon kívül mudrákat (kéztartásokat) és krijákat (tisztító célzatú gyakorlatokat) használ: például a saját vizelet elfogyasztását, a test hamuval való befedését, a nyelv alatti ínszalag átvágását stb. (lásd: Hatha Jóga Pradipika és Gheranda Samhita)
 
-Szóval mégis mi az ászana szerepe az Astanga jógában – mi az, ami annyira megkülönbözteti a Hatha jógától?
+Szóval mégis mi az ászana szerepe az astanga jógában – mi az, ami annyira megkülönbözteti a hatha jógától?
 
 Jógikus szókincsünk Hatha jóga szövegekből származik – nádik, csakrák, kundalini – ezek egytől egyig Hatha jóga fogalmak. A Hatha jógi durva fizikai és szubtilis testének tantrikus, eksztatikus megtapasztalására törekszik a különböző gyakorlatokon – például ászanákon – keresztül, és végső célja nem más, mint megszabadítania önmagát mindennemű kötődéstől és összeolvadni a magasabb tudatossággal.
 
@@ -164,6 +164,7 @@ Amit Gurujitól tanultunk, saját bőrünkön tapasztaltuk – ez volt tulajdonk
 Az astanga jóga sokkal több, mint pusztán ászanák egymást követő sorozata vagy a hatha jóga továbbfejlesztése, de ahhoz , hogy igazából a szívéig érjünk, odaadó gyakorlásra és tanulásra van szükség – hosszú időn keresztül, megszakítások nélkül. 
 
 Felhasznált irodalom:
+
 1. Ezt a kérdést először nyomtatásban N. Sjoman tette fel a Yoga Tradition of the Mysore Palace c. művében és nemrégiben újra nyomtatásba került Mark Singleton Yoga Body: The Origins of Modern Posture c szövegében
 2. The King and the Young Man – interjú T Krishnamacharya-val
 3. Guruji: a Portrait of Sri K Pattabhi Jois through the Eyes of his Students
