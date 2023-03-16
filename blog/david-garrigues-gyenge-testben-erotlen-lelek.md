@@ -38,8 +38,7 @@ Minden, amit eddig leírtam, rám is igaz volt. A jóga csak lassan, intenzív f
 Az ászanák világában átadom magam a csavarás, az előrehajlás, a hátrahajlás és egyéb technikai tanulási folyamatnak. Ahhoz, hogy ezeket magas szinte művelhessem úgy, hogy sokkal több érzés, mint szakértés legyen benne, nem csak a fizikai erőmre van szükség, hanem arra is, hogy alaposan igénybe vegyem az agyamat, az idegrendszeremet, az intelligenciámat, a szívemet és a koncentráció általi mentális erőmet.
 Tehát nem csak egyszerűen hajlítok és csavarok, azért hogy erősödjek és rugalmasabbá váljak, vagy a gyakorlás kedvéért; de azért is, hogy kiélesítsem, hogy a megfelelő helyre irányítsam az érzékeimet, hogy belakjam a testemet, hogy élvezhessem a „Teljes Képet”, amely a „Nagy Alkotó” kifinomult látásmódjában él, amely megmutatja, milyen csodálatos a szellem.
 
-**Forrás:** [http://www.elephantjournal.com/2012/04/weak-bodyweak-mind-david-garrigues/](url)
-
+**Forrás:** [http://www.elephantjournal.com/2012/04/weak-bodyweak-mind-david-garrigues/](url)\
 **Fordította:** Fazekas Gyöngyi
 
 
