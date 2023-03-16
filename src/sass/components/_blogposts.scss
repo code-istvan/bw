@@ -80,7 +80,13 @@ article {
 .blog-posts-body-style {
   margin-top: 80px;
 
-  p {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     white-space: pre-line;
     margin-bottom: 1rem;
   }
