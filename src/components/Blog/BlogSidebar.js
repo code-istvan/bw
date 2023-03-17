@@ -8,6 +8,10 @@ import "../../sass/components/_blogSidebar.scss"
 const BlogSidebar = () => {
   const mostPopularPosts = [
     {
+      link: "/blog/david-garrigues-gyenge-testben-erotlen-lelek/",
+      title: "David Garrigues: Gyenge testben erőtlen lélek",
+    },
+    {
       link: "/blog/az-astanga-vinyasza-joga-nem-hatha-joga",
       title: "Az astanga vinyásza jóga nem hatha jóga",
     },

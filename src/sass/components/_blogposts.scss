@@ -94,9 +94,12 @@ article {
 
 @media screen and (max-width: 768px) {
   .hide-blogsidebar,
-  .vertical-separator {
-    display: none;
+  .blog-posts-wrapper {
+    .vertical-separator {
+      display: none;
+    }
   }
+
   .blog-posts-meta-first-line {
     flex-direction: column;
     justify-content: flex-start;
