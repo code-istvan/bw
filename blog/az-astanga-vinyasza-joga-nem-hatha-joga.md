@@ -14,13 +14,13 @@ Guruji mindig azt mondta, hogy amit ő tanít, az az eredeti **Patandzsali jóga
 
 És hogy miből következik mindez?
 
-Napjaink tudósai úgy vélik, hogy az ászanagyakorlás elsőként a Hatha jóga irodalmában – mint a Hatha Jóga Pradipika vagy a Gheranda Samhita – nagyjából 1000 évvel ezelőtt jelent meg, éppen ezért merül fel Patthabi Jois ászana rendszerével kapcsolatban a kérdés, hogy az vajon ősinek vagy inkább modernnek tekinthető, esetleg egy ősi gyakorlás modern verziójának.    [^]
+Napjaink tudósai úgy vélik, hogy az ászanagyakorlás elsőként a Hatha jóga irodalmában – mint a Hatha Jóga Pradipika vagy a Gheranda Samhita – nagyjából 1000 évvel ezelőtt jelent meg, éppen ezért merül fel Patthabi Jois ászana rendszerével kapcsolatban a kérdés, hogy az vajon ősinek vagy inkább modernnek tekinthető, esetleg egy ősi gyakorlás modern verziójának.    [^1]
 
 Az indológusok általánosan úgy gondolják, hogy Patanjali a hatha jóga szövegeinek megjelenése előtt mintegy 1000 évvel élt, így Guruji állítása Patandzsali eredeti tanításaival kapcsolatban a nyugati tudósok szemében kissé ellentmondásosnak tűnik.
 
 Guruji a tradicionális Patandzsali jógáról, gurujától, Krishnamacharya-tól tanult, aki a Yoga Korunta bölcsességét adta tovább tanítványának:
 
-> “Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Jóga koruntát) gurkhali nyelven. Ez a terjedelmes mű Patandzsali jóga szútráját dolgozta ki aprólékosan és látta el kommentárokkal, amikre a szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patandzsali jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.”[^2] [^bignote]
+> “Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Jóga koruntát) gurkhali nyelven. Ez a terjedelmes mű Patandzsali jóga szútráját dolgozta ki aprólékosan és látta el kommentárokkal, amikre a szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patandzsali jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.”[^2] 
 
 Guruji szerint a Yoga Koruntában volt először megemlítve a drishti, bandha, vinyásza – mint az astanga jóga “alapelemei” –  és itt lettek először csoportosítva az ászanák azok terápiás, tisztító vagy erősítő jellegüknél fogva.
 
@@ -165,7 +165,7 @@ Az astanga jóga sokkal több, mint pusztán ászanák egymást követő sorozat
 
 Felhasznált irodalom:
 
-1. Ezt a kérdést először nyomtatásban N. Sjoman tette fel a Yoga Tradition of the Mysore Palace c. művében és nemrégiben újra nyomtatásba került Mark Singleton Yoga Body: The Origins of Modern Posture c szövegében
+[^1] Ezt a kérdést először nyomtatásban N. Sjoman tette fel a Yoga Tradition of the Mysore Palace c. művében és nemrégiben újra nyomtatásba került Mark Singleton Yoga Body: The Origins of Modern Posture c szövegében
 2. The King and the Young Man – interjú T Krishnamacharya-val
 3. Guruji: a Portrait of Sri K Pattabhi Jois through the Eyes of his Students
 4. The Yoga of T Krisnamacharya – TKV Desikachar
