@@ -14,11 +14,11 @@ Guruji mindig azt mondta, hogy amit ő tanít, az az eredeti **Patandzsali jóga
 
 És hogy miből következik mindez?
 
-Napjaink tudósai úgy vélik, hogy az ászanagyakorlás elsőként a Hatha jóga irodalmában – mint a Hatha Jóga Pradipika vagy a Gheranda Samhita – nagyjából 1000 évvel ezelőtt jelent meg, éppen ezért merül fel Patthabi Jois ászana rendszerével kapcsolatban a kérdés, hogy az vajon ősinek vagy inkább modernnek tekinthető, esetleg egy ősi gyakorlás modern verziójának.1
+Napjaink tudósai úgy vélik, hogy az ászanagyakorlás elsőként a Hatha jóga irodalmában – mint a Hatha Jóga Pradipika vagy a Gheranda Samhita – nagyjából 1000 évvel ezelőtt jelent meg, éppen ezért merül fel Patthabi Jois ászana rendszerével kapcsolatban a kérdés, hogy az vajon ősinek vagy inkább modernnek tekinthető, esetleg egy ősi gyakorlás modern verziójának.[^1]
 
 Az indológusok általánosan úgy gondolják, hogy Patanjali a hatha jóga szövegeinek megjelenése előtt mintegy 1000 évvel élt, így Guruji állítása Patandzsali eredeti tanításaival kapcsolatban a nyugati tudósok szemében kissé ellentmondásosnak tűnik.
 
-Guruji a tradicionális Patandzsalii jógáról, gurujától, Krishnamacharya-tól tanult, aki a Yoga Korunta bölcsességét adta tovább tanítványának:
+Guruji a tradicionális Patandzsali jógáról, gurujától, Krishnamacharya-tól tanult, aki a Yoga Korunta bölcsességét adta tovább tanítványának:
 
 > “Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Jóga koruntát) gurkhali nyelven. Ez a terjedelmes mű Patandzsali jóga szútráját dolgozta ki aprólékosan és látta el kommentárokkal, amikre a szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patandzsali jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.” 2
 
