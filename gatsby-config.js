@@ -86,7 +86,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-remark`,
     `gatsby-plugin-image`,
     "gatsby-plugin-breakpoints",
     "gatsby-plugin-netlify",
@@ -148,7 +147,7 @@ module.exports = {
               footnoteBackRefAnchorStyle: `text-decoration: none;`,
               //use "front" for Wikipedia style ^ links
               footnoteBackRefInnerTextStartPosition: "front",
-              useFootnoteMarkerText: false, // Defaults to false
+              useFootnoteMarkerText: true, // Defaults to false
               useCustomDivider: "<hr/><strong>References:</strong>", // Defaults to <hr/>
             },
           },
