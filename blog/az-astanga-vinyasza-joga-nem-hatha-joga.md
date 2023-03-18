@@ -12,11 +12,11 @@ Gyakran kerül érdeklődés középpontjába Pattabhi Jois ászana rendszere: h
 
 Guruji mindig azt mondta, hogy amit ő tanít, az az eredeti **Patandzsali jóga**.
 
-És hogy miből következik mindez?
+És hogy miből következik mindez?[^ this sisasqswq]
 
 Napjaink tudósai úgy vélik, hogy az ászanagyakorlás elsőként a Hatha jóga irodalmában – mint a Hatha Jóga Pradipika vagy a Gheranda Samhita – nagyjából 1000 évvel ezelőtt jelent meg, éppen ezért merül fel Patthabi Jois ászana rendszerével kapcsolatban a kérdés, hogy az vajon ősinek vagy inkább modernnek tekinthető, esetleg egy ősi gyakorlás modern verziójának.   [^1]
 
-Az indológusok általánosan úgy gondolják, hogy Patanjali a hatha jóga szövegeinek megjelenése előtt mintegy 1000 évvel élt, így Guruji állítása Patandzsali eredeti tanításaival kapcsolatban a nyugati tudósok szemében kissé ellentmondásosnak tűnik.^[gqwudshbqwkj]
+Az indológusok általánosan úgy gondolják, hogy Patanjali a hatha jóga szövegeinek megjelenése előtt mintegy 1000 évvel élt, így Guruji állítása Patandzsali eredeti tanításaival kapcsolatban a nyugati tudósok szemében kissé ellentmondásosnak tűnik.
 
 Guruji a tradicionális Patandzsali jógáról, gurujától, Krishnamacharya-tól tanult, aki a Yoga Korunta bölcsességét adta tovább tanítványának:
 
@@ -166,7 +166,8 @@ Az astanga jóga sokkal több, mint pusztán ászanák egymást követő sorozat
 Felhasznált irodalom:
 
 [^1]: Ezt a kérdést először nyomtatásban N. Sjoman tette fel a Yoga Tradition of the Mysore Palace c. művében és nemrégiben újra nyomtatásba került Mark Singleton Yoga Body: The Origins of Modern Posture c szövegében
-2. The King and the Young Man – interjú T Krishnamacharya-val
+
+[^2]: The King and the Young Man – interjú T Krishnamacharya-val
 3. Guruji: a Portrait of Sri K Pattabhi Jois through the Eyes of his Students
 4. The Yoga of T Krisnamacharya – TKV Desikachar
 5. Gaiam Life website
