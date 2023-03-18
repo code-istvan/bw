@@ -147,7 +147,7 @@ module.exports = {
               footnoteBackRefAnchorStyle: `text-decoration: none;`,
               //use "front" for Wikipedia style ^ links
               footnoteBackRefInnerTextStartPosition: "front",
-              useFootnoteMarkerText: true, // Defaults to false
+              useFootnoteMarkerText: false, // Defaults to false
               useCustomDivider: "<hr/><strong>References:</strong>", // Defaults to <hr/>
             },
           },
