@@ -165,7 +165,7 @@ Az astanga jóga sokkal több, mint pusztán ászanák egymást követő sorozat
 
 Felhasznált irodalom:
 
-[^1] Ezt a kérdést először nyomtatásban N. Sjoman tette fel a Yoga Tradition of the Mysore Palace c. művében és nemrégiben újra nyomtatásba került Mark Singleton Yoga Body: The Origins of Modern Posture c szövegében
+[^1]: Ezt a kérdést először nyomtatásban N. Sjoman tette fel a Yoga Tradition of the Mysore Palace c. művében és nemrégiben újra nyomtatásba került Mark Singleton Yoga Body: The Origins of Modern Posture c szövegében
 2. The King and the Young Man – interjú T Krishnamacharya-val
 3. Guruji: a Portrait of Sri K Pattabhi Jois through the Eyes of his Students
 4. The Yoga of T Krisnamacharya – TKV Desikachar
