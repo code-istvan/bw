@@ -76,6 +76,5 @@ A már idézett Weidinger atya a következőképpen számol be a Kombucha hatás
 **Szerkesztette:** Dr. Kővári Zsuzsa
 **Szakértő:** Molnár Réka
 
-Források:\
-dietless.hu/kombucha-teagomba/\
-docplayer.hu/1333124-Kombucha-a-csodalatos-gomba
+**Források:** Dietless - [A kombucha hatásai és fogyasztása](url)https://dietless.hu/kombucha-teagomba/ 
+[KOMBUCHA A CSODÁLATOS GOMBA](url)https://docplayer.hu/1333124-Kombucha-a-csodalatos-gomba.html
