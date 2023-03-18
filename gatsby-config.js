@@ -138,6 +138,20 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: { maxWidth: 1024, withWebp: true },
           },
+          {
+            resolve: `gatsby-remark-footnotes`,
+            options: {
+              footnoteBackRefPreviousElementDisplay: "inline",
+              footnoteBackRefDisplay: "inline",
+              footnoteBackRefInnerText: "^", // Defaults to: "↩"
+              //use if you want the Wikipedia style ^ link without an underline beneath it
+              footnoteBackRefAnchorStyle: `text-decoration: none;`,
+              //use "front" for Wikipedia style ^ links
+              footnoteBackRefInnerTextStartPosition: "front",
+              useFootnoteMarkerText: false, // Defaults to false
+              useCustomDivider: "<hr/><strong>References:</strong>", // Defaults to <hr/>
+            },
+          },
         ],
       },
     },

@@ -30,7 +30,7 @@ export default function Blog({ pageContext, data }) {
         <div className="row blog--desktop--container">
           <StaticImage
             className="container-fluid blog-hero-image hero-big-image"
-            src="../../images/blog_hero.jpg"
+            src="../../images/blog_hero_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
