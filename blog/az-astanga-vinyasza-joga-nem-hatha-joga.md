@@ -14,7 +14,7 @@ Guruji mindig azt mondta, hogy amit ő tanít, az az eredeti **Patandzsali jóga
 
 És hogy miből következik mindez?
 
-Napjaink tudósai úgy vélik, hogy az ászanagyakorlás elsőként a Hatha jóga irodalmában – mint a Hatha Jóga Pradipika vagy a Gheranda Samhita – nagyjából 1000 évvel ezelőtt jelent meg, éppen ezért merül fel Patthabi Jois ászana rendszerével kapcsolatban a kérdés, hogy az vajon ősinek vagy inkább modernnek tekinthető, esetleg egy ősi gyakorlás modern verziójának.     [^1]
+Napjaink tudósai úgy vélik, hogy az ászanagyakorlás elsőként a Hatha jóga irodalmában – mint a Hatha Jóga Pradipika vagy a Gheranda Samhita – nagyjából 1000 évvel ezelőtt jelent meg, éppen ezért merül fel Patthabi Jois ászana rendszerével kapcsolatban a kérdés, hogy az vajon ősinek vagy inkább modernnek tekinthető, esetleg egy ősi gyakorlás modern verziójának.    [^1]
 
 Az indológusok általánosan úgy gondolják, hogy Patanjali a hatha jóga szövegeinek megjelenése előtt mintegy 1000 évvel élt, így Guruji állítása Patandzsali eredeti tanításaival kapcsolatban a nyugati tudósok szemében kissé ellentmondásosnak tűnik.
 
