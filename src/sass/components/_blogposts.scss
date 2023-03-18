@@ -23,72 +23,11 @@
   gap: 14px;
 }
 
-// .meta {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: flex-start;
-//   padding: 0px 0px 4px;
-//   gap: 4px;
-// }
-
-// .meta-first-line {
-//   margin-bottom: 9px;
-// }
-
-// .meta-first-line,
-// .meta-second-line {
-//   width: 100%;
-//   display: flex;
-//   flex-direction: row;
-//   align-items: center;
-//   justify-content: space-between;
-//   .tag-button {
-//     p {
-//       margin-right: 0;
-//     }
-//   }
-// }
-
 .blog-post-image {
   margin-top: 60px;
   img {
     width: 100%;
     height: auto;
-  }
-}
-
-article {
-  li {
-    display: list-item;
-  }
-  color: white;
-  blockquote {
-    background-color: $color-shades-gray;
-    border-left: 8px solid $color-brand-orange;
-    color: black;
-    padding: 12px 20px;
-    margin-left: 0;
-    margin-right: 0;
-    width: fit-content;
-    p {
-      margin-bottom: 0 !important;
-    }
-  }
-}
-
-.blog-posts-body-style {
-  margin-top: 80px;
-
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    white-space: pre-line;
-    margin-bottom: 1rem;
   }
 }
 
@@ -133,5 +72,62 @@ article {
   }
   .blog-posts-body-style {
     margin-top: 48px;
+  }
+}
+
+// Blog posts body style
+.blog-posts-body-style {
+  margin-top: 80px;
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    white-space: pre-line;
+    margin-bottom: 1rem;
+  }
+}
+
+article {
+  // li {
+  //   display: list-item;
+  // }
+  ol {
+    list-style: none;
+    counter-reset: item;
+    font-family: $font-family-secondary;
+    font-size: 1rem !important;
+    font-weight: $font-weight-regular;
+  }
+  li {
+    counter-increment: item;
+    margin-bottom: 10px;
+  }
+  li:before {
+    margin-right: 10px;
+    content: counter(item);
+    width: 1.4em;
+    height: 1.4em;
+    background-color: $color-shades-white;
+    color: $color-shades-black;
+    font-family: $font-family-secondary;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block;
+  }
+  color: white;
+  blockquote {
+    border-left: 8px solid $color-brand-orange;
+    padding: 12px 20px;
+    margin-left: 0;
+    margin-right: 0;
+    width: fit-content;
+    p {
+      margin-bottom: 0 !important;
+      font-weight: 900;
+    }
   }
 }
