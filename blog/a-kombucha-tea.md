@@ -67,8 +67,7 @@ Van egy kedves történet egy japán hölgyről, aki egyszer Kirgiziába látoga
 
 A már idézett Weidinger atya a következőképpen számol be a Kombucha hatásairól:
 
-> Elsőként a kombucha a lelkünkre, az érzéseinkre hat. Boldognak fogjuk érezni magunkat, ellazultnak és elégedettnek. Ezután a tudatunk reagál, felfogóképességünk javul. Könnyebbnek találjuk a koncentrálást, a döntések meghozatalát. Kevésbé valószínű, hogy elfelejtünk fontos dolgokat. Hatni fog a\
-> szellemi aktivitásunkra, és az intelligenciánkra. Utoljára, de nem utolsósorban a testünk reagál.
+> Elsőként a kombucha a lelkünkre, az érzéseinkre hat. Boldognak fogjuk érezni magunkat, ellazultnak és elégedettnek. Ezután a tudatunk reagál, felfogóképességünk javul. Könnyebbnek találjuk a koncentrálást, a döntések meghozatalát. Kevésbé valószínű, hogy elfelejtünk fontos dolgokat. Hatni fog a szellemi aktivitásunkra, és az intelligenciánkra. Utoljára, de nem utolsósorban a testünk reagál.
 
 Összességében elmondhatjuk, hogy a kombucha számos módon hozzájárul ahhoz, hogy a testi és lelki egészségünket támogassa. Fontos azonban hangsúlyozni, hogy a kombucha csak hozzájárul az egészséges életmódhoz, de nem helyettesíti azt. A fent felsorolt pozitív hatásokra a rendszeres testmozgás és az egészséges életmód mellett számíthatunk, astanga gyakorlás mellé például kifejezetten ajánlott.
 
