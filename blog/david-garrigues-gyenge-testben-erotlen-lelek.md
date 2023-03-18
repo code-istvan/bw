@@ -5,7 +5,7 @@ description: Sri K. Pattabhi Jois szerint az Önvaló nem ismerhető meg a gyeng
 author: István
 tags:
   - jógaelmélet
-date: 2023-03-16T13:22:14.675Z
+date: 2014-09-30T13:22:14.675Z
 thumbnail: /blogpostimages/dg.jpg.webp
 ---
 ### Sri K. Pattabhi Jois gyakran emlegette mára híressé vált mondását, miszerint “gyenge test, gyenge elme”, ugyanakkor szeretett idézni a jóga szentírásból is, amelyben az áll, hogy az “Önvaló nem ismerhető meg a gyengék által”.
