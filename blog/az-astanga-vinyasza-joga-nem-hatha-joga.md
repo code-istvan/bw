@@ -20,7 +20,7 @@ Az indológusok általánosan úgy gondolják, hogy Patanjali a hatha jóga szö
 
 Guruji a tradicionális Patandzsali jógáról, gurujától, Krishnamacharya-tól tanult, aki a Yoga Korunta bölcsességét adta tovább tanítványának:
 
-> “Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Jóga koruntát) gurkhali nyelven. Ez a terjedelmes mű Patandzsali jóga szútráját dolgozta ki aprólékosan és látta el kommentárokkal, amikre a szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patandzsali jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.” 2
+> “Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Jóga koruntát) gurkhali nyelven. Ez a terjedelmes mű Patandzsali jóga szútráját dolgozta ki aprólékosan és látta el kommentárokkal, amikre a szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patandzsali jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.” [^2] [^bignote]
 
 Guruji szerint a Yoga Koruntában volt először megemlítve a drishti, bandha, vinyásza – mint az astanga jóga “alapelemei” –  és itt lettek először csoportosítva az ászanák azok terápiás, tisztító vagy erősítő jellegüknél fogva.
 
