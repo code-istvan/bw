@@ -6,18 +6,18 @@ import NavbarMenu from "./NavbarMenu"
 import Hamburger from "./Hamburger"
 import "../../sass/components/_navigation.scss"
 
-export default function Navigation() {
-  const [menuOpen, setMenuOpen] = useState(false)
+export default function Navigation({ isOpen = false, handleOpenMenu }) {
+  // const [menuOpen, setMenuOpen] = useState(isOpen)
   const breakpoints = useBreakpoint()
+  // const menuOpenHandler = () => {
+  //   setMenuOpen(!menuOpen)
+  // }
 
-  const menuOpenHandler = () => {
-    setMenuOpen(!menuOpen)
-  }
-
+  console.log("something", isOpen)
   useEffect(() => {
     const html = document.querySelector("html")
     const body = document.querySelector("body")
-    if (menuOpen) {
+    if (isOpen) {
       html.style.overflow = "hidden"
       body.style.height = "100%"
       body.style.margin = "0"
@@ -26,11 +26,11 @@ export default function Navigation() {
       body.style.height = "auto"
       body.style.margin = "inital"
     }
-  }, [menuOpen])
+  }, [isOpen])
 
   useEffect(() => {
     if (!breakpoints.sm) {
-      setMenuOpen(false)
+      handleOpenMenu(false)
     }
   }, [breakpoints])
 
@@ -41,11 +41,11 @@ export default function Navigation() {
           <LogoBW />
           <LogoBWtext />
         </a>
-        <div onClick={menuOpenHandler}>
-          <Hamburger open={menuOpen} />
+        <div onClick={handleOpenMenu}>
+          <Hamburger open={isOpen} />
         </div>
       </div>
-      <NavbarMenu open={menuOpen} setOpen={setMenuOpen} />
+      <NavbarMenu open={isOpen} setOpen={handleOpenMenu} />
     </nav>
   )
 }

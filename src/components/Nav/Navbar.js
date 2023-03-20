@@ -4,7 +4,7 @@ import ProgressBar from "../ProgressBar"
 import { useScrollPosition } from "../../hooks/useScrollPosition"
 import "../../sass/components/_navbar.scss"
 
-const Navbar = ({ articleProperties }) => {
+const Navbar = ({ articleProperties, isOpen, handleOpenMenu }) => {
   const navRef = React.useRef()
   var prevScroll = 0
   const [scroll, setScroll] = useState(0)
@@ -37,7 +37,7 @@ const Navbar = ({ articleProperties }) => {
   return (
     <>
       <div className="navbar_container fluid" ref={navRef}>
-        <Navigation />
+        <Navigation isOpen={isOpen} handleOpenMenu={handleOpenMenu} />
       </div>
       {articleProperties && scroll < 0 && (
         <ProgressBar scroll={scroll} articleProperties={articleProperties} />

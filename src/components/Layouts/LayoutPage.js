@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "../Nav/Navbar"
@@ -15,13 +15,17 @@ const LayoutPage = ({ children }) => {
   //     }
   //   }
   // `)
+
+  const [isOpenMenu, setIsOpenMenu] = useState(false)
+  const handleOpenMenu = () => setIsOpenMenu(!isOpenMenu)
+
   return (
     <>
-      <Navbar />
+      <Navbar isOpen={isOpenMenu} />
       <div className="container">
         <main>{children}</main>
       </div>
-      <Footer />
+      <Footer handleOpenMenu={handleOpenMenu} />
     </>
   )
 }

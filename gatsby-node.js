@@ -101,7 +101,11 @@ exports.createPages = ({ actions, graphql }) => {
       throw result.errors
     }
 
-    const schedule = result.data.allScheduleJson.nodes
+    const schedule = result.data.allScheduleJson.nodes.sort((a, b) => {
+      const dateA = new Date(a.date)
+      const dateB = new Date(b.date)
+      return dateA - dateB
+    })
     const schedulePerPage = 7
     const numPages = Math.ceil(schedule.length / schedulePerPage)
     Array.from({ length: numPages }).forEach((_, i) => {

@@ -8,7 +8,8 @@ import Carbonbadge from "react-carbonbadge"
 import { Link } from "gatsby"
 import "../../sass/components/_footer.scss"
 
-const Footer = () => {
+const Footer = ({ handleOpenMenu }) => {
+  console.log(handleOpenMenu)
   return (
     <footer>
       <div className="container-fluid footer bg-shades-darkGray mt-3">
@@ -31,7 +32,7 @@ const Footer = () => {
                 type="button"
                 buttonStyle="btn--secondary--outline"
                 onClick={() => {
-                  navigate("/hirlevel")
+                  handleOpenMenu()
                 }}
               >
                 Navigáció

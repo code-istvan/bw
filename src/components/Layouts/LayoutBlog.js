@@ -23,14 +23,21 @@ const LayoutBlog = ({ children, articleProperties }) => {
     }
   }, [])
 
+  const [isOpenMenu, setIsOpenMenu] = useState(false)
+  const handleOpenMenu = () => setIsOpenMenu(!isOpenMenu)
+  console.log(isOpenMenu)
   return (
     <>
       {!hasSeenMessage && <div>A FANCY MESSAGE</div>}
-      <Navbar articleProperties={articleProperties} />
+      <Navbar
+        articleProperties={articleProperties}
+        isOpen={isOpenMenu}
+        handleOpenMenu={handleOpenMenu}
+      />
       <div className="container">
         <main>{children}</main>
       </div>
-      <Footer />
+      <Footer handleOpenMenu={handleOpenMenu} />
     </>
   )
 }

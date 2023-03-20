@@ -14,7 +14,11 @@ const Orarend = ({ pageContext, data }) => {
   const prevPage =
     currentPage - 1 === 1 ? "/orarend" : (currentPage - 1).toString()
   const nextPage = (currentPage + 1).toString()
-  const schedule = data.allScheduleJson.edges
+  const schedule = data.allScheduleJson.edges.sort((a, b) => {
+    const dateA = new Date(a.node.date)
+    const dateB = new Date(b.node.date)
+    return dateA - dateB
+  })
 
   return (
     <Layout>
@@ -260,7 +264,7 @@ export default Orarend
 
 export const scheduleListQuery = graphql`
   query scheduleListQuery($skip: Int!, $limit: Int!) {
-    allScheduleJson(sort: { date: DESC }, limit: $limit, skip: $skip) {
+    allScheduleJson(limit: $limit, skip: $skip) {
       edges {
         node {
           date
