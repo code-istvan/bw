@@ -16,7 +16,7 @@ const LayoutBlog = ({ children, articleProperties }) => {
       if (typeof window !== "undefined") {
         localStorage.setItem("hasSeenMessage", true)
       }
-    }, 1000)
+    }, 10000)
 
     return () => {
       clearTimeout(timeoutId)
