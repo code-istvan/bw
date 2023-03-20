@@ -25,7 +25,6 @@ const LayoutBlog = ({ children, articleProperties }) => {
 
   const [isOpenMenu, setIsOpenMenu] = useState(false)
   const handleOpenMenu = () => setIsOpenMenu(!isOpenMenu)
-  console.log(isOpenMenu)
   return (
     <>
       {!hasSeenMessage && <div>A FANCY MESSAGE</div>}
