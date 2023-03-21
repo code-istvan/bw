@@ -98,7 +98,6 @@ article {
     font-family: $font-family-secondary;
     font-size: 1.1428571429rem !important;
     font-weight: $font-weight-regular;
-    margin-left: 40px;
 
     li {
       counter-increment: item;
@@ -123,7 +122,7 @@ article {
 
   ul {
     list-style: none;
-    margin-left: 80px;
+    margin-left: 40px;
     font-family: $font-family-secondary;
     font-size: 1.1428571429rem !important;
     font-weight: $font-weight-regular;
