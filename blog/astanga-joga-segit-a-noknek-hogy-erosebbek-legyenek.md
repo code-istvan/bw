@@ -31,8 +31,6 @@ Igen, ez így van, az astanga jóga kívülről nézve agresszívnak és nagyon 
 
 ![Govinda asana practice](/blogpostimages/govinda_asana_pratice.jpg)
 
-
-
 ### Hogyan lehet megküzdeni a fizikai fájdalommal?
 
 Védekező álláspontban élünk a hétköznapokban. Megszoktuk, hogy a komfortzónánkban maradjunk, ne kockáztassunk, tartózkodjunk a fizikai és érzelmi fájdalomtól. Az astanga órán azonban minden védelem eltűnik. A minta megtörésének az a legjobb módja, ha egyenesen szembemész a félelmeddel, legyen ez fizikai fájdalom vagy érzelmi-fizikai kényelmetlenség. Menj bele egyenesen! Ha kényelmetlenül érzed magad, és a figyelmed a légzésre koncentrálod, megszakíthatod az elme mintáit. Hajlasz, nyújtasz, izzadsz, lélegzel, ahogy normálisan nem tennéd, de a tisztulás mentális és érzelmi szinten is megindul. Azt hiszed, a fájdalom nagyobb nálad. De a légzéssel rájössz, hogy te vagy a nagyobb.
@@ -54,6 +52,8 @@ A város az élet anyagiasabb oldalát jelképezi: beton, keménység, stressz, 
 ### Sting és Gwyneth Paltrow is a magántanítványod volt. Mit tanultál a celebektől?
 
 A legfontosabb, amit megtanultam, hogy ők is normális emberek. Nem jobb az életük, mint bárki másé. Sok pénzük van és híresek, bent vannak az újságokban, az emberek megőrülnek értük, de az életük ugyanolyan. Sőt, több problémájuk van. A túl sok pénz stresszessé és bonyolulttá teszi az életet.
+
+![Govinda like a swami](/blogpostimages/ashtanga_yoga.jpg)
 
 ### Honnan tudod, hol vannak a gyakorlók fizikai határai? Olyan, mintha belelátnál az emberekbe.
 
