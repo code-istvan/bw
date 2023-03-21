@@ -101,24 +101,24 @@ article {
     font-family: $font-family-secondary;
     font-size: 1rem !important;
     font-weight: $font-weight-regular;
+    li {
+      counter-increment: item;
+      margin-bottom: 10px;
+    }
+    li:before {
+      margin-right: 10px;
+      content: counter(item);
+      width: 1.4em;
+      height: 1.4em;
+      background-color: $color-shades-white;
+      color: $color-shades-black;
+      font-family: $font-family-secondary;
+      font-weight: 800;
+      text-align: center;
+      display: inline-block;
+    }
   }
-  li {
-    counter-increment: item;
-    margin-bottom: 10px;
-  }
-  li:before {
-    margin-right: 10px;
-    content: counter(item);
-    width: 1.4em;
-    height: 1.4em;
-    background-color: $color-shades-white;
-    color: $color-shades-black;
-    font-family: $font-family-secondary;
-    font-weight: 800;
-    text-align: center;
-    display: inline-block;
-  }
-  color: white;
+
   blockquote {
     border-left: 8px solid $color-brand-orange;
     padding: 12px 20px;
