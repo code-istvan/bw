@@ -6,7 +6,7 @@ description: "A kombucha, vagy másnéven teagomba egy ősrégi házi gyógyír.
   áll az egészség szolgálatában. "
 author: István
 tags:
-  - életmód
+  - táplálkozás
 date: 2022-06-01T12:39:56.203Z
 thumbnail: /blogpostimages/kombucha-bandha.jpeg
 ---
