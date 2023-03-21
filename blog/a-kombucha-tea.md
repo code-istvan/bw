@@ -28,7 +28,7 @@ Weidinger, egy ausztrál misszionárius, aki hosszú értekezéseket írt a tém
 
 Az alábbiakban szeretnénk megosztani veletek a hagyományos kombucha tea készítésének receptjét.
 
-#### A recept:
+### A recept:
 
 1. Forraljuk fel a szükséges vízmennyiséget, literenként adjunk hozzá 1 púpos evőkanál fehér vagy barna cukrot.
 2. Ha feloldódott a cukor, adjunk a forró főzethez 1-2 teáskanál jó minőségű zöld- vagy feketeteát (tetszés szerint), majd hagyjuk állni a főzetet 10-15 percig.
