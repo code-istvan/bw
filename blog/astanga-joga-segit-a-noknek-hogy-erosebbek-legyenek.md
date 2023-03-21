@@ -49,4 +49,4 @@ Az Astanga jóga rendszerének megalkotása Sri K. Pattabhi Jois indiai jógames
 Nézz bele egy astanga jógaórába:
 
 **Forrás:** NLCAFE Astanga jóga: „Segít a nőknek, hogy erősebbek legyenek”
-**Írta: ** Chilembu Krisztina
+**Írta:** Chilembu Krisztina
