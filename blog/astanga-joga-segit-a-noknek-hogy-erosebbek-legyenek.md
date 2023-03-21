@@ -62,6 +62,9 @@ A gyakorlás célja a tisztulás. Ha kitisztítod a tested, sokkal érzékenyebb
 Az Astanga jóga rendszerének megalkotása Sri K. Pattabhi Jois indiai jógamester nevéhez fűződik. A gyakorlás során a mély, tudatos légzésnek központi szerepe van. Az astanga egyik különlegessége a Mysore stílusú óra, ahol az oktató nem vezeti a tanítványokat, nem diktálja a légzést vagy az ászanákat. A résztvevők saját ritmusukban gyakorolnak, közben személyre szabott fizikai igazításokat és verbális instrukciókat kapnak. 
 
 Nézz bele egy astanga jógaórába:
+[![Final video of fixing issues in your code in VS Code]
+(https://i.ytimg.com/vi/hyMlySBgVE4/maxresdefault.jpg)]
+(https://https://www.youtube.com/watch?v=hyMlySBgVE4&t=1s)
 
 **Forrás:** NLCAFE Astanga jóga: „Segít a nőknek, hogy erősebbek legyenek”
 **Írta:** Chilembu Krisztina
