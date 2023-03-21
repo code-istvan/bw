@@ -5,7 +5,7 @@ description: '"Agresszívnak és ijesztőnek tűnik, de az astanga éppen a fáj
   meghaladásáról és a félelmeink legyőzéséről szól"'
 author: István
 tags:
-  - astangaelmélet
+  - astanga elmélet
 date: 2023-03-21T09:53:38.989Z
 thumbnail: /blogpostimages/govinda_interju.jpg
 ---
