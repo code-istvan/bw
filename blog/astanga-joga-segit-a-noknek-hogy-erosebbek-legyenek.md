@@ -21,7 +21,6 @@ Azt eddig is tudtam, hogy az astanga jóga nem a kisimult vonásokról és a div
 
 ![Govinda Kai Ashtanga Yoga](/blogpostimages/govinda_ashtanga.jpg)
 
-
 Govinda Kai az egyik gyakorlótól a másikhoz lép. Ha valakit bele kell igazítani egy ászanába, vagy segítségre szorul, azonnal ott terem. Én oda sem merek nézni, mert félek, hogy ketté fog törni egy kb. 45 kilós lányt, aki már így is egy fizikai törvényeket meghazudtoló pózban nyög. „Mit látsz?” – kérdezi tőlem Govinda. Az első szó, ami beugrik: „Fájdalmat!” Meg belső erőt is, teszem hozzá.
 
 Govinda Kai a KPJAYI (K. Pattabhi Jois Astanga Jóga Intézet) legmagasabb szintű képesítésével rendelkező tanára (ezt az elismerést az egész világon mindössze 40-en kapták meg). 1959-ben született San Franciscóban. Élete első jógaórájára 19 évesen ment el, később részt vett Sogyal Rinpoche tibeti buddhizmus kurzusain és elvonulásain. Az 1990-es években talált rá az astanga jógára. Szinte folyamatosan úton van, a világ különböző jógastúdióiban tart workshopokat.
@@ -37,6 +36,8 @@ Védekező álláspontban élünk a hétköznapokban. Megszoktuk, hogy a komfort
 ### Mit ad a női gyakorlóknak az astanga?
 
 A nők az astanga gyakorlásával képesek létrehozni egy olyan szintű egyensúlyt és harmóniát, ami elérvezet a férfi minőségükhöz, a férfi energiáikhoz. Ez egy gyönyörű folyamat, amely során erősebbek lesznek, és nem lehet csak úgy a háttérbe szorítani őket. A magyar kultúra macsó kultúra. Azt látom, hogy sok nőnek nagyon sok rossz tapasztalata van a munkahelyén és a férfiakkal, és nem tudják megvédeni magukat. Sokan élnek át traumákat a családon belül és a férfi főnökeik miatt. Ha egy nő tud kapcsolódni a férfi energiáihoz, jobban tud kapcsolódni a női oldalához is. Az eredmény pedig egy olyan figyelemre méltó nő, aki erős, de ugyanakkor tud lágy és nőies is lenni. Az astanga gyakorlás által egyébként a férfiak nőiesebbek, hajlékonyabbak, rugalmasabbak lesznek. Mert azok a férfiak, akik csak erősek, és nem tudnak lágyak lenni, inkább agresszív, kemény pasik, sőt inkább fiúk, akik egy férfitestben élnek. Azok, akik elérik a lágy oldalukat is, sokkal erősebbek, mert nem érzik azt, hogy bármit is bizonyítaniuk kellene.
+
+![Bandhami astanga közösség](/blogpostimages/bandhami.jpg)
 
 ### Addiktív az astanga?
 
