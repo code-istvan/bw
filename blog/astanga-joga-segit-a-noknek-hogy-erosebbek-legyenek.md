@@ -29,6 +29,10 @@ Govinda Kai a KPJAYI (K. Pattabhi Jois Astanga Jóga Intézet) legmagasabb szint
 
 Igen, ez így van, az astanga jóga kívülről nézve agresszívnak és nagyon is fizikainak tűnik, mindenki izzad és nyög, fájdalmaik vannak. Nem a fizikai gyakorlásról szól igazán. Ez egy módszer, aminek az a célja, hogy egységet és harmóniát teremtsen az elme és a szív között. Az egység legnagyobb akadálya maga az elme, ezért a gyakorlatok mindenekelőtt az elmére fókuszálnak. Az elme szomorú mintákat követ. Mindig ismétel, ezért alakítanak ki szokásokat az emberek. A szokásokkal az a baj, hogy a legtöbb ember nem tudatos ezekkel kapcsolatban. Amit el akarunk érni, az az, hogy megszakítsuk a mintákat az elmében, és felszabadítsuk az elmét. Az extrém fizikai gyakorlás elvezet a minták megtöréséhez.
 
+![Govinda asana practice](/blogpostimages/govinda_asana_pratice.jpg)
+
+
+
 ### Hogyan lehet megküzdeni a fizikai fájdalommal?
 
 Védekező álláspontban élünk a hétköznapokban. Megszoktuk, hogy a komfortzónánkban maradjunk, ne kockáztassunk, tartózkodjunk a fizikai és érzelmi fájdalomtól. Az astanga órán azonban minden védelem eltűnik. A minta megtörésének az a legjobb módja, ha egyenesen szembemész a félelmeddel, legyen ez fizikai fájdalom vagy érzelmi-fizikai kényelmetlenség. Menj bele egyenesen! Ha kényelmetlenül érzed magad, és a figyelmed a légzésre koncentrálod, megszakíthatod az elme mintáit. Hajlasz, nyújtasz, izzadsz, lélegzel, ahogy normálisan nem tennéd, de a tisztulás mentális és érzelmi szinten is megindul. Azt hiszed, a fájdalom nagyobb nálad. De a légzéssel rájössz, hogy te vagy a nagyobb.
