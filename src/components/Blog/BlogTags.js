@@ -22,12 +22,13 @@ function BlogTags() {
       <div className="col blogtags tag-button">
         {tags?.map(tag => {
           return (
-            <CustomLink
-              key={tag}
-              link={`/tags/${slugify(tag)}`}
-              title={tag}
-              classNames="tag-button"
-            />
+            <p>
+              <CustomLink
+                key={tag}
+                link={`/tags/${slugify(tag)}`}
+                title={tag}
+              />
+            </p>
           )
         })}
       </div>
