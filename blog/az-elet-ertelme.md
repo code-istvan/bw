@@ -9,9 +9,9 @@ tags:
 date: 2022-03-09T14:00:33.584Z
 thumbnail: /blogpostimages/az_elet_ertelme.jpg
 ---
-> yat karoṣi yad aśnāsi yaj juhoṣi dadāsi yat
+> "Yat karoṣi yad aśnāsi yaj juhoṣi dadāsi yat
 > yat tapasyasi kaunteya tat kuruṣva mad-arpaṇam
-> Amit teszel, amit eszel, amit áldozol, amit adsz, amiért vezekelsz, Kunti fia, nekem tett felajánlásként végezd.
+> Amit teszel, amit eszel, amit áldozol, amit adsz, amiért vezekelsz, Kunti fia, nekem tett felajánlásként végezd."
 > Bhagavad Gitá IX.27
 
 Az élet értelme, hogy megszabaduljunk minden aljasságtól. Amikor az aljasság eltűnik, csak a szeretet marad. A szeretetet választani az aljasság helyett, egy jelentősségteljes, szép életnek az alapja. Az életünk célja, hogy emlékezzünk, kik is vagyunk valójában, hogy emlékezzünk a végtelen, mindent átható kapcsolatunkra a legfőbb forrással, Istennel. Ezt az emlékezést az Önvaló megismerésének, megvilágosodásnak, ébredésnek, vagy jógának hívják. Az ébredés akkor történik, amikor a lélek rájön, hogy nem csak egy bőrzsákba bújtatott egó, egy halandó test és elme, hanem Isten lakhelye is egyben.
