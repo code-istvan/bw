@@ -23,7 +23,7 @@ const BlogPosts = ({ data, children, pageContext }) => {
     <LayoutBlog articleProperties={articleProperties}>
       <div className="blog-posts-wrapper">
         <div className="row gap-2">
-          <section ref={sectionRef} className="col-12-xs col-9-md col-9-xl">
+          <div ref={sectionRef} className="col-12-xs col-9-md col-9-xl">
             <Seo
               title={post.frontmatter.title}
               description={post.frontmatter.description}
@@ -94,8 +94,8 @@ const BlogPosts = ({ data, children, pageContext }) => {
                 navigate("/blog")
               }}
             />
-          </section>
-          <div className="col-12-xs col-3-md col-3-xl mt-20px hide-blogsidebar">
+          </div>
+          <div className="col-12-xs col-3-md col-3-xl hide-blogsidebar">
             <BlogSidebar />
           </div>
         </div>

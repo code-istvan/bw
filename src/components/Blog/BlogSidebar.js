@@ -19,7 +19,7 @@ const BlogSidebar = () => {
   ]
 
   return (
-    <div>
+    <div className="blogsidebar-wrapper">
       <SearchBar id="" type="text" name="serach" placeholder="Keresés" />
       <h4>CIMKÉK</h4>
       <BlogTags />

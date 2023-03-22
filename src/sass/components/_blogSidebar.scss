@@ -1,5 +1,11 @@
 @import "/src/sass/global";
 
+@media screen and (min-width: 768px) {
+  .blogsidebar-wrapper {
+    margin-top: 60px;
+  }
+}
+
 .most-popular-posts {
   color: $color-shades-white;
   display: flex;
