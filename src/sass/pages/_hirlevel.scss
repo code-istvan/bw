@@ -1,5 +1,13 @@
 @import "/src/sass/global";
 
+.hirlevel-button {
+  @media only screen and (min-width: 1px) and (max-width: 768px) {
+    button {
+      width: 100% !important;
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero-big-image {
     display: none;
@@ -26,24 +34,6 @@
 
 .hirlevel-hero-image {
   z-index: 1;
-
-  // @media only screen and (min-width: 721px) {
-  //   height: 30vw;
-  // }
-
-  // @media only screen and (min-width: 1px) and (max-width: 720px) {
-  //   height: 100vw;
-  // }
-}
-
-.hirlevel-input-name {
-  @include xs {
-    margin-bottom: $base-margin-items;
-  }
-
-  @include md {
-    margin-bottom: 0;
-  }
 }
 
 .hirlevel-input-email {
@@ -55,12 +45,4 @@
   flex-direction: row;
   line-height: 1.4;
   margin-bottom: 20px;
-}
-
-.hirlevel-button {
-  @media only screen and (min-width: 1px) and (max-width: 768px) {
-    .btn {
-      width: 100%;
-    }
-  }
 }

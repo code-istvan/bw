@@ -17,7 +17,7 @@ export default function Kapcsolat() {
       <Navbar />
       <GoogleMap />
       <div className="container">
-        <div className="row gap-1 kapcsolat-navigation ">
+        <div className="row gap-1 kapcsolat-navigation">
           <div className="col-6-xs kapcsolat-navigation-button">
             <Button type="submit" buttonStyle="btn--secondary--outline">
               Google Maps
