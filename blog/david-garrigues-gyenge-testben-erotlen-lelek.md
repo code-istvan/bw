@@ -15,9 +15,7 @@ Ezek és más hasonló kijelentések rávilágítanak arra, hogy mennyire fontos
 Azt tanította, hogy a gyakorlás által a tanítvány erőssé válik, nem csak fizikai, de végsősoron minden más módon is, és ebbe az is beletartozik, hogy a tanítványok megtanulják mélyen tisztelni és követni a jóga első két ágának a jama és a nijama irányelvek etikai útmutatásait.
 Az ászanákat elképzelhetjük úgy, mint a jóga fájának gyökerét, amely stabil alapul szolgál a többi ághoz. Ez azért van így, mert azáltal, hogy a test elkezd dolgozni a különböző testhelyzetekkel, világosan feltárul fizikailag és gyakorlatilag, hogy mi van a lelkünk mélyén, ugyanakkor ezek a testhelyzetek megakadályozzák az elme berögzült szokásainak ismétlődését.
 
-Egyszer Guruji és én váltottunk pár szót gyakorlás után búcsúzáskor:
-David Garrigues: „ Oh, ma nagyon merev volt a hátam.”
-Guruji: (kikerekedett szemekkel és némi erőltetett komolysággal az arcán): „Sok gondolkodás, túl sok gondolkodás van ott.”
+Egyszer Guruji és én váltottunk pár szót gyakorlás után búcsúzáskor. **David Garrigues:** „ Oh, ma nagyon merev volt a hátam.” **Guruji:** (kikerekedett szemekkel és némi erőltetett komolysággal az arcán): „Sok gondolkodás, túl sok gondolkodás van ott.”
 
 Ahhoz, hogy eredményt érjünk el a jógával, elengedhetetlenül fontos az, hogy ne feledkezzünk meg a test fontosságának elsődlegességéről a gondolatokhoz képest. Előfordulhat, hogy a fizikai lét háttérbe szorul, amikor gondolkodunk, és az is, hogy az intellektust felsőbbrendűnek ítéljük a fizikai létnél. Az igazság azonban az, hogy a kreatív gondolatok egyenesen az ingerekre fogékony fizikai testből származnak. Leválasztani a gondolatokat, miközben elhanyagoljuk a testet, nemkívánatos távolságot teremthet a gyakorló fizikai teste és az érzetek között, így a megélt tapasztalásnak nem lesz kapcsolata a fizikai test zsigeri működésével.
 
@@ -40,5 +38,3 @@ Tehát nem csak egyszerűen hajlítok és csavarok, azért hogy erősödjek és 
 
 **Forrás:** [http://www.elephantjournal.com/2012/04/weak-bodyweak-mind-david-garrigues/](url)
 **Fordította:** Fazekas Gyöngyi
-
-
