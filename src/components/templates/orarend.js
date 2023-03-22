@@ -98,7 +98,7 @@ const Orarend = ({ pageContext, data }) => {
                     </div>
                   </div>
                 </div>
-                <div className="card-wrapper">
+                <div className="card-wrapper tight--desktop--container">
                   <div className="schedule-card">
                     <div className="schedule-main-row">
                       <div className="schedule-class">
@@ -240,21 +240,23 @@ const Orarend = ({ pageContext, data }) => {
           }
         })}
       </ul>
-      <div className="mt-20px">
-        {!isFirst && (
-          <CustomLink
-            link={prevPage}
-            classNames="btn btn--secondary--outline link-decoration-remove"
-            title="Elöző hét nap"
-          />
-        )}
-        {!isLast && (
-          <CustomLink
-            link={nextPage}
-            classNames="btn btn--secondary--outline link-decoration-remove"
-            title="Következő hét nap"
-          />
-        )}
+      <div className="tight--desktop--container">
+        <div className="mt-20px">
+          {!isFirst && (
+            <CustomLink
+              link={prevPage}
+              classNames="btn btn--secondary--outline link-decoration-remove"
+              title="Elöző hét nap"
+            />
+          )}
+          {!isLast && (
+            <CustomLink
+              link={nextPage}
+              classNames="btn btn--secondary--outline link-decoration-remove"
+              title="Következő hét nap"
+            />
+          )}
+        </div>
       </div>
     </Layout>
   )
