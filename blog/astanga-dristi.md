@@ -6,7 +6,7 @@ description: Ebben a jógairányzatban nyitott szemmel gyakorlunk, minden egyes
 author: István
 tags:
   - jógaelmélet
-date: 2023-03-22T14:16:39.089Z
+date: 2021-05-12T14:16:39.089Z
 thumbnail: /blogpostimages/astanga_dristi.jpeg
 ---
 Az astanga triszthána – a figyelem három fókusza ászana gyakorlás közben – egyik eleme a dristi, azaz a tekintet rögzítése egy meghatározott pontra vagy irányában. Ebben a jógairányzatban nyitott szemmel gyakorlunk és minden egyes ászanához tartozik egy dristi, ahová a tekintetünket irányítjuk. Ez egy pratjáhára – figyelem befelé fordítása – technika, gyakorlásával az elme nem megfigyelő és ítélkező, hanem fókuszált és gyöngéd. Ennek köszönhetően a gyakorlásunk – és az elménk – koncentráltá válik amit ha megszakítás nélkül hosszú időn keresztűl fent tudunk tartani mozgó meditációt eredményez.
