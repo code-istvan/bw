@@ -30,4 +30,4 @@ Az astanga jógában használt kilenc dristi:
 A dristi vizualitásán túl van egy izgalmas mélyebb réteget is érintő hatása, ami az egyik létfontosságú eleme a helyes prána áramlásnak. A prána követi a tudatosságot és annak megfelelő a minősége. Ha tudatosságunk szétszórt, akkor a prána ezt a tulajdonságokat fogja tükrözni mind a viselkedésünkben, mind az életünkben meghozott döntésekben.
 
 **Felhasznált irodalom:** R. Sharath Jois – Az astanga jóga spirituális ösvénye
-**Fénykék: ** [Harmony](https://harmonyslater.com) és Russel
+**Fénykép:** [Harmony](https://harmonyslater.com) és Russel
