@@ -6,7 +6,7 @@ description: "Az élet értelme, hogy megszabaduljunk minden aljasságtól. Amik
 author: István
 tags:
   - jógaelmélet
-date: 2023-03-22T14:00:33.584Z
+date: 2022-03-09T14:00:33.584Z
 thumbnail: /blogpostimages/az_elet_ertelme.jpg
 ---
 > yat karoṣi yad aśnāsi yaj juhoṣi dadāsi yat
