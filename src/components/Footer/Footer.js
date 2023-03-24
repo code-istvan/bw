@@ -53,7 +53,7 @@ const Footer = ({ handleOpenMenu }) => {
               </p>
               <Button
                 type="button"
-                buttonStyle="btn--secondary--outline"
+                buttonStyle="btn--small--outline"
                 onClick={() => {
                   navigate("/hirlevel")
                 }}

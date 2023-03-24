@@ -116,7 +116,7 @@ const FooterDesktopMenu = () => {
             <div className="footer__english">
               <Button
                 type="button"
-                buttonStyle="btn--secondary--outline"
+                buttonStyle="btn--small--outline"
                 onClick={() => {
                   navigate("/english")
                 }}

@@ -75,13 +75,13 @@
   color: $color-brand-orange;
 }
 
-.btn--menu--outline {
+.btn--small--outline {
   background-color: transparent;
   color: $color-shades-lightGray;
   border: 2px solid $color-shades-lightGray;
 }
 
-.btn--menu--outline:hover {
+.btn--small--outline:hover {
   transform: translateY(0px);
   background-color: $color-shades-lightGray;
   color: $color-shades-black;
