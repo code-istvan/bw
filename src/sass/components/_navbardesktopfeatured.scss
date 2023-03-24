@@ -1,13 +1,15 @@
 @import "/src/sass/global";
 
-.menuLanguage--box {
-  display: block;
-  height: auto;
-
+.navbar-desktop-featured-container {
   ul {
     list-style: none;
-    margin-left: 16px;
-    padding-right: 16px;
+    // margin-left: 16px;
+    // padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 12px;
+    flex-wrap: wrap;
 
     li {
       display: block;

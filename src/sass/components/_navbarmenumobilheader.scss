@@ -1,6 +1,6 @@
 @import "/src/sass/global";
 
-.navbar-menu-mobil-header {
+.navbar-menu-mobil-header-wrapper {
   margin: 28px 14px 0;
 
   .navbar-menu-mobil-header-container {
@@ -13,8 +13,4 @@
     padding-bottom: 28px;
     border-bottom: 1px solid $color-shades-darkGray;
   }
-
-  // .box {
-  //   border-bottom: 1px white solid;
-  // }
 }

@@ -10,7 +10,7 @@ const NavbarMenuMobilHeader = () => {
   ]
 
   return (
-    <div className="navbar-menu-mobil-header">
+    <div className="navbar-menu-mobil-header-wrapper">
       <div className="navbar-menu-mobil-header-container">
         {mobilHeaderItems.map(({ label, link }) => (
           <Button

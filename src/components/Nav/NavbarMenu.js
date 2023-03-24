@@ -2,7 +2,7 @@ import * as React from "react"
 import { useState } from "react"
 import { Link } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
-// import NavbarDesktopFeatured from "./NavbarDesktopFeatured"
+import NavbarDesktopFeatured from "./NavbarDesktopFeatured"
 import NavbarMenuMobilHeader from "./NavbarMenuMobilHeader"
 import NavbarMenuMobilFeatured from "./NavbarMenuMobilFeatured"
 import "../../sass/components/_navbarmenu.scss"
@@ -102,10 +102,10 @@ const NavbarMenu = ({ open, setOpen }) => {
             )}
           </li>
         ))}
+        {/* <li className="nav-item">
+          {breakpoints.md ? null : <NavbarDesktopFeatured />}
+        </li> */}
       </ul>
-      {/* <li className="nav-item">
-        {breakpoints.md ? null : <NavbarDesktopFeatured />}
-      </li> */}
       {breakpoints.md ? <NavbarMenuMobilFeatured /> : null}
     </div>
   )

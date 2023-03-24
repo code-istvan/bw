@@ -301,7 +301,6 @@
     color: $color-shades-gray !important;
     height: 44px;
     @include desktop-submenu-fonts;
-
     &:first-letter {
       text-transform: uppercase;
     }
@@ -335,6 +334,11 @@
     }
     .nav-item {
       margin: 0;
+      padding-top: 6px;
+      border-bottom: solid 1px $color-shades-darkerGray;
+    }
+    li:nth-last-child(1) {
+      border-bottom: none;
     }
   }
 

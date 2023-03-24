@@ -13,24 +13,26 @@ const NavbarDesktopFeatured = () => {
   ]
 
   return (
-    <div className="menuLanguage--box">
-      <ul>
-        {desktopSubmenuItems.map(({ label, link }) => (
-          <li key={label}>
-            <Button
-              type="button"
-              buttonStyle="btn--secondary--outline"
-              onClick={() => {
-                navigate(link)
-              }}
-            >
-              {label}
-            </Button>
-          </li>
-        ))}
-      </ul>
-      <br /> <br />
-      <hr className="solid"></hr>
+    <div className="navbar-desktop-featured-wrapper">
+      <div className="navbar-desktop-featured-container">
+        <ul>
+          {desktopSubmenuItems.map(({ label, link }) => (
+            <li key={label}>
+              <Button
+                type="button"
+                buttonStyle="btn--secondary--outline"
+                onClick={() => {
+                  navigate(link)
+                }}
+              >
+                {label}
+              </Button>
+            </li>
+          ))}
+        </ul>
+        <br /> <br />
+        <hr className="solid"></hr>
+      </div>
     </div>
   )
 }
