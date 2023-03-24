@@ -75,4 +75,14 @@
   color: $color-brand-orange;
 }
 
-// ButtonIcon classes
+.btn--menu--outline {
+  background-color: transparent;
+  color: $color-shades-lightGray;
+  border: 2px solid $color-shades-lightGray;
+}
+
+.btn--menu--outline:hover {
+  transform: translateY(0px);
+  background-color: $color-shades-lightGray;
+  color: $color-shades-black;
+}

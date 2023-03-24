@@ -7,6 +7,7 @@ const STYLES = [
   "btn--secondary--outline",
   "btn--third--naked-orange",
   "btn--primary--outline",
+  "btn--menu--outline",
 ]
 
 export default function Button({ children, type, onClick, buttonStyle }) {

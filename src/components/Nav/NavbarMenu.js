@@ -102,9 +102,9 @@ const NavbarMenu = ({ open, setOpen }) => {
             )}
           </li>
         ))}
-        {/* <li className="nav-item">
+        <li className="nav-item">
           {breakpoints.md ? null : <NavbarDesktopFeatured />}
-        </li> */}
+        </li>
       </ul>
       {breakpoints.md ? <NavbarMenuMobilFeatured /> : null}
     </div>

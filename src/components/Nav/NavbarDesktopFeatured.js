@@ -5,9 +5,9 @@ import "../../sass/components/_navbardesktopfeatured.scss"
 
 const NavbarDesktopFeatured = () => {
   const desktopSubmenuItems = [
-    { link: "/admin", label: "LOG_IN" },
     { link: "/english", label: "ENGLISH" },
-    // { link: "/english", label: "日本語" },
+    { link: "/english", label: "日本語" },
+    { link: "/admin", label: "LOG_IN" },
     { link: "/mysore-program", label: "MYSORE PROGRAM" },
     { link: "/tanfolyam", label: "TANFOLYAMOK" },
   ]
@@ -20,7 +20,7 @@ const NavbarDesktopFeatured = () => {
             <li key={label}>
               <Button
                 type="button"
-                buttonStyle="btn--secondary--outline"
+                buttonStyle="btn--menu--outline"
                 onClick={() => {
                   navigate(link)
                 }}
