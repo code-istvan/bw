@@ -6,7 +6,7 @@ description: Az astanga jóga módszertanában az ászanát nem önmagában hasz
 author: István
 tags:
   - astanga elmélet
-date: 2023-03-24T15:37:42.306Z
+date: 2021-04-28T15:37:42.306Z
 thumbnail: /blogpostimages/banner_tristhana.jpg
 ---
 > yogāṅgānuṣṭhānādaśuddhikṣaye jñānadīptirāvivekakhyāteḥ
