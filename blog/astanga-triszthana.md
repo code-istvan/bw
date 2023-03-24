@@ -16,7 +16,7 @@ thumbnail: /blogpostimages/banner_tristhana.jpg
 
 A **tri** szanszkrit szó jelentése három, a **sthána** pedig állóhely. 
 
-Az astanga jóga módszertanában az ászanát nem önmagában használjuk. A rendszer lelke az úgynevezett **triszthána **azaz a figyelem három fókusza: 
+Az astanga jóga módszertanában az ászanát nem önmagában használjuk. A rendszer lelke az úgynevezett **triszthána** azaz a figyelem három fókusza: 
 
 - az ászana,
 - a  légzés(technika),
