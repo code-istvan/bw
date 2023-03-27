@@ -8,7 +8,32 @@ const Hero = () => (
   <>
     <div className="hero-container">
       <div className="conatiner">
-        <div className="row">
+        <div className="page-hero-container">
+          <div className="row">
+            <StaticImage
+              className="container-fluid page-hero-image page-big-image"
+              src="../images/hero_desktop.jpg"
+              layout="fullWidth"
+              loading="eager"
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Astanga jóga Mysore"
+              placeholder="blurred"
+            />
+            <StaticImage
+              className="container-fluid page-hero-image page-mobil-image"
+              src="../images/hero_mobil.jpg"
+              layout="fullWidth"
+              loading="eager"
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Astanga jóga Mysore"
+              placeholder="blurred"
+            />
+          </div>
+        </div>
+
+        {/* <div className="row">
           <div className="col">
             <div className="hero-text">
               <p className="hero--font-big mb-20px">
@@ -117,7 +142,7 @@ const Hero = () => (
           >
             Tanfolyamok
           </Button>
-        </div>
+        </div> */}
       </div>
     </div>
   </>

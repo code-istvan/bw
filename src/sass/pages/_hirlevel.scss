@@ -8,34 +8,6 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .hero-big-image {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-mobil-image {
-    display: none !important;
-  }
-}
-
-.hirlevel-hero-container {
-  position: relative;
-  padding: 0 !important;
-}
-
-.hirlevel-title {
-  position: absolute;
-  z-index: 2;
-  bottom: 8px;
-  margin: 0;
-}
-
-.hirlevel-hero-image {
-  z-index: 1;
-}
-
 .hirlevel-input-email {
   margin-bottom: $base-margin-items;
 }

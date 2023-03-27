@@ -1,0 +1,57 @@
+@import "/src/sass/global";
+
+.holdnapok-wrapper {
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: $color-brand-orange;
+  }
+
+  tr:nth-child(even) {
+    background-color: $color-shades-lightBlack;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-big-image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-mobil-image {
+    display: none !important;
+  }
+}
+
+.hirlevel-hero-container {
+  position: relative;
+  padding: 0 !important;
+}
+
+.hirlevel-title {
+  position: absolute;
+  z-index: 2;
+  bottom: 8px;
+  margin: 0;
+}
+
+.hirlevel-hero-image {
+  z-index: 1;
+}
+
+.moondays-frame {
+  @include md {
+    .moondays-right-column {
+      order: 2;
+    }
+  }
+}

@@ -11,11 +11,11 @@ const Hirlevel = () => (
   <LayoutBlog>
     <Seo title="Hírlevél" />
     <div className="hirlevel-wrapper">
-      <div className="hirlevel-hero-container">
+      <div className="page-hero-container">
         <div className="row tight--desktop--container">
-          <h1 className="hirlevel-title">Feliratkozás hírlevélre</h1>
+          <h1 className="page-hero-title">Feliratkozás hírlevélre</h1>
           <StaticImage
-            className="container-fluid hirlevel-hero-image hero-big-image"
+            className="container-fluid page-hero-image page-big-image"
             src="../images/hirlevel.jpg"
             layout="fullWidth"
             loading="eager"
@@ -25,7 +25,7 @@ const Hirlevel = () => (
             placeholder="blurred"
           />
           <StaticImage
-            className="container-fluid hirlevel-hero-image hero-mobil-image"
+            className="container-fluid page-hero-image page-mobil-image"
             src="../images/hirlevel_mobil.jpg"
             layout="fullWidth"
             loading="eager"

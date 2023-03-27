@@ -145,3 +145,32 @@ section {
   align-items: center;
   gap: 8px;
 }
+
+// Settings for the hero image of pages
+.page-hero-image {
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .page-big-image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-mobil-image {
+    display: none !important;
+  }
+}
+
+.page-hero-container {
+  position: relative;
+  padding: 0 !important;
+}
+
+.page-hero-title {
+  position: absolute;
+  z-index: 2;
+  bottom: 8px;
+  margin: 0;
+}
