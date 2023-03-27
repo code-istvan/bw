@@ -30,7 +30,9 @@ export default function Navigation({ isOpen = false, handleOpenMenu }) {
 
   useEffect(() => {
     if (!breakpoints.sm && handleOpenMenu) {
-      handleOpenMenu(false)
+      if (isOpen) {
+        handleOpenMenu()
+      }
     }
   }, [breakpoints])
 

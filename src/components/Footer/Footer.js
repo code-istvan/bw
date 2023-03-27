@@ -9,7 +9,6 @@ import { Link } from "gatsby"
 import "../../sass/components/_footer.scss"
 
 const Footer = ({ handleOpenMenu }) => {
-  console.log(handleOpenMenu)
   return (
     <footer>
       <div className="container-fluid footer bg-shades-darkGray mt-3">
