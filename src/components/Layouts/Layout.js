@@ -4,7 +4,7 @@ import Navbar from "../Nav/Navbar"
 import Footer from "../Footer/Footer"
 import "../../sass/components/_layout.scss"
 
-const LayoutBlog = ({ children, articleProperties }) => {
+const Layout = ({ children, articleProperties }) => {
   const [hasSeenMessage, setHasSeenMessage] = useState(
     typeof window !== "undefined"
       ? localStorage.getItem("hasSeenMessage") ?? false
@@ -41,8 +41,8 @@ const LayoutBlog = ({ children, articleProperties }) => {
   )
 }
 
-LayoutBlog.propTypes = {
+Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default LayoutBlog
+export default Layout

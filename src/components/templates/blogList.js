@@ -1,5 +1,5 @@
 import * as React from "react"
-import LayoutBlog from "../Layouts/LayoutBlog"
+import Layout from "../Layouts/Layout"
 import Seo from "../seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
@@ -23,7 +23,7 @@ export default function Blog({ pageContext, data }) {
   const nextPage = (pageContext?.currentPage + 1).toString()
 
   return (
-    <LayoutBlog>
+    <Layout>
       <Seo title="BLOG" />
       <div className="blog-hero-container">
         <h1 className="blog-title">BLOG</h1>
@@ -80,7 +80,7 @@ export default function Blog({ pageContext, data }) {
           />
         )}
       </div>
-    </LayoutBlog>
+    </Layout>
   )
 }
 

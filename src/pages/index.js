@@ -1,6 +1,6 @@
 import * as React from "react"
 import Seo from "../components/seo"
-import LayoutBlog from "../components/Layouts/LayoutBlog"
+import Layout from "../components/Layouts/Layout"
 import Hero from "../components/Hero"
 import Icons from "../components/Icons/Icons"
 import SectionRolunk from "../components/Sections/SectionRolunk"
@@ -10,7 +10,7 @@ import "../sass/pages/_index.scss"
 
 const IndexPage = () => (
   <>
-    <LayoutBlog>
+    <Layout>
       <Seo title="FŐOLDAL" />
       <Hero />
       <div className="container">
@@ -42,7 +42,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </LayoutBlog>
+    </Layout>
   </>
 )
 

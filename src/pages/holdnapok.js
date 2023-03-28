@@ -1,10 +1,8 @@
 import * as React from "react"
-import LayoutBlog from "../components/Layouts/LayoutBlog"
+import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import "../sass/pages/_holdnapok.scss"
-// import { Link } from "gatsby"
-// import "../sass/components/_kapcsolat.scss"
 
 export default function Holdnapok() {
   const moonDays = [
@@ -46,7 +44,7 @@ export default function Holdnapok() {
   ]
 
   return (
-    <LayoutBlog>
+    <Layout>
       <Seo title="HOLDNAPOK" />
       <div className="holdnapok-wrapper">
         <div className="page-hero-container">
@@ -204,6 +202,6 @@ export default function Holdnapok() {
           </div>
         </div>
       </div>
-    </LayoutBlog>
+    </Layout>
   )
 }

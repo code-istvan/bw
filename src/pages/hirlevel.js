@@ -1,5 +1,5 @@
 import * as React from "react"
-import LayoutBlog from "../components/Layouts/LayoutBlog"
+import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import Button from "../components/Buttons/Button"
 import InputField from "../components/InputField"
@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import "../sass/pages/_hirlevel.scss"
 
 const Hirlevel = () => (
-  <LayoutBlog>
+  <Layout>
     <Seo title="Hírlevél" />
     <div className="hirlevel-wrapper">
       <div className="page-hero-container">
@@ -101,7 +101,7 @@ const Hirlevel = () => (
         </form>
       </div>
     </div>
-  </LayoutBlog>
+  </Layout>
 )
 
 export default Hirlevel

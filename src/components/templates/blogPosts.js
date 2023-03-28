@@ -3,7 +3,7 @@ import { graphql, Link, navigate } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
-import LayoutBlog from "../Layouts/LayoutBlog"
+import Layout from "../Layouts/Layout"
 import Seo from "../seo"
 import { GatsbyImage } from "gatsby-plugin-image"
 import BlogSidebar from "../../components/Blog/BlogSidebar"
@@ -28,7 +28,7 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
   return (
-    <LayoutBlog articleProperties={articleProperties}>
+    <Layout articleProperties={articleProperties}>
       <div className="blog-posts-wrapper">
         <div className="row">
           <div ref={sectionRef} className="col-12-xs col-9-md col-9-xl">
@@ -130,7 +130,7 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
           </div>
         </div>
       </div>
-    </LayoutBlog>
+    </Layout>
   )
 }
 

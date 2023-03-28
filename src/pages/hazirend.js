@@ -1,5 +1,5 @@
 import * as React from "react"
-import LayoutBlog from "../components/Layouts/LayoutBlog"
+import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import "../sass/pages/_hazirend.scss"
@@ -41,7 +41,7 @@ export default function Házirend() {
   ]
 
   return (
-    <LayoutBlog>
+    <Layout>
       <Seo title="HÁZIREND" />
       <div className="row mt-80px simple-header-style">
         <div className="col">
@@ -57,6 +57,6 @@ export default function Házirend() {
           </ol>
         </div>
       </div>
-    </LayoutBlog>
+    </Layout>
   )
 }

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { CustomLink } from "../CustomLink"
-import LayoutBlog from "../../components/Layouts/LayoutBlog"
+import Layout from "../../components/Layouts/Layout"
 import Seo from "../../components/seo"
 import Accordion from "../Accordion"
 import Icons from "../Icons/Icons"
@@ -21,7 +21,7 @@ const Orarend = ({ pageContext, data }) => {
   })
 
   return (
-    <LayoutBlog>
+    <Layout>
       <Seo title="ÓRAREND" />
       <div className="row mt-80px mb-20px">
         <h1>ÓRAREND</h1>
@@ -258,7 +258,7 @@ const Orarend = ({ pageContext, data }) => {
           )}
         </div>
       </div>
-    </LayoutBlog>
+    </Layout>
   )
 }
 
