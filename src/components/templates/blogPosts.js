@@ -26,7 +26,7 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
   const { tags } = post.frontmatter
   const timeToRead = Math.ceil(post.fields.timeToRead.minutes)
   const { authorsJson: author } = data
-  const { siteUrl } = data
+  const { siteUrl } = data.site.siteMetadata
   const sectionRef = useRef(null)
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
@@ -96,7 +96,9 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
             <article className="mb-20px blog-posts-body-style">
               {children}
             </article>
-
+            <p>
+              <strong>Bejegyzés megosztása:</strong>
+            </p>
             <FacebookShareButton url={`${siteUrl}${location.pathname}`}>
               <FacebookIcon size={40} />
             </FacebookShareButton>
