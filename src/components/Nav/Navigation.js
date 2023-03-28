@@ -7,13 +7,8 @@ import Hamburger from "./Hamburger"
 import "../../sass/components/_navigation.scss"
 
 export default function Navigation({ isOpen = false, handleOpenMenu }) {
-  // const [menuOpen, setMenuOpen] = useState(isOpen)
   const breakpoints = useBreakpoint()
-  // const menuOpenHandler = () => {
-  //   setMenuOpen(!menuOpen)
-  // }
 
-  console.log("something", isOpen)
   useEffect(() => {
     const html = document.querySelector("html")
     const body = document.querySelector("body")

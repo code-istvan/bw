@@ -17,7 +17,7 @@ import {
 import "../../sass/components/_blogposts.scss"
 
 const BlogPosts = ({ data, children, pageContext, location }) => {
-  const breakpoints = useBreakpoint
+  const breakpoints = useBreakpoint()
   const [articleProperties, setArticleProperties] = useState({})
   const post = data.mdx
   const { tags } = post.frontmatter
@@ -30,7 +30,7 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
   return (
     <LayoutBlog articleProperties={articleProperties}>
       <div className="blog-posts-wrapper">
-        <div className="row gap-2">
+        <div className="row">
           <div ref={sectionRef} className="col-12-xs col-9-md col-9-xl">
             <Seo
               title={post.frontmatter.title}

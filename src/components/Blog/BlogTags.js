@@ -22,12 +22,8 @@ function BlogTags() {
       <div className="col blogtags tag-button">
         {tags?.map(tag => {
           return (
-            <p>
-              <CustomLink
-                key={tag}
-                link={`/tags/${slugify(tag)}`}
-                title={tag}
-              />
+            <p key={tag}>
+              <CustomLink link={`/tags/${slugify(tag)}`} title={tag} />
             </p>
           )
         })}

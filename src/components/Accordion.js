@@ -1,16 +1,12 @@
 import React, { useState, useRef } from "react"
 import Chevron from "./Chevron"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import "../sass/components/_accordion.scss"
 
 function Accordion(props) {
   const [setActive, setActiveState] = useState("")
   const [setHeight, setHeightState] = useState("0px")
   const [setRotate, setRotateState] = useState("accordion__icon")
-
   const content = useRef(null)
-
-  const breakpoints = useBreakpoint()
 
   function toggleAccordion() {
     setActiveState(setActive === "" ? "active" : "")

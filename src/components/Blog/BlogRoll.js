@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import { useBlogRoll } from "../../hooks/useBlogRollQuery"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
 import { useAuthors } from "../../hooks/useAuthorsQuery"

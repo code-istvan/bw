@@ -4,8 +4,8 @@ import Button from "../components/Buttons/Button"
 import { Link } from "gatsby"
 import { navigate } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-import "../sass/components/_eventsroll.scss"
 import { useTeachers } from "../hooks/useTeachersQuery"
+import "../sass/components/_eventsroll.scss"
 
 export default function EventsRoll({ onlyFeatured = false }) {
   let events = useEventsRoll()
@@ -28,11 +28,10 @@ export default function EventsRoll({ onlyFeatured = false }) {
           const currentTeacher = teachers.find(
             teacher => teacher.name === teacherName
           )
-          console.log(events)
 
           return (
-            <div className="col-12-xs col-6-md">
-              <div className="event-card" key={date}>
+            <div className="col-12-xs col-6-md" key={date}>
+              <div className="event-card">
                 <div className="event-card-content-wrapper">
                   <div className="event-card-header">
                     <h3>{title}</h3>
