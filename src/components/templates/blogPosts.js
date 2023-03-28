@@ -9,12 +9,9 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import BlogSidebar from "../../components/Blog/BlogSidebar"
 import {
   EmailShareButton,
-  FacebookIcon,
   FacebookShareButton,
   TelegramShareButton,
   TwitterShareButton,
-  ViberShareButton,
-  VKShareButton,
   WhatsappShareButton,
 } from "react-share"
 import "../../sass/components/_blogposts.scss"
@@ -96,12 +93,27 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
             <article className="mb-20px blog-posts-body-style">
               {children}
             </article>
-            <p>
-              <strong>Bejegyzés megosztása:</strong>
-            </p>
-            <FacebookShareButton url={`${siteUrl}${location.pathname}`}>
-              <FacebookIcon size={40} />
-            </FacebookShareButton>
+
+            <div className="blogpost-share-section mb-40px">
+              <div className="separator-horizontal"></div>
+              <p>
+                <strong>Bejegyzés megosztása:</strong>
+              </p>
+              <div className="blogpost-share-buttons">
+                <FacebookShareButton url={`${siteUrl}${location.pathname}`}>
+                  <Icons.Facebook color="white" />
+                </FacebookShareButton>
+                <TwitterShareButton url={`${siteUrl}${location.pathname}`}>
+                  <Icons.Twitter color="white" />
+                </TwitterShareButton>
+                <TelegramShareButton url={`${siteUrl}${location.pathname}`}>
+                  <Icons.Telegram color="white" />
+                </TelegramShareButton>
+                <EmailShareButton url={`${siteUrl}${location.pathname}`}>
+                  <Icons.Email color="white" />
+                </EmailShareButton>
+              </div>
+            </div>
 
             <ButtonIcon
               buttonType="icon-text"
