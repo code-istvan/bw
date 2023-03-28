@@ -7,6 +7,16 @@ import LayoutBlog from "../Layouts/LayoutBlog"
 import Seo from "../seo"
 import { GatsbyImage } from "gatsby-plugin-image"
 import BlogSidebar from "../../components/Blog/BlogSidebar"
+import {
+  EmailShareButton,
+  FacebookIcon,
+  FacebookShareButton,
+  TelegramShareButton,
+  TwitterShareButton,
+  ViberShareButton,
+  VKShareButton,
+  WhatsappShareButton,
+} from "react-share"
 import "../../sass/components/_blogposts.scss"
 
 const BlogPosts = ({ data, children, pageContext }) => {
@@ -85,6 +95,11 @@ const BlogPosts = ({ data, children, pageContext }) => {
             <article className="mb-20px blog-posts-body-style">
               {children}
             </article>
+
+            <FacebookShareButton url={window.location.href}>
+              <FacebookIcon size={40} />
+            </FacebookShareButton>
+
             <ButtonIcon
               buttonType="icon-text"
               className=""

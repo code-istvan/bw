@@ -51,7 +51,7 @@ export default function Holdnapok() {
       <div className="holdnapok-wrapper">
         <div className="page-hero-container">
           <div className="row">
-            <h1 className="page-hero-title">HOLDNAPOK 2023.</h1>
+            <h1 className="page-hero-title">HOLDNAPOK 2023</h1>
             <StaticImage
               className="container-fluid page-hero-image page-big-image"
               src="../images/hirlevel.jpg"
