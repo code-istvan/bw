@@ -7,7 +7,6 @@ import LayoutBlog from "../Layouts/LayoutBlog"
 import Seo from "../seo"
 import { GatsbyImage } from "gatsby-plugin-image"
 import BlogSidebar from "../../components/Blog/BlogSidebar"
-import useSiteMetadata from "../../hooks/use-site-metadata"
 import {
   EmailShareButton,
   FacebookIcon,
@@ -21,13 +20,13 @@ import {
 import "../../sass/components/_blogposts.scss"
 
 const BlogPosts = ({ data, children, pageContext, location }) => {
-  const breakpoints = useBreakpoint()
+  const breakpoints = useBreakpoint
   const [articleProperties, setArticleProperties] = useState({})
   const post = data.mdx
   const { tags } = post.frontmatter
   const timeToRead = Math.ceil(post.fields.timeToRead.minutes)
   const { authorsJson: author } = data
-  const { siteURL } = useSiteMetadata()
+  const { siteUrl } = data
   const sectionRef = useRef(null)
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
@@ -98,7 +97,7 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
               {children}
             </article>
 
-            <FacebookShareButton url={`${siteURL}${location.pathname}`}>
+            <FacebookShareButton url={`${siteUrl}${location.pathname}`}>
               <FacebookIcon size={40} />
             </FacebookShareButton>
 
@@ -150,6 +149,11 @@ export const query = graphql`
         date(formatString: "YYYY MMMM DD.", locale: "hu-HU")
         tags
         thumbnail
+      }
+    }
+    site {
+      siteMetadata {
+        siteUrl
       }
     }
   }
