@@ -3,7 +3,7 @@ module.exports = {
     title: `BW test`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@omworks`,
-    siteUrl: `https://https://lucid-easley-756a67.netlify.app`,
+    siteUrl: `https://lucid-easley-756a67.netlify.app`,
     social: {
       facebook: `bandhaworks`,
       twitter: `IstvnSzalai5`,
