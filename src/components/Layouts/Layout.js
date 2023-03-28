@@ -27,7 +27,6 @@ const Layout = ({ children, articleProperties }) => {
   const handleOpenMenu = () => setIsOpenMenu(!isOpenMenu)
   return (
     <>
-      {!hasSeenMessage && <div>A FANCY MESSAGE</div>}
       <Navbar
         articleProperties={articleProperties}
         isOpen={isOpenMenu}
