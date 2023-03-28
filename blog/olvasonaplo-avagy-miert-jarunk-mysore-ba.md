@@ -7,7 +7,7 @@ description: A Krisztus előtti időkben, ha fizikai vagy érzelmi betegség
 author: István
 tags:
   - olvasónapló
-date: 2023-03-28T12:14:36.400Z
+date: 2017-02-23T12:14:36.400Z
 thumbnail: /blogpostimages/kpjayi_shala_small.jpg
 ---
 A Krisztus előtti időkben, ha fizikai vagy érzelmi betegség kerített hatalmába, a gyógyulás érdekében egy távoli ásramba vagy gyógyhatású szentély közelébe utaztál, amely egy hegyen, egy barlangban, folyóparton vagy egy vidéki faluban található. Az utazással kapcsolatos döntésed nem számított meggondolatlannak, hiszen a gyógyítás ez idő tájt szent folyamatot jelentett, szoros kapcsolat kialakítását önmagaddal és a bölcsekkel. A barátaiddal és orvosoddal folytatott megbeszélés után máris megkezdted a készülődést, hogy útra kelj a gyógyító szentély felé. A több napig tartó út során csodálatos gyógyulásokról szóló történeteket hallhattál azoktól, akik gyógyultan hazafelé utaznak már arról a helyről, ahová te tartasz.
