@@ -82,6 +82,10 @@ section {
   }
 }
 
+.single-tag-button:hover {
+  color: $color-brand-orange !important;
+}
+
 .tag-button-hover:hover {
   color: $color-brand-orange;
 }

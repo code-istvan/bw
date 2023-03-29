@@ -75,7 +75,7 @@ function BlogRoll({ count, posts }) {
 
                   <div className="blog-card-footer">
                     <div className="blog-card-footer-first-row">
-                      <div className="blog-card-footer-text tag-button">
+                      <div className="blog-card-footer-text tag-button single-tag-button">
                         {post.frontmatter.tags.map(tag => {
                           return (
                             <p key={post.frontmatter.date}>
