@@ -43,9 +43,29 @@ export default function Házirend() {
   return (
     <Layout>
       <Seo title="HÁZIREND" />
-      <div className="row mt-80px simple-header-style">
-        <div className="col">
-          <h1>HÁZIREND</h1>
+      <div className="page-hero-container">
+        <div className="row">
+          <h1 className="page-hero-title">HÁZIREND</h1>
+          <StaticImage
+            className="container-fluid page-hero-image page-big-image"
+            src="../images/hirlevel.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
+          <StaticImage
+            className="container-fluid page-hero-image page-mobil-image"
+            src="../images/hirlevel_mobil.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
         </div>
       </div>
       <div className="row">
