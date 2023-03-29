@@ -7,7 +7,7 @@ description: "Hamish szerint a tapasztalat és a tudás felhalmozódásával a
 author: István
 tags:
   - interjú
-date: 2023-03-29T11:34:04.024Z
+date: 2021-04-06T11:34:04.024Z
 thumbnail: /blogpostimages/led_nadi_shadana.jpg
 ---
 
