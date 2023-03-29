@@ -11,7 +11,7 @@ date: 2023-03-29T11:34:04.024Z
 thumbnail: /blogpostimages/ham.jpg
 ---
 
-Hamish Hendry, az [Ashtanga Yoga London](https://www.astangayogalondon.com) alapítója, bár magát mindössze a “reggeli tanárnak” tartja. Rengeteg Londonban élő fiatalabb astanga jóga tanár tartja őt a mentorának, akihez mindig fordulhat tanácsért. Hamish szerint a tapasztalat és a tudás felhalmozódásával a hatalom is felhalmozódik, így nagyon fontosnak tartja, hogy megossza ezeket a diákjaival és a fiatalabb tanárokkal. Hamish szerint a fiatal tanárok is lehetnek bölcsek, kedvesek, és együttérzők a diákjaikkal, így örömmel osztja meg velük tapasztalatát. Többek között erről is beszélt Harmony Slaterrel és Russell Case-szel a Finding Harmony podcastben.
+Hamish Hendry az [Ashtanga Yoga London](https://www.astangayogalondon.com) alapítója, bár magát mindössze a “reggeli tanárnak” tartja. Rengeteg Londonban élő fiatalabb astanga jóga tanár tartja őt a mentorának, akihez mindig fordulhat tanácsért. Hamish szerint a tapasztalat és a tudás felhalmozódásával a hatalom is felhalmozódik, így nagyon fontosnak tartja, hogy megossza ezeket a diákjaival és a fiatalabb tanárokkal. Hamish szerint a fiatal tanárok is lehetnek bölcsek, kedvesek, és együttérzők a diákjaikkal, így örömmel osztja meg velük tapasztalatát. Többek között erről is beszélt Harmony Slaterrel és Russell Case-szel a Finding Harmony podcastben.
 
 **Hamish:** Azért is nézek fel a fiatal tanárokra, mert én egészen más voltam a kora huszas éveimben. Sokkal beképzeltebb és önzőbb voltam, azt hiszem. Amióta idősebb lettem, rájöttem, hogy más emberek is vannak a világon, nemcsak én.
 
