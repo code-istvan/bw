@@ -32,8 +32,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  .hide-blogsidebar,
   .blog-posts-wrapper {
+    .hide-blogsidebar,
     .vertical-separator {
       display: none;
     }
@@ -73,6 +73,10 @@
   .blog-posts-body-style {
     margin-top: 48px;
   }
+}
+
+.hide-blogsidebar {
+  padding-left: 24px;
 }
 
 // Blog posts body style
