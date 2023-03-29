@@ -136,7 +136,7 @@ exports.createPages = ({ actions, graphql }) => {
       })
     })
 
-    const postsPerPage = 5
+    const postsPerPage = 12
     const postNumPages = Math.ceil(posts.length / postsPerPage)
     // create page for each mdx node
     posts.forEach(post => {

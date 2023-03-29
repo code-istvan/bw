@@ -16,6 +16,10 @@ const BlogSidebar = () => {
       title: "Az astanga vinyásza jóga nem hatha jóga",
     },
     { link: "/blog/a-kombucha-tea", title: "A kombucha tea" },
+    {
+      link: "/blog/astanga-joga-segit-a-noknek-hogy-erosebbek-legyenek",
+      title: "Astanga jóga: „Segít a nőknek, hogy erősebbek legyenek”",
+    },
   ]
 
   return (
