@@ -1,14 +1,39 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
-// import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Ajanlottolvasmanyok() {
   return (
     <Layout>
-      <Seo title="Ajánlott olvasmányok" />
+      <Seo title="AJÁNLOTT OLVASMÁNYOK" />
+      <div className="page-hero-container">
+        <div className="row">
+          <h1 className="page-hero-title">AJÁNLOTT OLVASMÁNYOK</h1>
+          <StaticImage
+            className="container-fluid page-hero-image page-big-image"
+            src="../images/hirlevel.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
+          <StaticImage
+            className="container-fluid page-hero-image page-mobil-image"
+            src="../images/hirlevel_mobil.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
+        </div>
+      </div>
       <div className="row">
-        <h1>Ajánlott olvasmányok</h1>
+        <h1>valami</h1>
       </div>
     </Layout>
   )
