@@ -109,12 +109,12 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
                 <TelegramShareButton url={`${siteUrl}${location.pathname}`}>
                   <Icons.Telegram color="white" />
                 </TelegramShareButton>
-                <EmailShareButton url={`${siteUrl}${location.pathname}`}>
-                  <Icons.Email color="white" />
-                </EmailShareButton>
                 <WhatsappShareButton url={`${siteUrl}${location.pathname}`}>
                   <Icons.Whatsapp color="white" />
                 </WhatsappShareButton>
+                <EmailShareButton url={`${siteUrl}${location.pathname}`}>
+                  <Icons.Email color="white" />
+                </EmailShareButton>
               </div>
             </div>
 
