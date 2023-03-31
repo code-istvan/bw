@@ -112,6 +112,9 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
                 <EmailShareButton url={`${siteUrl}${location.pathname}`}>
                   <Icons.Email color="white" />
                 </EmailShareButton>
+                <WhatsappShareButton url={`${siteUrl}${location.pathname}`}>
+                  <Icons.Whatsapp color="white" />
+                </WhatsappShareButton>
               </div>
             </div>
 
