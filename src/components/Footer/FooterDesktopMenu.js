@@ -15,6 +15,7 @@ const FooterDesktopMenu = () => {
     { link: "/tanfolyam", label: "Tanfolyamok" },
     { link: "/oktatok", label: "Oktatók" },
     { link: "/vinyasza-jogairanyzatok", label: "Jógairányzatok" },
+    { link: "/sorozatabrak", label: "Sorozatábrák" },
     { link: "/galeria", label: "Galéria", extraClass: "" },
   ]
 
@@ -23,9 +24,10 @@ const FooterDesktopMenu = () => {
     { link: "/elso-alkalom", label: "Első alkalom" },
     { link: "/hazirend", label: "Házirend" },
     { link: "/mantra", label: "Mantrák" },
-    { link: "/sorozatabrak", label: "Sorozatábrák" },
     { link: "/holdnapok", label: "Holdnapok" },
     { link: "/osztondij", label: "Ösztöndíj", extraClass: "" },
+    { link: "/taplalkozas", label: "Táplálkozás" },
+    { link: "/ajanlottolvasmanyok", label: "Olvasmányok" },
   ]
 
   // The submenu flashes for a moment when I move the mouse to the main menu. Only in the desktop view.
