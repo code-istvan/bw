@@ -2,47 +2,10 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import moonDays from "../data/moonDays.json"
 import "../sass/pages/_holdnapok.scss"
 
 export default function Holdnapok() {
-  const moonDays = [
-    {
-      month: "Január",
-      fullmoon: "Január 7.",
-      newmoon: "Január 22.",
-      ekadashiNewmoon: "ekadashi",
-      ekadashiFullmoon: "ekadashi",
-    },
-    {
-      month: "Február",
-      fullmoon: "Február 5.",
-      newmoon: " Február 20.",
-      ekadashiNewmoon: "ekadashi",
-      ekadashiFullmoon: "ekadashi",
-    },
-    {
-      month: "Március",
-      fullmoon: "Március 7.",
-      newmoon: "Március 21.",
-      ekadashiNewmoon: "ekadashi",
-      ekadashiFullmoon: "ekadashi",
-    },
-    {
-      month: "Április",
-      fullmoon: "Április 6.",
-      newmoon: "Április 20.",
-      ekadashiNewmoon: "ekadashi",
-      ekadashiFullmoon: "ekadashi",
-    },
-    {
-      month: "Május",
-      fullmoon: "Május 6.",
-      newmoon: "Május 20.",
-      ekadashiNewmoon: "ekadashi",
-      ekadashiFullmoon: "ekadashi",
-    },
-  ]
-
   return (
     <Layout>
       <Seo title="HOLDNAPOK" />
@@ -82,22 +45,23 @@ export default function Holdnapok() {
                 <th>ÚJHOLD</th>
                 <th>ÉKADASHI</th>
               </tr>
-              {moonDays.map(
-                ({
-                  month,
-                  fullmoon,
-                  newmoon,
-                  ekadashiNewmoon,
-                  ekadashiFullmoon,
-                }) => (
-                  <tr key={month}>
-                    <td>{fullmoon}</td>
-                    <td>{ekadashiFullmoon}</td>
-                    <td>{newmoon}</td>
-                    <td>{ekadashiNewmoon}</td>
-                  </tr>
-                )
-              )}
+              {moonDays &&
+                moonDays.map(
+                  ({
+                    month,
+                    fullmoon,
+                    newmoon,
+                    ekadashiNewmoon,
+                    ekadashiFullmoon,
+                  }) => (
+                    <tr key={month}>
+                      <td>{fullmoon}</td>
+                      <td>{ekadashiFullmoon}</td>
+                      <td>{newmoon}</td>
+                      <td>{ekadashiNewmoon}</td>
+                    </tr>
+                  )
+                )}
             </table>
           </div>
 
