@@ -5,84 +5,96 @@
       "title": "A jóga füzére - jóga málá",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "R. Sharath Jois",
       "title": "Az astanga jóga spirituális ösvénye",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Eddie Stern",
       "title": "Egy egyszerű módszer",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Matthew Sweeney",
       "title": "Ashtanga Yoga As It Is",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "David Swenson",
       "title": "Ashtanga Yoga – The Practice Manual",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Gregor Maehle",
       "title": "Practice and Philosophy",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Gregor Maehle",
       "title": "Ashtanga Yoga – The Intermediate Series",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Gregor Maehle",
       "title": "Pranayama The Breath of Yoga",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Gregor Maehle",
       "title": "Yoga Meditation: Through Mantra, Chakras and Kundalini to Spiritual Freedom",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Anthony “Prem” Carlisi",
       "title": "The Only Way Out is In",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Sharmila Desai and Anna Wise",
       "title": "Yoga sadhana for mothers",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Guy Donaheye and Eddie Stern",
       "title": "Guruji",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     }
   ],
   "olvasmanyokKrama": [
@@ -91,21 +103,24 @@
       "title": "Yoga Makaranda",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Srivatsa Ramaswami",
       "title": "The Complete Book of Vinyasa Yoga",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Matthew Sweeney",
       "title": "Vinyasa Krama",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     }
   ],
   "olvasmanyokFood": [
@@ -114,21 +129,24 @@
       "title": "Hogy ne halj meg",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Colin Campbell",
       "title": "Kína-tanulmány",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "R. Sharath Jois",
       "title": "Kortalanul – Egy jógi titkai a hosszú és egészséges élethez",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     }
   ],
   "olvasmanyokSpiri": [
@@ -137,49 +155,56 @@
       "title": "Beavatás",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Paramahansza Jogananda",
       "title": "Egy jógi önéletrajza",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Pal Pandian",
       "title": "Sziddhák, az alapok mesterei",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Szvámi Ráma",
       "title": "A spirituális élet lényege",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Szvámi Ráma",
       "title": "Élet a himalája mestereivel",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Paul Brunton",
       "title": "India titkai",
       "link": "",
       "language": "magyar",
-      "new": false
+      "new": false,
+      "favourite": ""
     },
     {
       "author": "Richard Freeman",
       "title": "The mirror of yoga",
       "link": "",
       "language": "angol",
-      "new": false
+      "new": false,
+      "favourite": ""
     }
   ]
 }
