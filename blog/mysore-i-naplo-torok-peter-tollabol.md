@@ -6,7 +6,7 @@ description: Péter az egyik első, ha nem a legelső magyar astangás aki
 author: István
 tags:
   - utinapló
-date: 2023-04-02T12:08:16.458Z
+date: 2016-01-25T12:08:16.458Z
 thumbnail: /blogpostimages/to-ro-k-pe-ter.jpg
 ---
 Péter 2002-2003 telén három és fél hónapot töltött dél-Indiában, ezalatt tanult Lino Mielével Kovalamban (Kerala), illetve Pattabhi Joisszal Mysore-ban (Karnataka). Élményeiről az itt olvasható naplót vezette a weben.
