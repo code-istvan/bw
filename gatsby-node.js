@@ -111,7 +111,7 @@ exports.createPages = ({ actions, graphql }) => {
       createPage({
         path: "/orarend",
         component: scheduleTemplate,
-      })()
+      })
     )
     // const schedulePerPage = 7
     // const scheduleNumPages = Math.ceil(schedule.length / schedulePerPage)
