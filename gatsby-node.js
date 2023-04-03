@@ -106,20 +106,28 @@ exports.createPages = ({ actions, graphql }) => {
       const dateB = new Date(b.date)
       return dateA - dateB
     })
-    const schedulePerPage = 7
-    const numPages = Math.ceil(schedule.length / schedulePerPage)
-    Array.from({ length: numPages }).forEach((_, i) => {
+
+    schedule.forEach(item =>
       createPage({
-        path: i === 0 ? `/orarend` : `/orarend/${i + 1}`,
+        path: "/orarend",
         component: scheduleTemplate,
-        context: {
-          limit: schedulePerPage,
-          skip: i * schedulePerPage,
-          numPages,
-          currentPage: i + 1,
-        },
-      })
-    })
+      })()
+    )
+    // const schedulePerPage = 7
+    // const scheduleNumPages = Math.ceil(schedule.length / schedulePerPage)
+    // Array.from({ length: scheduleNumPages }).forEach((_, i) => {
+    //   createPage({
+    //     path: i === 0 ? `/orarend` : `/orarend/${i + 1}`,
+    //     component: scheduleTemplate,
+    //     context: {
+    //       limit: schedulePerPage,
+    //       skip: i * schedulePerPage,
+    //       numPages: scheduleNumPages,
+    //       scheduleContext: schedule,
+    //       currentPage: i + 1,
+    //     },
+    //   })
+    // })
 
     const posts = result.data.allMdx.nodes
     let tags = []
@@ -137,7 +145,7 @@ exports.createPages = ({ actions, graphql }) => {
     })
 
     const postsPerPage = 5
-    const postNumPages = Math.ceil(posts.length / postsPerPage)
+    const postNumPages = Math.ceil(Number(posts.length) / 5)
     // create page for each mdx node
     posts.forEach(post => {
       const imageName = post.frontmatter.thumbnail
@@ -158,7 +166,7 @@ exports.createPages = ({ actions, graphql }) => {
           context: {
             limit: postsPerPage,
             skip: i * postsPerPage,
-            numPages,
+            numPages: postNumPages,
             currentPage: i + 1,
           },
         })
