@@ -19,8 +19,8 @@ export default function Blog({ pageContext, data }) {
   const prevPage =
     pageContext?.currentPage - 1 === 1
       ? "/blog"
-      : (pageContext?.currentPage - 1).toString()
-  const nextPage = (pageContext?.currentPage + 1).toString()
+      : `/blog/${(pageContext?.currentPage - 1).toString()}`
+  const nextPage = `/blog/${(pageContext?.currentPage + 1).toString()}`
 
   return (
     <Layout>
@@ -66,18 +66,32 @@ export default function Blog({ pageContext, data }) {
       </div>
       <div className="mt-20px">
         {!isFirst && (
-          <CustomLink
-            link={prevPage}
-            classNames="btn btn--secondary--outline link-decoration-remove"
-            title="Előző öt bejegyzés"
-          />
+          <>
+            <CustomLink
+              link={prevPage}
+              classNames="btn btn--secondary--outline link-decoration-remove"
+              title="Előző öt bejegyzés"
+            />
+            <CustomLink
+              link="/blog"
+              classNames="btn btn--secondary--outline link-decoration-remove"
+              title="Legfrissebb bejegyzések"
+            />
+          </>
         )}
         {!isLast && (
-          <CustomLink
-            link={nextPage}
-            classNames="btn btn--secondary--outline link-decoration-remove"
-            title="Következő öt bejegyzés"
-          />
+          <>
+            <CustomLink
+              link={nextPage}
+              classNames="btn btn--secondary--outline link-decoration-remove"
+              title="Következő öt bejegyzés"
+            />
+            <CustomLink
+              link={`/blog/${pageContext?.numPages}`}
+              classNames="btn btn--secondary--outline link-decoration-remove"
+              title="Legrégebbi bejegyzés"
+            />
+          </>
         )}
       </div>
     </Layout>
