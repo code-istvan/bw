@@ -64,35 +64,33 @@ export default function Blog({ pageContext, data }) {
           <BlogRoll posts={data.allMdx.nodes} />
         </div>
       </div>
-      <div className="mt-20px">
+      <div className="mt-20px blog-list-footer-button">
         {!isFirst && (
-          <>
-            <CustomLink
-              link={prevPage}
-              classNames="btn btn--secondary--outline link-decoration-remove"
-              title="Előző öt bejegyzés"
-            />
-            <CustomLink
-              link="/blog"
-              classNames="btn btn--secondary--outline link-decoration-remove"
-              title="Legfrissebb bejegyzések"
-            />
-          </>
+          <CustomLink
+            link={prevPage}
+            classNames="btn btn--secondary--outline link-decoration-remove"
+            title="Előző öt bejegyzés"
+          />
         )}
         {!isLast && (
-          <>
-            <CustomLink
-              link={nextPage}
-              classNames="btn btn--secondary--outline link-decoration-remove"
-              title="Következő öt bejegyzés"
-            />
-            <CustomLink
-              link={`/blog/${pageContext?.numPages}`}
-              classNames="btn btn--secondary--outline link-decoration-remove"
-              title="Legrégebbi bejegyzés"
-            />
-          </>
+          <CustomLink
+            link={nextPage}
+            classNames="btn btn--secondary--outline link-decoration-remove"
+            title="Következő öt bejegyzés"
+          />
         )}
+      </div>
+      <div className="mt-20px">
+        <CustomLink
+          link="/blog"
+          classNames="btn btn--secondary--outline link-decoration-remove"
+          title="Legfrissebb bejegyzések"
+        />
+        <CustomLink
+          link={`/blog/${pageContext?.numPages}`}
+          classNames="btn btn--secondary--outline link-decoration-remove"
+          title="Legrégebbi bejegyzés"
+        />
       </div>
     </Layout>
   )
