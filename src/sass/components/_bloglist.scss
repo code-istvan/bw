@@ -75,8 +75,21 @@
   }
 }
 
-.blog-list-footer-button {
+.blog-list-footer {
+  padding-top: 20px;
+}
+
+.blog-list-footer-buttons {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 10px;
+  margin-top: 20px;
+  btn:nth-child(1) {
+    padding-top: 40px;
+  }
+
+  @include md {
+    gap: 20px;
+  }
 }
