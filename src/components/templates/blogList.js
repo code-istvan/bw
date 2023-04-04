@@ -84,12 +84,12 @@ export default function Blog({ pageContext, data }) {
               <CustomLink
                 link="/blog"
                 classNames="btn btn--secondary--outline link-decoration-remove"
-                title="Legfrissebb bejegyzések"
+                title="Legfrissebb"
               />
               <CustomLink
                 link={`/blog/${pageContext?.numPages}`}
                 classNames="btn btn--secondary--outline link-decoration-remove"
-                title="Legrégebbi bejegyzés"
+                title="Legrégebbi"
               />
             </div>
           </div>
