@@ -117,7 +117,6 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
                 </EmailShareButton>
               </div>
             </div>
-
             <ButtonIcon
               buttonType="icon-text"
               className=""
