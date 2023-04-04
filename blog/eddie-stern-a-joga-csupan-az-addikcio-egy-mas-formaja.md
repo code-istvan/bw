@@ -5,7 +5,7 @@ description: "Eddie Stern: a jóga csupán az addikció egy más formája?"
 author: István
 tags:
   - astanga elmélet
-date: 2023-04-04T15:16:23.526Z
+date: 2020-02-25T15:16:23.526Z
 thumbnail: /blogpostimages/eddie.png
 ---
 Ebben a sorozatban magyar fordításban közlünk részleteket Eddie Stern: Egy egyszerű módszer, Új nézőpontból a jóga tudománya, avagy hogyan képes megváltoztatni az életed című könyvéből. A kötet Eddie Stern hosszú kutatásának, és astanga jóga gyakorlóként, és tanárként felhalmozott tapasztalatának gyümölcse. Nyugati és keleti gondolkodás, jóga és orvoslás, indiai hagyomány és az idegrendszerrel kapcsolatos kutatások legújabb eredményeit veti össze. A részletek a könyv ötödik és tizenegyedik fejezetéből származnak. A sikerkönyv már magyarul is megvásárolható! 
