@@ -8,7 +8,7 @@ tags:
 date: 2023-04-04T15:47:51.738Z
 thumbnail: /blogpostimages/az_elet_ertelme.jpg
 ---
-This is normal body copy.[^1] It includes a couple footnotes.[^2]
+This is normal body copy.[^1] It includes a couple footnotes.[^2] Valami "^".
  
 [^1]:
   This is a footnote.
