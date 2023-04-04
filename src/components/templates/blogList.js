@@ -3,12 +3,14 @@ import Layout from "../Layouts/Layout"
 import Seo from "../seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
-import { graphql } from "gatsby"
+import { graphql, navigate } from "gatsby"
+import Icons from "../Icons/Icons"
 import BlogTags from "../Blog/BlogTags"
 import BlogSidebar from "../Blog/BlogSidebar"
 import SearchBar from "../SearchBar"
 import BlogRoll from "../Blog/BlogRoll"
 import { CustomLink } from "../CustomLink"
+import ButtonIcon from "../Buttons/ButtonIcon"
 import "../../sass/components/_bloglist.scss"
 
 export default function Blog({ pageContext, data }) {
@@ -66,17 +68,25 @@ export default function Blog({ pageContext, data }) {
           <div className="blog-list-footer">
             <div className="blog-list-footer-buttons">
               {!isFirst && (
-                <CustomLink
-                  link={prevPage}
-                  classNames="btn btn--secondary--solid link-decoration-remove"
-                  title="Elöző oldal"
+                <ButtonIcon
+                  buttonType="icon-text"
+                  className=""
+                  text=""
+                  icon={<Icons.ChevronLeft color="orange" />}
+                  onClick={() => {
+                    navigate(`${prevPage}`)
+                  }}
                 />
               )}
               {!isLast && (
-                <CustomLink
-                  link={nextPage}
-                  classNames="btn btn--secondary--solid link-decoration-remove"
-                  title="Következő oldal"
+                <ButtonIcon
+                  buttonType="icon-text"
+                  className=""
+                  text=""
+                  icon={<Icons.ChevronRight color="orange" />}
+                  onClick={() => {
+                    navigate(`${nextPage}`)
+                  }}
                 />
               )}
             </div>
@@ -86,6 +96,7 @@ export default function Blog({ pageContext, data }) {
                 classNames="btn btn--secondary--outline link-decoration-remove"
                 title="BLOG eleje"
               />
+
               <CustomLink
                 link={`/blog/${pageContext?.numPages}`}
                 classNames="btn btn--secondary--outline link-decoration-remove"

@@ -132,7 +132,12 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        // Footnotes mode (default: true)
+        footnotes: true,
+        // GitHub Flavored Markdown mode (default: true)
+        gfm: true,
         plugins: [
+          "gatsby-remark-numbered-footnotes",
           {
             resolve: `gatsby-remark-images`,
             options: { maxWidth: 1024, withWebp: true },
@@ -151,7 +156,6 @@ module.exports = {
               useCustomDivider: "<hr/><strong>References:</strong>", // Defaults to <hr/>
             },
           },
-          "gatsby-remark-numbered-footnotes",
         ],
       },
     },
