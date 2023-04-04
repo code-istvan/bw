@@ -151,6 +151,7 @@ module.exports = {
               useCustomDivider: "<hr/><strong>References:</strong>", // Defaults to <hr/>
             },
           },
+          "gatsby-remark-numbered-footnotes",
         ],
       },
     },
