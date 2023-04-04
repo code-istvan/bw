@@ -62,35 +62,38 @@ export default function Blog({ pageContext, data }) {
         </div>
         <div className="col-12-xs col-9-md col-9-xl blogroll-desktop">
           <BlogRoll posts={data.allMdx.nodes} />
+          <div className="separator-horizontal-full"></div>
+          <div className="blog-list-footer">
+            <div className="blog-list-footer-buttons">
+              {!isFirst && (
+                <CustomLink
+                  link={prevPage}
+                  classNames="btn btn--secondary--solid link-decoration-remove"
+                  title="Előző öt bejegyzés"
+                />
+              )}
+              {!isLast && (
+                <CustomLink
+                  link={nextPage}
+                  classNames="btn btn--secondary--solid link-decoration-remove"
+                  title="Következő öt bejegyzés"
+                />
+              )}
+            </div>
+            <div className="mt-20px blog-list-footer-buttons">
+              <CustomLink
+                link="/blog"
+                classNames="btn btn--secondary--outline link-decoration-remove"
+                title="Legfrissebb bejegyzések"
+              />
+              <CustomLink
+                link={`/blog/${pageContext?.numPages}`}
+                classNames="btn btn--secondary--outline link-decoration-remove"
+                title="Legrégebbi bejegyzés"
+              />
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="mt-20px blog-list-footer-button">
-        {!isFirst && (
-          <CustomLink
-            link={prevPage}
-            classNames="btn btn--secondary--outline link-decoration-remove"
-            title="Előző öt bejegyzés"
-          />
-        )}
-        {!isLast && (
-          <CustomLink
-            link={nextPage}
-            classNames="btn btn--secondary--outline link-decoration-remove"
-            title="Következő öt bejegyzés"
-          />
-        )}
-      </div>
-      <div className="mt-20px">
-        <CustomLink
-          link="/blog"
-          classNames="btn btn--secondary--outline link-decoration-remove"
-          title="Legfrissebb bejegyzések"
-        />
-        <CustomLink
-          link={`/blog/${pageContext?.numPages}`}
-          classNames="btn btn--secondary--outline link-decoration-remove"
-          title="Legrégebbi bejegyzés"
-        />
       </div>
     </Layout>
   )
