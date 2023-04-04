@@ -69,14 +69,14 @@ export default function Blog({ pageContext, data }) {
                 <CustomLink
                   link={prevPage}
                   classNames="btn btn--secondary--solid link-decoration-remove"
-                  title="-5 bejegyzés"
+                  title="Következő oldal"
                 />
               )}
               {!isLast && (
                 <CustomLink
                   link={nextPage}
                   classNames="btn btn--secondary--solid link-decoration-remove"
-                  title="+5 bejegyzés"
+                  title="Elöző oldal"
                 />
               )}
             </div>
@@ -84,12 +84,12 @@ export default function Blog({ pageContext, data }) {
               <CustomLink
                 link="/blog"
                 classNames="btn btn--secondary--outline link-decoration-remove"
-                title="Legfrissebb"
+                title="Legfrissebb posztok"
               />
               <CustomLink
                 link={`/blog/${pageContext?.numPages}`}
                 classNames="btn btn--secondary--outline link-decoration-remove"
-                title="Legrégebbi"
+                title="Legrégebbi posztok"
               />
             </div>
           </div>
