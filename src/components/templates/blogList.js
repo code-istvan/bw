@@ -69,14 +69,14 @@ export default function Blog({ pageContext, data }) {
                 <CustomLink
                   link={prevPage}
                   classNames="btn btn--secondary--solid link-decoration-remove"
-                  title="Előző öt bejegyzés"
+                  title="-5 bejegyzés"
                 />
               )}
               {!isLast && (
                 <CustomLink
                   link={nextPage}
                   classNames="btn btn--secondary--solid link-decoration-remove"
-                  title="Következő öt bejegyzés"
+                  title="+5 bejegyzés"
                 />
               )}
             </div>
