@@ -5,7 +5,7 @@ description: “Vinā Vinyāsa yogena āsanādih na kārayet” Ne végezz ásza
 author: István
 tags:
   - jógaelmélet
-date: 2023-04-05T12:46:27.551Z
+date: 2020-12-30T12:46:27.551Z
 thumbnail: /blogpostimages/sharath_jois.jpg
 ---
 Egy különleges légzéstechnika a kulcsa a vinyásza rendszernek, amelyen az astanga jóga alapul. Pattabhi Jois sokszor hangsúlyozta ezt, Vāmana Risit idézve a Yoga Koruntából:
