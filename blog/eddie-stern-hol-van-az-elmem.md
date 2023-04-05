@@ -19,7 +19,7 @@ A test és az elme közötti kapcsolat meghatározása kezdetektől a filozófus
 
 Minthogy a jógát általában pózok gyakorlásának gondoljuk, felvetődik a kérdés, hogy lehet az, **hogy mindössze a testem meghatározott pozíciókba helyezésével az elmém megnyugszik.** Az ászanák fizikálisak – miért kéne, hogy megváltoztassák az elmeműködésem? Nem lehet ez annak a jele, hogy a testem és az elmém nem szigorúan elkülönültek, hanem egymással párbeszédben működnek? A jóga gyakorlásának testünkön keresztül kifejtett hatása nem kevesebb, mint döbbentő: közelmúltban publikált tanulmányok szerint a jóga rendszeres gyakorlása – még ha kevésszer is gyakorlunk – segíthet a vérnyomáscsökkentésben, a depresszió és a szorongás tüneteinek kezelésében, a hátfájás mérséklésében, az asztma-rohamok gyakoriságának csökkentésében, és így tovább. Rendkívüli, hogy egyetlen fizikai gyakorlásnak milyen széleskörű hatásai lehetnek – mégis igaz. Ezek a gyakorlatok, amelyeket a testünkkel végzünk, rögtön hatással vannak az elménkre, ugyanakkor beivódnak a testünkbe, az izommemóriába is. Az ászanák fizikai gyakorlása, ha tudatosan és figyelemmel végezzük azt, elkezdi feloldani az életünk során felhalmozott traumatikus események hatását úgy, hogy azokat először a testünkből oldja fel. Az orvostudományban egyértelmű az összefüggés a szív-, és érrendszeri betegségek, a rák, a diabétesz és más felnőtt-betegségek és a minket érő tartós stressz között: vagyis egyértelmű, hogy a tartós stresszhatás rombolja testünket.
 
-A következő részletben a stresszhatások és a jóga összefüggésseivel foglalkozunk..
+A következő részletben a stresszhatások és a jóga összefüggésseivel foglalkozunk.
 
 **Fordította és szerkesztette:** Horváth Eszter
 
