@@ -44,4 +44,4 @@ A Yoga Malában Pattabhi Jois figyelmeztetőleg idézi a Hatha Yoga Pradipikát:
 
 A cikk szerzője Andrew Hillam, kiegészítette Horváth Eszter.
 
-Ebben a podcast epizódban Andrew, tapasztalt astanga gyakorlóként bővebben is kifejti a légzés, és a hangadás kapcsolatát az elme állapotaihoz.
+[Ebben a podcast epizódban](https://harmonyslater.com/finding-harmony-podcast/2020/11/6/the-power-of-sacred-sound) Andrew, tapasztalt astanga gyakorlóként bővebben is kifejti a légzés, és a hangadás kapcsolatát az elme állapotaihoz.
