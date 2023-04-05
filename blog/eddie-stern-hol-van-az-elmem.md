@@ -6,7 +6,7 @@ description: Hogy lehet az, hogy mindössze a testem meghatározott pozíciókba
 author: István
 tags:
   - jógaelmélet
-date: 2023-04-05T12:13:16.253Z
+date: 2019-10-13T12:13:16.253Z
 thumbnail: /blogpostimages/eddieastanga.jpg
 ---
 Ebben a sorozatban magyar fordításban közlünk részleteket Eddie Stern: Egy egyszerű módszer, Új nézőpontból a jóga tudománya, avagy hogyan képes megváltoztatni az életed című könyvéből. A kötet Eddie Stern hosszú kutatásának, és astanga jóga gyakorlóként, és tanárként felhalmozott tapasztalatának gyümölcse. Nyugati és keleti gondolkodás, jóga és orvoslás, indiai hagyomány és az idegrendszerrel kapcsolatos kutatások legújabb eredményeit veti össze. A részletek a könyv ötödik és tizenegyedik fejezetéből származnak. A sikerkönyv már magyarul is megvásárolható! 
