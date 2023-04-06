@@ -123,7 +123,7 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
               text="Vissza az összes bejegyzéshez"
               icon={<Icons.ArrowLeft color="orange" />}
               onClick={() => {
-                navigate("/blog")
+                navigate(-1)
               }}
             />
           </div>

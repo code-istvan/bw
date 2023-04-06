@@ -129,6 +129,29 @@ const ChevronLeft = props => {
   )
 }
 
+const ChevronDoubleLeft = props => {
+  ColorSwitch(props.color)
+
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M13 19.8787L10.8787 22L3.45406 14.5754L1.33274 12.4541L3.45406 10.3327L10.8787 2.90812L13 5.02944L5.57538 12.4541L13 19.8787Z"
+        fill={fillColor}
+      />
+      <path
+        d="M22 19.8787L19.8787 22L12.4541 14.5754L10.3327 12.4541L12.4541 10.3327L19.8787 2.90812L22 5.02944L14.5754 12.4541L22 19.8787Z"
+        fill={fillColor}
+      />
+    </svg>
+  )
+}
+
 const ChevronRight = props => {
   ColorSwitch(props.color)
 
@@ -142,6 +165,29 @@ const ChevronRight = props => {
     >
       <path
         d="M6 4.12132L8.12132 2L15.5459 9.42462L17.6673 11.5459L15.5459 13.6673L8.12132 21.0919L6 18.9706L13.4246 11.5459L6 4.12132Z"
+        fill={fillColor}
+      />
+    </svg>
+  )
+}
+
+const ChevronDoubleRight = props => {
+  ColorSwitch(props.color)
+
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11 4.12132L13.1213 2L20.5459 9.42462L22.6673 11.5459L20.5459 13.6673L13.1213 21.0919L11 18.9706L18.4246 11.5459L11 4.12132Z"
+        fill={fillColor}
+      />
+      <path
+        d="M2 4.12132L4.12132 2L11.5459 9.42462L13.6673 11.5459L11.5459 13.6673L4.12132 21.0919L2 18.9706L9.42462 11.5459L2 4.12132Z"
         fill={fillColor}
       />
     </svg>
@@ -415,7 +461,9 @@ const Whatsapp = props => {
 const Icons = {
   ArrowLeft,
   ChevronLeft,
+  ChevronDoubleLeft,
   ChevronRight,
+  ChevronDoubleRight,
   BwSymbol,
   Email,
   Logo,

@@ -67,6 +67,15 @@ export default function Blog({ pageContext, data }) {
           <div className="separator-horizontal-full"></div>
           <div className="blog-list-footer">
             <div className="blog-list-footer-buttons">
+              <ButtonIcon
+                buttonType="icon-text"
+                className=""
+                text=""
+                icon={<Icons.ChevronDoubleLeft color="orange" />}
+                onClick={() => {
+                  navigate("/blog")
+                }}
+              />
               {!isFirst && (
                 <ButtonIcon
                   buttonType="icon-text"
@@ -78,6 +87,11 @@ export default function Blog({ pageContext, data }) {
                   }}
                 />
               )}
+              <div>
+                <p>
+                  {pageContext?.currentPage} / {pageContext?.numPages}
+                </p>
+              </div>
               {!isLast && (
                 <ButtonIcon
                   buttonType="icon-text"
@@ -89,18 +103,14 @@ export default function Blog({ pageContext, data }) {
                   }}
                 />
               )}
-            </div>
-            <div className="mt-20px blog-list-footer-buttons">
-              <CustomLink
-                link="/blog"
-                classNames="btn btn--secondary--outline link-decoration-remove"
-                title="BLOG eleje"
-              />
-
-              <CustomLink
-                link={`/blog/${pageContext?.numPages}`}
-                classNames="btn btn--secondary--outline link-decoration-remove"
-                title="BLOG vége"
+              <ButtonIcon
+                buttonType="icon-text"
+                className=""
+                text=""
+                icon={<Icons.ChevronDoubleRight color="orange" />}
+                onClick={() => {
+                  navigate(`/blog/${pageContext?.numPages}`)
+                }}
               />
             </div>
           </div>
