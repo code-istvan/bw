@@ -11,7 +11,7 @@ thumbnail: /blogpostimages/banner_tristhana.jpg
 ---
 > yogāṅgānuṣṭhānādaśuddhikṣaye jñānadīptirāvivekakhyāteḥ
 > Az astanga jóga gyakorlása elpusztítja a test és az elme szennyeződéseit. Ezek a szennyeződések akadályok, amelyek gátolják a lélek valódi természetének megvalósítását.
-> — Jóga szútra (JSz) 2.28
+> — Jóga szútra 2.28
 
 A **tri** szanszkrit szó jelentése három, a **sthána** pedig állóhely. 
 
