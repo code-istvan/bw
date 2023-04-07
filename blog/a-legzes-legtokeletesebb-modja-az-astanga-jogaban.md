@@ -10,7 +10,7 @@ thumbnail: /blogpostimages/sharath_jois.jpg
 ---
 Egy különleges légzéstechnika a kulcsa a vinyásza rendszernek, amelyen az astanga jóga alapul. Pattabhi Jois sokszor hangsúlyozta ezt, Vāmana Risit idézve a Yoga Koruntából:
 
-> “Vinā Vinyāsa yogena āsanādih na kārayet”
+> Vinā Vinyāsa yogena āsanādih na kārayet
 > Ne végezz ászanát vinyásza nélkül.
 
 Ez a légzéstechnika, a vinyászával és a testhelyzetekkel kombinálva segíti a véráramlást, a méreganyagok távozását, és könnyűvé, erőssé teszi a testet. Automatikusan megteremti a belső egyensúlyt is. Amikor a légzés kiegyensúlyozottá és nyugodttá válik, az idegrendszer ugyanúgy megtisztul, amitől megnyugszik az elme. Ilyenkor válik lehetségessé a gyakorláson keresztüli testi-lelki változás.
