@@ -10,7 +10,6 @@ date: 2021-04-28T15:37:42.306Z
 thumbnail: /blogpostimages/banner_tristhana.jpg
 ---
 > yogāṅgānuṣṭhānādaśuddhikṣaye jñānadīptirāvivekakhyāteḥ
->
 > Az astanga jóga gyakorlása elpusztítja a test és az elme szennyeződéseit. Ezek a szennyeződések akadályok, amelyek gátolják a lélek valódi természetének megvalósítását.
 > — Jóga-szútra (JSz) 2.28
 
