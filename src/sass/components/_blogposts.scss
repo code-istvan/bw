@@ -79,6 +79,12 @@
   padding-left: 24px;
 }
 
+.blogpost-share-buttons {
+  svg:hover {
+    fill: $color-brand-orange !important;
+  }
+}
+
 // Blog posts body style
 .blog-posts-body-style {
   margin-top: 80px;
