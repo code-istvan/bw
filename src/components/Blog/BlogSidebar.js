@@ -36,7 +36,6 @@ const BlogSidebar = () => {
                 <div>
                   <Icons.ChevronRight />
                 </div>
-
                 <p>
                   <Link
                     className="clr-shades-white link-decoration-remove"

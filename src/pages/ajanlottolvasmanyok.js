@@ -2,7 +2,6 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import Icons from "../components/Icons/Icons"
 import RecommendedReadings from "../data/recommendedReadings.json"
 import "../sass/pages/_olvasmanyok.scss"
 
@@ -37,7 +36,7 @@ export default function Ajanlottolvasmanyok() {
       </div>
       <div className="olvasmanyok-wrapper">
         <div className="row">
-          <div className="col">
+          <div className="col unordered-list-style">
             <h3>Astanga vinyásza jóga</h3>
             <br />
             <ul>
@@ -45,7 +44,6 @@ export default function Ajanlottolvasmanyok() {
                 RecommendedReadings.olvasmanyokAstanga.map(
                   ({ author, title }) => (
                     <li key={title}>
-                      <Icons.ChevronRight />
                       <p>
                         <strong>{author}</strong>: {title}
                       </p>
@@ -57,7 +55,7 @@ export default function Ajanlottolvasmanyok() {
           </div>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="col unordered-list-style">
             <h3>Vinyásza krama jóga</h3>
             <br />
             <ul>
@@ -65,7 +63,6 @@ export default function Ajanlottolvasmanyok() {
                 RecommendedReadings.olvasmanyokKrama.map(
                   ({ author, title }) => (
                     <li key={title}>
-                      <Icons.ChevronRight />
                       <p>
                         <strong>{author}</strong>: {title}
                       </p>
@@ -77,7 +74,7 @@ export default function Ajanlottolvasmanyok() {
           </div>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="col unordered-list-style">
             <h3>Egyéb spirituális könyvek amiket előszeretettel forgatunk</h3>
             <br />
             <ul>
@@ -85,7 +82,6 @@ export default function Ajanlottolvasmanyok() {
                 RecommendedReadings.olvasmanyokSpiri.map(
                   ({ author, title }) => (
                     <li key={title}>
-                      <Icons.ChevronRight />
                       <p>
                         <strong>{author}</strong>: {title}
                       </p>
@@ -97,14 +93,13 @@ export default function Ajanlottolvasmanyok() {
           </div>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="col unordered-list-style">
             <h3>Táplálkozással, életvitellel kapcsolatos könyvek</h3>
             <br />
             <ul>
               {RecommendedReadings.olvasmanyokFood &&
                 RecommendedReadings.olvasmanyokFood.map(({ author, title }) => (
                   <li key={title}>
-                    <Icons.ChevronRight />
                     <p>
                       <strong>{author}</strong>: {title}
                     </p>
