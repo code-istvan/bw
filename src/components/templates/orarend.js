@@ -102,7 +102,7 @@ const Orarend = ({ pageContext, data }) => {
                             />
                           )}
                         </div>
-                        <p>{date}</p>
+                        <p>{monthDay}</p>
                       </div>
                     </div>
                   </div>
