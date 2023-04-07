@@ -76,7 +76,9 @@ export default function Blog({ pageContext, data }) {
                   navigate("/blog")
                 }}
               />
-              {!isFirst && (
+              {isFirst ? (
+                <Icons.ChevronLeft color="darkGrey" />
+              ) : (
                 <ButtonIcon
                   buttonType="icon-text"
                   className=""
@@ -92,7 +94,9 @@ export default function Blog({ pageContext, data }) {
                   {pageContext?.currentPage} / {pageContext?.numPages}
                 </p>
               </div>
-              {!isLast && (
+              {isLast ? (
+                <Icons.ChevronRight color="darkGrey" />
+              ) : (
                 <ButtonIcon
                   buttonType="icon-text"
                   className=""

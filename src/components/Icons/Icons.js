@@ -10,6 +10,9 @@ const ColorSwitch = propColor => {
     case "white":
       fillColor = "#FFFFFF"
       break
+    case "darkGrey":
+      fillColor = "hsl(0, 0%, 20%)"
+      break
     case "orange":
       fillColor = "#F39E12"
       break
