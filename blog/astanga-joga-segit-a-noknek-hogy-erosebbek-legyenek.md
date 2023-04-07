@@ -11,7 +11,7 @@ thumbnail: /blogpostimages/govinda_interju.jpg
 ---
 Agresszívnak és ijesztőnek tűnik, de az astanga éppen a fájdalom meghaladásáról és a félelmeink legyőzéséről szól, állítja Govinda Kai, a világ egyik legismertebb astanga jógaguruja. A budapesti workshopon jártunk.
 
-> „Hagyd kint a cipődet és az egódat!” 
+> Hagyd kint a cipődet és az egódat!
 
 olvasom a Bandha Works Jógaiskola ajtaján. Vasárnap reggel 7 óra van. Az utcán még a tegnapi bulikból hazafelé tartó emberek császkálnak, itt viszont olyan sokan vannak a jógateremben, hogy az újonnan érkezőknek várniuk kell, amíg valaki befejezi az egy-másfél órás, önállóan végzett gyakorlást; van, aki hajnali 5 óta jógázik.
 
