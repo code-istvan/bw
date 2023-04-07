@@ -20,7 +20,7 @@ Az indológusok általánosan úgy gondolják, hogy Patandzsali a hatha jóga sz
 
 Guruji a tradicionális Patandzsali jógáról, gurujától, Krishnamacharya-tól tanult, aki a Yoga Korunta bölcsességét adta tovább tanítványának:
 
-> “Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Jóga Koruntát) gurkhali nyelven. Ez a terjedelmes mű Patandzsali jóga szútráját dolgozta ki aprólékosan és látta el kommentárokkal, amikre a szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patandzsali jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.”[^2] 
+> Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Jóga Koruntát) gurkhali nyelven. Ez a terjedelmes mű Patandzsali jóga szútráját dolgozta ki aprólékosan és látta el kommentárokkal, amikre a szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patandzsali jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.[^2] 
 
 Guruji szerint a Yoga Koruntában volt először megemlítve a drishti, bandha, vinyásza – mint az astanga jóga “alapelemei” –  és itt lettek először csoportosítva az ászanák azok terápiás, tisztító vagy erősítő jellegüknél fogva.
 
@@ -38,8 +38,8 @@ Az astanga jóga, hatha jóga, vagy a Patandzsali jóga valami egészen más?
 
 Norman Allen:
 
-> “…ha az emberek egyszerűen hatha jógának hívják, az rosszabb, mintha astanga jógának nevezik, sokkal rosszabb. Felmerül a kérdés: nevezhetjük-e a Patandzsali jógát rendszernek még akkor is, ha egy konkrét ászana leírásáról sincs benne szó ?!”
-> “…a hatha jógik különböző gyakorlatokat végeztek, hogy testüket a felszabadulás eszközeként tudják használni. Kristály tisztaságú és keménységű test elérésére törekedtek. Át akarták alakítani a testüket abból a célból, hogy az lelkük valódi hordozó-eszközévé váljon. Láttuk őket Pondicherryben: átvágták az ínszalagot a nyelvük alatt,  hogy megakadályozzák a szómának, az “élet nektárjának” lecsepegését és elpazarlódását. Extrém módon alkalmazták a brahmacsarja-t, például nem mehettek és üríthették ki beleiket bármikor – ez hatha jóga. A Nap és a Hold, Shiva és Shakti összeolvadása; ez az, amit láttunk. Valószínűleg nem foglalkoztak volna a hatha jógával, ha nem tudták volna, mi is az. „3
+> …ha az emberek egyszerűen hatha jógának hívják, az rosszabb, mintha astanga jógának nevezik, sokkal rosszabb. Felmerül a kérdés: nevezhetjük-e a Patandzsali jógát rendszernek még akkor is, ha egy konkrét ászana leírásáról sincs benne szó ?!
+> …a hatha jógik különböző gyakorlatokat végeztek, hogy testüket a felszabadulás eszközeként tudják használni. Kristály tisztaságú és keménységű test elérésére törekedtek. Át akarták alakítani a testüket abból a célból, hogy az lelkük valódi hordozó-eszközévé váljon. Láttuk őket Pondicherryben: átvágták az ínszalagot a nyelvük alatt,  hogy megakadályozzák a szómának, az “élet nektárjának” lecsepegését és elpazarlódását. Extrém módon alkalmazták a brahmacsarja-t, például nem mehettek és üríthették ki beleiket bármikor – ez hatha jóga. A Nap és a Hold, Shiva és Shakti összeolvadása; ez az, amit láttunk. Valószínűleg nem foglalkoztak volna a hatha jógával, ha nem tudták volna, mi is az. 
 
 Guruji a hatha jógára Észak-Indiai jógaként tekintett, és teljes mértékben lebeszélt minket arról, hogy azzal foglalkozzunk, finoman célozva arra, hogy némely gyakorlat inkább visszahúzó hatású. A hatha jóga az ászanákon és a légzőgyakorlatokon kívül mudrákat (kéztartásokat) és krijákat (tisztító célzatú gyakorlatokat) használ: például a saját vizelet elfogyasztását, a test hamuval való befedését, a nyelv alatti ínszalag átvágását stb. (lásd: Hatha Jóga Pradipika és Gheranda Samhita)
 
@@ -55,7 +55,7 @@ A külső ágak felkészítik a jógit az ülő meditációra. Ezek a test és e
 
 Amíg a hatha jógik eksztázisra törekszenek, mint gyakorlásuk közvetítő erejére, addig a Krishnamacharya által felvirágoztatott Dél-Indiai hagyomány befelé figyelő út –  az elme lecsendesítése céljából. Az ászana ebben a kontextusban terápiának tekinthető – felkészülés az ülésre és a magasabb szintű belső gyakorlatokra.
 
-> “Krishnamacharya azt mondja, ez a jóga “ashastra-shastra-chikitsa”,  ami azt jelenti, műszer nélküli operáció. Nagyon óvatosan és gondosan kell gyakorolni, mindenféle külső beavatkozás nélkül, mivel a test önmaga az az eszköz, ami az operációt végrehajtja.”4.
+> Krishnamacharya azt mondja, ez a jóga “ashastra-shastra-chikitsa”, ami azt jelenti, műszer nélküli operáció. Nagyon óvatosan és gondosan kell gyakorolni, mindenféle külső beavatkozás nélkül, mivel a test önmaga az az eszköz, ami az operációt végrehajtja.4.
 
 Amíg Krishnamacharya idősebb korára vált terapeutás munkája kapcsán ismertté, maga a terápia téma a kezdetektől fogva része volt tevékenységeinek. Alapos ayurvéda ismeretei átitatták jóga oktatását.
 
@@ -79,11 +79,11 @@ A képzeletbeli nagyító alá Pattabhi Jois tanítványai közül néhányan az
 
 Amikor az emberek azt kérdezik tőlem, hogy milyen jógát tanítok, azt felelem **astanga jógát** a reakció gyakran ez:
 
-> “óh, az a fizikailag nagyon megerőltető féle , az a  “nem-spirituális” jóga, ugye?” 
+> óh, az a fizikailag nagyon megerőltető féle , az a  “nem-spirituális” jóga, ugye?
 
 Ha az interneten rákeresünk az astanga szóra, hasonló hangvételű magyarázatokkal és leírásokkal találkozhatunk:
 
-> “Napjaink egyik legismertebb jógairányzata az astanga jóga, amit olyan hírességek gyakorolnak, mint Madonna, Sting vagy Woody Harrelson. Népszerűségét “extra zsírégető” típusú edzésmódjának köszönheti, ami az izzadás mértékének növelésével karcsú és feszes izmokkal ajándékozza meg a gyakorlóját.”5
+> Napjaink egyik legismertebb jógairányzata az astanga jóga, amit olyan hírességek gyakorolnak, mint Madonna, Sting vagy Woody Harrelson. Népszerűségét “extra zsírégető” típusú edzésmódjának köszönheti, ami az izzadás mértékének növelésével karcsú és feszes izmokkal ajándékozza meg a gyakorlóját.5
 
 Elég szerencsétlen a szituáció, de nem okoz meglepetést a test és a testtel való megszállottság korában, hogy hasonló mértékű megszállottság alakul ki ászanák vagy éppen ászanák sorozatának tökéletes kivitelezése irányába. Habár nagyon hatékony motivációs tényező, de a testtel való megszállott foglalkozás a spirituális gyakorlásunkat előbb vagy utóbb hátráltatni fogja, ami ahhoz vezet, hogy beleragadunk a fizikai erő és szépség csodálásába, elvétve így a valódi célt és a gyakorlás helyes módját. Az ászanák tökéletes kivitelezésének vajmi kevés köze van a jóga útján való továbbhaladáshoz.
 
@@ -123,7 +123,7 @@ A pratjáhára híd a külső és belső ágak között. Apratjáhára megvalós
 
 A pratjáhára a vairagya, azaz a lemondás tökéletességre fejlesztése, ami a gyakorlással (abhyasa) együtt az elme feletti uralomhoz vezet. Patandzsali úgy ír erről a Jóga szútrában, hogy a legmagasabb szintű lemondás a buddhi (intellektus) és a purusa (Önvaló, a Látó) természet szerinti megkülönböztetéséhez, továbbá minden a gúnák által megnyilvánított dolgok iránti közömbösséghez vezet ( a gúnák játéka által kreált világ iránt elvesztett érdeklődés vezeti az elmét az önmagába záródáshoz)
 
-> „puruṣa-khyāter-guṇa-vaitṛṣṇyam”
+> puruṣa-khyāter-guṇa-vaitṛṣṇyam
 
 A puruṣa-khyāter vagy vivéka khyāter a szútrák központi témája – minden jógagyakorlás végső célja ez: annak a képességnek a kifejlesztése, hogy a Látót megkülönböztessük a látott-tól. Patandzsali a Látó (Purusa) összekeverését az elmével az egoitás (asmita) szóval jelöli.
 
