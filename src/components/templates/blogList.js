@@ -9,7 +9,6 @@ import BlogTags from "../Blog/BlogTags"
 import BlogSidebar from "../Blog/BlogSidebar"
 import SearchBar from "../SearchBar"
 import BlogRoll from "../Blog/BlogRoll"
-import { CustomLink } from "../CustomLink"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import "../../sass/components/_bloglist.scss"
 
@@ -67,7 +66,7 @@ export default function Blog({ pageContext, data }) {
           <div className="separator-horizontal-full"></div>
           <div className="blog-list-footer">
             <div className="blog-list-footer-buttons">
-              <div className="row">
+              <div className="row maci">
                 {isFirst ? (
                   <Icons.ChevronDoubleLeft color="darkGrey" />
                 ) : (
@@ -100,13 +99,13 @@ export default function Blog({ pageContext, data }) {
                   {pageContext?.currentPage} / {pageContext?.numPages}
                 </p>
               </div>
-              <div className="row">
+              <div className="row maci2">
                 {isLast ? (
                   <Icons.ChevronRight color="darkGrey" />
                 ) : (
                   <ButtonIcon
                     buttonType="icon-text"
-                    className=""
+                    className="ggggg"
                     text=""
                     icon={<Icons.ChevronRight color="orange" />}
                     onClick={() => {
