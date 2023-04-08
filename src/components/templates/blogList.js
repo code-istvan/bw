@@ -67,55 +67,67 @@ export default function Blog({ pageContext, data }) {
           <div className="separator-horizontal-full"></div>
           <div className="blog-list-footer">
             <div className="blog-list-footer-buttons">
-              <ButtonIcon
-                buttonType="icon-text"
-                className=""
-                text=""
-                icon={<Icons.ChevronDoubleLeft color="orange" />}
-                onClick={() => {
-                  navigate("/blog")
-                }}
-              />
-              {isFirst ? (
-                <Icons.ChevronLeft color="darkGrey" />
-              ) : (
-                <ButtonIcon
-                  buttonType="icon-text"
-                  className=""
-                  text=""
-                  icon={<Icons.ChevronLeft color="orange" />}
-                  onClick={() => {
-                    navigate(`${prevPage}`)
-                  }}
-                />
-              )}
+              <div className="row">
+                {isFirst ? (
+                  <Icons.ChevronDoubleLeft color="darkGrey" />
+                ) : (
+                  <ButtonIcon
+                    buttonType="icon-text"
+                    className=""
+                    text=""
+                    icon={<Icons.ChevronDoubleLeft color="orange" />}
+                    onClick={() => {
+                      navigate("/blog")
+                    }}
+                  />
+                )}
+                {isFirst ? (
+                  <Icons.ChevronLeft color="darkGrey" />
+                ) : (
+                  <ButtonIcon
+                    buttonType="icon-text"
+                    className=""
+                    text=""
+                    icon={<Icons.ChevronLeft color="orange" />}
+                    onClick={() => {
+                      navigate(`${prevPage}`)
+                    }}
+                  />
+                )}
+              </div>
               <div>
                 <p>
                   {pageContext?.currentPage} / {pageContext?.numPages}
                 </p>
               </div>
-              {isLast ? (
-                <Icons.ChevronRight color="darkGrey" />
-              ) : (
-                <ButtonIcon
-                  buttonType="icon-text"
-                  className=""
-                  text=""
-                  icon={<Icons.ChevronRight color="orange" />}
-                  onClick={() => {
-                    navigate(`${nextPage}`)
-                  }}
-                />
-              )}
-              <ButtonIcon
-                buttonType="icon-text"
-                className=""
-                text=""
-                icon={<Icons.ChevronDoubleRight color="orange" />}
-                onClick={() => {
-                  navigate(`/blog/${pageContext?.numPages}`)
-                }}
-              />
+              <div className="row">
+                {isLast ? (
+                  <Icons.ChevronRight color="darkGrey" />
+                ) : (
+                  <ButtonIcon
+                    buttonType="icon-text"
+                    className=""
+                    text=""
+                    icon={<Icons.ChevronRight color="orange" />}
+                    onClick={() => {
+                      navigate(`${nextPage}`)
+                    }}
+                  />
+                )}
+                {isLast ? (
+                  <Icons.ChevronDoubleRight color="darkGrey" />
+                ) : (
+                  <ButtonIcon
+                    buttonType="icon-text"
+                    className=""
+                    text=""
+                    icon={<Icons.ChevronDoubleRight color="orange" />}
+                    onClick={() => {
+                      navigate(`/blog/${pageContext?.numPages}`)
+                    }}
+                  />
+                )}
+              </div>
             </div>
           </div>
         </div>
