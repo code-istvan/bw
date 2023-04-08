@@ -91,4 +91,17 @@
   @include md {
     gap: 20px;
   }
+  .maci {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .maci2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .ggggg {
+    gap: 0 !important;
+  }
 }
