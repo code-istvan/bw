@@ -66,7 +66,7 @@ export default function Blog({ pageContext, data }) {
           <div className="separator-horizontal-full"></div>
           <div className="blog-list-footer">
             <div className="blog-list-footer-buttons">
-              <div className="row maci">
+              <div className="row">
                 {isFirst ? (
                   <Icons.ChevronDoubleLeft color="darkGrey" />
                 ) : (
@@ -99,13 +99,12 @@ export default function Blog({ pageContext, data }) {
                   {pageContext?.currentPage} / {pageContext?.numPages}
                 </p>
               </div>
-              <div className="row maci2">
+              <div className="row">
                 {isLast ? (
                   <Icons.ChevronRight color="darkGrey" />
                 ) : (
                   <ButtonIcon
                     buttonType="icon-text"
-                    className="ggggg"
                     text=""
                     icon={<Icons.ChevronRight color="orange" />}
                     onClick={() => {
