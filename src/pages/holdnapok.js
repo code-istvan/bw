@@ -131,7 +131,6 @@ export default function Holdnapok() {
               neki fontos volt követni őket, akkor ránk is vonatkoznak.
             </p>
             <br />
-
             <p>
               De nem érdemes túl nagy ügyet csinálni belőlük, vagy mindenféle
               fantasztikus sztorit költeni köréjük! Itt van például egy vicces
