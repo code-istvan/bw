@@ -56,7 +56,7 @@ Csak azért mert már haladóbb ászanákat gyakorolsz nem leszel jó tanár. M�
 
 Ahhoz, hogy astanga tanárrá válj be kell tudnod mutatni helyesen a gyakorlatsort. Őszinte szeretettel és tisztelettel kell viseltetned a sādhanád és a gurud tanításai iránt. Ekkor tanulod meg helyesen és ekkor tanítod helyesen. Az astanga nem könnyű. Sokszor még azt követően is, hogy engedélyeztem a tanítást egy-egy tanárnak, megkérem őket, hogy segédkezzenek a Mysore shalaban, azért, hogy megtapasztalják, hogyan kell helyesen tanítani. A Mysore shalában a világ minden tájáról vannak diákok. Azok a tanárok akik a Mysore shalaban segítenek megtanulják, hogyan tanítsanak diákokat akik eltérő kulturális háttérrel, más gondolkodásmóddal és más testfelépítéssel rendelkeznek mint mások. Néhány diák még angolul sem beszél. Mint tanár tudnod kell, hogyan tanítsd a többieket, még akkor is ha nem ugyanazt a nyelvet beszélitek. Ez az amiért fontos az a tapasztalat, amelyre a Mysore shalaban lehet szert tenni. Tapasztalat nélkül nem taníthat az ember.
 
-![Ashtanga Navasana](/blogpostimages/6.jpg)
+![Ashtanga Navasana](/blogpostimages/6b.jpeg)
 
 ### Ne légy az ászanák megszállotja
 
@@ -64,7 +64,7 @@ Ahhoz, hogy astanga tanárrá válj be kell tudnod mutatni helyesen a gyakorlats
 
 Miért siet annyira néhány diák? Végigrohan az ember a pózokon anélkül, hogy lélegezne. A légzés rendkívül fontos. Lélegezz az orrodon keresztül. Soha ne a szádon át. Az orr a lélegzésre van. A száj az evésre. Amikor végigrohansz az ászanákon akkor a légzésed felszínessé válik. Ez helytelen. Lélegezz rendesen. Amikor astangát gyakorolsz, tudnod kell, hogy mely mozdulatnál veszel levegőt és mely mozdulatnál ereszted ki azt. Figyelj a légzésedre. Idővel a test megtanulja, hogyan mozogjon belégzéskor és hogyan kilégzéskor. Figyelj a trisztánámra: póz, tekintet és légzés.
 
-![Ashtanga yoga chikitsa](/blogpostimages/7.jpg)
+![Ashtanga yoga chikitsa](/blogpostimages/7b.jpeg)
 
 A légzés irányítja az elmét. Ha a légzésben zavar van, az az elmében is zavart okoz. Akkor tehetsz szert újabb pózokra, amikor megtanulsz helyesen lélegezni.  A vinyasa szabályozza a légzést. Surya namaskarival kezdjük a gyakorlást azért, hogy megnyugtassuk az elmét és kiegyenlítsük a légzésünket. Minél többet gyakorolsz annál jobban edzed a tested az elméd és a légzésed. A test könnyűvé válik.
 Amikor előre és hátra ugrasz akkor ezt keresztezett lábbal tedd és aktiváld a múla bandhát. Ez segít a bandha megerősítésében.
