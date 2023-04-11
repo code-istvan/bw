@@ -6,7 +6,7 @@ description: A megfelelő guru megtalálásához először is törekedni kell ar
 author: István
 tags:
   - astanga elmélet
-date: 2023-04-11T13:21:03.455Z
+date: 2020-03-30T13:21:03.455Z
 thumbnail: /blogpostimages/paramagurumysore.jpeg
 ---
 ### Paramguru Sharath Jois elmagyarázza miért nincsenek kerülőutak az astangában és mivel jár a Mysore stílus gyakorlása és tanítása.
