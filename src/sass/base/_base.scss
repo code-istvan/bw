@@ -190,7 +190,7 @@ section {
   margin: 0;
 }
 
-//Style for the ordered lists
+// Style for the ordered lists
 ol {
   list-style: none;
   counter-reset: item;
@@ -219,8 +219,7 @@ ol {
   }
 }
 
-//Style for the unordered lists
-
+// Style for the unordered lists
 .unordered-list-style {
   ul {
     list-style: none;
@@ -245,5 +244,32 @@ ol {
       top: 0;
       left: -4px;
     }
+  }
+}
+
+// Style for blockquotes
+blockquote {
+  border-left: 4px solid $color-brand-orange;
+  padding: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 14px;
+  background-color: $color-shades-darkGray;
+  width: fit-content;
+  font-family: $font-family-secondary;
+  font-weight: 900;
+  text-indent: 40px;
+  // margin-top: -22px;
+
+  &::before {
+    content: url(../../images/QuoteDouble.svg);
+    // font-size: 54px;
+    color: $color-brand-orange;
+    // display: inline-block;
+    margin-bottom: -20px;
+    // margin-top: -6px;
+    margin-left: -42px;
+    margin-right: 18px;
+    padding-left: -22px;
   }
 }

@@ -75,6 +75,7 @@ export default function Holdnapok() {
               Jois miért nem tartott órákat teli- és újholdkor (röviden
               holdnapokon). Pedig a magyarázat egyszerű.
             </p>
+            <br />
             <p>
               A Maharádzsa Pathasálája (a Szanszkrit Főiskola) szünetet tartott
               minden holdnapon, valamint az azokat megelőző és követő napokon.
@@ -136,18 +137,20 @@ export default function Holdnapok() {
               fantasztikus sztorit költeni köréjük! Itt van például egy vicces
               történet, ami jól illusztrállja, milyen az, amikor vakon követünk
               szokásokat, és nem szánjuk rá az időt, hogy racionális elmével
-              utánajárjunk az értelmüknek. Egy szent tudós minden este egy fa
-              alatt tartott Bhagavad Gíta leckéket egy falu mellett. Volt egy
-              macskája, aki néha beugrott a tömegbe, és megzavarta a
-              hallgatóságot. Ezért a bölcs mindig kikötötte őt a fához az órák
-              alatt. Évek múltán a bölcs eltávozott az élők soraiból. Az egyik
-              tanítványa folytatta az esti Bhagavad Gíta órákat a fa alatt, és ő
-              is kikötötte a macskát a fához. A macska is megöregedett és
-              meghalt idővel, és a tanítvány szerzett egy új macskát. Három
-              generáció elteltével az egyik tanítvány írt egy könyvet arról a
-              szent tradícióról, hogy Bhagavad Gíta leckék alatt egy macskát
-              kell a fához kötni.
+              utánajárjunk az értelmüknek.
             </p>
+            <blockquote>
+              Egy szent tudós minden este egy fa alatt tartott Bhagavad Gíta
+              leckéket egy falu mellett. Volt egy macskája, aki néha beugrott a
+              tömegbe, és megzavarta a hallgatóságot. Ezért a bölcs mindig
+              kikötötte őt a fához az órák alatt. Évek múltán a bölcs eltávozott
+              az élők soraiból. Az egyik tanítványa folytatta az esti Bhagavad
+              Gíta órákat a fa alatt, és ő is kikötötte a macskát a fához. A
+              macska is megöregedett és meghalt idővel, és a tanítvány szerzett
+              egy új macskát. Három generáció elteltével az egyik tanítvány írt
+              egy könyvet arról a szent tradícióról, hogy Bhagavad Gíta leckék
+              alatt egy macskát kell a fához kötni.
+            </blockquote>
             <p>
               Mindezek után azt gondolom, hogy Pattabhi Jois és a módszere iránt
               érzett tiszteletből jó, ha a tanítványai követik a holdnapokra
