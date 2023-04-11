@@ -16,6 +16,17 @@ import {
 } from "react-share"
 import "../../sass/components/_blogposts.scss"
 
+function slugify(text) {
+  return text
+    .toString()
+    .toLowerCase()
+    .normalize(`NFD`)
+    .trim()
+    .replace(/\s+/g, `-`)
+    .replace(/[^\w-]+/g, ``)
+    .replace(/--+/g, `-`)
+}
+
 const BlogPosts = ({ data, children, pageContext, location }) => {
   const breakpoints = useBreakpoint()
   const [articleProperties, setArticleProperties] = useState({})
@@ -81,7 +92,7 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
                     {tags.map(tag => {
                       return (
                         <p key="tag" className="blogposts-tag-button">
-                          <Link to={`/tags/${tag}`}>{tag}</Link>
+                          <Link to={`/tags/${slugify(tag)}`}>{tag}</Link>
                         </p>
                       )
                     })}
