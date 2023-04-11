@@ -47,7 +47,7 @@ Amikor megérinted a gurud lábát, ne megszokásból, hanem tiszta szívvel té
 
 **Sharathji:** Astangát tanítani nehezebb mint astangát gyakorolni. Én 18 éven át minden nap gyakoroltam mielőtt elkezdtem tanítani. Előbb meg kell tapasztalnod a gyakorlást mielőtt elkezded tanítani. Az ember ne jöjjön úgy Mysore-ba, hogy az egyetlen célja, hogy jogosultságot szerezzen arra, hogy taníthasson. Azon célból ne is gyakoroljon, hogy tanításra való jogosultságot szerezzen. Kizárólag a tiszta sādhana céljából gyakorolj. Sok éves odaadó tanulás előzi meg azt, hogy az ember tanárrá váljon. Aki készen áll, annak ezt meg fogom mondani.
 
-![Supta kurmasana in ashtanga ](/blogpostimages/5.jpg)
+![Supta kurmasana in ashtanga ](/blogpostimages/5a.jpeg)
 
 Csak azért mert már haladóbb ászanákat gyakorolsz nem leszel jó tanár. Más képességekkel is rendelkezni kell. Néha a diákok azt kérik tőlem, hogy adjak nekik jogosultságot arra, hogy taníthassanak, csupán azért mert megtudnak csinálni haladóbb ászanákat, de ez nem elég ahhoz, hogy az ember astangát tanítson. Olykor emberek olyanokat mondanak nekem, hogy voltak a Himalájánál és hallottak egy hangot, amely azt mondta nekik, hogy váljanak astanga tanárokká és ezért jöttek Mysore-ba. Ez teljes zagyvaság. Ne tanulj olyanoktól astangát akik a fejükben hangokat hallanak. Ilyen embereknek én nem adok jogosultságot a tanításra.
 
