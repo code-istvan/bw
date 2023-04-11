@@ -34,7 +34,7 @@ A szilárd elme segít abban, hogy minden helyzetben a helyes döntést hozzuk m
 
 **Sharathji:** A megfelelő guru megtalálásához először is törekedni kell arra, hogy megfelelő tanítványokká váljunk. Életünk különböző szakaszaiban különböző guruk kísérnek el az úton. Az anya az első guru. A tanítványok néha többször is elutaznak Mysore-ba és minden alkalommal egy új guruhoz mennek el. Kipróbálnak egy új jóga stílust. Egyetlen gyakorlást sem végeznek igazi odaadással. Ezek a diákok 1000 guruhoz is elmennek majd anélkül, hogy megtalálnák a saját útjukat.
 
-![End of the ashtanga led class in Sharath Yoga Center](/blogpostimages/4.jpg)
+![End of the ashtanga led class in Sharath Yoga Center](/blogpostimages/4a.jpeg)
 
 Ne légy elveszett. Egyetlen stílust gyakorolj, egy tanárral. Őszinte szeretetet kell táplálnod a gyakorlásod és a tanárod iránt függetlenül attól, hogy a tested mennyire hajlékony vagy nem hajlékony. Elmész egy tanárhoz azért, hogy megtanulj egy adott ászanát, aztán egy másik tanárhoz, hogy megtanulj egy másik ászanát. Ha egy adott órán hajlékonynak mutatkozik a test, úgy az a személy akinek az óráján történt a gurud lesz. Aztán egy nap, egy másik ászanánál a test kevésbé bizonyul hajlékonynak és akkor egy új guru után nézel. Ez rendkívül káros a gyakorlásodra nézve. Ha szereted a tanárod, úgy odaadással viseltetsz a gyakorlásod felé is és bízol a tanárodban. Az astangához idő kell. Türelmesnek kell lenned, és el kell köteleződnöd egy tanár és egy gyakorlás felé. Ha így teszel akkor megtapasztalod a sādhana és a gurud tanításainak jótékony hatásait.
 
