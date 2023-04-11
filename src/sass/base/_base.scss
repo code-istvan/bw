@@ -259,17 +259,14 @@ blockquote {
   font-family: $font-family-secondary;
   font-weight: 900;
   text-indent: 40px;
-  // margin-top: -22px;
 
   &::before {
     content: url(../../images/QuoteDouble.svg);
-    // font-size: 54px;
     color: $color-brand-orange;
-    // display: inline-block;
     margin-bottom: -20px;
-    // margin-top: -6px;
+    // margin-top: 36px !important;
     margin-left: -42px;
-    margin-right: 18px;
+    margin-right: 10px;
     padding-left: -22px;
   }
 }
