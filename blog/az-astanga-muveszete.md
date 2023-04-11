@@ -15,6 +15,8 @@ Négy évvel ezelőtt költöztem kedvesemmel Mysore-ba azért, hogy az astanga 
 
 Az astanga jelenlegi „rangidős” vezetője Paramguru Sharath Jois egy kéthetes vezetett első sorozat workshopot tartott Mysore-ban a Sharath Jois Yoga Központban. Azon szerencsések közé tartozom akinek volt lehetősége ezen a workshopon részt venni és nagyon örültem, hogy Sharathji hozzájárult ahhoz, hogy a SanatãnaYoga dokumentálja az órákat követő egy órás előadásait. Sharathji tanácsokkal és ismeretekkel látott el arról, hogy milyen is astanga jógázni és mit jelent jóginak lenni. Az alábbiakban osztom meg néhány gondolatát.
 
+![Sharath yoga center Mysore](/blogpostimages/2.jpg)
+
 ### A jóga India DNS-ében van.
 
 **Sharathji:** Örülök, hogy ennyi indiai diákot látok. A jóga Indiából származik. Amikor Indiában jógázik az ember, akkor az mindig egy mélyebben átélt élmény. Nagyon sok risi gyakorolta Indiában a tapaszt (önmegtartóztatást) és érte el a móksát (felszabadulást, megvilágosodás, elengedés). Amikor itt gyakorolsz akkor ezen energiákat lehet érezni. Nagyon sok diákom van szerte a világból és mindig visszatérnek, azért mert tudják, hogy amit itt tapasztalnak az valami más. Még amikor Észak-Indiába is utazik az ember a nagy folyóinkhoz a Gangeszhez, a Saraswatihoz… ezen helyek tele vannak energiával. Mindez azért van így mert sok risi ezeken a helyszíneken meditált, és ez az energia ott érezhető.
