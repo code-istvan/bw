@@ -17,7 +17,7 @@ Az astanga jelenlegi „rangidős” vezetője Paramguru Sharath Jois egy kéthe
 
 ### A jóga India DNS-ében van.
 
-**Sharathji:** Örülök, hogy ennyi indiai diákot látok. A jóga Indiából származik. Amikor Indiában jógázik az ember, akkor az mindig egy mélyebben átélt élmény. Nagyon sok risi gyakorolta Indiában a tapaszt (önmegtartóztatást) és érte el a móksát (felszabadulást/megvilágosodás/elengedés). Amikor itt gyakorolsz akkor ezen energiákat lehet érezni. Nagyon sok diákom van szerte a világból és mindig visszatérnek, azért mert tudják, hogy amit itt tapasztalnak az valami más. Még amikor Észak-Indiába is utazik az ember a nagy folyóinkhoz a Gangeszhez, a Saraswatihoz… ezen helyek tele vannak energiával. Mindez azért van így mert sok risi ezeken a helyszíneken meditált, és ez az energia ott érezhető.
+**Sharathji:** Örülök, hogy ennyi indiai diákot látok. A jóga Indiából származik. Amikor Indiában jógázik az ember, akkor az mindig egy mélyebben átélt élmény. Nagyon sok risi gyakorolta Indiában a tapaszt (önmegtartóztatást) és érte el a móksát (felszabadulást, megvilágosodás, elengedés). Amikor itt gyakorolsz akkor ezen energiákat lehet érezni. Nagyon sok diákom van szerte a világból és mindig visszatérnek, azért mert tudják, hogy amit itt tapasztalnak az valami más. Még amikor Észak-Indiába is utazik az ember a nagy folyóinkhoz a Gangeszhez, a Saraswatihoz… ezen helyek tele vannak energiával. Mindez azért van így mert sok risi ezeken a helyszíneken meditált, és ez az energia ott érezhető.
 
 ### A jamák és nijamák gyakorlásának célja
 
@@ -26,7 +26,7 @@ Az astanga jelenlegi „rangidős” vezetője Paramguru Sharath Jois egy kéthe
 A jamák és a nijamák évekig tartó gyakorlásával egy idő után az ember elkezd mindent egyenrangúan kezelni. Valamennyi érzésre, a boldogságra, a szomorúságra, a nyereségre, a veszteségre, a győzelemre és a legyőzöttségre ugyanúgy a samathával (belső kiegyensúlyozottsággal) kezd el reagálni. A jóga által világossá válik, hogy mindezen érzelmek az élet természetes velejárói. Amikor erre ráébred, az embert egyetlen érzés sem láncolja magához többé. Mindent ugyanúgy, ugyanolyannak, egyenlőnek kezd el látni. Az elme szilárd és nyugodt marad és ezen elmeállapot a jóga legmagasabb fokának tekinthető. Valamennyi jamát és nijamát gyakorolni kell ahhoz, hogy ezen elmeállapotot elérjük. Ekkor kifejlődik a yogalakshan – amely a jógi jellemzőinek összessége.
 A szilárd elme segít abban, hogy minden helyzetben a helyes döntést hozzuk meg. A jóga által az elme ezen stabilitása elérhetővé válik. Az agyműködés letisztultabb lesz és az elme ingadozásai megszűnnek. Viszont ahhoz, hogy ez megtörténhessen, változtatni kell az életstíluson, annak érdekében, hogy az a gyakorlással összhangban legyen. Teljes odaadással kell gyakorolni. Át kell élni a gyakorlást magát. Ez az egyetlen út.
 
-A megfelelő GURU meglelés
+### A megfelelő GURU meglelés
 
 **Sharathji:** A megfelelő guru megtalálásához először is törekedni kell arra, hogy megfelelő tanítványokká váljunk. Életünk különböző szakaszaiban különböző guruk kísérnek el az úton. Az anya az első guru. A tanítványok néha többször is elutaznak Mysore-ba és minden alkalommal egy új guruhoz mennek el. Kipróbálnak egy új jóga stílust. Egyetlen gyakorlást sem végeznek igazi odaadással. Ezek a diákok 1000 guruhoz is elmennek majd anélkül, hogy megtalálnák a saját útjukat.
 
@@ -37,7 +37,7 @@ Ne légy elveszett. Egyetlen stílust gyakorolj, egy tanárral. Őszinte szerete
 
 Amikor megérinted a gurud lábát, ne megszokásból, hanem tiszta szívvel tégy így. Indiában mi az idősek és a guruk lábát érintjük meg. Ez a szeretet és a tisztelet kifejezése – a guru tanításai és a gyakorlás iránti odaadás jelképe. A guru és a shishya közötti kölcsönös tisztelet a spirituális tanulás és fejlődés alapja.
 
-### AZ ASTANGA JÓGA TANÍTÁSA
+### Az astanga jóga tanítása
 
 **Sharathji:** Astangát tanítani nehezebb mint astangát gyakorolni. Én 18 éven át minden nap gyakoroltam mielőtt elkezdtem tanítani. Előbb meg kell tapasztalnod a gyakorlást mielőtt elkezded tanítani. Az ember ne jöjjön úgy Mysore-ba, hogy az egyetlen célja, hogy jogosultságot szerezzen arra, hogy taníthasson. Azon célból ne is gyakoroljon, hogy tanításra való jogosultságot szerezzen. Kizárólag a tiszta sādhana céljából gyakorolj. Sok éves odaadó tanulás előzi meg azt, hogy az ember tanárrá váljon. Aki készen áll, annak ezt meg fogom mondani.
 
@@ -63,4 +63,4 @@ Nincs baj azzal ha valaki jógával keres pénzt. A tanárnak van családja, st�
 A jóga nem csak az ászanáról szól. Mint jóga gyakorló és mint jóga tanár lehetőséged van valami pozitívat alkotni ebben a világban. Gyakorolj úgy, hogy azáltal fejlődj és egy jobb hellyé tedd a világot.
 
 **Fordította:** Szabó Gergő
-**Szerző: ** Sophia Ann French
+**Szerző:** Sophia Ann French
