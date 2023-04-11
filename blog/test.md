@@ -10,12 +10,8 @@ thumbnail: /blogpostimages/az_elet_ertelme.jpg
 ---
 Valami
 
-```
-<a href="https://eddymens.com" target="_blank">Eddymens.com</a>
-```
+This is normal body copy.[^1] It includes a couple footnotes.[^2]
 
-This is normal body copy.`[^1]` It includes a couple footnotes.`[^2]`
+[^1]: This is a footnote.
 
-`[^1]:` This is a footnote.
-
-`[^2]:` This is another footnote.
+[^2]: This is another footnote.
