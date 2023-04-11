@@ -91,21 +91,9 @@
   @include md {
     gap: 20px;
   }
-
-  div:nth-child(1) {
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: flex-start;
-    gap: 10px;
+  div:nth-child(odd) {
+    gap: 12px;
   }
-
-  div:nth-child(3) {
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: flex-end;
-    gap: 10px;
-  }
-
   .btn-icon {
     gap: 0 !important;
   }
