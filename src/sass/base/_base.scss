@@ -251,9 +251,7 @@ ol {
 blockquote {
   border-left: 4px solid $color-brand-orange;
   padding: 20px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 14px;
+  margin: 12px 0 14px;
   background-color: $color-shades-darkGray;
   width: fit-content;
   font-family: $font-family-secondary;
@@ -263,10 +261,6 @@ blockquote {
   &::before {
     content: url(../../images/QuoteDouble.svg);
     color: $color-brand-orange;
-    margin-bottom: -20px;
-    // margin-top: 36px !important;
-    margin-left: -42px;
-    margin-right: 10px;
-    padding-left: -22px;
+    margin: 0 10px 0 -42px;
   }
 }
