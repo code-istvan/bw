@@ -49,7 +49,7 @@
     "react-dom": "^18.2.0",
     "react-share": "^4.4.1",
     "reading-time": "^1.5.0",
-    "sass": "^1.56.1"
+    "sass": "^1.57.0"
   },
   "devDependencies": {
     "gatsby-plugin-netlify": "^5.1.0",
