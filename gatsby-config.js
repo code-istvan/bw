@@ -86,15 +86,22 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        // Footnotes mode (default: true)
-        footnotes: true,
-        // GitHub Flavored Markdown mode (default: true)
-        gfm: true,
-        // Add your gatsby-remark-* plugins here
-        plugins: [],
-        // Enable JS for https://github.com/jonschlinkert/gray-matter#optionsengines (default: false)
-        // It's not advised to set this to "true" and this option will likely be removed in the future
-        jsFrontmatterEngine: false,
+        plugins: [
+          {
+            resolve: `gatsby-remark-footnotes`,
+            options: {
+              footnoteBackRefPreviousElementDisplay: "inline",
+              footnoteBackRefDisplay: "inline",
+              footnoteBackRefInnerText: "^", // Defaults to: "↩"
+              //use if you want the Wikipedia style ^ link without an underline beneath it
+              footnoteBackRefAnchorStyle: `text-decoration: none;`,
+              //use "front" for Wikipedia style ^ links
+              footnoteBackRefInnerTextStartPosition: "front",
+              useFootnoteMarkerText: false, // Defaults to false
+              useCustomDivider: "<hr/><strong>References:</strong>", // Defaults to <hr/>
+            },
+          },
+        ],
       },
     },
     {
