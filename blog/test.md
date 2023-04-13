@@ -17,5 +17,5 @@ This is normal body copy.[^1] It includes a couple footnotes.[^2]
 [^2]: This is another footnote.
 
 Here is an inline note.^[Inline notes are easier to write, since
-you don't have to pick an identifier and move down to type the
+you don't have to pick an identifier and move [down to type the](https://www.gatsbyjs.com/plugins/gatsby-remark-external-links/)
 note.]
