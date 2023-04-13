@@ -6,7 +6,7 @@ import Icons from "../Icons/Icons"
 import Layout from "../Layouts/Layout"
 import Seo from "../seo"
 import { GatsbyImage } from "gatsby-plugin-image"
-import BlogSidebar from "../../components/Blog/BlogSidebar"
+import BlogSidebar from "../Blog/BlogSidebar"
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -14,7 +14,7 @@ import {
   TwitterShareButton,
   WhatsappShareButton,
 } from "react-share"
-import "../../sass/components/_blogposts.scss"
+import "../../sass/components/_blogpost.scss"
 
 function slugify(text) {
   return text
@@ -27,7 +27,7 @@ function slugify(text) {
     .replace(/--+/g, `-`)
 }
 
-const BlogPosts = ({ data, children, pageContext, location }) => {
+const BlogPost = ({ data, children, pageContext, location }) => {
   const breakpoints = useBreakpoint()
   const [articleProperties, setArticleProperties] = useState({})
   const post = data.mdx
@@ -88,10 +88,10 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
                 <div className="blog-posts-meta-second-line">
                   <div className="vertical-separator"></div>
                   <p>{timeToRead} perc olvasás</p>
-                  <div className="blog-card-footer-text tag-button blogposts-tag-button">
+                  <div className="blog-card-footer-text tag-button blogpost-tag-button">
                     {tags.map(tag => {
                       return (
-                        <p key="tag" className="blogposts-tag-button">
+                        <p key="tag" className="blogpost-tag-button">
                           <Link to={`/tags/${slugify(tag)}`}>{tag}</Link>
                         </p>
                       )
@@ -147,7 +147,7 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
   )
 }
 
-export default BlogPosts
+export default BlogPost
 
 export const query = graphql`
   query PostsBySlug($slug: String!, $author: String) {

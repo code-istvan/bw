@@ -68,12 +68,12 @@
   }
 }
 
-.blogposts-only-desktop {
-  display: none;
-  @include md {
-    display: block;
-  }
-}
+// .blogposts-only-desktop {
+//   display: none;
+//   @include md {
+//     display: block;
+//   }
+// }
 
 .blog-list-footer {
   padding-top: 20px;
