@@ -6,7 +6,7 @@ import Icons from "../Icons/Icons"
 import Layout from "../Layouts/Layout"
 import Seo from "../seo"
 import { GatsbyImage } from "gatsby-plugin-image"
-import BlogSidebar from "../../components/Blog/BlogSidebar"
+import BlogSidebar from "../Blog/BlogSidebar"
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -27,7 +27,7 @@ function slugify(text) {
     .replace(/--+/g, `-`)
 }
 
-const BlogPosts = ({ data, children, pageContext, location }) => {
+const BlogPost = ({ data, children, pageContext, location }) => {
   const breakpoints = useBreakpoint()
   const [articleProperties, setArticleProperties] = useState({})
   const post = data.mdx
@@ -147,7 +147,7 @@ const BlogPosts = ({ data, children, pageContext, location }) => {
   )
 }
 
-export default BlogPosts
+export default BlogPost
 
 export const query = graphql`
   query PostsBySlug($slug: String!, $author: String) {
