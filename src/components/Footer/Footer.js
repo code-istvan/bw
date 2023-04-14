@@ -4,7 +4,6 @@ import SocialIcons from "../Icons/SocialIcons"
 import Icons from "../Icons/Icons"
 import { navigate } from "gatsby"
 import FooterDesktopMenu from "./FooterDesktopMenu"
-import Carbonbadge from "react-carbonbadge"
 import { Link } from "gatsby"
 import "../../sass/components/_footer.scss"
 
@@ -84,13 +83,6 @@ const Footer = ({ handleOpenMenu }) => {
             <div className="separator"></div>
             <div>
               <p className="small">Adatvédelmi tájékoztató</p>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col">
-            <div className="carbon bg-shades-darkGray">
-              <Carbonbadge darkMode={true} />
             </div>
           </div>
         </div>
