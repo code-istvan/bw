@@ -19,7 +19,7 @@
     "gatsby-plugin-image": "^3.3.1",
     "gatsby-plugin-loadable-components-ssr": "^4.3.2",
     "gatsby-plugin-manifest": "^5.2.0",
-    "gatsby-plugin-mdx": "^5.2.0",
+    "gatsby-plugin-mdx": "^5.8.0",
     "gatsby-plugin-netlify-cms": "^7.3.0",
     "gatsby-plugin-nprogress": "^5.8.0",
     "gatsby-plugin-offline": "^6.2.0",
