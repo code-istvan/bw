@@ -180,6 +180,21 @@ export default function Holdnapok() {
             <p>
               <strong>Forrás:</strong> Eddie Stern
             </p>
+            <br />
+            <h3>Mi az Ekadashi?</h3>
+            <br />
+            <p>
+              Az Ekadashi a hindu kultúra böjtnapja. A szó maga szanszkrit
+              nyelven “tizenegyedik”-et jelent, és a holdtöltét, valamint
+              újholdat követő tizenegyedik napra vonatkozik. A védikus
+              hagyományok szerint - a Hold aktuális állásának köszönhetően -,
+              testünk és elménk ezeken a napokon a legalkalmasabb a
+              megtisztulásra. A böjt segítségével fizikai testünk megpihen.
+              Üres, könnyű és tiszta gyomorral tudatunk energetikusabb és
+              éberebb működésre képes. Ezeket a napokat érdemes befelé
+              fordulással, spirituális gyakorlással tölteni (mantrázás,
+              meditálás).
+            </p>
           </div>
         </div>
       </div>
