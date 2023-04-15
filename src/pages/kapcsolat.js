@@ -48,10 +48,11 @@ export default function Kapcsolat() {
             </address>
             <p className="clr-shades-lightGray span span--bold mt-20px kapcsolat-text">
               A bejárat az utcafrontról nyílik, a társasházi főbejárattól balra
-              található barna ajtón tudsz lejönni hozzánk.
+              található barna ajtón tudsz bejönni hozzánk.
             </p>
             <p className="clr-shades-lightGray span span--bold mt-1">
-              Parkoló zóna kód az utcában: 0201.
+              Parkoló zóna kód az utcában: 0201. Hétfőtől péntekig 8:30-22:00-ig
+              kell fizetni a parkolásért.
             </p>
             <div className="kapcsolat-social-box">
               <h3 className="mt-2 kapcsolat-social-text">Kövess minket</h3>
