@@ -6,7 +6,7 @@ import Icons from "../Icons/Icons"
 import Layout from "../Layouts/Layout"
 import Seo from "../seo"
 import { GatsbyImage } from "gatsby-plugin-image"
-import BlogSidebar from "../Blog/BlogSidebar"
+import BlogSidebar from "./BlogSidebar"
 import {
   EmailShareButton,
   FacebookShareButton,

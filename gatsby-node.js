@@ -24,13 +24,9 @@ exports.onCreateWebpackConfig = helper => {
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-  const blogListTamplate = path.resolve(
-    "./src/components/templates/blogList.js"
-  )
-  const blogPostTemplate = path.resolve(
-    "./src/components/templates/blogPost.js"
-  )
-  const tagsTemplate = path.resolve("./src/components/templates/tags.js")
+  const blogListTamplate = path.resolve("./src/components/Blog/blogList.js")
+  const blogPostTemplate = path.resolve("./src/components/Blog/blogPost.js")
+  const tagsTemplate = path.resolve("./src/components/Blog/tags.js")
   const scheduleTemplate = path.resolve("./src/components/templates/orarend.js")
 
   return graphql(`
