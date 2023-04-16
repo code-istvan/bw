@@ -27,7 +27,7 @@ exports.createPages = ({ actions, graphql }) => {
   const blogListTamplate = path.resolve("./src/components/Blog/blogList.js")
   const blogPostTemplate = path.resolve("./src/components/Blog/blogPost.js")
   const tagsTemplate = path.resolve("./src/components/Blog/tags.js")
-  const scheduleTemplate = path.resolve("./src/components/templates/orarend.js")
+  const scheduleTemplate = path.resolve("./src/components/orarend.js")
 
   return graphql(`
     {
@@ -109,21 +109,6 @@ exports.createPages = ({ actions, graphql }) => {
         component: scheduleTemplate,
       })
     )
-    // const schedulePerPage = 7
-    // const scheduleNumPages = Math.ceil(schedule.length / schedulePerPage)
-    // Array.from({ length: scheduleNumPages }).forEach((_, i) => {
-    //   createPage({
-    //     path: i === 0 ? `/orarend` : `/orarend/${i + 1}`,
-    //     component: scheduleTemplate,
-    //     context: {
-    //       limit: schedulePerPage,
-    //       skip: i * schedulePerPage,
-    //       numPages: scheduleNumPages,
-    //       scheduleContext: schedule,
-    //       currentPage: i + 1,
-    //     },
-    //   })
-    // })
 
     const posts = result.data.allMdx.nodes
     let tags = []

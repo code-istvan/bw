@@ -1,26 +1,13 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { CustomLink } from "../CustomLink"
-import Layout from "../Layouts/Layout"
-import Seo from "../seo"
-import Accordion from "../Accordion"
-import Icons from "../Icons/Icons"
-import "../../sass/components/_orarend.scss"
+import { CustomLink } from "./CustomLink"
+import Layout from "./Layouts/Layout"
+import Seo from "./seo"
+import Accordion from "./Accordion"
+import Icons from "./Icons/Icons"
+import "../sass/components/_orarend.scss"
 
-const Orarend = ({ pageContext, data }) => {
-  // const { currentPage, numPages, scheduleContext } = pageContext
-  // const isFirst = currentPage === 1
-  // const isLast = currentPage === numPages
-  // const prevPage =
-  //   currentPage - 1 === 1 ? "/orarend" : (currentPage - 1).toString()
-  // const nextPage = (currentPage + 1).toString()
-  // const schedule = data.allScheduleJson.edges.sort((a, b) => {
-  //   const dateA = new Date(a.node.date)
-  //   const dateB = new Date(b.node.date)
-  //   return dateA - dateB
-  // })
-  // console.log(scheduleContext)
-
+const Orarend = ({ data }) => {
   return (
     <Layout>
       <Seo title="ÓRAREND" />
@@ -248,24 +235,6 @@ const Orarend = ({ pageContext, data }) => {
             }
           })}
       </ul>
-      {/* <div className="tight--desktop--container">
-        <div className="mt-20px">
-          {!isFirst && (
-            <CustomLink
-              link={prevPage}
-              classNames="btn btn--secondary--outline link-decoration-remove"
-              title="Elöző hét nap"
-            />
-          )}
-          {!isLast && (
-            <CustomLink
-              link={nextPage}
-              classNames="btn btn--secondary--outline link-decoration-remove"
-              title="Következő hét nap"
-            />
-          )}
-        </div>
-      </div> */}
     </Layout>
   )
 }
