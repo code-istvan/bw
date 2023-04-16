@@ -10,8 +10,6 @@ thumbnail: /blogpostimages/az_elet_ertelme.jpg
 ---
 Valami
 
-This is normal body copy.[^1] It includes a couple footnotes.[^2]
+Here is a simple footnote[^1]. With some additional text after it.
 
-
-[^1]: This is a footnote.
-[^2]: This is another footnote.
+[^1]: My reference.
