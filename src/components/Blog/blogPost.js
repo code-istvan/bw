@@ -105,7 +105,7 @@ const BlogPost = ({ data, children, pageContext, location }) => {
               </div>
             </div>
             <div className="separator-horizontal-full mt-40px"></div>
-            <article className="mb-20px blog-posts-body-style" id="___gatsby">
+            <article className="mb-20px blog-posts-body-style">
               {children}
             </article>
 

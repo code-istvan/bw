@@ -11,6 +11,25 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-footnotes`,
+            options: {
+              footnoteBackRefPreviousElementDisplay: "inline",
+              footnoteBackRefDisplay: "inline",
+              footnoteBackRefInnerText: "^",
+              footnoteListTag: "div",
+              footnoteBackRefAnchorStyle: `text-decoration: none;`,
+              footnoteBackRefInnerTextStartPosition: "front",
+              useFootnoteMarkerText: false,
+            },
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/blog`,
@@ -59,7 +78,6 @@ module.exports = {
         path: `${__dirname}/static/classes`,
       },
     },
-
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -82,10 +100,6 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {},
     },
     {
       resolve: "gatsby-plugin-sass",
