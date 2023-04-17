@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useEffect } from "react"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import LogoBW from "./LogoBW"
 import LogoBWtext from "./LogoBWtext"

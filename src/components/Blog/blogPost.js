@@ -56,7 +56,10 @@ const BlogPost = ({ data, children, pageContext, location }) => {
               }`}
             >
               {!pageContext.postThumbnail ? (
-                <img src={pageContext.frontmatter.thumbnail} />
+                <img
+                  src={pageContext.frontmatter.thumbnail}
+                  alt={post.frontmatter.title ?? "some value"}
+                />
               ) : (
                 <GatsbyImage
                   image={
@@ -79,6 +82,7 @@ const BlogPost = ({ data, children, pageContext, location }) => {
                     <GatsbyImage
                       image={author.authorimage.childImageSharp.gatsbyImageData}
                       className="avatar-image"
+                      alt={post.frontmatter.author}
                     />
                     <p>{post.frontmatter.author}</p>
                   </div>
