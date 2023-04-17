@@ -52,18 +52,18 @@ const NavbarMenu = ({ open, setOpen }) => {
       <ul className="nav-links mt-20px">
         {menuGroupsFomenu.map(({ title, items }) => (
           <li className="nav-item dropdown" key={title}>
-            <a
+            <div
               className="nav-link dropdown-toggle clr-shades-white"
-              href="#"
+              // href="#"
               id="navbarDropdown"
-              role="button"
+              // role="button"
               data-bs-toggle="dropdown"
-              aria-expanded="false"
-              onMouseEnter={() => setIsHovering(true)}
-              onMouseLeave={() => setIsHovering(false)}
+              // aria-expanded="false"
+              // onMouseEnter={() => setIsHovering(true)}
+              // onMouseLeave={() => setIsHovering(false)}
             >
               {title}
-            </a>
+            </div>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               {items.map(({ link, label }) => (
                 <li className="nav-item" as="li" key={label}>

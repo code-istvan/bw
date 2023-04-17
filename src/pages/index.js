@@ -6,7 +6,10 @@ import Icons from "../components/Icons/Icons"
 import SectionRolunk from "../components/Sections/SectionRolunk"
 import SectionParampara from "../components/Sections/SectionParampara"
 import SectionEvents from "../components/Sections/SectionEvents"
+import Counter from "../components/Counter"
 import "../sass/pages/_index.scss"
+
+const inputDate = "1990-03-31"
 
 const IndexPage = () => (
   <>
@@ -23,6 +26,11 @@ const IndexPage = () => (
         <SectionRolunk />
         <SectionParampara />
         <SectionEvents />
+        <div className="row">
+          <div className="col">
+            <Counter initialDate={inputDate} />
+          </div>
+        </div>
         <div className="row">
           <div className="col">
             <p>

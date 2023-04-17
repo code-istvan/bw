@@ -52,7 +52,6 @@ const Orarend = ({ data }) => {
               newmoon,
               ekadashi,
             } = node
-            console.log(node.date)
             if (new Date(date).getTime() > new Date()) {
               let daysArray = [
                 "vasárnap",
@@ -71,7 +70,6 @@ const Orarend = ({ data }) => {
                   day: "numeric",
                 })
                 .toUpperCase()
-
               return (
                 <div className="schedule-wrapper">
                   <div className="bg-shades-darkerGray container-fluid">

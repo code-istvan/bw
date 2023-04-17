@@ -14,18 +14,8 @@ import {
   TwitterShareButton,
   WhatsappShareButton,
 } from "react-share"
+import slugify from "../../utils/slugifyes6"
 import "../../sass/components/_blogposts.scss"
-
-function slugify(text) {
-  return text
-    .toString()
-    .toLowerCase()
-    .normalize(`NFD`)
-    .trim()
-    .replace(/\s+/g, `-`)
-    .replace(/[^\w-]+/g, ``)
-    .replace(/--+/g, `-`)
-}
 
 const BlogPost = ({ data, children, pageContext, location }) => {
   const breakpoints = useBreakpoint()

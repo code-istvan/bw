@@ -29,7 +29,7 @@ export default function Navigation({ isOpen = false, handleOpenMenu }) {
         handleOpenMenu()
       }
     }
-  }, [breakpoints])
+  }, [breakpoints, handleOpenMenu, isOpen])
 
   return (
     <nav className="navigation">
@@ -38,6 +38,7 @@ export default function Navigation({ isOpen = false, handleOpenMenu }) {
           <LogoBW />
           <LogoBWtext />
         </a>
+        {/*// eslint-disable-next-line jsx-a11y/aria-role */}
         <div onClick={handleOpenMenu}>
           <Hamburger open={isOpen} />
         </div>

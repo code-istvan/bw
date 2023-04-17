@@ -11,7 +11,7 @@ export default function Developmentpage() {
         <p>I use Gatsby, Netlify CMS and Netlify</p>
         <p className="mb-2">
           GitHub repo:{" "}
-          <a href="    https://github.com/code-istvan/bw">
+          <a href="https://github.com/code-istvan/bw">
             https://github.com/code-istvan/bw
           </a>
           .

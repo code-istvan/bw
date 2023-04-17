@@ -8,4 +8,4 @@ function slugify(text) {
     .replace(/[^\w-]+/g, ``)
     .replace(/--+/g, `-`)
 }
-module.exports = slugify
+export default slugify

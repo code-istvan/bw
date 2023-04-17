@@ -1,18 +1,8 @@
 import React from "react"
 import { useTagsRoll } from "../../hooks/useTagsRollQuery"
 import { CustomLink } from "../CustomLink"
+import slugify from "../../utils/slugifyes6"
 import "../../sass/components/_blogtags.scss"
-
-function slugify(text) {
-  return text
-    .toString()
-    .toLowerCase()
-    .normalize(`NFD`)
-    .trim()
-    .replace(/\s+/g, `-`)
-    .replace(/[^\w-]+/g, ``)
-    .replace(/--+/g, `-`)
-}
 
 function BlogTags() {
   const tags = useTagsRoll()
