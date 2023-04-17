@@ -50,12 +50,13 @@ export default function Kapcsolat() {
               A bejárat az utcafrontról nyílik, a társasházi főbejárattól balra
               található barna ajtón tudsz bejönni hozzánk.
             </p>
-            <p className="clr-shades-lightGray span span--bold mt-1">
+            <p className="clr-shades-lightGray span span--bold mt-1 mb-20px">
               Parkoló zóna kód az utcában: 0201. Hétfőtől péntekig 8:30-22:00-ig
               kell fizetni a parkolásért.
             </p>
+            <div className="separator-horizontal"></div>
             <div className="kapcsolat-social-box">
-              <h3 className="mt-2 kapcsolat-social-text">Kövess minket</h3>
+              <h3 className="kapcsolat-social-text">Kövess minket</h3>
               <div className="social-icons">
                 <SocialIcons position="socialIcons-left" />
               </div>
@@ -80,8 +81,8 @@ export default function Kapcsolat() {
               <div hidden>
                 <input name="bot-field" />
               </div>
-              <div className="row">
-                <div className="col-12-xs col-6-md mb-20px">
+              <div className="row gap-1">
+                <div className="col-12-xs col-6-md">
                   <InputField
                     type="text"
                     name="name"
@@ -89,24 +90,25 @@ export default function Kapcsolat() {
                     required="required"
                   />
                 </div>
-                <div className="col-12-xs col-6-md mb-20px">
+                <div className="col-12-xs col-6-md">
                   <InputField
                     id="email"
                     type="email"
                     name="email"
                     placeholder="E-mail"
                     required="required"
+                    className="form-control col-12-xs col-6-md mb-20px"
                   />
                 </div>
-                <div className="col-12-xs col-12-md mb-1">
-                  <TextArea
-                    className="kapcsolat__textarea"
-                    name="comments"
-                    rows="4"
-                    placeholder="Üzenet"
-                    required
-                  ></TextArea>
-                </div>
+              </div>
+              <div className="row massage-wrapper mb-2 mt-1">
+                <TextArea
+                  className="kapcsolat__textarea"
+                  name="comments"
+                  rows="4"
+                  placeholder="Üzenet"
+                  required
+                ></TextArea>
               </div>
               <div className="row">
                 <div className="col contact_checkbox">
