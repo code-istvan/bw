@@ -112,14 +112,12 @@ article {
     p {
       margin-bottom: 0 !important;
       font-weight: 900;
-      text-indent: 40px;
+      text-indent: 30px;
       margin-top: -22px;
     }
     &::before {
       content: url(../../images/QuoteDouble.svg);
-      // font-size: 54px;
       color: $color-brand-orange;
-      display: inline-block;
       margin-bottom: -20px;
       margin-top: -10px;
     }
