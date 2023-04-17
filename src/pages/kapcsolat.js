@@ -81,7 +81,7 @@ export default function Kapcsolat() {
               <div hidden>
                 <input name="bot-field" />
               </div>
-              <div className="row gap-1">
+              <div className="row gap-five">
                 <div className="col-12-xs col-6-md">
                   <InputField
                     type="text"
@@ -101,7 +101,7 @@ export default function Kapcsolat() {
                   />
                 </div>
               </div>
-              <div className="row massage-wrapper mb-2 mt-1">
+              <div className="row massage-wrapper mb-2">
                 <TextArea
                   className="kapcsolat__textarea"
                   name="comments"
