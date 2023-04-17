@@ -29,7 +29,7 @@ export default function Navigation({ isOpen = false, handleOpenMenu }) {
         handleOpenMenu()
       }
     }
-  }, [breakpoints, handleOpenMenu, isOpen])
+  }, [breakpoints])
 
   return (
     <nav className="navigation">
