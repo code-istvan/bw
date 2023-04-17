@@ -34,9 +34,9 @@ export default function Counter({ initialDate }) {
 
   return (
     <div>
-      <p>
-        {years} years, {months} months, {days} days
-      </p>
+      <h1>
+        {years} év, {months} hónap, {days} nap
+      </h1>
     </div>
   )
 }
