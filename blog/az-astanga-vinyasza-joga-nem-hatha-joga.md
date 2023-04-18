@@ -39,7 +39,7 @@ Az astanga jóga, hatha jóga, vagy a Patandzsali jóga valami egészen más?
 Norman Allen:
 
 > …ha az emberek egyszerűen hatha jógának hívják, az rosszabb, mintha astanga jógának nevezik, sokkal rosszabb. Felmerül a kérdés: nevezhetjük-e a Patandzsali jógát rendszernek még akkor is, ha egy konkrét ászana leírásáról sincs benne szó ?!
-> …a hatha jógik különböző gyakorlatokat végeztek, hogy testüket a felszabadulás eszközeként tudják használni. Kristály tisztaságú és keménységű test elérésére törekedtek. Át akarták alakítani a testüket abból a célból, hogy az lelkük valódi hordozó-eszközévé váljon. Láttuk őket Pondicherryben: átvágták az ínszalagot a nyelvük alatt,  hogy megakadályozzák a szómának, az “élet nektárjának” lecsepegését és elpazarlódását. Extrém módon alkalmazták a brahmacsarja-t, például nem mehettek és üríthették ki beleiket bármikor – ez hatha jóga. A Nap és a Hold, Shiva és Shakti összeolvadása; ez az, amit láttunk. Valószínűleg nem foglalkoztak volna a hatha jógával, ha nem tudták volna, mi is az. 
+> …a hatha jógik különböző gyakorlatokat végeztek, hogy testüket a felszabadulás eszközeként tudják használni. Kristály tisztaságú és keménységű test elérésére törekedtek. Át akarták alakítani a testüket abból a célból, hogy az lelkük valódi hordozó-eszközévé váljon. Láttuk őket Pondicherryben: átvágták az ínszalagot a nyelvük alatt,  hogy megakadályozzák a szómának, az “élet nektárjának” lecsepegését és elpazarlódását. Extrém módon alkalmazták a brahmacsarja-t, például nem mehettek és üríthették ki beleiket bármikor – ez hatha jóga. A Nap és a Hold, Shiva és Shakti összeolvadása; ez az, amit láttunk. Valószínűleg nem foglalkoztak volna a hatha jógával, ha nem tudták volna, mi is az.[^3]  
 
 Guruji a hatha jógára Észak-Indiai jógaként tekintett, és teljes mértékben lebeszélt minket arról, hogy azzal foglalkozzunk, finoman célozva arra, hogy némely gyakorlat inkább visszahúzó hatású. A hatha jóga az ászanákon és a légzőgyakorlatokon kívül mudrákat (kéztartásokat) és krijákat (tisztító célzatú gyakorlatokat) használ: például a saját vizelet elfogyasztását, a test hamuval való befedését, a nyelv alatti ínszalag átvágását stb. (lásd: Hatha Jóga Pradipika és Gheranda Samhita)
 
@@ -55,7 +55,7 @@ A külső ágak felkészítik a jógit az ülő meditációra. Ezek a test és e
 
 Amíg a hatha jógik eksztázisra törekszenek, mint gyakorlásuk közvetítő erejére, addig a Krishnamacharya által felvirágoztatott Dél-Indiai hagyomány befelé figyelő út –  az elme lecsendesítése céljából. Az ászana ebben a kontextusban terápiának tekinthető – felkészülés az ülésre és a magasabb szintű belső gyakorlatokra.
 
-> Krishnamacharya azt mondja, ez a jóga “ashastra-shastra-chikitsa”, ami azt jelenti, műszer nélküli operáció. Nagyon óvatosan és gondosan kell gyakorolni, mindenféle külső beavatkozás nélkül, mivel a test önmaga az az eszköz, ami az operációt végrehajtja.4.
+> Krishnamacharya azt mondja, ez a jóga “ashastra-shastra-chikitsa”, ami azt jelenti, műszer nélküli operáció. Nagyon óvatosan és gondosan kell gyakorolni, mindenféle külső beavatkozás nélkül, mivel a test önmaga az az eszköz, ami az operációt végrehajtja.[^4]
 
 Amíg Krishnamacharya idősebb korára vált terapeutás munkája kapcsán ismertté, maga a terápia téma a kezdetektől fogva része volt tevékenységeinek. Alapos ayurvéda ismeretei átitatták jóga oktatását.
 
@@ -65,7 +65,7 @@ Krishnamacharya szerint a jóga szútra második fejezetének első szútrája s
 
 > tapaḥsvādhyāyeśvarapraṇidhānāni kriyāyogaḥ II.1.
 
-A tapas (tapasz = önfegyelem, lemondás) szó sok mindent magában foglal: pl. étkezési szokásaink megváltoztatását, de ugyanúgy a pránájáma és az ászana is részei a tapasz-nak… Krishnamacharya az ászanát a svadhyaya (svadhyaya = önvaló tanulmányozása, önismeret, önmegfigyelés, írások tanulmányozása) alá is sorolta, hiszen az ászanák gyakorlásával sokmindent megláthatunk és megérthetünk önmagunkkal, működésünkkel kapcsolatban.4
+A tapas (tapasz = önfegyelem, lemondás) szó sok mindent magában foglal: pl. étkezési szokásaink megváltoztatását, de ugyanúgy a pránájáma és az ászana is részei a tapasz-nak… Krishnamacharya az ászanát a svadhyaya (svadhyaya = önvaló tanulmányozása, önismeret, önmegfigyelés, írások tanulmányozása) alá is sorolta, hiszen az ászanák gyakorlásával sokmindent megláthatunk és megérthetünk önmagunkkal, működésünkkel kapcsolatban.[^4]
 
 Patandzsali így folytatja: a jóga gyakorlásával megszabadulhatunk a szenvektől (klésa – szenvedésünk okozói) és elérhetjük a szamádhit.
 
@@ -83,7 +83,7 @@ Amikor az emberek azt kérdezik tőlem, hogy milyen jógát tanítok, azt felele
 
 Ha az interneten rákeresünk az astanga szóra, hasonló hangvételű magyarázatokkal és leírásokkal találkozhatunk:
 
-> Napjaink egyik legismertebb jógairányzata az astanga jóga, amit olyan hírességek gyakorolnak, mint Madonna, Sting vagy Woody Harrelson. Népszerűségét “extra zsírégető” típusú edzésmódjának köszönheti, ami az izzadás mértékének növelésével karcsú és feszes izmokkal ajándékozza meg a gyakorlóját.5
+> Napjaink egyik legismertebb jógairányzata az astanga jóga, amit olyan hírességek gyakorolnak, mint Madonna, Sting vagy Woody Harrelson. Népszerűségét “extra zsírégető” típusú edzésmódjának köszönheti, ami az izzadás mértékének növelésével karcsú és feszes izmokkal ajándékozza meg a gyakorlóját.[^5]
 
 Elég szerencsétlen a szituáció, de nem okoz meglepetést a test és a testtel való megszállottság korában, hogy hasonló mértékű megszállottság alakul ki ászanák vagy éppen ászanák sorozatának tökéletes kivitelezése irányába. Habár nagyon hatékony motivációs tényező, de a testtel való megszállott foglalkozás a spirituális gyakorlásunkat előbb vagy utóbb hátráltatni fogja, ami ahhoz vezet, hogy beleragadunk a fizikai erő és szépség csodálásába, elvétve így a valódi célt és a gyakorlás helyes módját. Az ászanák tökéletes kivitelezésének vajmi kevés köze van a jóga útján való továbbhaladáshoz.
 
@@ -159,19 +159,17 @@ Az ászanák tanítása közben Guruji rengeteg mást is tanított – minden eg
 
 De minden tanítása a Jóga szútra, a Védák és az Upanisádok, vagy Sri Shankaracharya műveiből származik… ez ugyanúgy hozzátartozik az ászana-rendszerhez, amelyet “Első sorozatnak” vagy “Második sorozatnak” nevezünk, és egyénre szabottan és elméleti órákon keresztül egyaránt tovább lett adva. Ezek a művek is nélkülözhetetlenek a Patandzsali jóga tanításához és gyakorlásához (a Jóga filozófia – s fő műve, a Jóga szútra – egyike a 6 indiai filozófiai rendszernek (darshana) ami a Védák tanításait kezeli kiindulópontként). Az ősi szövegek tanulmányozására azért van szükség, hogy a jóga filozófiát teljességében megérthessük.
 
-Amit Gurujitól tanultunk, saját bőrünkön tapasztaltuk – ez volt tulajdonképpen tanulásunk elsődleges módja. Guruji tanitási módszere a fizikai gyakorlás különleges formája volt; segített minket túljuttatni azokon a  korlátozott elképzeléseinken, hogy mire vagyunk képesek és mi az , amire nem; és megszabadított az ehhez az elképzeléshez fűződő érzésektől is. Azáltal, hogy bíztunk a tudásában és a kezeiben, sokan képessé váltunk meggyógyulni, megtisztulni és hiányzó belső erőnket kiépíteni. Ez a testünkön át tapasztalt tanulás tette lehetővé számunkra a transzformációt, átváltozást és gyógyulást.
+Amit Gurujitól tanultunk, saját bőrünkön tapasztaltuk – ez volt tulajdonképpen tanulásunk elsődleges módja. Guruji tanitási módszere a fizikai gyakorlás különleges formája volt; segített minket túljuttatni azokon a  korlátozott elképzeléseinken, hogy mire vagyunk képesek és mi az, amire nem; és megszabadított az ehhez az elképzeléshez fűződő érzésektől is. Azáltal, hogy bíztunk a tudásában és a kezeiben, sokan képessé váltunk meggyógyulni, megtisztulni és hiányzó belső erőnket kiépíteni. Ez a testünkön át tapasztalt tanulás tette lehetővé számunkra a transzformációt, átváltozást és gyógyulást.
 
 Az astanga jóga sokkal több, mint pusztán ászanák egymást követő sorozata vagy a hatha jóga továbbfejlesztése, de ahhoz , hogy igazából a szívéig érjünk, odaadó gyakorlásra és tanulásra van szükség – hosszú időn keresztül, megszakítások nélkül. 
 
 Felhasznált irodalom:
 
 [^1]: Ezt a kérdést először nyomtatásban N. Sjoman tette fel a Yoga Tradition of the Mysore Palace c. művében és nemrégiben újra nyomtatásba került Mark Singleton Yoga Body: The Origins of Modern Posture c szövegében
-
-[^2]: The King and the Young Man – interjú T Krishnamacharya-val
-
-3. Guruji: a Portrait of Sri K Pattabhi Jois through the Eyes of his Students
-4. The Yoga of T Krisnamacharya – TKV Desikachar
-5. Gaiam Life website
+[^2]: The King and the Young Man – Interjú T. Krishnamacharya-val
+[^3]: Guruji: a Portrait of Sri K Pattabhi Jois through the Eyes of his Students
+[^4]: The Yoga of T Krisnamacharya – TKV Desikachar
+[^5]: Gaiam Life website
 
 **Forrás:** Ashtanga Yoga is not Hatha Yoga
 **Szerző:** Guy Donahaye
