@@ -4,6 +4,7 @@ import Button from "../components/Buttons/Button"
 import { Link } from "gatsby"
 import GoogleMap from "../components/GoogleMap/GoogleMap"
 import Navbar from "../components/Nav/Navbar"
+import Layout from "../components/Layouts/Layout"
 import Footer from "../components/Footer/Footer"
 import SocialIcons from "../components/Icons/SocialIcons"
 import InputField from "../components/InputField"
@@ -12,9 +13,8 @@ import "../sass/pages/_kapcsolat.scss"
 
 export default function Kapcsolat() {
   return (
-    <>
+    <Layout>
       <Seo title="Kapcsolat" />
-      <Navbar />
       <GoogleMap />
       <div className="container">
         <div className="row gap-1 kapcsolat-navigation">
@@ -133,7 +133,6 @@ export default function Kapcsolat() {
           </div>
         </div>
       </div>
-      <Footer />
-    </>
+    </Layout>
   )
 }
