@@ -61,10 +61,6 @@ button[type="submit"] {
 }
 
 .kapcsolat-social-box {
-  @media screen and (min-width: 1px) and (max-width: 768px) {
-    border-bottom: solid 1px $color-shades-lightBlack;
-  }
-
   .social-icons {
     margin-bottom: 2rem;
   }
