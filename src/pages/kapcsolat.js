@@ -3,10 +3,8 @@ import Seo from "../components/seo"
 import Button from "../components/Buttons/Button"
 import { Link } from "gatsby"
 import GoogleMap from "../components/GoogleMap/GoogleMap"
-import Navbar from "../components/Nav/Navbar"
 import Layout from "../components/Layouts/Layout"
-import Footer from "../components/Footer/Footer"
-import SocialIcons from "../components/Icons/SocialIcons"
+import SocialBlock from "../components/Icons/SocialBlock"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
 import "../sass/pages/_kapcsolat.scss"
@@ -54,12 +52,8 @@ export default function Kapcsolat() {
               Parkoló zóna kód az utcában: 0201. Hétfőtől péntekig 8:30-22:00-ig
               kell fizetni a parkolásért.
             </p>
-            <div className="separator-horizontal"></div>
-            <div className="kapcsolat-social-box">
-              <h3 className="kapcsolat-social-text">Kövess minket</h3>
-              <div className="social-icons">
-                <SocialIcons position="socialIcons-left" />
-              </div>
+            <div>
+              <SocialBlock />
             </div>
           </div>
           <div className="col-12-xs col-6-md">
