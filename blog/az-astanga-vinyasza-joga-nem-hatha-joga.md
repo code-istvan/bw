@@ -91,7 +91,7 @@ A nyugati világ ászanagyakorlását a különféle gyógyszerek túlfogyasztá
 
 A gyakorlás céljával való azonosulás nélkül annak áldozatává válhatunk. A jóga nem testedzés szálkás és feszes izmok építése céljából. Addig, ameddig nem értjük meg az ászana helyét és szerepét Patandzsali jógájában, Guruji jógájában, nem meglepő, hogy zavarodottság van bennünk.
 
-Ami bizonyos, hogy a jóga nagyon hatékony eszköz.  Még ha “egóval” is kezd neki bárki is a gyakorlásnak, a jóga ereje végül lerombolja azt. Mindenesetre a könnyebb módszer az, ha felhívják figyelmünket a sikerhez vezető közvetlen útra, mintha hosszú és kemény úton kell megtanulnunk a leckét.
+Ami bizonyos, hogy a jóga nagyon hatékony eszköz. Még ha “egóval” is kezd neki bárki is a gyakorlásnak, a jóga ereje végül lerombolja azt. Mindenesetre a könnyebb módszer az, ha felhívják figyelmünket a sikerhez vezető közvetlen útra, mintha hosszú és kemény úton kell megtanulnunk a leckét.
 
 Az ászana célja tehát a terápia, a gyógyítás. Ez minden. Fizikai és érzelmi terápia. Meg kell tanulnunk az ászanákat így, ennek az ismeretében gyakorolni.
 
@@ -99,7 +99,7 @@ Az ászana célja tehát a terápia, a gyógyítás. Ez minden. Fizikai és érz
 **Norman Allen:** A legtöbb esetben valószínűleg sehová más lépések megtétele nélkül… Helyes szándék, étrend, jamák és nijámák követése nélkül nem fog megtörténni. Ezekkel együtt biztos lehetsz benne, hogy az egód fel fog oldódni, hogy megszabadulsz tőle. Ha a gyakorlás szenzációhajhász és versengő, akkor még teljes mértékben gyermekcipőben jársz, a gyakorlás rajasztikus. Neked viszont meg kell próbálnod a szattvikus minőségre törekedni, módszeresen különben nincs esélyed továbblépni.
 
 **Guy:** Úgy gondolod, hogy az ászana gyakorlás le tudja rombolni az egót?
-**Norman:** A gyakorlás – attól függően, hogy milyen céllal végezzük –  feloldhatja az egót, igen .3
+**Norman:** A gyakorlás – attól függően, hogy milyen céllal végezzük –  feloldhatja az egót, igen.[^3]
 
 Úgy gondolom, hogy Guruji talán egy kissé alulértékelte a nyugati ember egójának az erejét – sokkal erőteljesebb, hataloméhesebb és megszállottabb ugyanis, mint például az indiai emberé. Más részről viszont talán ezt elismerve és felismerve, az egó fogalmát hozzákapcsolta a jógához, tudva azt, hogy végső soron a gyakorlás útján minden akadály elhárul.
 
@@ -137,7 +137,7 @@ Könnyen észrevehetjük, hogy finomabb szintű érzékeléseinket, tapasztalás
 
 Például van egy bizonyos érzésünk arról, hogy identitásunk valahol a testünkön belül létezik … a prána vagyis az életenergia sokkal finomabb mint a fizikai testünk, annál sokkal finomabb szintű a mentális testünk, annál még finomabb réteg az intellektus. A legfinomabb, végtelenül finom szinten találjuk az Önvalót, a megmagyarázhatatlan és örökérvényű igazságot.
 
-Belülről az elme a purusától közvetlen benyomásokat kap, úgy, ahogyan mondjuk egy képet vetítünk a filmvászonra. Normális körülmények között ezek a benyomások a minket uraló és lekötő külső zajok (rajas) és szennyeződések (tamas) miatt rejtve maradnak (még alvás közben is) mivel ezek a gúnák játszanak azon a 24 képernyőn, amelyek mindennapi észleleteinket formálják. De ha az összes bejáratot lezárjuk – ha már nem a testünkön keresztül érzékeljük a szaglást, a szexuális vágyat, az életenergiánk mozgását vagy az alacsonyabb szintű elmét (ahamkára), hanem csak az intellektus (buddhi) marad éber és egyhegyű, míg a többit elnyomjuk:  ekkor érjük el a samprajnata szamádhit, és a buddhi “megtapasztalja” a purusát, ami mindig jelenvaló, de a hétköznapok tudati szintjén elfedve marad előttünk.
+Belülről az elme a purusától közvetlen benyomásokat kap, úgy, ahogyan mondjuk egy képet vetítünk a filmvászonra. Normális körülmények között ezek a benyomások a minket uraló és lekötő külső zajok (rajas) és szennyeződések (tamas) miatt rejtve maradnak (még alvás közben is) mivel ezek a gúnák játszanak azon a 24 képernyőn, amelyek mindennapi észleleteinket formálják. De ha az összes bejáratot lezárjuk – ha már nem a testünkön keresztül érzékeljük a szaglást, a szexuális vágyat, az életenergiánk mozgását vagy az alacsonyabb szintű elmét (ahamkára), hanem csak az intellektus (buddhi) marad éber és egyhegyű, míg a többit elnyomjuk: ekkor érjük el a samprajnata szamádhit, és a buddhi “megtapasztalja” a purusát, ami mindig jelenvaló, de a hétköznapok tudati szintjén elfedve marad előttünk.
 
 Habár a purusát a térhez hasonlítják, azt is mondják, hogy az intellektus közepében lakozik; a szív vagy elme üregében, ami fizikailag a mellkas közepén található. A külső ágak tökéletesítésén keresztül a szívünket befedő szennyeződések – a “6 méreg” (vágy, düh, szenvedély, mohóság, hiúság/féltékenység és lustaság) amely megakadályoz abban, hogy teljességében megtapasztaljuk önmagunkban a Purusát – lassacskán lekopik, letisztul  – és Önvalónk fénye elkezd sugározni rajta keresztül.
 
