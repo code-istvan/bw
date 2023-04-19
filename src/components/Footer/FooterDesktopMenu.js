@@ -2,8 +2,6 @@ import React from "react"
 import { useState } from "react"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
-// import { filterKeyEnter, accessibleOnClick } from "../Helper"
-// import Icons from "../../Icons/Icons"
 import { Link } from "gatsby"
 import "../../sass/components/_footerdesktopmenu.scss"
 

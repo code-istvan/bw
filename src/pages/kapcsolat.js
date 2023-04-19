@@ -7,9 +7,12 @@ import Layout from "../components/Layouts/Layout"
 import SocialBlock from "../components/Icons/SocialBlock"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import "../sass/pages/_kapcsolat.scss"
 
 export default function Kapcsolat() {
+  const breakpoints = useBreakpoint()
+
   return (
     <Layout>
       <Seo title="Kapcsolat" />
@@ -32,7 +35,6 @@ export default function Kapcsolat() {
             <h1 className="kapcsolat-title mb-20px">Kapcsolat</h1>
           </div>
         </div>
-
         <div className="row gap-2">
           <div className="col-12-xs col-6-md">
             <address>
@@ -52,10 +54,10 @@ export default function Kapcsolat() {
               Parkoló zóna kód az utcában: 0201. Hétfőtől péntekig 8:30-22:00-ig
               kell fizetni a parkolásért.
             </p>
-            <div>
-              <SocialBlock />
-            </div>
+            <div className="separator-horizontal"></div>
+            {breakpoints.md ? null : <SocialBlock />}
           </div>
+
           <div className="col-12-xs col-6-md">
             <div className="row">
               <h3 className="mb-20px">Üzenj nekünk</h3>
@@ -124,6 +126,10 @@ export default function Kapcsolat() {
                 </div>
               </div>
             </form>
+            {breakpoints.md ? (
+              <div className="separator-horizontal"></div>
+            ) : null}
+            {breakpoints.md ? <SocialBlock /> : null}
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
 .textarea--field-box {
   width: 100%;
   background: transparent;
-  box-shadow: 0px 0px 0px 1px $color-shades-gray inset;
+  box-shadow: 0px 0px 0px 2px $color-shades-darkGray inset;
 
   &:focus-within {
     box-shadow: 0px 0px 0px 1px $color-brand-orange inset;
