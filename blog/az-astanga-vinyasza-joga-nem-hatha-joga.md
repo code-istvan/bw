@@ -20,9 +20,9 @@ Az indológusok általánosan úgy gondolják, hogy Patandzsali a hatha jóga sz
 
 Guruji a tradicionális Patandzsali jógáról, gurujától, Krishnamacharya-tól tanult, aki a Yoga Korunta bölcsességét adta tovább tanítványának:
 
-> Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Jóga Koruntát) gurkhali nyelven. Ez a terjedelmes mű Patandzsali jóga szútráját dolgozta ki aprólékosan és látta el kommentárokkal, amikre a szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patandzsali jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.[^2] 
+> Rama Mohana megtaníttatta velem az egész Yoga Gurandam-ot (Jóga Koruntát) gurkhali nyelven. Ez a terjedelmes mű Patandzsali Jóga Szútráját dolgozta ki aprólékosan és látta el kommentárokkal, amikre a szútrák tömör megfogalmazása miatt volt szükség. A Yoga Gurandamban a különböző jógapózok és mozdulatok vannak világosan leírva és értelmezve. Csak azután értheti meg Patandzsali jóga szútrájának belső jelentését és esszenciáját bárki is, miután tanulmányozta ezt a könyvet.[^2] 
 
-Guruji szerint a Yoga Koruntában volt először megemlítve a drishti, bandha, vinyásza – mint az astanga jóga “alapelemei” –  és itt lettek először csoportosítva az ászanák azok terápiás, tisztító vagy erősítő jellegüknél fogva.
+Guruji szerint a Jóga Koruntában volt először megemlítve a **drishti, bandha, vinyásza** – mint az astanga jóga “alapelemei” –  és itt lettek először csoportosítva az ászanák azok terápiás, tisztító vagy erősítő jellegüknél fogva.
 
 Tudomásunk szerint a Yoga Koruntán kívül nincs egyetlen egy másik szöveg sem, amelyik megmagyarázná az ászanák szerepét és gyakorlását.  Bár maga a mű – úgy tűnik, hogy – elveszett, tanításainak bölcsessége Krishnamacharya és tanítványain keresztül továbbra is virágzik a Vini jóga, astanga vinyásza jóga és az Iyengar jóga segítségével.
 
@@ -38,7 +38,7 @@ Az astanga jóga, hatha jóga, vagy a Patandzsali jóga valami egészen más?
 
 Norman Allen:
 
-> …ha az emberek egyszerűen hatha jógának hívják, az rosszabb, mintha astanga jógának nevezik, sokkal rosszabb. Felmerül a kérdés: nevezhetjük-e a Patandzsali jógát rendszernek még akkor is, ha egy konkrét ászana leírásáról sincs benne szó ?!
+> …ha az emberek egyszerűen hatha jógának hívják, az rosszabb, mintha astanga jógának nevezik, sokkal rosszabb. Felmerül a kérdés: nevezhetjük-e a Patandzsali jógát rendszernek még akkor is, ha egy konkrét ászana leírásáról sincs benne szó?!
 > …a hatha jógik különböző gyakorlatokat végeztek, hogy testüket a felszabadulás eszközeként tudják használni. Kristály tisztaságú és keménységű test elérésére törekedtek. Át akarták alakítani a testüket abból a célból, hogy az lelkük valódi hordozó-eszközévé váljon. Láttuk őket Pondicherryben: átvágták az ínszalagot a nyelvük alatt,  hogy megakadályozzák a szómának, az “élet nektárjának” lecsepegését és elpazarlódását. Extrém módon alkalmazták a brahmacsarja-t, például nem mehettek és üríthették ki beleiket bármikor – ez hatha jóga. A Nap és a Hold, Shiva és Shakti összeolvadása; ez az, amit láttunk. Valószínűleg nem foglalkoztak volna a hatha jógával, ha nem tudták volna, mi is az.[^3]  
 
 Guruji a hatha jógára Észak-Indiai jógaként tekintett, és teljes mértékben lebeszélt minket arról, hogy azzal foglalkozzunk, finoman célozva arra, hogy némely gyakorlat inkább visszahúzó hatású. A hatha jóga az ászanákon és a légzőgyakorlatokon kívül mudrákat (kéztartásokat) és krijákat (tisztító célzatú gyakorlatokat) használ: például a saját vizelet elfogyasztását, a test hamuval való befedését, a nyelv alatti ínszalag átvágását stb. (lásd: Hatha Jóga Pradipika és Gheranda Samhita)
@@ -79,7 +79,7 @@ A képzeletbeli nagyító alá Pattabhi Jois tanítványai közül néhányan az
 
 Amikor az emberek azt kérdezik tőlem, hogy milyen jógát tanítok, azt felelem **astanga jógát** a reakció gyakran ez:
 
-> óh, az a fizikailag nagyon megerőltető féle , az a  “nem-spirituális” jóga, ugye?
+> óh, az a fizikailag nagyon megerőltető féle, az a “nem-spirituális” jóga, ugye?
 
 Ha az interneten rákeresünk az astanga szóra, hasonló hangvételű magyarázatokkal és leírásokkal találkozhatunk:
 
@@ -129,19 +129,19 @@ A puruṣa-khyāter vagy vivéka khyāter a szútrák központi témája – min
 
 Patandzsali-nál a II.1 szútra alapján a jóga gyakorlás második eleme a svadhyaya. A jógikus filozófia tanulmányozása a svadhyaya egy formája, ugyanis az elme működésének megértéséhez egyfajta belső térképet nyújt. A jóga filozófiától eltérően figyelmünket az Önvaló természetére irányítja. A meditációt nem szükséges külső világi tárgyakra irányítanunk, sokkal jobb, ha olyan ideákra irányítjuk, amelyek az Önvaló igaz természetét fejezik ki.
 
-Azt mondják, hogy a buddhi (intellektus) természete hasonló a Purusáéhoz . A Purusa minőségek nélküli, de bizonyos ideák alkalmasak arra, hogy a természete irányába mutassanak. Például sok helyen azt olvashatjuk, hogy a Purusa olyan, akár az üres tér – vagy maga az üresség – vagy hogy a telihold fényességéhez hasonló tündöklő fény – maga a boldogság; mindent ismerő és öröktől valóan szabad. A buddhinak (intellektus) meg van az a képessége, hogy ezeket a formákat képzeleten és meditáción keresztül megragadja, felvegye – a meditáció segít az intellektust érintkezésbe hozni a Purusával, ezáltal képessé válik arra, hogy megkülönböztesse magát tőle.
+Azt mondják, hogy a buddhi (intellektus) természete hasonló a Purusáéhoz. A Purusa minőségek nélküli, de bizonyos ideák alkalmasak arra, hogy a természete irányába mutassanak. Például sok helyen azt olvashatjuk, hogy a Purusa olyan, akár az üres tér – vagy maga az üresség – vagy hogy a telihold fényességéhez hasonló tündöklő fény – maga a boldogság; mindent ismerő és öröktől valóan szabad. A buddhinak (intellektus) meg van az a képessége, hogy ezeket a formákat képzeleten és meditáción keresztül megragadja, felvegye – a meditáció segít az intellektust érintkezésbe hozni a Purusával, ezáltal képessé válik arra, hogy megkülönböztesse magát tőle.
 
 A Purusa a különböző érzékszerveken keresztül tapasztal, mindezek közül a legkifinomultabb az intellektus.  Az érzékszervek, vagy “bejáratok” mindegyike egyfajta érintkezési felületként, képernyőként funkcionál, aminek az élményei közvetítve vannak. A számkhja filozófia alapján 24 ilyen képernyőről beszélhetünk: az elme 4 aspektusa, az 5 energia, az 5 érzékszerv, az 5 cselekvési szerv és az 5 elem – tapasztalataink ezen a 24 receptoron keresztül rögzülnek. Az intellektus ezek közül a legfinomabb szintű, a belső képernyő.
 
 Könnyen észrevehetjük, hogy finomabb szintű érzékeléseinket, tapasztalásainkat sokkal inkább belsőnek érezzük; ezek a sokkal durvább, fizikai észleléseink alatt, fölött vagy azon belül léteznek.
 
-Például van egy bizonyos érzésünk arról, hogy identitásunk valahol a testünkön belül létezik … a prána vagyis az életenergia sokkal finomabb mint a fizikai testünk, annál sokkal finomabb szintű a mentális testünk, annál még finomabb réteg az intellektus. A legfinomabb, végtelenül finom szinten találjuk az Önvalót, a megmagyarázhatatlan és örökérvényű igazságot.
+Például van egy bizonyos érzésünk arról, hogy identitásunk valahol a testünkön belül létezik… a prána vagyis az életenergia sokkal finomabb mint a fizikai testünk, annál sokkal finomabb szintű a mentális testünk, annál még finomabb réteg az intellektus. A legfinomabb, végtelenül finom szinten találjuk az Önvalót, a megmagyarázhatatlan és örökérvényű igazságot.
 
 Belülről az elme a purusától közvetlen benyomásokat kap, úgy, ahogyan mondjuk egy képet vetítünk a filmvászonra. Normális körülmények között ezek a benyomások a minket uraló és lekötő külső zajok (rajas) és szennyeződések (tamas) miatt rejtve maradnak (még alvás közben is) mivel ezek a gúnák játszanak azon a 24 képernyőn, amelyek mindennapi észleleteinket formálják. De ha az összes bejáratot lezárjuk – ha már nem a testünkön keresztül érzékeljük a szaglást, a szexuális vágyat, az életenergiánk mozgását vagy az alacsonyabb szintű elmét (ahamkára), hanem csak az intellektus (buddhi) marad éber és egyhegyű, míg a többit elnyomjuk: ekkor érjük el a samprajnata szamádhit, és a buddhi “megtapasztalja” a purusát, ami mindig jelenvaló, de a hétköznapok tudati szintjén elfedve marad előttünk.
 
-Habár a purusát a térhez hasonlítják, azt is mondják, hogy az intellektus közepében lakozik; a szív vagy elme üregében, ami fizikailag a mellkas közepén található. A külső ágak tökéletesítésén keresztül a szívünket befedő szennyeződések – a “6 méreg” (vágy, düh, szenvedély, mohóság, hiúság/féltékenység és lustaság) amely megakadályoz abban, hogy teljességében megtapasztaljuk önmagunkban a Purusát – lassacskán lekopik, letisztul  – és Önvalónk fénye elkezd sugározni rajta keresztül.
+Habár a purusát a térhez hasonlítják, azt is mondják, hogy az intellektus közepében lakozik; a szív vagy elme üregében, ami fizikailag a mellkas közepén található. A külső ágak tökéletesítésén keresztül a szívünket befedő szennyeződések – a “6 méreg”, ** a vágy, a düh, a szenvedély, a mohóság, a hiúság/féltékenység és a lustaság,** amely megakadályoz abban, hogy teljességében megtapasztaljuk önmagunkban a Purusát – lassacskán lekopik, letisztul  – és Önvalónk fénye elkezd sugározni rajta keresztül.
 
-Patandzsali nem ajánl egy konkrét meditációt ehhez a felismeréshez – néhány ajánlást tesz a különböző, gyakorlás közben felmerülő akadályok legyőzésére. Már a Jóga szútra elején (I.2) megfogalmazza, hogy az elme működését az uralmunk alá kell fognunk – és onnantól kezdve minden, amit megtapasztalunk, az maga az Önvaló. A további szútrákban azt tanácsolja, hogy durva vagy finom tárgyakon meditáljunk, vagy meditáljunk azon a gyönyörön vagy állapoton, ami a formához kötött/megismerő (samprajnata) szamádhi. De a szamádhi legvégső formája – a forma nélküli/tartalom nélküli (asamprajnata) szamádhi kizárólag teljes  önkorlátozással/ürességgel érhető el.
+Patandzsali nem ajánl egy konkrét meditációt ehhez a felismeréshez – néhány ajánlást tesz a különböző, gyakorlás közben felmerülő akadályok legyőzésére. Már a Jóga Szútra elején (I.2) megfogalmazza, hogy az elme működését az uralmunk alá kell fognunk – és onnantól kezdve minden, amit megtapasztalunk, az maga az Önvaló. A további szútrákban azt tanácsolja, hogy durva vagy finom tárgyakon meditáljunk, vagy meditáljunk azon a gyönyörön vagy állapoton, ami a formához kötött/megismerő (samprajnata) szamádhi. De a szamádhi legvégső formája – a forma nélküli/tartalom nélküli (asamprajnata) szamádhi kizárólag teljes  önkorlátozással/ürességgel érhető el.
 
 A dharana, dhyana és a szamádhi nem különállóak – ezek fokozatosan egymásba olvadó ágak. Ezt szamjámának is nevezzük. A dharana – koncentráció – az az állapot, amire gyakorlásunk közben folyamatosan törekszünk.
 
@@ -157,11 +157,11 @@ A hatha jógik eksztatikus állapotától eltérően tehát az astanga jóga gya
 
 Az ászanák tanítása közben Guruji rengeteg mást is tanított – minden egyes tanítványát annak személyiségéhez illeszkedő módon, és természetesen mindenkiben máshogy rezonáltak a tanítások.
 
-De minden tanítása a Jóga szútra, a Védák és az Upanisádok, vagy Sri Shankaracharya műveiből származik… ez ugyanúgy hozzátartozik az ászana-rendszerhez, amelyet “Első sorozatnak” vagy “Második sorozatnak” nevezünk, és egyénre szabottan és elméleti órákon keresztül egyaránt tovább lett adva. Ezek a művek is nélkülözhetetlenek a Patandzsali jóga tanításához és gyakorlásához (a Jóga filozófia – s fő műve, a Jóga szútra – egyike a 6 indiai filozófiai rendszernek (darshana) ami a Védák tanításait kezeli kiindulópontként). Az ősi szövegek tanulmányozására azért van szükség, hogy a jóga filozófiát teljességében megérthessük.
+De minden tanítása a Jóga Szútra, a Védák és az Upanisádok, vagy Sri Shankaracharya műveiből származik… ez ugyanúgy hozzátartozik az ászana-rendszerhez, amelyet “Első sorozatnak” vagy “Második sorozatnak” nevezünk, és egyénre szabottan és elméleti órákon keresztül egyaránt tovább lett adva. Ezek a művek is nélkülözhetetlenek a Patandzsali jóga tanításához és gyakorlásához (a Jóga filozófia – s fő műve, a Jóga Szútra – egyike a 6 indiai filozófiai rendszernek (darshana) ami a Védák tanításait kezeli kiindulópontként). Az ősi szövegek tanulmányozására azért van szükség, hogy a jóga filozófiát teljességében megérthessük.
 
 Amit Gurujitól tanultunk, saját bőrünkön tapasztaltuk – ez volt tulajdonképpen tanulásunk elsődleges módja. Guruji tanitási módszere a fizikai gyakorlás különleges formája volt; segített minket túljuttatni azokon a  korlátozott elképzeléseinken, hogy mire vagyunk képesek és mi az, amire nem; és megszabadított az ehhez az elképzeléshez fűződő érzésektől is. Azáltal, hogy bíztunk a tudásában és a kezeiben, sokan képessé váltunk meggyógyulni, megtisztulni és hiányzó belső erőnket kiépíteni. Ez a testünkön át tapasztalt tanulás tette lehetővé számunkra a transzformációt, átváltozást és gyógyulást.
 
-Az astanga jóga sokkal több, mint pusztán ászanák egymást követő sorozata vagy a hatha jóga továbbfejlesztése, de ahhoz , hogy igazából a szívéig érjünk, odaadó gyakorlásra és tanulásra van szükség – hosszú időn keresztül, megszakítások nélkül. 
+Az astanga jóga sokkal több, mint pusztán ászanák egymást követő sorozata vagy a hatha jóga továbbfejlesztése, de ahhoz, hogy igazából a szívéig érjünk, odaadó gyakorlásra és tanulásra van szükség – hosszú időn keresztül, megszakítások nélkül. 
 
 Felhasznált irodalom:
 
