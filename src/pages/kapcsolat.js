@@ -36,7 +36,7 @@ export default function Kapcsolat() {
           </div>
         </div>
         <div className="row gap-2">
-          <div className="col-12-xs col-6-md">
+          <div className="col-12-xs col-6-md kapcsolat-body">
             <address>
               <h3 className="mb-0">Bandha Works Jógaiskola</h3>
               <div className="kapcsolat-address">
@@ -50,15 +50,13 @@ export default function Kapcsolat() {
               A bejárat az utcafrontról nyílik, a társasházi főbejárattól balra
               található barna ajtón tudsz bejönni hozzánk.
             </p>
-            <p className="clr-shades-lightGray span span--bold mt-1 mb-20px">
+            <p className="clr-shades-lightGray span span--bold mt-20px">
               Parkoló zóna kód az utcában: 0201. Hétfőtől péntekig 8:30-22:00-ig
               kell fizetni a parkolásért.
             </p>
-            <div className="separator-horizontal"></div>
             {breakpoints.md ? null : <SocialBlock />}
           </div>
-
-          <div className="col-12-xs col-6-md">
+          <div className="col-12-xs col-6-md kapcsolat-uzenet">
             <div className="row">
               <h3 className="mb-20px">Üzenj nekünk</h3>
             </div>
