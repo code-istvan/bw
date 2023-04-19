@@ -13,7 +13,7 @@ const defaultProps = {
 }
 
 const GoogleMap = () => (
-  <div className="googleMap__box">
+  <div className="googleMap__box container-fluid">
     <GoogleMapReact
       bootstrapURLKeys={{ key: process.env.GATSBY_GOOGLE_MAP }}
       defaultCenter={defaultProps.center}
