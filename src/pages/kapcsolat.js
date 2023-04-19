@@ -62,7 +62,7 @@ export default function Kapcsolat() {
             </div>
             <form
               name="contact bandhaworks"
-              action="/mantra"
+              action="/message-sent"
               method="post"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
