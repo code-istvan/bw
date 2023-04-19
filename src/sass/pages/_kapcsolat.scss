@@ -112,13 +112,13 @@ label {
 
 .kapcsolat-body {
   p:nth-child(3) {
-    padding-bottom: 20px;
+    padding-bottom: 28px;
     border-bottom: solid 1px $color-shades-lightBlack;
     @media only screen and (min-width: 1px) and (max-width: 768px) {
-      margin-bottom: -20px;
+      margin-bottom: -12px;
     }
     @media only screen and (min-width: 769px) {
-      margin-bottom: 20px;
+      margin-bottom: 28px;
     }
   }
 }
