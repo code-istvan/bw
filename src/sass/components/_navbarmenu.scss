@@ -274,16 +274,9 @@
     z-index: 1;
   }
 
-  .nav-link {
+  .menuItemsFomenu {
     &:hover {
-      // text-decoration-line: underline;
-      // text-decoration-color: $color-brand-orange;
-      // text-decoration-thickness: 6px;
-      // color: $color-shades-white !important;
       color: $color-brand-orange !important;
-      // a:nth-child(1) {
-      //   color: $color-shades-white !important;
-      // }
     }
   }
 
