@@ -34,12 +34,26 @@ export default function Házirend() {
           />
         </div>
       </div>
+      <div className="row mt-20px mb-20px">
+        <div className="col">
+          <h3>
+            A saját és társaid háborítatlan gyakorlása és befelé figyelése
+            érdekében kérünk, hogy olvasd el, és tartsd be a házirendben
+            foglaltakat. Köszönjük!
+          </h3>
+        </div>
+      </div>
       <div className="row">
         <div className="col">
           <ol type="1" className="body">
             {houseRules &&
               houseRules.map(({ rule }) => <li key={rule}>{rule}</li>)}
           </ol>
+        </div>
+      </div>
+      <div className="row mt-20px mb-20px">
+        <div className="col">
+          <h3>Várunk szeretettel!</h3>
         </div>
       </div>
     </Layout>
