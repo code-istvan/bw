@@ -9,7 +9,7 @@ export default function Arak() {
     <Layout>
       <Seo title="ÁRAK" />
       <div className="page-hero-container">
-        <div className="row">
+        <div className="row tight--desktop--container">
           <h1 className="page-hero-title">ÁRAK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
@@ -33,7 +33,7 @@ export default function Arak() {
           />
         </div>
       </div>
-      <div className="arak-wrapper">
+      <div className="arak-wrapper tight--desktop--container">
         <div className="row mt-40px mb-20px">
           <h3>Astanga Mysore Program</h3>
           <table className="prices">
@@ -47,12 +47,16 @@ export default function Arak() {
               <tr>
                 <td>Egy alkalom (drop in)</td>
                 <td>4.500.- Ft</td>
-                <td className="buy-ticket">VÁSÁRLÁS</td>
+                <td className="buy-ticket">
+                  <small>VÁSÁRLÁS</small>
+                </td>
               </tr>
               <tr>
                 <td>Havi bérlet</td>
                 <td>34.000.- Ft</td>
-                <td className="buy-ticket">VÁSÁRLÁS</td>
+                <td className="buy-ticket">
+                  <small>VÁSÁRLÁS</small>
+                </td>
               </tr>
               <tr>
                 <td>Éves tagság*</td>
@@ -80,12 +84,17 @@ export default function Arak() {
             <tr>
               <td>Egy alkalom (drop in)</td>
               <td>3.500.- Ft</td>
-              <th className="buy-ticket">VÁSÁRLÁS</th>
+              <td className="buy-ticket">
+                <small>VÁSÁRLÁS</small>
+              </td>
             </tr>
             <tr>
               <td>Tíz alkalmas bérlet</td>
               <td>30.000.- Ft</td>
-              <th className="buy-ticket">VÁSÁRLÁS</th>
+              <td className="buy-ticket">
+                {" "}
+                <small>VÁSÁRLÁS</small>
+              </td>
             </tr>
           </table>
         </div>
@@ -102,12 +111,16 @@ export default function Arak() {
             <tr>
               <td>Kezdő astanga jóga tanfolyam</td>
               <td>30.000.- Ft</td>
-              <th className="buy-ticket">VÁSÁRLÁS</th>
+              <td className="buy-ticket">
+                <small>JELENTKEZÉS</small>
+              </td>
             </tr>
             <tr>
               <td>Astanga mysore kurzus</td>
               <td>30.000.- Ft</td>
-              <th className="buy-ticket">VÁSÁRLÁS</th>
+              <td className="buy-ticket">
+                <small>JELENTKEZÉS</small>
+              </td>
             </tr>
           </table>
         </div>
