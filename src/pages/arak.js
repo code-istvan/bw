@@ -60,7 +60,7 @@ export default function Arak() {
               </tr>
               <tr>
                 <td>Éves tagság*</td>
-                <td>27.000.- Ft / hónap</td>
+                <td>27.000.- Ft / hó</td>
                 <td></td>
               </tr>
             </tbody>
@@ -126,9 +126,8 @@ export default function Arak() {
         </div>
         <div className="row">
           <p>
-            A bérlet és napijegy árak <strong>nem</strong> visszatéríthetőek,{" "}
-            <strong>nem</strong> hosszabbíthatók meg, illetve{" "}
-            <strong>nem</strong> "fagyaszthatóak" be.
+            A bérlet és napijegy árak nem visszatéríthetőek, nem hosszabbíthatók
+            meg, illetve nem "fagyaszthatóak" be.
           </p>
         </div>
       </div>

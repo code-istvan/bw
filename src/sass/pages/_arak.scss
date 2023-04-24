@@ -8,14 +8,16 @@
 }
 
 table.prices {
-  //   border: 1px solid $color-shades-darkGray;
   width: 100%;
   text-align: left;
   border-collapse: collapse;
   font-family: $font-family-secondary;
   margin-top: 20px;
-  th:first-child {
-    width: 200px;
+  th:nth-child(1) {
+    width: 160px;
+  }
+  th:nth-child(2) {
+    width: 100px;
   }
 }
 
