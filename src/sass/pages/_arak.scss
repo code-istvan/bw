@@ -1,0 +1,31 @@
+@import "/src/sass/global";
+
+.arak-wrapper {
+  .footnote {
+    margin-top: 8px;
+    font-family: $font-family-secondary;
+  }
+}
+
+table.prices {
+  //   border: 1px solid $color-shades-darkGray;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  font-family: $font-family-secondary;
+  margin-top: 20px;
+  th:first-child {
+    width: 200px;
+  }
+}
+
+table.prices tr {
+  border-bottom: 1px solid $color-shades-darkGray;
+  padding: 3px 2px;
+}
+
+.buy-ticket {
+  color: $color-brand-orange;
+  font-size: 10px;
+  float: right;
+}
