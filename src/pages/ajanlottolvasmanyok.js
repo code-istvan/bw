@@ -53,7 +53,6 @@ export default function Ajanlottolvasmanyok() {
           </ul>
           <br />
         </div>
-
         <div className="row mb-20px">
           <h3>Vinyásza krama jóga</h3>
         </div>
