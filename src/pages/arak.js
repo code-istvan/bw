@@ -110,8 +110,8 @@ export default function Arak() {
         </div>
         <div className="row">
           <p>
-            A bérlet és napijegy árak nem visszatéríthetőek, nem hosszabbíthatók
-            meg, illetve nem "fagyaszthatóak" be.
+            A bérlet, tanfolyam és napijegy árak nem visszatéríthetőek, nem
+            hosszabbíthatók meg, illetve nem "fagyaszthatóak" be.
           </p>
         </div>
       </div>
