@@ -36,7 +36,7 @@ export default function Arak() {
       <div className="arak-wrapper tight--desktop--container">
         <div className="row mt-40px">
           <h3>Astanga Mysore Program</h3>
-          <table className="prices">
+          <table className="prices mt-10px">
             <thead>
               <tr>
                 <th></th>
@@ -62,9 +62,12 @@ export default function Arak() {
               </tr>
             </tbody>
           </table>
+          <small className="arak-table-footer">
+            Az Astanga Mysore Programban való részvételhez előzetes regisztráció
+            szükséges! Részletes leírást a Mysore Program oldalán találsz.
+          </small>
         </div>
-        <br />
-        <div className="row">
+        <div className="row mt-40px mb-40px">
           <h3>Vinyásza Krama Jóga</h3>
           <table className="prices">
             <thead>
@@ -86,7 +89,7 @@ export default function Arak() {
             </tr>
           </table>
         </div>
-        <div className="row mb-20px">
+        <div className="row mb-40px">
           <h3>Tanfolyamok</h3>
           <table className="prices">
             <thead>
@@ -104,6 +107,33 @@ export default function Arak() {
             <tr>
               <td>Astanga mysore kurzus</td>
               <td>30.000.- Ft</td>
+              <td>JELENTKEZÉS</td>
+            </tr>
+          </table>
+        </div>
+        <div className="row mb-20px">
+          <h3>Magánórák</h3>
+          <table className="prices">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Árak</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Ászanás gyakorlás</td>
+              <td>10.000.- Ft-tól</td>
+              <td>JELENTKEZÉS</td>
+            </tr>
+            <tr>
+              <td>Jógikus életmód tanácsadás</td>
+              <td>10.000.- Ft-tól</td>
+              <td>JELENTKEZÉS</td>
+            </tr>
+            <tr>
+              <td>Kezdő astanga, négy alkalmas</td>
+              <td>60.000.- Ft</td>
               <td>JELENTKEZÉS</td>
             </tr>
           </table>
