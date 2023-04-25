@@ -5,7 +5,11 @@ table.prices {
   text-align: left;
   border-collapse: collapse;
   font-family: $font-family-secondary;
-  margin: 20px 0 10px;
+  // margin: 10px 0 20px;
+
+  td {
+    line-height: 1.8;
+  }
 
   th:nth-child(1) {
     width: 160px;
@@ -29,6 +33,7 @@ table.prices {
 
   td:nth-child(3) {
     font-size: 10px;
+    font-weight: 800;
     color: $color-brand-orange;
     text-align: end;
   }
@@ -39,44 +44,8 @@ table.prices {
   }
 }
 
-@media (max-width: 767px) {
-  .prices {
-    overflow-x: scroll;
+.arak-wrapper {
+  small {
+    margin-top: 8px;
   }
 }
-
-// table.prices {
-//   width: 100%;
-//   text-align: left;
-//   border-collapse: collapse;
-//   font-family: $font-family-secondary;
-//   margin-top: 20px;
-//   margin-bottom: 10px;
-//   th:nth-child(1) {
-//     @include xs {
-//       width: 160px;
-//     }
-//     @include md {
-//       width: 220px;
-//     }
-//     @include lg {
-//       width: 280px;
-//     }
-//   }
-//   th:nth-child(2) {
-//     width: 100px;
-//     @include md {
-//       width: 120px;
-//     }
-//   }
-//   td:nth-child(3) {
-//     font-size: 10px;
-//     color: $color-brand-orange;
-//     text-align: end;
-//   }
-// }
-
-// table.prices tr {
-//   border-bottom: 1px solid $color-shades-darkGray;
-//   padding: 3px 2px;
-// }
