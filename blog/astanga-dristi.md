@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Astanga dristi
 description: Ebben a jógairányzatban nyitott szemmel gyakorlunk, minden egyes
   ászanához tartozik egy meghatározott pont ahová a tekintetünket irányítjuk
