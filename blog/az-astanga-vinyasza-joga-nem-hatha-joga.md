@@ -65,7 +65,7 @@ Krishnamacharya szerint a jóga szútra második fejezetének első szútrája s
 
 > tapaḥsvādhyāyeśvarapraṇidhānāni kriyāyogaḥ II.1.
 
-A tapas (tapasz = önfegyelem, lemondás) szó sok mindent magában foglal: pl. étkezési szokásaink megváltoztatását, de ugyanúgy a pránájáma és az ászana is részei a tapasz-nak… Krishnamacharya az ászanát a svadhyaya (svadhyaya = önvaló tanulmányozása, önismeret, önmegfigyelés, írások tanulmányozása) alá is sorolta, hiszen az ászanák gyakorlásával sokmindent megláthatunk és megérthetünk önmagunkkal, működésünkkel kapcsolatban.[^4]
+A tapasz - önfegyelem, lemondás - szó sok mindent magában foglal: pl. étkezési szokásaink megváltoztatását, de ugyanúgy a pránájáma és az ászana is részei a tapasz-nak… Krishnamacharya az ászanát a svadhyaya (svadhyaya = önvaló tanulmányozása, önismeret, önmegfigyelés, írások tanulmányozása) alá is sorolta, hiszen az ászanák gyakorlásával sokmindent megláthatunk és megérthetünk önmagunkkal, működésünkkel kapcsolatban.[^4]
 
 Patandzsali így folytatja: a jóga gyakorlásával megszabadulhatunk a szenvektől (klésa – szenvedésünk okozói) és elérhetjük a szamádhit.
 
