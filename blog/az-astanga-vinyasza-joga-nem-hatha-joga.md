@@ -49,7 +49,7 @@ Jógikus szókincsünk hatha jóga szövegekből származik – nádik, csakrák
 
 A hatha jógában szó esik fizikai és szubtilis test átalakítása által a prána és apána egyensúlyba hozásáról, a kundalini felébresztéséről, csakrák nyitottá válásáról, az istenivel való aktív és eksztatikus egyesülésről. Ahogy a fentebbi Norman Allan idézet is rámutatott, a hatha jóga útja aszketikus és Guruji éppen ezért nem tartotta követendő módszernek.
 
-A szamádhi fogalma Patandzsali jógájában mély koncentrációként vagy elmélyedésként van definiálva. A szamádhi állapotának elérése az ashtanga jógában 8 lépcsőn keresztül van leírva. Az első négy lépcső alkotja a gyakorlás “külső” ágát, a következő négy lépcső pedig a “belsőt”.
+A szamádhi fogalma Patandzsali jógájában mély koncentrációként vagy elmélyedésként van definiálva. A szamádhi állapotának elérése az astanga jógában nyolc lépcsőn keresztül van leírva. Az első négy lépcső alkotja a gyakorlás “külső” ágait, a következő négy lépcső pedig a “belsőt”.
 
 A külső ágak felkészítik a jógit az ülő meditációra. Ezek a test és elme gyógyítását, megtisztítását és erősítését célozzák meg. Amikor a test és elme megszilárdul, kezdődhet a gyakorlás belső folyamata.
 
