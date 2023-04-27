@@ -15,7 +15,7 @@ A vezetett astanga jógaóra fontos célja a helyes vinyásza számolás – min
 
 Amennyiben a kijelölt *dristi* az adott aszánához túl nehéz akkor a gyakorló mindig visszatérhet a *názágré* – orrcsúcs – *dristihez*. Gyakorlással és idővel, minden egyes testhelyzethez elérhető és kivitelezhető lesz az “előírt” fókuszpont. A *dristi* javítja a koncentrációs képességét és segít megvalósítani az eggyé válás folyamatát, a jelenlétet a testtartásokban.
 
-Az astanga jógában használt kilenc dristi:
+Az astanga jógában használt kilenc *dristi*:
 
 * *úrdhvé* – felfelé,
 * *brumadhjé* – harmadik szem,
