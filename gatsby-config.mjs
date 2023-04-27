@@ -8,7 +8,7 @@ const myCustomQueries = {
   md: "(max-width: 768px)",
   lg: "(max-width: 992px)",
   xl: "(max-width: 1200px)",
-  xll: "(max-width: 1400px)",
+  xxl: "(max-width: 1400px)",
 }
 
 const config = {
