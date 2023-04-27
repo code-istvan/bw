@@ -2,8 +2,11 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import useBreakpoint from "../components/Breakpoints/useBreakpoint"
 
 export default function Mantra() {
+  const { breakpoint, breakpoints } = useBreakpoint()
+
   return (
     <Layout>
       <Seo title="MANTRÁK" />
@@ -33,7 +36,17 @@ export default function Mantra() {
         </div>
       </div>
       <div className="row">
-        <h1>valami</h1>
+        <p>The current breakpoint is: {breakpoint}</p>
+      </div>
+      <div className="row">
+        <p>The "xs" breakpoint is: {breakpoints.xs}</p>
+      </div>
+      <div className="row">
+        {breakpoint === "xs" ? (
+          <p>You are on an extra small screen!</p>
+        ) : (
+          <p>You are on a screen bigger than extra small!</p>
+        )}
       </div>
     </Layout>
   )
