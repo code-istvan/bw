@@ -102,6 +102,7 @@
 }
 
 article {
+  word-break: break-all;
   blockquote {
     border-left: 4px solid $color-brand-orange;
     padding: 20px;
