@@ -28,6 +28,8 @@ const BlogPost = ({ data, children, pageContext, location }) => {
   const sectionRef = useRef(null)
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
+  console.log(post)
+
   return (
     <Layout articleProperties={articleProperties}>
       <div className="blog-posts-wrapper">
@@ -170,6 +172,7 @@ export const query = graphql`
         date(formatString: "YYYY MMMM DD.", locale: "hu-HU")
         tags
         thumbnail
+        description
       }
     }
     site {

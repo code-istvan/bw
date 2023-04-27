@@ -1,5 +1,6 @@
 import remarkGfm from "remark-gfm"
 import rehypeMetaAsAttributes from "@lekoarts/rehype-meta-as-attributes"
+import rehypeExternalLinks from "rehype-external-links"
 
 const myCustomQueries = {
   xs: "(max-width: 320px)",
@@ -155,7 +156,10 @@ const config = {
         extensions: [`.mdx`, `.md`],
         mdxOptions: {
           remarkPlugins: [remarkGfm],
-          rehypePlugins: [rehypeMetaAsAttributes],
+          rehypePlugins: [
+            rehypeMetaAsAttributes,
+            [rehypeExternalLinks, { target: "_blank" }],
+          ],
         },
       },
     },

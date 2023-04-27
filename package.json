@@ -44,11 +44,13 @@
     "react-dom": "^18.2.0",
     "react-share": "^4.4.1",
     "reading-time": "^1.5.0",
+    "rehype-external-links": "^2.0.1",
     "remark-external-links": "^1.0.1",
     "remark-footnotes": "^1.0.0",
+    "remark-gfm": "^3.0.1",
+    "remark-rehype": "^10.1.0",
     "sass": "^1.62.0",
-    "sharp": "^0.32.0",
-    "remark-gfm": "^3.0.1"
+    "sharp": "^0.32.0"
   },
   "devDependencies": {
     "gatsby-plugin-netlify": "^5.1.0",
