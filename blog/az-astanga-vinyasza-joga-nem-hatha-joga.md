@@ -57,7 +57,7 @@ Amíg a hatha jógik eksztázisra törekszenek, mint gyakorlásuk közvetítő e
 
 > Krishnamacharya azt mondja, ez a jóga “ashastra-shastra-chikitsa”, ami azt jelenti, műszer nélküli operáció. Nagyon óvatosan és gondosan kell gyakorolni, mindenféle külső beavatkozás nélkül, mivel a test önmaga az az eszköz, ami az operációt végrehajtja.[^4]
 
-Amíg Krishnamacharya idősebb korára vált terapeutás munkája kapcsán ismertté, maga a terápia téma a kezdetektől fogva része volt tevékenységeinek. Alapos ayurvéda ismeretei átitatták jóga oktatását.
+Amíg Krishnamacharya idősebb korára vált terapeutás munkája kapcsán ismertté, maga a terápia téma a kezdetektől fogva része volt tevékenységeinek. Alapos ajurvéda ismeretei átitatták jóga oktatását.
 
 Guruji is foglalkozott gyógyítással. Egyetlen könyve, a Jóga Mala a jóga terápiáról szól. Dolgozott tudniillik egy ájurvédikus kórházban Mysore-ban és az orvosok rengeteg olyan pácienst küldtek hozzá, akiket kórházi körülmények között nem tudtak meggyógyítani, így rengeteg tapasztalattal rendelkezett.
 
