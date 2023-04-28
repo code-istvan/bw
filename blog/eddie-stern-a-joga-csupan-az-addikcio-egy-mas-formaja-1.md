@@ -6,7 +6,7 @@ description: "Azok, akik eszközökkel akarják elpusztítani a vágyat, a vég�
 author: István
 tags:
   - jógafilozófia
-date: 2023-04-28T13:15:40.749Z
+date: 2020-02-25T13:15:40.749Z
 thumbnail: /blogpostimages/eddie_stern_ashtanga.png.jpeg
 ---
 # Eddie Stern: a jóga csupán az addikció egy más formája?
