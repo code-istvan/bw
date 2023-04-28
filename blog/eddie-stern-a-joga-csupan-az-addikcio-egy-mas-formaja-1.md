@@ -7,7 +7,7 @@ author: István
 tags:
   - jógafilozófia
 date: 2023-04-28T13:15:40.749Z
-thumbnail: /blogpostimages/eddie_stern_ashtanga.png.webp
+thumbnail: /blogpostimages/eddie_stern_ashtanga.png.jpeg
 ---
 # Eddie Stern: a jóga csupán az addikció egy más formája?
 
