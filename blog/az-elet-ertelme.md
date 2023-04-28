@@ -26,5 +26,5 @@ Semmink nincs, ami ténylegesen a miénk, csupán egy dolgot választhatunk meg 
 
 Ha elég bátrak vagyunk, hogy elengedjük az aljasságot, a panaszkodást, a hibáztatást és azt, hogy áldozatnak érezzük magunkat, lehetőségünk nyílik arra, hogy érezzük Isten könyörületét. Minden új pillanat friss és üde marad azon az úton, amin felfedezzük a boldogságot. Áldott, derűs, jelentősségteljes életet élünk. Van egy szanszkrit kifejezés azokra, akik ilyen felszabadult állapotban élik az életüket: *jīvanmukta*.
 
-**Forrás:** [https://jivamuktiyoga.com/fotm/the-meaning-of-life/](url)
+**Forrás:** [jivamuktiyoga.com/fotm/the-meaning-of-life/][https://jivamuktiyoga.com/fotm/the-meaning-of-life/]
 **Fordította:** Boér Péter
