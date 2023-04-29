@@ -1,7 +1,8 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import TeachersCard from "../components/Cards/TeachersCard"
+import Seo from "../components/seo"
 
 export default function Oktatok() {
   return (
@@ -34,6 +35,13 @@ export default function Oktatok() {
       </div>
       <div className="row">
         <h1>valami</h1>
+        <TeachersCard
+          title="Istvan"
+          imageSrc="https://picsum.photos/id/1/200/300"
+          imageAlt="Szalai Istvan"
+          excerpt="astanga joga"
+          slug="/rolunk"
+        />
       </div>
     </Layout>
   )
