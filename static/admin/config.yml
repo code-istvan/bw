@@ -388,6 +388,8 @@ collections:
     fields:
       - { label: Name, name: name, widget: string }
       - { label: Link, name: link, widget: string, required: false }
+      - { label: Style, name: style, widget: string, required: false }
+      - { label: Title, name: title, widget: string, required: false }
       - { label: Image, name: teacherimage, widget: image, required: false }
 
   - name: "classes"
