@@ -141,9 +141,18 @@ $utilities: (
   }
 }
 
-.avatar-image {
+.avatar__image {
   border-radius: 50%;
+}
+
+.avatar__image--small {
   height: 28px;
   width: 28px;
-  border: solid 2px white;
+  border: solid 2px $color-shades-darkGray;
+}
+
+.avatar__image--big {
+  height: 108px;
+  width: 108px;
+  border: solid 3px $color-shades-darkGray;
 }

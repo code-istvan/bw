@@ -1,0 +1,16 @@
+@import "/src/sass/global";
+
+.teacher-card {
+  border: solid 2px $color-shades-darkGray;
+  border-radius: 2px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.teacher-card__card-body {
+  padding: 20px;
+}
+
+.teacher-card__text {
+  padding-left: 20px;
+}

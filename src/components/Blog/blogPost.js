@@ -73,7 +73,7 @@ const BlogPost = ({ data, children, pageContext, location }) => {
                   <div className="meta-author">
                     <GatsbyImage
                       image={author.authorimage.childImageSharp.gatsbyImageData}
-                      className="avatar-image"
+                      className="avatar__image avatar__image--small"
                       alt={post.frontmatter.author}
                     />
                     <p>{post.frontmatter.author}</p>

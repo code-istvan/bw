@@ -53,7 +53,7 @@ function BlogRoll({ count, posts }) {
                           currentAuthor.authorimage.childImageSharp
                             .gatsbyImageData
                         }
-                        className="avatar-image"
+                        className="avatar__image avatar__image--small"
                       />
                       <p>{author}</p>
                     </div>
