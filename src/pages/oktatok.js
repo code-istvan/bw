@@ -45,9 +45,15 @@ const Oktatok = ({ data }) => {
       <div className="row">
         <h1>valami</h1>
         {filterOki.map(({ name: teacherName, link, style, title }) => {
+          const currentTeacher = filterOki.find(
+            name => name.name === teacherName
+          )
           return (
             <TeachersCard
               teacherName={teacherName}
+              teacherImg={
+                currentTeacher.teacherimage.childImageSharp.gatsbyImageData
+              }
               title={title}
               yogaStyle={style}
               slug={link}
