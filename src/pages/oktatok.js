@@ -3,8 +3,13 @@ import Layout from "../components/Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import TeachersCard from "../components/Cards/TeachersCard"
 import Seo from "../components/seo"
+import { graphql } from "gatsby"
+import { useTeachers } from "../hooks/useTeachersQuery"
 
-export default function Oktatok() {
+const Oktatok = ({ data }) => {
+  const oki = useTeachers()
+  console.log(oki)
+
   return (
     <Layout>
       <Seo title="OKTATÓK" />
@@ -35,14 +40,20 @@ export default function Oktatok() {
       </div>
       <div className="row">
         <h1>valami</h1>
-        <TeachersCard
-          title="Istvan"
-          imageSrc="https://picsum.photos/id/1/200/300"
-          imageAlt="Szalai Istvan"
-          excerpt="astanga joga"
-          slug="/rolunk"
-        />
+        {oki.map(({ name: teacherName, link, style, title }) => {
+          return (
+            <TeachersCard
+              teacherName={teacherName}
+              title={title}
+              yogaStyle={style}
+              slug={link}
+              key={teacherName}
+            />
+          )
+        })}
       </div>
     </Layout>
   )
 }
+
+export default Oktatok
