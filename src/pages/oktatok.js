@@ -3,12 +3,16 @@ import Layout from "../components/Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import TeachersCard from "../components/Cards/TeachersCard"
 import Seo from "../components/seo"
-import { graphql } from "gatsby"
 import { useTeachers } from "../hooks/useTeachersQuery"
 
 const Oktatok = ({ data }) => {
   const oki = useTeachers()
+  const filterOki = oki.filter(
+    item => item.name === "István" || item.name === "Noémi"
+  )
+
   console.log(oki)
+  console.log(filterOki)
 
   return (
     <Layout>
@@ -40,7 +44,7 @@ const Oktatok = ({ data }) => {
       </div>
       <div className="row">
         <h1>valami</h1>
-        {oki.map(({ name: teacherName, link, style, title }) => {
+        {filterOki.map(({ name: teacherName, link, style, title }) => {
           return (
             <TeachersCard
               teacherName={teacherName}
