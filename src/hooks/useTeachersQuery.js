@@ -18,6 +18,8 @@ export const useTeachers = () => {
             }
             name
             link
+            style
+            title
           }
         }
       }
