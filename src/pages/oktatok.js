@@ -6,13 +6,10 @@ import Seo from "../components/seo"
 import { useTeachers } from "../hooks/useTeachersQuery"
 
 const Oktatok = ({ data }) => {
-  const oki = useTeachers()
-  const filterOki = oki.filter(
+  const teachers = useTeachers()
+  const filterTeachers = teachers.filter(
     item => item.name === "István" || item.name === "Noémi"
   )
-
-  console.log(oki)
-  console.log(filterOki)
 
   return (
     <Layout>
@@ -44,8 +41,8 @@ const Oktatok = ({ data }) => {
       </div>
       <div className="row">
         <h1>valami</h1>
-        {filterOki.map(({ name: teacherName, link, style, title }) => {
-          const currentTeacher = filterOki.find(
+        {filterTeachers.map(({ name: teacherName, link, style, title }) => {
+          const currentTeacher = filterTeachers.find(
             name => name.name === teacherName
           )
           return (
