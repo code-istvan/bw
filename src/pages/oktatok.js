@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import TeachersCard from "../components/Cards/TeachersCard"
 import Seo from "../components/seo"
 import { useTeachers } from "../hooks/useTeachersQuery"
+import "../sass/pages/_oktatok.scss"
 
 const Oktatok = ({ data }) => {
   const teachers = useTeachers()
@@ -46,7 +47,7 @@ const Oktatok = ({ data }) => {
               name => name.name === teacherName
             )
             return (
-              <div className="col-12-xl col-6-md">
+              <div className="col-12-xs col-6-lg ">
                 <TeachersCard
                   teacherName={teacherName}
                   teacherImg={

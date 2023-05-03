@@ -17,12 +17,14 @@ const TeachersCard = ({ teacherName, teacherImg, yogaStyle, title, slug }) => {
           </div>
           <div className="teacher-card__text">
             <h3 className="teacher-card__card-name">{teacherName}</h3>
-            <p className="teacher-card__card-title">{title}</p>
-            <p className="teacher-card__card-excerpt">{yogaStyle}</p>
+            <p className="teacher-card__card-title clr-shades-gray">{title}</p>
+            <p className="teacher-card__card-excerpt clr-shades-gray">
+              {yogaStyle}
+            </p>
             <CustomLink
               link={slug}
               title="Tovább"
-              classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+              classNames="body link-decoration-remove clr-brand-orange teacher-card__card-link"
             />
           </div>
         </div>
