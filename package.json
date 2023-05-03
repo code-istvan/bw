@@ -32,7 +32,7 @@
     "gatsby-remark-numbered-footnotes": "^1.0.1",
     "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-remark-relative-images-v2": "^0.1.5",
-    "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-json": "^5.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
     "gbimage-bridge": "^0.2.2",
