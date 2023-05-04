@@ -387,6 +387,7 @@ collections:
     slug: "{{name}}"
     fields:
       - { label: Name, name: name, widget: string }
+      - { label: Fullname, name: fullname, widget: string, required: false }
       - { label: Link, name: link, widget: string, required: false }
       - { label: Style, name: style, widget: string, required: false }
       - { label: Title, name: title, widget: string, required: false }
