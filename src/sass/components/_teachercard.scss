@@ -4,19 +4,31 @@
   border: solid 2px $color-shades-darkGray;
   border-radius: 2px;
   box-sizing: border-box;
+
+  .teacher-card__card-body {
+    padding: 20px;
+  }
+
+  .teacher-card__text {
+    h3 {
+      padding-bottom: 10px;
+    }
+    .teacher-card__card-link {
+      display: block;
+      padding-top: 10px;
+    }
+
+    @include xs {
+      text-align: center;
+    }
+    @include md {
+      padding-left: 20px;
+    }
+  }
 }
 
-.teacher-card__card-body {
-  padding: 20px;
-}
-
-.teacher-card__text {
-  padding-left: 20px;
-  h3 {
-    padding-bottom: 10px;
-  }
-  .teacher-card__card-link {
-    display: block;
-    padding-top: 10px;
-  }
+.teacher-card__avatar {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
 }
