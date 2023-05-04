@@ -42,25 +42,28 @@ const Oktatok = ({ data }) => {
       </div>
       <div className="oktatok-wrapper">
         <div className="row mt-40px gap-1">
-          {filterTeachers.map(({ name: teacherName, link, style, title }) => {
-            const currentTeacher = filterTeachers.find(
-              name => name.name === teacherName
-            )
-            return (
-              <div className="col-12-xs col-6-lg ">
-                <TeachersCard
-                  teacherName={teacherName}
-                  teacherImg={
-                    currentTeacher.teacherimage.childImageSharp.gatsbyImageData
-                  }
-                  title={title}
-                  yogaStyle={style}
-                  slug={link}
-                  key={teacherName}
-                />
-              </div>
-            )
-          })}
+          {filterTeachers.map(
+            ({ name: teacherName, link, style, title, fullname }) => {
+              const currentTeacher = filterTeachers.find(
+                name => name.name === teacherName
+              )
+              return (
+                <div className="col-12-xs col-6-lg ">
+                  <TeachersCard
+                    teacherName={fullname}
+                    teacherImg={
+                      currentTeacher.teacherimage.childImageSharp
+                        .gatsbyImageData
+                    }
+                    title={title}
+                    yogaStyle={style}
+                    slug={link}
+                    key={teacherName}
+                  />
+                </div>
+              )
+            }
+          )}
         </div>
       </div>
     </Layout>

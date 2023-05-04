@@ -20,6 +20,7 @@ export const useTeachers = () => {
             link
             style
             title
+            fullname
           }
         }
       }
