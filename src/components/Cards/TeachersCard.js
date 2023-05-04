@@ -6,15 +6,15 @@ import "../../sass/components/_teachercard.scss"
 const TeachersCard = ({ teacherName, teacherImg, yogaStyle, title, slug }) => {
   return (
     <div className="teacher-card">
-      <div className="row teacher-card__card-body">
-        <div className="teacher-card__avatar col-12-xs">
+      <div className="teacher-card__card-body">
+        <div className="teacher-card__avatar">
           <GatsbyImage
             image={teacherImg}
             alt={teacherName}
             className="avatar__image avatar__image--big"
           />
         </div>
-        <div className="teacher-card__text col-12-xs ">
+        <div className="teacher-card__text">
           <h3 className="teacher-card__card-name">{teacherName}</h3>
           <p className="teacher-card__card-title clr-shades-gray">{title}</p>
           <p className="teacher-card__card-excerpt clr-shades-gray">
