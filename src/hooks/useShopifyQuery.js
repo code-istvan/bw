@@ -14,6 +14,12 @@ export const useShopify = () => {
               featuredImage {
                 gatsbyImageData
               }
+              priceRangeV2 {
+                maxVariantPrice {
+                  amount
+                  currencyCode
+                }
+              }
             }
           }
         }
