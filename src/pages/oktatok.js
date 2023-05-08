@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 import { useTeachers } from "../hooks/useTeachersQuery"
 import "../sass/pages/_oktatok.scss"
 
-const Oktatok = ({ data }) => {
+const Oktatok = () => {
   const teachers = useTeachers()
   const filterTeachers = teachers.filter(
     item => item.name === "István" || item.name === "Noémi"

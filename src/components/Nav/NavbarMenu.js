@@ -38,7 +38,7 @@ const NavbarMenu = ({ open, setOpen }) => {
 
   const menuItemsFomenu = [
     { link: "/blog", label: "BLOG" },
-    { link: "https://bandha-payments.hu", label: "SHOP", isExtenal: true },
+    { link: "/shop", label: "SHOP" },
     { link: "/kapcsolat", label: "KAPCSOLAT" },
   ]
 

@@ -1,6 +1,10 @@
 import remarkGfm from "remark-gfm"
 import rehypeMetaAsAttributes from "@lekoarts/rehype-meta-as-attributes"
 import rehypeExternalLinks from "rehype-external-links"
+import dotenv from "dotenv"
+dotenv.config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 const myCustomQueries = {
   xs: "(max-width: 320px)",
@@ -182,6 +186,14 @@ const config = {
         display: `minimal-ui`,
         icon: `src/images/bw-favicon.png`,
         // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: "gatsby-source-shopify",
+      options: {
+        password: process.env.SHOPIFY_APP_PASSWORD,
+        storeUrl: process.env.GATSBY_MYSHOPIFY_URL,
+        salesChannel: process.env.SHOPIFY_APP_ID, // Optional but recommended
       },
     },
     {
