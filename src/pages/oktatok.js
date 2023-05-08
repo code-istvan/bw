@@ -48,7 +48,7 @@ const Oktatok = () => {
                 name => name.name === teacherName
               )
               return (
-                <div className="col-12-xs col-6-lg ">
+                <div className="col-12-xs col-6-lg">
                   <TeachersCard
                     teacherName={fullname}
                     teacherImg={
