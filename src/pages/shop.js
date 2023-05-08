@@ -8,7 +8,16 @@ import { GatsbyImage } from "gatsby-plugin-image"
 export default function Shop() {
   const products = useShopify()
 
-  console.log("prod", products)
+  const productTags = new Set()
+
+  products.forEach(product =>
+    product.node.tags.forEach(tag => {
+      productTags.add(tag)
+    })
+  )
+
+  console.log(productTags)
+
   return (
     <Layout>
       <Seo title="ÖSZTÖNDÍJ" />
@@ -39,11 +48,11 @@ export default function Shop() {
       </div>
       <div className="row">
         <h1>valami</h1>
-        {products.map(product => (
-          <p>{product.node.tags}</p>
+        {[...productTags]?.map(tag => (
+          <p>{tag}</p>
         ))}
 
-        {products.map(product => {
+        {products?.map(product => {
           return (
             <article>
               <h2>{product.node.title}</h2>
