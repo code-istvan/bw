@@ -16,7 +16,9 @@ const ProductCard = ({ productName, productPrice, productImg }) => {
           className="product-card__image"
         />
       </div>
-      <div className="product-card__footer">{productPrice} Ft</div>
+      <div className="product-card__footer">
+        <p>{productPrice} Ft</p>
+      </div>
     </div>
   )
 }

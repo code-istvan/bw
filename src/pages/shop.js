@@ -7,16 +7,16 @@ import ProductCard from "../components/Cards/ProductCard"
 
 export default function Shop() {
   const products = useShopify()
-  const productTags = new Set()
-  products.forEach(product =>
-    product.node.tags.forEach(tag => {
-      productTags.add(tag)
-    })
-  )
+  // const productTags = new Set()
+  // products.forEach(product =>
+  //   product.node.tags.forEach(tag => {
+  //     productTags.add(tag)
+  //   })
+  // )
 
   return (
     <Layout>
-      <Seo title="ÖSZTÖNDÍJ" />
+      <Seo title="WEBSHOP" />
       <div className="page-hero-container">
         <div className="row">
           <h1 className="page-hero-title">WebShop</h1>
@@ -43,9 +43,9 @@ export default function Shop() {
         </div>
       </div>
       <div className="row mt-40px gap-1">
-        {[...productTags]?.map(tag => (
+        {/* {[...productTags]?.map(tag => (
           <p>{tag}</p>
-        ))}
+        ))} */}
 
         {products?.map(product => {
           return (
