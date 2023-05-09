@@ -2,7 +2,7 @@
 published: true
 title: Az astanga művészete
 description: A megfelelő guru megtalálásához először is törekedni kell arra,
-  hogy megfelelő tanítványokká váljunk.
+  hogy megfelelő tanítványokká váljunk
 author: István
 tags:
   - astanga elmélet
