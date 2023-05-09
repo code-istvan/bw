@@ -4,6 +4,7 @@ import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { useShopify } from "../hooks/useShopifyQuery"
 import ProductCard from "../components/Cards/ProductCard"
+import ProductsTags from "../components/Shopify/ProductsTags"
 
 export default function Shop() {
   const products = useShopify()
@@ -42,11 +43,12 @@ export default function Shop() {
           />
         </div>
       </div>
-      <div className="row mt-40px gap-1">
-        {/* {[...productTags]?.map(tag => (
-          <p>{tag}</p>
-        ))} */}
+      <div className="mt-40px">
+        {" "}
+        <ProductsTags />
+      </div>
 
+      <div className="row mt-20px gap-1">
         {products?.map(product => {
           return (
             <div className="col-12-xs col-6-lg">
