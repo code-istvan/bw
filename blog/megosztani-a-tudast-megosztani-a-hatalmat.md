@@ -3,7 +3,7 @@ published: true
 title: Megosztani a tudást, megosztani a hatalmat
 description: "Hamish szerint a tapasztalat és a tudás felhalmozódásával a
   hatalom is felhalmozódik, így nagyon fontosnak tartja, hogy megossza ezeket a
-  diákjaival és a fiatalabb tanárokkal. "
+  diákjaival és a fiatalabb tanárokkal "
 author: István
 tags:
   - interjú
