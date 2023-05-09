@@ -2,7 +2,7 @@
 published: true
 title: Mysore-i napló, Török Péter tollából
 description: Péter az egyik első, ha nem a legelső magyar astangás aki
-  ellátogatott Mysore-ba, hogy GuruJi-től tanulja az astanga jóga tudományát.
+  ellátogatott Mysore-ba, hogy Gurudzsí-től tanulja az astanga jóga tudományát
 author: István
 tags:
   - utinapló
