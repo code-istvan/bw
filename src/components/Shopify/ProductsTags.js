@@ -1,5 +1,4 @@
 import React from "react"
-// import { useTagsRoll } from "../../hooks/useTagsRollQuery"
 // import { CustomLink } from "../CustomLink"
 import { useShopify } from "../../hooks/useShopifyQuery"
 // import "../../sass/components/_blogtags.scss"
