@@ -7,16 +7,7 @@
 
   .product-card__header {
     padding: 20px;
-    text-align: center;
-    background-color: $color-shades-darkGray;
-    display: flex;
-    @include xs {
-      flex-direction: column;
-      align-items: center;
-    }
-    @include md {
-      flex-direction: row;
-    }
+    height: 60px;
   }
 
   .product-card__body {
@@ -25,16 +16,15 @@
 
   .product-card__footer {
     padding: 10px;
+  }
+
+  .product-card__footer,
+  .product-card__header {
     background-color: $color-shades-darkGray;
     display: flex;
+    flex-direction: column;
     text-align: center;
-    @include xs {
-      flex-direction: column;
-      align-items: center;
-    }
-    @include md {
-      flex-direction: row;
-    }
+    justify-content: center;
   }
 }
 
