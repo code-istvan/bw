@@ -1,8 +1,8 @@
 ---
 published: true
 title: "Eddie Stern: a jóga csupán az addikció egy más formája?"
-description: "Azok, akik eszközökkel akarják elpusztítani a vágyat, a végén
-  magukat az eszközöket áhítják. "
+description: Azok, akik eszközökkel akarják elpusztítani a vágyat, a végén
+  magukat az eszközöket áhítják
 author: István
 tags:
   - jógafilozófia
