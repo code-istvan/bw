@@ -1,7 +1,7 @@
 ---
 published: true
 title: "David Garrigues: Gyenge testben erőtlen lélek"
-description: Sri K. Pattabhi Jois szerint az Önvaló nem ismerhető meg a gyengék által.
+description: Sri K. Pattabhi Jois szerint az Önvaló nem ismerhető meg a gyengék által
 author: István
 tags:
   - jógaelmélet
