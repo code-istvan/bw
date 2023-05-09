@@ -1,7 +1,7 @@
 ---
 published: true
 title: A légzés legtökéletesebb módja az astanga jógában
-description: “Vinā Vinyāsa yogena āsanādih na kārayet” Ne végezz ászanát vinyásza nélkül.
+description: “Vinā Vinyāsa yogena āsanādih na kārayet” Ne végezz ászanát vinyásza nélkül
 author: István
 tags:
   - jógaelmélet
