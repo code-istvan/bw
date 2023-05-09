@@ -2,7 +2,7 @@
 published: true
 title: Az élet értelme
 description: "Az élet értelme, hogy megszabaduljunk minden aljasságtól. Amikor
-  az aljasság eltűnik, csak a szeretet marad. "
+  az aljasság eltűnik, csak a szeretet marad "
 author: István
 tags:
   - jógaelmélet
