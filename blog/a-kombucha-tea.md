@@ -3,7 +3,7 @@ published: true
 title: A kombucha tea
 description: "A kombucha, vagy másnéven teagomba egy ősrégi házi gyógyír. A
   pontos származása ismeretlen, azonban az biztos, hogy már több mint ezer éve
-  áll az egészség szolgálatában. "
+  áll az egészség szolgálatában "
 author: István
 tags:
   - táplálkozás
