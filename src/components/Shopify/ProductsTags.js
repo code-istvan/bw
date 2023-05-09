@@ -16,7 +16,7 @@ function ProductsTags() {
     <div className="row">
       <div className="col blogtags tag-button">
         {[...productTags]?.map(tag => (
-          <p>{tag}</p>
+          <p key={tag}>{tag}</p>
         ))}
       </div>
     </div>

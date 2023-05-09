@@ -44,14 +44,13 @@ export default function Shop() {
         </div>
       </div>
       <div className="mt-40px">
-        {" "}
         <ProductsTags />
       </div>
 
       <div className="row mt-20px gap-1">
         {products?.map(product => {
           return (
-            <div className="col-12-xs col-6-lg">
+            <div className="col-12-xs col-6-lg" key={product}>
               <article>
                 <ProductCard
                   productName={product.node.title}
