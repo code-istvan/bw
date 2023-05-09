@@ -3,7 +3,7 @@ published: true
 title: Olvasónapló avagy miért járunk Mysore-ba?
 description: A Krisztus előtti időkben, ha fizikai vagy érzelmi betegség
   kerített hatalmába, a gyógyulás érdekében egy távoli ásramba vagy gyógyhatású
-  szentély közelébe utaztál.
+  szentély közelébe utaztál
 author: István
 tags:
   - olvasónapló
