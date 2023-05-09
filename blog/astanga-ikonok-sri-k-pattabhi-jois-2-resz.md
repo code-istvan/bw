@@ -1,0 +1,20 @@
+---
+published: true
+title: "Astanga ikonok: Sri K. Pattabhi Jois 2. rész"
+description: ide jön
+author: Júlia
+tags:
+  - astanga_ikon
+date: 2023-05-09T21:07:50.808Z
+thumbnail: /blogpostimages/guruji.jpg.webp
+---
+Legutóbbi bejegyzésünkben Gurudzsi életét az 1960-as évek végéig követtük nyomon. Még nem sejtette akkor, hogy az általa olyan odaadóan tanított astanga jóga meghódítja majd a világot, és ő maga számtalan különböző országba fog ellátogatni, hogy diákok ezreit tanítsa, és vezesse a jóga útján. A változást az 1972-es év hozta, amikor Norman Allen megjelent Mysore-ban, Gurudzsi házánál. Gurudzsi ekkor 57 éves volt. Norman, Puducserri (Pondicherry) városban, David Williams-el és Nancy Gildoffal, Szvámi Gítananda Ananda Ashramjában látták meg először Gurudzsi legidősebb fiát, Mandzsut ászana bemutatót tartani. A két fiút magával ragadta az előadás, és azonnal kikérdezték Mandzsut, hogy hol tanulta ezeket a pózokat. Mandzsu pedig elmesélte, hogy az ő apja, Patthabi Jois, Mysore-ban oktat jógát. Norman az első vonattal Mysore-ba utazott, Davidnek és Nancynek azonban haza kellett menniük, mert lejárt a vízumuk, de a következő szezonban, már ők is Gurudzsi tanítványai lettek.
+
+Amerikába visszatérve David és Nancy levelet kapott Gurudzsitől, hogy szeretne Amerikába utazni. A két fiatal, a jógaiskolájuk gyakorlóinak közreműködésével elég pénzt gyűjtött össze, hogy az indiai mestert átutaztassa a fél világon. 1975-ben hagyta el Gurudzsi először Indiát, hogy Encinitasban jógát oktasson, az addigra 30 fős kaliforniai jógaközösségnek. Vele tartott fia, Mandzsu is, aki onnan nem is tért haza többet, annyira beleszeretett az amerikai életbe. Gurudzsi kapcsolata a Nyugattal innentől kezdve folyamatosan erősödött. Kezdetben csupán egy maroknyi nyugati diák látogatott el hozzá évente, aztán ez a szám rohamosan nőni kezdett. A kilencvenes évekre már 20-25 diák volt havonta Mysore-ban Karácsony környékén, amely az év legnépszerűbb időszaka volt. A salában egy időben már 10-12 ember gyakorolt, Gurudzsi ekkor már a nyolcvanas éveiben járt, és teljes gőzzel tanított, napi 8-9 órát.
+
+Annyi ember várakozott arra, hogy bejusson gyakorolni, hogy Gurudzsi úgy döntött, új helyre költözteti a Salát, Gokulam városrészbe. Az új sala ötször annyi diák befogadására volt alkalmas. 2002-re, mire megnyitott, olyan diákok özönlöttek Mysoreba, akik már ismerték az Astanga vinyásza jóga rendszerét, hiszen Gurudzsi számtalan külföldi úton volt túl, és az általa kiképzett tapasztalt tanárok száma is nőttön nőtt, akik terjesztették az astanga vinyásza jógát világszerte.
+
+Vajon minek köszönhető ez a fantasztikus áttörés? Hogyan lehetséges az, hogy amíg nem ismerték meg a nyugatiak ezt a rendszert amit Gurudzsi tanított, az otthonában, Indiában nem érdeklődtek az emberek? Erre a választ nehéz lenne megadni. Egyszerű emberként élt családjával, majd a hirtelen jött ismertségének köszönhetően gazdag emberré vált, híres és népszerű lett nyugaton, főleg Amerikában, és nyugati emberek kezdtek zarándokolni Mysore-ba. Van egy kannadai mondás, ami úgy szól, hogy az a növény, ami a kertünk végében nő nem értékes számunkra, de amint az orvos azt mondja az gyógyfű, megtanuljuk értékelni.
+
+Gurudzsi a hirtelen érkezett népszerűség ellenére nem változott meg. Lehet, hogy átköltözött Mysore gazdagabb negyedébe, Gokulamba, de ugyanolyan alázatos és elhivatott maradt életvitelében, tanításában. A guru nem csupán tudást ad át, hanem példát is mutat az életével. Gurudzsi szerető férjként, apaként, nagyapaként és nem utolsó sorban jógamesterként kimagasló volt ebben. Minden áldott nap hajnalban felkelt, hogy az imádságokat, rituálékat elvégezze mielőtt tanítani kezdett volna. Az első diákok hajnali ötkor érkeztek meg, amikorra unokája Sharath éppen a levezető gyakorlatokhoz ért. Egészen délig tanított, rendkívüli kitartással és erővel előrehaladott kora ellenére. A diákjai rettegtek tőle, miközben teljes szívükből szerették. Nem volt a szavak embere, nem adott a gyakorlás közben sok instrukciót. Legtöbbször egy-két felszólítással igazított:
+> Igen, csináld!”, vagy „Miért félsz? Lélegezz!
