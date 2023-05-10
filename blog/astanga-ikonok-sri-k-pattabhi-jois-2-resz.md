@@ -1,10 +1,11 @@
 ---
 published: true
 title: "Astanga ikonok: Sri K. Pattabhi Jois 2. rész"
-description: ide jön
+description: Ebben a részben Gurudzsi 1960-as évek utáni életét mutatjuk be,
+  amikor is az astanga jóga elkezdi meghódítani a nyugati világot
 author: Júlia
 tags:
-  - astanga_ikon
+  - astangaikon
 date: 2023-05-09T21:07:50.808Z
 thumbnail: /blogpostimages/guruji.jpg.webp
 ---
