@@ -64,4 +64,51 @@ Bármikor feltették neki a kérdést, hogy tisztázza mik a nézetei a jóga é
 
 Jóga nélkül (gyakorlati megtapasztalás) hogyan lehet a felszabadulás iránti törekvés lehetséges?[^1] 
 
+Befejezésként következzen egy részlet Sandra Anderson Gurudzsival készült interjújából:
+
+**SA:** Milyen rendszerben tanítja az ászanákat és a pránajámát?
+**PJ:** Én kizárólag astanga jógát tanítok, az eredeti rendszert, amely Patandzsali Jóga Szútráiból ered. (…) 
+
+> *Taszmin száti szvasá prásvaszajor gáti viccsédá pránajáma.* (II.49.) 
+
+Először az ászanát kell tökéletesíteni, aztán kezdhető el a pránajáma gyakorlása: a belégzés és a kilégzés irányítása, a légzés szabályozása, a légzés visszatartása. Az ászana tökéletesítését követően jöhet a pránajáma tökéletesítése. Ez a jóga módszere.
+
+**SA:** Milyen a tökéletes ászana, hogyan lehet kivitelezni?
+**PJ:** 
+
+> *Stíra szukham ászanam (II. 46)*
+
+A tökéletes ászana azt jelenti, hogy szilárdan és boldogan három órán keresztül benne tudsz lenni, minden gond nélkül. Miután a lábaidat kiszeded az ászanából a tested továbbra is boldog.
+Abban a rendszerben amit én tanítok, nagyon sok ászana van, amely a véráramlással, a légző szervekkel és a tekintet fókuszálásával dolgoznak. Hajlékonynak kell lenni, és a testünk három részét, a fejet, a nyakat és a törzset egy egyenes vonalba kell tartani. Ha a gerincünk görbe, az hat a légzés minőségére. Ahhoz, hogy megfelelően tudj lélegezni, a gerincednek egyenesnek kell lennie.
+A Múladárából (gyökércsakra) 72.000 nádi (csatornák, amelyeken keresztül a prána áramlik a finom testben) ered. Az idegrendszer innen nő ki. Ezek a nádik mind szennyezettek, meg kell őket tisztítani. A jóga rendszerében az ászanák és a légzés segítségével meg tudjuk tisztítani a nádikat minden nap. Megtisztulnak a nádik azzal, hogy a megfelelő pózban vagy, hogy minden nap gyakorolsz, ki- és be lélegzel, amíg végül hosszú idő után az egész tested erős lesz, az idegrendszered pedig meggyógyul. Amikor az idegrendszer tökéletes, akkor a test erős. Amint megtisztul az összes nádi, a prána (a finom energia) be tud lépni a központi nádiba, a Susumnába. Ehhez az kell, hogy tökéletesen tudd irányítani az ánuszt. Gyakorolnod kell a bandhák (energia zárak) használatát: a Múla Bandhát, az Uddijána Bandhát és a többit az ászana és pránajáma gyakorlása során. Ha az én tanításaimat követkve gyakorolsz, a bandhák jönnek maguktól.
+Ez az astanga jóga eredeti tanítása. Nem adtam hozzá semmit. Ezeket a modern tanításokat én nem ismerem… Én egy idős ember vagyok!
+
+**SA:** Ez a módszer fizikailag nagyon megterhelő. Hogyan tanít olyan valakit, aki rossz fizikai állapotban van?
+**PJ:** Nem lehetetlen rossz testi állapottal dolgozni. A jóga írások szerint a jóga gyakorlása hajlékonnyá, de olyan erőssé is tesz mint egy elefánt. Jógi arcod lesz. A jógi arca mindig mosolyog. Azt jelenti, hogy hallod a nádát, a belső hangot, szemeid tiszták. Elkezdesz tisztán látni, irányítod a bindut (életerőt). A belső tűz kibontakozik és a test megszabadul a betegségektől.
+Három fajta betegség van: a testi, a mentális és az idegrendszeri. Amikor az elme beteg, akkor az egész test is beteg. 
+
+> Manajéva manusánam káránám bandha moksajoho 
+
+Az elme az oka a kötöttségnek és a felszabadulásnak is. Ha a tudat beteg és szomorú, az megbetegíti a testet, nincs tovább. Ezért először meg kell gyógyítani az elmét. Elme gyógyszer – ez a jóga.
+
+**SA:** Hogyan tud az elme gyógyszere lenni pontosan?
+**PJ:** A gyakorlás és a megfelelő légzéstechnika által. Gyakorolni, gyakorolni, gyakorolni. Ennyi. Gyakoroljunk, hogy az idegrendszer tökéletes legyen, a vér megfelelően áramoljon, ami nagyon fontos. Jó véráramlással, nem lesznek szívproblémáid. A bindu irányításával nem pazaroljuk az életenergiát, az is nagyon fontos. Az ember a bindu tartalékaiból él, amikor a bindu elfogy, akkor meghal. Ezt mondják az írások.
+A mindennapi gyakorlással a vér megtisztul, és az elme fokozatosan az irányításunk alá kerül. Ez a jóga módszere.
+
+> Jógasz csitta vritti niródaha. (PJSZ.: I.2) 
+> Ez azt jelenti, hogy a jóga tudománya, az elme folyamatainak lecsendesítése.
+
+**SA:** Legtöbbször, amikor jógagyakorlás kerül szóba, az ászanákról és a pránajámáról beszélgetünk. Mennyire fontos az astanga jóga első két ága, a jámák és a nijámák?
+**PJ:** Nagyon nehezek. Ha gyenge a tested, akkor gyenge elveid is vannak.
+Öt jáma van: Ahimsza, szatja, asztéja, brahmacsarja, aparigraha. Az ahimsza lehetetlen, és az igazmondás is nagyon nehéz. Az írások azt mondják, mondd az igazságot, amely édes, ne mondd azt, amelyik bánt. De ne hazudj, akármilyen édesen hangzik is. Nagyon nehéz. Csak az édes igazságot mondd, mert aki a kellemetlen igazságot mondja, az halott ember.
+Szóval a gyenge elme gyenge testet is jelent. Ezért kell egy jó alapot építeni az ászana és pránajáma gyakorlással, hogy a test, az elme és az idegrendszer jól működjön. Aztán tudsz az ahimszával, szatjával és a többi jámával, nijámával foglalkozni.
+**SA:** Mi a helyzet az astanga jóga többi ágával? Tanít meditációt?
+**PJ:** A meditáció a *djána*, a hetedik lépcsőfoka az astangának. Amikor az egyik lépcsőt tökéletesítettük, akkor jöhet a következő. A *djána* kivitelezéséhez egyenes háttal kell ülnöd, becsukott szemekkel, az orrcsúcsra fókuszálva. Ha ez nincs meg, akkor nem vagy elmélyülve. Ha a szem nyitott, az elme is az.
+A jóga 95% gyakorlat, és csak 5% elmélet. Gyakorlat nélkül nem működik, nem lesz semmi haszna. Szóval muszáj gyakorolni, követni kell a megfelelő rendszert, lépésről-lépésre. És akkor fog működni.
+
+Az előadások hangzatosak; adsz egy jó előadást, és mindenki azt gondolja, hogy milyen nagyszerű vagy. De az előadások 99,5%-ban nem hasznosak. Sok éven keresztül kell az ászanákat és a pránajámát gyakorolni. Az írások azt mondják: 
+
+> A hosszú időn keresztül alázatosan, megszakítás nélkül végzett gyakorlás hozza a tökéletességet. Egy év, két év, tíz év… az egész életed során gyakorolsz.
+
+
 [^1]: [Narapuma Magazine, 2004]
