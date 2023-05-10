@@ -6,7 +6,7 @@ description: Ebben a részben Gurudzsi 1960-as évek utáni életét mutatjuk be
 author: Júlia
 tags:
   - astangaikon
-date: 2023-05-09T21:07:50.808Z
+date: 2016-07-16T21:07:50.808Z
 thumbnail: /blogpostimages/guruji.jpg.webp
 ---
 Legutóbbi bejegyzésünkben [(1. rész)](blog/astanga-ikonok-sri-k-pattabhi-jois-1-resz/) Gurudzsi életét az 1960-as évek végéig követtük nyomon. Még nem sejtette akkor, hogy az általa olyan odaadóan tanított astanga jóga meghódítja majd a világot, és ő maga számtalan különböző országba fog ellátogatni, hogy diákok ezreit tanítsa, és vezesse a jóga útján. A változást az 1972-es év hozta, amikor Norman Allen megjelent Mysore-ban, Gurudzsi házánál. Gurudzsi ekkor 57 éves volt. Norman, Puducserri (Pondicherry) városban, David Williams-el és Nancy Gildoffal, Szvámi Gítananda Ananda Ashramjában látták meg először Gurudzsi legidősebb fiát, Mandzsut ászana bemutatót tartani. A két fiút magával ragadta az előadás, és azonnal kikérdezték Mandzsut, hogy hol tanulta ezeket a pózokat. Mandzsu pedig elmesélte, hogy az ő apja, Patthabi Jois, Mysore-ban oktat jógát. Norman az első vonattal Mysore-ba utazott, Davidnek és Nancynek azonban haza kellett menniük, mert lejárt a vízumuk, de a következő szezonban, már ők is Gurudzsi tanítványai lettek.
