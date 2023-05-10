@@ -30,7 +30,7 @@
     "gatsby-plugin-sitemap": "^6.8.0",
     "gatsby-remark-images": "^7.8.0",
     "gatsby-remark-numbered-footnotes": "^1.0.1",
-    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-remark-relative-images": "^2.0.5",
     "gatsby-remark-relative-images-v2": "^0.1.5",
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-source-shopify": "^8.9.0",
