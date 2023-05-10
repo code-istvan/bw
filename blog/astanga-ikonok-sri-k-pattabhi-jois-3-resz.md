@@ -110,5 +110,6 @@ Az előadások hangzatosak; adsz egy jó előadást, és mindenki azt gondolja, 
 
 > A hosszú időn keresztül alázatosan, megszakítás nélkül végzett gyakorlás hozza a tökéletességet. Egy év, két év, tíz év… az egész életed során gyakorolsz.
 
-
+**Forrás:** Alexander Medin: Sri K. Pattabhi Jois and the Ashtanga Research Intitute
+**Sandra Anderson:** „An Interview with K Pattabhi Jois: Practice Makes Perfect”
 [^1]: [Narapuma Magazine, 2004]
