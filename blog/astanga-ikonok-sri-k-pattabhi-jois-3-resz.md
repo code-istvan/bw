@@ -5,7 +5,7 @@ description: ide jön
 author: Júlia
 tags:
   - astangaikon
-date: 2023-05-10T13:27:26.622Z
+date: 2016-09-16T13:27:26.622Z
 thumbnail: /blogpostimages/guruji_shiva.jpg.webp
 ---
 ### Gurudzsi öröksége
