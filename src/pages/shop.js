@@ -50,7 +50,7 @@ export default function Shop() {
       <div className="row mt-20px gap-1">
         {products?.map(product => {
           return (
-            <div className="col-12-xs col-6-lg" key={product}>
+            <div className="col-12-xs col-6-md col-4-lg" key={product}>
               <article>
                 <ProductCard
                   productName={product.node.title}
