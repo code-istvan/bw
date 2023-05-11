@@ -1,33 +1,8 @@
 @import "/src/sass/global";
 
-.product-card {
-  border: solid 2px $color-shades-darkGray;
-  border-radius: 5px;
-  box-sizing: border-box;
-
-  .product-card__header {
-    padding: 20px;
-    height: 60px;
+.product-card__footer {
+  margin: 12px 0;
+  p {
+    padding-top: 4px;
   }
-
-  .product-card__body {
-    background-color: $color-shades-lightGray;
-  }
-
-  .product-card__footer {
-    padding: 10px;
-  }
-
-  .product-card__footer,
-  .product-card__header {
-    background-color: $color-shades-darkGray;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-  }
-}
-
-.product-card__image {
-  height: 200px;
 }

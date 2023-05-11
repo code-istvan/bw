@@ -6,9 +6,6 @@ import "../../sass/components/_productcard.scss"
 const ProductCard = ({ productName, productPrice, productImg }) => {
   return (
     <div className="product-card">
-      <div className="product-card__header">
-        <h3>{productName}</h3>
-      </div>
       <div className="product-card__body">
         <GatsbyImage
           image={productImg}
@@ -17,7 +14,8 @@ const ProductCard = ({ productName, productPrice, productImg }) => {
         />
       </div>
       <div className="product-card__footer">
-        <p>{productPrice} Ft</p>
+        <h3>{productName}</h3>
+        <p className="clr-brand-orange">{productPrice} Ft</p>
       </div>
     </div>
   )
