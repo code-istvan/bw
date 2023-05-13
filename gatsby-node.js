@@ -150,9 +150,3 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `)
 }
-const ALL_QUERIES = require(`./src/Queries/index.js`)
-const slugify = require(`./src/utils/slugify`)
-const readingTime = require(`reading-time`)
-const {
-  fmImagesToRelative: fmImagesToRelative2,
-} = require(`gatsby-remark-relative-images-v2`)
