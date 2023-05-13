@@ -29,6 +29,8 @@ Természetesen az astangások között is felbukkannak különböző „vétkekk
 
 > Találd meg azt, ami számodra a legjobban működik. A tiszta test természetesen tudja, hogy mi a jó neki! Hallgass a belső hangra, és fokozatosan meg fogod tanulni, hogy mi az ami jó és mi az ami kevésbé hasznos számodra. 
 
+![ashtanga samasthiti](/blogpostimages/gj2.jpg.webp)
+
 Ezeknek a gyakorlatsoroknak a legnagyobb előnye az, hogy az ember a jóllétét és egészségét tudja javítani, mindamellett, hogy kialakul egy újfajta megközelítése az életének, a belső mélységek felé kialakuló nagyobb fogékonyság által. Mindazoknak akik azt gondolják, hogy ez a rendszer arra való, hogy szép testet építsünk – szálkásat, csinosat, mutatósat, mint egy görög istenét, Pattabhi Jois azt mondja:
 
 > A jóga nem fizikai gyakorlás, ez nem jó megközelítés. A hatha jógát lehet kizárólag külső testgyakorlásra használni, de nem ez a jóga alapvető haszna. A jóga nagyon mélyre tud hatni, olyan mélyre, hogy megérinti az ember lelkét. Ha a jógát megfelelően gyakorolják, hosszú időn keresztül, az idegrendszer megtisztul, és megtisztul az elme is. Amikor megfelelően gyakorlod az ászanákat, hosszú időn keresztül, a prátjahára, a dáraná és a djána alapjai természetesen alakulnak ki, és előidézi az elme tisztaságát valamint az önmagunk belső lényege iránti megnövekedett fogékonyságot.
@@ -47,6 +49,10 @@ Gurudzsinél nem voltak tanárképzők, vagy haladó tanfolyamok a tanulók szá
 
 > Legyenek ilyen tanárok is, és reménykedjünk, hogy a diákjaik egy napon megtalálják azt, akit valójában megérdemelnének.
 
+![Main shala pooja](/blogpostimages/guruji5.jpg.webp)
+
+
+
 Ortodox brahminként és a Sri Sankaracsarja által elterjesztett Advatia hagyományok követőjeként, Gurudzsi számára a rendszer elsajátításához elengedhetetlen volt  a hitelesség és az elköteleződés. A Védák tanításában ennek tanubizonyságát teszi: 
 
 > Minden benne van. Csak meg kell nyitnunk a saját fejünkben már meglévő tudásunkat, és akkor megérthetjük az őseink nagyszerűségét. 
@@ -60,7 +66,7 @@ Ezért szokott mosolyogni azokon, akiknek egyértelmű véleményük van a jóg�
 Bármikor feltették neki a kérdést, hogy tisztázza mik a nézetei a jóga és a gyakorlás kapcsolatáról és hogy ez mire való, egyértelmű a véleménye:
 
 > Az ászanák és a pránajáma gyakorlása a test és az érzékek irányításának megtanulása, annak érdekében, hogy a belső fény felgyulladhasson. Ez a fény ugyanolyan az egész világon, és az embernek lehetősége van arra, hogy megtapasztalja ezt a fényt, a belső Ént a megfelelő jógagyakorlás által. A jógagyakorlás természetes velejárója, hogy az ember megtanulja az elméjét irányítani, mivel megtapasztalja annak támogatását. Persze az elme irányítása rendkívül nehéz, azonban minden lehetséges a megfelelő gyakorlás által. Ennek megfelelően mindenekelőtt gyakorolni, gyakorolni és gyakorolni kell, hogy a jóga mély megértése elérhetővé váljon számunkra. Ezt követően képesek leszünk megtörni az elme megszilárdult mintáit, és megtapasztalhatjuk annak a mélyben rejlő támogatását. A filozófia is fontos, de ha nem vagyunk kapcsolatban és összeköttetésben az igazsággal és a gyakorlattal, akkor mire való? A véget nem érő fecsegés csak elfárasztja az elmét! A gyakorlás az alapja a filozófia igazi megértésének. Ha a dolgok nem válnak gyakorlattá és nem tudjuk megtapasztalni őket, akkor mi a hasznuk? 
-
+>
 > Jóga hinam katham móksam bhaváti druvam. 
 
 Jóga nélkül (gyakorlati megtapasztalás) hogyan lehet a felszabadulás iránti törekvés lehetséges?[^1] 
@@ -111,6 +117,8 @@ Az előadások hangzatosak; adsz egy jó előadást, és mindenki azt gondolja, 
 
 > A hosszú időn keresztül alázatosan, megszakítás nélkül végzett gyakorlás hozza a tökéletességet. Egy év, két év, tíz év… az egész életed során gyakorolsz.
 
+![Thank you Guruji](/blogpostimages/gj-1.jpg.webp)
+
 **Forrás:** Alexander Medin: Sri K. Pattabhi Jois and the Ashtanga Research Intitute
 **Sandra Anderson:** „An Interview with K Pattabhi Jois: Practice Makes Perfect”
-[^1]: [Narapuma Magazine, 2004]
+[^1]: \[Narapuma Magazine, 2004]
