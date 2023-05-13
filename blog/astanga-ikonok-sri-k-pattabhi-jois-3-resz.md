@@ -51,8 +51,6 @@ Gurudzsinél nem voltak tanárképzők, vagy haladó tanfolyamok a tanulók szá
 
 ![Main shala pooja](/blogpostimages/guruji5.jpg.webp)
 
-
-
 Ortodox brahminként és a Sri Sankaracsarja által elterjesztett Advatia hagyományok követőjeként, Gurudzsi számára a rendszer elsajátításához elengedhetetlen volt  a hitelesség és az elköteleződés. A Védák tanításában ennek tanubizonyságát teszi: 
 
 > Minden benne van. Csak meg kell nyitnunk a saját fejünkben már meglévő tudásunkat, és akkor megérthetjük az őseink nagyszerűségét. 
@@ -121,4 +119,4 @@ Az előadások hangzatosak; adsz egy jó előadást, és mindenki azt gondolja, 
 
 **Forrás:** Alexander Medin: Sri K. Pattabhi Jois and the Ashtanga Research Intitute
 **Sandra Anderson:** „An Interview with K Pattabhi Jois: Practice Makes Perfect”
-[^1]: \[Narapuma Magazine, 2004]
+[^1]: Narapuma Magazine, 2004
