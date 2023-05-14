@@ -9,27 +9,27 @@ export default function Sorozatabrak() {
     {
       style: "Astanga vinyásza jóga",
       name: "Jóga csikitsza (első sorozat)",
-      link: "https://bandhaworks.hu/Files/Astanga_joga_csikitsza_elso_sorozat.pdf",
+      link: "https://bandha.works/downloads/astanga_joga_csikitsza_elso_sorozat.pdf",
     },
     {
       style: "Astanga vinyásza jóga",
       name: "Nádi sódhana (második sorozat)",
-      link: "https://www.bandhaworks.hu/Files/astanga_2nd.pdf",
+      link: "https://bandha.works/downloads/astanga_yoga_intermediate_series.pdf",
     },
     {
       style: "Astanga vinyásza jóga",
       name: "45 perces rutin",
-      link: "https://www.bandhaworks.hu/Files/AstangaVinyasza45min.pdf",
+      link: "https://bandha.works/downloads/astanga_joga_45min.pdf",
     },
     {
       style: "Prána vashja jóga",
       name: "Első sorozat",
-      link: "https://bandhaworks.hu/Files/PVY_poster_primary_series.pdf",
+      link: "https://bandha.works/downloads/prana_vashya_primary_series.pdf",
     },
     {
       style: "Prána vashja jóga",
       name: "Második sorozat",
-      link: "https://bandhaworks.hu/Files/Prana-Vashya-Second-Series-Asana-Chart.pdf",
+      link: "https://bandha.works/downloads/prana_vashya_second_series_asana_chart.pdf",
     },
   ]
 
