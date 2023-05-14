@@ -170,3 +170,12 @@ strong {
   gap: 10px;
   margin-top: 10px;
 }
+
+.footnotes {
+  h2 {
+    display: none;
+  }
+  ol {
+    padding-top: 8px;
+  }
+}
