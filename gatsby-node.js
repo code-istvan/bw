@@ -37,6 +37,7 @@ exports.createPages = async ({ actions, graphql }) => {
           node {
             title
             handle
+            tags
             featuredMedia {
               preview {
                 image {
@@ -56,7 +57,7 @@ exports.createPages = async ({ actions, graphql }) => {
                 amount
               }
             }
-            description
+            descriptionHtml
           }
         }
       }
@@ -65,7 +66,7 @@ exports.createPages = async ({ actions, graphql }) => {
 
   productShopify.data.allShopifyProduct.edges.forEach(({ node }) => {
     createPage({
-      path: `/products/${node.handle}`,
+      path: `/shop/products/${node.handle}`,
       component: path.resolve(`./src/components/Shopify/product.js`),
       context: {
         product: node,

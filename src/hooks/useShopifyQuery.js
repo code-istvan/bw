@@ -11,6 +11,7 @@ export const useShopify = () => {
               title
               productType
               tags
+              handle
               featuredMedia {
                 preview {
                   image {

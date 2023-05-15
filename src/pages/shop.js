@@ -8,12 +8,6 @@ import ProductsTags from "../components/Shopify/ProductsTags"
 
 export default function Shop() {
   const products = useShopify()
-  // const productTags = new Set()
-  // products.forEach(product =>
-  //   product.node.tags.forEach(tag => {
-  //     productTags.add(tag)
-  //   })
-  // )
 
   return (
     <Layout>
@@ -66,15 +60,8 @@ export default function Shop() {
                     product.node.featuredMedia.preview.image.localFile
                       .childrenImageSharp[0].gatsbyImageData
                   }
+                  productHandle={`/shop/products/${product.node.handle}`}
                 />
-                {/* <p
-                  dangerouslySetInnerHTML={{
-                    __html: product.node.descriptionHtml,
-                  }}
-                /> */}
-                {/* {product.node.tags?.map(tag => {
-                  return <p>{tag}</p>
-                })} */}
               </article>
             </div>
           )
