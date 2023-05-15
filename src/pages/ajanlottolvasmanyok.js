@@ -34,7 +34,7 @@ export default function Ajanlottolvasmanyok() {
           />
         </div>
       </div>
-      <div className="olvasmanyok-wrapper tight--desktop--container">
+      <div className="tight--desktop--container">
         <div className="row mt-40px mb-20px">
           <h3>Astanga vinyásza jóga</h3>
         </div>
