@@ -1,5 +1,4 @@
 import React from "react"
-import { CustomLink } from "../CustomLink"
 import { GatsbyImage } from "gatsby-plugin-image"
 import "../../sass/components/_productcard.scss"
 

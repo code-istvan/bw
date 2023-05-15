@@ -11,8 +11,16 @@ export const useShopify = () => {
               title
               productType
               tags
-              featuredImage {
-                gatsbyImageData
+              featuredMedia {
+                preview {
+                  image {
+                    localFile {
+                      childrenImageSharp {
+                        gatsbyImageData
+                      }
+                    }
+                  }
+                }
               }
               priceRangeV2 {
                 maxVariantPrice {

@@ -194,6 +194,7 @@ const config = {
         password: process.env.SHOPIFY_APP_PASSWORD,
         storeUrl: process.env.GATSBY_MYSHOPIFY_URL,
         salesChannel: process.env.SHOPIFY_APP_ID, // Optional but recommended
+        downloadImages: true,
       },
     },
     {

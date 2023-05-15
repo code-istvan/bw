@@ -71,9 +71,7 @@ const Tags = ({ pageContext, data }) => {
           className=""
           text="Vissza az összes bejegyzéshez"
           icon={<Icons.ArrowLeft color="orange" />}
-          onClick={() => {
-            navigate("/blog")
-          }}
+          onClick={() => navigate("/blog")}
         />
       </div>
     </Layout>

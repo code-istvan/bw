@@ -23,12 +23,55 @@ exports.onCreateWebpackConfig = helper => {
   }
 }
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
   const blogListTamplate = path.resolve("./src/components/Blog/blogList.js")
   const blogPostTemplate = path.resolve("./src/components/Blog/blogPost.js")
   const tagsTemplate = path.resolve("./src/components/Blog/tags.js")
   const scheduleTemplate = path.resolve("./src/components/orarend.js")
+
+  const productShopify = await graphql(`
+    query {
+      allShopifyProduct {
+        edges {
+          node {
+            title
+            handle
+            featuredMedia {
+              preview {
+                image {
+                  localFile {
+                    childrenImageSharp {
+                      gatsbyImageData
+                    }
+                  }
+                }
+              }
+            }
+            variants {
+              shopifyId
+            }
+            priceRangeV2 {
+              maxVariantPrice {
+                amount
+              }
+            }
+            description
+          }
+        }
+      }
+    }
+  `)
+
+  productShopify.data.allShopifyProduct.edges.forEach(({ node }) => {
+    createPage({
+      path: `/products/${node.handle}`,
+      component: path.resolve(`./src/components/Shopify/product.js`),
+      context: {
+        product: node,
+      },
+    })
+  })
 
   return graphql(ALL_QUERIES).then(result => {
     if (result.errors) {

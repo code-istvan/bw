@@ -39,9 +39,9 @@ export default function Arak() {
           <table className="prices mt-10px">
             <thead>
               <tr>
-                <th></th>
+                <th>&nbsp;</th>
                 <th>Árak</th>
-                <th></th>
+                <th>&nbsp;</th>
               </tr>
             </thead>
             <tbody>
@@ -72,9 +72,9 @@ export default function Arak() {
           <table className="prices mt-10px">
             <thead>
               <tr>
-                <th></th>
+                <th>&nbsp;</th>
                 <th>Árak</th>
-                <th></th>
+                <th>&nbsp;</th>
               </tr>
             </thead>
             <tr>
@@ -94,9 +94,9 @@ export default function Arak() {
           <table className="prices mt-10px">
             <thead>
               <tr>
-                <th></th>
+                <th>&nbsp;</th>
                 <th>Árak</th>
-                <th></th>
+                <th>&nbsp;</th>
               </tr>
             </thead>
             <tr>
@@ -116,9 +116,9 @@ export default function Arak() {
           <table className="prices mt-10px">
             <thead>
               <tr>
-                <th></th>
+                <th>&nbsp;</th>
                 <th>Árak</th>
-                <th></th>
+                <th>&nbsp;</th>
               </tr>
             </thead>
             <tr>
