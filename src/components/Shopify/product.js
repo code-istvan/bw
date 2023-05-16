@@ -31,7 +31,7 @@ const ProductTemplate = ({ pageContext }) => {
               return <p>{tag}</p>
             })}
           </div>
-          <div className="shopify--product--price mt-40px mb-40px">
+          <div className="shopify--product--price mt-20px mb-20px">
             <p>Ára: </p>
             <p className="clr-brand-orange">
               {product.priceRangeV2.maxVariantPrice.amount} Ft
