@@ -28,6 +28,7 @@ exports.createPages = async ({ actions, graphql }) => {
   const blogListTamplate = path.resolve("./src/components/Blog/blogList.js")
   const blogPostTemplate = path.resolve("./src/components/Blog/blogPost.js")
   const tagsTemplate = path.resolve("./src/components/Blog/tags.js")
+  // const tagsShopify = path.resolve("./src/components/Shopify/tagsShop.js")
   const scheduleTemplate = path.resolve("./src/components/orarend.js")
 
   const productShopify = await graphql(`
