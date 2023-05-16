@@ -1,0 +1,26 @@
+@import "/src/sass/global";
+
+.shopify--product {
+  margin-top: 80px;
+}
+
+.shopify--product--title {
+  @include xs {
+    margin-top: 40px;
+  }
+  @include md {
+    margin-top: 0;
+  }
+}
+.shopify--product--right-side {
+  @include md {
+    padding-left: 26px;
+  }
+}
+
+.shopify--product--price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}

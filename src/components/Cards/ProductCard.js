@@ -10,22 +10,21 @@ const ProductCard = ({
   productHandle,
 }) => {
   return (
-    <div className="product-card">
-      <div className="product-card__body">
-        <GatsbyImage
-          image={productImg}
-          alt={productName}
-          className="product-card__image"
-        />
+    <Link to={productHandle}>
+      <div className="product-card">
+        <div className="product-card__body">
+          <GatsbyImage
+            image={productImg}
+            alt={productName}
+            className="product-card__image"
+          />
+        </div>
+        <div className="product-card__footer">
+          <h3 className="clr-shades-lightGray">{productName}</h3>
+          <p className="clr-brand-orange">{productPrice} Ft</p>
+        </div>
       </div>
-      <div className="product-card__footer">
-        <Link to={productHandle}>
-          <h3>{productName}</h3>
-        </Link>
-
-        <p className="clr-brand-orange">{productPrice} Ft</p>
-      </div>
-    </div>
+    </Link>
   )
 }
 

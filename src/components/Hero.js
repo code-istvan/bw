@@ -1,7 +1,5 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-// import Button from "../components/Buttons/Button"
-// import { navigate } from "gatsby"
 import "../sass/components/_hero.scss"
 
 const Hero = () => (
