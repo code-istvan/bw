@@ -1,5 +1,5 @@
 import React from "react"
-// import { CustomLink } from "../CustomLink"
+import { CustomLink } from "../CustomLink"
 import { useShopify } from "../../hooks/useShopifyQuery"
 // import "../../sass/components/_blogtags.scss"
 
@@ -12,11 +12,15 @@ function ProductsTags() {
     })
   )
 
+  console.log(productTags)
+
   return (
     <div className="row">
       <div className="col blogtags tag-button">
         {[...productTags]?.map(tag => (
-          <p key={tag}>{tag}</p>
+          <p key={tag}>
+            <CustomLink link={`/tags/${tag}`} title={tag} />
+          </p>
         ))}
       </div>
     </div>
@@ -24,3 +28,13 @@ function ProductsTags() {
 }
 
 export default ProductsTags
+
+// {
+//   tags?.map(tag => {
+//     return (
+//       <p key={tag} className="tag-button-hover">
+//         <CustomLink link={`/tags/${slugify(tag)}`} title={tag} />
+//       </p>
+//     )
+//   })
+// }
