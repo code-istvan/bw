@@ -61,14 +61,8 @@ function BlogRoll({ count, posts }) {
                     <p>{post.frontmatter.date}</p>
                   </div>
                   <div className="blog-card-body">
-                    {/* <GatsbyImage
-                        image={image}
-                        className="blog__thumbnail"
-                        alt={post.frontmatter.title}
-                        aspectratio={4 / 3}
-                      /> */}
                     <h3 className="blog-card-title">{title}</h3>
-                    <p className="blog-card-text">
+                    <p className="blog-card-text clr-shades-gray">
                       {post.frontmatter.description}
                     </p>
                   </div>
