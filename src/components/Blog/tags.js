@@ -13,7 +13,7 @@ const Tags = ({ pageContext, data }) => {
   const { edges, totalCount } = data.allMdx
   const tagHeader = `${totalCount} poszt${
     totalCount === 1 ? "" : ""
-  } lett "${tag}" címkével ellátva`
+  } lett "${tag}" címkével ellátva:`
 
   return (
     <Layout>
@@ -60,15 +60,9 @@ const Tags = ({ pageContext, data }) => {
             })}
           </ul>
         </div>
-
-        {/*
-              This links to a page that does not yet exist.
-              You'll come back to it!
-            */}
-        <Link to="/tags">Összes tag</Link>
         <ButtonIcon
           buttonType="icon-text"
-          className=""
+          className="mt-20px"
           text="Vissza az összes bejegyzéshez"
           icon={<Icons.ArrowLeft color="orange" />}
           onClick={() => navigate("/blog")}
