@@ -28,7 +28,7 @@ exports.createPages = async ({ actions, graphql }) => {
   const blogListTamplate = path.resolve("./src/components/Blog/blogList.js")
   const blogPostTemplate = path.resolve("./src/components/Blog/blogPost.js")
   const tagsTemplate = path.resolve("./src/components/Blog/tags.js")
-  // const tagsShopify = path.resolve("./src/components/Shopify/tagsShop.js")
+  const tagsShopify = path.resolve("./src/components/Shopify/tagsShop.js")
   const scheduleTemplate = path.resolve("./src/components/orarend.js")
 
   const productShopify = await graphql(`
@@ -105,6 +105,21 @@ exports.createPages = async ({ actions, graphql }) => {
         path: `tags/${slugify(tag)}`,
         component: tagsTemplate,
         context: { tag },
+      })
+    })
+
+    const products = productShopify.data.allShopifyProduct.edges
+    let productTags = []
+    products.forEach(({ node }) => {
+      productTags.push(...node.tags)
+    })
+    productTags = Array.from(new Set(productTags))
+
+    productTags.forEach(productTag => {
+      createPage({
+        path: `shop/tags/${slugify(productTag)}`,
+        component: tagsShopify,
+        context: { productTag },
       })
     })
 

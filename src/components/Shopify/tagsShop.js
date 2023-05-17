@@ -1,3 +1,73 @@
+import React from "react"
+import { Link, graphql } from "gatsby"
+import PropTypes from "prop-types"
+import slugify from "../../utils/slugifyes6"
+
+function Tagsshopify({ pageContext, data }) {
+  const { productTag } = pageContext
+  const { edges, totalCount } = data.allShopifyProduct
+  const tagHeader = `${totalCount} árucikk${
+    totalCount === 1 ? "" : ""
+  } lett "${productTag}" címkével ellátva:`
+
+  console.log(data.allShopifyProduct)
+
+  return (
+    <div>
+      <p>{productTag}</p>
+      <h3 className="mt-40px mb-20px">{tagHeader}</h3>
+      <ul>
+        {edges.map(({ node }) => {
+          return (
+            <li key={node.handle}>
+              <Link to={`/shop/products/${slugify(node.handle)}`}>
+                {node.title}
+              </Link>
+            </li>
+          )
+        })}
+      </ul>
+    </div>
+  )
+}
+
+Tagsshopify.propTypes = {
+  pageContext: PropTypes.shape({
+    productTag: PropTypes.string.isRequired,
+  }).isRequired,
+  data: PropTypes.shape({
+    allShopifyProduct: PropTypes.shape({
+      totalCount: PropTypes.number.isRequired,
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: PropTypes.shape({
+            title: PropTypes.string.isRequired,
+            handle: PropTypes.string.isRequired,
+            tags: PropTypes.string.isRequired,
+          }),
+        }).isRequired
+      ),
+    }),
+  }),
+}
+
+export default Tagsshopify
+
+export const pageQuery = graphql`
+  query ($productTag: String) {
+    allShopifyProduct(filter: { tags: { in: [$productTag] } }) {
+      totalCount
+      edges {
+        node {
+          tags
+          handle
+          title
+        }
+      }
+    }
+  }
+`
+
 // import React from "react"
 // import { Link, graphql, navigate } from "gatsby"
 // import PropTypes from "prop-types"
@@ -17,34 +87,7 @@
 
 //   return (
 //     <Layout>
-//       <Seo title="Cimkék" />
-//       <div className="blog-hero-container">
-//         <div className="row tight--desktop--container">
-//           <h1 className="blog-title">BLOG</h1>
-//         </div>
-//         <div className="row blog--desktop--container">
-//           <StaticImage
-//             className="container-fluid blog-hero-image hero-big-image"
-//             src="../../images/blog_hero_desktop.jpg"
-//             layout="fullWidth"
-//             loading="eager"
-//             quality={95}
-//             formats={["AUTO", "WEBP", "AVIF"]}
-//             alt="Astanga jóga Mysore"
-//             placeholder="blurred"
-//           />
-//           <StaticImage
-//             className="container-fluid blog-hero-image hero-mobil-image"
-//             src="../../images/blog_hero.jpg"
-//             layout="fullWidth"
-//             loading="eager"
-//             quality={95}
-//             formats={["AUTO", "WEBP", "AVIF"]}
-//             alt="Astanga jóga Mysore"
-//             placeholder="blurred"
-//           />
-//         </div>
-//       </div>
+//
 //       <div className="tight--desktop--container">
 //         <h3 className="mt-40px mb-20px">{tagHeader}</h3>
 //         <div className="row unordered-list-style tags__page">

@@ -20,7 +20,7 @@ function ProductsTags() {
       <div className="col blogtags tag-button">
         {[...productTags]?.map(tag => (
           <p key={tag}>
-            <CustomLink link={`/tags/${slugify(tag)}`} title={tag} />
+            <CustomLink link={`/shop/tags/${slugify(tag)}`} title={tag} />
           </p>
         ))}
       </div>
