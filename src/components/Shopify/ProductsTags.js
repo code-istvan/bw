@@ -1,6 +1,7 @@
 import React from "react"
 import { CustomLink } from "../CustomLink"
 import { useShopify } from "../../hooks/useShopifyQuery"
+import slugify from "../../utils/slugifyes6"
 // import "../../sass/components/_blogtags.scss"
 
 function ProductsTags() {
@@ -19,7 +20,7 @@ function ProductsTags() {
       <div className="col blogtags tag-button">
         {[...productTags]?.map(tag => (
           <p key={tag}>
-            <CustomLink link={`/tags/${tag}`} title={tag} />
+            <CustomLink link={`/tags/${slugify(tag)}`} title={tag} />
           </p>
         ))}
       </div>
