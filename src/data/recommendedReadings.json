@@ -205,6 +205,22 @@
       "language": "angol",
       "new": false,
       "favourite": ""
+    },
+    {
+      "author": "Sadhguru",
+      "title": "Inner Engineering - A belső átalakulás - Egy jógi útmutatója az örömhöz",
+      "link": "",
+      "language": "magyar",
+      "new": false,
+      "favourite": ""
+    },
+    {
+      "author": "Sadhguru",
+      "title": "Karma - Egy jógi útmutatója sorsod alakításához",
+      "link": "",
+      "language": "magyar",
+      "new": false,
+      "favourite": ""
     }
   ]
 }
