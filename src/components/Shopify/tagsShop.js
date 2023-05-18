@@ -1,11 +1,11 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, navigate } from "gatsby"
 import PropTypes from "prop-types"
 import Layout from "../Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import Seo from "../seo"
-// import ButtonIcon from "../Buttons/ButtonIcon"
-// import Icons from "../Icons/Icons"
+import ButtonIcon from "../Buttons/ButtonIcon"
+import Icons from "../Icons/Icons"
 import slugify from "../../utils/slugifyes6"
 
 function Tagsshopify({ pageContext, data }) {
@@ -58,6 +58,13 @@ function Tagsshopify({ pageContext, data }) {
             })}
           </ul>
         </div>
+        <ButtonIcon
+          buttonType="icon-text"
+          className="mt-20px"
+          text="Vissza a webshopba"
+          icon={<Icons.ArrowLeft color="orange" />}
+          onClick={() => navigate("/shop")}
+        />
       </div>
     </Layout>
   )
