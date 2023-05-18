@@ -84,6 +84,10 @@ section {
     color: inherit;
     text-decoration: inherit;
   }
+
+  .tag-button-hover:hover {
+    color: $color-brand-orange !important;
+  }
 }
 
 .single-tag-button:hover {

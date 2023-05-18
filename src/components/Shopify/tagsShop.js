@@ -7,6 +7,7 @@ import Seo from "../seo"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
 import slugify from "../../utils/slugifyes6"
+import "../../sass/components/_tagsshop.scss"
 
 function Tagsshopify({ pageContext, data }) {
   const { productTag } = pageContext
@@ -45,18 +46,16 @@ function Tagsshopify({ pageContext, data }) {
       </div>
       <div>
         <h3 className="mt-40px mb-20px">{tagHeader}</h3>
-        <div className="row unordered-list-style tags__page">
-          <ul>
-            {edges.map(({ node }) => {
-              return (
-                <li key={node.handle}>
-                  <Link to={`/shop/products/${slugify(node.handle)}`}>
-                    {node.title}
-                  </Link>
-                </li>
-              )
-            })}
-          </ul>
+        <div className="row">
+          {edges.map(({ node }) => {
+            return (
+              <p key={node.handle} className="tag-button tag-button-hover">
+                <Link to={`/shop/products/${slugify(node.handle)}`}>
+                  {node.title}
+                </Link>
+              </p>
+            )
+          })}
         </div>
         <ButtonIcon
           buttonType="icon-text"
