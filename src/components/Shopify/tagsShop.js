@@ -1,6 +1,11 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import PropTypes from "prop-types"
+import Layout from "../Layouts/Layout"
+import { StaticImage } from "gatsby-plugin-image"
+import Seo from "../seo"
+// import ButtonIcon from "../Buttons/ButtonIcon"
+// import Icons from "../Icons/Icons"
 import slugify from "../../utils/slugifyes6"
 
 function Tagsshopify({ pageContext, data }) {
@@ -10,24 +15,51 @@ function Tagsshopify({ pageContext, data }) {
     totalCount === 1 ? "" : ""
   } lett "${productTag}" címkével ellátva:`
 
-  console.log(data.allShopifyProduct)
-
   return (
-    <div>
-      <p>{productTag}</p>
-      <h3 className="mt-40px mb-20px">{tagHeader}</h3>
-      <ul>
-        {edges.map(({ node }) => {
-          return (
-            <li key={node.handle}>
-              <Link to={`/shop/products/${slugify(node.handle)}`}>
-                {node.title}
-              </Link>
-            </li>
-          )
-        })}
-      </ul>
-    </div>
+    <Layout>
+      <Seo title="WEBSHOP TAGS" />
+      <div className="page-hero-container">
+        <div className="row">
+          <h1 className="page-hero-title">WEBSHOP</h1>
+          <StaticImage
+            className="container-fluid page-hero-image page-big-image"
+            src="../../images/hirlevel.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
+          <StaticImage
+            className="container-fluid page-hero-image page-mobil-image"
+            src="../../images/hirlevel_mobil.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
+        </div>
+      </div>
+      <div>
+        <h3 className="mt-40px mb-20px">{tagHeader}</h3>
+        <div className="row unordered-list-style tags__page">
+          <ul>
+            {edges.map(({ node }) => {
+              return (
+                <li key={node.handle}>
+                  <Link to={`/shop/products/${slugify(node.handle)}`}>
+                    {node.title}
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
+      </div>
+    </Layout>
   )
 }
 

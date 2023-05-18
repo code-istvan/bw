@@ -14,7 +14,7 @@ export default function Shop() {
       <Seo title="WEBSHOP" />
       <div className="page-hero-container">
         <div className="row">
-          <h1 className="page-hero-title">WebShop</h1>
+          <h1 className="page-hero-title">WEBSHOP</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/hirlevel.jpg"
