@@ -7,10 +7,6 @@
   width: 100%;
   border-left: 4px solid $color-brand-orange;
   background-color: $color-shades-darkGray;
-  h3 {
-    width: 300px;
-    text-align: left;
-  }
 }
 
 .accordion-type-two__box {
@@ -28,7 +24,7 @@
   border: none;
   outline: none;
   transition: background-color 0.6s ease;
-  width: 24px;
+  // width: 24px;
   padding: 0;
 }
 
@@ -52,7 +48,7 @@
 
 /* Style to rotate icon when state is active */
 .rotate {
-  transform: rotate(90deg);
+  transform: rotate(45deg);
 }
 
 /* Style the accordion content panel. Note: hidden by default */
@@ -67,7 +63,8 @@
 /* Style the accordion content text */
 .accordion__text {
   padding-top: 8px;
-  padding-left: 48px;
+  padding-left: 36px;
+  padding-right: 36px;
 }
 
 .accordion-type-two-chevron {
@@ -75,6 +72,9 @@
   flex-direction: row;
   align-items: center;
   padding-left: 12px;
-  gap: 12px;
+  gap: 20px;
   height: 40px;
+  h3 {
+    margin-left: 24px;
+  }
 }
