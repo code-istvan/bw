@@ -23,7 +23,7 @@ const ProductTemplate = ({ pageContext }) => {
             alt={product.title}
           />
         </div>
-        <div className="col-12-xs col-5-md  shopify--product--right-side">
+        <div className="col-12-xs col-5-md shopify--product--right-side">
           <h1 className="shopify--product--title">{product.title}</h1>
 
           <div className="row blogtags tag-button mt-20px">

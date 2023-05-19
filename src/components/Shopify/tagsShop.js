@@ -46,16 +46,21 @@ function Tagsshopify({ pageContext, data }) {
       </div>
       <div>
         <h3 className="mt-40px mb-20px">{tagHeader}</h3>
-        <div className="row">
-          {edges.map(({ node }) => {
-            return (
-              <p key={node.handle} className="tag-button tag-button-hover">
-                <Link to={`/shop/products/${slugify(node.handle)}`}>
-                  {node.title}
-                </Link>
-              </p>
-            )
-          })}
+        <div className="row unordered-list-style tags__page">
+          <ul>
+            {edges.map(({ node }) => {
+              return (
+                <li
+                  key={node.handle}
+                  className="row unordered-list-style tags__page"
+                >
+                  <Link to={`/shop/products/${slugify(node.handle)}`}>
+                    {node.title}
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
         </div>
         <ButtonIcon
           buttonType="icon-text"
