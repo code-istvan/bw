@@ -72,12 +72,12 @@ export default function Mantra() {
           praṇamāmi patañjalim ||<br/>
           auṁ <br/><br/>
           OM<br/>
-Leborulok a nagy tanítók lótuszlába előtt, <br/>akik felfedik előttünk az önvalónk valódi természetét és ezáltal boldogságot ébresztenek bennünk.<br/>
-A tanító teljes jólétbe vezet, mint a varázsló a dzsungelben, <br/>még a feltételekhez kötöttség és az illúzió okozta szörnyű mérgezésből is kigyógyít.<br/>
-<br/>
-Hódolatom ajánlom Patandzsalinak, akinek a felsőteste ember formájú,<br/>
-ezer feje fényesen ragyog, kezeiben kagylókürtöt (eredeti hang), <br/>csakrát (végtelenség) és kardot (a megkülönböztetés ereje) tart.<br/>
-OM<br/>
+          Leborulok a nagy tanítók lótuszlába előtt, <br/>akik felfedik előttünk az önvalónk valódi természetét és ezáltal boldogságot ébresztenek bennünk.<br/>
+          A tanító teljes jólétbe vezet, mint a varázsló a dzsungelben, <br/>még a feltételekhez kötöttség és az illúzió okozta szörnyű mérgezésből is kigyógyít.<br/>
+          <br/>
+          Hódolatom ajánlom Patandzsalinak, akinek a felsőteste ember formájú,<br/>
+          ezer feje fényesen ragyog, kezeiben kagylókürtöt (eredeti hang), <br/>csakrát (végtelenség) és kardot (a megkülönböztetés ereje) tart.<br/>
+          OM<br/>
           "
           className="clr-shades-white"
         />
