@@ -43,13 +43,8 @@ export default function Shop() {
 
       <div className="row mt-20px gap-1">
         {products?.map(product => {
-          console.log(
-            product.node.featuredMedia.preview.image.localFile
-              .childrenImageSharp[0].gatsbyImageData
-          )
-
           return (
-            <div className="col-12-xs col-6-md col-4-lg" key={product}>
+            <div className="col-12-xs col-6-md col-4-lg" key={product.node.id}>
               <article>
                 <ProductCard
                   productName={product.node.title}
