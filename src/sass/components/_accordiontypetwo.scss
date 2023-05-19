@@ -1,0 +1,80 @@
+@import "/src/sass/global";
+
+/* Style the accordion section */
+.accordion-type-two__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-left: 4px solid $color-brand-orange;
+  background-color: $color-shades-darkGray;
+  h3 {
+    width: 300px;
+    text-align: left;
+  }
+}
+
+.accordion-type-two__box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion-type-two {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+  width: 24px;
+  padding: 0;
+}
+
+/* Style the accordion content title */
+.accordion__title {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-semi-bold;
+  font-size: $body-font-size-mobile;
+  text-align: left;
+  @include md {
+    font-size: $body-font-size-desktop;
+  }
+}
+
+/* Style the accordion chevron icon */
+.accordion__icon {
+  margin-right: auto;
+  transition: transform 0.6s ease;
+  flex-shrink: 0;
+}
+
+/* Style to rotate icon when state is active */
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* Style the accordion content panel. Note: hidden by default */
+.accordion__content {
+  background-color: black;
+  overflow: auto;
+  transition: max-height 0.6s ease;
+  overflow: hidden;
+  background-color: $color-shades-darkGray;
+}
+
+/* Style the accordion content text */
+.accordion__text {
+  padding-top: 8px;
+  padding-left: 48px;
+}
+
+.accordion-type-two-chevron {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 12px;
+  gap: 12px;
+  height: 40px;
+}
