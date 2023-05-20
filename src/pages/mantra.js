@@ -38,6 +38,7 @@ export default function Mantra() {
         <h3 className="mb-20px">
           A <i>mantra</i> szanszkrit szó, a jelentése “túljutni az elmén”.
         </h3>
+
         <p>
           A <i>„man”</i> jelentése elme, a <i>„tra”</i> pedig keresztül jutni,
           átkelni. A mantrák varázsigék, amelyek képesek megváltoztatni a
@@ -65,7 +66,7 @@ export default function Mantra() {
           mantras.map(({ name, sanskrit, translation }) => (
             <AccordionMantra
               title={name}
-              content={sanskrit}
+              content={sanskrit + "<br/>" + "---" + "<br/>" + translation}
               className="clr-shades-white accordion-matra__title"
             />
           ))}
