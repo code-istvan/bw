@@ -28,8 +28,8 @@ function AccordionTypeTwo(props) {
           {/* <p className="accordion__title">{props.title}</p> */}
           {/* <Chevron className={`${setRotate} `} /> */}
           <div className="accordion-type-two-chevron">
-            <Plus className={`${setRotate}`} fill={"hsl(37.3, 90.4%, 51.2%)"} />
             <h3 className={props.className}>{props.title}</h3>
+            <Plus className={`${setRotate}`} fill={"hsl(37.3, 90.4%, 51.2%)"} />
           </div>
         </button>
         <div
