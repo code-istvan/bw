@@ -1,7 +1,7 @@
 @import "/src/sass/global";
 
 /* Style the accordion section */
-.accordion-type-two__wrapper {
+.accordion-mantra__wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -9,13 +9,13 @@
   background-color: $color-shades-darkGray;
 }
 
-.accordion-type-two__box {
+.accordion-mantra__box {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
-.accordion-type-two {
+.accordion-mantra {
   background-color: transparent;
   color: #444;
   cursor: pointer;
@@ -40,7 +40,7 @@
 }
 
 /* Style the accordion chevron icon */
-.accordion__icon {
+.accordion-mantra__icon {
   // margin-right: auto;
   margin-right: 16px;
   transition: transform 0.6s ease;
@@ -53,7 +53,7 @@
 }
 
 /* Style the accordion content panel. Note: hidden by default */
-.accordion__content {
+.accordion-mantra__content {
   background-color: black;
   overflow: auto;
   transition: max-height 0.6s ease;
@@ -62,13 +62,13 @@
 }
 
 /* Style the accordion content text */
-.accordion__text {
+.accordion-mantra__text {
   padding-top: 16px;
   padding-left: 24px;
   padding-right: 36px;
 }
 
-.accordion-type-two-chevron {
+.accordion-mantra__plus {
   display: flex;
   flex-direction: row;
   align-items: center;

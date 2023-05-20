@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
-import AccordionTypeTwo from "../components/AccordionTypeTwo"
+import AccordionMantra from "../components/AccordionMantra"
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function Mantra() {
@@ -37,7 +37,6 @@ export default function Mantra() {
         <h3 className="mb-20px">
           A <i>mantra</i> szanszkrit szó, a jelentése “túljutni az elmén”.
         </h3>
-
         <p>
           A <i>„man”</i> jelentése elme, a <i>„tra”</i> pedig keresztül jutni,
           átkelni. A mantrák varázsigék, amelyek képesek megváltoztatni a
@@ -61,7 +60,7 @@ export default function Mantra() {
         </p>
       </div>
       <div className="row">
-        <AccordionTypeTwo
+        <AccordionMantra
           title="Astanga nyitó mantra"
           content="auṁ <br/>
           vande gurūṇāṁ caraṇāravinde <br/>

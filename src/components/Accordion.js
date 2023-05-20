@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react"
-import Chevron from "./Chevron"
+import Chevron from "./Icons/Chevron"
 import "../sass/components/_accordion.scss"
 
 function Accordion(props) {

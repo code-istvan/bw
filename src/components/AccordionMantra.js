@@ -1,8 +1,8 @@
 import React, { useState, useRef } from "react"
-import Plus from "./Plus"
-import "../sass/components/_accordiontypetwo.scss"
+import Plus from "./Icons/Plus"
+import "../sass/components/_accordionmantra.scss"
 
-function AccordionTypeTwo(props) {
+function AccordionMantra(props) {
   const [setActive, setActiveState] = useState("")
   const [setHeight, setHeightState] = useState("0px")
   const [setRotate, setRotateState] = useState("accordion__icon")
@@ -14,20 +14,20 @@ function AccordionTypeTwo(props) {
       setActive === "active" ? "0px" : `${content.current.scrollHeight}px`
     )
     setRotateState(
-      setActive === "active" ? "accordion__icon" : "accordion__icon rotate"
+      setActive === "active"
+        ? "accordion-mantra__icon"
+        : "accordion-mantra__icon rotate"
     )
   }
 
   return (
-    <div className="accordion-type-two__wrapper">
-      <div className="accordion-type-two__box">
+    <div className="accordion-mantra__wrapper">
+      <div className="accordion-mantra__box">
         <button
-          className={`accordion-type-two ${setActive}`}
+          className={`accordion-mantra ${setActive}`}
           onClick={toggleAccordion}
         >
-          {/* <p className="accordion__title">{props.title}</p> */}
-          {/* <Chevron className={`${setRotate} `} /> */}
-          <div className="accordion-type-two-chevron">
+          <div className="accordion-mantra__plus">
             <p className={props.className}>{props.title}</p>
             <Plus className={`${setRotate}`} fill={"hsl(37.3, 90.4%, 51.2%)"} />
           </div>
@@ -35,10 +35,10 @@ function AccordionTypeTwo(props) {
         <div
           ref={content}
           style={{ maxHeight: `${setHeight}` }}
-          className="accordion__content"
+          className="accordion-mantra__content"
         >
           <div
-            className="accordion__text"
+            className="accordion-mantra__text"
             dangerouslySetInnerHTML={{ __html: props.content }}
           />
         </div>
@@ -47,4 +47,4 @@ function AccordionTypeTwo(props) {
   )
 }
 
-export default AccordionTypeTwo
+export default AccordionMantra
