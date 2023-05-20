@@ -34,9 +34,12 @@ export default function Mantra() {
         </div>
       </div>
       <div className="row mt-40px mb-20px">
+        <h3 className="mb-20px">
+          A <i>mantra</i> szanszkrit szó, a jelentése “túljutni az elmén”.
+        </h3>
+
         <p>
-          A <i>mantra</i> szanszkrit szó, a jelentése “túljutni az elmén”. A{" "}
-          <i>„man”</i> jelentése elme, a <i>„tra”</i> pedig keresztül jutni,
+          A <i>„man”</i> jelentése elme, a <i>„tra”</i> pedig keresztül jutni,
           átkelni. A mantrák varázsigék, amelyek képesek megváltoztatni a
           valóságot, vagy legalábbis a mi felfogásunkat róla, ami valójában
           jelentheti ugyanazt, mint az előbbi. De ahhoz, hogy alkalmazni tudjuk
@@ -79,7 +82,7 @@ export default function Mantra() {
           ezer feje fényesen ragyog, kezeiben kagylókürtöt (eredeti hang), <br/>csakrát (végtelenség) és kardot (a megkülönböztetés ereje) tart.<br/>
           OM<br/>
           "
-          className="clr-shades-white"
+          className="clr-shades-white accordion-matra__title"
         />
       </div>
     </Layout>
