@@ -1,5 +1,7 @@
 import React, { useState, useRef } from "react"
 import Plus from "./Icons/Plus"
+import AudioPlayer from "react-h5-audio-player"
+import "react-h5-audio-player/lib/styles.css"
 import "../sass/components/_accordionmantra.scss"
 
 function AccordionMantra(props) {
@@ -38,9 +40,17 @@ function AccordionMantra(props) {
           className="accordion-mantra__content"
         >
           <div
-            className="accordion-mantra__text"
+            className="accordion-mantra__text mb-20px"
             dangerouslySetInnerHTML={{ __html: props.content }}
           />
+          <div className="row accordion-mantra__audio">
+            <AudioPlayer
+              autoPlay
+              src={props.audio}
+              onPlay={e => console.log("onPlay")}
+              // other props here
+            />
+          </div>
         </div>
       </div>
     </div>
