@@ -45,11 +45,14 @@ function AccordionMantra(props) {
           />
           <div className="row accordion-mantra__audio">
             <AudioPlayer
-              autoPlay
+              // autoPlay
               src={props.audio}
-              onPlay={e => console.log("onPlay")}
+              // onPlay={e => console.log("onPlay")}
               // other props here
             />
+            <div className="row mt-20px">
+              <p>Énekli: {props.chantby}</p>
+            </div>
           </div>
         </div>
       </div>

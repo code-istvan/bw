@@ -63,12 +63,13 @@ export default function Mantra() {
       </div>
       <div className="row">
         {mantras &&
-          mantras.map(({ name, sanskrit, translation, link }) => (
+          mantras.map(({ name, sanskrit, translation, link, chantby }) => (
             <AccordionMantra
               title={name}
               content={sanskrit + "<br/>" + "---" + "<br/>" + translation}
               audio={link}
               className="clr-shades-white accordion-matra__title"
+              chantby={chantby}
             />
           ))}
       </div>
