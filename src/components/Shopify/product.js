@@ -5,10 +5,15 @@ import Layout from "../Layouts/Layout"
 import Seo from "../seo"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
+import useInput from "../../hooks/useInput"
+import useStore from "./StoreContext"
+import Cart from "./cart"
 import "../../sass/components/_product.scss"
 
 const ProductTemplate = ({ pageContext }) => {
   const { product } = pageContext
+  const bind = useInput(1)
+  const { addVariantToCart } = useStore()
 
   return (
     <Layout>
@@ -23,6 +28,7 @@ const ProductTemplate = ({ pageContext }) => {
             alt={product.title}
           />
         </div>
+        <Cart />
         <div className="col-12-xs col-5-md shopify--product--right-side">
           <h1 className="shopify--product--title">{product.title}</h1>
 
@@ -42,6 +48,17 @@ const ProductTemplate = ({ pageContext }) => {
               __html: product.descriptionHtml,
             }}
           />
+          <form>
+            <p>
+              <label htmlFor="qty">Quantity:</label>
+            </p>
+            <input placeholder="1" id="qty" type="number" {...bind} />
+          </form>
+          <button onClick={() => addVariantToCart(product, bind.value)}>
+            {" "}
+            Add to cart
+          </button>
+
           <ButtonIcon
             buttonType="icon-text"
             className="mt-40px mb-40px"
