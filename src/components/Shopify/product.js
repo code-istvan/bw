@@ -56,7 +56,7 @@ const ProductTemplate = ({ pageContext }) => {
           </form>
           <button onClick={() => addVariantToCart(product, bind.value)}>
             {" "}
-            Add to cart
+            Hozzáadás a kosárhoz
           </button>
 
           <ButtonIcon
