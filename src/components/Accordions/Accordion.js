@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react"
-import Chevron from "./Icons/Chevron"
-import "../sass/components/_accordion.scss"
+import Chevron from "../Icons/Chevron"
+import "../../sass/components/_accordion.scss"
 
 function Accordion(props) {
   const [setActive, setActiveState] = useState("")

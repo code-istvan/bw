@@ -1,8 +1,8 @@
 import React, { useState, useRef } from "react"
-import Plus from "./Icons/Plus"
+import Plus from "../Icons/Plus"
 import AudioPlayer from "react-h5-audio-player"
 import "react-h5-audio-player/lib/styles.css"
-import "../sass/components/_accordionmantra.scss"
+import "../../sass/components/_accordionmantra.scss"
 
 function AccordionMantra(props) {
   const [setActive, setActiveState] = useState("")

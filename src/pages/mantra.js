@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
-import AccordionMantra from "../components/AccordionMantra"
+import AccordionMantra from "../components/Accordions/AccordionMantra"
 import { StaticImage } from "gatsby-plugin-image"
 import mantras from "../data/mantras.json"
 
