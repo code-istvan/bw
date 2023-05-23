@@ -49,8 +49,8 @@ export default function Mantra() {
           és helyes kiejtéssel alkalmazzuk őket. A legtöbbünknek nagyon sokszor
           el kell ismételni egy mantrát ahhoz, hogy jelentkezzen a hatása. Ahogy
           a régi korok alkimistái mondták bátorításul:
-          <blockquote>Az ismétlés hozza működésbe a varázslatot</blockquote>
         </p>
+        <blockquote>Az ismétlés hozza működésbe a varázslatot</blockquote>
         <p>
           Az ősi jógikus szövegek kijelentik, hogy Isten hang és a hang Isten:
           Sabda Brahman. Nincs más, csak Isten. Isten a mindenség. Isten valódi.
@@ -65,6 +65,7 @@ export default function Mantra() {
         {mantras &&
           mantras.map(({ name, sanskrit, translation, link, chantby }) => (
             <AccordionMantra
+              key={name}
               title={name}
               content={sanskrit + "<br/>" + "---" + "<br/>" + translation}
               audio={link}

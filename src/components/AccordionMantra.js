@@ -51,7 +51,9 @@ function AccordionMantra(props) {
               // other props here
             />
             <div className="row mt-20px">
-              <p>Énekli: {props.chantby}</p>
+              <p>
+                <b>Előadja:</b> {props.chantby}
+              </p>
             </div>
           </div>
         </div>
