@@ -10,15 +10,15 @@ const Cart = () => {
     <Layout>
       <div>
         <div>
-          <p>Product</p>
-          <p>Quantity</p>
+          <p>Termék</p>
+          <p>Mennyiség</p>
           <p>Remove Item</p>
         </div>
 
         {cart.length > 0 ? (
           cart.map((item, index) => <ProductRow key={index} item={item} />)
         ) : (
-          <p>Your cart is empty.</p>
+          <p>Üres a kosarad</p>
         )}
 
         <div>

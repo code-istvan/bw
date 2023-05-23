@@ -64,7 +64,7 @@ export default function Mantra() {
           </p>
         </div>
         <div className="row mb-20px">
-          <h3>Mantrák amiket éneklünk a jógaiskolánkban:</h3>
+          <h3>Mantrák amiket énekelni szoktunk a jógaiskolánkban:</h3>
         </div>
 
         <div className="row">
