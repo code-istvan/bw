@@ -63,6 +63,10 @@ export default function Mantra() {
             hangrezgés. A hang szüli az anyagot – kezdetben volt a szó.
           </p>
         </div>
+        <div className="row mb-20px">
+          <h3>Mantrák amiket éneklünk a jógaiskolánkban:</h3>
+        </div>
+
         <div className="row">
           {mantras &&
             mantras.map(({ name, sanskrit, translation, link, chantby }) => (
