@@ -22,6 +22,8 @@ function AccordionMantra(props) {
     )
   }
 
+  console.log(props.chantby)
+
   return (
     <div className="accordion-mantra__wrapper">
       <div className="accordion-mantra__box">
@@ -43,19 +45,28 @@ function AccordionMantra(props) {
             className="accordion-mantra__text mb-20px"
             dangerouslySetInnerHTML={{ __html: props.content }}
           />
-          <div className="row accordion-mantra__audio">
-            <AudioPlayer
-              // autoPlay
-              src={props.audio}
-              // onPlay={e => console.log("onPlay")}
-              // other props here
-            />
-            <div className="row mt-20px">
-              <p>
-                <b>Előadja:</b> {props.chantby}
-              </p>
+
+          {props.chantby !== "" && (
+            <div
+              className={
+                props.chantby === ""
+                  ? "hide-class"
+                  : "row accordion-mantra__audio"
+              }
+            >
+              <AudioPlayer
+                // autoPlay
+                src={props.audio}
+                // onPlay={e => console.log("onPlay")}
+                // other props here
+              />
+              <div className="row mt-20px">
+                <p>
+                  <b>Előadja:</b> {props.chantby}
+                </p>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </div>
