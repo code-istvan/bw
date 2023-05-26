@@ -13,7 +13,7 @@ const ProductRow = ({ item }) => {
       </div>
       <p>{quantity}</p>
       <button onClick={() => removeLineItem(product.variants[0]?.shopifyId)}>
-        Remove
+        Eltávolítás
       </button>
     </div>
   )

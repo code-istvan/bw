@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { useShopify } from "../hooks/useShopifyQuery"
 import ProductCard from "../components/Cards/ProductCard"
 import ProductsTags from "../components/Shopify/ProductsTags"
-import Cart from "../components/Shopify/cart"
+import { CustomLink } from "../components/CustomLink"
 
 export default function Shop() {
   const products = useShopify()
@@ -39,7 +39,7 @@ export default function Shop() {
         </div>
       </div>
       <div className="row">
-        <Cart />
+        <CustomLink link="/cart" title="Kosár" classNames="" />
       </div>
       <div className="mt-40px">
         <ProductsTags />

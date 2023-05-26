@@ -31,6 +31,13 @@
   border: 2px solid $color-brand-orange;
 }
 
+.btn--primary--outline-full {
+  background-color: transparent;
+  color: $color-brand-orange;
+  border: 2px solid $color-brand-orange;
+  width: 100%;
+}
+
 .btn--secondary--solid {
   background-color: $color-shades-gray;
   color: $color-shades-black;

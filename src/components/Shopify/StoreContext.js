@@ -117,7 +117,7 @@ export const StoreProvider = ({ children }) => {
       setCart(updatedCart)
 
       setLoading(false)
-      alert("Item added to cart!")
+      alert("A terméket/szolgáltatást hozzáadtuk a kosárhoz!")
     } catch (error) {
       setLoading(false)
       console.error(`Error in addVariantToCart: ${error}`)

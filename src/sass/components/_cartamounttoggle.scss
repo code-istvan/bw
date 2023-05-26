@@ -1,0 +1,24 @@
+@import "/src/sass/global";
+
+.cart-button {
+  border: 1px solid $color-shades-lightGray;
+  border-radius: 2px;
+  width: 150px;
+  p {
+    color: $color-shades-lightGray;
+    background-color: $color-shades-black;
+    font-size: large;
+  }
+}
+
+.amount-toggle {
+  background-color: transparent;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  button {
+    padding: 0;
+  }
+}
