@@ -1,19 +1,32 @@
 @import "/src/sass/global";
 
-.cart-button {
-  border: 1px solid $color-shades-lightGray;
+.cart--button {
+  border: 2px solid $color-shades-lightGray;
   border-radius: 2px;
-  width: 150px;
+  cursor: pointer;
   p {
     color: $color-shades-lightGray;
     background-color: $color-shades-black;
     font-size: large;
+    font-weight: 800;
+  }
+  @include xs {
+    width: 100%;
+    .toggle--minus--button {
+      padding-left: 8px;
+    }
+    .toggle--plus--button {
+      padding-right: 8px;
+    }
+  }
+  @include md {
+    width: 150px;
   }
 }
 
-.amount-toggle {
+.amount--toggle {
   background-color: transparent;
-  padding: 12px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
