@@ -13,11 +13,11 @@
   // width: 100%;
 }
 
-.btn:hover {
-  transform: translateY(0px);
-  background-color: $color-brand-orange;
-  color: $color-shades-black;
-}
+// .btn:hover {
+//   transform: translateY(0px);
+//   background-color: $color-brand-orange;
+//   color: $color-shades-black;
+// }
 
 .btn--primary--solid {
   background-color: $color-brand-orange;
@@ -25,10 +25,23 @@
   border: none;
 }
 
+.btn--third--solid {
+  background-color: $color-shades-black;
+  color: $color-shades-white;
+  border: none;
+}
+
 .btn--primary--outline {
   background-color: transparent;
+  transition: transform 0.5s ease;
   color: $color-brand-orange;
   border: 2px solid $color-brand-orange;
+}
+
+.btn--primary--outline:hover {
+  transform: translateY(0px);
+  background-color: $color-brand-orange;
+  color: $color-shades-black;
 }
 
 .btn--primary--outline-full {
@@ -36,6 +49,12 @@
   color: $color-brand-orange;
   border: 2px solid $color-brand-orange;
   width: 100%;
+}
+
+.btn--primary--outline-full:hover {
+  transform: translateY(0px);
+  background-color: $color-brand-orange;
+  color: $color-shades-black;
 }
 
 .btn--secondary--solid {
@@ -66,6 +85,25 @@
   transform: translateY(0px);
   background-color: $color-shades-lightGray;
   color: $color-shades-black;
+}
+
+// shop modal button
+.btn--third--outline {
+  background-color: transparent;
+  color: $color-shades-black;
+  border: 2px solid $color-shades-black;
+
+  @include xl {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 32px;
+  }
+}
+
+.btn--third--outline:hover {
+  transform: translateY(0px);
+  background-color: $color-shades-black;
+  color: $color-shades-white;
 }
 
 //blog posts, events button

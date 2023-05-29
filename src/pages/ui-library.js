@@ -1,10 +1,26 @@
-import * as React from "react"
+import React from "react"
 import Seo from "../components/seo"
 import useBreakpoint from "../components/useBreakpoint"
+
 // import { Link } from "gatsby"
 
 export default function Uilibrary() {
   const { breakpoint } = useBreakpoint()
+
+  // const [isOpen, setIsOpen] = useState(false)
+
+  // const openModal = () => {
+  //   setIsOpen(true)
+  // }
+
+  // const closeModal = () => {
+  //   setIsOpen(false)
+  // }
+
+  // const openModal2 = () => {
+  //   // Itt végezheted el a szükséges műveleteket
+  //   console.log("Modális ablak megnyitva!")
+  // }
 
   return (
     <div className="container">

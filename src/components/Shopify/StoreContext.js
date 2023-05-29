@@ -1,6 +1,9 @@
 import React, { createContext, useState, useEffect, useContext } from "react"
 import fetch from "isomorphic-fetch"
 import Client from "shopify-buy"
+// import Cart from "../../pages/cart"
+import { navigate } from "gatsby"
+import Modal from "../Modal"
 
 const client = Client.buildClient(
   {
@@ -31,6 +34,15 @@ export const StoreProvider = ({ children }) => {
   const [cart, setCart] = useState(defaultValues.cart)
   const [checkout, setCheckout] = useState(defaultValues.checkout)
   const [loading, setLoading] = useState(false)
+  const [modalOpen, setModalOpen] = useState(false)
+
+  const openModal = () => {
+    setModalOpen(true)
+  }
+
+  const closeModal = () => {
+    setModalOpen(false)
+  }
 
   const setCheckoutItem = checkout => {
     if (isBrowser) {
@@ -117,7 +129,8 @@ export const StoreProvider = ({ children }) => {
       setCart(updatedCart)
 
       setLoading(false)
-      alert("A terméket/szolgáltatást hozzáadtuk a kosárhoz!")
+      openModal()
+      // navigate("/cart")
     } catch (error) {
       setLoading(false)
       console.error(`Error in addVariantToCart: ${error}`)
@@ -167,6 +180,12 @@ export const StoreProvider = ({ children }) => {
       }}
     >
       {children}
+      <div>
+        {/* <button onClick={openModal}>Open Modal</button> */}
+        <Modal isOpen={modalOpen} onClose={closeModal}>
+          <p>Betettük a terméket a kosárba</p>
+        </Modal>
+      </div>
     </StoreContext.Provider>
   )
 }
