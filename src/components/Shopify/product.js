@@ -9,6 +9,7 @@ import Icons from "../Icons/Icons"
 import useStore from "./StoreContext"
 import Button from "../Buttons/Button"
 import CartAmountToggle from "./CartAmountToggle"
+import { navigate } from "gatsby"
 import "../../sass/components/_product.scss"
 
 const ProductTemplate = ({ pageContext }) => {
@@ -49,7 +50,6 @@ const ProductTemplate = ({ pageContext }) => {
           </div>
           <div className="col-12-xs col-5-md shopify--product--right-side">
             <h1 className="shopify--product--title">{product.title}</h1>
-
             <div className="row blogtags tag-button mt-20px">
               {product.tags?.map((tag, index) => {
                 return <p key={index}>{tag}</p>
@@ -68,12 +68,7 @@ const ProductTemplate = ({ pageContext }) => {
               setDecrease={setDecrease}
               setIncrease={setIncrease}
             />
-            {/* <form>
-            <p>
-              <label htmlFor="qty">Quantity:</label>
-            </p>
-            <input placeholder="1" id="qty" type="number" {...bind} />
-          </form> */}
+
             <div className="row mb-20px mt-20px">
               <Button
                 type="button"
@@ -84,12 +79,17 @@ const ProductTemplate = ({ pageContext }) => {
               </Button>
             </div>
 
-            {/* 
-          <button onClick={() => addVariantToCart(product, bind.value)}>
-            {" "}
-            Hozzáadás a kosárhoz
-          </button> */}
+            {/* <form>
+              <p>
+                <label htmlFor="qty">Quantity:</label>
+              </p>
+              <input placeholder="1" id="qty" type="number" {...bind} />
+            </form>
 
+            <button onClick={() => addVariantToCart(product, bind.value)}>
+              {" "}
+              Hozzáadás a kosárhoz
+            </button> */}
             <ButtonIcon
               buttonType="icon-text"
               className="mt-40px mb-40px"
