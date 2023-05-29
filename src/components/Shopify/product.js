@@ -9,7 +9,6 @@ import Icons from "../Icons/Icons"
 import useStore from "./StoreContext"
 import Button from "../Buttons/Button"
 import CartAmountToggle from "./CartAmountToggle"
-import { navigate } from "gatsby"
 import "../../sass/components/_product.scss"
 
 const ProductTemplate = ({ pageContext }) => {
