@@ -4,7 +4,7 @@ import Seo from "../components/seo"
 import ProductRow from "../components/Shopify/ProductRow"
 import useStore from "../components/Shopify/StoreContext"
 import { StaticImage } from "gatsby-plugin-image"
-import { navigate } from "gatsby"
+// import { navigate } from "gatsby"
 import { Link } from "gatsby"
 
 const Cart = () => {
