@@ -3,6 +3,7 @@ import "../../sass/components/_button.scss"
 
 const STYLES = [
   "btn--primary--solid",
+  "btn--primary--solid--full",
   "btn--secondary--solid",
   "btn--secondary--outline",
   "btn--third--solid",

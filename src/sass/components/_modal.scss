@@ -14,10 +14,11 @@
 }
 
 .modal-content {
-  background-color: white;
+  background-color: $color-shades-lightGray;
   color: black;
   padding: 40px;
   max-width: 500px;
+  border-radius: 4px;
 }
 
 .modal-buttons {

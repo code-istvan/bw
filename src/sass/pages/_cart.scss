@@ -1,0 +1,23 @@
+@import "/src/sass/global";
+
+.cart--header {
+  padding-bottom: 12px;
+  border-bottom: 2px solid $color-shades-darkGray;
+
+  div:last-child p {
+    float: right;
+  }
+}
+
+.cart--quantity {
+  @include xs {
+    display: none !important;
+  }
+  @include md {
+    display: block !important;
+  }
+}
+
+.cart--footer__text {
+  text-align: right;
+}

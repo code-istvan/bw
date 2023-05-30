@@ -47,7 +47,7 @@ const Modal = ({ isOpen, onClose, children }) => {
             type="button"
             disabled={cart.length === 0}
             text="Checkout"
-            buttonStyle="btn--third--solid"
+            buttonStyle="btn--primary--solid"
             onClick={() => window.open(checkout.webUrl)}
           >
             Megrendelés

@@ -95,6 +95,37 @@ const BwSymbol = props => {
   )
 }
 
+const Close = props => {
+  ColorSwitch(props.color)
+
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M21.5164 19.3951L4.54588 2.42456L2.42456 4.54588L19.3951 21.5164L21.5164 19.3951Z"
+        fill={fillColor}
+      />
+      <path
+        d="M4.54588 21.5164L21.5164 4.54588L19.3951 2.42456L2.42456 19.3951L4.54588 21.5164Z"
+        fill={fillColor}
+      />
+      <path
+        d="M21.5167 19.3951L4.54613 2.42456L2.42481 4.54588L19.3954 21.5164L21.5167 19.3951Z"
+        fill={fillColor}
+      />
+      <path
+        d="M4.54613 21.5164L21.5167 4.54588L19.3954 2.42456L2.4248 19.3951L4.54613 21.5164Z"
+        fill={fillColor}
+      />
+    </svg>
+  )
+}
+
 const ChevronLeft = props => {
   ColorSwitch(props.color)
 
@@ -458,6 +489,7 @@ const Whatsapp = props => {
 const Icons = {
   ArrowLeft,
   ChevronLeft,
+  Close,
   ChevronDoubleLeft,
   ChevronRight,
   ChevronDoubleRight,
