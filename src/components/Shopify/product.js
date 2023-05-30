@@ -24,8 +24,6 @@ const ProductTemplate = ({ pageContext }) => {
     setAmount(amount + 1)
   }
 
-  console.log(amount)
-
   return (
     <Layout>
       <Seo title={product.title} />

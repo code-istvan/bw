@@ -2,7 +2,7 @@ import React, { createContext, useState, useEffect, useContext } from "react"
 import fetch from "isomorphic-fetch"
 import Client from "shopify-buy"
 // import Cart from "../../pages/cart"
-import { navigate } from "gatsby"
+// import { navigate } from "gatsby"
 import Modal from "../Modal"
 
 const client = Client.buildClient(
