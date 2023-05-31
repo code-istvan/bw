@@ -16,7 +16,7 @@ const Footer = ({ handleOpenMenu }) => {
             <div className="footer__brand">
               <div>
                 <Link to="/">
-                  <Icons.BwSymbol />
+                  <Icons.BwSymbol color="lightGray" />
                 </Link>
               </div>
               <div className="footer__icon__text">
