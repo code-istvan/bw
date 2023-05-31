@@ -3,7 +3,7 @@ import fetch from "isomorphic-fetch"
 import Client from "shopify-buy"
 // import Cart from "../../pages/cart"
 // import { navigate } from "gatsby"
-import Modal from "../Modal"
+import ModalAddToCart from "./ModalAddToCart"
 
 const client = Client.buildClient(
   {
@@ -182,9 +182,9 @@ export const StoreProvider = ({ children }) => {
       {children}
       <div>
         {/* <button onClick={openModal}>Open Modal</button> */}
-        <Modal isOpen={modalOpen} onClose={closeModal}>
-          <p>Betettük a terméket a kosárba</p>
-        </Modal>
+        <ModalAddToCart isOpen={modalOpen} onClose={closeModal}>
+          <p> &#10003; Betettük a terméket a kosárba</p>
+        </ModalAddToCart>
       </div>
     </StoreContext.Provider>
   )

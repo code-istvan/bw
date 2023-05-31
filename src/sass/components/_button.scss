@@ -19,6 +19,18 @@
 //   color: $color-shades-black;
 // }
 
+.btn--plain--naked {
+  background-color: transparent;
+  color: $color-shades-black;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .btn--primary--solid {
   background-color: $color-brand-orange;
   color: $color-shades-black;

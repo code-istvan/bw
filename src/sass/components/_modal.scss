@@ -1,6 +1,6 @@
 @import "/src/sass/global";
 
-.modal-overlay {
+.modal--overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -13,7 +13,7 @@
   z-index: 9999;
 }
 
-.modal-content {
+.modal--content {
   background-color: $color-shades-lightGray;
   color: black;
   padding: 40px;
@@ -21,8 +21,22 @@
   border-radius: 4px;
 }
 
-.modal-buttons {
+.modal--header {
+  margin-bottom: 24px;
+}
+
+.modal--buttons {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.modal--content__icon,
+.modal--content__last-button {
+  display: flex;
+  justify-content: center;
+  svg {
+    width: 36px;
+    height: 36px;
+  }
 }
