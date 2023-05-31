@@ -5,7 +5,7 @@ description: Ha igazán szomjasak vagyunk, biztosan találunk forrást
 author: István
 tags:
   - astangaikon
-date: 2023-05-31T20:29:11.183Z
+date: 2016-10-06T20:29:11.183Z
 thumbnail: /blogpostimages/prof_krishnamacharya.jpg.webp
 ---
 A fordítás alapjául szolgáló kiadás:
