@@ -5,7 +5,7 @@ description: "Felcsendül a mantra, és repíti magával a tüzre dobott felajá
 author: István
 tags:
   - shala
-date: 2023-05-31T11:37:11.407Z
+date: 2018-04-13T11:37:11.407Z
 thumbnail: /blogpostimages/tuzceremonia_meghivo.jpg.webp
 ---
 Bhuh (föld), bhuvah (ég) és szváhá (mennyei birodalom). Felcsendül a mantra, és repíti magával a tüzre dobott felajánlásokat. Ösi és kultúrákon átívelö hagyomány a tüzáldozat a szerencsés kezdetek és kedvezö körülmények megteremtéséhez. Indiában mind a mai napig részesei lehetünk ennek a gyönyörű szertartásnak, amely meghittségével a tömeget közösséggé, a teret szentéllyé változtatja. Éppen ezért mi is szeretettel várunk mindenkit a tűzceremóniára, amely  felizzítja a tapasz tüzét a napi szádhanánkhoz az új gyakorlóhelyünkön.
