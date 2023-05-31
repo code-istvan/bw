@@ -1,14 +1,12 @@
 @import "/src/sass/global";
 
 .cart--button {
-  border: 2px solid $color-shades-lightGray;
+  border: 1px solid $color-shades-lightGray;
   border-radius: 2px;
   cursor: pointer;
   p {
     color: $color-shades-lightGray;
     background-color: $color-shades-black;
-    font-size: large;
-    font-weight: 800;
   }
   @include xs {
     width: 100%;
