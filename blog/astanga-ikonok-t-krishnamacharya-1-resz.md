@@ -104,7 +104,7 @@ Egyszerű hely. A város nem használta ki üzleti célokra a tamarindfa mellett
 
 Barátaimmal leültünk a tamarindfa elé, és énekelni kezdtünk. Kis idő múlva mély érzések alakultak ki bennem. Rendes esetben nyugtalan és nagyon aktív, mozgékony vagyok. Soha nem töltöttem még Indiában tíz percnél hosszabb időt templomban, de valahogy erről a helyről nem akartam elmenni. Nem tudom, miért, könnyek szöktek a szemembe. Láttam, hogy néhány barátomra hasonlóan hatott a légkör. Észrevettem, hogy csoportunkban azok, akik általában nagyon nyugtalanok és veszekedősek voltak, hirtelen békéssé és nyugodttá váltak. Ketten, akik vitatkoztak, mielőtt beléptünk volna ide, meleg szeretettel ölelték meg egymást. Ebben a pillanatban tudtam, hogy nem mindennapi helyen vagyunk.
 
-Érettség ébredt bennem. Rájöttem, hogy ami **Nammalvarral**,** Nathamunival** és **Krishnamacharyával** történt ezen a szent helyen, nem lehet csupán a képzelet műve. Akkor határoztam el, hogy megírom ezt az életrajzot.
+Érettség ébredt bennem. Rájöttem, hogy ami **Nammalvarral**, **Nathamunival** és **Krishnamacharyával** történt ezen a szent helyen, nem lehet csupán a képzelet műve. Akkor határoztam el, hogy megírom ezt az életrajzot.
 
 Ahogy spirituálisan egyre érettebbé válunk, felismerjük, hogy a dolgok okkal történnek. És azt is felismerjük, hogy van valamifajta isteni beavatkozás, amely támogat minket vagy a küldetésünket akkor, amikor a legkevésbé számítunk rá. Amikor a *Srí-vaisnava* hagyomány hanyatlott, és **Nathamuni** elkezdte feléleszteni, feladata elvégzéséhez szüksége volt támogatásra. Talán ezért kapta meg a **Divya Prabandhamot**.
 
