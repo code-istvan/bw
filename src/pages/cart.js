@@ -4,8 +4,7 @@ import Seo from "../components/seo"
 import ProductRow from "../components/Shopify/ProductRow"
 import useStore from "../components/Shopify/StoreContext"
 import { StaticImage } from "gatsby-plugin-image"
-// import { navigate } from "gatsby"
-// import { Link } from "gatsby"
+import { navigate } from "gatsby"
 import Button from "../components/Buttons/Button"
 import "../sass/pages/_cart.scss"
 
@@ -41,7 +40,18 @@ const Cart = () => {
         </div>
       </div>
 
-      <div>
+      <div className="cart--wrapper">
+        <div className="cart--header__button mt-20px">
+          <Button
+            type="button"
+            disabled={cart.length === 0}
+            text="Continue Shopping"
+            buttonStyle="btn--plain--naked"
+            onClick={() => navigate("/shop")}
+          >
+            Vásárlás folytatása
+          </Button>
+        </div>
         <div className="cart--header mt-40px row">
           <div className="col-8-xs col-7-md">
             <p className="small clr-shades-gray">TERMÉK</p>
@@ -63,15 +73,11 @@ const Cart = () => {
         <div className="separator-horizontal mt-40px" />
 
         <div className="cart--footer row">
-          <div className="col-8-xs col-7-md"></div>
-          <div className="col-4-xs col-5-md">
+          <div className="col-12-xs col-7-md"></div>
+          <div className="col-12-xs col-5-md">
             <div className="cart--footer__buttons">
-              {/* <Link to="/shop">
-                <button>Vissza a SHOP-ba</button>
-              </Link> */}
-
               <div>
-                <p className="cart--footer__text ">Végösszeg: ........Ft.</p>
+                <p className="cart--footer__total">Végösszeg: ........Ft.</p>
                 <p className="mt-20px mb-20px cart--footer__text">
                   Tartalmazza a megrendeléskor kiszámított adót és szállítási
                   költséget.

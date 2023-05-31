@@ -36,10 +36,24 @@ const ProductRow = ({ item }) => {
         </div>
         <div className="product-row--title">
           <p>{product.title}</p>
-          <p className="small">{product.priceRangeV2.maxVariantPrice.amount}</p>
+          <p className="small">
+            {product.priceRangeV2.maxVariantPrice.amount} Ft.
+          </p>
+          <div className="product-row--title__quantity-mobil mt-20px">
+            <CartAmountToggle
+              amount={quantity}
+              setDecrease={setDecrease}
+              setIncrease={setIncrease}
+            />
+            <button
+              className="product-row--right__remove"
+              onClick={handleRemove}
+            >
+              <Icons.Close color="white" />
+            </button>
+          </div>
         </div>
       </div>
-
       <div className="product-row--right col-4-xs col-5-md">
         <div className="product-row--right__quantity">
           <CartAmountToggle
@@ -51,10 +65,8 @@ const ProductRow = ({ item }) => {
             <Icons.Close color="white" />
           </button>
         </div>
-        <div>
-          <p className="product-row--right__price">
-            {product.priceRangeV2.maxVariantPrice.amount} Ft.
-          </p>
+        <div className="product-row--right__price">
+          <p>{product.priceRangeV2.maxVariantPrice.amount} Ft.</p>
         </div>
       </div>
     </div>

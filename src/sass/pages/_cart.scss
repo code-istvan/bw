@@ -1,5 +1,13 @@
 @import "/src/sass/global";
 
+.cart--header__button {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    color: $color-shades-lightGray;
+  }
+}
+
 .cart--header {
   padding-bottom: 12px;
   border-bottom: 2px solid $color-shades-darkGray;
@@ -18,6 +26,20 @@
   }
 }
 
+.cart--footer__total {
+  @include xs {
+    text-align: center;
+  }
+  @include md {
+    text-align: right;
+  }
+}
+
 .cart--footer__text {
-  text-align: right;
+  @include xs {
+    text-align: center;
+  }
+  @include md {
+    text-align: right;
+  }
 }

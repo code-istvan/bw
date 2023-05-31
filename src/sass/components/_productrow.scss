@@ -11,19 +11,39 @@
 
 .product-row--right {
   display: flex;
-  gap: 24px;
-  justify-content: space-between;
-  align-items: center;
+
+  @include xs {
+    justify-content: flex-end;
+  }
+  @include md {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.product-row--title__quantity-mobil {
+  @include xs {
+    display: flex;
+    flex-direction: row;
+  }
+  @include md {
+    display: none;
+  }
 }
 
 .product-row--right__quantity {
-  display: flex;
-  gap: 24px;
+  @include xs {
+    display: none;
+  }
+  @include md {
+    display: flex;
+    gap: 24px;
+  }
 }
 
 .product-row--title {
   @include xs {
-    max-width: 150px;
+    max-width: 170px;
   }
   @include md {
     max-width: 300px;
@@ -38,7 +58,7 @@
   }
   width: 12px;
   background-color: transparent;
-  padding-left: 20px;
+  padding-left: 12px;
 }
 
 // @import "/src/sass/global";
