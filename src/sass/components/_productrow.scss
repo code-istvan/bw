@@ -6,7 +6,12 @@
 
 .product-row--left {
   display: flex;
-  gap: 24px;
+  @include xs {
+    gap: 12px;
+  }
+  @include md {
+    gap: 24px;
+  }
 }
 
 .product-row--right {
