@@ -34,7 +34,7 @@ Tizenhat évvel később egy **Madhurakavi** nevű tanult ember éppen Észak-In
 
 Az ifjú szemei rögtön felfénylettek, és azonnal válaszolt:
 
-> A nyilvánvalót eszi, és abban marad.
+> A nyilvánvalót eszi, és abban marad
 
 A tanult **Madhurakavit** megdöbbentette a fiú rejtvényszerű, mégis mély válasza, földre borult előtte (ez abban az időben szokatlan volt, mert a fiatalabbnak kellett az idősebb előtt leborulnia), és kijelentette, hogy ő, **Madhurakavi**, végre megtalálta tanárát.
 
