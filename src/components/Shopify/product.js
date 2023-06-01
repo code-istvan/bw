@@ -69,7 +69,7 @@ const ProductTemplate = ({ pageContext }) => {
             <div className="row mb-20px mt-20px">
               <Button
                 type="button"
-                buttonStyle="btn--primary--outline-full"
+                buttonStyle="btn--primary--solid--full"
                 onClick={() => addVariantToCart(product, amount)}
               >
                 Hozzáadás a kosárhoz
