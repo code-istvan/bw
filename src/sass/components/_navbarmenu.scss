@@ -263,15 +263,20 @@
   .nav-links {
     position: fixed;
     background-color: $offcanvas-menu-color;
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
     top: 0;
     left: 0;
     right: 0;
     margin-left: 0;
-    padding-top: clamp(100px, 15vh, 140px);
     z-index: 1;
+    @media only screen and (min-height: 1px) and (max-height: 610px) {
+      padding-top: 60px;
+    }
+    @media only screen and (min-height: 611px) and (max-height: 800px) {
+      padding-top: 100px;
+    }
+    @media only screen and (min-height: 801px) and (max-height: 2800px) {
+      padding-top: 140px;
+    }
   }
 
   .menuItemsFomenu {
