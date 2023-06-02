@@ -53,6 +53,15 @@
   background-color: $color-shades-black;
   color: $color-shades-white;
   border: 2px solid $color-shades-black;
+  @include xl {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 32px;
+  }
+}
+
+.btn--third--solid:hover {
+  opacity: 0.7;
 }
 
 .btn--primary--outline {
@@ -85,11 +94,11 @@
   background-color: $color-shades-gray;
   color: $color-shades-black;
 
-  @include xl {
-    font-size: 20px;
-    font-weight: 600;
-    padding: 16px 32px;
-  }
+  // @include xl {
+  //   font-size: 20px;
+  //   font-weight: 600;
+  //   padding: 16px 32px;
+  // }
 }
 
 // footer button
@@ -116,7 +125,6 @@
   background-color: transparent;
   color: $color-shades-black;
   border: 2px solid $color-shades-black;
-
   @include xl {
     font-size: 20px;
     font-weight: 600;
