@@ -29,7 +29,10 @@ Egy napon **Maran** szülei hangot hallottak, amely azt mondta nekik, hogy hagyj
 
 Tizenhat évvel később egy **Madhurakavi** nevű tanult ember éppen Észak-Indiában utazgatott, amikor hirtelen erős fény jelent meg délen. **Madhurakavi** minden nap látta ezt a fényt ragyogni, és úgy gondolta, Isten arra utasítja őt, hogy keresse meg a fény forrását. Délre fordult hát, és végül megérkezett a dél-indiai Tirunelveli körzetben található kis faluba, Alvar Tirunagariba. Itt a ragyogó fény egy fiatalember alakjába olvadt, aki csendben ült egy tamarindfa odvában. Úgy tűnt, a fiatalember mély meditációban van.
 
+![Madhurakavi](/blogpostimages/nammalwar.jpg.webp)
+
 **Madhurakavi** megpróbálta magára vonni a meditáló figyelmét. Köveket dobált a földre. Hangosan tapsolt. Gúnynevekkel illette. A fiú azonban szenvtelen maradt. Végül **Madhurakavi** egy kérdést intézett hozzá:
+
 > Amikor a nem-nyilvánvaló megszületik a nyilvánvalóban, mit eszik, és mit csinál?
 
 Az ifjú szemei rögtön felfénylettek, és azonnal válaszolt:
@@ -48,11 +51,13 @@ A következő évtizedben **Nammalvar** tanításai – a **Tiruviruttam**, a **
 
 A háború és a betörések zűrzavara végül súlyos veszteségeket okozott India sokszínű kulturális hagyományában, így a *Srí-vaisnava-sampradaya* hagyományban is. A kilencedik századra a tanításokat az a veszély fenyegette, hogy elvesznek. Ebben a zaklatott időben született **Nathamuni**, a *Srí-vaisnava-sampradaya* egyik legnagyobb *ácsárjája*, vagyis fáklyavivő tanítója.
 
-**Nathamuni **i.sz. 823-ban született vallásos családban Viranarayanapuram városában, Chidambaram közelében (ez utóbbi város háromórányi autóútra van a mai Chennaitól). Apjától, **Iswara Bhattától** hagyományos oktatásban részesült, édesanyjától zenét tanult. Korán mély érdeklődést mutatott spirituális témák iránt, és több, akkoriban felkapott nagy filozófiai áramlatban jártasságot szerzett. Élete közepére népszerű, nagy tiszteletben álló tanárrá vált, saját tanítványi körrel.
+![Nathamuni](/blogpostimages/natras.jpg.webp)
+
+**Nathamuni** i.sz. 823-ban született vallásos családban Viranarayanapuram városában, Chidambaram közelében (ez utóbbi város háromórányi autóútra van a mai Chennaitól). Apjától, **Iswara Bhattától** hagyományos oktatásban részesült, édesanyjától zenét tanult. Korán mély érdeklődést mutatott spirituális témák iránt, és több, akkoriban felkapott nagy filozófiai áramlatban jártasságot szerzett. Élete közepére népszerű, nagy tiszteletben álló tanárrá vált, saját tanítványi körrel.
 
 Egy napon Nathamuni misztikusokkal találkozott, akik az **Úr Visnut** magasztaló verseket énekeltek. Elragadták a varázslatos énekek, amelyeket korábban soha nem hallott, és követte őket. Megkérdezte tőlük, mit énekelnek, és megtanítanák-e neki ezeket a verseket. Azt a választ kapta, hogy a versek **Nammalvar Divya Prabandhamjából** valók, és csak tíz van belőlük. A többi háromezer-kilencszázkilencven versszak elveszett.
 
-Az egyik misztikus azonban azt mondta** Nathamuninak**, hogy ha elutazik ahhoz a tamarindfához, ahol **Nammalvart** felfedezték, és a tíz verset több tízezerszer recitálja, megszerezheti az elveszett versszakokat.
+Az egyik misztikus azonban azt mondta **Nathamuninak**, hogy ha elutazik ahhoz a tamarindfához, ahol **Nammalvart** felfedezték, és a tíz verset több tízezerszer recitálja, megszerezheti az elveszett versszakokat.
 
 **Nathamuni** azonnal megtanulta a tíz versszakot, majd amikor elegendő erőforrást gyűjtött, elment a tamarindfához. *Padmászanában* leült a fa odvába, és nagy odaadással recitálni kezdte a tíz verset. A legenda szerint **Nammalvar** megjelent **Nathamuninak** a meditációja alatt, és segített neki visszaidézni a **Divya Prabandham** elveszett háromezer-kilencszázkilencven versszakát.
 
@@ -63,6 +68,8 @@ A **Divya Prabandham** elveszett verseinek tanítása mellett **Nathamuni** saj�
 **Nathamuni** eredményei nem csupán a *Srí-vaisnava-sampradaya* megújítására korlátozódtak; számos más tanítás mestere is volt, többek közt a jógáé is. Összeállított egy *Jóga Rahaszja* (’A jóga titkai’) című művet, amely a klasszikus jógaszövegekben található számos fontos és gyakorlati jógatanítást dolgozott ki részletesen. Csupán néhány ilyen szöveg létezik, ezért a *Jógaga Rahaszját* *Nathamuni* egyik legértékesebb munkájának tartják. Ebben a munkában számos más téma mellett elmagyarázza, hogyan adaptálandó a jóga a különböző életszakaszokra; miért fontos a jóga a nőknek, különösen a várandós nőknek; illetve elmagyarázza a jóga gyógyításban betöltött szerepét. Ironikus módon a Jóga Rahaszja **Nathamuni** halála után néhány évvel elveszett.
 
 Sokan úgy hitték, hogy a *Jóga Rahaszja* örökre megsemmisült, így a XIX. században a dél-indiai Muchukundapuramban élő **Srinivasa Tatacarya** és felesége, **Ranganayakiamma** is. A pár előkelő családból származott, és egészen **Nathamuniig** tudták visszavezetni családfájukat.
+
+![Young Krishnamacharya](/blogpostimages/young_krishnamacharya.jpg.webp)
 
 Ezernyolcszáznyolcvannyolc(1888.) november 18-án **Ranganayakiamma** fiút szült, első gyermeküket. Az *Úr Visnu* egyik inkarnációja, az **Úr Krsna** után **Krishnamacharyána**k nevezték el. **Krishnamacharya** után hamarosan két fiú, **Narayana** és **Appalacarya**, és három lány, **Alamelu**, **Tayamma** és **Cudamani** következett.
 
@@ -84,7 +91,7 @@ Dédapja, majd dédapja utódja, **Sri Krsna Brahmatantra Swami** vigyázó teki
 
 > Így jöttem rá arra, mennyi tanulnivaló van még
 
-Tizenhat évesen **Krishnamacharya **különös álmot látott. Álmában őse, **Nathamuni** arra utasította, hogy keresse fel **Alvar Tirunagarit**, a szomszédos Tamilnadu államban lévő kis falut, ahol **Madhurakavi** a tamarindfa odvában rátalált a meditáló Nammalvarra, és ahol később **Nathamuni** újra felfedezte **Nammalvar** elveszett tanításait.
+Tizenhat évesen **Krishnamacharya** különös álmot látott. Álmában őse, **Nathamuni** arra utasította, hogy keresse fel **Alvar Tirunagarit**, a szomszédos Tamilnadu államban lévő kis falut, ahol **Madhurakavi** a tamarindfa odvában rátalált a meditáló Nammalvarra, és ahol később **Nathamuni** újra felfedezte **Nammalvar** elveszett tanításait.
 
 Nem tudta figyelmen kívül hagyni a látomást és őse kérését, ezért összegyűjtötte utazásához a szükséges erőforrást, és elindult, tizenhat évesen, hogy megtalálja a tamarindfát. Ezekben az időkben nehéz volt az utazás, a távolságok jóval nagyobbnak tűntek, mint a valóságban. Mysore körülbelül hatszáz kilométerre található **Alvar Tirunagaritól**, és **Krishnamacharyának** nem volt autója vagy pénze vonatjegyre, de ez nem tántorította el. Gyalog tette meg a kimerítő utat a tikkasztó hőségben, a fák alatt vagy a házak bejáratánál épített tornácon, *thinnain* aludt, amely akkoriban főként az utazók számára szolgált éjszakai nyugvóhelyként.
 
