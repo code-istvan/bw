@@ -294,10 +294,11 @@
   // submenu box
   .dropdown-item {
     position: relative;
-    margin: 0;
+    // margin: 0;
     padding-left: 0 !important;
     color: $color-shades-gray !important;
-    height: 44px;
+    height: 40px;
+    margin-top: 2px;
     @include desktop-submenu-fonts;
     &:first-letter {
       text-transform: uppercase;
@@ -333,6 +334,7 @@
     .nav-item {
       margin: 0;
       padding-top: 6px;
+      margin-right: 100px;
       border-bottom: solid 1px $color-shades-darkerGray;
     }
     li:nth-last-child(1) {
