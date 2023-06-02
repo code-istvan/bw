@@ -2,7 +2,7 @@
 published: true
 title: "Astanga ikonok: T. Krishnamacharya 1. rész"
 description: Ha igazán szomjasak vagyunk, biztosan találunk forrást
-author: István
+author: Anita
 tags:
   - astangaikon
 date: 2016-10-06T20:29:11.183Z
