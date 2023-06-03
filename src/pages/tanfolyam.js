@@ -1,7 +1,10 @@
 import * as React from "react"
+import { navigate } from "gatsby"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import Button from "../components/Buttons/Button"
+import EventsRoll from "../components/EventsRoll"
 
 export default function Tanfolyam() {
   return (
@@ -34,7 +37,8 @@ export default function Tanfolyam() {
       </div>
 
       <div className="row">
-        <h1>valami</h1>
+        <h1>Tradicionális astanga jóga tanfolyamok</h1>
+        <EventsRoll onlyFeatured={true} />
       </div>
     </Layout>
   )
