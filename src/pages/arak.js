@@ -13,7 +13,7 @@ export default function Arak() {
           <h1 className="page-hero-title">ÁRAK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/arak.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
