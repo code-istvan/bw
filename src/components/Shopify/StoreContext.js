@@ -36,6 +36,8 @@ export const StoreProvider = ({ children }) => {
   const [loading, setLoading] = useState(false)
   const [modalOpen, setModalOpen] = useState(false)
 
+  console.log("cart", cart)
+
   const openModal = () => {
     setModalOpen(true)
   }
@@ -114,7 +116,7 @@ export const StoreProvider = ({ children }) => {
         if (itemIsInCart) {
           const newProduct = {
             product: { ...itemIsInCart.product },
-            quantity: itemIsInCart.quantity + parsedQuantity,
+            quantity: itemIsInCart.quantity,
           }
           const otherItems = cart.filter(
             item => item.product.variants[0]?.shopifyId !== variantId
@@ -182,9 +184,9 @@ export const StoreProvider = ({ children }) => {
       {children}
       <div>
         {/* <button onClick={openModal}>Open Modal</button> */}
-        <ModalAddToCart isOpen={modalOpen} onClose={closeModal}>
+        {/* <ModalAddToCart isOpen={modalOpen} onClose={closeModal}>
           <p> &#10003; Betettük a terméket a kosárba</p>
-        </ModalAddToCart>
+        </ModalAddToCart> */}
       </div>
     </StoreContext.Provider>
   )

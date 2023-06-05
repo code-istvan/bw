@@ -7,19 +7,26 @@ import "../../sass/components/_productrow.scss"
 
 const ProductRow = ({ item }) => {
   const { product, quantity } = item
-  const { removeLineItem } = useStore()
-  const [amount, setAmount] = useState(1)
+  const { removeLineItem, addVariantToCart } = useStore()
+  const [amount, setAmount] = useState(quantity)
 
   const setDecrease = () => {
-    setAmount(prevAmount => Math.max(prevAmount - 1, 1))
+    amount > 1
+      ? setAmount(amount - 1)
+      : removeLineItem(product.variants[0]?.shopifyId)
+    addVariantToCart(product, amount)
   }
 
   const setIncrease = () => {
-    setAmount(prevAmount => prevAmount + 1)
+    setAmount(amount + 1)
+    addVariantToCart(product, amount)
   }
 
-  const handleRemove = () => {
-    removeLineItem(product.variants[0]?.shopifyId)
+  console.log("product", product.variants[0])
+
+  const handleRemove = shopifyId => {
+    console.log("console.looog", shopifyId)
+    removeLineItem(shopifyId)
   }
 
   return (
@@ -41,13 +48,14 @@ const ProductRow = ({ item }) => {
           </p>
           <div className="product-row--title__quantity-mobil mt-20px">
             <CartAmountToggle
-              amount={quantity}
+              amount={amount}
+              key={amount}
               setDecrease={setDecrease}
               setIncrease={setIncrease}
             />
             <button
               className="product-row--right__remove"
-              onClick={handleRemove}
+              onClick={() => handleRemove(product.variants[0]?.shopifyId)}
             >
               <Icons.Close color="white" />
             </button>
@@ -57,11 +65,15 @@ const ProductRow = ({ item }) => {
       <div className="product-row--right col-4-xs col-5-md">
         <div className="product-row--right__quantity">
           <CartAmountToggle
-            amount={quantity}
+            key={amount}
+            amount={amount}
             setDecrease={setDecrease}
             setIncrease={setIncrease}
           />
-          <button className="product-row--right__remove" onClick={handleRemove}>
+          <button
+            className="product-row--right__remove"
+            onClick={() => handleRemove(product.variants[0]?.shopifyId)}
+          >
             <Icons.Close color="white" />
           </button>
         </div>

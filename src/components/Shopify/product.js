@@ -9,6 +9,7 @@ import Icons from "../Icons/Icons"
 import useStore from "./StoreContext"
 import Button from "../Buttons/Button"
 import CartAmountToggle from "./CartAmountToggle"
+import ModalAddToCart from "./ModalAddToCart"
 import "../../sass/components/_product.scss"
 
 const ProductTemplate = ({ pageContext }) => {
@@ -16,12 +17,20 @@ const ProductTemplate = ({ pageContext }) => {
   // const bind = useInput(1)
   const { addVariantToCart } = useStore()
   const [amount, setAmount] = useState(1)
-
+  const [modalOpen, setModalOpen] = useState(false)
   const setDecrease = () => {
     amount > 1 ? setAmount(amount - 1) : setAmount(1)
   }
   const setIncrease = () => {
     setAmount(amount + 1)
+  }
+
+  const openModal = () => {
+    setModalOpen(true)
+  }
+
+  const closeModal = () => {
+    setModalOpen(false)
   }
 
   return (
@@ -70,11 +79,19 @@ const ProductTemplate = ({ pageContext }) => {
               <Button
                 type="button"
                 buttonStyle="btn--primary--solid--full"
-                onClick={() => addVariantToCart(product, amount)}
+                onClick={() => {
+                  setModalOpen(true)
+                  addVariantToCart(product, amount)
+                }}
               >
                 Hozzáadás a kosárhoz
               </Button>
             </div>
+            {modalOpen && (
+              <ModalAddToCart isOpen={modalOpen} onClose={closeModal}>
+                <p> &#10003; Betettük a terméket a kosárba</p>
+              </ModalAddToCart>
+            )}
 
             {/* <form>
               <p>

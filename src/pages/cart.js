@@ -68,7 +68,9 @@ const Cart = () => {
           </>
         )}
         {hasItems ? (
-          cart.map((item, index) => <ProductRow key={index} item={item} />)
+          cart.map((item, index) => (
+            <ProductRow key={item.product.title} item={item} />
+          ))
         ) : (
           <div className="cart--empty mt-40px mb-40px">
             <h3>A kosarad üres</h3>
