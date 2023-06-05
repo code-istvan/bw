@@ -22,10 +22,7 @@ const ProductRow = ({ item }) => {
     addVariantToCart(product, amount)
   }
 
-  console.log("product", product.variants[0])
-
   const handleRemove = shopifyId => {
-    console.log("console.looog", shopifyId)
     removeLineItem(shopifyId)
   }
 
