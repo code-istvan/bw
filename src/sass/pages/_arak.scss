@@ -1,0 +1,51 @@
+@import "/src/sass/global";
+
+table.prices {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  font-family: $font-family-secondary;
+  // margin: 10px 0 20px;
+
+  td {
+    line-height: 1.8;
+  }
+
+  th:nth-child(1) {
+    width: 160px;
+
+    @include md {
+      width: 220px;
+    }
+
+    @include lg {
+      width: 280px;
+    }
+  }
+
+  th:nth-child(2) {
+    width: 100px;
+
+    @include md {
+      width: 120px;
+    }
+  }
+
+  td:nth-child(3) {
+    font-size: 10px;
+    font-weight: 800;
+    color: $color-brand-orange;
+    text-align: end;
+  }
+
+  tr {
+    border-bottom: 1px solid $color-shades-darkGray;
+    padding: 3px 2px;
+  }
+}
+
+.arak-wrapper {
+  small {
+    margin-top: 8px;
+  }
+}

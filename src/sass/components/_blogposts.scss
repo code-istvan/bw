@@ -103,6 +103,7 @@
 
 article {
   blockquote {
+    word-break: break-word;
     border-left: 4px solid $color-brand-orange;
     padding: 20px;
     margin-left: 0;
@@ -159,9 +160,22 @@ article {
   }
 }
 
+strong {
+  font-weight: 900;
+}
+
 .blogpost-share-buttons {
   display: flex;
   flex-direction: row;
   gap: 10px;
   margin-top: 10px;
+}
+
+.footnotes {
+  h2 {
+    display: none;
+  }
+  ol {
+    padding-top: 8px;
+  }
 }

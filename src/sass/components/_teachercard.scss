@@ -1,0 +1,52 @@
+@import "/src/sass/global";
+
+.teacher-card {
+  border: solid 2px $color-shades-darkGray;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 150px;
+
+  .teacher-card__card-body {
+    padding: 20px;
+    display: flex;
+    @include xs {
+      flex-direction: column;
+      align-items: center;
+    }
+    @include md {
+      flex-direction: row;
+    }
+  }
+
+  .teacher-card__text {
+    h3 {
+      padding-bottom: 10px;
+    }
+    .teacher-card__card-link {
+      display: block;
+      padding-top: 10px;
+    }
+
+    @include xs {
+      text-align: center;
+      padding-top: 16px;
+    }
+    @include md {
+      text-align: left;
+      padding-left: 20px;
+      padding-top: 0;
+    }
+  }
+}
+
+.teacher-card__avatar {
+  // @include xs {
+  //   display: flex;
+  //   justify-content: center;
+  //   padding-bottom: 20px;
+  // }
+  // @include md {
+  //   display: block;
+  // }
+}

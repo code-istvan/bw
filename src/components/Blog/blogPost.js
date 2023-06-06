@@ -28,6 +28,8 @@ const BlogPost = ({ data, children, pageContext, location }) => {
   const sectionRef = useRef(null)
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
+  console.log(post)
+
   return (
     <Layout articleProperties={articleProperties}>
       <div className="blog-posts-wrapper">
@@ -71,7 +73,7 @@ const BlogPost = ({ data, children, pageContext, location }) => {
                   <div className="meta-author">
                     <GatsbyImage
                       image={author.authorimage.childImageSharp.gatsbyImageData}
-                      className="avatar-image"
+                      className="avatar__image avatar__image--small"
                       alt={post.frontmatter.author}
                     />
                     <p>{post.frontmatter.author}</p>
@@ -170,6 +172,7 @@ export const query = graphql`
         date(formatString: "YYYY MMMM DD.", locale: "hu-HU")
         tags
         thumbnail
+        description
       }
     }
     site {

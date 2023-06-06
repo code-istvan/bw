@@ -1,7 +1,7 @@
 ---
 published: true
 title: "David Garrigues: Gyenge testben erőtlen lélek"
-description: Sri K. Pattabhi Jois szerint az Önvaló nem ismerhető meg a gyengék által.
+description: Sri K. Pattabhi Jois szerint az Önvaló nem ismerhető meg a gyengék által
 author: István
 tags:
   - jógaelmélet
@@ -12,14 +12,14 @@ thumbnail: /blogpostimages/dg.jpg.webp
 
 Ezek és más hasonló kijelentések rávilágítanak arra, hogy mennyire fontosnak tartotta hangsúlyozni az astanga jóga harmadik ágának, az ászanák gyakorlásának értékét.
 
-Azt tanította, hogy a gyakorlás által a tanítvány erőssé válik, nem csak fizikai, de végsősoron minden más módon is, és ebbe az is beletartozik, hogy a tanítványok megtanulják mélyen tisztelni és követni a jóga első két ágának a jama és a nijama irányelvek etikai útmutatásait.
+Azt tanította, hogy a gyakorlás által a tanítvány erőssé válik, nem csak fizikai, de végsősoron minden más módon is, és ebbe az is beletartozik, hogy a tanítványok megtanulják mélyen tisztelni és követni a jóga első két ágának a *jama* és a *nijama* irányelvek etikai útmutatásait.
 Az ászanákat elképzelhetjük úgy, mint a jóga fájának gyökerét, amely stabil alapul szolgál a többi ághoz. Ez azért van így, mert azáltal, hogy a test elkezd dolgozni a különböző testhelyzetekkel, világosan feltárul fizikailag és gyakorlatilag, hogy mi van a lelkünk mélyén, ugyanakkor ezek a testhelyzetek megakadályozzák az elme berögzült szokásainak ismétlődését.
 
 Egyszer Guruji és én váltottunk pár szót gyakorlás után búcsúzáskor. **David Garrigues:** „Oh, ma nagyon merev volt a hátam.” **Guruji:** (kikerekedett szemekkel és némi erőltetett komolysággal az arcán): „Sok gondolkodás, túl sok gondolkodás van ott.”
 
 Ahhoz, hogy eredményt érjünk el a jógával, elengedhetetlenül fontos az, hogy ne feledkezzünk meg a test fontosságának elsődlegességéről a gondolatokhoz képest. Előfordulhat, hogy a fizikai lét háttérbe szorul, amikor gondolkodunk, és az is, hogy az intellektust felsőbbrendűnek ítéljük a fizikai létnél. Az igazság azonban az, hogy a kreatív gondolatok egyenesen az ingerekre fogékony fizikai testből származnak. Leválasztani a gondolatokat, miközben elhanyagoljuk a testet, nemkívánatos távolságot teremthet a gyakorló fizikai teste és az érzetek között, így a megélt tapasztalásnak nem lesz kapcsolata a fizikai test zsigeri működésével.
 
-A jógaágak jelentőségének megcserélése azáltal, hogy az ászanák a jama etikai iránymutatások elé kerülnek, annak az elismerése, hogy elképzelhetetlen, hogy kizárólag gondolat által próbáljuk meg elengedni az agressziót, kapzsiságot, irigységet és az egoista vagy épp önelégült és letargikus hajlamainkat. Fizikai szinten kell megharcolnunk velük. Fel kell építeni a fizikai és mentális erőt az ászanák (testhelyzetek), a pránájáma (légzőgyakorlatok) és a dhjána (meditáció) segítségével, és majd akkor szedhetjük magunkat össze, majd akkor tudjuk kijavítani a káros viselkedési mintákat amelyek képtelenné tesznek bennünket amikor már nem kapzsiságból, haragból és más szélsőséges érzelem szemszögéből reagálunk ösztönösen.
+A jógaágak jelentőségének megcserélése azáltal, hogy az ászanák a *jama* etikai iránymutatások elé kerülnek, annak az elismerése, hogy elképzelhetetlen, hogy kizárólag gondolat által próbáljuk meg elengedni az agressziót, kapzsiságot, irigységet és az egoista vagy épp önelégült és letargikus hajlamainkat. Fizikai szinten kell megharcolnunk velük. Fel kell építeni a fizikai és mentális erőt az ászanák (testhelyzetek), a pránájáma (légzőgyakorlatok) és a dhjána (meditáció) segítségével, és majd akkor szedhetjük magunkat össze, majd akkor tudjuk kijavítani a káros viselkedési mintákat amelyek képtelenné tesznek bennünket amikor már nem kapzsiságból, haragból és más szélsőséges érzelem szemszögéből reagálunk ösztönösen.
 
 A test az ösztönlét és a vibráló, megfoghatatlan, egyedi és valós érzetekkel kapcsolatos élettel teliség otthona, amely minden egyes pillanatban aktívan él bennünk.
 

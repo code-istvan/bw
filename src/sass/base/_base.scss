@@ -45,6 +45,10 @@ section {
   }
 }
 
+.mt-10px {
+  margin-top: 10px;
+}
+
 .mt-20px {
   margin-top: 20px;
 }
@@ -79,6 +83,10 @@ section {
   a {
     color: inherit;
     text-decoration: inherit;
+  }
+
+  .tag-button-hover:hover {
+    color: $color-brand-orange !important;
   }
 }
 

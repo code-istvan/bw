@@ -1,0 +1,42 @@
+@import "/src/sass/global";
+
+.modal--overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal--content {
+  background-color: $color-shades-lightGray;
+  color: black;
+  padding: 40px;
+  max-width: 500px;
+  border-radius: 4px;
+}
+
+.modal--header {
+  margin-bottom: 24px;
+}
+
+.modal--buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.modal--content__icon,
+.modal--content__last-button {
+  display: flex;
+  justify-content: center;
+  svg {
+    width: 36px;
+    height: 36px;
+  }
+}

@@ -13,10 +13,22 @@
   // width: 100%;
 }
 
-.btn:hover {
-  transform: translateY(0px);
-  background-color: $color-brand-orange;
+// .btn:hover {
+//   transform: translateY(0px);
+//   background-color: $color-brand-orange;
+//   color: $color-shades-black;
+// }
+
+.btn--plain--naked {
+  background-color: transparent;
   color: $color-shades-black;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .btn--primary--solid {
@@ -25,21 +37,68 @@
   border: none;
 }
 
+.btn--primary--solid--full {
+  background-color: $color-brand-orange;
+  color: $color-shades-black;
+  border: none;
+  width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.btn--primary--solid--full:hover {
+  opacity: 0.8;
+}
+
+.btn--third--solid {
+  background-color: $color-shades-black;
+  color: $color-shades-white;
+  border: 2px solid $color-shades-black;
+  @include xl {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 32px;
+  }
+}
+
+.btn--third--solid:hover {
+  opacity: 0.7;
+}
+
 .btn--primary--outline {
+  background-color: transparent;
+  transition: transform 0.5s ease;
+  color: $color-brand-orange;
+  border: 2px solid $color-brand-orange;
+}
+
+.btn--primary--outline:hover {
+  transform: translateY(0px);
+  background-color: $color-brand-orange;
+  color: $color-shades-black;
+}
+
+.btn--primary--outline-full {
   background-color: transparent;
   color: $color-brand-orange;
   border: 2px solid $color-brand-orange;
+  width: 100%;
+}
+
+.btn--primary--outline-full:hover {
+  transform: translateY(0px);
+  background-color: $color-brand-orange;
+  color: $color-shades-black;
 }
 
 .btn--secondary--solid {
   background-color: $color-shades-gray;
   color: $color-shades-black;
 
-  @include xl {
-    font-size: 20px;
-    font-weight: 600;
-    padding: 16px 32px;
-  }
+  // @include xl {
+  //   font-size: 20px;
+  //   font-weight: 600;
+  //   padding: 16px 32px;
+  // }
 }
 
 // footer button
@@ -59,6 +118,24 @@
   transform: translateY(0px);
   background-color: $color-shades-lightGray;
   color: $color-shades-black;
+}
+
+// shop modal button
+.btn--third--outline {
+  background-color: transparent;
+  color: $color-shades-black;
+  border: 2px solid $color-shades-black;
+  @include xl {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 32px;
+  }
+}
+
+.btn--third--outline:hover {
+  transform: translateY(0px);
+  background-color: $color-shades-black;
+  color: $color-shades-white;
 }
 
 //blog posts, events button

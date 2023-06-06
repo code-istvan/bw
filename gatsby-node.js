@@ -23,12 +23,57 @@ exports.onCreateWebpackConfig = helper => {
   }
 }
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
   const blogListTamplate = path.resolve("./src/components/Blog/blogList.js")
   const blogPostTemplate = path.resolve("./src/components/Blog/blogPost.js")
   const tagsTemplate = path.resolve("./src/components/Blog/tags.js")
+  const tagsShopify = path.resolve("./src/components/Shopify/tagsShop.js")
   const scheduleTemplate = path.resolve("./src/components/orarend.js")
+
+  const productShopify = await graphql(`
+    query {
+      allShopifyProduct {
+        edges {
+          node {
+            title
+            handle
+            tags
+            featuredMedia {
+              preview {
+                image {
+                  localFile {
+                    childrenImageSharp {
+                      gatsbyImageData
+                    }
+                  }
+                }
+              }
+            }
+            variants {
+              shopifyId
+            }
+            priceRangeV2 {
+              maxVariantPrice {
+                amount
+              }
+            }
+            descriptionHtml
+          }
+        }
+      }
+    }
+  `)
+
+  productShopify.data.allShopifyProduct.edges.forEach(({ node }) => {
+    createPage({
+      path: `/shop/products/${node.handle}`,
+      component: path.resolve(`./src/components/Shopify/product.js`),
+      context: {
+        product: node,
+      },
+    })
+  })
 
   return graphql(ALL_QUERIES).then(result => {
     if (result.errors) {
@@ -60,6 +105,21 @@ exports.createPages = ({ actions, graphql }) => {
         path: `tags/${slugify(tag)}`,
         component: tagsTemplate,
         context: { tag },
+      })
+    })
+
+    const products = productShopify.data.allShopifyProduct.edges
+    let productTags = []
+    products.forEach(({ node }) => {
+      productTags.push(...node.tags)
+    })
+    productTags = Array.from(new Set(productTags))
+
+    productTags.forEach(productTag => {
+      createPage({
+        path: `shop/tags/${slugify(productTag)}`,
+        component: tagsShopify,
+        context: { productTag },
       })
     })
 

@@ -54,7 +54,7 @@ export default function EventsRoll({ onlyFeatured = false }) {
                                   .gatsbyImageData
                               }
                               alt={teacherName}
-                              className="avatar-image"
+                              className="avatar__image avatar__image--small"
                             />
 
                             <p className="clr-shades-gray">{teacherName}</p>

@@ -1,5 +1,4 @@
 import * as React from "react"
-import { useState } from "react"
 import { Link } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import NavbarDesktopFeatured from "./NavbarDesktopFeatured"
@@ -39,17 +38,14 @@ const NavbarMenu = ({ open, setOpen }) => {
 
   const menuItemsFomenu = [
     { link: "/blog", label: "BLOG" },
-    { link: "https://bandha-payments.hu", label: "SHOP", isExtenal: true },
+    { link: "/shop", label: "SHOP" },
     { link: "/kapcsolat", label: "KAPCSOLAT" },
   ]
-
-  // The submenu flashes for a moment when I move the mouse to the main menu. Only in the desktop view.
-  const [isHovering, setIsHovering] = useState(false)
 
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
       {breakpoints.md ? <NavbarMenuMobilHeader /> : null}
-      <ul className="nav-links mt-20px">
+      <ul className="nav-links">
         {menuGroupsFomenu.map(({ title, items }) => (
           <li className="nav-item dropdown" key={title}>
             <div
@@ -59,8 +55,6 @@ const NavbarMenu = ({ open, setOpen }) => {
               // role="button"
               data-bs-toggle="dropdown"
               // aria-expanded="false"
-              // onMouseEnter={() => setIsHovering(true)}
-              // onMouseLeave={() => setIsHovering(false)}
             >
               {title}
             </div>
@@ -68,9 +62,7 @@ const NavbarMenu = ({ open, setOpen }) => {
               {items.map(({ link, label }) => (
                 <li className="nav-item" as="li" key={label}>
                   <Link
-                    className={`dropdown-item clr-shades-white ${
-                      isHovering ? "menu-flash" : ""
-                    }`}
+                    className="dropdown-item clr-shades-white"
                     to={link}
                     onClick={() => setOpen(false)}
                   >
@@ -93,7 +85,7 @@ const NavbarMenu = ({ open, setOpen }) => {
               </a>
             ) : (
               <Link
-                className="nav-link clr-shades-white"
+                className="nav-link clr-shades-white menuItemsFomenu"
                 to={link}
                 onClick={() => setOpen(false)}
               >

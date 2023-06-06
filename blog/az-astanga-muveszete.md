@@ -2,7 +2,7 @@
 published: true
 title: Az astanga művészete
 description: A megfelelő guru megtalálásához először is törekedni kell arra,
-  hogy megfelelő tanítványokká váljunk.
+  hogy megfelelő tanítványokká váljunk
 author: István
 tags:
   - astanga elmélet
@@ -19,15 +19,15 @@ Az astanga jelenlegi „rangidős” vezetője Paramguru Sharath Jois egy kéthe
 
 ### A jóga India DNS-ében van.
 
-**Sharathji:** Örülök, hogy ennyi indiai diákot látok. A jóga Indiából származik. Amikor Indiában jógázik az ember, akkor az mindig egy mélyebben átélt élmény. Nagyon sok risi gyakorolta Indiában a tapaszt (önmegtartóztatást) és érte el a móksát (felszabadulást, megvilágosodás, elengedés). Amikor itt gyakorolsz akkor ezen energiákat lehet érezni. Nagyon sok diákom van szerte a világból és mindig visszatérnek, azért mert tudják, hogy amit itt tapasztalnak az valami más. Még amikor Észak-Indiába is utazik az ember a nagy folyóinkhoz a Gangeszhez, a Saraswatihoz… ezen helyek tele vannak energiával. Mindez azért van így mert sok risi ezeken a helyszíneken meditált, és ez az energia ott érezhető.
+**Sharathji:** Örülök, hogy ennyi indiai diákot látok. A jóga Indiából származik. Amikor Indiában jógázik az ember, akkor az mindig egy mélyebben átélt élmény. Nagyon sok *risi* gyakorolta Indiában a tapaszt (önmegtartóztatást) és érte el a móksát (felszabadulást, megvilágosodás, elengedés). Amikor itt gyakorolsz akkor ezen energiákat lehet érezni. Nagyon sok diákom van szerte a világból és mindig visszatérnek, azért mert tudják, hogy amit itt tapasztalnak az valami más. Még amikor Észak-Indiába is utazik az ember a nagy folyóinkhoz a Gangeszhez, a Saraswatihoz… ezen helyek tele vannak energiával. Mindez azért van így mert sok risi ezeken a helyszíneken meditált, és ez az energia ott érezhető.
 
 ### A jamák és nijamák gyakorlásának célja
 
-**Sharathji:**  Egyetlen célt szem előtt tartva jógázz – azért, hogy a testből és az elméből az asudisokat eltávolítsd. Az asudis azt jelenti szennyeződés. Amikor a tapasz szerint élünk és odaadással gyakorolunk, akkor elérhetjük a jñā́nát, ami az igaz spirituális tudást jelenti. Annak érdekében, hogy megtapasztaljuk a jñā́nát egy magasabb szinten kell a jógát gyakorolnunk. Ehhez idő kell. Idő, amelyet nem lehet lerövidíteni.
+**Sharathji:**  Egyetlen célt szem előtt tartva jógázz – azért, hogy a testből és az elméből az *asudisokat* eltávolítsd. Az *asudis* azt jelenti szennyeződés. Amikor a *tapasz* szerint élünk és odaadással gyakorolunk, akkor elérhetjük a jñā́nát, ami az igaz spirituális tudást jelenti. Annak érdekében, hogy megtapasztaljuk a *jñā́nát* egy magasabb szinten kell a jógát gyakorolnunk. Ehhez idő kell. Idő, amelyet nem lehet lerövidíteni.
 
 ![Ashtanga led class in Mysore](/blogpostimages/3c.jpeg)
 
-A jamák és a nijamák évekig tartó gyakorlásával egy idő után az ember elkezd mindent egyenrangúan kezelni. Valamennyi érzésre, a boldogságra, a szomorúságra, a nyereségre, a veszteségre, a győzelemre és a legyőzöttségre ugyanúgy a samathával (belső kiegyensúlyozottsággal) kezd el reagálni. A jóga által világossá válik, hogy mindezen érzelmek az élet természetes velejárói. Amikor erre ráébred, az embert egyetlen érzés sem láncolja magához többé. Mindent ugyanúgy, ugyanolyannak, egyenlőnek kezd el látni. Az elme szilárd és nyugodt marad és ezen elmeállapot a jóga legmagasabb fokának tekinthető. Valamennyi jamát és nijamát gyakorolni kell ahhoz, hogy ezen elmeállapotot elérjük. Ekkor kifejlődik a yogalakshan – amely a jógi jellemzőinek összessége.
+A *jamák* és a *nijamák* évekig tartó gyakorlásával egy idő után az ember elkezd mindent egyenrangúan kezelni. Valamennyi érzésre, a boldogságra, a szomorúságra, a nyereségre, a veszteségre, a győzelemre és a legyőzöttségre ugyanúgy a *samathával* (belső kiegyensúlyozottsággal) kezd el reagálni. A jóga által világossá válik, hogy mindezen érzelmek az élet természetes velejárói. Amikor erre ráébred, az embert egyetlen érzés sem láncolja magához többé. Mindent ugyanúgy, ugyanolyannak, egyenlőnek kezd el látni. Az elme szilárd és nyugodt marad és ezen elmeállapot a jóga legmagasabb fokának tekinthető. Valamennyi *jamát* és *nijamát* gyakorolni kell ahhoz, hogy ezen elmeállapotot elérjük. Ekkor kifejlődik a yogalakshan – amely a jógi jellemzőinek összessége.
 A szilárd elme segít abban, hogy minden helyzetben a helyes döntést hozzuk meg. A jóga által az elme ezen stabilitása elérhetővé válik. Az agyműködés letisztultabb lesz és az elme ingadozásai megszűnnek. Viszont ahhoz, hogy ez megtörténhessen, változtatni kell az életstíluson, annak érdekében, hogy az a gyakorlással összhangban legyen. Teljes odaadással kell gyakorolni. Át kell élni a gyakorlást magát. Ez az egyetlen út.
 
 ### A megfelelő GURU meglelés
@@ -36,12 +36,12 @@ A szilárd elme segít abban, hogy minden helyzetben a helyes döntést hozzuk m
 
 ![End of the ashtanga led class in Sharath Yoga Center](/blogpostimages/4a.jpeg)
 
-Ne légy elveszett. Egyetlen stílust gyakorolj, egy tanárral. Őszinte szeretetet kell táplálnod a gyakorlásod és a tanárod iránt függetlenül attól, hogy a tested mennyire hajlékony vagy nem hajlékony. Elmész egy tanárhoz azért, hogy megtanulj egy adott ászanát, aztán egy másik tanárhoz, hogy megtanulj egy másik ászanát. Ha egy adott órán hajlékonynak mutatkozik a test, úgy az a személy akinek az óráján történt a gurud lesz. Aztán egy nap, egy másik ászanánál a test kevésbé bizonyul hajlékonynak és akkor egy új guru után nézel. Ez rendkívül káros a gyakorlásodra nézve. Ha szereted a tanárod, úgy odaadással viseltetsz a gyakorlásod felé is és bízol a tanárodban. Az astangához idő kell. Türelmesnek kell lenned, és el kell köteleződnöd egy tanár és egy gyakorlás felé. Ha így teszel akkor megtapasztalod a sādhana és a gurud tanításainak jótékony hatásait.
+Ne légy elveszett. Egyetlen stílust gyakorolj, egy tanárral. Őszinte szeretetet kell táplálnod a gyakorlásod és a tanárod iránt függetlenül attól, hogy a tested mennyire hajlékony vagy nem hajlékony. Elmész egy tanárhoz azért, hogy megtanulj egy adott ászanát, aztán egy másik tanárhoz, hogy megtanulj egy másik ászanát. Ha egy adott órán hajlékonynak mutatkozik a test, úgy az a személy akinek az óráján történt a gurud lesz. Aztán egy nap, egy másik ászanánál a test kevésbé bizonyul hajlékonynak és akkor egy új guru után nézel. Ez rendkívül káros a gyakorlásodra nézve. Ha szereted a tanárod, úgy odaadással viseltetsz a gyakorlásod felé is és bízol a tanárodban. Az astangához idő kell. Türelmesnek kell lenned, és el kell köteleződnöd egy tanár és egy gyakorlás felé. Ha így teszel akkor megtapasztalod a *sādhana* és a gurud tanításainak jótékony hatásait.
 
 > A megfelelő guru megtalálásához először is törekedni kell arra, hogy megfelelő tanítványokká váljunk.
 > — Paramaguru R. Sharath Jois
 
-Amikor megérinted a gurud lábát, ne megszokásból, hanem tiszta szívvel tégy így. Indiában mi az idősek és a guruk lábát érintjük meg. Ez a szeretet és a tisztelet kifejezése – a guru tanításai és a gyakorlás iránti odaadás jelképe. A guru és a shishya közötti kölcsönös tisztelet a spirituális tanulás és fejlődés alapja.
+Amikor megérinted a gurud lábát, ne megszokásból, hanem tiszta szívvel tégy így. Indiában mi az idősek és a guruk lábát érintjük meg. Ez a szeretet és a tisztelet kifejezése – a guru tanításai és a gyakorlás iránti odaadás jelképe. A guru és a *shishya* közötti kölcsönös tisztelet a spirituális tanulás és fejlődés alapja.
 
 ### Az astanga jóga tanítása
 
@@ -66,7 +66,7 @@ Miért siet annyira néhány diák? Végigrohan az ember a pózokon anélkül, h
 
 ![Ashtanga yoga chikitsa](/blogpostimages/7b.jpeg)
 
-A légzés irányítja az elmét. Ha a légzésben zavar van, az az elmében is zavart okoz. Akkor tehetsz szert újabb pózokra, amikor megtanulsz helyesen lélegezni.  A vinyasa szabályozza a légzést. Surya namaskarival kezdjük a gyakorlást azért, hogy megnyugtassuk az elmét és kiegyenlítsük a légzésünket. Minél többet gyakorolsz annál jobban edzed a tested az elméd és a légzésed. A test könnyűvé válik.
+A légzés irányítja az elmét. Ha a légzésben zavar van, az az elmében is zavart okoz. Akkor tehetsz szert újabb pózokra, amikor megtanulsz helyesen lélegezni.  A *vinyásza* szabályozza a légzést. Surya namaskarival kezdjük a gyakorlást azért, hogy megnyugtassuk az elmét és kiegyenlítsük a légzésünket. Minél többet gyakorolsz annál jobban edzed a tested az elméd és a légzésed. A test könnyűvé válik.
 Amikor előre és hátra ugrasz akkor ezt keresztezett lábbal tedd és aktiváld a múla bandhát. Ez segít a bandha megerősítésében.
 
 ### A jóga mint üzlet

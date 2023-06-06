@@ -1,5 +1,5 @@
 import * as React from "react"
-import SearchBar from "../SearchBar"
+// import SearchBar from "../SearchBar"
 import { Link } from "gatsby"
 import BlogTags from "./BlogTags"
 import Icons from "../Icons/Icons"
@@ -28,7 +28,7 @@ const BlogSidebar = () => {
 
   return (
     <div className="blogsidebar-wrapper">
-      <SearchBar id="" type="text" name="serach" placeholder="Keresés" />
+      {/* <SearchBar id="" type="text" name="serach" placeholder="Keresés" /> */}
       <h4>CIMKÉK</h4>
       <BlogTags />
       <div>

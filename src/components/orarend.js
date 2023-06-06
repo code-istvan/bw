@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import { CustomLink } from "./CustomLink"
 import Layout from "./Layouts/Layout"
 import Seo from "./seo"
-import Accordion from "./Accordion"
+import Accordion from "./Accordions/Accordion"
 import Icons from "./Icons/Icons"
 import "../sass/components/_orarend.scss"
 

@@ -1,0 +1,59 @@
+@import "/src/sass/global";
+
+.cart--header__button {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    color: $color-shades-lightGray;
+  }
+}
+
+.cart--header {
+  padding-bottom: 12px;
+  border-bottom: 2px solid $color-shades-darkGray;
+
+  div:last-child p {
+    float: right;
+  }
+}
+
+.cart--quantity {
+  @include xs {
+    display: none !important;
+  }
+  @include md {
+    display: block !important;
+  }
+}
+
+.cart--footer__total {
+  @include xs {
+    text-align: center;
+  }
+  @include md {
+    text-align: right;
+  }
+}
+
+.cart--footer__text {
+  @include xs {
+    text-align: center;
+  }
+  @include md {
+    text-align: right;
+  }
+}
+
+.cart--empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  @include xs {
+    height: 140px;
+  }
+  @include md {
+    height: 200px;
+  }
+}

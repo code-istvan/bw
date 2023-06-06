@@ -2,7 +2,7 @@
 published: true
 title: AstangAnyu – nagycsaládos gyakorlás
 description: Lilla hivatását tekintve szülésznő és elhivatott gyakorló, aki
-  jelenleg a negyedik kisbabáját várja.
+  jelenleg a negyedik kisbabáját várja
 author: István
 tags:
   - astanga interjú

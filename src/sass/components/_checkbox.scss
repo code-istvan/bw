@@ -8,11 +8,11 @@
     /* Not removed via appearance */
     margin: 0;
     font: inherit;
-    color: $color-shades-lightGray;
-    width: 1.15em;
-    height: 1.15em;
+    color: $color-shades-darkGray;
+    width: 1.25em;
+    height: 1.25em;
     border-radius: none !important;
-    border: 1px solid currentColor;
+    border: 2px solid currentColor;
     transform: translateY(-0.075em);
     display: inline-grid;
     place-content: center;

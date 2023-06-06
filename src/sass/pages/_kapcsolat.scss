@@ -61,13 +61,10 @@ button[type="submit"] {
 }
 
 .kapcsolat-social-box {
-  @media screen and (min-width: 1px) and (max-width: 768px) {
-    border-bottom: solid 1px $color-shades-lightBlack;
-  }
-
   .social-icons {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
+  paddig-top: -20px;
 }
 
 .kapcsolat-social-text {
@@ -111,4 +108,17 @@ label {
 .massage-wrapper {
   margin-top: 5px;
   width: 100%;
+}
+
+.kapcsolat-body {
+  p:nth-child(3) {
+    padding-bottom: 28px;
+    border-bottom: solid 1px $color-shades-lightBlack;
+    @media only screen and (min-width: 1px) and (max-width: 768px) {
+      margin-bottom: -12px;
+    }
+    @media only screen and (min-width: 769px) {
+      margin-bottom: 28px;
+    }
+  }
 }

@@ -7,7 +7,7 @@ import { graphql, navigate } from "gatsby"
 import Icons from "../Icons/Icons"
 import BlogTags from "./BlogTags"
 import BlogSidebar from "./BlogSidebar"
-import SearchBar from "../SearchBar"
+// import SearchBar from "../SearchBar"
 import BlogRoll from "./BlogRoll"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import "../../sass/components/_bloglist.scss"
@@ -54,7 +54,7 @@ export default function Blog({ pageContext, data }) {
       <div className="row blog-frame gap-2">
         <div className="col-12-xs col-3-md col-3-xl blog-right-column">
           <div className="blog-header-only-mobil">
-            <SearchBar id="" type="text" name="serach" placeholder="Keresés" />
+            {/* <SearchBar id="" type="text" name="serach" placeholder="Keresés" /> */}
             <h4>CIMKÉK</h4>
             <BlogTags />
           </div>

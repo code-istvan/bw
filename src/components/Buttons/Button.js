@@ -3,10 +3,15 @@ import "../../sass/components/_button.scss"
 
 const STYLES = [
   "btn--primary--solid",
+  "btn--primary--solid--full",
+  "btn--plain--naked",
   "btn--secondary--solid",
   "btn--secondary--outline",
+  "btn--third--solid",
+  "btn--third--outline",
   "btn--third--naked-orange",
   "btn--primary--outline",
+  "btn--primary--outline-full",
   "btn--small--outline",
 ]
 

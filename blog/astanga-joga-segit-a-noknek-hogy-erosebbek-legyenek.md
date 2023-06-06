@@ -59,7 +59,7 @@ A legfontosabb, amit megtanultam, hogy ők is normális emberek. Nem jobb az él
 
 A gyakorlás célja a tisztulás. Ha kitisztítod a tested, sokkal érzékenyebb és kiegyensúlyozottabb leszel. Az intuíciód is erősebb lesz, nem vonják el a figyelmed a gondolataid és jobban tudsz figyelni az emberekre. Érzed az érzelmeiket, a stressz-szintjüket, értelmezed a mikro-arckifejezéseiket. Olyan ez, mintha szavakat olvasnál egy könyvből. Varázserőnek tűnik, de semmi más, mint figyelem, egyfajta érzékenység.
 
-Az Astanga jóga rendszerének megalkotása Sri K. Pattabhi Jois indiai jógamester nevéhez fűződik. A gyakorlás során a mély, tudatos légzésnek központi szerepe van. Az astanga egyik különlegessége a Mysore stílusú óra, ahol az oktató nem vezeti a tanítványokat, nem diktálja a légzést vagy az ászanákat. A résztvevők saját ritmusukban gyakorolnak, közben személyre szabott fizikai igazításokat és verbális instrukciókat kapnak. 
+Az astanga jóga rendszerének megalkotása Sri K. Pattabhi Jois indiai jógamester nevéhez fűződik. A gyakorlás során a mély, tudatos légzésnek központi szerepe van. Az astanga egyik különlegessége a Mysore stílusú óra, ahol az oktató nem vezeti a tanítványokat, nem diktálja a légzést vagy az ászanákat. A résztvevők saját ritmusukban gyakorolnak, közben személyre szabott fizikai igazításokat és verbális instrukciókat kapnak. 
 
 Nézz bele egy astanga jógaórába:
 [![KPJAYI bakasana in led class](/blogpostimages/govinda_bakasana.jpeg)](https://youtu.be/hyMlySBgVE4)

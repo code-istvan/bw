@@ -1,9 +1,17 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import TeachersCard from "../components/Cards/TeachersCard"
+import Seo from "../components/seo"
+import { useTeachers } from "../hooks/useTeachersQuery"
+import "../sass/pages/_oktatok.scss"
 
-export default function Oktatok() {
+const Oktatok = () => {
+  const teachers = useTeachers()
+  const filterTeachers = teachers.filter(
+    item => item.name === "István" || item.name === "Noémi"
+  )
+
   return (
     <Layout>
       <Seo title="OKTATÓK" />
@@ -32,9 +40,34 @@ export default function Oktatok() {
           />
         </div>
       </div>
-      <div className="row">
-        <h1>valami</h1>
+      <div className="oktatok-wrapper">
+        <div className="row mt-40px gap-1">
+          {filterTeachers.map(
+            ({ name: teacherName, link, style, title, fullname }) => {
+              const currentTeacher = filterTeachers.find(
+                name => name.name === teacherName
+              )
+              return (
+                <div className="col-12-xs col-6-lg">
+                  <TeachersCard
+                    teacherName={fullname}
+                    teacherImg={
+                      currentTeacher.teacherimage.childImageSharp
+                        .gatsbyImageData
+                    }
+                    title={title}
+                    yogaStyle={style}
+                    slug={link}
+                    key={teacherName}
+                  />
+                </div>
+              )
+            }
+          )}
+        </div>
       </div>
     </Layout>
   )
 }
+
+export default Oktatok

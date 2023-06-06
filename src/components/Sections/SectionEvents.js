@@ -7,21 +7,17 @@ import "../../sass/components/_sectionevents.scss"
 const SectionEvents = () => {
   return (
     <section className="section--events">
-      <div className="container-fluid">
-        <div className="container">
-          <h1 className="mb-20px">Programok</h1>
-          <EventsRoll onlyFeatured={true} />
-          <Button
-            type="button"
-            buttonStyle="btn--primary--outline"
-            onClick={() => {
-              navigate("/mysore-program")
-            }}
-          >
-            Programok bővebben
-          </Button>
-        </div>
-      </div>
+      <h1 className="mb-20px">Programok</h1>
+      <EventsRoll onlyFeatured={true} />
+      <Button
+        type="button"
+        buttonStyle="btn--primary--outline"
+        onClick={() => {
+          navigate("/mysore-program")
+        }}
+      >
+        Programok bővebben
+      </Button>
     </section>
   )
 }

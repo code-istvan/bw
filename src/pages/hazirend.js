@@ -10,7 +10,7 @@ export default function Házirend() {
     <Layout>
       <Seo title="HÁZIREND" />
       <div className="page-hero-container">
-        <div className="row">
+        <div className="row tight--desktop--container">
           <h1 className="page-hero-title">HÁZIREND</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
@@ -34,12 +34,28 @@ export default function Házirend() {
           />
         </div>
       </div>
-      <div className="row">
-        <div className="col">
-          <ol type="1" className="body">
-            {houseRules &&
-              houseRules.map(({ rule }) => <li key={rule}>{rule}</li>)}
-          </ol>
+      <div className="hazirend-wrapper tight--desktop--container">
+        <div className="row mt-20px mb-20px">
+          <div className="col">
+            <h3>
+              A saját és társaid zavartalan gyakorlása és befelé figyelése
+              érdekében kérünk, hogy olvasd el, és tartsd be a házirendben
+              foglaltakat. Köszönjük!
+            </h3>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <ol type="1" className="body">
+              {houseRules &&
+                houseRules.map(({ rule }) => <li key={rule}>{rule}</li>)}
+            </ol>
+          </div>
+        </div>
+        <div className="row mt-20px mb-20px">
+          <div className="col">
+            <p>Várunk szeretettel!</p>
+          </div>
         </div>
       </div>
     </Layout>

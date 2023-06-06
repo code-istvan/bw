@@ -10,7 +10,7 @@ export default function Ajanlottolvasmanyok() {
     <Layout>
       <Seo title="AJÁNLOTT OLVASMÁNYOK" />
       <div className="page-hero-container">
-        <div className="row">
+        <div className="row tight--desktop--container">
           <h1 className="page-hero-title">AJÁNLOTT OLVASMÁNYOK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
@@ -34,80 +34,69 @@ export default function Ajanlottolvasmanyok() {
           />
         </div>
       </div>
-      <div className="olvasmanyok-wrapper">
-        <div className="row">
-          <div className="col unordered-list-style">
-            <h3>Astanga vinyásza jóga</h3>
-            <br />
-            <ul>
-              {RecommendedReadings.olvasmanyokAstanga &&
-                RecommendedReadings.olvasmanyokAstanga.map(
-                  ({ author, title }) => (
-                    <li key={title}>
-                      <p>
-                        <strong>{author}</strong>: {title}
-                      </p>
-                    </li>
-                  )
-                )}
-            </ul>
-            <br />
-          </div>
+      <div className="tight--desktop--container">
+        <div className="row mt-40px mb-20px">
+          <h3>Astanga vinyásza jóga</h3>
         </div>
-        <div className="row">
-          <div className="col unordered-list-style">
-            <h3>Vinyásza krama jóga</h3>
-            <br />
-            <ul>
-              {RecommendedReadings.olvasmanyokKrama &&
-                RecommendedReadings.olvasmanyokKrama.map(
-                  ({ author, title }) => (
-                    <li key={title}>
-                      <p>
-                        <strong>{author}</strong>: {title}
-                      </p>
-                    </li>
-                  )
-                )}
-            </ul>
-            <br />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col unordered-list-style">
-            <h3>Egyéb spirituális könyvek amiket előszeretettel forgatunk</h3>
-            <br />
-            <ul>
-              {RecommendedReadings.olvasmanyokSpiri &&
-                RecommendedReadings.olvasmanyokSpiri.map(
-                  ({ author, title }) => (
-                    <li key={title}>
-                      <p>
-                        <strong>{author}</strong>: {title}
-                      </p>
-                    </li>
-                  )
-                )}
-            </ul>
-            <br />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col unordered-list-style">
-            <h3>Táplálkozással, életvitellel kapcsolatos könyvek</h3>
-            <br />
-            <ul>
-              {RecommendedReadings.olvasmanyokFood &&
-                RecommendedReadings.olvasmanyokFood.map(({ author, title }) => (
+        <div className="row unordered-list-style mb-40px">
+          <ul>
+            {RecommendedReadings.olvasmanyokAstanga &&
+              RecommendedReadings.olvasmanyokAstanga.map(
+                ({ author, title }) => (
                   <li key={title}>
                     <p>
                       <strong>{author}</strong>: {title}
                     </p>
                   </li>
-                ))}
-            </ul>
-            <br />
-          </div>
+                )
+              )}
+          </ul>
+          <br />
+        </div>
+        <div className="row mb-20px">
+          <h3>Vinyásza krama jóga</h3>
+        </div>
+        <div className="row unordered-list-style mb-40px">
+          <ul>
+            {RecommendedReadings.olvasmanyokKrama &&
+              RecommendedReadings.olvasmanyokKrama.map(({ author, title }) => (
+                <li key={title}>
+                  <p>
+                    <strong>{author}</strong>: {title}
+                  </p>
+                </li>
+              ))}
+          </ul>
+        </div>
+        <div className="row mb-20px">
+          <h3>Egyéb spirituális könyvek amiket előszeretettel forgatunk</h3>
+        </div>
+        <div className="row unordered-list-style mb-40px">
+          <ul>
+            {RecommendedReadings.olvasmanyokSpiri &&
+              RecommendedReadings.olvasmanyokSpiri.map(({ author, title }) => (
+                <li key={title}>
+                  <p>
+                    <strong>{author}</strong>: {title}
+                  </p>
+                </li>
+              ))}
+          </ul>
+        </div>
+        <div className="row mb-20px">
+          <h3>Táplálkozással, életvitellel kapcsolatos könyvek</h3>
+        </div>
+        <div className="row unordered-list-style mb-40px">
+          <ul>
+            {RecommendedReadings.olvasmanyokFood &&
+              RecommendedReadings.olvasmanyokFood.map(({ author, title }) => (
+                <li key={title}>
+                  <p>
+                    <strong>{author}</strong>: {title}
+                  </p>
+                </li>
+              ))}
+          </ul>
         </div>
       </div>
     </Layout>

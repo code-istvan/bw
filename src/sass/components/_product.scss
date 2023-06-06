@@ -1,0 +1,46 @@
+@import "/src/sass/global";
+
+.shopify--product--header {
+  margin-top: 80px;
+}
+
+.shopify--product--title {
+  @include xs {
+    margin-top: 40px;
+  }
+  @include md {
+    margin-top: 0;
+  }
+}
+.shopify--product--right-side {
+  @include md {
+    padding-left: 26px;
+  }
+}
+
+.shopify--product--price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.shopify--product--description--mobil {
+  @include xs {
+    border-top: 1px solid $color-shades-darkGray;
+    padding-top: 40px;
+  }
+  @include md {
+    display: none !important;
+  }
+}
+
+.shopify--product--description--desktop {
+  @include xs {
+    display: none !important;
+  }
+  @include md {
+    display: block !important;
+    margin-top: 40px;
+  }
+}
