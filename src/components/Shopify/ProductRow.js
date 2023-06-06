@@ -9,6 +9,7 @@ const ProductRow = ({ item }) => {
   const { product, quantity } = item
   const { removeLineItem, addVariantToCart } = useStore()
   const [amount, setAmount] = useState(quantity)
+  const totalPrice = product.priceRangeV2.maxVariantPrice.amount * amount
 
   const setDecrease = () => {
     amount > 1
@@ -75,7 +76,7 @@ const ProductRow = ({ item }) => {
           </button>
         </div>
         <div className="product-row--right__price">
-          <p>{product.priceRangeV2.maxVariantPrice.amount} Ft.</p>
+          <p>{totalPrice} Ft.</p>
         </div>
       </div>
     </div>
