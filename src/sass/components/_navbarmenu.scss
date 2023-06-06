@@ -22,19 +22,7 @@
     overflow-x: hidden;
     z-index: 1;
     overflow: scroll;
-
-    // height: 100vh;
-    // width: 100%;
-    // display: block;
-    // position: fixed;
-    // opacity: 1;
-    // pointer-events: auto;
-    // clip-path: circle(1500px at 93% -40%);
-    // -webkit-clip-path: circle(1500px at 93% -40%);
-    // pointer-events: all;
-    // -webkit-transition: all 1s ease-out;
-    // -o-transition: all 1s ease-out;
-    // transition: all 1s ease-out;
+    background-color: $offcanvas-menu-color;
   }
 
   .mobil-menu-closed {
