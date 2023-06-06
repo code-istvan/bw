@@ -14,7 +14,7 @@ export default function Házirend() {
           <h1 className="page-hero-title">HÁZIREND</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/hazirend_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -24,7 +24,7 @@ export default function Házirend() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/hazirend_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}

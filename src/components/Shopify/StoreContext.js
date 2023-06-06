@@ -1,9 +1,6 @@
 import React, { createContext, useState, useEffect, useContext } from "react"
 import fetch from "isomorphic-fetch"
 import Client from "shopify-buy"
-// import Cart from "../../pages/cart"
-// import { navigate } from "gatsby"
-import ModalAddToCart from "./ModalAddToCart"
 
 const client = Client.buildClient(
   {
@@ -34,18 +31,6 @@ export const StoreProvider = ({ children }) => {
   const [cart, setCart] = useState(defaultValues.cart)
   const [checkout, setCheckout] = useState(defaultValues.checkout)
   const [loading, setLoading] = useState(false)
-  const [modalOpen, setModalOpen] = useState(false)
-
-  console.log("cart", cart)
-
-  const openModal = () => {
-    setModalOpen(true)
-  }
-
-  const closeModal = () => {
-    setModalOpen(false)
-  }
-
   const setCheckoutItem = checkout => {
     if (isBrowser) {
       localStorage.setItem(localStorageKey, checkout.id)
@@ -59,8 +44,11 @@ export const StoreProvider = ({ children }) => {
       const existingCheckoutID = isBrowser
         ? localStorage.getItem(localStorageKey)
         : null
-
-      if (existingCheckoutID && existingCheckoutID !== `null`) {
+      const storedCart = isBrowser ? localStorage.getItem("cart") : null;
+      if (storedCart) {
+        setCart(JSON.parse(storedCart));
+      }
+      if (existingCheckoutID) {
         try {
           const existingCheckout = await client.checkout.fetch(
             existingCheckoutID
@@ -80,6 +68,12 @@ export const StoreProvider = ({ children }) => {
 
     initializeCheckout()
   }, [])
+
+  useEffect(() => {
+    if (isBrowser) {
+      localStorage.setItem("cart", JSON.stringify(cart));
+    }
+  }, [cart])
 
   const addVariantToCart = async (product, quantity) => {
     setLoading(true)
@@ -131,7 +125,6 @@ export const StoreProvider = ({ children }) => {
       setCart(updatedCart)
 
       setLoading(false)
-      openModal()
       // navigate("/cart")
     } catch (error) {
       setLoading(false)
@@ -140,12 +133,16 @@ export const StoreProvider = ({ children }) => {
   }
 
   const removeLineItem = async variantId => {
-    setLoading(true)
+    setLoading(true) // TODO: you have exposed the loading (you can do "const {loading} = useStore()" from any component and get the loading state (to add spiners or whatever you want :))
     try {
       let lineItemID = ""
       checkout.lineItems?.forEach(item => {
-        if (item.variableValues.lineItems[0]?.variantId === variantId) {
-          lineItemID = item.id
+        const stringCheckout = item.id.split("?")[0];
+        const checkoutId = String(Math.floor(stringCheckout.substring(stringCheckout.lastIndexOf("/") + 1) / 10));
+
+        const variantId2 = variantId.substring(variantId.lastIndexOf("/") + 1);
+        if (variantId2 === checkoutId) {
+          lineItemID = item?.id
         }
       })
 
@@ -182,12 +179,6 @@ export const StoreProvider = ({ children }) => {
       }}
     >
       {children}
-      <div>
-        {/* <button onClick={openModal}>Open Modal</button> */}
-        {/* <ModalAddToCart isOpen={modalOpen} onClose={closeModal}>
-          <p> &#10003; Betettük a terméket a kosárba</p>
-        </ModalAddToCart> */}
-      </div>
     </StoreContext.Provider>
   )
 }
