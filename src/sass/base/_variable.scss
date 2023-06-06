@@ -6,7 +6,7 @@ $colors: (
     "orange": hsl(37.3, 90.4%, 51.2%),
   ),
   shades: (
-    "black": hsl(0, 0%, 0%),
+    "black": hsl(0, 0%, 15%),
     "lightBlack": hsl(240, 10%, 30%),
     "darkGray": hsl(0, 0%, 20%),
     "darkerGray": hsl(0, 0%, 15%),
@@ -21,7 +21,7 @@ $colors: (
 
 // Colors
 $color-brand-orange: hsl(37.3, 90.4%, 51.2%);
-$color-shades-black: hsl(0, 0%, 0%);
+$color-shades-black: hsl(0, 0%, 15%);
 $color-shades-white: hsl(0, 0%, 100%);
 $color-shades-lightGray: hsl(0, 0%, 90%);
 $color-shades-gray: hsl(0, 0%, 77%);
