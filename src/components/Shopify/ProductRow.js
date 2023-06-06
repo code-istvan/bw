@@ -14,12 +14,12 @@ const ProductRow = ({ item }) => {
     amount > 1
       ? setAmount(amount - 1)
       : removeLineItem(product.variants[0]?.shopifyId)
-    addVariantToCart(product, amount)
+    addVariantToCart(product, amount - 1)
   }
 
   const setIncrease = () => {
     setAmount(amount + 1)
-    addVariantToCart(product, amount)
+    addVariantToCart(product, amount + 1)
   }
 
   const handleRemove = shopifyId => {
