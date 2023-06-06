@@ -68,8 +68,8 @@ const Cart = () => {
           </>
         )}
         {hasItems ? (
-          cart.map((item, index) => (
-            <ProductRow key={item.product.title} item={item} />
+          cart.sort((a, b) => a.product.title.localeCompare(b.product.title)).map((item, index) => (
+            <ProductRow item={item} key={item.product.title} />
           ))
         ) : (
           <div className="cart--empty mt-40px mb-40px">

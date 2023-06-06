@@ -13,8 +13,8 @@ const client = Client.buildClient(
 const defaultValues = {
   cart: [],
   loading: false,
-  addVariantToCart: () => {},
-  removeLineItem: () => {},
+  addVariantToCart: () => { },
+  removeLineItem: () => { },
   client,
   checkout: {
     id: "",
@@ -95,31 +95,39 @@ export const StoreProvider = ({ children }) => {
     ]
 
     try {
-      const res = await client.checkout.addLineItems(
-        checkoutID,
-        lineItemsToUpdate
-      )
-      setCheckout(res)
+      const item = cart.find(
+        (item) => item.product.variants[0]?.shopifyId === variantId
+      );
+
+      const quantityToAdd = item ? parsedQuantity - item.quantity : parsedQuantity;
+      const res = await client.checkout.addLineItems(checkoutID, {
+        variantId,
+        quantity: quantityToAdd,
+      });
+      setCheckout(res);
 
       let updatedCart = []
       if (cart.length > 0) {
         const itemIsInCart = cart.find(
           item => item.product.variants[0]?.shopifyId === variantId
         )
-
+        console.log("itemIsInCart", itemIsInCart)
         if (itemIsInCart) {
           const newProduct = {
             product: { ...itemIsInCart.product },
-            quantity: itemIsInCart.quantity,
+            quantity: parsedQuantity,
           }
+          console.log("1", itemIsInCart.quantity)
           const otherItems = cart.filter(
             item => item.product.variants[0]?.shopifyId !== variantId
           )
           updatedCart = [...otherItems, newProduct]
         } else {
+          console.log("2")
           updatedCart = cart.concat([{ product, quantity: parsedQuantity }])
         }
       } else {
+        console.log("3")
         updatedCart = [{ product, quantity: parsedQuantity }]
       }
       setCart(updatedCart)
