@@ -111,7 +111,7 @@ export default function Arak() {
             </tr>
           </table>
         </div>
-        <div className="row mb-20px">
+        <div className="row mb-40px">
           <h3>Magánórák</h3>
           <table className="prices mt-10px">
             <thead>
@@ -140,8 +140,12 @@ export default function Arak() {
         </div>
         <div className="row">
           <p>
-            A bérlet, tanfolyam és napijegy árak nem visszatéríthetőek, nem
-            hosszabbíthatók meg, illetve nem "fagyaszthatóak" be.
+            A bérletek, tanfolyamok és az egy alkalmas jegyek árai nem
+            visszatéríthetőek. A bérletek az érvényességi időn túl nem
+            hosszabbíthatók meg; a bérletek felhasználása, illetőleg a
+            tanfolyamok nem szüneteltethetők. A megvásárolt, napijegyek egy
+            alkalmas (egy alkalomra szóló) jegyek időpontjának utólagos
+            módosítására nincsen lehetőség.
           </p>
         </div>
       </div>
