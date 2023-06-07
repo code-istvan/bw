@@ -36,9 +36,13 @@ export default function Tanfolyam() {
         </div>
       </div>
 
-      <div className="row">
-        <h1>Tradicionális astanga jóga tanfolyamok</h1>
+      <div className="row mt-40px mb-40px">
+        <h1 className="mb-20px">Tradicionális astanga jóga tanfolyamok</h1>
         <EventsRoll onlyFeatured={true} />
+      </div>
+      <div className="row mt-40px mb-40px">
+        <h1 className="mb-20px">Egyéb programjaink</h1>
+        <EventsRoll onlyFeatured={false} />
       </div>
     </Layout>
   )

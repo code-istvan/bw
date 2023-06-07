@@ -42,7 +42,6 @@ export default function EventsRoll({ onlyFeatured = false }) {
                         </p>
                       </div>
                       <div className="col">
-                        {" "}
                         <div className="vertical-separator" />
                       </div>
                       <div className="col">
