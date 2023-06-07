@@ -1,6 +1,7 @@
 {
   "Shortdescription": "8 alkalmas tanfolyam teljesen kezdők és újrakezdők számára",
   "teacher": "István",
+  "tanfolyam": true,
   "featured": true,
   "published": true,
   "date": "2023-09-05T20:42:12.037Z",
