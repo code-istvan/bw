@@ -1,18 +1,16 @@
 import * as React from "react"
-// import { navigate } from "gatsby"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-// import Button from "../components/Buttons/Button"
 import EventsRoll from "../components/EventsFeaturedRoll"
 
-export default function Tanfolyam() {
+export default function Programok() {
   return (
     <Layout>
-      <Seo title="TANFOLYAMOK" />
+      <Seo title="PROGRAMOK" />
       <div className="page-hero-container">
         <div className="row">
-          <h1 className="page-hero-title">TANFOLYAMOK</h1>
+          <h1 className="page-hero-title">PROGRAMOK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/hirlevel.jpg"
@@ -36,13 +34,8 @@ export default function Tanfolyam() {
         </div>
       </div>
 
-      <div className="row mt-40px mb-40px">
-        <h1 className="mb-20px">Tradicionális astanga jóga tanfolyamok</h1>
-        <EventsRoll onlyFeatured={true} />
-      </div>
-      <div className="row mt-40px mb-40px">
-        <h1 className="mb-20px">Egyéb programjaink</h1>
-        <EventsRoll onlyFeatured={false} />
+      <div className="row">
+        <h1>valami</h1>
       </div>
     </Layout>
   )

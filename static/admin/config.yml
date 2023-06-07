@@ -362,39 +362,17 @@ collections:
           default: true,
         }
       - {
-          label: "Tanfolyam",
-          name: "tanfolyam",
-          widget: "boolean",
-          default: false,
-          required: false,
-        }
-      - {
-          label: "Konferencia",
-          name: "konferencia",
-          widget: "boolean",
-          default: false,
-          required: false,
-        }
-      - {
-          label: "Tábor",
-          name: "tabor",
-          widget: "boolean",
-          default: false,
-          required: false,
-        }
-      - {
-          label: "Egyéb közösségi",
-          name: "egyebkozossegi",
-          widget: "boolean",
-          default: false,
-          required: false,
-        }
-      - {
-          label: "SharathDzsi",
-          name: "SharathDzsi",
-          widget: "boolean",
-          default: false,
-          required: false,
+          label: "Esemény típusa",
+          name: "esemenytipusa",
+          widget: "select",
+          options:
+            [
+              "Tanfolyam",
+              "Konferencia",
+              "Tábor",
+              "Egyéb közösségi",
+              "SharathDzsi",
+            ],
         }
       - { label: Eventid, name: eventid, widget: string }
       - { label: Title, name: title, widget: string }

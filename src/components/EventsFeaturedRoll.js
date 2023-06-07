@@ -1,13 +1,13 @@
 import React from "react"
 import { useEventsRoll } from "../hooks/useEventsRollQuery"
-import Button from "../components/Buttons/Button"
+import Button from "./Buttons/Button"
 import { Link } from "gatsby"
 import { navigate } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { useTeachers } from "../hooks/useTeachersQuery"
 import "../sass/components/_eventsroll.scss"
 
-export default function EventsRoll({ onlyFeatured = false }) {
+export default function EventsFeaturedRoll({ onlyFeatured = false }) {
   let events = useEventsRoll()
   const teachers = useTeachers()
   const featuredEvents = events.filter(item => item.featured === true)
@@ -70,7 +70,7 @@ export default function EventsRoll({ onlyFeatured = false }) {
                       type="button"
                       buttonStyle="btn--third--naked-orange"
                       onClick={() => {
-                        navigate("/mysore-program")
+                        navigate({ eventlink })
                       }}
                     >
                       Részletek
