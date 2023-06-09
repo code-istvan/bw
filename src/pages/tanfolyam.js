@@ -4,7 +4,8 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 // import Button from "../components/Buttons/Button"
-import EventsRoll from "../components/EventsFeaturedRoll"
+import EventsTypeOfRoll from "../components/EventsTypeOfRoll"
+import EventsFeaturedRoll from "../components/EventsFeaturedRoll"
 
 export default function Tanfolyam() {
   return (
@@ -38,11 +39,15 @@ export default function Tanfolyam() {
 
       <div className="row mt-40px mb-40px">
         <h1 className="mb-20px">Tradicionális astanga jóga tanfolyamok</h1>
-        <EventsRoll onlyFeatured={true} />
+        <EventsTypeOfRoll typeOfEvents="Tanfolyam" />
       </div>
       <div className="row mt-40px mb-40px">
         <h1 className="mb-20px">Egyéb programjaink</h1>
-        <EventsRoll onlyFeatured={false} />
+        <EventsTypeOfRoll typeOfEvents="Konferencia" />
+      </div>
+      <div className="row mt-40px mb-40px">
+        <h1 className="mb-20px">Összes programunk</h1>
+        <EventsFeaturedRoll showAll={true} />
       </div>
     </Layout>
   )

@@ -272,3 +272,10 @@ blockquote {
     margin: 0 10px 0 -42px;
   }
 }
+
+.custom-link-style {
+  color: $color-brand-orange;
+  a {
+    text-decoration: none;
+  }
+}

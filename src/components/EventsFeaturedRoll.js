@@ -1,21 +1,26 @@
 import React from "react"
 import { useEventsRoll } from "../hooks/useEventsRollQuery"
-import Button from "./Buttons/Button"
 import { Link } from "gatsby"
-import { navigate } from "gatsby"
+import { CustomLink } from "./CustomLink"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { useTeachers } from "../hooks/useTeachersQuery"
 import "../sass/components/_eventsroll.scss"
 
-export default function EventsFeaturedRoll({ onlyFeatured = false }) {
+export default function EventsFeaturedRoll({
+  onlyFeatured = false,
+  showAll = false,
+}) {
   let events = useEventsRoll()
   const teachers = useTeachers()
   const featuredEvents = events.filter(item => item.featured === true)
-  const displayEvents = onlyFeatured ? featuredEvents : events
+  let filteredEvents = onlyFeatured ? featuredEvents : events
+  if (showAll) {
+    filteredEvents = events
+  }
 
   return (
     <div className="row gap-1">
-      {displayEvents.map(
+      {filteredEvents.map(
         ({
           title,
           date,
@@ -29,6 +34,22 @@ export default function EventsFeaturedRoll({ onlyFeatured = false }) {
             teacher => teacher.name === teacherName
           )
 
+          const emptyString = ""
+
+          let eventFooterContent
+          if (eventlink === emptyString) {
+            eventFooterContent = <p>Részletek hamarosan</p>
+          } else {
+            eventFooterContent = (
+              <CustomLink
+                link={eventlink}
+                title="Részletek"
+                classNames="btn--third--naked-orange"
+              />
+            )
+          }
+
+          console.log(eventlink)
           return (
             <div className="col-12-xs col-6-md" key={date}>
               <div className="event-card">
@@ -65,16 +86,8 @@ export default function EventsFeaturedRoll({ onlyFeatured = false }) {
                   <div className="event-card-body">
                     <p className="clr-shades-gray">{Shortdescription}</p>
                   </div>
-                  <div className="event-card-footer">
-                    <Button
-                      type="button"
-                      buttonStyle="btn--third--naked-orange"
-                      onClick={() => {
-                        navigate({ eventlink })
-                      }}
-                    >
-                      Részletek
-                    </Button>
+                  <div className="event-card-footer body custom-link-style">
+                    {eventFooterContent}
                   </div>
                 </div>
               </div>
