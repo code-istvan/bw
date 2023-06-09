@@ -72,7 +72,7 @@ const Orarend = ({ data }) => {
                 .toUpperCase()
               return (
                 <div className="schedule-wrapper">
-                  <div className="bg-shades-darkerGray container-fluid">
+                  <div className="bg-shades-darkGray container-fluid">
                     <div className="container">
                       <div className="schedule-date-line clr-shades-gray tight--desktop--container">
                         <div>
