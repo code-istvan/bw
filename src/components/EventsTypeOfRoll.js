@@ -46,7 +46,7 @@ export default function EventsTypeOfRoll({ typeOfEvents }) {
           }
 
           return (
-            <div className="col-12-xs col-6-md" key={date}>
+            <div className="col-12-xs col-6-md col-4-xl" key={date}>
               <div className="event-card">
                 <div className="event-card-content-wrapper">
                   <div className="event-card-header">
