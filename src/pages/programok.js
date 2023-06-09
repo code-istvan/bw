@@ -2,7 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import EventsRoll from "../components/EventsFeaturedRoll"
+import EventsTypeOfRoll from "../components/EventsTypeOfRoll"
+import EventsFeaturedRoll from "../components/EventsFeaturedRoll"
 
 export default function Programok() {
   return (
@@ -33,9 +34,17 @@ export default function Programok() {
           />
         </div>
       </div>
-
-      <div className="row">
-        <h1>valami</h1>
+      <div className="row mt-40px mb-40px">
+        <h1 className="mb-20px">Tradicionális astanga jóga tanfolyamok</h1>
+        <EventsTypeOfRoll typeOfEvents="Tanfolyam" />
+      </div>
+      <div className="row mt-40px mb-40px">
+        <h1 className="mb-20px">Astanga konferencia</h1>
+        <EventsTypeOfRoll typeOfEvents="Konferencia" />
+      </div>
+      <div className="row mt-40px mb-40px">
+        <h1 className="mb-20px">Astanga workshop</h1>
+        <EventsTypeOfRoll typeOfEvents="SharathDzsi" />
       </div>
     </Layout>
   )
