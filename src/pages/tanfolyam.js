@@ -2,8 +2,7 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import EventsTypeOfRoll from "../components/EventsTypeOfRoll"
-import EventsFeaturedRoll from "../components/EventsFeaturedRoll"
+import EventsTypeOfRoll from "../components/Events/EventsTypeOfRoll"
 
 export default function Tanfolyam() {
   return (

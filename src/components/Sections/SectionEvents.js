@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
-import EventsFeaturedRoll from "../EventsFeaturedRoll"
+import EventsFeaturedRoll from "../Events/EventsFeaturedRoll"
 import "../../sass/components/_sectionevents.scss"
 
 const SectionEvents = () => {

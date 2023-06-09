@@ -1,10 +1,10 @@
 import React from "react"
-import { useEventsRoll } from "../hooks/useEventsRollQuery"
+import { useEventsRoll } from "../../hooks/useEventsRollQuery"
 import { Link } from "gatsby"
-import { CustomLink } from "./CustomLink"
+import { CustomLink } from "../CustomLink"
 import { GatsbyImage } from "gatsby-plugin-image"
-import { useTeachers } from "../hooks/useTeachersQuery"
-import "../sass/components/_eventsroll.scss"
+import { useTeachers } from "../../hooks/useTeachersQuery"
+import "../../sass/components/_eventsroll.scss"
 
 export default function EventsFeaturedRoll({
   onlyFeatured = false,
