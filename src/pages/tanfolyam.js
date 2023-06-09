@@ -1,9 +1,7 @@
 import * as React from "react"
-// import { navigate } from "gatsby"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-// import Button from "../components/Buttons/Button"
 import EventsTypeOfRoll from "../components/EventsTypeOfRoll"
 import EventsFeaturedRoll from "../components/EventsFeaturedRoll"
 
@@ -36,7 +34,6 @@ export default function Tanfolyam() {
           />
         </div>
       </div>
-
       <div className="row mt-40px mb-40px">
         <h1 className="mb-20px">Tradicionális astanga jóga tanfolyamok</h1>
         <EventsTypeOfRoll typeOfEvents="Tanfolyam" />
