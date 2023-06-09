@@ -11,7 +11,10 @@
 }
 
 .accordion-mantra__box {
-  padding: 20px 0;
+  button {
+    width: 100%;
+    padding: 20px 0;
+  }
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
