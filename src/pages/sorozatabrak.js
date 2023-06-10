@@ -41,7 +41,7 @@ export default function Sorozatabrak() {
           <h1 className="page-hero-title">SOROZATÁBRÁK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/sorozatabrak_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -51,7 +51,7 @@ export default function Sorozatabrak() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/sorozatabrak_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
