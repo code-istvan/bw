@@ -64,7 +64,7 @@ export default function Sorozatabrak() {
       <div className="sorozatabrak-wapper tight--desktop--container">
         <div className="row mt-40px mb-20px">
           <h3>
-            A sorozatábra nem helyettesíti a szakképzett oktató útmutatásait.
+            A sorozatábra nem helyettesíti a szakképzett oktató útmutatását.
           </h3>
         </div>
         <div className="row">

@@ -41,7 +41,7 @@ export default function Blog({ pageContext, data }) {
           />
           <StaticImage
             className="container-fluid blog-hero-image hero-mobil-image"
-            src="../../images/blog_hero.jpg"
+            src="../../images/blog_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
