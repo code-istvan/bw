@@ -13,7 +13,7 @@ export default function Tanfolyam() {
           <h1 className="page-hero-title">TANFOLYAMOK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/tanfolyam_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
