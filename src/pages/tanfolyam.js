@@ -23,7 +23,7 @@ export default function Tanfolyam() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/tanfolyam_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
