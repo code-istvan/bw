@@ -12,6 +12,17 @@ const Cart = () => {
   const { cart, checkout } = useStore()
   const hasItems = cart.length > 0
 
+  let totalPrice = 0
+
+  const total = cart.reduce((totalPrice, cartItem) => {
+    const itemPrice =
+      cartItem.product.priceRangeV2.maxVariantPrice.amount * cartItem.quantity
+    totalPrice += itemPrice
+    return totalPrice
+  }, 0)
+
+  console.log("Total cart price:", total)
+
   return (
     <Layout>
       <Seo title="KOSÁR" />
@@ -68,9 +79,11 @@ const Cart = () => {
           </>
         )}
         {hasItems ? (
-          cart.sort((a, b) => a.product.title.localeCompare(b.product.title)).map((item, index) => (
-            <ProductRow item={item} key={item.product.title} />
-          ))
+          cart
+            .sort((a, b) => a.product.title.localeCompare(b.product.title))
+            .map((item, index) => (
+              <ProductRow item={item} key={item.product.title} />
+            ))
         ) : (
           <div className="cart--empty mt-40px mb-40px">
             <h3>A kosarad üres</h3>
@@ -94,7 +107,7 @@ const Cart = () => {
                 <div className="cart--footer__buttons">
                   <div>
                     <p className="cart--footer__total">
-                      Végösszeg: ........Ft.
+                      Végösszeg: {total} Ft.
                     </p>
                     <p className="mt-20px mb-20px cart--footer__text">
                       Tartalmazza a megrendeléskor kiszámított adót és
