@@ -36,50 +36,52 @@ export default function Vinyasza() {
             A rendszer célja tehát a szamádhi állapotába jutás, az ezt elősegítő
             lépcsőfokok pedig a következők:
           </p>
-          <ul>
-            <li>
-              <p>
-                <strong>Jama</strong> - erkölcsi előírások
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Nijama</strong> - önfegyelem gyakorlása
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Ászana</strong> - jógatesthelyzetek gyakorlása
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Pránájáma</strong> - légzés szabályozásának gyakorlása
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Pratjáhára</strong> - érzékek és a világ dolgai közötti
-                kapcsolat kiiktatása
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Dhárána</strong> - tartós koncentráció
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Dhjána</strong> - megszakítás nélküli meditáció
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Szamádhi</strong> - a látó és a látott iránti
-                közömbösség megtapasztalása
-              </p>
-            </li>
-          </ul>{" "}
+          <div className="unordered-list-style">
+            <ul>
+              <li>
+                <p>
+                  <strong>Jama</strong> - erkölcsi előírások
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Nijama</strong> - önfegyelem gyakorlása
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Ászana</strong> - jógatesthelyzetek gyakorlása
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Pránájáma</strong> - légzés szabályozásának gyakorlása
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Pratjáhára</strong> - érzékek és a világ dolgai
+                  közötti kapcsolat kiiktatása
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Dhárána</strong> - tartós koncentráció
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Dhjána</strong> - megszakítás nélküli meditáció
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Szamádhi</strong> - a látó és a látott iránti
+                  közömbösség megtapasztalása
+                </p>
+              </li>
+            </ul>
+          </div>
           <br />
           <p>
             Ezek alapján az ászana csak piciny szelet az egészből, mégis
@@ -128,27 +130,28 @@ export default function Vinyasza() {
           </p>{" "}
           <br />
           <p>A sorozatokat három csoportba soroljuk:</p>
-          <br />
-          <ul>
-            <li>
-              <p>
-                <strong>Jóga Csikitszá</strong> (jóga terápia): a fizikai test
-                rendbetételére szolgál
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Nádi Sódhana</strong> (nádik tisztítása): az
-                idegrendszer tisztítását végzi
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Szthíra Bhága A, B, C, D </strong>(szilárd erő): az
-                előző sorozatok hatásainak elmélyítését szolgálja
-              </p>
-            </li>
-          </ul>
+          <div className="unordered-list-style">
+            <ul>
+              <li>
+                <p>
+                  <strong>Jóga Csikitszá</strong> (jóga terápia): a fizikai test
+                  rendbetételére szolgál
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Nádi Sódhana</strong> (nádik tisztítása): az
+                  idegrendszer tisztítását végzi
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Szthíra Bhága A, B, C, D </strong>(szilárd erő): az
+                  előző sorozatok hatásainak elmélyítését szolgálja
+                </p>
+              </li>
+            </ul>
+          </div>
           <br />
           <p>
             A szombat, illetve a teli- és újhold (
