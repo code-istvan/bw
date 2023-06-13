@@ -21,15 +21,15 @@ India ősi szövegei a tanár-diák kapcsolat meghatározására nagy hangsúlyt
 > Saha veeryam karavaa vahai
 > Tejasvi naa vadhee tamastu maa vidvishaa vahai 
 > Om Shaanti Shaanti Shaantihi
-> 
-> Óvjon meg mindkettőnket (a tanárt és a diákot is). 
-> Tápláljon mindkettőnket. 
-> Adassanak kettőnk munkájához nagyszerű energiák. 
-> Tanulásunk vezessen a megvilágosodás felé és legyen gyümölcsöző. 
-> Ne gyűlöljük egymást. 
-> Om Béke, Béke, Béke.
 
-*Sahana *azt jelenti „együtt” és ebben az énekben, mindketten, a tanár és a diák is azt kérjük, hogy egy bizonyos nyugalom és elfogadás járjon át bennünket a másik irányába. Sok év gyakorlást és sahanát követően a tanárnak van egy bizonyos tudása és a diák számára a közös munka rendkívül fontos, azért hogy ő maga is ezen tudás birtokába jusson. Mindezt olyan egyszerűen kell elképzelni mintha a tanár egyfajta közösségi szolgálatot végezne és ebben diákjai segítenék. Ahhoz, hogy a tudás továbbadásra kerülhessen ezen kölcsönös megértésre, támogatásra és elfogadásra van szükség.
+Óvjon meg mindkettőnket (a tanárt és a diákot is). 
+Tápláljon mindkettőnket. 
+Adassanak kettőnk munkájához nagyszerű energiák. 
+Tanulásunk vezessen a megvilágosodás felé és legyen gyümölcsöző. 
+Ne gyűlöljük egymást. 
+Om Béke, Béke, Béke.
+
+*Sahana* azt jelenti „együtt” és ebben az énekben, mindketten, a tanár és a diák is azt kérjük, hogy egy bizonyos nyugalom és elfogadás járjon át bennünket a másik irányába. Sok év gyakorlást és sahanát követően a tanárnak van egy bizonyos tudása és a diák számára a közös munka rendkívül fontos, azért hogy ő maga is ezen tudás birtokába jusson. Mindezt olyan egyszerűen kell elképzelni mintha a tanár egyfajta közösségi szolgálatot végezne és ebben diákjai segítenék. Ahhoz, hogy a tudás továbbadásra kerülhessen ezen kölcsönös megértésre, támogatásra és elfogadásra van szükség.
 
 Habár ászanákat a testünkkel végezzük a jóga shalában, mindez nagyon más mint a konditeremben történő edzés. A konditeremben az ember fizet, edz, de nincs más kapcsolódási pont. Mindez a jóga esetében nem így van. A jóga velejárója a diák és a tanár közötti kapcsolat. A shalában a tanár figyelemmel kíséri a gyakorlást, a pózokat, és amelyeknél segítségre van szükség azokban segít; valamint a diákok egymástól is tanulhatnak. Lehet, hogy egyesek haladóbbak, jobban összpontosítanak vagy fegyelmezettebbek, mint mások, de a tanárral közösen, mindenki jó energiákat hoz létre, amelyek áthatják a gyakorlást is.
 
