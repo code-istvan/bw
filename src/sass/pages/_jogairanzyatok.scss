@@ -1,0 +1,59 @@
+@import "/src/sass/global";
+
+.tabs__checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.tabs__label {
+  display: inline-block;
+  margin-right: 10px;
+  margin-right: 2rem;
+}
+
+.tabs__label.active {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+// .tabs {
+//   max-width: 400px;
+//   font-family: sans-serif;
+// }
+
+// .tabs__header {
+//   display: flex;
+// }
+
+// .tabs__label {
+//   flex: 1;
+//   padding: 10px 16px;
+//   cursor: pointer;
+//   font-size: 1.2em;
+//   display: inline-block;
+//   margin-right: 10px;
+// }
+
+// .tabs__content {
+//   border-bottom: 3px solid #dddddd;
+//   line-height: 1.5;
+//   font-size: 0.9em;
+//   display: none;
+// }
+
+// .tabs__label.active {
+//   font-weight: bold;
+//   color: #009578;
+//   border-bottom: 2px solid #009578;
+// }
+
+// .tabs__radio:checked + .tabs__label {
+//   font-weight: bold;
+//   color: #009578;
+//   border-bottom: 2px solid #009578;
+// }
+
+// .tabs__radio:checked + .tabs__label + .tabs__content {
+//   display: block;
+// }
