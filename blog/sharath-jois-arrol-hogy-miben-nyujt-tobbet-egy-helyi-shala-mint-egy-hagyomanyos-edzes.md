@@ -8,7 +8,7 @@ description: Nagyon fontos, hogy legyen egy jóga shala amihez kötődünk. Egyr
 author: István
 tags:
   - jógaelmélet
-date: 2023-06-13T11:00:45.193Z
+date: 2019-04-17T11:00:45.193Z
 thumbnail: /blogpostimages/s.shala_.jpg.webp
 ---
 ### A jóga shala ahova járunk nem csupán egy hely ahol ászanákat gyakorlunk. Egy adott jóga stúdióhoz tartozással az alábbiak szerint emelkedhet életünk minden szinten magasabbra.
