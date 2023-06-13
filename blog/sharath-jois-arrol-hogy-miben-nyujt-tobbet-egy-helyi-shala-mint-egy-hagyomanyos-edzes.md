@@ -22,6 +22,7 @@ India ősi szövegei a tanár-diák kapcsolat meghatározására nagy hangsúlyt
 > Tejasvi naa vadhee tamastu maa vidvishaa vahai 
 > Om Shaanti Shaanti Shaantihi
 
+**Fordítás:**
 Óvjon meg mindkettőnket (a tanárt és a diákot is). 
 Tápláljon mindkettőnket. 
 Adassanak kettőnk munkájához nagyszerű energiák. 
