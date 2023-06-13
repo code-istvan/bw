@@ -6,7 +6,7 @@ import { CustomLink } from "../components/CustomLink"
 import "../sass/pages/_jogairanzyatok.scss"
 
 export default function Vinyasza() {
-  const [selectedTab, setSelectedTab] = useState("Astanga vinyásza")
+  const [selectedTab, setSelectedTab] = useState("Astanga")
 
   const handleTabSelect = tab => {
     setSelectedTab(tab)
@@ -15,7 +15,7 @@ export default function Vinyasza() {
   const tabsData = [
     {
       id: "astanga",
-      title: "Astanga vinyásza",
+      title: "Astanga",
       content: (
         <div>
           <blockquote>
