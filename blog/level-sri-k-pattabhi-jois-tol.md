@@ -5,7 +5,7 @@ description: Levél Sri.K. Pattahbi Joistól a Yoga Journal 1995-ös novemberi s
 author: István
 tags:
   - jógafilozófia
-date: 2023-06-13T11:39:43.153Z
+date: 2021-03-23T11:39:43.153Z
 thumbnail: /blogpostimages/sharath-guruji.jpg
 ---
 ### Levél Sri.K. Pattahbi Joistól a Yoga Journal 1995-ös novemberi számában
