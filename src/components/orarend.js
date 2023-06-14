@@ -16,18 +16,6 @@ const Orarend = ({ data }) => {
       <div className="row mt-80px mb-20px">
         <h1>ÓRAREND</h1>
       </div>
-      <div className="row mb-20px">
-        {" "}
-        <Button
-          type="button"
-          buttonStyle="btn--secondary--solid--full"
-          onClick={() => {
-            navigate("/programok")
-          }}
-        >
-          Egyéb programok
-        </Button>
-      </div>
       <ul>
         {data.allScheduleJson.edges
           .sort((a, b) => {
@@ -247,6 +235,18 @@ const Orarend = ({ data }) => {
             }
           })}
       </ul>
+      <div className="separator-horizontal-full"></div>
+      <div className="row mt-40px">
+        <Button
+          type="button"
+          buttonStyle="btn--secondary--solid--full"
+          onClick={() => {
+            navigate("/programok")
+          }}
+        >
+          Egyéb programjaink
+        </Button>
+      </div>
     </Layout>
   )
 }
