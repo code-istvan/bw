@@ -6,28 +6,26 @@
   pointer-events: none;
 }
 
-.tabs__label {
-  // display: inline-block;
-  // margin-right: 20px;
-}
-
 .tabs__label.active {
   color: orange;
-  border-bottom: 2px solid orange;
+  margin-bottom: -2px;
+  border-bottom: 3px solid orange;
 }
 
 .tabs__header {
-  width: 100%;
   display: flex;
-  align-content: space-between;
   cursor: pointer;
-}
+  border-bottom: 1px solid $color-shades-darkGray;
+  gap: 28px;
 
-.tabs__header h3 {
-  // background-color: aqua;
-}
+  @include xs {
+    width: 100%;
+    justify-content: space-between;
+  }
 
-.tabs__label:nth-child(2) {
-  display: block;
-  margin-left: auto;
+  @include md {
+    justify-content: flex-start;
+
+    width: auto;
+  }
 }
