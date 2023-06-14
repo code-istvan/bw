@@ -7,9 +7,6 @@ html {
 body {
   background-color: $primary-background-color;
   color: $color-shades-white;
-  //   font-family: "IBM Plex Sans", sans-serif;
-  //   font-display: swap;
-  //   overflow-x: hidden;
 }
 
 @include xs {
@@ -231,7 +228,6 @@ ol {
 .unordered-list-style {
   ul {
     list-style: none;
-    // margin-left: 80px;
     font-family: $font-family-secondary;
     font-size: 1.1428571429rem !important;
     font-weight: $font-weight-regular;
@@ -242,7 +238,7 @@ ol {
     }
 
     li {
-      margin-bottom: 10px;
+      margin-bottom: 8px;
       position: relative;
     }
     li::before {
