@@ -101,6 +101,18 @@
   // }
 }
 
+.btn--secondary--solid--full {
+  background-color: $color-shades-gray;
+  color: $color-shades-black;
+  width: 100%;
+
+  // @include xl {
+  //   font-size: 20px;
+  //   font-weight: 600;
+  //   padding: 16px 32px;
+  // }
+}
+
 // footer button
 .btn--secondary--outline {
   background-color: transparent;

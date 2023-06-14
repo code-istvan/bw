@@ -193,7 +193,153 @@ export default function Vinyasza() {
       title: "Vinyásza krama",
       content: (
         <div>
-          <p>Ez egy másik példa tartalom, krama.</p>
+          <p>
+            A vinyásza krama a fizikai és spirituális önfejlesztés ősi útja,
+            amely egyesíti a tanulást, a gyakorlást és a tanítást. A szanszkrit
+            vinyásza szó vi előtagja változatot jelent, a nyásza utótag pedig
+            azt, hogy “előírt feltételek között”, tehát a teljes vinyásza
+            szóösszetétel a mozdulat és légzés összhangjára vonatkozik, a krama
+            szó jelentése pedig módszertan. A rendszer egyedi módon közelíti meg
+            a jógászanát (jógapozíciókat). A test, az elme és a légzés működését
+            időben összehangolja, ezáltal a gyakorló megtapasztalhatja az
+            ászanázás valódi örömét.
+          </p>
+          <br />
+          <p>
+            A stílus jellegzetessége, hogy minden egyes mozdulatot megfelelő
+            vinyászával kell kivitelezni, tehát az ászanákat légzéssel
+            összehangolt összekötő elem fűzi össze. Az elme szintén szorosan
+            követi a lassú, egyenletes és hangos jógalégzést; ezáltal megvalósul
+            a jóga valódi célja: a test és elme leigázása. Talán a legismertebb
+            példa az astanga vinyásza jóga hat sorozata, amelyek szintén a
+            vinyásza krama rendszerbe tartoznak.
+          </p>
+          <br />
+          <p>
+            A vinyásza krama pontosan követi a klasszikus jóga definícióját. A
+            jógát általában kétféleképpen definiálják: egyesülésnek (jukti) vagy
+            belső békének (szamádhi). A légzést igaként felhasználva a vinyásza
+            krama jóga összehangolja a testet és elmét, ezáltal létrejön az
+            egyesülés. Emellett, mivel az elme követi a mély és egyenletes
+            légzést, kitartó gyakorlással végül a legmagasabb szintű béke
+            (szamádhi) is elérhető.
+          </p>
+          <br />
+          <h3>Krishnamacharya hagyatéka</h3>
+          <br />
+          <StaticImage
+            className="mt-20px mb-40px"
+            src="../images/Krishnamacharya.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Krishnamacharya"
+            placeholder="blurred"
+          />
+          <p>
+            A legendás jógi,{" "}
+            <CustomLink
+              link="/blog/astanga-ikonok-t-krishnamacharya-1-resz/"
+              classNames="clr-brand-orange body link-decoration-remove"
+              title="Sri. T. Krishnamacharya "
+            />
+            hozta vissza ezt a jógatípust a köztudatba. Az 1930-as években
+            megírta Jóga Makaranda (A jóga nektárja) című művét, amelyben
+            bemutatja a vinyásza krama rendszert. A többszáz létező
+            vinyászasorozat közül csupán néhányat ismertet benne, de ne
+            gondoljuk, hogy az elnevezés csak ezekre a konkrét sorozatokra
+            vonatkozik. A mester könyvéban megemlíti, hogy tanárától körülbelül
+            700 ászanát tanult, amiből az következik, hogy a Jóga Makaranda csak
+            egy kis ízelítő a teljes rendszerből.
+          </p>
+          <br />
+          <h3>Spirituális háttér</h3>
+          <br />
+          <p>
+            Krishnamacharya szerint a vinyásza krama három fő aspektusa a
+            vinyásza csikitszá, a vinyásza sakti és a vinyásza adhjátmiká. A
+            vinyásza csikitszá a jóga terápiás megközelítése, a vinyásza sakti
+            az erőt növeli, a vinyásza adhjátmiká pedig közelebb viszi a
+            gyakorlót kezdetben a finomfizikai elemekhez, később Istenhez. Az
+            utóbbi módszer nem is egy adott technika, inkább a gyakorláshoz való
+            hozzáállás. Tehát az első két technika gyakorlása közben elkezdünk
+            odaadást mutatni a legfensőbb valónk iránt. Ezt bhakti jógának is
+            nevezik, az odaadás jógájának. Ez sosem passzív meghódolás, sokkal
+            inkább pozitív hozzáállás az összes egyéni lélekhez, mindenben és
+            mindenkiben az isteni szikra észrevétele.
+          </p>
+          <br />
+          <h3>A vinyásza krama jellemzői</h3>
+          <br />
+          <p>
+            A jógászanák megvalósításával kapcsolatos feltételek Patandzsali
+            Jóga szútrái alapján a következők:
+          </p>
+          <div className="unordered-list-style">
+            <ul>
+              {[
+                {
+                  title: "Stabilitás (szthíra)",
+                  description:
+                    "- ahhoz, hogy egy testhelyzetet jógászanának nevezhessünk, gyakorlóját képessé kell tennie arra, hogy stabil maradjon, legyen szó akár egyszerű állóhelyzetről (tádászana) akár fejállásról (sírsászana).",
+                },
+                {
+                  title: "Kényelem (szukha)",
+                  description:
+                    "- az elmét a légzésre összpontosítjuk, ezzel biztosítjuk, hogy rendkívül örömteli és ellazult állapotban maradjunk a gyakorlás során.",
+                },
+                {
+                  title: "Egyenletes és lassú légzés (prajatna szithila)",
+                  description:
+                    "-  ezt a módszert Patandzsali a gyakorlás megkönnyítése érdekében javasolja. A prajatna (törekvés, erőfeszítés) itt a dzsívána prajatnára vonatkozik (élni akarásra), amely itt nem más, mint maga a lélegzés. Ez a feltétel megszabja, hogy a gyakorlás alatt a légzésnek egyenletesnek és lassúnak kell maradnia. Ezért, amikor helyesen jógázunk, nem szabad erősen zilálnunk. Az aerob sportokkal ellentétben (amelyeknek szintén megvan a maga haszna) sem a légzés sebessége, sem a pulzusszám nem emelkedhet. A normál légzés sebessége 15-20 légzés percenként. Mivel a mozdulatok lassúak a vinyásza jógában, ezért a légzés sebességét is csökkenteni kell. Ideális esetben egy perc alatt legfeljebb ötször, hatszor lélegzünk.",
+                },
+              ].map((item, index) => (
+                <li key={index}>
+                  <p>
+                    <strong>{item.title}</strong> {item.description}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <br />
+          <h3>Pulzusszám a vinyásza jógában</h3>
+          <br />
+          <p>
+            A vinyásza jóga gyakorlása alatt hangos légzést kell végeznünk,
+            mivel ezzel automatikusan szabályozzuk a légzést. Ha a sorozat
+            számos vinyászájának végzése közben a gyakorló úgy érzi, hogy
+            túlterhelte magát, és nehéz lélegeznie, akkor pár perc pihenőt kell
+            tartania, amíg helyreáll a légzése. A vinyásza rendszerben gyakorlók
+            gyakran azt veszik észre, hogy az idő múlásával egyre lassul a
+            légzésük a mindennapokban is, ezáltal az elméjük is nyugodtabb és
+            derűsebb lesz. Vannak jógik, akik akár egy teljes óráig tartó
+            gyakorlás alatt végig percenként négy légzést tudnak tartani.
+            Számukra még a legnehezebb pózok is mélyen relaxálóak.
+          </p>
+          <br />
+          <h3>Az elme fókuszálása a légzésre</h3>
+          <br />
+          <p>
+            A szanszkrit ana szó légzést jelent (akárcsak a jól ismert svásza
+            szó), a szamápatti pedig a teljes elmebeli koncentráció. Az elménket
+            a légzésre kell fókuszálnunk a vinyásza gyakorlás alatt. Ha az
+            elménk elkalandozna, gyengéden vissza kell vezetni a légzéshez.
+            Szerencsére az emberek többsége könnyűnek találja a légzésre való
+            figyelést, ezáltal élvezi a gyakorlást.
+          </p>
+          <br />
+          <p>
+            Krishnamacharya mindig a vinyásza krama elveit alkalmazta az
+            ászanatanítás során, soha nem tanított különálló ászanákat vinyásza
+            és légzés nélkül. Ez a kulcsa a vinyásza krama tanításának: a lassú,
+            egyenletes légzés fennartása, és az ászanák széles skálájának
+            ismerete. A jóga terápiás hatása csak megfelelően felkészült tanár
+            segítségével érvényesülhet, aki ki tudja választani az ászanák
+            skálájából a legmegfelelőbbet a gyakorló szükségleteinek
+            megfelelően.
+          </p>
         </div>
       ),
     },
@@ -238,7 +384,7 @@ export default function Vinyasza() {
               <h3
                 key={index}
                 className={`tabs__label ${
-                  selectedTab === tab.title ? "active" : ""
+                  selectedTab === tab.title ? "active" : "not-active"
                 }`}
                 onClick={() => handleTabSelect(tab.title)}
               >

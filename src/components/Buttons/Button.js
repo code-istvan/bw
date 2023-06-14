@@ -6,6 +6,7 @@ const STYLES = [
   "btn--primary--solid--full",
   "btn--plain--naked",
   "btn--secondary--solid",
+  "btn--secondary--solid--full",
   "btn--secondary--outline",
   "btn--third--solid",
   "btn--third--outline",

@@ -32,8 +32,8 @@ export default function Galeria() {
           />
         </div>
       </div>
-      <div className="row">
-        <h1>valami</h1>
+      <div className="row mt-40px">
+        <p>Fejestés alatt!</p>
       </div>
     </Layout>
   )

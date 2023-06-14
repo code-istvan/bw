@@ -12,6 +12,10 @@
   border-bottom: 3px solid orange;
 }
 
+.tabs__label.not-active:hover {
+  color: orange;
+}
+
 .tabs__header {
   display: flex;
   cursor: pointer;

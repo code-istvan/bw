@@ -5,6 +5,8 @@ import Layout from "./Layouts/Layout"
 import Seo from "./seo"
 import Accordion from "./Accordions/Accordion"
 import Icons from "./Icons/Icons"
+import Button from "../components/Buttons/Button"
+import { navigate } from "gatsby"
 import "../sass/components/_orarend.scss"
 
 const Orarend = ({ data }) => {
@@ -13,6 +15,18 @@ const Orarend = ({ data }) => {
       <Seo title="ÓRAREND" />
       <div className="row mt-80px mb-20px">
         <h1>ÓRAREND</h1>
+      </div>
+      <div className="row mb-20px">
+        {" "}
+        <Button
+          type="button"
+          buttonStyle="btn--secondary--solid--full"
+          onClick={() => {
+            navigate("/programok")
+          }}
+        >
+          Egyéb programok
+        </Button>
       </div>
       <ul>
         {data.allScheduleJson.edges
