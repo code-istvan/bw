@@ -38,48 +38,27 @@ export default function Vinyasza() {
           </p>
           <div className="unordered-list-style">
             <ul>
-              <li>
-                <p>
-                  <strong>Jama</strong> - erkölcsi előírások
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Nijama</strong> - önfegyelem gyakorlása
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Ászana</strong> - jógatesthelyzetek gyakorlása
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Pránájáma</strong> - légzés szabályozásának gyakorlása
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Pratjáhára</strong> - érzékek és a világ dolgai
-                  közötti kapcsolat kiiktatása
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Dhárána</strong> - tartós koncentráció
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Dhjána</strong> - megszakítás nélküli meditáció
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Szamádhi</strong> - a látó és a látott iránti
-                  közömbösség megtapasztalása
-                </p>
-              </li>
+              {[
+                "Jama - erkölcsi előírások",
+                "Nijama - önfegyelem gyakorlása",
+                "Ászana - jógatesthelyzetek gyakorlása",
+                "Pránájáma - légzés szabályozásának gyakorlása",
+                "Pratjáhára - érzékek és a világ dolgai közötti kapcsolat kiiktatása",
+                "Dhárána - tartós koncentráció",
+                "Dhjána - megszakítás nélküli meditáció",
+                "Szamádhi - a látó és a látott iránti közömbösség megtapasztalása",
+              ].map((item, index) => (
+                <li key={index}>
+                  <p>
+                    {item.split(" ")[0] === item.split(" - ")[0] ? (
+                      <strong>{item.split(" - ")[0]}</strong>
+                    ) : (
+                      item.split(" - ")[0]
+                    )}{" "}
+                    - {item.split(" - ")[1]}
+                  </p>
+                </li>
+              ))}
             </ul>
           </div>
           <br />
@@ -132,24 +111,27 @@ export default function Vinyasza() {
           <p>A sorozatokat három csoportba soroljuk:</p>
           <div className="unordered-list-style">
             <ul>
-              <li>
-                <p>
-                  <strong>Jóga Csikitszá</strong> (jóga terápia): a fizikai test
-                  rendbetételére szolgál
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Nádi Sódhana</strong> (nádik tisztítása): az
-                  idegrendszer tisztítását végzi
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Szthíra Bhága A, B, C, D </strong>(szilárd erő): az
-                  előző sorozatok hatásainak elmélyítését szolgálja
-                </p>
-              </li>
+              {[
+                {
+                  title: "Jóga Csikitszá",
+                  description: "- a fizikai test rendbetételére szolgál",
+                },
+                {
+                  title: "Nádi Sódhana",
+                  description: "- az idegrendszer tisztítását végzi",
+                },
+                {
+                  title: "Szthíra Bhága A, B, C, D",
+                  description:
+                    "- az előző sorozatok hatásainak elmélyítését szolgálja",
+                },
+              ].map((item, index) => (
+                <li key={index}>
+                  <p>
+                    <strong>{item.title}</strong> {item.description}
+                  </p>
+                </li>
+              ))}
             </ul>
           </div>
           <br />
