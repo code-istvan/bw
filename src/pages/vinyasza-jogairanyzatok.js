@@ -18,6 +18,16 @@ export default function Vinyasza() {
       title: "Astanga",
       content: (
         <div>
+          <StaticImage
+            className="mt-20px mb-40px"
+            src="../images/old_shala.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
           <blockquote>
             Viná vinyásza jógéna ászanádin na kárajét <br />
             Óh, jógi, ne végezz ászanát vinyásza nélkül <br />
@@ -197,7 +207,7 @@ export default function Vinyasza() {
     <Layout>
       <Seo title="VINYÁSZA JÓGAIRÁNYZATOK" />
       <div className="page-hero-container">
-        <div className="row">
+        <div className="row tight--desktop--container">
           <h1 className="page-hero-title">VINYÁSZA JÓGAIRÁNYZATOK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
@@ -221,22 +231,23 @@ export default function Vinyasza() {
           />
         </div>
       </div>
-
-      <div className="tabs row mt-40px">
-        <div className="tabs__header mb-20px">
-          {tabsData.map((tab, index) => (
-            <h3
-              key={index}
-              className={`tabs__label ${
-                selectedTab === tab.title ? "active" : ""
-              }`}
-              onClick={() => handleTabSelect(tab.title)}
-            >
-              {tab.title}
-            </h3>
-          ))}
+      <div className="jogairanyzatok-wrapper tight--desktop--container">
+        <div className="row tabs mt-40px">
+          <div className="tabs__header mb-20px">
+            {tabsData.map((tab, index) => (
+              <h3
+                key={index}
+                className={`tabs__label ${
+                  selectedTab === tab.title ? "active" : ""
+                }`}
+                onClick={() => handleTabSelect(tab.title)}
+              >
+                {tab.title}
+              </h3>
+            ))}
+          </div>
+          <div className="tabs__content">{selectedTabContent}</div>
         </div>
-        <div className="tabs__content">{selectedTabContent}</div>
       </div>
     </Layout>
   )
