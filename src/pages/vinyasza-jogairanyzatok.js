@@ -18,16 +18,6 @@ export default function Vinyasza() {
       title: "Astanga",
       content: (
         <div>
-          <StaticImage
-            className="mt-20px mb-40px"
-            src="../images/old_shala.jpg"
-            layout="fullWidth"
-            loading="eager"
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
-            placeholder="blurred"
-          />
           <blockquote>
             Viná vinyásza jógéna ászanádin na kárajét <br />
             Óh, jógi, ne végezz ászanát vinyásza nélkül <br />
@@ -94,6 +84,16 @@ export default function Vinyasza() {
             volt.
           </p>
           <br />
+          <StaticImage
+            className="mt-20px mb-40px"
+            src="../images/old_shala.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
           <p>
             A vinyásza rendszer a mozgás és a légzés szigorú összhangját
             jelenti. Lényege az, hogy minden egyes ki- és belégzésre
@@ -118,7 +118,15 @@ export default function Vinyasza() {
             hetente hatszor.
           </p>{" "}
           <br />
-          <p>A sorozatokat három csoportba soroljuk:</p>
+          <p>
+            A{" "}
+            <CustomLink
+              link="/sorozatabrak/"
+              classNames="body link-decoration-remove clr-brand-orange"
+              title="sorozatokat"
+            />{" "}
+            három csoportba soroljuk:
+          </p>
           <div className="unordered-list-style">
             <ul>
               {[
