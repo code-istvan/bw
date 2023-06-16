@@ -18,7 +18,7 @@ function AccordionMantra(props) {
     setRotateState(
       setActive === "active"
         ? "accordion-mantra__icon"
-        : "accordion-mantra__icon rotate"
+        : "accordion-mantra__icon rotate__45deg"
     )
   }
 

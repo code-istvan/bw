@@ -39,13 +39,13 @@
 }
 
 /* Style to rotate icon when state is active */
-.rotate {
+.rotate__90deg {
   transform: rotate(90deg);
 }
 
 /* Style the accordion content panel. Note: hidden by default */
 .accordion__content {
-  background-color: black;
+  background-color: $color-shades-black;
   overflow: auto;
   transition: max-height 0.6s ease;
   overflow: hidden;

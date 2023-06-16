@@ -49,10 +49,9 @@
 }
 
 /* Style to rotate icon when state is active */
-.rotate {
+.rotate__45deg {
   transform: rotate(45deg);
 }
-
 /* Style the accordion content panel. Note: hidden by default */
 .accordion-mantra__content {
   overflow: auto;
