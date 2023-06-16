@@ -12,7 +12,7 @@ export default function Galeria() {
           <h1 className="page-hero-title">GALÉRIA</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/galeria_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -22,7 +22,7 @@ export default function Galeria() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/galeria_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -33,7 +33,7 @@ export default function Galeria() {
         </div>
       </div>
       <div className="row mt-40px">
-        <p>Fejestés alatt!</p>
+        <p>Fejlesztés alatt!</p>
       </div>
     </Layout>
   )
