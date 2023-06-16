@@ -18,11 +18,13 @@ export default function Vinyasza() {
       title: "Astanga",
       content: (
         <div>
-          <blockquote>
-            Viná vinyásza jógéna ászanádin na kárajét <br />
-            Óh, jógi, ne végezz ászanát vinyásza nélkül <br />
-            Jóga korunta - Vámana rishi <br />
-          </blockquote>
+          <div className="row">
+            <blockquote>
+              Viná vinyásza jógéna ászanádin na kárajét <br />
+              Óh, jógi, ne végezz ászanát vinyásza nélkül <br />
+              Jóga korunta - Vámana rishi <br />
+            </blockquote>
+          </div>
           <p>
             Az <b>astanga</b> szanszkrit szó jelentése nyolc ág, Patandzsali
             nyolclépcsős jógarendszerére utal. Patandzsali Maharishi

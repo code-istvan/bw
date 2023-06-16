@@ -258,7 +258,8 @@ blockquote {
   padding: 20px;
   margin: 12px 0 14px;
   background-color: $color-shades-darkGray;
-  width: fit-content;
+  // width: fit-content;
+  width: 100%;
   font-family: $font-family-secondary;
   font-weight: 900;
   text-indent: 40px;
