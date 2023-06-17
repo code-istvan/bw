@@ -12,7 +12,7 @@ export default function Osztondij() {
           <h1 className="page-hero-title">ÖSZTÖNDÍJ</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/osztondij_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -22,7 +22,7 @@ export default function Osztondij() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/osztondij_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
