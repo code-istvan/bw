@@ -7,7 +7,7 @@ description: A jógában, amikor kapcsolatba lépsz a testeddel, a központoddal
 author: István
 tags:
   - jógaelmélet
-date: 2023-06-17T20:01:58.989Z
+date: 2014-01-22T20:01:58.989Z
 thumbnail: /blogpostimages/p4.jpg.webp
 ---
 Az astanga jóga maga, – ahogy a nyolc ága is – az *ahimszával* (erőszakmentességgel) kezdődik. A nyolc ág közül a *jama* az első, az *ahimsza* pedig a legelső az ember mindennapi életében a követendő alapvető erkölcsi, morális irányelvek közül. Ezt tartják az egész rendszer alapkövének, és a többi ág tartóoszlopának. Gondoljunk csak bele, hogy a szó gyökere, „himsza” erőszakot és agressziót jelent, és amikor az „a” betű elékerül, akkor kap ellentétes jelentést a kifejezés. Például az első *jama* lehetett volna „béke” is vagy „gondoskodás”, de így sokkal inkább az erőszak minden formájának ellentétén van a hangsúly. Szándékosan, mivel az agresszió, mint az emberi természet elválaszthatatlan része automatikus túlélési reakció minden vélt vagy valós fenyegetésre vagy félelemre.
