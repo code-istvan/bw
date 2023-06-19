@@ -367,7 +367,7 @@ export default function Vinyasza() {
           <h1 className="page-hero-title">VINYÁSZA JÓGAIRÁNYZATOK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/jogairanyzatok_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -377,7 +377,7 @@ export default function Vinyasza() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/jogairanyzatok_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
