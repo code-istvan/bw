@@ -420,7 +420,7 @@ collections:
       - {
           label: Shortdescription,
           name: shortdescription,
-          widget: text,
+          widget: "markdown",
           required: false,
         }
       - { label: Signup, name: signup, widget: string, required: false }
