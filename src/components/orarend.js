@@ -32,7 +32,7 @@ const Orarend = ({ data }) => {
           <h1 className="page-hero-title">ÓRAREND</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/orarend_test.jpg"
+            src="../images/orarend_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -42,7 +42,7 @@ const Orarend = ({ data }) => {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/orarend_test_mobil.jpg"
+            src="../images/orarend_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
