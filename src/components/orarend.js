@@ -86,7 +86,7 @@ const Orarend = ({ data }) => {
               ekadashi,
             } = node
 
-            if (new Date(date).getTime() > new Date()) {
+            if (new Date(date).getTime() >= new Date().setHours(0, 0, 0, 0)) {
               let daysArray = [
                 "vasárnap",
                 "hétfő",
