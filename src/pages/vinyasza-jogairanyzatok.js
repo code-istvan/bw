@@ -93,7 +93,7 @@ export default function Vinyasza() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Old Shala Mysore"
             placeholder="blurred"
           />
           <p>
@@ -155,6 +155,16 @@ export default function Vinyasza() {
             </ul>
           </div>
           <br />
+          <StaticImage
+            className="mt-20px mb-40px"
+            src="../images/Guruji_Sharathji.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Guruji Sharathji rooftop asana pratice"
+            placeholder="blurred"
+          />
           <p>
             A szombat, illetve a teli- és újhold (
             <CustomLink
@@ -314,6 +324,16 @@ export default function Vinyasza() {
             </ul>
           </div>
           <br />
+          <StaticImage
+            className="mt-20px mb-40px"
+            src="../images/Krishnamacharya_teaching.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Krishnamacharya teaching"
+            placeholder="blurred"
+          />
           <h3>Pulzusszám a vinyásza jógában</h3>
           <br />
           <p>
