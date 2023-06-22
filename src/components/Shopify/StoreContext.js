@@ -13,8 +13,8 @@ const client = Client.buildClient(
 const defaultValues = {
   cart: [],
   loading: false,
-  addVariantToCart: () => { },
-  removeLineItem: () => { },
+  addVariantToCart: () => {},
+  removeLineItem: () => {},
   client,
   checkout: {
     id: "",
@@ -44,9 +44,9 @@ export const StoreProvider = ({ children }) => {
       const existingCheckoutID = isBrowser
         ? localStorage.getItem(localStorageKey)
         : null
-      const storedCart = isBrowser ? localStorage.getItem("cart") : null;
+      const storedCart = isBrowser ? localStorage.getItem("cart") : null
       if (storedCart) {
-        setCart(JSON.parse(storedCart));
+        setCart(JSON.parse(storedCart))
       }
       if (existingCheckoutID) {
         try {
@@ -70,8 +70,10 @@ export const StoreProvider = ({ children }) => {
   }, [])
 
   useEffect(() => {
+    console.log("cart", cart)
+
     if (isBrowser) {
-      localStorage.setItem("cart", JSON.stringify(cart));
+      localStorage.setItem("cart", JSON.stringify(cart))
     }
   }, [cart])
 
@@ -96,15 +98,17 @@ export const StoreProvider = ({ children }) => {
 
     try {
       const item = cart.find(
-        (item) => item.product.variants[0]?.shopifyId === variantId
-      );
+        item => item.product.variants[0]?.shopifyId === variantId
+      )
 
-      const quantityToAdd = item ? parsedQuantity - item.quantity : parsedQuantity;
+      const quantityToAdd = item
+        ? parsedQuantity - item.quantity
+        : parsedQuantity
       const res = await client.checkout.addLineItems(checkoutID, {
         variantId,
         quantity: quantityToAdd,
-      });
-      setCheckout(res);
+      })
+      setCheckout(res)
 
       let updatedCart = []
       if (cart.length > 0) {
@@ -140,15 +144,42 @@ export const StoreProvider = ({ children }) => {
     }
   }
 
-  const removeLineItem = async variantId => {
+  const removeLineItems = async () => {
+    setLoading(true)
+
+    if (checkout.id === "") {
+      console.error("No checkout ID assigned.")
+      return
+    }
+
+    try {
+      const lineItemIDs = checkout.lineItems.map(item => item.id)
+      const res = await client.checkout.removeLineItems(
+        checkout.id,
+        lineItemIDs
+      )
+      setCheckout(res)
+      setCart([])
+      setLoading(false)
+    } catch (error) {
+      setLoading(false)
+      console.error(`Error in clearCart: ${error}`)
+    }
+  }
+
+  const removeLineItem = async (variantId, all = false) => {
     setLoading(true) // TODO: you have exposed the loading (you can do "const {loading} = useStore()" from any component and get the loading state (to add spiners or whatever you want :))
     try {
       let lineItemID = ""
       checkout.lineItems?.forEach(item => {
-        const stringCheckout = item.id.split("?")[0];
-        const checkoutId = String(Math.floor(stringCheckout.substring(stringCheckout.lastIndexOf("/") + 1) / 10));
-
-        const variantId2 = variantId.substring(variantId.lastIndexOf("/") + 1);
+        const stringCheckout = item.id.split("?")[0]
+        const checkoutId = String(
+          Math.floor(
+            stringCheckout.substring(stringCheckout.lastIndexOf("/") + 1) / 10
+          )
+        )
+        console.log("Ferran3", variantId, checkoutId)
+        const variantId2 = variantId.substring(variantId.lastIndexOf("/") + 1)
         if (variantId2 === checkoutId) {
           lineItemID = item?.id
         }
@@ -175,6 +206,8 @@ export const StoreProvider = ({ children }) => {
     }
   }
 
+  console.log("Ferran:", cart)
+
   return (
     <StoreContext.Provider
       value={{
@@ -183,6 +216,7 @@ export const StoreProvider = ({ children }) => {
         removeLineItem,
         cart,
         checkout,
+        removeLineItems,
         loading,
       }}
     >

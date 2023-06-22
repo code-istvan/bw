@@ -11,11 +11,12 @@ import Button from "../Buttons/Button"
 import CartAmountToggle from "./CartAmountToggle"
 import ModalAddToCart from "./ModalAddToCart"
 import "../../sass/components/_product.scss"
+import { element } from "prop-types"
 
 const ProductTemplate = ({ pageContext }) => {
   const { product } = pageContext
   // const bind = useInput(1)
-  const { addVariantToCart } = useStore()
+  const { addVariantToCart, cart, removeLineItems, checkout } = useStore()
   const [amount, setAmount] = useState(1)
   const [modalOpen, setModalOpen] = useState(false)
   const setDecrease = () => {
@@ -85,6 +86,17 @@ const ProductTemplate = ({ pageContext }) => {
                 }}
               >
                 Hozzáadás a kosárhoz
+              </Button>
+              <Button
+                type="button"
+                buttonStyle="btn--primary--solid--full"
+                onClick={async () => {
+                  await removeLineItems()
+                  await addVariantToCart(product, amount)
+                  window.open(checkout.webUrl)
+                }}
+              >
+                Buy it now
               </Button>
             </div>
             {modalOpen && (
