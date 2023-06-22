@@ -49,7 +49,6 @@ export default function EventsFeaturedRoll({
             )
           }
 
-          console.log(eventlink)
           return (
             <div className="col-12-xs col-6-md col-4-xl" key={date}>
               <div className="event-card">

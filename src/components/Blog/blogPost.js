@@ -28,8 +28,6 @@ const BlogPost = ({ data, children, pageContext, location }) => {
   const sectionRef = useRef(null)
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
-  console.log(post)
-
   return (
     <Layout articleProperties={articleProperties}>
       <div className="blog-posts-wrapper">

@@ -21,8 +21,6 @@ const Cart = () => {
     return totalPrice
   }, 0)
 
-  console.log("Total cart price:", total)
-
   return (
     <Layout>
       <Seo title="KOSÁR" />
