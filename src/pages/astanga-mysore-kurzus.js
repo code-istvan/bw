@@ -12,7 +12,7 @@ export default function AstangaMysoreKurzus() {
           <h1 className="page-hero-title">ASTANGA MYSORE KURZUS</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/astanga-kezdo-tanfolyam.jpg"
+            src="../images/mysore_kurzus_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -22,7 +22,7 @@ export default function AstangaMysoreKurzus() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/astanga-kezdo-tanfolyam-mobil.jpg"
+            src="../images/mysore_kurzus_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
