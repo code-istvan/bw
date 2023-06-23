@@ -15,6 +15,8 @@ const defaultValues = {
   loading: false,
   addVariantToCart: () => {},
   removeLineItem: () => {},
+  removeCart: () => {},
+  addNewVariantToCart: () => {},
   client,
   checkout: {
     id: "",
@@ -70,8 +72,6 @@ export const StoreProvider = ({ children }) => {
   }, [])
 
   useEffect(() => {
-    console.log("cart", cart)
-
     if (isBrowser) {
       localStorage.setItem("cart", JSON.stringify(cart))
     }
@@ -115,23 +115,19 @@ export const StoreProvider = ({ children }) => {
         const itemIsInCart = cart.find(
           item => item.product.variants[0]?.shopifyId === variantId
         )
-        console.log("itemIsInCart", itemIsInCart)
         if (itemIsInCart) {
           const newProduct = {
             product: { ...itemIsInCart.product },
             quantity: parsedQuantity,
           }
-          console.log("1", itemIsInCart.quantity)
           const otherItems = cart.filter(
             item => item.product.variants[0]?.shopifyId !== variantId
           )
           updatedCart = [...otherItems, newProduct]
         } else {
-          console.log("2")
           updatedCart = cart.concat([{ product, quantity: parsedQuantity }])
         }
       } else {
-        console.log("3")
         updatedCart = [{ product, quantity: parsedQuantity }]
       }
       setCart(updatedCart)
@@ -144,7 +140,69 @@ export const StoreProvider = ({ children }) => {
     }
   }
 
-  const removeLineItems = async () => {
+  const addNewVariantToCart = async (cart, product, quantity) => {
+    setLoading(true)
+
+    if (checkout.id === "") {
+      console.error("No checkout ID assigned.")
+      return
+    }
+
+    const checkoutID = checkout.id
+    const variantId = product.variants[0]?.shopifyId
+    const parsedQuantity = parseInt(quantity, 10)
+
+    const lineItemsToUpdate = [
+      {
+        variantId,
+        quantity: parsedQuantity,
+      },
+    ]
+
+    try {
+      const item = cart.find(
+          item => item.product.variants[0]?.shopifyId === variantId
+      )
+
+      const quantityToAdd = item
+          ? parsedQuantity - item.quantity
+          : parsedQuantity
+      const res = await client.checkout.addLineItems(checkoutID, {
+        variantId,
+        quantity: quantityToAdd,
+      })
+      setCheckout(res)
+
+      let updatedCart = []
+      if (cart.length > 0) {
+        const itemIsInCart = cart.find(
+            item => item.product.variants[0]?.shopifyId === variantId
+        )
+        if (itemIsInCart) {
+          const newProduct = {
+            product: { ...itemIsInCart.product },
+            quantity: parsedQuantity,
+          }
+          const otherItems = cart.filter(
+              item => item.product.variants[0]?.shopifyId !== variantId
+          )
+          updatedCart = [...otherItems, newProduct]
+        } else {
+          updatedCart = cart.concat([{ product, quantity: parsedQuantity }])
+        }
+      } else {
+        updatedCart = [{ product, quantity: parsedQuantity }]
+      }
+      setCart(updatedCart)
+
+      setLoading(false)
+      return res
+    } catch (error) {
+      setLoading(false)
+      console.error(`Error in addVariantToCart: ${error}`)
+    }
+  }
+  const removeCart = async () => {
     setLoading(true)
 
     if (checkout.id === "") {
@@ -161,6 +219,8 @@ export const StoreProvider = ({ children }) => {
       setCheckout(res)
       setCart([])
       setLoading(false)
+
+      return [];
     } catch (error) {
       setLoading(false)
       console.error(`Error in clearCart: ${error}`)
@@ -178,7 +238,6 @@ export const StoreProvider = ({ children }) => {
             stringCheckout.substring(stringCheckout.lastIndexOf("/") + 1) / 10
           )
         )
-        console.log("Ferran3", variantId, checkoutId)
         const variantId2 = variantId.substring(variantId.lastIndexOf("/") + 1)
         if (variantId2 === checkoutId) {
           lineItemID = item?.id
@@ -206,8 +265,6 @@ export const StoreProvider = ({ children }) => {
     }
   }
 
-  console.log("Ferran:", cart)
-
   return (
     <StoreContext.Provider
       value={{
@@ -216,7 +273,8 @@ export const StoreProvider = ({ children }) => {
         removeLineItem,
         cart,
         checkout,
-        removeLineItems,
+        removeCart,
+        addNewVariantToCart,
         loading,
       }}
     >

@@ -15,25 +15,22 @@ import { element } from "prop-types"
 
 const ProductTemplate = ({ pageContext }) => {
   const { product } = pageContext
-  // const bind = useInput(1)
-  const { addVariantToCart, cart, removeLineItems, checkout } = useStore()
+  const { addVariantToCart, cart, removeCart, addNewVariantToCart } = useStore()
   const [amount, setAmount] = useState(1)
   const [modalOpen, setModalOpen] = useState(false)
-  const setDecrease = () => {
-    amount > 1 ? setAmount(amount - 1) : setAmount(1)
-  }
-  const setIncrease = () => {
-    setAmount(amount + 1)
+  const setDecrease = () => amount > 1 ? setAmount(amount - 1) : setAmount(1)
+  const setIncrease = () => setAmount(amount + 1)
+  const openModal = () => setModalOpen(true)
+  const closeModal = () => setModalOpen(false)
+
+  const handleBuyNow = async () => {
+    const cart = await removeCart()
+
+    const checkout = await addNewVariantToCart(cart, product, amount)
+    window.open(checkout.webUrl)
   }
 
-  const openModal = () => {
-    setModalOpen(true)
-  }
-
-  const closeModal = () => {
-    setModalOpen(false)
-  }
-
+console.log("cart in view", cart)
   return (
     <Layout>
       <Seo title={product.title} />
@@ -90,11 +87,7 @@ const ProductTemplate = ({ pageContext }) => {
               <Button
                 type="button"
                 buttonStyle="btn--primary--solid--full"
-                onClick={async () => {
-                  await removeLineItems()
-                  await addVariantToCart(product, amount)
-                  window.open(checkout.webUrl)
-                }}
+                onClick={handleBuyNow}
               >
                 Buy it now
               </Button>
