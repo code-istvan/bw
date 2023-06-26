@@ -18,7 +18,7 @@ const ProductTemplate = ({ pageContext }) => {
   const { addVariantToCart, cart, removeCart, addNewVariantToCart } = useStore()
   const [amount, setAmount] = useState(1)
   const [modalOpen, setModalOpen] = useState(false)
-  const setDecrease = () => amount > 1 ? setAmount(amount - 1) : setAmount(1)
+  const setDecrease = () => (amount > 1 ? setAmount(amount - 1) : setAmount(1))
   const setIncrease = () => setAmount(amount + 1)
   const openModal = () => setModalOpen(true)
   const closeModal = () => setModalOpen(false)
@@ -30,7 +30,7 @@ const ProductTemplate = ({ pageContext }) => {
     window.open(checkout.webUrl)
   }
 
-console.log("cart in view", cart)
+  console.log("cart in view", cart)
   return (
     <Layout>
       <Seo title={product.title} />
@@ -73,10 +73,10 @@ console.log("cart in view", cart)
               setIncrease={setIncrease}
             />
 
-            <div className="row mb-20px mt-20px">
+            <div className="row product--buttons mb-20px mt-20px">
               <Button
                 type="button"
-                buttonStyle="btn--primary--solid--full"
+                buttonStyle="btn--primary--outline-full"
                 onClick={() => {
                   setModalOpen(true)
                   addVariantToCart(product, amount)
@@ -89,7 +89,7 @@ console.log("cart in view", cart)
                 buttonStyle="btn--primary--solid--full"
                 onClick={handleBuyNow}
               >
-                Buy it now
+                Fizetés
               </Button>
             </div>
             {modalOpen && (
