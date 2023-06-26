@@ -84,25 +84,31 @@ const ProductTemplate = ({ pageContext }) => {
                 return <p key={index}>{tag}</p>
               })}
             </div>
-
             <div className="shopify--product--price mt-20px mb-40px">
               <p>Ára: </p>
               <p className="clr-brand-orange">
                 {product.priceRangeV2.maxVariantPrice.amount} Ft
               </p>
             </div>
-            <div>
-              {/* {product.variants?.options[0]?.values.map(value => (
-                <p key={value}>value</p>
-              ))} */}
-            </div>
-
+            {/* Termékkombinációk blokk ELEJE */}
+            {Object.keys(result).length > 0 && (
+              <div className="shopify--product--variants">
+                <div>
+                  <h2>Hónapok</h2>
+                  {Object.keys(result).map(month => (
+                    <div key={month}>
+                      <h3>{month}</h3>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+            {/* Termékkombinációk blokk VÉGE */}
             <CartAmountToggle
               amount={amount}
               setDecrease={setDecrease}
               setIncrease={setIncrease}
             />
-
             <div className="row product--buttons mb-20px mt-20px">
               <Button
                 type="button"
@@ -127,7 +133,6 @@ const ProductTemplate = ({ pageContext }) => {
                 <p> &#10003; Betettük a terméket a kosárba</p>
               </ModalAddToCart>
             )}
-
             {/* <form>
               <p>
                 <label htmlFor="qty">Quantity:</label>
