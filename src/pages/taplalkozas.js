@@ -12,7 +12,7 @@ export default function Taplalkozas() {
           <h1 className="page-hero-title">TÁPLÁLKOZÁS</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/taplalkozas_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -22,7 +22,7 @@ export default function Taplalkozas() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/taplalkozas_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}

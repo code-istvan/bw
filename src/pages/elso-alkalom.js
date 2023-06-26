@@ -52,7 +52,7 @@ export default function Elsoalkalom() {
           <h1 className="page-hero-title">ELSŐ ALKALOM</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/elsoalkalom_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -62,7 +62,7 @@ export default function Elsoalkalom() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/elsoalkalom_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
