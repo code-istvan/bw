@@ -29,8 +29,33 @@ const ProductTemplate = ({ pageContext }) => {
     const checkout = await addNewVariantToCart(cart, product, amount)
     window.open(checkout.webUrl)
   }
+  const result = {}
 
-  console.log("cart in view", cart)
+  const variantData = product.variants.forEach(object => {
+    const monthOption = object.product.options.find(
+      option => option.name === "Hónap"
+    )
+    const dayOption = object.product.options.find(
+      option => option.name === "Nap"
+    )
+
+    if (monthOption && dayOption) {
+      monthOption.values.forEach((month, monthIndex) => {
+        if (!result[month]) {
+          result[month] = new Array(31)
+        }
+
+        dayOption.values.forEach((day, dayIndex) => {
+          const dayOfMonth = dayIndex + 1
+          const shopifyId = product.variants[0].shopifyId
+          result[month][dayOfMonth - 1] = { shopifyId, month, dayOfMonth }
+        })
+      })
+    }
+  })
+  console.log(result)
+  console.log(variantData)
+  console.log("product", product)
   return (
     <Layout>
       <Seo title={product.title} />
@@ -65,6 +90,11 @@ const ProductTemplate = ({ pageContext }) => {
               <p className="clr-brand-orange">
                 {product.priceRangeV2.maxVariantPrice.amount} Ft
               </p>
+            </div>
+            <div>
+              {/* {product.variants?.options[0]?.values.map(value => (
+                <p key={value}>value</p>
+              ))} */}
             </div>
 
             <CartAmountToggle

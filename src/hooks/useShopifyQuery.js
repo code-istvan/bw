@@ -30,6 +30,16 @@ export const useShopify = () => {
                   currencyCode
                 }
               }
+              variants {
+                product {
+                  options {
+                    name
+                    position
+                    shopifyId
+                    values
+                  }
+                }
+              }
             }
           }
         }
