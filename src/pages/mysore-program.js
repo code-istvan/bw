@@ -3,6 +3,7 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { CustomLink } from "../components/CustomLink"
+import "../sass/pages/_mysoreprogram.scss"
 
 export default function Mysoreprogram() {
   const hasznosOlvasmanyok = [
@@ -49,61 +50,92 @@ export default function Mysoreprogram() {
           />
         </div>
       </div>
-      <div className="row mt-40px">
+      <div className="mt-40px mb-20px">
+        <h3>
+          <strong>
+            A Mysore stílusú astanga jóga gyakorlás hatékony és személyre
+            szabott módszer, amely fizikai erőt, rugalmasságot és belső
+            nyugalmat hoz. Az általa kínált folyamatos fejlődés és az
+            oktató-tanítvány kapcsolat lehetőséget ad a mélyebb megértésre és
+            személyes fejlődésre.
+          </strong>
+        </h3>
+      </div>
+      <div className="row">
         <p>
-          Az astanga vinyásza jógát tradicionálisan Mysore stílusban oktatják. A
-          módszer ötvözi a csoportos vezetett órák és az egyéni gyakorlás
-          előnyeit. Lényege, hogy a teremben az összes gyakorló a saját
-          légzésének ritmusára önállóan végzi a sorozatot, ezáltal az oktató
-          mindenkinek egyénre szabott igazításokat, utasításokat tud adni,
-          anélkül, hogy ez megzavarná az óra dinamikáját. Ráadásul így az sem
-          probléma, ha valaki rövidített sorozatot végez, míg más a teljes első
-          sorozatot és a második sorozat elejét is elvégzi ugyanazon az órán.
+          Az{" "}
+          <CustomLink
+            link="/vinyasza-jogairanyzatok/"
+            title="astanga vinyásza jógát"
+            classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+          />{" "}
+          tradicionálisan Mysore stílusban oktatják. A módszer ötvözi a
+          csoportos vezetett órák és az egyéni gyakorlás előnyeit. Lényege, hogy
+          a teremben az összes gyakorló a saját légzésének ritmusára önállóan
+          végzi a sorozatot, ezáltal az oktató mindenkinek egyénre szabott
+          igazításokat, utasításokat tud adni, anélkül, hogy ez megzavarná az
+          óra dinamikáját. Így az sem probléma, ha valaki rövidebben gyakorol
+          (pl. kezdő gyakorlók), vagy ha valaki hosszabb időt tölt a teremben
+          (pl. haladó gyakorlók) ugyanazon az órán.
         </p>
       </div>
       <br />
       <div className="row">
         <p>
-          A hagyományos oktatási módszerhez az is hozzátartozik, hogy
-          mindenkinek heti hatszor kell gyakorolnia (a szombatok, illetve a
-          teli- és az újhold pihenőnapok, hölgyeknél a menstruáció első három-öt
-          napja). Ez elsőre nehéznek tűnhet, de természetesen a kezdők
-          fokozatosan építik fel a teljes sorozatot, addig rövidebb a
-          gyakorlásuk. A tanár figyeli az előrehaladásukat, és ha a tanítvány
-          készen áll, akkor újabb ászanákat kap, amelyeket hozzá kell fűznie a
-          többihez.
+          Ehhez a hagyományos Mysore-i oktatási módszerhez az is hozzátartozik,
+          hogy mindenki rendszeresen gyakorol a cél a heti hatszori gyakorlás,
+          de a legtöbb gyakorló ezt csak fokozatosan éri el, vagy kevesebbszer
+          gyakorol. A szombatok, illetve a teli- és az újhold, azaz{" "}
+          <CustomLink
+            link="/holdnapok/"
+            title="holdnapok"
+            classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+          />{" "}
+          pihenőnapok, hölgyeknél a menstruáció első három-öt napja is az. Ez
+          elsőre igen nagy kihívásnak tűnik, de természetesen a jógában is a
+          fokozatosság fontos eleme a zavartalan fejlődésnek. A tanár figyeli a
+          gyakorlók előrehaladását, és ha a tanítvány készen áll, akkor újabb
+          ászanákat kap, amelyeket hozzá kell fűznie a többihez.
         </p>
       </div>
       <br />
       <div className="row">
         <p>
-          A gyakorlás időpontja is meghatározott, a Mysore órákat Indiában
-          reggel tartják. Ennek az oka, hogy a jógagyakorláshoz az úgynevezett
-          Brahma muhurta napszak a legmegfelelőbb, azaz a napfelkelte előtti
-          másfél óra. Ekkor a levegő friss, a környezet csendes, és az is fontos
-          szempont, hogy Indiában ekkor van a leghűvösebb. Frissen, kipihenten
-          ébredve még nem nyomasztanak bennünket a benyomások, amelyek a nehéz
-          munkanap során értek minket, az elme könnyebben tud fókuszálni és
-          kevésbé kalandozik el. A test tiszta, a gyomor üres, tehát a
-          körülmények ideálisak a gyakorláshoz. Kezdetben a test kevésbé
-          hajlékonynak tűnhet a hajnali órákban, de gyorsan alkalmazkodik az új
-          rutinhoz.
+          A gyakorlás időpontja is meghatározott, a Mysore órákat
+          tradicionálisan reggel tartják. Ennek az oka, hogy a jógagyakorláshoz
+          az úgynevezett <i>Brahma muhurta</i> napszak a legmegfelelőbb, azaz a
+          napfelkelte előtti másfél óra - vagy ehhez minnél közelebbi időpont -.
+          Ekkor a levegő friss, a környezet csendes, frissen, kipihenten ébredve
+          még nem nyomasztanak bennünket a benyomások, amelyek a nehéz munkanap
+          során értek minket. Az elme könnyebben tud fókuszálni és kevésbé
+          kalandozik el. A test tiszta, a gyomor üres, tehát a körülmények
+          ideálisak a gyakorláshoz. Kezdetben a test kevésbé hajlékonynak tűnhet
+          a reggeli órákban, de gyorsan alkalmazkodik az új rutinhoz.
         </p>
       </div>
       <br />
       <div className="row">
-        <p>
-          Természetesen eleinte, főleg, ha sok új ászanát kapunk, problémát
-          okozhat a pontos vinyászaszámolás memorizálása. Ezért a KPAYI-ban heti
-          két vezetett óra van, pénteken mindenkinek vezetett első sorozat, míg
-          vasárnap az arra felkészült tanítványok vezetett második sorozaton
-          vesznek részt. A Bandha Works Jógaiskolában pedig péntek reggelente
-          van vezetett első sorozat.
-        </p>
+        <h3>Mysore programunk felépítése</h3>
+      </div>
+      <div className="row unordered-list-style">
+        <ul>
+          <li>
+            <p>heti 5x Mysore stílusú gyakoráls</p>
+          </li>
+          <li>
+            <p>heti egy vezetett óra</p>
+          </li>
+          <li>
+            <p>szombat pihenőnap</p>
+          </li>
+          <li>
+            <p>havonta egyszer konferencia</p>
+          </li>
+        </ul>
       </div>
       <br />
       <div className="row">
-        <p>A Mysore stílus elemei tehát:</p>
+        <h3>A Mysore stílus elemei tehát:</h3>
       </div>
       <div className="row unordered-list-style">
         <ul>
@@ -182,7 +214,7 @@ export default function Mysoreprogram() {
       </div>
       <br />
       <div className="row unordered-list-style">
-        <h3>Hasznos olvasmányok a témában:</h3>
+        <h3>Hasznos olvasmányok a Mysore gyakorlásról:</h3>
         <ul>
           {hasznosOlvasmanyok.map((link, index) => (
             <li key={index}>
