@@ -5,7 +5,6 @@ import Layout from "../Layouts/Layout"
 import Seo from "../seo"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
-// import useInput from "../../hooks/useInput"
 import useStore from "./StoreContext"
 import Button from "../Buttons/Button"
 import CartAmountToggle from "./CartAmountToggle"
@@ -53,8 +52,8 @@ const ProductTemplate = ({ pageContext }) => {
       })
     }
   })
-  console.log(result)
-  console.log(variantData)
+  console.log("result", result)
+  console.log("variantData", variantData)
   console.log("product", product)
   return (
     <Layout>
@@ -98,6 +97,14 @@ const ProductTemplate = ({ pageContext }) => {
                   {Object.keys(result).map(month => (
                     <div key={month}>
                       <h3>{month}</h3>
+                    </div>
+                  ))}
+                </div>
+                <div>
+                  <h2>Napok</h2>
+                  {Object.keys(result).map(day => (
+                    <div key={day}>
+                      <h3>{day}</h3>
                     </div>
                   ))}
                 </div>
