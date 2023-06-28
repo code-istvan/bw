@@ -51,7 +51,7 @@ export default function Mysoreprogram() {
         </div>
       </div>
       <div className="mt-40px mb-20px">
-        <h3 className="clr-brand-orange">
+        <h3>
           <strong>
             A Mysore stílusú astanga jóga gyakorlás hatékony és személyre
             szabott módszer, amely fizikai erőt, rugalmasságot és belső
