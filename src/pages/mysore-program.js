@@ -51,7 +51,7 @@ export default function Mysoreprogram() {
         </div>
       </div>
       <div className="mt-40px mb-20px">
-        <h3>
+        <h3 className="clr-brand-orange">
           <strong>
             A Mysore stílusú astanga jóga gyakorlás hatékony és személyre
             szabott módszer, amely fizikai erőt, rugalmasságot és belső
@@ -97,6 +97,45 @@ export default function Mysoreprogram() {
           gyakorlók előrehaladását, és ha a tanítvány készen áll, akkor újabb
           ászanákat kap, amelyeket hozzá kell fűznie a többihez.
         </p>
+      </div>
+      <br />
+      <div className="row image-track-3">
+        <div className="col-12-xs col-4-md">
+          <StaticImage
+            className=""
+            src="../images/Mysore_program_1.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
+        </div>
+        <div className="col-12-xs col-4-md">
+          <StaticImage
+            className="display-none-mobil"
+            src="../images/Mysore_program_2.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
+        </div>
+        <div className="col-12-xs col-4-md">
+          <StaticImage
+            className="display-none-mobil"
+            src="../images/Mysore_program_4.jpg"
+            layout="fullWidth"
+            loading="eager"
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Astanga jóga Mysore"
+            placeholder="blurred"
+          />
+        </div>
       </div>
       <br />
       <div className="row">

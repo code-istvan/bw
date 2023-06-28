@@ -277,3 +277,21 @@ blockquote {
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .display-none-mobil {
+    display: none;
+  }
+}
+
+.image-track-3 {
+  display: flex;
+  flex-direction: row;
+  @include xs {
+    gap: 0;
+  }
+  @include md {
+    flex-flow: nowrap !important;
+    gap: 10px;
+  }
+}
