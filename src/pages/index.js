@@ -26,7 +26,7 @@ const IndexPage = () => (
         <SectionEvents />
         <div className="row">
           <div className="col">
-            <Counter />
+            <Counter tag="h3" />
           </div>
         </div>
         <div className="row">

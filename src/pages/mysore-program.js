@@ -155,6 +155,25 @@ export default function Mysoreprogram() {
       </div>
       <br />
       <div className="row">
+        <h3>A Mysore stílus elemei tehát:</h3>
+      </div>
+      <div className="row unordered-list-style">
+        <ul>
+          {[
+            "csoportos, egyéni gyakorlás órán, szakképzett oktató felügyelete alatt",
+            "napi szintű gyakorlás (a szombatok, a teli- és újhold, illetve a hölgynapok pihenőnapok)",
+            "gyakorlás korán reggel, lehetőleg ugyanabban az időpontban",
+            "hetente vezetett óra a vinyászaszámolás memorizálásához",
+            "önálló gyakorlás jelentősége",
+          ].map((item, index) => (
+            <li key={index}>
+              <p>{item}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <br />
+      <div className="row">
         <h3>Mysore programunk felépítése</h3>
       </div>
       <div className="row unordered-list-style">
@@ -175,27 +194,11 @@ export default function Mysoreprogram() {
       </div>
       <br />
       <div className="row">
-        <h3>A Mysore stílus elemei tehát:</h3>
-      </div>
-      <div className="row unordered-list-style">
-        <ul>
-          {[
-            "csoportos, egyéni gyakorlás órán, szakképzett oktató felügyelete alatt",
-            "napi szintű gyakorlás (a szombatok, a teli- és újhold, illetve a hölgynapok pihenőnapok)",
-            "gyakorlás korán reggel, lehetőleg ugyanabban az időpontban",
-            "hetente vezetett óra a vinyászaszámolás memorizálásához",
-            "önálló gyakorlás jelentősége",
-          ].map((item, index) => (
-            <li key={index}>
-              <p>{item}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
-      <br />
-      <div className="row">
-        <div className="col">
-          <Counter />
+        <div className="col-12-xs">
+          <h3>Tradíció és tapasztalat</h3>
+        </div>
+        <div className="col-12-xs">
+          <Counter tag="h3" />
         </div>
       </div>
       <br />
