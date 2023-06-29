@@ -9,8 +9,6 @@ import SectionEvents from "../components/Sections/SectionEvents"
 import Counter from "../components/Counter"
 import "../sass/pages/_index.scss"
 
-const inputDate = "2013-08-25"
-
 const IndexPage = () => (
   <>
     <Layout>
@@ -28,7 +26,7 @@ const IndexPage = () => (
         <SectionEvents />
         <div className="row">
           <div className="col">
-            <Counter initialDate={inputDate} />
+            <Counter />
           </div>
         </div>
         <div className="row">

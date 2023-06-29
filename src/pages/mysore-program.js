@@ -3,6 +3,7 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { CustomLink } from "../components/CustomLink"
+import Counter from "../components/Counter"
 import "../sass/pages/_mysoreprogram.scss"
 
 export default function Mysoreprogram() {
@@ -80,25 +81,6 @@ export default function Mysoreprogram() {
         </p>
       </div>
       <br />
-      <div className="row">
-        <p>
-          Ehhez a hagyományos Mysore-i oktatási módszerhez az is hozzátartozik,
-          hogy mindenki rendszeresen gyakorol a cél a heti hatszori gyakorlás,
-          de a legtöbb gyakorló ezt csak fokozatosan éri el, vagy kevesebbszer
-          gyakorol. A szombatok, illetve a teli- és az újhold, azaz{" "}
-          <CustomLink
-            link="/holdnapok/"
-            title="holdnapok"
-            classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
-          />{" "}
-          pihenőnapok, hölgyeknél a menstruáció első három-öt napja is az. Ez
-          elsőre igen nagy kihívásnak tűnik, de természetesen a jógában is a
-          fokozatosság fontos eleme a zavartalan fejlődésnek. A tanár figyeli a
-          gyakorlók előrehaladását, és ha a tanítvány készen áll, akkor újabb
-          ászanákat kap, amelyeket hozzá kell fűznie a többihez.
-        </p>
-      </div>
-      <br />
       <div className="row image-track-3">
         <div className="col-12-xs col-4-md">
           <StaticImage
@@ -136,6 +118,25 @@ export default function Mysoreprogram() {
             placeholder="blurred"
           />
         </div>
+      </div>
+      <br />
+      <div className="row">
+        <p>
+          Ehhez a hagyományos Mysore-i oktatási módszerhez az is hozzátartozik,
+          hogy mindenki rendszeresen gyakorol a cél a heti hatszori gyakorlás,
+          de a legtöbb gyakorló ezt csak fokozatosan éri el, vagy kevesebbszer
+          gyakorol. A szombatok, illetve a teli- és az újhold, azaz{" "}
+          <CustomLink
+            link="/holdnapok/"
+            title="holdnapok"
+            classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+          />{" "}
+          pihenőnapok, hölgyeknél a menstruáció első három-öt napja is az. Ez
+          elsőre igen nagy kihívásnak tűnik, de természetesen a jógában is a
+          fokozatosság fontos eleme a zavartalan fejlődésnek. A tanár figyeli a
+          gyakorlók előrehaladását, és ha a tanítvány készen áll, akkor újabb
+          ászanákat kap, amelyeket hozzá kell fűznie a többihez.
+        </p>
       </div>
       <br />
       <div className="row">
@@ -190,6 +191,12 @@ export default function Mysoreprogram() {
             </li>
           ))}
         </ul>
+      </div>
+      <br />
+      <div className="row">
+        <div className="col">
+          <Counter />
+        </div>
       </div>
       <br />
       <div className="row">
