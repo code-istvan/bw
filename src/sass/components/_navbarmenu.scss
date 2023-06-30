@@ -7,7 +7,7 @@
 
 // MOBIL VIEW STARTS-------------------------------------------
 
-@media only screen and (min-width: 1px) and (max-width: 1024px) {
+@media only screen and (min-width: 1px) and (max-width: 992px) {
   .mobil-menu-open {
     opacity: 1;
     visibility: visible;
@@ -175,7 +175,7 @@
 // MOBIL VIEW ENDS ------------------------------------------------
 
 // ---------DESKTOP VIEW STARTS
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 993px) {
   .mobil-menu-open {
     height: 100vh;
     width: 100%;

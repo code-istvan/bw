@@ -44,7 +44,7 @@ const NavbarMenu = ({ open, setOpen }) => {
 
   return (
     <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
-      {breakpoints.md ? <NavbarMenuMobilHeader /> : null}
+      {breakpoints.lg ? <NavbarMenuMobilHeader /> : null}
       <ul className="nav-links">
         {menuGroupsFomenu.map(({ title, items }) => (
           <li className="nav-item dropdown" key={title}>
@@ -95,10 +95,10 @@ const NavbarMenu = ({ open, setOpen }) => {
           </li>
         ))}
         <li className="nav-item">
-          {breakpoints.md ? null : <NavbarDesktopFeatured />}
+          {breakpoints.lg ? null : <NavbarDesktopFeatured />}
         </li>
       </ul>
-      {breakpoints.md ? <NavbarMenuMobilFeatured /> : null}
+      {breakpoints.lg ? <NavbarMenuMobilFeatured /> : null}
     </div>
   )
 }
