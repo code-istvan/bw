@@ -125,20 +125,38 @@ section {
   height: 28px;
 }
 
+// .link-decoration-remove {
+//   text-decoration: none;
+//   a:visited {
+//     text-decoration: none;
+//   }
+//   a:hover {
+//     text-decoration: underline !important;
+//   }
+//   a:active {
+//     text-decoration: none;
+//   }
+//   a:link {
+//     text-decoration: none;
+//   }
+// }
+
 .link-decoration-remove {
   text-decoration: none;
-  a:visited {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  a:active {
-    text-decoration: none;
-  }
-  a:link {
-    text-decoration: none;
-  }
+  color: $color-brand-orange !important;
+  font-weight: bold !important;
+}
+
+.link-decoration-remove:hover {
+  text-decoration: none !important;
+  background-image: linear-gradient(
+    to bottom,
+    $color-brand-orange,
+    $color-brand-orange
+  );
+  background-repeat: repeat-x;
+  background-position: center bottom 3px;
+  background-size: 100% 2px; /* Vastagság beállítása itt */
 }
 
 .list-style-remove {
@@ -276,6 +294,10 @@ blockquote {
   a {
     text-decoration: none;
   }
+}
+
+.custom-link-style:hover {
+  text-decoration: underline !important;
 }
 
 @media screen and (max-width: 768px) {

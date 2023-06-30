@@ -68,7 +68,7 @@ export default function Mysoreprogram() {
           <CustomLink
             link="/vinyasza-jogairanyzatok/"
             title="astanga vinyásza jógát"
-            classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+            classNames="body link-decoration-remove schedule-teacher"
           />{" "}
           tradicionálisan Mysore stílusban oktatják. A módszer ötvözi a
           csoportos vezetett órák és az egyéni gyakorlás előnyeit. Lényege, hogy
