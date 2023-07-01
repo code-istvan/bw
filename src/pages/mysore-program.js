@@ -174,35 +174,6 @@ export default function Mysoreprogram() {
       </div>
       <br />
       <div className="row">
-        <h3>Mysore programunk felépítése</h3>
-      </div>
-      <div className="row unordered-list-style">
-        <ul>
-          <li>
-            <p>heti 5x Mysore stílusú gyakoráls</p>
-          </li>
-          <li>
-            <p>heti egy vezetett óra</p>
-          </li>
-          <li>
-            <p>szombat pihenőnap</p>
-          </li>
-          <li>
-            <p>havonta egyszer konferencia</p>
-          </li>
-        </ul>
-      </div>
-      <br />
-      <div className="row">
-        <div className="col-12-xs">
-          <h3>Tradíció és tapasztalat</h3>
-        </div>
-        <div className="col-12-xs">
-          <Counter tag="h3" />
-        </div>
-      </div>
-      <br />
-      <div className="row">
         <p>
           Látszik, hogy szigorúak a feltételek, nagy elkötelezettséget kíván ez
           az irányzat. Azonban az astanga vinyásza jóga ezen keretek között
@@ -222,6 +193,46 @@ export default function Mysoreprogram() {
         </p>
       </div>
       <br />
+      <div className="framed-section-orange">
+        <div className="framed-section-orange-inside">
+          <div className="framed-section-orange-title text-align-center">
+            <h3>Mysore programunk felépítése</h3>
+          </div>
+          <div className="framed-section-orange-body">
+            <div className="framed-section-orange-card text-align-center">
+              <h4>Mysore gyakorlás</h4>
+              <p>Heti 5x</p>
+            </div>
+            <div className="framed-section-orange-card text-align-center">
+              <h4>Vezetett óra</h4>
+              <p>Heti 1x</p>
+            </div>
+            <div className="framed-section-orange-card text-align-center">
+              <h4>Pihenőnap</h4>
+              <p>Szombat</p>
+            </div>
+            <div className="framed-section-orange-card text-align-center">
+              <h4>Konferencia</h4>
+              <p>Havi 1x</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      {/* TODO: hátteres sziget */}
+      <div className="row">
+        <div className="col-12-xs">
+          <h3>Tradíció és tapasztalat</h3>
+        </div>
+        <div className="col-12-xs">
+          <Counter tag="h3" />
+        </div>
+        <p>
+          Magyarország legrégebbi tradicionális astanga mysore programja.
+          Paramaguru Sharath Jois áldásával.
+        </p>
+      </div>
+      <br />
       <div className="row">
         <p>
           A délutáni vezetett astanga vinyásza órák inkább elméleti órák, céljuk
@@ -238,6 +249,7 @@ export default function Mysoreprogram() {
         </p>
       </div>
       <br />
+      {/* TODO: FAQ */}
       <div className="row">
         <p>
           {" "}
