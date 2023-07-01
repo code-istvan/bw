@@ -317,3 +317,31 @@ blockquote {
     gap: 10px;
   }
 }
+
+.text-align-center {
+  text-align: center;
+}
+
+// Style for the framed ORANGE sections
+
+.framed-section-orange {
+  border: solid 1px $color-brand-orange;
+}
+
+.framed-section-orange-inside {
+  margin: 20px;
+}
+
+.framed-section-orange-card {
+  min-width: 300px;
+  background-color: $color-shades-darkGray;
+  padding: 20px;
+  margin: 20px;
+}
+
+.framed-section-orange-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
