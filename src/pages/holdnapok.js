@@ -49,16 +49,18 @@ export default function Holdnapok() {
                 moonDays.map(
                   ({
                     month,
-                    fullmoon,
-                    newmoon,
-                    ekadashiNewmoon,
-                    ekadashiFullmoon,
+                    fullMoon,
+                    newMoon,
+                    thirdMoon,
+                    ekadashiNewMoon,
+                    ekadashiFullMoon,
+                    ekadashiThirdMoon,
                   }) => (
                     <tr key={month}>
-                      <td>{fullmoon}</td>
-                      <td>{ekadashiFullmoon}</td>
-                      <td>{newmoon}</td>
-                      <td>{ekadashiNewmoon}</td>
+                      <td>{fullMoon}</td>
+                      <td>{ekadashiFullMoon}</td>
+                      <td>{newMoon}</td>
+                      <td>{ekadashiNewMoon}</td>
                     </tr>
                   )
                 )}

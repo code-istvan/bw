@@ -1,37 +1,47 @@
 [
   {
     "month": "Január",
-    "fullmoon": "Január 7.",
-    "newmoon": "Január 22.",
-    "ekadashiNewmoon": "ekadashi",
-    "ekadashiFullmoon": "ekadashi"
+    "fullMoon": "Január 7.",
+    "newMoon": "Január 22.",
+    "thirdMoon": [],
+    "ekadashiNewMoon": "ekadashi",
+    "ekadashiFullMoon": "ekadashi",
+    "ekadashiThirdMoon": []
   },
   {
     "month": "Február",
-    "fullmoon": "Február 5.",
-    "newmoon": "Február 20.",
-    "ekadashiNewmoon": "ekadashi",
-    "ekadashiFullmoon": "ekadashi"
+    "fullMoon": "Február 5.",
+    "newMoon": "Február 20.",
+    "thirdMoon": [],
+    "ekadashiNewMoon": "ekadashi",
+    "ekadashiFullMoon": "ekadashi",
+    "ekadashiThirdMoon": []
   },
   {
     "month": "Március",
-    "fullmoon": "Március 7.",
-    "newmoon": "Március 21.",
-    "ekadashiNewmoon": "ekadashi",
-    "ekadashiFullmoon": "ekadashi"
+    "fullMoon": "Március 7.",
+    "newMoon": "Március 21.",
+    "thirdMoon": [],
+    "ekadashiNewMoon": "ekadashi",
+    "ekadashiFullMoon": "ekadashi",
+    "ekadashiThirdMoon": []
   },
   {
     "month": "Április",
-    "fullmoon": "Április 6.",
-    "newmoon": "Április 20.",
-    "ekadashiNewmoon": "ekadashi",
-    "ekadashiFullmoon": "ekadashi"
+    "fullMoon": "Április 6.",
+    "newMoon": "Április 20.",
+    "thirdMoon": [],
+    "ekadashiNewMoon": "ekadashi",
+    "ekadashiFullMoon": "ekadashi",
+    "ekadashiThirdMoon": []
   },
   {
     "month": "Május",
-    "fullmoon": "Május 6.",
-    "newmoon": "Május 20.",
-    "ekadashiNewmoon": "ekadashi",
-    "ekadashiFullmoon": "ekadashi"
+    "fullMoon": "Május 6.",
+    "newMoon": "Május 20.",
+    "thirdMoon": [],
+    "ekadashiNewMoon": "ekadashi",
+    "ekadashiFullMoon": "ekadashi",
+    "ekadashiThirdMoon": []
   }
 ]
