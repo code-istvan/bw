@@ -306,6 +306,7 @@ blockquote {
   }
 }
 
+// 3 images in a row
 .image-track-3 {
   display: flex;
   flex-direction: row;
@@ -318,30 +319,42 @@ blockquote {
   }
 }
 
+// Text align center
 .text-align-center {
   text-align: center;
 }
 
 // Style for the framed ORANGE sections
 
+.framed-section {
+}
+
 .framed-section-orange {
   border: solid 1px $color-brand-orange;
 }
 
-.framed-section-orange-inside {
+.framed-section-orange__inside {
   margin: 20px;
 }
 
-.framed-section-orange-card {
+.framed-section-orange__card {
   min-width: 300px;
   background-color: $color-shades-darkGray;
   padding: 20px;
   margin: 20px;
 }
 
-.framed-section-orange-body {
+.framed-section-orange__body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+// Style for the island sections
+
+.island-section {
+  background-color: $color-shades-darkGray;
+  padding: 20px;
+  margin: 20px;
 }

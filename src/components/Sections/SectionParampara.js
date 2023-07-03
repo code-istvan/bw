@@ -40,7 +40,7 @@ const SectionParampara = () => {
                     type="button"
                     buttonStyle="btn--primary--outline"
                     onClick={() => {
-                      navigate("/")
+                      navigate("/parampara")
                     }}
                   >
                     Tanítói láncolatunk

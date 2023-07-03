@@ -154,7 +154,33 @@ export default function Mysoreprogram() {
         </p>
       </div>
       <br />
-      <div className="row">
+      <div className="framed-section framed-section-orange">
+        <div className=".framed-section-orange__inside">
+          <div className="framed-section-orange-title text-align-center">
+            <h3>Mysore programunk elemei</h3>
+          </div>
+          <div className="framed-section-orange__body">
+            <div className="framed-section-orange__card text-align-center">
+              <h4>Mysore gyakorlás</h4>
+              <p>heti 5x</p>
+            </div>
+            <div className="framed-section-orange__card text-align-center">
+              <h4>Vezetett óra</h4>
+              <p>heti 1x</p>
+            </div>
+            <div className="framed-section-orange__card text-align-center">
+              <h4>Pihenőnap</h4>
+              <p>szombat</p>
+            </div>
+            <div className="framed-section-orange__card text-align-center">
+              <h4>Konferencia</h4>
+              <p>havi 1x</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      {/* <div className="row">
         <h3>A Mysore stílus elemei tehát:</h3>
       </div>
       <div className="row unordered-list-style">
@@ -172,7 +198,7 @@ export default function Mysoreprogram() {
           ))}
         </ul>
       </div>
-      <br />
+      <br /> */}
       <div className="row">
         <p>
           Látszik, hogy szigorúak a feltételek, nagy elkötelezettséget kíván ez
@@ -193,44 +219,13 @@ export default function Mysoreprogram() {
         </p>
       </div>
       <br />
-      <div className="framed-section-orange">
-        <div className="framed-section-orange-inside">
-          <div className="framed-section-orange-title text-align-center">
-            <h3>Mysore programunk felépítése</h3>
-          </div>
-          <div className="framed-section-orange-body">
-            <div className="framed-section-orange-card text-align-center">
-              <h4>Mysore gyakorlás</h4>
-              <p>Heti 5x</p>
-            </div>
-            <div className="framed-section-orange-card text-align-center">
-              <h4>Vezetett óra</h4>
-              <p>Heti 1x</p>
-            </div>
-            <div className="framed-section-orange-card text-align-center">
-              <h4>Pihenőnap</h4>
-              <p>Szombat</p>
-            </div>
-            <div className="framed-section-orange-card text-align-center">
-              <h4>Konferencia</h4>
-              <p>Havi 1x</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-      {/* TODO: hátteres sziget */}
-      <div className="row">
-        <div className="col-12-xs">
-          <h3>Tradíció és tapasztalat</h3>
-        </div>
-        <div className="col-12-xs">
+      <div className="island-section text-align-center">
+        <h3>Tradíció és tapasztalat</h3>
+        <div className="col-12-xs text-align-center">
           <Counter tag="h3" />
         </div>
-        <p>
-          Magyarország legrégebbi tradicionális astanga mysore programja.
-          Paramaguru Sharath Jois áldásával.
-        </p>
+        <p>Magyarország legrégebbi tradicionális astanga mysore programja.</p>
+        <p>Paramaguru Sharath Jois áldásával.</p>
       </div>
       <br />
       <div className="row">
