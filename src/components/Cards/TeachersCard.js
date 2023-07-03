@@ -1,5 +1,6 @@
 import React from "react"
-import { CustomLink } from "../CustomLink"
+import Button from "../Buttons/Button"
+import { navigate } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import "../../sass/components/_teachercard.scss"
 
@@ -20,11 +21,15 @@ const TeachersCard = ({ teacherName, teacherImg, yogaStyle, title, slug }) => {
           <p className="teacher-card__card-excerpt clr-shades-gray">
             {yogaStyle}
           </p>
-          <CustomLink
-            link={slug}
-            title="Tovább"
-            classNames="body link-decoration-remove clr-brand-orange teacher-card__card-link"
-          />
+          <Button
+            type="button"
+            buttonStyle="btn--third--naked-orange"
+            onClick={() => {
+              navigate(`${slug}`)
+            }}
+          >
+            Tovább
+          </Button>
         </div>
       </div>
     </div>
