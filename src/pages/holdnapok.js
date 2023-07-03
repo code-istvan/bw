@@ -15,7 +15,7 @@ export default function Holdnapok() {
             <h1 className="page-hero-title">HOLDNAPOK 2023</h1>
             <StaticImage
               className="container-fluid page-hero-image page-big-image"
-              src="../images/hirlevel.jpg"
+              src="../images/holdnapok_desktop.jpeg"
               layout="fullWidth"
               loading="eager"
               quality={95}
@@ -25,7 +25,7 @@ export default function Holdnapok() {
             />
             <StaticImage
               className="container-fluid page-hero-image page-mobil-image"
-              src="../images/hirlevel_mobil.jpg"
+              src="../images/holdnapok_mobil.jpeg"
               layout="fullWidth"
               loading="eager"
               quality={95}
