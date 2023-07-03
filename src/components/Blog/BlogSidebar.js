@@ -42,7 +42,7 @@ const BlogSidebar = () => {
                 </div>
                 <p>
                   <Link
-                    className="clr-shades-white link-decoration-remove"
+                    className="clr-shades-white link-decoration-remove__blog-sidebar"
                     to={link}
                   >
                     {title}
