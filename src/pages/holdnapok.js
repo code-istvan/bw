@@ -6,6 +6,12 @@ import moonDays from "../data/moonDays.json"
 import "../sass/pages/_holdnapok.scss"
 
 export default function Holdnapok() {
+  const currentDate = new Date()
+  const currentMonth = currentDate.getMonth() + 1 // getMonth() returns 0-11
+  const filteredData = moonDays.filter(item => item.monthValue === currentMonth)
+
+  console.log("currentMonth", currentMonth)
+
   return (
     <Layout>
       <Seo title="HOLDNAPOK" />
@@ -38,35 +44,47 @@ export default function Holdnapok() {
         <div className="row gap-2 moondays-frame">
           <div className="col-12-xs col-4-md col-4-xl moondays-right-column">
             <h3 className="mb-20px">HOLDNAPOK</h3>
-            <table>
-              <tr>
-                <th>TELIHOLD</th>
-                <th>ÉKADASHI</th>
-                <th>ÚJHOLD</th>
-                <th>ÉKADASHI</th>
-              </tr>
-              {moonDays &&
-                moonDays.map(
-                  ({
-                    month,
-                    fullMoon,
-                    newMoon,
-                    thirdMoon,
-                    ekadashiNewMoon,
-                    ekadashiFullMoon,
-                    ekadashiThirdMoon,
-                  }) => (
-                    <tr key={month}>
-                      <td>{fullMoon}</td>
-                      <td>{ekadashiFullMoon}</td>
-                      <td>{newMoon}</td>
-                      <td>{ekadashiNewMoon}</td>
-                    </tr>
-                  )
-                )}
-            </table>
+            {filteredData.map(
+              ({
+                month,
+                fullMoon,
+                newMoon,
+                thirdMoon,
+                moonPhase,
+                ekadashiNewMoon,
+                ekadashiFullMoon,
+                ekadashiThirdMoon,
+              }) => (
+                <div className="card" key={month}>
+                  <div className="card-header">{month}</div>
+                  <div className="card-body">
+                    <div>
+                      <strong>TELIHOLD:</strong> {fullMoon}
+                    </div>
+                    <div>
+                      <strong>ÉKADASHI:</strong> {ekadashiFullMoon}
+                    </div>
+                    <div>
+                      <strong>ÚJHOLD:</strong> {newMoon}
+                    </div>
+                    <div>
+                      <strong>ÉKADASHI:</strong> {ekadashiNewMoon}
+                    </div>
+                    {thirdMoon.length === 0 ? null : (
+                      <div>
+                        <strong>{moonPhase}:</strong> {thirdMoon}
+                      </div>
+                    )}
+                    {ekadashiThirdMoon.length === 0 ? null : (
+                      <div>
+                        <strong>ÉKADASHI3:</strong> {ekadashiThirdMoon}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )
+            )}
           </div>
-
           <div className="col-12-xs col-8-md col-8-xl ">
             <h3>
               Miért nem gyakorlunk teli- és újholdkor astanga vinyásza jógát?

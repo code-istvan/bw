@@ -1,47 +1,134 @@
 [
   {
+    "monthValue": 1,
     "month": "Január",
-    "fullMoon": "Január 7.",
-    "newMoon": "Január 22.",
-    "thirdMoon": [],
+    "fullMoon": "7.",
+    "newMoon": "22.",
     "ekadashiNewMoon": "ekadashi",
     "ekadashiFullMoon": "ekadashi",
+    "thirdMoon": [],
+    "moonPhase": [],
     "ekadashiThirdMoon": []
   },
   {
+    "monthValue": 2,
     "month": "Február",
     "fullMoon": "Február 5.",
     "newMoon": "Február 20.",
-    "thirdMoon": [],
     "ekadashiNewMoon": "ekadashi",
     "ekadashiFullMoon": "ekadashi",
+    "thirdMoon": [],
+    "moonPhase": "Telihold",
     "ekadashiThirdMoon": []
   },
   {
+    "monthValue": 3,
     "month": "Március",
     "fullMoon": "Március 7.",
     "newMoon": "Március 21.",
-    "thirdMoon": [],
     "ekadashiNewMoon": "ekadashi",
     "ekadashiFullMoon": "ekadashi",
+    "thirdMoon": [],
+    "moonPhase": "Telihold",
     "ekadashiThirdMoon": []
   },
   {
+    "monthValue": 4,
     "month": "Április",
     "fullMoon": "Április 6.",
     "newMoon": "Április 20.",
-    "thirdMoon": [],
     "ekadashiNewMoon": "ekadashi",
     "ekadashiFullMoon": "ekadashi",
+    "thirdMoon": [],
+    "moonPhase": "Telihold",
     "ekadashiThirdMoon": []
   },
   {
+    "monthValue": 5,
     "month": "Május",
     "fullMoon": "Május 6.",
     "newMoon": "Május 20.",
-    "thirdMoon": [],
     "ekadashiNewMoon": "ekadashi",
     "ekadashiFullMoon": "ekadashi",
+    "thirdMoon": [],
+    "moonPhase": "Telihold",
+    "ekadashiThirdMoon": []
+  },
+  {
+    "monthValue": 6,
+    "month": "Június",
+    "fullMoon": "4.",
+    "newMoon": "18.",
+    "ekadashiNewMoon": "hamarosan",
+    "ekadashiFullMoon": "hamarosan",
+    "thirdMoon": [],
+    "moonPhase": [],
+    "ekadashiThirdMoon": []
+  },
+  {
+    "monthValue": 7,
+    "month": "Július",
+    "fullMoon": "3.",
+    "newMoon": "17.",
+    "ekadashiNewMoon": "hamarosan",
+    "ekadashiFullMoon": "hamarosan",
+    "thirdMoon": [],
+    "moonPhase": [],
+    "ekadashiThirdMoon": []
+  },
+  {
+    "monthValue": 8,
+    "month": "Augusztus",
+    "fullMoon": "1. (kedd)",
+    "newMoon": "16. (szerda)",
+    "ekadashiNewMoon": "hamarosan",
+    "ekadashiFullMoon": "hamarosan",
+    "thirdMoon": "31. (csütörtök)",
+    "moonPhase": "Telihold",
+    "ekadashiThirdMoon": []
+  },
+  {
+    "monthValue": 9,
+    "month": "Szeptember",
+    "fullMoon": "29. (péntek)",
+    "newMoon": "15. (péntek)",
+    "ekadashiNewMoon": "hamarosan",
+    "ekadashiFullMoon": "hamarosan",
+    "thirdMoon": [],
+    "moonPhase": [],
+    "ekadashiThirdMoon": []
+  },
+  {
+    "monthValue": 10,
+    "month": "Október",
+    "fullMoon": "29. (vasárnap)*",
+    "newMoon": "15. (vasárnap)*",
+    "ekadashiNewMoon": "hamarosan",
+    "ekadashiFullMoon": "hamarosan",
+    "thirdMoon": [],
+    "moonPhase": [],
+    "ekadashiThirdMoon": []
+  },
+  {
+    "monthValue": 11,
+    "month": "November",
+    "fullMoon": "27. (hétfő)",
+    "newMoon": "13. (hétfő)",
+    "ekadashiNewMoon": "hamarosan",
+    "ekadashiFullMoon": "hamarosan",
+    "thirdMoon": [],
+    "moonPhase": [],
+    "ekadashiThirdMoon": []
+  },
+  {
+    "monthValue": 12,
+    "month": "December",
+    "fullMoon": "27. (szerda)",
+    "newMoon": "13. (szerda)",
+    "ekadashiNewMoon": "hamarosan",
+    "ekadashiFullMoon": "hamarosan",
+    "thirdMoon": [],
+    "moonPhase": [],
     "ekadashiThirdMoon": []
   }
 ]
