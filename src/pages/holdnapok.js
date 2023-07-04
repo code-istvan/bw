@@ -3,6 +3,7 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import moonDays from "../data/moonDays.json"
+import Icons from "../components/Icons/Icons"
 import "../sass/pages/_holdnapok.scss"
 
 export default function Holdnapok() {
@@ -59,13 +60,13 @@ export default function Holdnapok() {
                   <div className="card-header">{month}</div>
                   <div className="card-body">
                     <div>
-                      <strong>TELIHOLD:</strong> {fullMoon}
+                      <Icons.Fullmoon /> {fullMoon}
                     </div>
                     <div>
                       <strong>ÉKADASHI:</strong> {ekadashiFullMoon}
                     </div>
                     <div>
-                      <strong>ÚJHOLD:</strong> {newMoon}
+                      <Icons.Newmoon /> {newMoon}
                     </div>
                     <div>
                       <strong>ÉKADASHI:</strong> {ekadashiNewMoon}

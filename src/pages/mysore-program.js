@@ -85,7 +85,7 @@ export default function Mysoreprogram() {
         <div className="col-12-xs col-4-md">
           <StaticImage
             className=""
-            src="../images/Mysore_program_1.jpg"
+            src="../images/Mysore_program_1.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -97,7 +97,7 @@ export default function Mysoreprogram() {
         <div className="col-12-xs col-4-md">
           <StaticImage
             className="display-none-mobil"
-            src="../images/Mysore_program_2.jpg"
+            src="../images/Mysore_program_2.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -109,7 +109,7 @@ export default function Mysoreprogram() {
         <div className="col-12-xs col-4-md">
           <StaticImage
             className="display-none-mobil"
-            src="../images/Mysore_program_4.jpg"
+            src="../images/Mysore_program_6.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
