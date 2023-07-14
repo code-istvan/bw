@@ -3,6 +3,7 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import MoondaysCard from "../components/Cards/MoondaysCard"
+import Tabs from "../components/Tabs"
 import moonDays from "../data/moonDays.json"
 import "../sass/pages/_holdnapok.scss"
 
@@ -11,7 +12,27 @@ export default function Holdnapok() {
   const currentMonth = currentDate.getMonth() + 1 // getMonth() returns 0-11
   const filteredData = moonDays.filter(item => item.monthValue === currentMonth)
 
-  console.log("currentMonth", currentMonth)
+  const tabsData = [
+    {
+      id: "holdnapok",
+      title: "Holdnapok",
+      content: (
+        <div>
+          holdnapok holdnapok holdnapok holdnapok holdnapok holdnapok holdnapok
+        </div>
+      ),
+    },
+    {
+      id: "ekadasi",
+      title: "Ékadasi",
+      content: (
+        <div>
+          Ékadasi Ékadasi Ékadasi Ékadasi Ékadasi Ékadasi Ékadasi Ékadasi
+          Ékadasi Ékadasi Ékadasi
+        </div>
+      ),
+    },
+  ]
 
   return (
     <Layout>
@@ -65,7 +86,12 @@ export default function Holdnapok() {
               )
             )}
           </div>
-          <div className="col-12-xs col-8-md col-8-xl ">
+          <div className="jogairanyzatok-wrapper tight--desktop--container">
+            <div className="row tabs">
+              <Tabs tabsData={tabsData} />
+            </div>
+          </div>
+          <div className="col-12-xs col-8-md col-8-xl">
             <h3>
               Miért nem gyakorlunk teli- és újholdkor astanga vinyásza jógát?
             </h3>
