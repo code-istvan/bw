@@ -48,10 +48,26 @@
   z-index: 1;
 }
 
-.moondays-frame {
+.holdnapok-frame {
   @include md {
     .moondays-right-column {
       order: 2;
     }
   }
+}
+
+.holdnapok-card {
+  border: solid 2px $color-shades-darkGray;
+  border-radius: 2px;
+}
+
+.holdnapok-card-content {
+  padding: 20px;
+}
+
+.holdnapok-card__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }

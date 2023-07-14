@@ -7,6 +7,7 @@ import Icons from "../components/Icons/Icons"
 import "../sass/pages/_holdnapok.scss"
 
 export default function Holdnapok() {
+  const currentYear = new Date().getFullYear()
   const currentDate = new Date()
   const currentMonth = currentDate.getMonth() + 1 // getMonth() returns 0-11
   const filteredData = moonDays.filter(item => item.monthValue === currentMonth)
@@ -42,7 +43,7 @@ export default function Holdnapok() {
             />
           </div>
         </div>
-        <div className="row gap-2 moondays-frame">
+        <div className="row gap-2 holdnapok-frame">
           <div className="col-12-xs col-4-md col-4-xl moondays-right-column">
             <h3 className="mb-20px">HOLDNAPOK</h3>
             {filteredData.map(
@@ -56,31 +57,36 @@ export default function Holdnapok() {
                 ekadashiFullMoon,
                 ekadashiThirdMoon,
               }) => (
-                <div className="card" key={month}>
-                  <div className="card-header">{month}</div>
-                  <div className="card-body">
-                    <div>
-                      <Icons.Fullmoon /> {fullMoon}
+                <div className="holdnapok-card" key={month}>
+                  <div className="holdnapok-card-content">
+                    <div className="holdnapok-card__header">
+                      <h3>{currentYear}.</h3>
+                      <h3>{month}</h3>
                     </div>
-                    <div>
-                      <strong>ÉKADASHI:</strong> {ekadashiFullMoon}
-                    </div>
-                    <div>
-                      <Icons.Newmoon /> {newMoon}
-                    </div>
-                    <div>
-                      <strong>ÉKADASHI:</strong> {ekadashiNewMoon}
-                    </div>
-                    {thirdMoon.length === 0 ? null : (
+                    <div className="holdnapok-card__body">
                       <div>
-                        <strong>{moonPhase}:</strong> {thirdMoon}
+                        <Icons.Fullmoon /> {fullMoon}
                       </div>
-                    )}
-                    {ekadashiThirdMoon.length === 0 ? null : (
                       <div>
-                        <strong>ÉKADASHI3:</strong> {ekadashiThirdMoon}
+                        <strong>ÉKADASHI:</strong> {ekadashiFullMoon}
                       </div>
-                    )}
+                      <div>
+                        <Icons.Newmoon /> {newMoon}
+                      </div>
+                      <div>
+                        <strong>ÉKADASHI:</strong> {ekadashiNewMoon}
+                      </div>
+                      {thirdMoon.length === 0 ? null : (
+                        <div>
+                          <strong>{moonPhase}:</strong> {thirdMoon}
+                        </div>
+                      )}
+                      {ekadashiThirdMoon.length === 0 ? null : (
+                        <div>
+                          <strong>ÉKADASHI3:</strong> {ekadashiThirdMoon}
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </div>
               )

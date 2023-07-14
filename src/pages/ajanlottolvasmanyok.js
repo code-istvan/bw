@@ -14,7 +14,7 @@ export default function Ajanlottolvasmanyok() {
           <h1 className="page-hero-title">AJÁNLOTT OLVASMÁNYOK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/olvasmanyok_desktop.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -24,7 +24,7 @@ export default function Ajanlottolvasmanyok() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/olvasmanyok_mobil.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -35,6 +35,22 @@ export default function Ajanlottolvasmanyok() {
         </div>
       </div>
       <div className="tight--desktop--container">
+        <div>
+          <blockquote className="mt-40px">
+            A jóga 99%-ban gyakorlat és 1%-ban elmélet.
+          </blockquote>
+          <p className="mt-40px">
+            K. Pattabhi Jois elhíresült mondása rámutat, hogy pusztán könyvek
+            olvasásával nem lehetséges megérteni az astanga jóga eszenciáját. A
+            jóga ezen ága egy tapasztalati út, amelyet a gyakorlás során kell
+            megismerni. Ezen tapasztalati utat tudja támogatni ( 1%-ban ) a
+            szentírások - Patandzsali: Jóga Szútrák - és egyéb tapasztalt
+            jógagyakorlók személyes tapasztalatából fakadó egyéb művek. Az jóga
+            gyakorlásához szükséges elméleti tudás elsajátításához ajánlott
+            olvasmányokat találhattok az alábbiakban.
+          </p>
+        </div>
+
         <div className="row mt-40px mb-20px">
           <h3>Astanga vinyásza jóga</h3>
         </div>
