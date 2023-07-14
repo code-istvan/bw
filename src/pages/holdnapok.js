@@ -59,12 +59,41 @@ export default function Holdnapok() {
               }) => (
                 <div className="holdnapok-card" key={month}>
                   <div className="holdnapok-card-content">
-                    <div className="holdnapok-card__header">
-                      <h3>{currentYear}.</h3>
-                      <h3>{month}</h3>
-                    </div>
                     <div className="holdnapok-card__body">
-                      <div>
+                      <div className="holdnapok-card__body__row">
+                        <div className="holdnapok-card__body__newmoon">
+                          <p>ÚJ</p>
+                        </div>
+                        <div className="holdnapok-card__body__fullmoon">
+                          <p>TELI</p>
+                        </div>
+                      </div>
+                      <div className="holdnapok-card__body__row">
+                        <div>
+                          {month} {fullMoon}
+                        </div>
+                        <div>
+                          {month} {newMoon}
+                        </div>
+                      </div>
+                      <div className="holdnapok-card__body__ekadasi">
+                        <p>EKADASI</p>
+                      </div>
+                      <div className="holdnapok-card__body__row">
+                        <div>
+                          {month} {ekadashiNewMoon}
+                        </div>
+                        <div>
+                          {month} {ekadashiFullMoon}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* <div className="holdnapok-card__body">
+
+<div></div> */}
+
+                    {/* <div>
                         <Icons.Fullmoon /> {fullMoon}
                       </div>
                       <div>
@@ -75,8 +104,8 @@ export default function Holdnapok() {
                       </div>
                       <div>
                         <strong>ÉKADASHI:</strong> {ekadashiNewMoon}
-                      </div>
-                      {thirdMoon.length === 0 ? null : (
+                      </div> */}
+                    {/* {thirdMoon.length === 0 ? null : (
                         <div>
                           <strong>{moonPhase}:</strong> {thirdMoon}
                         </div>
@@ -85,8 +114,8 @@ export default function Holdnapok() {
                         <div>
                           <strong>ÉKADASHI3:</strong> {ekadashiThirdMoon}
                         </div>
-                      )}
-                    </div>
+                      )} */}
+                    {/* </div> */}
                   </div>
                 </div>
               )

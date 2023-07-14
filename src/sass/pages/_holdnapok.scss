@@ -65,9 +65,38 @@
   padding: 20px;
 }
 
-.holdnapok-card__header {
+.holdnapok-card__body {
+}
+
+.holdnapok-card__body__row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 12px;
+}
+
+.holdnapok-card__body__newmoon {
+  p {
+    font-size: 22px;
+    color: $color-brand-orange;
+    font-weight: 200 !important;
+  }
+}
+
+.holdnapok-card__body__fullmoon {
+  p {
+    font-size: 22px;
+    color: $color-brand-orange;
+    font-weight: 900 !important;
+  }
+}
+
+.holdnapok-card__body__ekadasi {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  p {
+    color: $color-brand-orange;
+  }
 }
