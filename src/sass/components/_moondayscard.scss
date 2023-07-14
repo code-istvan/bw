@@ -1,0 +1,50 @@
+@import "/src/sass/global";
+
+.holdnapok-card {
+  border: solid 2px $color-brand-orange;
+  border-radius: 2px;
+}
+
+.holdnapok-card-content {
+  padding: 20px;
+}
+
+.holdnapok-card__body__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 12px;
+}
+
+.holdnapok-card__body__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 18px;
+}
+
+.holdnapok-card__body__grid__uj {
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+
+.holdnapok-card__body__grid__ekadasi {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.holdnapok-card__body__grid__teli {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.holdnapok-card__body__grid__leftSide {
+  text-align: right;
+}
+
+.holdnapok-card__body__ekadasi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

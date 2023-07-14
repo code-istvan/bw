@@ -2,12 +2,11 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import MoondaysCard from "../components/Cards/MoondaysCard"
 import moonDays from "../data/moonDays.json"
-import Icons from "../components/Icons/Icons"
 import "../sass/pages/_holdnapok.scss"
 
 export default function Holdnapok() {
-  const currentYear = new Date().getFullYear()
   const currentDate = new Date()
   const currentMonth = currentDate.getMonth() + 1 // getMonth() returns 0-11
   const filteredData = moonDays.filter(item => item.monthValue === currentMonth)
@@ -45,49 +44,24 @@ export default function Holdnapok() {
         </div>
         <div className="row gap-2 holdnapok-frame">
           <div className="col-12-xs col-4-md col-4-xl moondays-right-column">
-            <h3 className="mb-20px">HOLDNAPOK</h3>
             {filteredData.map(
               ({
                 month,
                 fullMoon,
                 newMoon,
                 thirdMoon,
-                moonPhase,
                 ekadashiNewMoon,
                 ekadashiFullMoon,
-                ekadashiThirdMoon,
               }) => (
-                <div className="holdnapok-card" key={month}>
-                  <div className="holdnapok-card-content">
-                    <div className="holdnapok-card__body">
-                      <div className="holdnapok-card__body__grid">
-                        <div className="holdnapok-card__body__grid__leftSide">
-                          <h3>ÚJ</h3>
-                        </div>
-                        <div>
-                          <h3>TELI</h3>
-                        </div>
-                        <div className="holdnapok-card__body__grid__leftSide">
-                          {month} {fullMoon}
-                        </div>
-                        <div>
-                          {month} {newMoon}
-                        </div>
-                      </div>
-                      <div className="holdnapok-card__body__ekadasi">
-                        <h3>EKADASI</h3>
-                      </div>
-                      <div className="holdnapok-card__body__grid">
-                        <div className="holdnapok-card__body__grid__leftSide">
-                          {month} {ekadashiNewMoon}
-                        </div>
-                        <div>
-                          {month} {ekadashiFullMoon}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <MoondaysCard
+                  month={month}
+                  fullMoon={fullMoon}
+                  newMoon={newMoon}
+                  thirdMoon={thirdMoon}
+                  ekadashiNewMoon={ekadashiNewMoon}
+                  ekadashiFullMoon={ekadashiFullMoon}
+                  key={month}
+                />
               )
             )}
           </div>

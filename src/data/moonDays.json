@@ -67,7 +67,7 @@
   },
   {
     "monthValue": 7,
-    "month": "Július",
+    "month": "július",
     "fullMoon": "3. (hétfő)",
     "newMoon": "17. (hétfő)",
     "ekadashiNewMoon": "13. (kedd)",
@@ -78,7 +78,7 @@
   },
   {
     "monthValue": 8,
-    "month": "Augusztus",
+    "month": "augusztus",
     "fullMoon": "1. (kedd)",
     "newMoon": "16. (szerda)",
     "ekadashiNewMoon": "27. (vasárnap)",
@@ -89,7 +89,7 @@
   },
   {
     "monthValue": 9,
-    "month": "Szeptember",
+    "month": "szeptember",
     "fullMoon": "29. (péntek)",
     "newMoon": "15. (péntek)",
     "ekadashiNewMoon": "26. (kedd)",
@@ -100,7 +100,7 @@
   },
   {
     "monthValue": 10,
-    "month": "Október",
+    "month": "október",
     "fullMoon": "29. (vasárnap)*",
     "newMoon": "15. (vasárnap)*",
     "ekadashiNewMoon": "25. (szerda)*",
@@ -111,7 +111,7 @@
   },
   {
     "monthValue": 11,
-    "month": "November",
+    "month": "november",
     "fullMoon": "27. (hétfő)",
     "newMoon": "13. (hétfő)",
     "ekadashiNewMoon": "9. (csütörtök)",
@@ -122,7 +122,7 @@
   },
   {
     "monthValue": 12,
-    "month": "December",
+    "month": "december",
     "fullMoon": "27. (szerda)",
     "newMoon": "13. (szerda)",
     "ekadashiNewMoon": "23. (szombat)",
