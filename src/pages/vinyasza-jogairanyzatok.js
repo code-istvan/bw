@@ -3,15 +3,10 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { CustomLink } from "../components/CustomLink"
+import Tabs from "../components/Tabs"
 import "../sass/pages/_jogairanzyatok.scss"
 
 export default function Vinyasza() {
-  const [selectedTab, setSelectedTab] = useState("Astanga")
-
-  const handleTabSelect = tab => {
-    setSelectedTab(tab)
-  }
-
   const tabsData = [
     {
       id: "astanga",
@@ -375,10 +370,6 @@ export default function Vinyasza() {
     },
   ]
 
-  const selectedTabContent = tabsData.find(
-    tab => tab.title === selectedTab
-  )?.content
-
   return (
     <Layout>
       <Seo title="VINYÁSZA JÓGAIRÁNYZATOK" />
@@ -408,21 +399,10 @@ export default function Vinyasza() {
         </div>
       </div>
       <div className="jogairanyzatok-wrapper tight--desktop--container">
-        <div className="row tabs mt-40px">
+        <div className="row tabs mt-20px">
           <div className="tabs__header mb-20px">
-            {tabsData.map((tab, index) => (
-              <h3
-                key={index}
-                className={`tabs__label ${
-                  selectedTab === tab.title ? "active" : "not-active"
-                }`}
-                onClick={() => handleTabSelect(tab.title)}
-              >
-                {tab.title}
-              </h3>
-            ))}
+            <Tabs tabsData={tabsData} />
           </div>
-          <div className="tabs__content">{selectedTabContent}</div>
         </div>
       </div>
     </Layout>

@@ -184,7 +184,7 @@ export default function Holdnapok() {
           </div>
         </div>
         <div className="tight--desktop--container">
-          <div className="mt-40px">
+          <div className="mt-20px">
             {filteredData.map(
               ({
                 month,
