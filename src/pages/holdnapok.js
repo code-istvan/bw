@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import MoondaysCard from "../components/Cards/MoondaysCard"
 import Tabs from "../components/Tabs"
 import moonDays from "../data/moonDays.json"
+import Icons from "../components/Icons/Icons"
 import "../sass/pages/_holdnapok.scss"
 
 export default function Holdnapok() {
@@ -184,27 +185,35 @@ export default function Holdnapok() {
           </div>
         </div>
         <div className="tight--desktop--container">
-          <div className="mt-20px">
-            {filteredData.map(
-              ({
-                month,
-                fullMoon,
-                newMoon,
-                thirdMoon,
-                ekadashiNewMoon,
-                ekadashiFullMoon,
-              }) => (
-                <MoondaysCard
-                  month={month}
-                  fullMoon={fullMoon}
-                  newMoon={newMoon}
-                  thirdMoon={thirdMoon}
-                  ekadashiNewMoon={ekadashiNewMoon}
-                  ekadashiFullMoon={ekadashiFullMoon}
-                  key={month}
-                />
-              )
-            )}
+          <div className="carl-teszt">
+            <div className="left-teszt">
+              <Icons.ChevronLeft color="orange" />
+            </div>
+            <div className="mt-20px">
+              {filteredData.map(
+                ({
+                  month,
+                  fullMoon,
+                  newMoon,
+                  thirdMoon,
+                  ekadashiNewMoon,
+                  ekadashiFullMoon,
+                }) => (
+                  <MoondaysCard
+                    month={month}
+                    fullMoon={fullMoon}
+                    newMoon={newMoon}
+                    thirdMoon={thirdMoon}
+                    ekadashiNewMoon={ekadashiNewMoon}
+                    ekadashiFullMoon={ekadashiFullMoon}
+                    key={month}
+                  />
+                )
+              )}
+            </div>
+            <div className="left-teszt">
+              <Icons.ChevronRight color="orange" />
+            </div>
           </div>
           <div className="jogairanyzatok-wrapper tight--desktop--container">
             <div className="row tabs">
