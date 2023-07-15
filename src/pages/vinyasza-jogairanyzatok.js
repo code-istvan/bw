@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
