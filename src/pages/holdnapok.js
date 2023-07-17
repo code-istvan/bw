@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState, useEffect } from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
@@ -8,9 +8,30 @@ import moonDays from "../data/moonDays.json"
 import "../sass/pages/_holdnapok.scss"
 
 export default function Holdnapok() {
+  const [isNextMonthModalOpen, setNextMonthModalOpen] = useState(false)
+  const [isFullYearModalOpen, setFullYearModalOpen] = useState(false)
   const currentDate = new Date()
-  const currentMonth = currentDate.getMonth() + 1 // getMonth() returns 0-11
+  const currentMonth = currentDate.getMonth() + 1
+  const nextMonth = currentDate.getMonth() + 2
   const filteredData = moonDays.filter(item => item.monthValue === currentMonth)
+  const nextMonthFilteredData = moonDays.filter(
+    item => item.monthValue === nextMonth
+  )
+  const currentMonthId = currentDate.getMonth() + 1
+
+  useEffect(() => {
+    const container = document.querySelector(".year-cards-container")
+    const card = document.getElementById(`month-${currentMonthId}`)
+    if (container && card) {
+      const containerWidth = container.offsetWidth
+      const cardWidth = card.offsetWidth
+      const offsetLeft = card.offsetLeft
+
+      // Középre igazítás
+      const scrollLeft = offsetLeft - containerWidth / 2 + cardWidth / 2
+      container.scrollLeft = scrollLeft
+    }
+  }, [])
 
   const tabsData = [
     {
@@ -157,6 +178,57 @@ export default function Holdnapok() {
   return (
     <Layout>
       <Seo title="HOLDNAPOK" />
+      {isNextMonthModalOpen && (
+        <dialog open className="modal">
+          {nextMonthFilteredData.map(
+            ({
+              month,
+              fullMoon,
+              newMoon,
+              thirdMoon,
+              ekadashiNewMoon,
+              ekadashiFullMoon,
+            }) => (
+              <MoondaysCard
+                month={month}
+                fullMoon={fullMoon}
+                newMoon={newMoon}
+                thirdMoon={thirdMoon}
+                ekadashiNewMoon={ekadashiNewMoon}
+                ekadashiFullMoon={ekadashiFullMoon}
+                key={month}
+              />
+            )
+          )}
+          <button onClick={() => setNextMonthModalOpen(false)}>Bezárás</button>
+        </dialog>
+      )}
+      {isFullYearModalOpen && (
+        <dialog open className="modal">
+          {/* {moonDays.map(
+            ({
+              month,
+              fullMoon,
+              newMoon,
+              thirdMoon,
+              ekadashiNewMoon,
+              ekadashiFullMoon,
+            }) => (
+              <MoondaysCard
+                month={month}
+                fullMoon={fullMoon}
+                newMoon={newMoon}
+                thirdMoon={thirdMoon}
+                ekadashiNewMoon={ekadashiNewMoon}
+                ekadashiFullMoon={ekadashiFullMoon}
+                key={month}
+              />
+            )
+          )} */}
+          <button onClick={() => setFullYearModalOpen(false)}>Bezárás</button>
+        </dialog>
+      )}
+
       <div className="holdnapok-wrapper">
         <div className="page-hero-container">
           <div className="row tight--desktop--container">
@@ -206,6 +278,42 @@ export default function Holdnapok() {
               )
             )}
           </div>
+          <div className="holdnapok--moondayCard--buttons">
+            <div>
+              <button onClick={() => setNextMonthModalOpen(true)}>
+                Következő hónap
+              </button>
+            </div>
+            <div>
+              <button onClick={() => setFullYearModalOpen(true)}>
+                Teljes év
+              </button>
+            </div>
+          </div>
+
+          <div className="year-cards-container">
+            {moonDays.map(
+              ({
+                month,
+                fullMoon,
+                newMoon,
+                thirdMoon,
+                ekadashiNewMoon,
+                ekadashiFullMoon,
+              }) => (
+                <MoondaysCard
+                  month={month}
+                  fullMoon={fullMoon}
+                  newMoon={newMoon}
+                  thirdMoon={thirdMoon}
+                  ekadashiNewMoon={ekadashiNewMoon}
+                  ekadashiFullMoon={ekadashiFullMoon}
+                  key={month}
+                />
+              )
+            )}
+          </div>
+
           <div className="jogairanyzatok-wrapper tight--desktop--container">
             <div className="row tabs">
               <Tabs tabsData={tabsData} />

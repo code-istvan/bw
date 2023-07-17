@@ -55,3 +55,40 @@
     }
   }
 }
+
+.holdnapok--moondayCard--buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal {
+  z-index: 9999;
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: black;
+  max-width: 70ch;
+
+  & > * {
+    margin: 0 0 0.5rem 0;
+  }
+}
+
+.modal::backdrop {
+  z-index: 9998;
+  background-color: orange;
+}
+
+.year-cards-container {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  scroll-snap-type: x mandatory; /* Opcionális: gurítás során "ragad" a kártyákhoz */
+}
+
+.year-cards-container::-webkit-scrollbar {
+  display: none; /* Elrejti a görgetősávot (opcionális) */
+}
