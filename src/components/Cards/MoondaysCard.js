@@ -12,42 +12,38 @@ const MoondaysCard = ({
   return (
     <div className="holdnapok-card">
       <div className="holdnapok-card-content">
+        <div className="holdnapok-card__header">
+          <p>2023.</p>
+          <p>{month}</p>
+        </div>
         <div className="holdnapok-card__body">
           <div className="holdnapok-card__body__grid">
             <div className="holdnapok-card__body__grid__leftSide">
-              <p className="clr-brand-orange holdnapok-card__body__grid__uj">
-                ÚJ
-              </p>
+              <h3 className="clr-brand-orange">ÚJ</h3>
             </div>
             <div>
-              <p className="clr-brand-orange holdnapok-card__body__grid__teli">
-                TELI
-              </p>
+              <h3 className="clr-brand-orange">TELI</h3>
             </div>
             <div className="holdnapok-card__body__grid__leftSide">
-              {month} {fullMoon}
+              {fullMoon}
             </div>
-            <div>
-              {month} {newMoon}
-            </div>
+            <div>{newMoon}</div>
             {thirdMoon.length === 0 ? null : (
               <div className="holdnapok-card__body__grid__leftSide">
-                {month} {thirdMoon}
+                {thirdMoon}
               </div>
             )}
           </div>
           <div className="holdnapok-card__body__ekadasi">
-            <p className="clr-brand-orange mt-20px holdnapok-card__body__grid__ekadasi">
-              ÉKÁDASI
-            </p>
+            <h3 className="clr-brand-orange mt-20px holdnapok-card__body__grid__ekadasi">
+              ÉKADASI
+            </h3>
           </div>
           <div className="holdnapok-card__body__grid">
             <div className="holdnapok-card__body__grid__leftSide">
-              {month} {ekadashiNewMoon}
+              {ekadashiNewMoon}
             </div>
-            <div>
-              {month} {ekadashiFullMoon}
-            </div>
+            <div>{ekadashiFullMoon}</div>
           </div>
         </div>
       </div>

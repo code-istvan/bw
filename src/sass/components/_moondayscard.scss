@@ -9,6 +9,17 @@
   padding: 20px;
 }
 
+.holdnapok-card__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  p {
+    text-transform: uppercase;
+  }
+}
+
 .holdnapok-card__body__row {
   display: flex;
   flex-direction: row;
@@ -23,28 +34,18 @@
   column-gap: 18px;
 }
 
-.holdnapok-card__body__grid__uj {
-  font-size: 22px;
-  font-weight: 100;
-  margin-bottom: 8px;
-}
-
-.holdnapok-card__body__grid__ekadasi {
-  font-size: 22px;
-  margin-bottom: 8px;
-}
-
-.holdnapok-card__body__grid__teli {
-  font-size: 22px;
-  font-weight: 900;
-}
-
 .holdnapok-card__body__grid__leftSide {
   text-align: right;
+  h3 {
+    margin-bottom: 8px;
+  }
 }
 
 .holdnapok-card__body__ekadasi {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  h3 {
+    margin-bottom: 8px;
+  }
 }

@@ -239,7 +239,7 @@ export default function Holdnapok() {
                 buttonStyle="btn--third--naked-orange"
                 onClick={handleNextMonth}
               >
-                Előző hónap
+                Következő hónap
               </Button>
             </div>
           </div>
