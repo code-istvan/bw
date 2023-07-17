@@ -34,7 +34,7 @@ const MoondaysCard = ({
               </div>
             )}
           </div>
-          <div className="separator-horizontal mt-20px"></div>
+          <div className="separator-horizontal clr-shades-darkGray mt-20px"></div>
           <div className="holdnapok-card__body__ekadasi">
             <h3 className="clr-brand-orange holdnapok-card__body__grid__ekadasi">
               ÉKADASI
