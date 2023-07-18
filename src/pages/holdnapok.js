@@ -26,8 +26,6 @@ export default function Holdnapok() {
     setCurrentMonthId(previousMonthId)
   }
 
-  console.log("currentMonthId", currentMonthId)
-
   const tabsData = [
     {
       id: "holdnapok",
