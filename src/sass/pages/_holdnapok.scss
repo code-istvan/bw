@@ -62,33 +62,27 @@
   justify-content: space-between;
 }
 
-.modal {
-  z-index: 9999;
-  position: fixed;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  color: white;
-  background: black;
-  max-width: 70ch;
-
-  & > * {
-    margin: 0 0 0.5rem 0;
+.holdnapok--right-side {
+  @include lg {
+    order: 2;
+    margin-top: 40px;
   }
 }
 
-.modal::backdrop {
-  z-index: 9998;
-  background-color: orange;
+.moondays--holdnaptar-text {
+  @include xs {
+    display: none;
+  }
+  @include lg {
+    display: block;
+  }
 }
 
-.year-cards-container {
-  display: flex;
-  overflow-x: auto;
-  width: 100%;
-  scroll-snap-type: x mandatory; /* Opcionális: gurítás során "ragad" a kártyákhoz */
-}
-
-.year-cards-container::-webkit-scrollbar {
-  display: none; /* Elrejti a görgetősávot (opcionális) */
+.moondays--tab {
+  @include xs {
+    margin-top: -40px;
+  }
+  @include lg {
+    margin-top: 0px;
+  }
 }

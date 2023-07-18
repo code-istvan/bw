@@ -171,10 +171,9 @@ export default function Holdnapok() {
   return (
     <Layout>
       <Seo title="HOLDNAPOK" />
-
       <div className="holdnapok-wrapper">
         <div className="page-hero-container">
-          <div className="row tight--desktop--container">
+          <div className="row">
             <h1 className="page-hero-title">HOLDNAPOK 2023</h1>
             <StaticImage
               className="container-fluid page-hero-image page-big-image"
@@ -198,8 +197,11 @@ export default function Holdnapok() {
             />
           </div>
         </div>
-        <div className="tight--desktop--container">
-          <div className="mt-20px">
+        <div className="row gap-2">
+          <div className="col-12-xs col-4-lg holdnapok--right-side">
+            <div className="mb-20px">
+              <h3 className="moondays--holdnaptar-text">Holdnaptár</h3>
+            </div>
             {filteredData.map(
               ({
                 month,
@@ -222,38 +224,38 @@ export default function Holdnapok() {
                 />
               )
             )}
-          </div>
-          <div className="holdnapok--moondayCard--buttons">
-            {currentMonthId === 1 ? (
-              <div></div>
-            ) : (
-              <div>
-                <Button
-                  type="button"
-                  buttonStyle="btn--third--naked-orange"
-                  onClick={handlePreviousMonth}
-                >
-                  Előző hónap
-                </Button>
-              </div>
-            )}
-            {currentMonthId === 12 ? (
-              <div></div>
-            ) : (
-              <div>
-                <Button
-                  type="button"
-                  buttonStyle="btn--third--naked-orange"
-                  onClick={handleNextMonth}
-                >
-                  Következő hónap
-                </Button>
-              </div>
-            )}
+            <div className="holdnapok--moondayCard--buttons">
+              {currentMonthId === 1 ? (
+                <div></div>
+              ) : (
+                <div>
+                  <Button
+                    type="button"
+                    buttonStyle="btn--third--naked-orange"
+                    onClick={handlePreviousMonth}
+                  >
+                    Előző hónap
+                  </Button>
+                </div>
+              )}
+              {currentMonthId === 12 ? (
+                <div></div>
+              ) : (
+                <div>
+                  <Button
+                    type="button"
+                    buttonStyle="btn--third--naked-orange"
+                    onClick={handleNextMonth}
+                  >
+                    Következő hónap
+                  </Button>
+                </div>
+              )}
+            </div>
           </div>
 
-          <div className="jogairanyzatok-wrapper tight--desktop--container">
-            <div className="row tabs">
+          <div className="col-12-xs col-8-lg ">
+            <div className="row moondays--tab">
               <Tabs tabsData={tabsData} />
             </div>
           </div>
