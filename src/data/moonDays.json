@@ -2,10 +2,10 @@
   {
     "monthValue": 1,
     "month": "Január",
-    "fullMoon": "7.",
-    "newMoon": "22.",
-    "ekadashiNewMoon": "ekadashi",
-    "ekadashiFullMoon": "ekadashi",
+    "fullMoon": "7. (szombat)",
+    "newMoon": "22. (vasárnap)",
+    "ekadashiNewMoon": "2. (hétfő)",
+    "ekadashiFullMoon": "18. (szerda)",
     "thirdMoon": [],
     "moonPhase": [],
     "ekadashiThirdMoon": []
@@ -13,10 +13,10 @@
   {
     "monthValue": 2,
     "month": "Február",
-    "fullMoon": "Február 5.",
-    "newMoon": "Február 20.",
-    "ekadashiNewMoon": "ekadashi",
-    "ekadashiFullMoon": "ekadashi",
+    "fullMoon": "5. (vasárnap)",
+    "newMoon": "20. (hétfő)",
+    "ekadashiNewMoon": "1. (szerda)",
+    "ekadashiFullMoon": "16. (csütörtök)",
     "thirdMoon": [],
     "moonPhase": "Telihold",
     "ekadashiThirdMoon": []
@@ -24,10 +24,10 @@
   {
     "monthValue": 3,
     "month": "Március",
-    "fullMoon": "Március 7.",
-    "newMoon": "Március 21.",
-    "ekadashiNewMoon": "ekadashi",
-    "ekadashiFullMoon": "ekadashi",
+    "fullMoon": "7. (kedd)",
+    "newMoon": "21. (kedd)",
+    "ekadashiNewMoon": "3. (péntek)",
+    "ekadashiFullMoon": "18. (szombat)",
     "thirdMoon": [],
     "moonPhase": "Telihold",
     "ekadashiThirdMoon": []
@@ -35,10 +35,10 @@
   {
     "monthValue": 4,
     "month": "Április",
-    "fullMoon": "Április 6.",
-    "newMoon": "Április 20.",
-    "ekadashiNewMoon": "ekadashi",
-    "ekadashiFullMoon": "ekadashi",
+    "fullMoon": "6. (csütörtök)",
+    "newMoon": "20. (csütörtök)",
+    "ekadashiNewMoon": "1. (szombat)",
+    "ekadashiFullMoon": "17. (hétfő)",
     "thirdMoon": [],
     "moonPhase": "Telihold",
     "ekadashiThirdMoon": []
@@ -46,10 +46,10 @@
   {
     "monthValue": 5,
     "month": "Május",
-    "fullMoon": "Május 6.",
-    "newMoon": "Május 20.",
-    "ekadashiNewMoon": "ekadashi",
-    "ekadashiFullMoon": "ekadashi",
+    "fullMoon": "6. (szombat)",
+    "newMoon": "20. (szombat)",
+    "ekadashiNewMoon": "1. (hétfő)",
+    "ekadashiFullMoon": "17. (szerda)",
     "thirdMoon": [],
     "moonPhase": "Telihold",
     "ekadashiThirdMoon": []
@@ -57,10 +57,10 @@
   {
     "monthValue": 6,
     "month": "Június",
-    "fullMoon": "4.",
-    "newMoon": "18.",
-    "ekadashiNewMoon": "hamarosan",
-    "ekadashiFullMoon": "hamarosan",
+    "fullMoon": "4. (vasárnap)",
+    "newMoon": "18. (vasárnap)",
+    "ekadashiNewMoon": "15. (csütörtök)",
+    "ekadashiFullMoon": "29. (csütörtök)",
     "thirdMoon": [],
     "moonPhase": [],
     "ekadashiThirdMoon": []

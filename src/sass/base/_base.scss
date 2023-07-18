@@ -84,10 +84,10 @@ section {
     background-color: $color-shades-darkGray;
   }
 
-  a {
-    color: inherit;
-    text-decoration: inherit;
-  }
+  // a {
+  //   color: inherit;
+  //   text-decoration: inherit;
+  // }
 
   .tag-button-hover:hover {
     color: $color-brand-orange !important;
@@ -294,6 +294,13 @@ blockquote {
   }
 }
 
+.custom-link-style-white {
+  color: $color-shades-white !important;
+  a {
+    text-decoration: none;
+  }
+}
+
 .custom-link-style:hover {
   text-decoration: underline !important;
 }
@@ -324,9 +331,6 @@ blockquote {
 
 // Style for the framed ORANGE sections
 
-.framed-section {
-}
-
 .framed-section-orange {
   border: solid 1px $color-brand-orange;
 }
@@ -355,4 +359,9 @@ blockquote {
   background-color: $color-shades-darkGray;
   padding: 20px;
   margin: 20px;
+}
+
+.link-color-orange {
+  color: $color-brand-orange !important;
+  font-weight: bolder;
 }

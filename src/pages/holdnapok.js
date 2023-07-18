@@ -252,6 +252,16 @@ export default function Holdnapok() {
                 </div>
               )}
             </div>
+            <div className="moondays--holdnaptar-text mt-20px">
+              <p>
+                A *(csillag)-al jelölt dátumok speciális astangás holdnapok. A
+                hivatalos – Budapestre számított – teli- és újhold nem erre a
+                napra esik, viszont az aktuális holdnap órára és percre
+                számított pontos időpontja (pl. 21:30) közelebb esik a következő
+                napi gyakorlás időpontjához, ezért tolódík a pihenőnap erre a
+                napra.
+              </p>
+            </div>
           </div>
 
           <div className="col-12-xs col-8-lg ">

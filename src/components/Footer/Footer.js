@@ -5,6 +5,7 @@ import Icons from "../Icons/Icons"
 import { navigate } from "gatsby"
 import FooterDesktopMenu from "./FooterDesktopMenu"
 import { Link } from "gatsby"
+import { CustomLink } from "../CustomLink"
 import "../../sass/components/_footer.scss"
 
 const Footer = ({ handleOpenMenu }) => {
@@ -71,7 +72,11 @@ const Footer = ({ handleOpenMenu }) => {
             <div>
               <p className="small">
                 Designed and code by <br className="footer-br" />
-                <a href="https://omworks.hu"> OmWorks Yoga Creatives</a>
+                <CustomLink
+                  link="https://omworks.hu/"
+                  title=" OmWorks Yoga Creatives"
+                  classNames="link-color-orange"
+                />
               </p>
             </div>
             <div className="separator"></div>
@@ -82,7 +87,11 @@ const Footer = ({ handleOpenMenu }) => {
             </div>
             <div className="separator"></div>
             <div>
-              <p className="small">Adatvédelmi tájékoztató</p>
+              <CustomLink
+                link="/adatkezelesi-tajekoztato"
+                title="Adatkezelési tájékoztató"
+                classNames="small custom-link-style-white "
+              />
             </div>
           </div>
         </div>

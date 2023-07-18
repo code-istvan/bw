@@ -3,7 +3,7 @@
 .footer {
   a:link {
     text-decoration: none;
-    color: $color-shades-lightGray !important;
+    color: $color-shades-lightGray;
   }
 
   @media only screen and (min-width: 1px) and (max-width: 320px) {
@@ -140,10 +140,10 @@
   text-align: center;
 
   a:link {
-    color: $color-brand-orange !important;
+    color: $color-shades-white;
   }
   a:visited {
-    color: $color-brand-orange !important;
+    color: $color-brand-orange;
   }
 
   p {
