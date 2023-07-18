@@ -26,6 +26,8 @@ export default function Holdnapok() {
     setCurrentMonthId(previousMonthId)
   }
 
+  console.log("currentMonthId", currentMonthId)
+
   const tabsData = [
     {
       id: "holdnapok",
@@ -224,24 +226,32 @@ export default function Holdnapok() {
             )}
           </div>
           <div className="holdnapok--moondayCard--buttons">
-            <div>
-              <Button
-                type="button"
-                buttonStyle="btn--third--naked-orange"
-                onClick={handlePreviousMonth}
-              >
-                Előző hónap
-              </Button>
-            </div>
-            <div>
-              <Button
-                type="button"
-                buttonStyle="btn--third--naked-orange"
-                onClick={handleNextMonth}
-              >
-                Következő hónap
-              </Button>
-            </div>
+            {currentMonthId === 1 ? (
+              <div></div>
+            ) : (
+              <div>
+                <Button
+                  type="button"
+                  buttonStyle="btn--third--naked-orange"
+                  onClick={handlePreviousMonth}
+                >
+                  Előző hónap
+                </Button>
+              </div>
+            )}
+            {currentMonthId === 12 ? (
+              <div></div>
+            ) : (
+              <div>
+                <Button
+                  type="button"
+                  buttonStyle="btn--third--naked-orange"
+                  onClick={handleNextMonth}
+                >
+                  Következő hónap
+                </Button>
+              </div>
+            )}
           </div>
 
           <div className="jogairanyzatok-wrapper tight--desktop--container">
