@@ -236,8 +236,8 @@ export default function Holdnapok() {
             )}
             <div className="holdnapok--moondayCard--buttons">
               {currentMonthId === 1 ? (
-                <div>
-                  <p className="button--is-inactive">Előző hónap</p>
+                <div className="button--is-inactive">
+                  <p>Előző hónap</p>
                 </div>
               ) : (
                 <div>
@@ -251,7 +251,9 @@ export default function Holdnapok() {
                 </div>
               )}
               {currentMonthId === 12 ? (
-                <div></div>
+                <div className="button--is-inactive">
+                  <p>Következő hónap</p>
+                </div>
               ) : (
                 <div>
                   <Button

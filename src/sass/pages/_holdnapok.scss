@@ -61,9 +61,8 @@
   flex-direction: row;
   justify-content: space-between;
 
-  .button--is-inactive {
-    padding-top: 11px;
-    padding-bottom: 11px;
+  .button--is-inactive p {
+    padding: 11px 0;
     color: $color-shades-lightBlack;
   }
 }
