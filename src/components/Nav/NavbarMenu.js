@@ -14,9 +14,9 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/arak", label: "ÁRAK" },
     { link: "/mysore-program", label: "MYSORE PROGRAM" },
     { link: "/tanfolyam", label: "TANFOLYAMOK" },
-    { link: "/oktatok", label: "OKTATÓK" },
+    { link: "/csapatunk", label: "CSAPATUNK" },
     { link: "/vinyasza-jogairanyzatok", label: "JÓGAIRÁNYZATOK" },
-    { link: "/sorozatabrak", label: "SOROZATÁBRÁK" },
+    { link: "/letoltesek", label: "LETÖLTÉSEK" },
     { link: "/galeria", label: "GALÉRIA", extraClass: "" },
   ]
 

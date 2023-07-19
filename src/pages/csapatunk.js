@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 import { useTeachers } from "../hooks/useTeachersQuery"
 import "../sass/pages/_oktatok.scss"
 
-const Oktatok = () => {
+const Csapatunk = () => {
   const teachers = useTeachers()
   const filterTeachers = teachers.filter(
     item => item.name === "István" || item.name === "Noémi"
@@ -14,10 +14,10 @@ const Oktatok = () => {
 
   return (
     <Layout>
-      <Seo title="OKTATÓK" />
+      <Seo title="CSAPATUNK" />
       <div className="page-hero-container">
         <div className="row">
-          <h1 className="page-hero-title">OKTATÓK</h1>
+          <h1 className="page-hero-title">CSAPATUNK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/oktatok_desktop.jpg"
@@ -70,4 +70,4 @@ const Oktatok = () => {
   )
 }
 
-export default Oktatok
+export default Csapatunk

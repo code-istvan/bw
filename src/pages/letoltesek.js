@@ -4,7 +4,7 @@ import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { CustomLink } from "../components/CustomLink"
 
-export default function Sorozatabrak() {
+export default function Letoltesek() {
   const sequences = [
     {
       style: "Astanga vinyásza jóga",
@@ -35,10 +35,10 @@ export default function Sorozatabrak() {
 
   return (
     <Layout>
-      <Seo title="SOROZATÁBRÁK" />
+      <Seo title="LETÖLTÉSEK" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
-          <h1 className="page-hero-title">SOROZATÁBRÁK</h1>
+          <h1 className="page-hero-title">LETÖLTÉSEK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/sorozatabrak_desktop.jpg"
@@ -62,10 +62,9 @@ export default function Sorozatabrak() {
         </div>
       </div>
       <div className="sorozatabrak-wapper tight--desktop--container">
-        <div className="row mt-40px mb-20px">
-          <h3>
-            A sorozatábra nem helyettesíti a szakképzett oktató útmutatását.
-          </h3>
+        <div className="mt-40px mb-20px">
+          <h3>Sorozatábrák</h3>
+          <p>A sorozatábra nem helyettesíti a szakképzett oktató útmutatását</p>
         </div>
         <div className="row">
           <div className="col unordered-list-style">
@@ -86,6 +85,9 @@ export default function Sorozatabrak() {
                 ))}
             </ul>
           </div>
+        </div>
+        <div className="mt-40px mb-20px">
+          <h3>Plakátok</h3>
         </div>
       </div>
     </Layout>
