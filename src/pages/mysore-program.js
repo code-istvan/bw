@@ -3,6 +3,7 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { CustomLink } from "../components/CustomLink"
+import Icons from "../components/Icons/Icons"
 import Counter from "../components/Counter"
 import "../sass/pages/_mysoreprogram.scss"
 
@@ -161,6 +162,7 @@ export default function Mysoreprogram() {
           </div>
           <div className="framed-section-orange__body">
             <div className="framed-section-orange__card text-align-center">
+              <Icons.Mysore color="orange" />
               <h4>Mysore gyakorlás</h4>
               <p>heti 5x</p>
             </div>
@@ -169,10 +171,12 @@ export default function Mysoreprogram() {
               <p>heti 1x</p>
             </div>
             <div className="framed-section-orange__card text-align-center">
+              <Icons.Restday color="orange" />
               <h4>Pihenőnap</h4>
               <p>szombat</p>
             </div>
             <div className="framed-section-orange__card text-align-center">
+              <Icons.Conference color="orange" />
               <h4>Konferencia</h4>
               <p>havi 1x</p>
             </div>
