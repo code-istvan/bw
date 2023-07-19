@@ -3,6 +3,7 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import MoondaysCard from "../components/Cards/MoondaysCard"
+import { CustomLink } from "../components/CustomLink"
 import Tabs from "../components/Tabs"
 import moonDays from "../data/moonDays.json"
 import Button from "../components/Buttons/Button"
@@ -25,6 +26,15 @@ export default function Holdnapok() {
     const previousMonthId = currentMonthId === 1 ? 12 : currentMonthId - 1
     setCurrentMonthId(previousMonthId)
   }
+
+  const hasznosOlvasmanyok = [
+    {
+      link: "/blog/miert-nem-gyakorlunk-teli-es-ujholdkor-astanga-vinyasza-jogat/",
+      title: "Miért nem gyakorlunk teli- és újholdkor astanga vinyásza jógát?",
+      classNames:
+        "body link-decoration-remove clr-brand-orange schedule-teacher",
+    },
+  ]
 
   const tabsData = [
     {
@@ -267,6 +277,22 @@ export default function Holdnapok() {
           <div className="col-12-xs col-8-lg ">
             <div className="row moondays--tab">
               <Tabs tabsData={tabsData} />
+            </div>
+            <div className="row unordered-list-style mt-20px">
+              <h3>További olvasmány a témában:</h3>
+              <ul>
+                {hasznosOlvasmanyok.map((link, index) => (
+                  <li key={index}>
+                    <p>
+                      <CustomLink
+                        link={link.link}
+                        title={link.title}
+                        classNames={link.classNames}
+                      />
+                    </p>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
