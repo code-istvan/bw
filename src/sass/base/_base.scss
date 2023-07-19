@@ -84,14 +84,14 @@ section {
     background-color: $color-shades-darkGray;
   }
 
-  // a {
-  //   color: inherit;
-  //   text-decoration: inherit;
-  // }
-
-  .tag-button-hover:hover {
-    color: $color-brand-orange !important;
+  a {
+    color: $color-shades-gray;
+    text-decoration: none;
   }
+}
+
+.tag-button a:hover {
+  color: $color-brand-orange;
 }
 
 .single-tag-button:hover {

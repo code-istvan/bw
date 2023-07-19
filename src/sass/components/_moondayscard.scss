@@ -1,11 +1,11 @@
 @import "/src/sass/global";
 
 .holdnapok-card {
-  border: solid 2px $color-shades-darkGray;
+  border: solid 2px $color-shades-lightBlack;
   border-radius: 2px;
 
   .separator-horizontal {
-    border-top: solid 1px $color-shades-darkGray;
+    border-top: solid 1px $color-shades-lightBlack;
   }
 }
 

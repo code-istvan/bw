@@ -1,0 +1,29 @@
+@import "/src/sass/global";
+
+.tabs__checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.tabs__label.active {
+  color: orange;
+  margin-bottom: -2px;
+  border-bottom: 3px solid orange;
+}
+
+.tabs__label.not-active:hover {
+  color: orange;
+}
+
+.tabs__header {
+  display: flex;
+  cursor: pointer;
+  border-bottom: 1px solid $color-shades-lightBlack;
+  gap: 28px;
+
+  @include xs {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

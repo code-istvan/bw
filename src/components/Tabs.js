@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import "../sass/components/_tabs.scss"
 
 const Tabs = ({ tabsData }) => {
   const [selectedTab, setSelectedTab] = useState(tabsData[0].title)

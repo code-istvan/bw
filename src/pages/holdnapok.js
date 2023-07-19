@@ -236,7 +236,9 @@ export default function Holdnapok() {
             )}
             <div className="holdnapok--moondayCard--buttons">
               {currentMonthId === 1 ? (
-                <div></div>
+                <div>
+                  <p className="button--is-inactive">Előző hónap</p>
+                </div>
               ) : (
                 <div>
                   <Button
@@ -264,12 +266,11 @@ export default function Holdnapok() {
             </div>
             <div className="moondays--holdnaptar-text mt-20px">
               <p>
-                A *(csillag)-al jelölt dátumok speciális astangás holdnapok. A
-                hivatalos – Budapestre számított – teli- és újhold nem erre a
-                napra esik, viszont az aktuális holdnap órára és percre
-                számított pontos időpontja (pl. 21:30) közelebb esik a következő
-                napi gyakorlás időpontjához, ezért tolódík a pihenőnap erre a
-                napra.
+                A *-al jelölt dátumok speciális astangás holdnapok. A hivatalos
+                – Budapestre számított – teli- és újhold nem erre a napra esik,
+                viszont az aktuális holdnap órára és percre számított pontos
+                időpontja (pl. 23:30) közelebb esik a következő napi gyakorlás
+                időpontjához, ezért tolódík a pihenőnap erre a dátumra.
               </p>
             </div>
           </div>
