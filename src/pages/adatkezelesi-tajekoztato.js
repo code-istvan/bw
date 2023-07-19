@@ -12,7 +12,7 @@ export default function AdatkezelesiTajekoztato() {
           <h1 className="page-hero-title">ADATKEZELÉSI TÁJÉKOZTATÓ</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/adatkezeles_desktop.jpg"
+            src="../images/adatkezeles_desktop.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -22,7 +22,7 @@ export default function AdatkezelesiTajekoztato() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/adatkezeles_mobil.jpg"
+            src="../images/adatkezeles_mobil.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
