@@ -6,7 +6,7 @@ description: Tradicionálisan az astanga jógát nem tanítják holdnapokon (tel
 author: István
 tags:
   - astangaelmélet
-date: 2023-07-19T14:01:11.473Z
+date: 2020-07-19T14:01:11.473Z
 thumbnail: /blogpostimages/holdnapok_desktop.jpeg
 ---
 ### Miért nem gyakorlunk teli- és újholdkor astanga vinyásza jógát?
