@@ -75,15 +75,31 @@ export default function Holdnapok() {
             lehet), a több szabadidő pedig a mentális feltöltődést teszi még
             teljesebbé.
           </p>
+          <div className="row unordered-list-style mt-20px">
+            <h3>További olvasmány a témában:</h3>
+            <ul>
+              {hasznosOlvasmanyok.map((link, index) => (
+                <li key={index}>
+                  <p>
+                    <CustomLink
+                      link={link.link}
+                      title={link.title}
+                      classNames={link.classNames}
+                    />
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       ),
     },
     {
       id: "ekadasi",
-      title: "Ékadasi",
+      title: "Ékádasi",
       content: (
         <div className="mt-40px">
-          <h3>Az Ekadashi a hindu kultúra böjtnapja</h3>
+          <h3>Az ékádashi a hindu kultúra böjtnapja</h3>
           <br />
           <p>
             A szó maga szanszkrit nyelven “tizenegyedik”-et jelent, és a
@@ -190,7 +206,7 @@ export default function Holdnapok() {
             </div>
             <div className="moondays--holdnaptar-text mt-20px">
               <p>
-                A *-al jelölt dátumok speciális astangás holdnapok. A hivatalos
+                A *-gal jelölt dátumok speciális astangás holdnapok. A hivatalos
                 – Budapestre számított – teli- és újhold nem erre a napra esik,
                 viszont az aktuális holdnap órára és percre számított pontos
                 időpontja (pl. 23:30) közelebb esik a következő napi gyakorlás
@@ -202,22 +218,6 @@ export default function Holdnapok() {
           <div className="col-12-xs col-8-lg ">
             <div className="row moondays--tab">
               <Tabs tabsData={tabsData} />
-            </div>
-            <div className="row unordered-list-style mt-20px">
-              <h3>További olvasmány a témában:</h3>
-              <ul>
-                {hasznosOlvasmanyok.map((link, index) => (
-                  <li key={index}>
-                    <p>
-                      <CustomLink
-                        link={link.link}
-                        title={link.title}
-                        classNames={link.classNames}
-                      />
-                    </p>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         </div>
