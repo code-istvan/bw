@@ -91,3 +91,12 @@
     margin-top: 0px;
   }
 }
+
+.moondays--star-section {
+  @include xs {
+    display: block;
+  }
+  @include lg {
+    display: none;
+  }
+}

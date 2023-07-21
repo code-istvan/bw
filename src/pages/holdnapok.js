@@ -75,7 +75,8 @@ export default function Holdnapok() {
             lehet), a több szabadidő pedig a mentális feltöltődést teszi még
             teljesebbé.
           </p>
-          <div className="row unordered-list-style mt-20px">
+          <br />
+          <div className="row unordered-list-style">
             <h3>További olvasmány a témában:</h3>
             <ul>
               {hasznosOlvasmanyok.map((link, index) => (
@@ -90,6 +91,17 @@ export default function Holdnapok() {
                 </li>
               ))}
             </ul>
+          </div>
+          <br />
+
+          <div className="moondays--star-section">
+            <p>
+              A holdnaptárban *-gal jelölt dátumok speciális astangás holdnapok.
+              A hivatalos – Budapestre számított – teli- és újhold nem erre a
+              napra esik, viszont az aktuális holdnap órára és percre számított
+              pontos időpontja (pl. 23:30) közelebb esik a következő napi
+              gyakorlás időpontjához, ezért tolódík a pihenőnap erre a dátumra.
+            </p>
           </div>
         </div>
       ),
