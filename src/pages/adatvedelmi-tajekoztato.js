@@ -174,6 +174,37 @@ export default function AdatvedelmiTajekoztato() {
               adatkezelés]
               <br />
             </p>
+            <h3 className="mt-20px">
+              3. A hírlevélküldéssel kapcsolatos adatkezelés
+            </h3>
+            <p className="mt-20px">
+              Az adatkezelési folyamat a hírlevelek kiküldése érdekében
+              történik. A hírlevél-szolgáltatás nyújtása érdekében az Adatkezelő
+              személyes adatot (nevet, e-mail címet) vesz fel Öntől. A név, és
+              az e-mail cím rögzítése elektronikusan történik oly módon, hogy az
+              erre szolgáló panelt a felhasználó kitölti, a checkbox
+              kipipálásával elfogadja az Adatvédelmi tájékoztatót és egyúttal
+              hozzájárulását adja ahhoz, hogy az Adatkezelő a megadott adatait
+              Hírlevél küldése céljából kezelje, majd a küldés gombra kattint.
+            </p>
+            <p className="mt-20px">
+              <strong>Kezelt adatok</strong>
+              <br />
+              Név, e-mail cím.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés időtartama</strong>
+              <br />
+              Az érintett hozzájárulásának visszavonásáig, a hírlevélről történő
+              leiratkozásáig.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés jogalapja</strong>
+              <br />
+              Az Ön önkéntes hozzájárulása, ami a hírlevélre történő
+              feliratkozással ad meg az Adatkezelő számára [GDPR 6. Cikk (1)
+              bekezdés a) pont szerinti adatkezelés]
+            </p>
           </div>
         </div>
       </div>
