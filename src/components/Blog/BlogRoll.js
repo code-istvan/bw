@@ -1,9 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
+import { CustomLink } from "../CustomLink"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
 import { useAuthors } from "../../hooks/useAuthorsQuery"
 import { GatsbyImage } from "gatsby-plugin-image"
+import slugify from "../../utils/slugifyes6"
 import "../../sass/components/_blogroll.scss"
 
 function BlogRoll({ count, posts }) {
@@ -73,7 +74,11 @@ function BlogRoll({ count, posts }) {
                         {post.frontmatter.tags.map(tag => {
                           return (
                             <p key={post.frontmatter.date}>
-                              <Link to={`/tags/${tag}`}>{tag}</Link>
+                              <CustomLink
+                                link={`/tags/${slugify(tag)}`}
+                                title={tag}
+                                className="tag-button-hover"
+                              />
                             </p>
                           )
                         })}

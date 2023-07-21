@@ -25,7 +25,7 @@ const Tags = ({ pageContext, data }) => {
         <div className="row blog--desktop--container">
           <StaticImage
             className="container-fluid blog-hero-image hero-big-image"
-            src="../../images/blog_hero_desktop.jpg"
+            src="../../images/blog_desktop.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -35,7 +35,7 @@ const Tags = ({ pageContext, data }) => {
           />
           <StaticImage
             className="container-fluid blog-hero-image hero-mobil-image"
-            src="../../images/blog_hero.jpg"
+            src="../../images/blog_mobil.jpg"
             layout="fullWidth"
             loading="eager"
             quality={95}
