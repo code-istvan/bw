@@ -8,7 +8,7 @@ export default function Tags() {
   return (
     <Layout>
       <Seo title="TAGS" />
-      <div className="blog-hero-container">
+      <div className="blog-hero-container tight--desktop--container">
         <h1 className="blog-title">BLOG CÍMKÉK</h1>
         <div className="row blog--desktop--container">
           <StaticImage
@@ -33,9 +33,11 @@ export default function Tags() {
           />
         </div>
       </div>
-      <div className="row mt-40px">
-        <h3 className="mb-20px">Itt találod blogbejegyzéseink címkéit</h3>
-        <BlogTags />
+      <div className="tight--desktop--container">
+        <div className="row  mt-40px">
+          <h3 className="mb-20px">Itt találod blogbejegyzéseink címkéit</h3>
+          <BlogTags />
+        </div>
       </div>
     </Layout>
   )
