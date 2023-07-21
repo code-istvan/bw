@@ -88,8 +88,8 @@ const Footer = ({ handleOpenMenu }) => {
             <div className="separator"></div>
             <div>
               <CustomLink
-                link="/adatkezelesi-tajekoztato"
-                title="Adatkezelési tájékoztató"
+                link="/adatvedelmi-tajekoztato"
+                title="Adatvédelmi tájékoztató"
                 classNames="small custom-link-style-white "
               />
             </div>
