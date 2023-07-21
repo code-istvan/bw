@@ -99,7 +99,7 @@ export default function Holdnapok() {
       title: "Ékádasi",
       content: (
         <div className="mt-40px">
-          <h3>Az ékádashi a hindu kultúra böjtnapja</h3>
+          <h3>Az ékádasi a hindu kultúra böjtnapja</h3>
           <br />
           <p>
             A szó maga szanszkrit nyelven “tizenegyedik”-et jelent, és a
