@@ -37,7 +37,7 @@ export default function Ajanlottolvasmanyok() {
       <div className="tight--desktop--container">
         <div>
           <blockquote className="mt-40px">
-            A jóga 99%-ban gyakorlat és 1%-ban elmélet.
+            A jóga 99%-ban gyakorlat és 1%-ban elmélet
           </blockquote>
           <p className="mt-40px">
             K. Pattabhi Jois elhíresült mondása rámutat, hogy pusztán könyvek

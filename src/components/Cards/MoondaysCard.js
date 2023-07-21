@@ -39,7 +39,7 @@ const MoondaysCard = ({
           <div className="separator-horizontal mt-20px"></div>
           <div className="holdnapok-card__body__ekadasi">
             <h3 className="clr-brand-orange holdnapok-card__body__grid__ekadasi">
-              ÉKADASI
+              ÉKÁDASI
             </h3>
           </div>
           <div className="holdnapok-card__body__grid">
