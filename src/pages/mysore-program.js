@@ -167,6 +167,7 @@ export default function Mysoreprogram() {
               <p>heti 5x</p>
             </div>
             <div className="framed-section-orange__card text-align-center">
+              <Icons.LedClass color="orange" />
               <h4>Vezetett óra</h4>
               <p>heti 1x</p>
             </div>
