@@ -86,8 +86,11 @@ const Hirlevel = () => (
                 <input type="checkbox" name="checkbox" required />
                 <span>
                   Megismertem és elfogadom az
-                  <Link href="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
-                  hozzájárulok e-mail címem kezeléséhez.
+                  <Link href="/adatkezelesi-tajekoztato">
+                    {" "}
+                    adatvédelmi tájékoztatót
+                  </Link>
+                  , hozzájárulok a megadott adataim kezeléséhez.
                 </span>
               </label>
             </div>
