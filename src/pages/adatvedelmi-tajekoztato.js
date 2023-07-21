@@ -15,6 +15,11 @@ export default function AdatvedelmiTajekoztato() {
   const tarhelyszolgaltatoLevelezes = "1148 Budapest, Fogarasi út 3-5."
   const tarhelyszolgaltatoEmail = "support@dotroll.com"
   const tarhelyszolgaltatoTelefon = "+36-1-432-3232"
+  const futarNev = "Delivery Solutions Zrt."
+  const futarSzekhely = "1033 Budapest, Szentendrei út 89-95. X. ép"
+  const futarTelefon = "+36-1-374-3890"
+  const futarEmail = "info@sameday.hu"
+  const futarWeboldal = "https://sameday.hu"
 
   return (
     <Layout>
@@ -130,7 +135,7 @@ export default function AdatvedelmiTajekoztato() {
               (sütik) vonatkozó leírása tartalmazza.
             </p>
             <p className="mt-20px">
-              <span>Mi az a cookie?</span>
+              <span>A cookie-k jogszabályi háttere és jogalapja:</span>
             </p>
             <p className="mt-20px">
               Alapvetően három típusú cookie-t különböztetünk meg: a működéshez
@@ -204,6 +209,226 @@ export default function AdatvedelmiTajekoztato() {
               Az Ön önkéntes hozzájárulása, ami a hírlevélre történő
               feliratkozással ad meg az Adatkezelő számára [GDPR 6. Cikk (1)
               bekezdés a) pont szerinti adatkezelés]
+            </p>
+            <h1 className="mt-20px">
+              II. A webshopra vonatkozó adatkezelés (A szerződéskötés és a
+              teljesítés érdekében kezelt adatok)
+            </h1>
+            <p className="mt-20px">
+              A szerződéskötés és teljesítés érdekében több adatkezelési eset is
+              megvalósulhat. Tájékoztatjuk, hogy panaszkezeléssel, garanciális
+              ügyintézéssel kapcsolatos adatkezelés csak abban az esetben
+              valósul meg, ha Ön él valamelyik említett jogával.
+            </p>
+            <p className="mt-20px">
+              A szerződéskötés és teljesítés érdekében megvalósuló adatkezelések
+              részletesebben:
+            </p>
+            <h3 className="mt-20px">1. Kapcsolatfelvétel</h3>
+            <p className="mt-20px">
+              Ha például e-mailben kérdéssel fordul hozzánk valamely termékkel
+              kapcsolatban. Az előzetes kapcsolatfelvétel nem kötelező, ezt
+              kihagyva is bármikor rendelhet a webshopból.
+            </p>
+            <p className="mt-20px">
+              <strong>Kezelt adatok</strong>
+              <br />
+              Az Ön által a kapcsolatfelvétel során megadott adatok (név, e-mail
+              cím)
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés időtartama</strong>
+              <br />
+              Az adatokat csak a kapcsolatfelvétel lezárultáig kezeljük.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés jogalapja</strong>
+              <br />
+              Az Ön önkéntes hozzájárulása, amit a kapcsolatfelvétellel ad meg
+              Adatkezelő számára. [GDPR 6. Cikk (1) bekezdés a) pont szerinti
+              adatkezelés]
+            </p>
+            <h3 className="mt-20px">2. Regisztráció a webshopban</h3>
+            <p className="mt-20px">
+              A regisztráció során megadott adatok tárolásával az Adatkezelő
+              kényelmesebb szolgáltatást tud biztosítani (pl. az érintett
+              adatait újabb vásárláskor nem kell ismét megadni). A regisztráció
+              a szerződéskötésnek nem feltétele.
+            </p>
+            <p className="mt-20px">
+              <strong>Kezelt adatok</strong>
+              <br />
+              Az adatkezelés során az Adatkezelő az Ön nevét, lakcímét,
+              telefonszámát, e-mail címét, a megvásárolt termék jellemzőit és a
+              vásárlás időpontját kezeli.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés időtartama</strong>
+              <br />A hozzájárulásának visszavonásáig.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés jogalapja</strong>
+              <br />
+              Az Ön önkéntes hozzájárulása, amit a regisztrációval ad meg az
+              Adatkezelő számára [GDPR 6. Cikk (1) bekezdés a) pont szerinti
+              adatkezelés]
+            </p>
+            <h3 className="mt-20px">3. A rendelés feldolgozása</h3>
+            <p className="mt-20px">
+              A rendelések feldolgozása során a szerződés teljesítése érdekében
+              szükségesek adatkezelési tevékenységek.
+            </p>
+            <p className="mt-20px">
+              <strong>Kezelt adatok</strong>
+              <br />
+              Az adatkezelés során az Adatkezelő az Ön nevét, lakcímét,
+              telefonszámát, e-mail címét, a megvásárolt termék jellemzőit, a
+              megrendelés számát és a vásárlás időpontját kezeli.
+            </p>
+            <p className="mt-20px">
+              Amennyiben Ön rendelést adott le a webshopban, akkor az
+              adatkezelés és az adatok megadása a szerződés teljesítéséhez
+              elengedhetetlen.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés időtartama</strong>
+              <br />
+              Az adatokat a polgári jogi elévülési idő szerint 5 évig kezeljük.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés jogalapja</strong>
+              <br />A szerződés teljesítése. [GDPR 6. Cikk (1) bekezdés b) pont
+              szerinti adatkezelés]
+            </p>
+            <h3 className="mt-20px">4. A számla kiállítása</h3>
+            <p className="mt-20px">
+              Az adatkezelési folyamat a jogszabályoknak megfelelő számla
+              kiállítása és a számviteli bizonylat-megőrzési kötelezettség
+              teljesítése érdekében történik. A számvitelről szóló 2000. évi C.
+              törvény (a továbbiakban: Sztv.) 169. § (1)-(2) bekezdése alapján a
+              gazdasági társaságoknak a könyvviteli elszámolást közvetlenül és
+              közvetetten alátámasztó számviteli bizonylatot meg kell őrizniük.
+            </p>
+            <p className="mt-20px">
+              <strong>Kezelt adatok</strong>
+              <br />
+              Név, cím, e-mail cím
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés időtartama</strong>
+              <br />A kiállított számlákat az Sztv. 169. § (2) bekezdése alapján
+              a számla kiállításától számított 8 évig meg kell őrizni.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés jogalapja</strong>
+              <br />
+              Az általános forgalmi adóról szóló 2007. évi CXXVII. 159. § (1)
+              bekezdése alapján a számla kibocsátása kötelező és azt
+              számvitelről szóló 2000. évi C. törvény 169. § (2) bekezdése
+              alapján 8 évig kell megőrizni [GDPR 6. Cikk (1) bekezdés c) pont
+              szerinti adatkezelés].
+            </p>
+            <h3 className="mt-20px">
+              5. Az áruszállításhoz kapcsolódó adatkezelés
+            </h3>
+            <p className="mt-20px">
+              Az adatkezelési folyamat a megrendelt termék kiszállítása
+              érdekében történik.
+            </p>
+            <p className="mt-20px">
+              <strong>Kezelt adatok</strong>
+              <br />
+              Név, cím, e-mail cím, telefonszám.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés időtartama</strong>
+              <br />
+              Az Adatkezelő az adatokat a megrendelt áru kiszállításának
+              időtartamáig kezeli.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés jogalapja</strong>
+              <br />
+              Szerződés teljesítése [GDPR 6. Cikk (1) bekezdés b) pont szerinti
+              adatkezelés].
+            </p>
+            <p className="mt-20px">A címzett megnevezése: {futarNev}</p>
+            <p className="mt-20px">A címzett székhelye: {futarSzekhely}</p>
+            <p className="mt-20px">A címzett telefonszáma: {futarTelefon}</p>
+            <p className="mt-20px">A címzett e-mail címe: {futarEmail}</p>
+            <p className="mt-20px">A címzett weboldala: {futarWeboldal}</p>
+            <p className="mt-20px">
+              A futárszolgálat az Adatkezelővel kötött szerződés alapján
+              közreműködik a megrendelt áru kiszállításában. A futárszolgálat a
+              megkapott személyes adatokat a weboldalán elérhető adatkezelési
+              tájékoztatóban foglaltak szerint kezeli.
+            </p>
+            <h3 className="mt-20px">6. Szavatossági igények kezelése</h3>
+            <p className="mt-20px">
+              A szavatossági igény esetében az irányadó szabályokat a 19/2014.
+              (IV. 29.) NGM rendelet tartalmazza.
+            </p>
+            <p className="mt-20px">
+              <strong>Kezelt adatok</strong>
+              <br />A szavatossági igények kezelésekor a 19/2014. (IV. 29.) NGM
+              rendelet szabályai szerint kell eljárnunk.
+            </p>
+            <p className="mt-20px">
+              A GDPR alapján a nálunk bejelentett szavatossági igényéről
+              jegyzőkönyvet vagyunk kötelesek felvenni, amelyben rögzítjük:
+            </p>
+            <div className="row unordered-list-style">
+              <ul className="mt-20px">
+                <li>
+                  az Ön nevét, címét, valamint nyilatkozatát arról, hogy
+                  hozzájárul a jegyzőkönyvben rögzített adatainak a GDPR-ban
+                  meghatározottak szerinti kezeléséhez,
+                </li>
+                <li>
+                  az Ön és közöttünk létrejött szerződés keretében eladott ingó
+                  dolog megnevezését, vételárát,
+                </li>
+                <li>a szerződés teljesítésének időpontját,</li>
+                <li>a hiba bejelentésének időpontját,</li>
+                <li>a hiba leírását,</li>
+                <li>
+                  szavatossági igénye alapján az Ön által érvényesíteni kívánt
+                  jogot, továbbá
+                </li>
+                <li>
+                  a szavatossági igény rendezésének módját vagy az igény,
+                  illetve az az alapján érvényesíteni kívánt jog elutasításának
+                  indokát.
+                </li>
+              </ul>
+            </div>
+            <p className="mt-20px">
+              Amennyiben Öntől a megvásárolt terméket átvesszük, erről átvételi
+              elismervényt kell kiállítanunk, amelyen fel kell tüntetni
+            </p>
+            <div className="row unordered-list-style">
+              <ul className="mt-20px">
+                <li>az Ön nevét és címét,</li>
+                <li>a dolog azonosításához szükséges adatokat,</li>
+                <li>a dolog átvételének időpontját, továbbá</li>
+                <li>
+                  azt az időpontot, amikor Ön a kijavított dolgot átveheti.
+                </li>
+              </ul>
+            </div>
+            <p className="mt-20px">
+              <strong>Az adatkezelés időtartama</strong>
+              <br />A vállalkozás a fogyasztó szavatossági igényéről felvett
+              jegyzőkönyvet az annak felvételétől számított három évig köteles
+              megőrizni, és azt az ellenőrző hatóság kérésére bemutatni.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés jogalapja</strong>
+              <br />
+              Az adatkezelés jogalapja a 19/2014. (IV. 29.) NGM rendelet [4. §
+              (1) bekezdés és 6. § (1) bekezdés] szerinti jogi
+              kötelezettségeknek való megfelelés [GDPR 6. Cikk (1) bekezdés c)
+              pont szerinti adatkezelés].
             </p>
           </div>
         </div>
