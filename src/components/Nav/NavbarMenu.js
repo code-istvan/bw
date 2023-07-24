@@ -38,7 +38,7 @@ const NavbarMenu = ({ open, setOpen }) => {
 
   const menuItemsFomenu = [
     { link: "/blog", label: "BLOG" },
-    { link: "/shop", label: "SHOP" },
+    { link: "https://bandha-payments.hu", label: "SHOP", isExternal: true },
     { link: "/kapcsolat", label: "KAPCSOLAT" },
   ]
 
@@ -78,6 +78,7 @@ const NavbarMenu = ({ open, setOpen }) => {
             {isExternal ? (
               <a
                 className="nav-link"
+                target="_blank"
                 href={link}
                 onClick={() => setOpen(false)}
               >
