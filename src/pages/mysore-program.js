@@ -179,7 +179,7 @@ export default function Mysoreprogram() {
             </div>
             <div className="framed-section-orange__card text-align-center">
               <Icons.Conference color="orange" />
-              <h4>Konferencia</h4>
+              <h4>Konferenciá</h4>
               <p>havi 1x</p>
             </div>
           </div>
