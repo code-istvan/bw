@@ -40,14 +40,14 @@ export default function Ajanlottolvasmanyok() {
             A jóga 99%-ban gyakorlat és 1%-ban elmélet
           </blockquote>
           <p className="mt-40px">
-            K. Pattabhi Jois elhíresült mondása rámutat, hogy pusztán könyvek
-            olvasásával nem lehetséges megérteni az astanga jóga eszenciáját. A
-            jóga ezen ága egy tapasztalati út, amelyet a gyakorlás során kell
-            megismerni. Ezen tapasztalati utat tudja támogatni ( 1%-ban ) a
-            szentírások - Patandzsali: Jóga Szútrák - és egyéb tapasztalt
-            jógagyakorlók személyes tapasztalatából fakadó egyéb művek. Az jóga
-            gyakorlásához szükséges elméleti tudás elsajátításához ajánlott
-            olvasmányokat találhattok az alábbiakban.
+            K. Pattabhi Jois elhíresült mondása rámutat arra, hogy pusztán
+            könyvek olvasásával nem lehetséges megérteni az astanga jóga
+            esszenciáját. A jóga ezen ága egy tapasztalati út, amelyet a
+            gyakorlás során kell megismerni. Ezt az utat támogathatja (1 %-ban)
+            a szentírások – Patandzsali: Jóga Szútrák, illetőleg elismert régi
+            jógagyakorlók személyes tapasztalatából született művek
+            tanulmányozása. A jóga gyakorlásához szükséges elméleti tudás
+            elsajátításához az alábbi olvasmányokat ajánljuk.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function Ajanlottolvasmanyok() {
           </ul>
         </div>
         <div className="row mb-20px">
-          <h3>Egyéb spirituális könyvek amiket előszeretettel forgatunk</h3>
+          <h3>Egyéb spirituális könyvek, amiket előszeretettel forgatunk</h3>
         </div>
         <div className="row unordered-list-style mb-40px">
           <ul>
