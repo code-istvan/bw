@@ -5,7 +5,7 @@ description: Péter az egyik első, ha nem a legelső magyar astangás aki
   ellátogatott Mysore-ba, hogy Gurudzsí-től tanulja az astanga jóga tudományát
 author: István
 tags:
-  - utinapló
+  - útinapló
 date: 2016-01-25T12:08:16.458Z
 thumbnail: /blogpostimages/to-ro-k-pe-ter.jpg
 ---
