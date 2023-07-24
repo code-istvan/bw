@@ -41,10 +41,9 @@ const Hirlevel = () => (
           <p>
             Iratkozz fel hírlevelünkre, hogy elsőként értesülj jógaiskolánkat
             érintő történésekről. Havonta max. egy hírlevelet küldünk. Harmadik
-            fél számára nem adjuk ki a feliratkozók e-mail címét.
+            fél számára nem adjuk ki a feliratkozók nevét és e-mail címét.
           </p>
         </div>
-
         <form
           name="newsletter bandhaworks"
           action="/mantra"

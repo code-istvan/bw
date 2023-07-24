@@ -47,7 +47,7 @@ const Footer = ({ handleOpenMenu }) => {
             <div className="footer__newsletter__box">
               <h3 className="mb-1 mt-0">IRATKOZZ FEL HÍRLEVELÜNKRE</h3>
               <p className="mb-2 mt-0">
-                Értesülj a legfrisebb eseményeinkről és egyéb jógás hírekről
+                Értesülj a legfrissebb eseményeinkről és egyéb jógás hírekről
                 elsőkézből
               </p>
               <Button

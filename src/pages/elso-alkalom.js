@@ -7,11 +7,11 @@ export default function Elsoalkalom() {
   const needed = [
     {
       needed:
-        "kényelmes sportruházat, rövid nadrág (hogy lássuk a térded), rövid ujjú póló",
+        "kényelmes sportruházat, rövidnadrág (hogy lássuk a térded), rövidujjú póló",
     },
     {
       needed:
-        "egy nagyobb (matracra teríteni) és egy kisebb törülköző (igazításokhoz)",
+        "egy nagyobb törülköző (matracra teríteni) és egy kisebb törülköző (az igazításokhoz)",
     },
     {
       needed: "matracot tudunk biztosítani de ha van sajátod hozd bátran",
@@ -28,7 +28,7 @@ export default function Elsoalkalom() {
     },
     {
       moreInfo:
-        "értékeidet zárd be az öltöző szekrénybe, a törölközőkön kívűl mást ne hozz be a terembe",
+        "értékeidet zárd be az öltözőszekrénybe, a törölközőkön kívül mást ne hozz be a terembe",
     },
     {
       moreInfo:
@@ -36,11 +36,12 @@ export default function Elsoalkalom() {
     },
     {
       moreInfo:
-        "kérjük ne beszélgess a teremben, és a terem előtt is csendben készülődj, ha bent óra van",
+        "kérjük, ne beszélgess a teremben, és a terem előtt is csendben készülődj, ha bent óra van",
     },
     { moreInfo: "óra előtt és/vagy után lehetőség van zuhanyozni" },
     {
-      moreInfo: "kérünk vizet és egyéb folyadékot ne hozz be a gyakorlóterembe",
+      moreInfo:
+        "kérünk, vizet és egyéb folyadékot ne hozz be a gyakorlóterembe",
     },
   ]
 

@@ -38,9 +38,8 @@ export default function Házirend() {
         <div className="row mt-20px mb-20px">
           <div className="col">
             <h3>
-              A saját és társaid zavartalan gyakorlása és befelé figyelése
-              érdekében kérünk, hogy olvasd el, és tartsd be a házirendben
-              foglaltakat. Köszönjük!
+              A zavartalan gyakorlás és befelé figyelés érdekében kérünk, hogy
+              olvasd el, és tartsd be a házirendben foglaltakat. Köszönjük!
             </h3>
           </div>
         </div>
