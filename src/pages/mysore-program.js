@@ -159,7 +159,7 @@ export default function Mysoreprogram() {
       <br />
       <div className="framed-section mt-20px">
         <div className=".framed-section-orange__inside">
-          <div className="framed-section-orange-title text-align-center">
+          <div className="framed-section-orange-title text-align-center mb-20px">
             <h3>MYSORE PROGRAMUNK ELEMEI</h3>
           </div>
           <div className="framed-section-orange__body">

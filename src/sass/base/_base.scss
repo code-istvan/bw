@@ -339,18 +339,18 @@ blockquote {
   margin: 20px;
 }
 
-.framed-section-orange__card {
-  min-width: 300px;
-  // background-color: $color-shades-darkGray;
-  padding: 20px;
-  margin: 20px;
-}
-
 .framed-section-orange__body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.framed-section-orange__card {
+  background-color: $color-shades-darkGray;
+  padding: 20px;
+  margin: 20px;
+  min-width: 300px;
 }
 
 // Style for the island sections

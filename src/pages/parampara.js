@@ -32,8 +32,72 @@ export default function Parampara() {
           />
         </div>
       </div>
-      <div className="row">
-        <h1>valami</h1>
+      <div className="row mt-20px">
+        <h1>
+          <span className="clr-brand-orange heading heading--1">
+            Tanítói láncolatunk:
+          </span>{" "}
+          R. Sharath Jois – K. Pattabhi Jois – T. Krishnamacharya – Ramamohana
+          Brahmachari…-...Patanjali
+        </h1>
+        <p className="mt-20px">
+          A parampara a tudás, amelyet a tanár a tanítványára hagyományoz. A
+          parampara szanszkrit szó jelentése a tudás átadásának legértékesebb
+          formáját, a közvetlen és tapasztalati tudás átadását fejezi ki. Ez
+          minden tanítói láncolat alapja: az évezredes tanítás megőrzésének
+          láncolatában a tanár és tanítványa a láncszemek. A jógatanításnak a
+          paramparaból kell származnia ahhoz, hogy hatékony, igaz és teljes
+          legyen. A parampara biztosítja azt, hogy a jóga tanítása hatékony,
+          igaz és teljes legyen.
+        </p>
+        <p className="mt-20px">
+          A tudást csak azt követően lehet átadni, hogy a tanítvány már éveket
+          töltött egy tapasztalt guruval, egy olyan tanárral, akinek a tanítvány
+          testét, szellemét, beszédét és belső lényét teljes mértékben átadta; a
+          tanítvány csak ezt követően válik alkalmassá a tudás befogadására. A
+          tudás átadásának a tanár és tanítványa között ily módon történő
+          átadása a parampara.
+        </p>
+        <p className="mt-20px">
+          A tanítvány dharmája, vagyis kötelessége az odaadó gyakorlás valamint
+          az, hogy törekedjen a guru tanításainak megértésére. A tudás – és a
+          jóga – tökéletessége több, mint egyszerűen megtanulni a gyakorlást; a
+          tudás a tanítvány és a tanár közötti kölcsönös szeretetből és
+          tiszteletből fakad, és ennek a kapcsolatnak a kiműveléséhez
+          elkerülhetetlenül idő kell.
+        </p>
+        <p className="mt-20px">
+          A tanár kötelessége az, hogy pontosan a gurujától tanult módon tanítsa
+          a jógát, jó szívvel és nemes szándékkal, jó célra törekedve. A
+          tanításban még szikrája se legyen ártó szándéknak. A tanár semmiben
+          sem tévesztheti meg tanítványát és nem térhet el attól, amire őt magát
+          megtanították.
+        </p>
+        <p className="mt-20px">
+          A tanár és a tanítvány közötti köteléknek, amely egy bőséges
+          spirituális örökség alapját képezi, Indiában több ezer éves hagyománya
+          van. A tanár meg tudja szilárdítani tanítványait – erőssé tudja őket
+          tenni akkor, ha meginognának. A tanár olyan, mint egy apa vagy egy
+          anya, aki tanítványa minden egyes spirituális lépésénél jelen van és
+          ügyel azokra.
+        </p>
+        <p className="mt-20px">
+          A jóga tanítását számos ősi tanári tradíció őrzi, ugyanakkor manapság
+          egyesek új tanítói láncolatokat próbálnak létrehozni, új utakat
+          részesítve előnyben gurujuk paramparaját elítélik vagy megváltozatják.
+          Ezzel szemben átadni magunkat a paramparanak olyasvalami, mintha sok
+          ezer éve tartó tanítások folyamába olvadnánk bele, egy olyan folyó
+          áramlatába, amelyet ősrégi mesterek tartottak fenn, és amely egy
+          óceánnyi tudássá gyűlt össze. Ugyanakkor nem minden folyó jut el az
+          óceánig, ezért ügyelnünk kell arra, hogy az általunk követett
+          hagyomány igaz és önzetlen legyen.
+        </p>
+        <p className="mt-20px">
+          A Himalája csúcsaira sokan akarnak feljutni, azonban nem mindenki jár
+          sikerrel; ugyanakkor bátorság és önátadás által, valamint a guru
+          kegyelméből, aki a tudás birtokosa és aki tanítványaiért
+          fáradhatatlanul dolgozik, feljuthatunk a tudás csúcsaira.
+        </p>
       </div>
     </Layout>
   )
