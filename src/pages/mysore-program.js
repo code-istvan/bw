@@ -5,7 +5,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import { CustomLink } from "../components/CustomLink"
 import Icons from "../components/Icons/Icons"
 import Counter from "../components/Counter"
-import Accordion from "../components/Accordions/Accordion"
+import AccordionFaq from "../components/Accordions/AccordionFaq"
+import mysoreFaq from "../data/mysoreFaq.json"
 import "../sass/pages/_mysoreprogram.scss"
 
 export default function Mysoreprogram() {
@@ -276,13 +277,16 @@ export default function Mysoreprogram() {
       </div>
       <br />
       <div className="row">
-        {" "}
-        <Accordion
-          content="Igen! A Mysore stílus a legjobb módja annak, hogy elkezdj astanga jógát gyakorolni. A Mysore gyakorlás során ugyanis mindenki személyre szabott, egyéni oktatást kap, mindezt mégis csoportos környezetben. Minden új gyakorló először egy nagyon egyszerű sorozatot tanul meg, amit Szúrja Namaszkár, magyarul Napüdvözletnek nevezünk. Ezt néhány ülőpóz követi, és végül relaxációval zárul a sorozat. Az első gyakorlás körülbelül 30-45 percig tart. Későbbiekben a gyakorlásod hossza a neked megfelelő ütemben fog növekedni."
-          text="Kezdő vagyok, gyakorolhatok Mysore stílusban?"
-          className="clr-shades-white span"
-        />
-      </div>{" "}
+        <div className="mb-20px">
+          <h3>Gyakran ismételt kérdések</h3>
+        </div>{" "}
+        <div className="row">
+          {mysoreFaq &&
+            mysoreFaq.map(({ question, answer }) => (
+              <AccordionFaq question={question} answer={answer} />
+            ))}
+        </div>
+      </div>
       <br />
       <div className="row unordered-list-style">
         <h3>Hasznos olvasmányok a Mysore gyakorlásról:</h3>

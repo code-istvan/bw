@@ -1,0 +1,95 @@
+@import "/src/sass/global";
+
+/* Style the accordion section */
+.accordion-faq__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  border-left: 4px solid $color-brand-orange;
+  background-color: $color-shades-darkGray;
+  margin-bottom: 20px;
+  @include xs {
+    padding: 20px 0;
+  }
+  @include md {
+    padding: 0;
+  }
+}
+
+.accordion-faq__box {
+  padding: 20px 0;
+  button {
+    width: 100%;
+  }
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion-faq {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+  padding: 0;
+}
+
+/* Style the accordion content title */
+.accordion-faq__title {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-semi-bold;
+  font-size: $body-font-size-mobile;
+  text-align: left;
+  @include md {
+    font-size: $body-font-size-desktop;
+  }
+}
+
+/* Style the accordion chevron icon */
+.accordion-faq__icon {
+  margin-right: 16px;
+  transition: transform 0.6s ease;
+  flex-shrink: 0;
+}
+
+/* Style to rotate icon when state is active */
+.rotate__45deg {
+  transform: rotate(45deg);
+}
+/* Style the accordion content panel. Note: hidden by default */
+.accordion-faq__content {
+  overflow: auto;
+  transition: max-height 0.6s ease;
+  overflow: hidden;
+  background-color: $color-shades-darkGray;
+}
+
+/* Style the accordion content text */
+.accordion-faq__text {
+  p {
+    padding: 16px 36px 0 24px;
+  }
+}
+
+.accordion-faq__plus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 24px;
+  gap: 16px;
+  height: 40px;
+  p {
+    font-weight: 800;
+    padding: 20px 0;
+  }
+  svg {
+    margin-right: 12px;
+  }
+}
+
+.accordion-faq__title {
+  font-weight: 900;
+}
