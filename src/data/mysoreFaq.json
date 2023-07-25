@@ -23,5 +23,10 @@
     "id": 5,
     "question": "Sérülésem van, gyakoroljak vagy inkább pihenjek?",
     "answer": "Azt szoktuk tanácsolni, hogy folytasd a gyakorlást, az adott sérüléshez igazodó módosításokkal. A folyamatos mozgás fenntartja a vér áramlását, és segít a gyógyulásban. Ha bármilyen sérülésed van, azt mindig jelezd az oktató felé!"
+  },
+  {
+    "id": 6,
+    "question": "Szeretnék jönni gyakorolni de nincs rá dellám?",
+    "answer": "Legyél ösztöndíjas!"
   }
 ]
