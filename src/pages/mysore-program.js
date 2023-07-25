@@ -227,7 +227,7 @@ export default function Mysoreprogram() {
       </div>
       <br />
       <div className="island-section text-align-center">
-        <h3>Tradíció és tapasztalat</h3>
+        <h3 className="mb-20px">Tradíció és tapasztalat</h3>
         <div className="col-12-xs text-align-center">
           <Counter tag="h3" />
         </div>
@@ -251,7 +251,15 @@ export default function Mysoreprogram() {
         </p>
       </div>
       <br />
-      {/* TODO: FAQ */}
+      <div className="island-section text-align-center">
+        <h3 className="mb-20px">Tudtad?</h3>
+        <p>
+          A Mysore stílusú astanga gyakorlás a dél-indiai Mysore városáról kapta
+          a nevét. Pattabhi Jois itt fejlesztette ki a modernkori astanga jóga
+          rendszerét az 1948-ban alapított Ashtanga Yoga Research Institute-ben
+          (Astanga Jóga Kutató Intézet).”
+        </p>
+      </div>
       <div className="row">
         <p>
           {" "}

@@ -36,12 +36,17 @@ export default function Elsoalkalom() {
     },
     {
       moreInfo:
+        "kérünk, vizet és egyéb folyadékot ne hozz be a gyakorlóterembe",
+    },
+    {
+      moreInfo:
         "kérjük, ne beszélgess a teremben, és a terem előtt is csendben készülődj, ha bent óra van",
     },
     { moreInfo: "óra előtt és/vagy után lehetőség van zuhanyozni" },
+
     {
       moreInfo:
-        "kérünk, vizet és egyéb folyadékot ne hozz be a gyakorlóterembe",
+        "ászanagyakorlás után mindenképpen hagyj magadnak fél vagy egy órát, mielőtt étkeznél",
     },
   ]
 
