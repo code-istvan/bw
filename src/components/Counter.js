@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 
-export default function Counter({ tag }) {
+export default function Counter({ tag, className }) {
   const initialDate = "2013-08-25"
   const [years, setYears] = useState(0)
   const [months, setMonths] = useState(0)
@@ -37,7 +37,7 @@ export default function Counter({ tag }) {
 
   return (
     <div>
-      <Tag>
+      <Tag className={className}>
         {years} év, {months} hónap{days !== 0 && `, ${days} nap`}
       </Tag>
     </div>

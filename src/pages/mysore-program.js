@@ -73,7 +73,7 @@ export default function Mysoreprogram() {
             title="astanga vinyásza jógát"
             classNames="body link-decoration-remove schedule-teacher"
           />{" "}
-          tradicionálisan Mysore (ejtsd: Májszor) stílusban oktatják. A módszer
+          tradicionálisan Mysore (ejtsd: májszor) stílusban oktatják. A módszer
           ötvözi a csoportos vezetett órák és az egyéni gyakorlás előnyeit.
           Lényege, hogy a teremben az összes gyakorló a saját légzésének
           ritmusára önállóan végzi a sorozatot, ezáltal az oktató mindenkinek
@@ -157,10 +157,10 @@ export default function Mysoreprogram() {
         </p>
       </div>
       <br />
-      <div className="framed-section framed-section-orange">
+      <div className="framed-section mt-20px">
         <div className=".framed-section-orange__inside">
           <div className="framed-section-orange-title text-align-center">
-            <h3>Mysore programunk elemei</h3>
+            <h3>MYSORE PROGRAMUNK ELEMEI</h3>
           </div>
           <div className="framed-section-orange__body">
             <div className="framed-section-orange__card text-align-center">
@@ -228,8 +228,8 @@ export default function Mysoreprogram() {
       <br />
       <div className="island-section text-align-center">
         <h3 className="mb-20px">Tradíció és tapasztalat</h3>
-        <div className="col-12-xs text-align-center">
-          <Counter tag="h3" />
+        <div className="col-12-xs text-align-center mb-20px">
+          <Counter tag="h1" className="clr-brand-orange" />
         </div>
         <p>Magyarország legrégebbi tradicionális astanga mysore programja.</p>
         <p>Paramaguru Sharath Jois áldásával.</p>
@@ -257,7 +257,7 @@ export default function Mysoreprogram() {
           A Mysore stílusú astanga gyakorlás a dél-indiai Mysore városáról kapta
           a nevét. Pattabhi Jois itt fejlesztette ki a modernkori astanga jóga
           rendszerét az 1948-ban alapított Ashtanga Yoga Research Institute-ben
-          (Astanga Jóga Kutató Intézet).”
+          (Astanga Jóga Kutató Intézet).
         </p>
       </div>
       <div className="row">
