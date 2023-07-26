@@ -38,7 +38,7 @@ export default function Parampara() {
             Tanítói láncolatunk:
           </span>{" "}
           R. Sharath Jois – K. Pattabhi Jois – T. Krishnamacharya – Ramamohana
-          Brahmachari…-...Patanjali
+          Brahmachari… ...Patandzsali
         </h1>
         <p className="mt-20px">
           A parampara a tudás, amelyet a tanár a tanítványára hagyományoz. A
@@ -53,10 +53,10 @@ export default function Parampara() {
         <p className="mt-20px">
           A tudást csak azt követően lehet átadni, hogy a tanítvány már éveket
           töltött egy tapasztalt guruval, egy olyan tanárral, akinek a tanítvány
-          testét, szellemét, beszédét és belső lényét teljes mértékben átadta; a
-          tanítvány csak ezt követően válik alkalmassá a tudás befogadására. A
-          tudás átadásának a tanár és tanítványa között ily módon történő
-          átadása a parampara.
+          a testét, szellemét, beszédét és belső lényét teljes mértékben átadta.
+          A tanítvány csak ezt követően válik alkalmassá a tudás befogadására. A
+          tudásnak a tanár és tanítványa között, ily módon történő átadása a
+          parampara.
         </p>
         <p className="mt-20px">
           A tanítvány dharmája, vagyis kötelessége az odaadó gyakorlás valamint
@@ -83,18 +83,18 @@ export default function Parampara() {
         </p>
         <p className="mt-20px">
           A jóga tanítását számos ősi tanári tradíció őrzi, ugyanakkor manapság
-          egyesek új tanítói láncolatokat próbálnak létrehozni, új utakat
+          egyesek új tanítói láncolatokat próbálnak létrehozni és új utakat
           részesítve előnyben gurujuk paramparaját elítélik vagy megváltozatják.
           Ezzel szemben átadni magunkat a paramparanak olyasvalami, mintha sok
           ezer éve tartó tanítások folyamába olvadnánk bele, egy olyan folyó
           áramlatába, amelyet ősrégi mesterek tartottak fenn, és amely egy
-          óceánnyi tudássá gyűlt össze. Ugyanakkor nem minden folyó jut el az
+          óceánnyi tudássá gyűlt össze. Azonban nem minden folyó jut el az
           óceánig, ezért ügyelnünk kell arra, hogy az általunk követett
           hagyomány igaz és önzetlen legyen.
         </p>
         <p className="mt-20px">
-          A Himalája csúcsaira sokan akarnak feljutni, azonban nem mindenki jár
-          sikerrel; ugyanakkor bátorság és önátadás által, valamint a guru
+          A Himalája csúcsaira sokan akarnak feljutni, de nem mindenki jár
+          sikerrel. Ugyanakkor bátorság és önátadás által, valamint a guru
           kegyelméből, aki a tudás birtokosa és aki tanítványaiért
           fáradhatatlanul dolgozik, feljuthatunk a tudás csúcsaira.
         </p>

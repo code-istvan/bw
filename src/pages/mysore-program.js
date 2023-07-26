@@ -157,36 +157,15 @@ export default function Mysoreprogram() {
         </p>
       </div>
       <br />
-      <div className="framed-section mt-20px">
-        <div className=".framed-section-orange__inside">
-          <div className="framed-section-orange-title text-align-center mb-20px">
-            <h3>MYSORE PROGRAMUNK ELEMEI</h3>
-          </div>
-          <div className="framed-section-orange__body">
-            <div className="framed-section-orange__card text-align-center">
-              <Icons.Mysore color="orange" />
-              <h4>Mysore gyakorlás</h4>
-              <p>heti 5x</p>
-            </div>
-            <div className="framed-section-orange__card text-align-center">
-              <Icons.LedClass color="orange" />
-              <h4>Vezetett óra</h4>
-              <p>heti 1x</p>
-            </div>
-            <div className="framed-section-orange__card text-align-center">
-              <Icons.Restday color="orange" />
-              <h4>Pihenőnap</h4>
-              <p>szombat</p>
-            </div>
-            <div className="framed-section-orange__card text-align-center">
-              <Icons.Conference color="orange" />
-              <h4>Konferencia</h4>
-              <p>havi 1x</p>
-            </div>
-          </div>
-        </div>
+      <div className="island-section text-align-center">
+        <h3 className="mb-20px">Tudtad?</h3>
+        <p>
+          A Mysore stílusú astanga gyakorlás a dél-indiai Mysore városáról kapta
+          a nevét. Pattabhi Jois itt fejlesztette ki a modernkori astanga jóga
+          rendszerét az 1948-ban alapított Ashtanga Yoga Research Institute-ben
+          (Astanga Jóga Kutató Intézet).
+        </p>
       </div>
-      <br />
       {/* <div className="row">
         <h3>A Mysore stílus elemei tehát:</h3>
       </div>
@@ -226,13 +205,34 @@ export default function Mysoreprogram() {
         </p>
       </div>
       <br />
-      <div className="island-section text-align-center">
-        <h3 className="mb-20px">Tradíció és tapasztalat</h3>
-        <div className="col-12-xs text-align-center mb-20px">
-          <Counter tag="h1" className="clr-brand-orange" />
+      <div className="framed-section mt-20px">
+        <div className=".framed-section-orange__inside">
+          <div className="framed-section-orange-title text-align-center mb-20px">
+            <h3>MYSORE PROGRAMUNK ELEMEI</h3>
+          </div>
+          <div className="framed-section-orange__body">
+            <div className="framed-section-orange__card text-align-center">
+              <Icons.Mysore color="orange" />
+              <h4>Mysore gyakorlás</h4>
+              <p>heti 5x</p>
+            </div>
+            <div className="framed-section-orange__card text-align-center">
+              <Icons.LedClass color="orange" />
+              <h4>Vezetett óra</h4>
+              <p>heti 1x</p>
+            </div>
+            <div className="framed-section-orange__card text-align-center">
+              <Icons.Restday color="orange" />
+              <h4>Pihenőnap</h4>
+              <p>szombat</p>
+            </div>
+            <div className="framed-section-orange__card text-align-center">
+              <Icons.Conference color="orange" />
+              <h4>Konferencia</h4>
+              <p>havi 1x</p>
+            </div>
+          </div>
         </div>
-        <p>Magyarország legrégebbi tradicionális astanga mysore programja.</p>
-        <p>Paramaguru Sharath Jois áldásával.</p>
       </div>
       <br />
       <div className="row">
@@ -252,27 +252,25 @@ export default function Mysoreprogram() {
       </div>
       <br />
       <div className="island-section text-align-center">
-        <h3 className="mb-20px">Tudtad?</h3>
-        <p>
-          A Mysore stílusú astanga gyakorlás a dél-indiai Mysore városáról kapta
-          a nevét. Pattabhi Jois itt fejlesztette ki a modernkori astanga jóga
-          rendszerét az 1948-ban alapított Ashtanga Yoga Research Institute-ben
-          (Astanga Jóga Kutató Intézet).
-        </p>
+        <h3 className="mb-20px">TRADÍCIÓ</h3>
+        <div className="col-12-xs text-align-center mb-20px">
+          <Counter tag="h1" className="clr-brand-orange" />
+        </div>
+        <p>Magyarország legrégebbi astanga mysore programja.</p>
+        <p>Paramaguru Sharath Jois áldásával.</p>
       </div>
-      <div className="row">
-        <p>
-          {" "}
-          Ha szeretnéd felfedezni az astanga vinyásza jóga valódi mélységét,
-          csatlakozz Mysore programunkhoz! A programban résztvevők vállalják,
-          hogy legjobb tudásuk szerint betartják a fenti pontokat.
-        </p>
-      </div>{" "}
       <br />
       <div className="row">
         <p>
           A BandhaWorks Mysore programjának vezetője: Szalai István KPJAYI
           Authorized Level 1 oktató
+        </p>
+      </div>{" "}
+      <br />
+      <div className="row">
+        <p>
+          Ha szeretnéd felfedezni az astanga vinyásza jóga valódi mélységét,
+          csatlakozz Mysore programunkhoz!
         </p>
       </div>{" "}
       <br />
