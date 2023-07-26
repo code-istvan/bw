@@ -8,8 +8,8 @@ export default function Parampara() {
     <Layout>
       <Seo title="PARAMPARA" />
       <div className="page-hero-container">
-        <div className="row">
-          <h1 className="page-hero-title">PARAMPARA</h1>
+        <div className="row tight--desktop--container">
+          <h1 className="page-hero-title ">PARAMPARA</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/parampara_desktop.jpg"
@@ -32,8 +32,8 @@ export default function Parampara() {
           />
         </div>
       </div>
-      <div className="row mt-20px">
-        <h1>
+      <div className="row  tight--desktop--container">
+        <h1 className="mt-40px">
           <span className="clr-brand-orange heading heading--1">
             Tanítói láncolatunk:
           </span>{" "}

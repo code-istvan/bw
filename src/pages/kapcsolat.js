@@ -42,7 +42,7 @@ export default function Kapcsolat() {
             <div className="kapcsolat-address">
               <p>Cím: </p>
               <p className="clr-brand-orange">
-                1027. Budapest, Frankel Leó út. 18.
+                1027 Budapest, Frankel Leó út 18.
               </p>
             </div>
           </address>
@@ -51,7 +51,7 @@ export default function Kapcsolat() {
             található barna ajtón tudsz bejönni hozzánk.
           </p>
           <p className="clr-shades-lightGray span span--bold mt-20px">
-            Parkoló zóna kód az utcában: 0201. Hétfőtől péntekig 8:30-22:00-ig
+            Parkolási zónakód az utcában: 0201. Hétfőtől péntekig 8:30-22:00-ig
             kell fizetni a parkolásért.
           </p>
           {breakpoints.md ? null : <SocialBlock />}
@@ -107,7 +107,7 @@ export default function Kapcsolat() {
                   <span>
                     Megismertem és elfogadom az
                     <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
-                    hozzájárulok e-mail címem kezeléséhez.
+                    hozzájárulok nevem és e-mail címem kezeléséhez.
                   </span>
                 </label>
               </div>

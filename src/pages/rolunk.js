@@ -12,7 +12,7 @@ export default function Rolunk() {
           <h1 className="page-hero-title">RÓLUNK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/rolunk_desktop.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}

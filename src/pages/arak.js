@@ -143,9 +143,9 @@ export default function Arak() {
             A bérletek, tanfolyamok és az egy alkalmas jegyek árai nem
             visszatéríthetőek. A bérletek az érvényességi időn túl nem
             hosszabbíthatók meg; a bérletek felhasználása, illetőleg a
-            tanfolyamok nem szüneteltethetők. A megvásárolt, napijegyek egy
-            alkalmas (egy alkalomra szóló) jegyek időpontjának utólagos
-            módosítására nincsen lehetőség.
+            tanfolyamok nem szüneteltethetők. A megvásárolt egy alkalmas (egy
+            alkalomra szóló) jegyek időpontjának utólagos módosítására nincsen
+            lehetőség.
           </p>
         </div>
       </div>
