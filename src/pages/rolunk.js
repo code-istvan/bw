@@ -22,7 +22,7 @@ export default function Rolunk() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/rolunk_mobil.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
