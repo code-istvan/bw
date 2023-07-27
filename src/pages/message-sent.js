@@ -12,7 +12,7 @@ export default function Messagesent() {
           <h1 className="page-hero-title">ÜZENET ELKÜLDVE</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/confirm_desktop.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -22,7 +22,7 @@ export default function Messagesent() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/confirm_mobil.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
