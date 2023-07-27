@@ -16,7 +16,7 @@ const Hirlevel = () => (
           <h1 className="page-hero-title">Feliratkozás hírlevélre</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/hirlevel.jpg"
+            src="../images/hirlevel_desktop.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -26,7 +26,7 @@ const Hirlevel = () => (
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/hirlevel_mobil.jpg"
+            src="../images/hirlevel_mobil.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
