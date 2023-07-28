@@ -67,20 +67,18 @@ export default function Mysoreprogram() {
       </div>
       <div className="row">
         <p>
-          Az{" "}
-          <CustomLink
-            link="/vinyasza-jogairanyzatok/"
-            title="astanga vinyásza jógát"
-            classNames="body link-decoration-remove schedule-teacher"
-          />{" "}
-          tradicionálisan Mysore (ejtsd: májszor) stílusban oktatják. A módszer
-          ötvözi a csoportos vezetett órák és az egyéni gyakorlás előnyeit.
-          Lényege, hogy a teremben az összes gyakorló a saját légzésének
-          ritmusára önállóan végzi a sorozatot, ezáltal az oktató mindenkinek
-          egyénre szabott igazításokat, utasításokat tud adni, anélkül, hogy ez
-          megzavarná az óra dinamikáját. Így az sem probléma, ha valaki
-          rövidebben gyakorol (pl. kezdő gyakorlók), vagy ha valaki hosszabb
-          időt tölt a teremben (pl. haladó gyakorlók) ugyanazon az órán.
+          Az astanga jóga egy nyolcágú jógarendszer aminek célja a test, az elme
+          és a lélek egységének elérése. Az út hosszú és rögös lehet, amit az
+          ászanák gyakorlásával kell kezdeni. Ezekkel a speciális testhelyzetek
+          gyakorlásával elérhetjük, hogy testünk erős és rugalmas legyen ami
+          alapúl szolgál majd az astanga jógarendszerébe történő továbblépésre.
+          Maga az ászanagyakorlás igen kicsi része a teljes rendszernek, viszont
+          nagyon fontos, kihagyhatatlan a “modern” nyugati ember számra, aki az
+          életmódjából fakadóan igen elhanyagolta fizikai testét. Az astanga
+          vinyásza jóga sajátossága, hogy az ászana gyakorlás által, nemcsak a
+          fizikai test gyógyításán dolgozunk, hanem számos magasabb szintű ágat
+          is előkészítünk, mint például a pránajáma, koncentráció vagy a
+          meditációs tudatállapotot.
         </p>
       </div>
       <br />
@@ -125,20 +123,20 @@ export default function Mysoreprogram() {
       <br />
       <div className="row">
         <p>
-          Ehhez a hagyományos Mysore-i oktatási módszerhez az is hozzátartozik,
-          hogy mindenki rendszeresen gyakorol a cél a heti hatszori gyakorlás,
-          de a legtöbb gyakorló ezt csak fokozatosan éri el, vagy kevesebbszer
-          gyakorol. A szombatok, illetve a teli- és az újhold, azaz{" "}
+          Az{" "}
           <CustomLink
-            link="/holdnapok/"
-            title="holdnapok"
-            classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+            link="/vinyasza-jogairanyzatok/"
+            title="astanga vinyásza jógát"
+            classNames="body link-decoration-remove schedule-teacher"
           />{" "}
-          pihenőnapok, hölgyeknél a menstruáció első három-öt napja is az. Ez
-          elsőre igen nagy kihívásnak tűnik, de természetesen a jógában is a
-          fokozatosság fontos eleme a zavartalan fejlődésnek. A tanár figyeli a
-          gyakorlók előrehaladását, és ha a tanítvány készen áll, akkor újabb
-          ászanákat kap, amelyeket hozzá kell fűznie a többihez.
+          tradicionálisan Mysore (ejtsd: májszor) stílusban oktatják. A módszer
+          ötvözi a csoportos vezetett órák és az egyéni gyakorlás előnyeit.
+          Lényege, hogy a teremben az összes gyakorló a saját légzésének
+          ritmusára önállóan végzi a sorozatot, ezáltal az oktató mindenkinek
+          egyénre szabott igazításokat, utasításokat tud adni, anélkül, hogy ez
+          megzavarná az óra dinamikáját. Így az sem probléma, ha valaki
+          rövidebben gyakorol (pl. kezdő gyakorlók), vagy ha valaki hosszabb
+          időt tölt a teremben (pl. haladó gyakorlók) ugyanazon az órán.
         </p>
       </div>
       <br />
@@ -158,7 +156,7 @@ export default function Mysoreprogram() {
       </div>
       <br />
       <div className="island-section text-align-center">
-        <h3 className="mb-20px">Tudtad?</h3>
+        <h1 className="mb-20px clr-brand-orange">TUDTAD?</h1>
         <p>
           A Mysore stílusú astanga gyakorlás a dél-indiai Mysore városáról kapta
           a nevét. Pattabhi Jois itt fejlesztette ki a modernkori astanga jóga
@@ -166,6 +164,25 @@ export default function Mysoreprogram() {
           (Astanga Jóga Kutató Intézet).
         </p>
       </div>
+      <div className="row">
+        <p>
+          Ehhez a hagyományos Mysore-i oktatási módszerhez az is hozzátartozik,
+          hogy mindenki rendszeresen gyakorol a cél a heti hatszori gyakorlás,
+          de a legtöbb gyakorló ezt csak fokozatosan éri el, vagy kevesebbszer
+          gyakorol. A szombatok, illetve a teli- és az újhold, azaz{" "}
+          <CustomLink
+            link="/holdnapok/"
+            title="holdnapok"
+            classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+          />{" "}
+          pihenőnapok, hölgyeknél a menstruáció első három-öt napja is az. Ez
+          elsőre igen nagy kihívásnak tűnik, de természetesen a jógában is a
+          fokozatosság fontos eleme a zavartalan fejlődésnek. A tanár figyeli a
+          gyakorlók előrehaladását, és ha a tanítvány készen áll, akkor újabb
+          ászanákat kap, amelyeket hozzá kell fűznie a többihez.
+        </p>
+      </div>
+      <br />
       {/* <div className="row">
         <h3>A Mysore stílus elemei tehát:</h3>
       </div>
@@ -235,29 +252,13 @@ export default function Mysoreprogram() {
         </div>
       </div>
       <br />
-      <div className="row">
-        <p>
-          A délutáni vezetett astanga vinyásza órák inkább elméleti órák, céljuk
-          elsősorban a vinyászaszámolás és a dristik elsajátítása, és
-          felkészítés a komolyabb elkötelezettséget igénylő, sokkal mélyebb
-          Mysore stílusú gyakorlásra. Hatásuk inkább fizikai, a mentális
-          változások sokkal lassabban indulnak be. A Mysore stílusú gyakorlás
-          ezzel szemben spirituális gyakorlat, amely nem csak a testet, de az
-          elmét is tisztítja és gyógyítja. Éppen ezért van pár szabály, amelyek
-          betartása szükséges ahhoz, hogy a gyakorlás hatása képes legyen teljes
-          pompájában virágozni az életünkben. A házirend tapasztalati
-          útmutatásokat tartalmaz, és mindig a gyakorló biztonságát és
-          fejlődését szolgálja.
-        </p>
-      </div>
-      <br />
       <div className="island-section text-align-center">
-        <h3 className="mb-20px">TRADÍCIÓ</h3>
+        <h1 className="mb-20px clr-brand-orange">TRADÍCIÓ</h1>
         <div className="col-12-xs text-align-center mb-20px">
-          <Counter tag="h1" className="clr-brand-orange" />
+          <Counter tag="h3" className="" />
         </div>
-        <p>Magyarország legrégebbi astanga mysore programja.</p>
-        <p>Paramaguru Sharath Jois áldásával.</p>
+        <p>Magyarország legrégebbi astanga mysore programja</p>
+        <p>Paramaguru Sharath Jois áldásával</p>
       </div>
       <br />
       <div className="row">
@@ -265,23 +266,9 @@ export default function Mysoreprogram() {
           A BandhaWorks Mysore programjának vezetője: Szalai István KPJAYI
           Authorized Level 1 oktató
         </p>
-      </div>{" "}
-      <br />
-      <div className="row">
-        <p>
-          Ha szeretnéd felfedezni az astanga vinyásza jóga valódi mélységét,
-          csatlakozz Mysore programunkhoz!
-        </p>
-      </div>{" "}
-      <br />
-      <div className="row">
-        <p>
-          A BandhaWorks Mysore programjához előzetes bejelentkezés után tudsz
-          csatlakozni. Előzetes bejelentkezés: mysore (kukac) bandhaworks.hu.
-          Írásos visszaigazolásunkat minden esetben várd meg!
-        </p>
       </div>
       <br />
+
       <div className="row">
         <div className="mb-20px">
           <h3>Gyakran ismételt kérdések</h3>

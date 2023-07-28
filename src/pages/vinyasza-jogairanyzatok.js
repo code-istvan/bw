@@ -101,13 +101,13 @@ export default function Vinyasza() {
               classNames="body link-decoration-remove clr-brand-orange"
               title="triszthána"
             />{" "}
-            (a figyelem három fókusza), azaz az ászana, a hangos légzés és a
+            (a figyelem három fókusza), azaz az ászana, a hangos légzés és a{" "}
             <b>dristi</b>. Az ászanákat a <b>bandhák</b> teszik könnyeddé,
             stabillá és biztonságossá. A <b>bandhák</b> fizikai szinten
             izomzárakat jelentenek, a finom testen belül pedig a <b>prána</b>{" "}
             (életerő) szabályozását irányítják. A légzés hangja olyan, mint a
             tenger hullámainak morajlása illetve sokan Darth Vader
-            légzéstechnikáját is felfedezni vélik benne. A<b>dristi</b> a
+            légzéstechnikáját is felfedezni vélik benne. A <b>dristi</b> a
             tekintet fókuszálása, megfelelő végrehajtásával nyugodt és tiszta
             elmével végezhetjük a sorozatokat. Az astanga vinyásza rendszerben
             fix ászanasorozatokat gyakorlunk, szám szerint hatot, mindenki a
@@ -118,7 +118,7 @@ export default function Vinyasza() {
           <p>
             A{" "}
             <CustomLink
-              link="/sorozatabrak/"
+              link="/letoltesek/"
               classNames="body link-decoration-remove clr-brand-orange"
               title="sorozatokat"
             />{" "}
