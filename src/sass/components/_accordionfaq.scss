@@ -75,17 +75,21 @@
 }
 
 .accordion-faq__plus {
+  width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   padding-left: 24px;
   gap: 16px;
   height: 40px;
   p {
+    text-align: left;
     font-weight: 800;
     padding: 20px 0;
   }
   svg {
+    float: right;
     margin-right: 12px;
   }
 }
