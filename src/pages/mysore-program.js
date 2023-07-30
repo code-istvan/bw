@@ -163,7 +163,9 @@ export default function Mysoreprogram() {
         </div>
         <br />
         <div className="island-section text-align-center">
-          <h1 className="mb-20px clr-brand-orange">TUDTAD?</h1>
+          <h3 className="mb-20px clr-brand-orange font-family-primary">
+            <strong>TUDTAD?</strong>
+          </h3>
           <p>
             A Mysore stílusú astanga gyakorlás a dél-indiai Mysore városáról
             kapta a nevét. Pattabhi Jois itt fejlesztette ki a modernkori
@@ -210,33 +212,37 @@ export default function Mysoreprogram() {
         <div className="framed-section mt-20px">
           <div className="framed-section-orange__inside">
             <div className="framed-section-orange-title text-align-center mb-20px">
-              <h3> A MYSORE PROGRAM SAJÁTOSSÁGAI</h3>
+              <h3>A Mysore program felépítése</h3>
             </div>
             <div className="framed-section-orange__body">
               <div className="framed-section-orange__card text-align-center">
                 <Icons.Mysore color="orange" />
-                <h4>Személyes figyelem</h4>
-                {/* <p>heti 5x</p> */}
+                <h4 className="framed-section-orange-title--h4">
+                  MYSORE GYAKORLÁS
+                </h4>
+                <p>heti 5x</p>
               </div>
               <div className="framed-section-orange__card text-align-center">
                 <Icons.LedClass color="orange" />
-                <h4>Egyéni fejlődés</h4>
-                {/* <p>heti 1x</p> */}
+                <h4 className="framed-section-orange-title--h4">
+                  VEZETETT ÓRA
+                </h4>
+                <p>heti 1x</p>
+              </div>
+              <div className="framed-section-orange__card text-align-center">
+                <Icons.Conference color="orange" />
+                <h4 className="framed-section-orange-title--h4">KONFERENCIA</h4>
+                <p>havi 1x</p>
               </div>
               <div className="framed-section-orange__card text-align-center">
                 <Icons.Restday color="orange" />
-                <h4>Önállóság</h4>
-                {/* <p>szombat</p> */}
+                <h4 className="framed-section-orange-title--h4">PIHENŐNYAP</h4>
+                <p>szombat</p>
               </div>
               <div className="framed-section-orange__card text-align-center">
                 <Icons.Conference color="orange" />
-                <h4>Koncentráció</h4>
-                {/* <p>havi 1x</p> */}
-              </div>
-              <div className="framed-section-orange__card text-align-center">
-                <Icons.Conference color="orange" />
-                <h4>Meditáció</h4>
-                {/* <p>havi 1x</p> */}
+                <h4 className="framed-section-orange-title--h4">HOLDNAPOK</h4>
+                <p>havi 2x</p>
               </div>
             </div>
           </div>
@@ -245,7 +251,9 @@ export default function Mysoreprogram() {
         <div className="row gap-1">
           <div className="col-12-xs col-6-md col-6-xl">
             <div className="card__mysore-program">
-              <h3 className="clr-brand-orange mb-20px">Személyes figyelem</h3>
+              <h3 className="clr-brand-orange font-family-primary mb-20px">
+                Személyes figyelem
+              </h3>
               <p>
                 Mivel mindenki a saját tempójában gyakorol, az oktatónak van
                 ideje minden egyes gyakorlóval egyénileg foglalkozni. Ez
@@ -256,7 +264,9 @@ export default function Mysoreprogram() {
           </div>
           <div className="col-12-xs col-6-md col-6-xl">
             <div className="card__mysore-program">
-              <h3 className="clr-brand-orange mb-20px">Egyéni fejlődés</h3>
+              <h3 className="clr-brand-orange font-family-primary mb-20px">
+                Egyéni fejlődés
+              </h3>
               <p>
                 A gyakorlás során a gyakorlók az oktató aktív részvételével, a
                 befektetett energia, lelkesedés és a hozott csomagok
@@ -266,12 +276,11 @@ export default function Mysoreprogram() {
               </p>
             </div>
           </div>
-        </div>
-        <br />
-        <div className="row gap-1">
           <div className="col-12-xs col-6-md col-6-xl">
             <div className="card__mysore-program">
-              <h3 className="clr-brand-orange mb-20px">Önállóság</h3>
+              <h3 className="clr-brand-orange font-family-primary mb-20px">
+                Önállóság
+              </h3>
               <p>
                 A Mysore stílus lehetővé teszi a gyakorlóknak, hogy megtanulják
                 önállóan gyakorolni. Ez fontos készség, amely segíthet a
@@ -282,7 +291,9 @@ export default function Mysoreprogram() {
           </div>
           <div className="col-12-xs col-6-md col-6-xl">
             <div className="card__mysore-program">
-              <h3 className="clr-brand-orange mb-20px">Meditáció</h3>
+              <h3 className="clr-brand-orange font-family-primary mb-20px">
+                Meditáció
+              </h3>
               <p>
                 Az önálló gyakorlás, a légzés és a mozdulatok pontos
                 összehangolása komoly koncentrációt igényel a gyakorlóktól. A
@@ -294,9 +305,11 @@ export default function Mysoreprogram() {
         </div>
         <br />
         <div className="island-section text-align-center island-section--orange-border">
-          <h1 className="mb-20px clr-brand-orange">TRADÍCIÓ</h1>
+          <h3 className="mb-20px font-family-primary clr-brand-orange">
+            TRADÍCIÓ
+          </h3>
           <div className="col-12-xs text-align-center mb-20px">
-            <Counter tag="h2" className="" />
+            <Counter tag="h3" className="" />
           </div>
           <p>Magyarország legrégebbi astanga mysore programja</p>
           <p>Paramaguru Sharath Jois áldásával</p>
@@ -317,21 +330,24 @@ export default function Mysoreprogram() {
         </div>
         <br />
         <div className="island-section">
-          <h1 className="mb-20px clr-brand-orange">
+          <h3 className="mb-20px font-family-primary clr-brand-orange">
             {" "}
             A Mysore program vezetője
-          </h1>
-          <h3>
-            <CustomLink
-              link="/vinyasza-jogairanyzatok/"
-              title="Szalai István"
-              classNames="header header--3 link-decoration-remove schedule-teacher"
-            />{" "}
-            KPJAYI Authorized Level 1 oktató
           </h3>
+          <p>
+            <strong>
+              {" "}
+              <CustomLink
+                link="/vinyasza-jogairanyzatok/"
+                title="Szalai István"
+                classNames="header header--3 link-decoration-remove schedule-teacher"
+              />{" "}
+            </strong>
+            KPJAYI Authorized Level 1 oktató
+          </p>
         </div>
         <div className="row">
-          <div className="mb-20px">
+          <div className="mb-20px mt-20px">
             <h3>Gyakran ismételt kérdések</h3>
           </div>{" "}
           <div className="row">
