@@ -1,0 +1,47 @@
+@import "/src/sass/global";
+
+.horizontal-scroller {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.horizontal-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.image-container {
+  flex: 0 0 auto;
+  width: 80vw;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.dot-navigation {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  margin-top: 380px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: white;
+}

@@ -7,7 +7,12 @@ import Icons from "../components/Icons/Icons"
 import Counter from "../components/Counter"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
 import mysoreFaq from "../data/mysoreFaq.json"
+import ImageScroller from "../components/ImageScroller"
 import "../sass/pages/_mysoreprogram.scss"
+
+import image1 from "../images/Mysore_program_1.jpg"
+import image2 from "../images/Mysore_program_2.jpg"
+import image3 from "../images/Mysore_program_7.jpeg"
 
 export default function Mysoreprogram() {
   const hasznosOlvasmanyok = [
@@ -24,6 +29,12 @@ export default function Mysoreprogram() {
       classNames:
         "body link-decoration-remove clr-brand-orange schedule-teacher",
     },
+  ]
+
+  const images = [
+    { src: image1, alt: "Alt text 1" },
+    { src: image2, alt: "Alt text 2" },
+    { src: image3, alt: "Alt text 3" },
   ]
 
   return (
@@ -133,6 +144,9 @@ export default function Mysoreprogram() {
             />
           </div>
         </div>
+        {/* <div className="row">
+          <ImageScroller images={images} />
+        </div> */}
         <br />
         <div className="row">
           <p>
@@ -173,7 +187,6 @@ export default function Mysoreprogram() {
           </p>
         </div>
         <br />
-
         <div className="row">
           <p>
             Ehhez a hagyományos Mysore-i oktatási módszerhez az is
@@ -194,55 +207,6 @@ export default function Mysoreprogram() {
           </p>
         </div>
         <br />
-        {/* <div className="row">
-        <h3>A Mysore stílus elemei tehát:</h3>
-      </div>
-      <div className="row unordered-list-style">
-        <ul>
-          {[
-            "csoportos, egyéni gyakorlás órán, szakképzett oktató felügyelete alatt",
-            "napi szintű gyakorlás (a szombatok, a teli- és újhold, illetve a hölgynapok pihenőnapok)",
-            "gyakorlás korán reggel, lehetőleg ugyanabban az időpontban",
-            "hetente vezetett óra a vinyászaszámolás memorizálásához",
-            "önálló gyakorlás jelentősége",
-          ].map((item, index) => (
-            <li key={index}>
-              <p>{item}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
-      <br /> */}
-        {/* <div className="framed-section mt-20px">
-        <div className="framed-section-orange__inside">
-          <div className="framed-section-orange-title text-align-center mb-20px">
-            <h3>MYSORE PROGRAMUNK ELEMEI</h3>
-          </div>
-          <div className="framed-section-orange__body">
-            <div className="framed-section-orange__card text-align-center">
-              <Icons.Mysore color="orange" />
-              <h4>Mysore gyakorlás</h4>
-              <p>heti 5x</p>
-            </div>
-            <div className="framed-section-orange__card text-align-center">
-              <Icons.LedClass color="orange" />
-              <h4>Vezetett óra</h4>
-              <p>heti 1x</p>
-            </div>
-            <div className="framed-section-orange__card text-align-center">
-              <Icons.Restday color="orange" />
-              <h4>Pihenőnap</h4>
-              <p>szombat</p>
-            </div>
-            <div className="framed-section-orange__card text-align-center">
-              <Icons.Conference color="orange" />
-              <h4>Konferencia</h4>
-              <p>havi 1x</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br /> */}
         <div className="framed-section mt-20px">
           <div className="framed-section-orange__inside">
             <div className="framed-section-orange-title text-align-center mb-20px">
@@ -278,35 +242,55 @@ export default function Mysoreprogram() {
           </div>
         </div>
         <br />
-        <div className="row">
-          <p>
-            <strong>Személyes figyelem:</strong> Mivel mindenki a saját
-            tempójában gyakorol, az oktatónak van ideje minden egyes gyakorlóval
-            egyénileg foglalkozni. Ez lehetővé teszi, hogy a gyakorlók
-            specifikus, személyre szabott útmutatást kapjanak.
-          </p>
-          <p>
-            <strong>Egyéni fejlődés:</strong> A gyakorlás során a gyakorlók az
-            oktató aktív részvételével, a befektetett energia, lelkesedés és a
-            hozott csomagok függvényében fejlődnek. Fokozatosan építik fel a
-            gyakorlásukat. Lesznek olyan időszakok, amikor gyorsabban fejlődnek
-            és lehet, hogy lesz olyan amikor lassabban.
-          </p>
-          <p>
-            <strong>Önállóság:</strong> A Mysore stílus lehetővé teszi a
-            gyakorlóknak, hogy megtanulják önállóan gyakorolni. Ez fontos
-            készség, amely segíthet a gyakorlónak abban, hogy hosszú távon
-            fenntartsák a jóga gyakorlását (ha pl. nincs a közelükbe a tanáruk).
-          </p>
-          <p>
-            <strong>Koncentráció:</strong> Az önálló gyakorlás, a légzés és a
-            mozdulatok pontos összehangolása komoly koncentrációt igényel a
-            gyakorlóktól.
-          </p>
-          <p>
-            <strong>Meditáció:</strong> A hosszan fenntartott, megszakítás
-            nélküli koncentráció meditatív állapothoz vezethet.
-          </p>
+        <div className="row gap-1">
+          <div className="col-12-xs col-6-md col-6-xl">
+            <div className="card__mysore-program">
+              <h3 className="clr-brand-orange mb-20px">Személyes figyelem</h3>
+              <p>
+                Mivel mindenki a saját tempójában gyakorol, az oktatónak van
+                ideje minden egyes gyakorlóval egyénileg foglalkozni. Ez
+                lehetővé teszi, hogy a gyakorlók specifikus, személyre szabott
+                útmutatást kapjanak.
+              </p>
+            </div>
+          </div>
+          <div className="col-12-xs col-6-md col-6-xl">
+            <div className="card__mysore-program">
+              <h3 className="clr-brand-orange mb-20px">Egyéni fejlődés</h3>
+              <p>
+                A gyakorlás során a gyakorlók az oktató aktív részvételével, a
+                befektetett energia, lelkesedés és a hozott csomagok
+                függvényében fejlődnek. Fokozatosan építik fel a gyakorlásukat.
+                Lesznek olyan időszakok, amikor gyorsabban fejlődnek és lehet,
+                hogy lesz olyan amikor lassabban.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div className="row gap-1">
+          <div className="col-12-xs col-6-md col-6-xl">
+            <div className="card__mysore-program">
+              <h3 className="clr-brand-orange mb-20px">Önállóság</h3>
+              <p>
+                A Mysore stílus lehetővé teszi a gyakorlóknak, hogy megtanulják
+                önállóan gyakorolni. Ez fontos készség, amely segíthet a
+                gyakorlónak abban, hogy hosszú távon fenntartsák a jóga
+                gyakorlását (ha pl. nincs a közelükbe a tanáruk).
+              </p>
+            </div>
+          </div>
+          <div className="col-12-xs col-6-md col-6-xl">
+            <div className="card__mysore-program">
+              <h3 className="clr-brand-orange mb-20px">Meditáció</h3>
+              <p>
+                Az önálló gyakorlás, a légzés és a mozdulatok pontos
+                összehangolása komoly koncentrációt igényel a gyakorlóktól. A
+                hosszan fenntartott, megszakítás nélküli koncentráció meditatív
+                állapothoz vezethet.
+              </p>
+            </div>
+          </div>
         </div>
         <br />
         <div className="island-section text-align-center island-section--orange-border">

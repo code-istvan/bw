@@ -17,7 +17,7 @@ export default function Vinyasza() {
             <blockquote>
               Viná vinyásza jógéna ászanádin na kárajét <br />
               Óh, jógi, ne végezz ászanát vinyásza nélkül <br />
-              Jóga korunta - Vámana rishi <br />
+              Jóga Korunta - Vámana Risi <br />
             </blockquote>
           </div>
           <p>
@@ -41,7 +41,7 @@ export default function Vinyasza() {
                 "Ászana - jógatesthelyzetek gyakorlása",
                 "Pránájáma - légzés szabályozásának gyakorlása",
                 "Pratjáhára - érzékek és a világ dolgai közötti kapcsolat kiiktatása",
-                "Dhárána - tartós koncentráció",
+                "Dháraná - tartós koncentráció",
                 "Dhjána - megszakítás nélküli meditáció",
                 "Szamádhi - a látó és a látott iránti közömbösség megtapasztalása",
               ].map((item, index) => (
@@ -107,7 +107,7 @@ export default function Vinyasza() {
             izomzárakat jelentenek, a finom testen belül pedig a <b>prána</b>{" "}
             (életerő) szabályozását irányítják. A légzés hangja olyan, mint a
             tenger hullámainak morajlása illetve sokan Darth Vader
-            légzéstechnikáját is felfedezni vélik benne. A <b>dristi</b> a
+            légzéstechnikáját is felfedezni vélik benne. A <b>dristi,</b> a
             tekintet fókuszálása, megfelelő végrehajtásával nyugodt és tiszta
             elmével végezhetjük a sorozatokat. Az astanga vinyásza rendszerben
             fix ászanasorozatokat gyakorlunk, szám szerint hatot, mindenki a
@@ -136,7 +136,7 @@ export default function Vinyasza() {
                   description: "- az idegrendszer tisztítását végzi",
                 },
                 {
-                  title: "Szthíra Bhága A, B, C, D",
+                  title: "Szthira Bhága A, B, C, D",
                   description:
                     "- az előző sorozatok hatásainak elmélyítését szolgálja",
                 },
@@ -152,7 +152,7 @@ export default function Vinyasza() {
           <br />
           <StaticImage
             className="mt-20px mb-40px"
-            src="../images/Guruji_Sharathji.jpg"
+            src="../images/Guruji_Sharathji.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
@@ -161,21 +161,21 @@ export default function Vinyasza() {
             placeholder="blurred"
           />
           <p>
-            A szombat, illetve a teli- és újhold (
+            A szombat, illetve a teli- és újhold napjai (
             <CustomLink
               link="/holdnapok/"
               classNames="body link-decoration-remove clr-brand-orange"
-              title="holdnapok"
+              title="a holdnapok"
             />
-            ) napjai hagyományosan pihenőnapok. A sorozat ászanái egymásra
-            épülnek, ezért tradicionálisan a gyakorlás addig tart, amíg el nem
-            jutunk addig a testhelyzetig, amelyet már nem tudunk végrehajtani,
-            ekkor a levezetés után relaxáció következik. Ha elértünk odáig, hogy
-            a sorozat minden ászanáját megfelelően el tudjuk végezni, a tanítónk
+            ) hagyományosan pihenőnapok. A sorozat ászanái egymásra épülnek,
+            ezért tradicionálisan a gyakorlás addig tart, amíg el nem jutunk
+            addig a testhelyzetig, amelyet már nem tudunk végrehajtani, ekkor a
+            levezetés után relaxáció következik. Ha elértünk odáig, hogy a
+            sorozat minden ászanáját megfelelően el tudjuk végezni, a tanítónk
             engedélyével továbbléphetünk a következő sorozatra. Ezzel a
             módszerrel bármilyen adottságokkal rendelkező gyakorló részesülhet a
             rendszer jótékony hatásaiból, és nem utolsósorban elkerülhetőek a
-            sérülések. Ezt az ún. Mysore stílusú órákon lehetséges kivitelezni,
+            sérülések. Ezt az ún. Mysore-stílusú órákon lehetséges kivitelezni,
             ahol a vezetett órával ellentétben mindenki a saját légzésritmusára
             gyakorol, a tanár pedig lehetőséget kap arra, hogy mindenkinek az
             egyéni állapota szerint nyújtson segítséget. Egy nyugati astanga
@@ -186,19 +186,18 @@ export default function Vinyasza() {
             megemlíteném, hogy az indiai Mysore-ban, az astanga fővárosában a
             három legnagyobb jógaiskola közül mindössze egyikben tartanak
             vezetett órát, ott is csak heti egyszer. A vezetett óra elsődleges
-            célja az ászana sorrend és az őket összekötő mozdulatok precíz
-            elsajátítása. Mindenesetre óratípustól függetlenül ne lepődjünk meg,
-            ha a tanártól finom vagy határozott érintéssel, testtel történő
-            igazításokat kapunk, ez a stílus jellemzője. A tanár szakértő
-            segítségével könnyebb a gyakorlónak megérteni az ászanák lényegét, a
-            haladás irányát és elmélyülni bennük.
+            célja az ászanasorrend és az egyes ászanákat összekötő mozdulatok
+            precíz elsajátítása. Mindenesetre óratípustól függetlenül ne
+            lepődjünk meg, ha a tanártól finom vagy határozott érintéssel,
+            testtel történő igazításokat kapunk, ez a stílus jellemzője. A tanár
+            szakértő segítségével könnyebb a gyakorlónak megérteni az ászanák
+            lényegét, a haladás irányát és elmélyülni bennük.
           </p>
           <br />
           <p>
-            Összességében tehát az astanga célirányos, lépcsőzetes rendszert
-            kínál azoknak, akik a szamádhi felé törekednek. Végül kötelességünk
-            mindenkit figyelmeztetni a fellépő mellékhatásokra: testünk és
-            elménk hihetetlen erőssé és egészségessé válik a gyakorlás által!
+            Összességében tehát az astanga jóga célirányos, lépcsőzetes
+            rendszert kínál azok számára akik a test, az elme és a lélek
+            egységének elérése felé törekednek.
           </p>
         </div>
       ),
@@ -212,7 +211,7 @@ export default function Vinyasza() {
             A vinyásza krama a fizikai és spirituális önfejlesztés ősi útja,
             amely egyesíti a tanulást, a gyakorlást és a tanítást. A szanszkrit
             vinyásza szó vi előtagja változatot jelent, a nyásza utótag pedig
-            azt, hogy “előírt feltételek között”, tehát a teljes vinyásza
+            azt, hogy „előírt feltételek között”, tehát a teljes vinyásza
             szóösszetétel a mozdulat és légzés összhangjára vonatkozik, a krama
             szó jelentése pedig módszertan. A rendszer egyedi módon közelíti meg
             a jógászanát (jógapozíciókat). A test, az elme és a légzés működését
@@ -234,7 +233,7 @@ export default function Vinyasza() {
             A vinyásza krama pontosan követi a klasszikus jóga definícióját. A
             jógát általában kétféleképpen definiálják: egyesülésnek (jukti) vagy
             belső békének (szamádhi). A légzést igaként felhasználva a vinyásza
-            krama jóga összehangolja a testet és elmét, ezáltal létrejön az
+            krama jóga összehangolja a testet és az elmét, ezáltal létrejön az
             egyesülés. Emellett, mivel az elme követi a mély és egyenletes
             légzést, kitartó gyakorlással végül a legmagasabb szintű béke
             (szamádhi) is elérhető.
@@ -259,8 +258,8 @@ export default function Vinyasza() {
               classNames="clr-brand-orange body link-decoration-remove"
               title="Sri. T. Krishnamacharya "
             />
-            hozta vissza ezt a jógatípust a köztudatba. Az 1930-as években
-            megírta Jóga Makaranda (A jóga nektárja) című művét, amelyben
+            hozta vissza ezt a jógatípust a köztudatba. Az 1930-as években írta
+            meg a Jóga Makaranda (A jóga nektárja) című művét, amelyben
             bemutatja a vinyásza krama rendszert. A többszáz létező
             vinyászasorozat közül csupán néhányat ismertet benne, de ne
             gondoljuk, hogy az elnevezés csak ezekre a konkrét sorozatokra
@@ -289,13 +288,13 @@ export default function Vinyasza() {
           <br />
           <p>
             A jógászanák megvalósításával kapcsolatos feltételek Patandzsali
-            Jóga szútrái alapján a következők:
+            Jóga Szútrák című műve alapján a következők:
           </p>
           <div className="unordered-list-style">
             <ul>
               {[
                 {
-                  title: "Stabilitás (szthíra)",
+                  title: "Stabilitás (szthira)",
                   description:
                     "- ahhoz, hogy egy testhelyzetet jógászanának nevezhessünk, gyakorlóját képessé kell tennie arra, hogy stabil maradjon, legyen szó akár egyszerű állóhelyzetről (tádászana) akár fejállásról (sírsászana).",
                 },
@@ -307,7 +306,7 @@ export default function Vinyasza() {
                 {
                   title: "Egyenletes és lassú légzés (prajatna szithila)",
                   description:
-                    "-  ezt a módszert Patandzsali a gyakorlás megkönnyítése érdekében javasolja. A prajatna (törekvés, erőfeszítés) itt a dzsívána prajatnára vonatkozik (élni akarásra), amely itt nem más, mint maga a lélegzés. Ez a feltétel megszabja, hogy a gyakorlás alatt a légzésnek egyenletesnek és lassúnak kell maradnia. Ezért, amikor helyesen jógázunk, nem szabad erősen zilálnunk. Az aerob sportokkal ellentétben (amelyeknek szintén megvan a maga haszna) sem a légzés sebessége, sem a pulzusszám nem emelkedhet. A normál légzés sebessége 15-20 légzés percenként. Mivel a mozdulatok lassúak a vinyásza jógában, ezért a légzés sebességét is csökkenteni kell. Ideális esetben egy perc alatt legfeljebb ötször, hatszor lélegzünk.",
+                    "-  ezt a módszert Patandzsali a gyakorlás megkönnyítése érdekében javasolja. A prajatna (törekvés, erőfeszítés) itt a dzsívána prajatnára (élni akarásra) vonatkozik, amely itt nem más, mint maga a lélegzés. Ez a feltétel megszabja, hogy a gyakorlás alatt a légzésnek egyenletesnek és lassúnak kell maradnia. Ezért, amikor helyesen jógázunk, nem szabad erősen zihálnunk. Az aerob sportokkal ellentétben (amelyeknek szintén megvan a maga haszna) sem a légzés sebessége, sem a pulzusszám nem emelkedhet. A normál légzés sebessége 15-20 légzés percenként. Mivel a mozdulatok lassúak a vinyásza jógában, ezért a légzés sebességét is csökkenteni kell. Ideális esetben egy perc alatt legfeljebb ötször, hatszor lélegzünk.",
                 },
               ].map((item, index) => (
                 <li key={index}>
@@ -339,8 +338,8 @@ export default function Vinyasza() {
             tartania, amíg helyreáll a légzése. A vinyásza rendszerben gyakorlók
             gyakran azt veszik észre, hogy az idő múlásával egyre lassul a
             légzésük a mindennapokban is, ezáltal az elméjük is nyugodtabb és
-            derűsebb lesz. Vannak jógik, akik akár egy teljes óráig tartó
-            gyakorlás alatt végig percenként négy légzést tudnak tartani.
+            derűsebb lesz. Vannak jógik, akik akár az egy teljes óráig tartó
+            gyakorlásuk során végig tudják tartani a percenként négy légzést.
             Számukra még a legnehezebb pózok is mélyen relaxálóak.
           </p>
           <br />
@@ -399,11 +398,7 @@ export default function Vinyasza() {
         </div>
       </div>
       <div className="jogairanyzatok-wrapper tight--desktop--container">
-        <div className="row tabs mt-20px">
-          <div className="tabs__header mb-20px">
-            <Tabs tabsData={tabsData} />
-          </div>
-        </div>
+        <Tabs tabsData={tabsData} />
       </div>
     </Layout>
   )
