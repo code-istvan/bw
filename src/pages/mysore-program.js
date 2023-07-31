@@ -42,7 +42,7 @@ export default function Mysoreprogram() {
       <Seo title="MYSORE PROGRAM" />
       <div className="page-hero-container">
         <div className="row">
-          <h1 className="page-hero-title">MYSORE PROGRAM</h1>
+          <h1 className="page-hero-title">MYSORE-PROGRAM</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/mysore_desktop.jpg"
@@ -69,11 +69,11 @@ export default function Mysoreprogram() {
         <div className="mt-40px mb-20px">
           <h3>
             <strong>
-              A Mysore stílusú astanga jóga gyakorlás hatékony és személyre
+              A Mysore-stílusú astanga jóga gyakorlás hatékony és személyre
               szabott módszer, amely fizikai erőt, rugalmasságot és belső
               nyugalmat hoz. Az általa kínált folyamatos fejlődés és az
               oktató-tanítvány kapcsolat lehetőséget ad a mélyebb megértésre és
-              személyes fejlődésre.
+              a személyes fejlődésre.
             </strong>
           </h3>
         </div>
@@ -85,24 +85,24 @@ export default function Mysoreprogram() {
               title="astanga jóga"
               classNames="body link-decoration-remove schedule-teacher"
             />{" "}
-            egy nyolcágú jógarendszer aminek célja a test, az elme és a lélek
+            egy nyolcágú jógarendszer, amelynek célja a test, az elme és a lélek
             egységének elérése. Az út hosszú és rögös lehet, amit az ászanák
-            gyakorlásával kell kezdeni. Ezekkel a speciális testhelyzetek
-            gyakorlásával elérhetjük, hogy testünk erős és rugalmas legyen ami
-            alapúl szolgál majd az astanga jógarendszerébe történő
+            gyakorlásával kell kezdeni. Ezen speciális testhelyzetek
+            gyakorlásával elérhetjük, hogy testünk erős és rugalmas legyen, ami
+            alapul szolgál majd az astanga jógarendszerében történő
             továbblépésre. Maga az ászanagyakorlás igen kicsi része a teljes
-            rendszernek, viszont nagyon fontos, kihagyhatatlan a “modern”
-            nyugati ember számra, aki az életmódjából fakadóan igen elhanyagolta
-            fizikai testét.
+            rendszernek, viszont nagyon fontos, kihagyhatatlan a „modern”
+            nyugati ember számára, aki az életmódjából fakadóan igencsal
+            elhanyagolja a fizikai testét.
           </p>
         </div>
         <br />
         <div className="row">
           <p>
-            Az astanga vinyásza jóga sajátossága, hogy az ászana gyakorlás
-            által, nemcsak a fizikai test gyógyításán dolgozunk, hanem számos
-            magasabb szintű ágat is előkészítünk, mint például a pránajáma,
-            koncentráció vagy a meditációs tudatállapotot.
+            Az astanga vinyásza jóga sajátossága, hogy az ászanagyakorlás által,
+            nemcsak a fizikai test gyógyításán dolgozunk, hanem számos magasabb
+            szintű ágat is előkészítünk, mint például a pránajáma, koncentráció
+            vagy a meditációs tudatállapotot.
           </p>
         </div>
         <br />
@@ -144,18 +144,18 @@ export default function Mysoreprogram() {
             />
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <ImageScroller images={images} />
-        </div>
+        </div> */}
         <br />
         <div className="row">
           <p>
             Az astanga vinyásza jógában az ászanákat tradicionálisan Mysore
-            (ejtsd: májszor) stílusban oktatják. A módszer ötvözi a csoportos
+            (ejtsd: májszor) -stílusban oktatják. A módszer ötvözi a csoportos
             vezetett órák és az egyéni gyakorlás előnyeit. Lényege, hogy a
             teremben az összes gyakorló a saját légzésének ritmusára önállóan
             végzi a sorozatot, ezáltal az oktató mindenkinek egyénre szabott
-            igazításokat, utasításokat tud adni, anélkül, hogy ez megzavarná az
+            igazításokat, utasításokat tud adni, anélkül hogy ez megzavarná az
             óra dinamikáját. Így az sem probléma, ha valaki rövidebben gyakorol
             (pl. kezdő gyakorlók), vagy ha valaki hosszabb időt tölt a teremben
             (pl. haladó gyakorlók) ugyanazon az órán.
@@ -167,21 +167,21 @@ export default function Mysoreprogram() {
             <strong>TUDTAD?</strong>
           </h3>
           <p>
-            A Mysore stílusú astanga gyakorlás a dél-indiai Mysore városáról
+            A Mysore-stílusú astanga gyakorlás a dél-indiai Mysore városáról
             kapta a nevét. Pattabhi Jois itt fejlesztette ki a modernkori
             astanga jóga rendszerét az 1948-ban alapított Ashtanga Yoga Research
-            Institute-ben (Astanga Jóga Kutató Intézet).
+            Institute-ban (Astanga Jóga Kutató Intézet).
           </p>
         </div>
         <div className="row">
           <p>
-            A gyakorlás időpontja is meghatározott, a Mysore órákat
-            tradicionálisan reggel tartják. Ennek az oka, hogy a
+            A gyakorlás időpontja is meghatározott, a Mysore-órákat
+            tradicionálisan reggel tartják. Ennek az az oka, hogy a
             jógagyakorláshoz az úgynevezett <i>Brahma muhurta</i> napszak a
-            legmegfelelőbb, azaz a napfelkelte előtti másfél óra - vagy ehhez
-            minnél közelebbi időpont -. Ekkor a levegő friss, a környezet
-            csendes, frissen, kipihenten ébredve még nem nyomasztanak bennünket
-            a benyomások, amelyek a nehéz munkanap során értek minket. Az elme
+            legmegfelelőbb, azaz a napfelkelte előtti másfél óra, vagy ehhez
+            minél közelebbi időpont. Ekkor a levegő friss, a környezet csendes,
+            frissen, kipihenten ébredve még nem nyomasztanak bennünket a
+            benyomások, amelyek a nehéz munkanap során értek minket. Az elme
             könnyebben tud fókuszálni és kevésbé kalandozik el. A test tiszta, a
             gyomor üres, tehát a körülmények ideálisak a gyakorláshoz. Kezdetben
             a test kevésbé hajlékonynak tűnhet a reggeli órákban, de gyorsan
@@ -191,28 +191,29 @@ export default function Mysoreprogram() {
         <br />
         <div className="row">
           <p>
-            Ehhez a hagyományos Mysore-i oktatási módszerhez az is
-            hozzátartozik, hogy mindenki rendszeresen gyakorol a cél a heti
-            hatszori gyakorlás, de a legtöbb gyakorló ezt csak fokozatosan éri
+            Ehhez a hagyományos mysore-i oktatási módszerhez az is
+            hozzátartozik, hogy mindenki rendszeresen gyakorol, a cél a heti
+            hatszori gyakorlás; de a legtöbb gyakorló ezt csak fokozatosan éri
             el, vagy kevesebbszer gyakorol. A szombatok, illetve a teli- és az
-            újhold, azaz{" "}
+            újhold, azaz a{" "}
             <CustomLink
               link="/holdnapok/"
               title="holdnapok"
               classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
             />{" "}
-            pihenőnapok, hölgyeknél a menstruáció első három-öt napja is az. Ez
-            elsőre igen nagy kihívásnak tűnik, de természetesen a jógában is a
-            fokozatosság fontos eleme a zavartalan fejlődésnek. A tanár figyeli
-            a gyakorlók előrehaladását, és ha a tanítvány készen áll, akkor
-            újabb ászanákat kap, amelyeket hozzá kell fűznie a többihez.
+            pihenőnapok, valamint a hölgyeknél a menstruáció első három-öt
+            napja. Ez elsőre igen nagy kihívásnak tűnik, de természetesen a
+            jógában is a fokozatosság fontos eleme a zavartalan fejlődésnek. A
+            tanár figyeli a gyakorlók előrehaladását, és ha a tanítvány készen
+            áll, akkor újabb ászanákat kap, amelyeket hozzá kell fűznie a
+            többihez.
           </p>
         </div>
         <br />
         <div className="framed-section mt-20px">
           <div className="framed-section-orange__inside">
             <div className="framed-section-orange-title text-align-center mb-20px">
-              <h3>A Mysore program felépítése</h3>
+              <h3>A Mysore-program felépítése, elemei</h3>
             </div>
             <div className="framed-section-orange__body">
               <div className="framed-section-orange__card text-align-center">
@@ -269,10 +270,10 @@ export default function Mysoreprogram() {
               </h3>
               <p>
                 A gyakorlás során a gyakorlók az oktató aktív részvételével, a
-                befektetett energia, lelkesedés és a hozott csomagok
+                befektetett energia, lelkesedés és a "hozott csomagok"
                 függvényében fejlődnek. Fokozatosan építik fel a gyakorlásukat.
                 Lesznek olyan időszakok, amikor gyorsabban fejlődnek és lehet,
-                hogy lesz olyan amikor lassabban.
+                hogy lesz olyan, amikor lassabban.
               </p>
             </div>
           </div>
@@ -282,10 +283,10 @@ export default function Mysoreprogram() {
                 Önállóság
               </h3>
               <p>
-                A Mysore stílus lehetővé teszi a gyakorlóknak, hogy megtanulják
-                önállóan gyakorolni. Ez fontos készség, amely segíthet a
-                gyakorlónak abban, hogy hosszú távon fenntartsák a jóga
-                gyakorlását (ha pl. nincs a közelükbe a tanáruk).
+                A Mysore-stílus lehetővé teszi a gyakorlóknak, hogy megtanulják
+                önállóan gyakorolni a sorozatot. Ez fontos készség, amely
+                segíthet a gyakorlóknak abban, hogy hosszú távon fenntartsák a
+                jóga gyakorlását (ha pl. nincs a közelükben a tanáruk).
               </p>
             </div>
           </div>
@@ -311,7 +312,7 @@ export default function Mysoreprogram() {
           <div className="col-12-xs text-align-center mb-20px">
             <Counter tag="h3" className="" />
           </div>
-          <p>Magyarország legrégebbi astanga mysore programja</p>
+          <p>Magyarország legrégebbi astanga Mysore-programja</p>
           <p>Paramaguru Sharath Jois áldásával</p>
         </div>
         <br />
@@ -322,8 +323,8 @@ export default function Mysoreprogram() {
             képes kifejteni teljesen az áldásos hatását. Amellett, hogy a
             gyakorlás fenntartásához automatikusan egészségesebb életmódra
             váltanak a gyakorlók (könnyű étkezések, korai fekvés és kelés,
-            rendszeres életritmus), az elme is fokozatosan átalakul. A Mysore
-            gyakorlás szinte rákényszerít minket, hogy őszinték legyünk
+            rendszeres életritmus), az elme is fokozatosan átalakul. A
+            Mysore-gyakorlás szinte rákényszerít minket, hogy őszinték legyünk
             önmagunkkal, szembesít a hibáinkkal, amelyek akadályt képeznek a
             spirituális úton, és eszközként szolgál a leküzdésükhöz.
           </p>
@@ -332,7 +333,7 @@ export default function Mysoreprogram() {
         <div className="island-section">
           <h3 className="mb-20px font-family-primary clr-brand-orange">
             {" "}
-            A Mysore program vezetője
+            A Mysore-program vezetője
           </h3>
           <p>
             <strong>
@@ -359,7 +360,7 @@ export default function Mysoreprogram() {
         </div>
         <br />
         <div className="row unordered-list-style">
-          <h3>Hasznos olvasmányok a Mysore gyakorlásról:</h3>
+          <h3>Hasznos olvasmányok a Mysore-gyakorlásról:</h3>
           <ul>
             {hasznosOlvasmanyok.map((link, index) => (
               <li key={index}>

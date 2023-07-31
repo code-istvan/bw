@@ -84,10 +84,10 @@ export default function Elsoalkalom() {
             Ha először jársz nálunk, érkezz legalább 15 perccel órakezdés előtt,
             hogy legyen elég idő a regisztrációra (tanfolyami részvétel esetén
             nincs szükség regisztrációra). A regisztrációs űrlap kitöltése után
-            rövid elbeszélgetés következik az oktatóval (egyelőre csak a Mysore
-            programosokkal) a hatékony együttműködés érdekében. Ekkor mindenképp
-            jelezd, ha bármilyen különös odafigyelést igénylő állapotban vagy
-            (például: sérülés, betegség, terhesség).
+            rövid elbeszélgetés következik az oktatóval (egyelőre csak a
+            Mysore-programosokkal) a hatékony együttműködés érdekében. Ekkor
+            mindenképp jelezd, ha bármilyen különös odafigyelést igénylő
+            állapotban vagy (például: sérülés, betegség, terhesség).
           </p>
         </div>
         <div className="row mb-20px">
