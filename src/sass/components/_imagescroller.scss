@@ -3,20 +3,35 @@
 .horizontal-scroller {
   width: 100%;
   display: flex;
-  overflow-x: auto;
+  flex-direction: column;
+  align-items: center;
   scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  overflow: hidden;
+}
+
+.image-wrapper::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  -ms-overflow-style: none;
+}
+
+.image-wrapper {
   scrollbar-width: none;
 }
 
-.horizontal-scroller::-webkit-scrollbar {
-  display: none;
+.horizontal-scroller > .image-wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 12px;
 }
 
 .image-container {
   flex: 0 0 auto;
-  width: 80vw;
+  width: 100%;
   scroll-snap-align: start;
-  position: relative;
+  // position: relative;
 }
 
 .image-container img {
@@ -26,22 +41,23 @@
 }
 
 .dot-navigation {
-  position: absolute;
-  left: 50%;
+  // position: absolute;
+  // left: 50%;
   transform: translateX(-50%);
   display: flex;
+  justify-content: center;
   gap: 10px;
-  margin-top: 380px;
+  margin-top: 12px;
 }
 
 .dot {
   width: 10px;
   height: 10px;
-  background: red;
+  background: $color-shades-darkGray;
   border-radius: 50%;
   cursor: pointer;
 }
 
 .dot.active {
-  background: white;
+  background: $color-brand-orange;
 }
