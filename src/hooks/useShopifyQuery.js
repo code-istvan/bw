@@ -24,6 +24,18 @@ export const useShopify = () => {
                   }
                 }
               }
+              media {
+                ... on ShopifyMediaImage {
+                  id
+                  image {
+                    localFile {
+                      childImageSharp {
+                        gatsbyImageData
+                      }
+                    }
+                  }
+                }
+              }
               priceRangeV2 {
                 maxVariantPrice {
                   amount
