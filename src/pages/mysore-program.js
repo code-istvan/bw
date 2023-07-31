@@ -144,9 +144,9 @@ export default function Mysoreprogram() {
             />
           </div>
         </div>
-        {/* <div className="row">
+        <div className="row">
           <ImageScroller images={images} />
-        </div> */}
+        </div>
         <br />
         <div className="row">
           <p>

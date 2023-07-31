@@ -45,15 +45,17 @@ const ImageScroller = ({ images }) => {
 
   return (
     <div className="horizontal-scroller" ref={containerRef}>
-      {images.map((image, index) => (
-        <div
-          key={index}
-          className="image-container"
-          ref={el => (imageRefs.current[index] = el)}
-        >
-          <img src={image.src} alt={image.alt} />
-        </div>
-      ))}
+      <div className="image-wrapper">
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className="image-container"
+            ref={el => (imageRefs.current[index] = el)}
+          >
+            <img src={image.src} alt={image.alt} />
+          </div>
+        ))}
+      </div>
       <div className="dot-navigation">{dots}</div>
     </div>
   )
