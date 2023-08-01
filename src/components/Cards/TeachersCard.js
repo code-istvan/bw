@@ -8,7 +8,7 @@ const TeachersCard = ({ teacherName, teacherImg, yogaStyle, title, slug }) => {
   return (
     <div className="teacher-card">
       <div className="teacher-card__card-body">
-        <div className="teacher-card__avatar">
+        <div>
           <GatsbyImage
             image={teacherImg}
             alt={teacherName}

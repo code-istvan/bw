@@ -3,18 +3,66 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { CustomLink } from "../components/CustomLink"
+import { Link } from "gatsby"
 import Icons from "../components/Icons/Icons"
 import Counter from "../components/Counter"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
 import mysoreFaq from "../data/mysoreFaq.json"
-import ImageScroller from "../components/ImageScroller"
+// import ImageScroller from "../components/ImageScroller"
 import "../sass/pages/_mysoreprogram.scss"
 
-import image1 from "../images/Mysore_program_1.jpg"
-import image2 from "../images/Mysore_program_2.jpg"
-import image3 from "../images/Mysore_program_7.jpeg"
-
 export default function Mysoreprogram() {
+  const mysoreElements = [
+    {
+      icon: <Icons.Mysore color="orange" />,
+      title: "MYSORE GYAKORLÁS",
+      description: "heti 5x",
+    },
+    {
+      icon: <Icons.LedClass color="orange" />,
+      title: "VEZETETT ÓRA",
+      description: "heti 1x",
+    },
+    {
+      icon: <Icons.Conference color="orange" />,
+      title: "KONFERENCIA",
+      description: "havi 1x",
+    },
+    {
+      icon: <Icons.MoonDays color="orange" />,
+      title: "PIHENŐNAP",
+      description: "szombat és a holdnapok",
+    },
+    {
+      icon: <Icons.Restday color="orange" />,
+      title: "EGYÉNI KONZULTÁCIÓ",
+      description: "havi 1x",
+    },
+  ]
+
+  const mysoreSpecialities = [
+    {
+      title: "Személyes figyelem",
+      description:
+        "Mivel mindenki a saját tempójában gyakorol, az oktatónak van ideje minden egyes gyakorlóval egyénileg foglalkozni. Ez lehetővé teszi, hogy a gyakorlók specifikus, személyre szabott útmutatást kapjanak.",
+    },
+    {
+      title: "Egyéni fejlődés",
+      description:
+        'A gyakorlás során a gyakorlók az oktató aktív részvételével, a befektetett energia, lelkesedés és a "hozott csomagok" függvényében fejlődnek. Fokozatosan építik fel a gyakorlásukat. Lesznek olyan időszakok, amikor gyorsabban fejlődnek és lehet, hogy lesz olyan, amikor lassabban.',
+    },
+    {
+      title: "Önállóság",
+      description:
+        "A Mysore-stílus lehetővé teszi a gyakorlóknak, hogy megtanulják önállóan gyakorolni a sorozatot. Ez fontos készség, amely segíthet a gyakorlóknak abban, hogy hosszú távon fenntartsák a jóga gyakorlását (ha pl. nincs a közelükben a tanáruk).",
+    },
+    {
+      title: "Meditáció",
+      description:
+        "Az önálló gyakorlás, a légzés és a mozdulatok pontos összehangolása komoly koncentrációt igényel a gyakorlóktól. A hosszan fenntartott, megszakítás nélküli koncentráció meditatív állapothoz vezethet.",
+    },
+  ]
+
   const hasznosOlvasmanyok = [
     {
       link: "/blog/5-dolog-amit-az-uj-gyakorloknak-erdemes-megtanulnia/",
@@ -29,12 +77,6 @@ export default function Mysoreprogram() {
       classNames:
         "body link-decoration-remove clr-brand-orange schedule-teacher",
     },
-  ]
-
-  const images = [
-    { src: image1, alt: "Alt text 1" },
-    { src: image2, alt: "Alt text 2" },
-    { src: image3, alt: "Alt text 3" },
   ]
 
   return (
@@ -216,93 +258,33 @@ export default function Mysoreprogram() {
               <h3>A Mysore-program felépítése, elemei</h3>
             </div>
             <div className="framed-section-orange__body">
-              <div className="framed-section-orange__card text-align-center">
-                <Icons.Mysore color="orange" />
-                <h4 className="framed-section-orange-title--h4">
-                  MYSORE GYAKORLÁS
-                </h4>
-                <p>heti 5x</p>
-              </div>
-              <div className="framed-section-orange__card text-align-center">
-                <Icons.LedClass color="orange" />
-                <h4 className="framed-section-orange-title--h4">
-                  VEZETETT ÓRA
-                </h4>
-                <p>heti 1x</p>
-              </div>
-              <div className="framed-section-orange__card text-align-center">
-                <Icons.Conference color="orange" />
-                <h4 className="framed-section-orange-title--h4">KONFERENCIA</h4>
-                <p>havi 1x</p>
-              </div>
-              <div className="framed-section-orange__card text-align-center">
-                <Icons.Restday color="orange" />
-                <h4 className="framed-section-orange-title--h4">PIHENŐNYAP</h4>
-                <p>szombat</p>
-              </div>
-              <div className="framed-section-orange__card text-align-center">
-                <Icons.Conference color="orange" />
-                <h4 className="framed-section-orange-title--h4">HOLDNAPOK</h4>
-                <p>havi 2x</p>
-              </div>
+              {mysoreElements.map((card, index) => (
+                <div
+                  className="framed-section-orange__card text-align-center"
+                  key={index}
+                >
+                  {card.icon}
+                  <h4 className="framed-section-orange-title--h4">
+                    {card.title}
+                  </h4>
+                  <p>{card.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
         <br />
         <div className="row gap-1">
-          <div className="col-12-xs col-6-md col-6-xl">
-            <div className="card__mysore-program">
-              <h3 className="clr-brand-orange font-family-primary mb-20px">
-                Személyes figyelem
-              </h3>
-              <p>
-                Mivel mindenki a saját tempójában gyakorol, az oktatónak van
-                ideje minden egyes gyakorlóval egyénileg foglalkozni. Ez
-                lehetővé teszi, hogy a gyakorlók specifikus, személyre szabott
-                útmutatást kapjanak.
-              </p>
+          {mysoreSpecialities.map((program, index) => (
+            <div className="col-12-xs col-6-md col-6-xl" key={index}>
+              <div className="card__mysore-program">
+                <h3 className="clr-brand-orange font-family-primary mb-20px">
+                  {program.title}
+                </h3>
+                <p>{program.description}</p>
+              </div>
             </div>
-          </div>
-          <div className="col-12-xs col-6-md col-6-xl">
-            <div className="card__mysore-program">
-              <h3 className="clr-brand-orange font-family-primary mb-20px">
-                Egyéni fejlődés
-              </h3>
-              <p>
-                A gyakorlás során a gyakorlók az oktató aktív részvételével, a
-                befektetett energia, lelkesedés és a "hozott csomagok"
-                függvényében fejlődnek. Fokozatosan építik fel a gyakorlásukat.
-                Lesznek olyan időszakok, amikor gyorsabban fejlődnek és lehet,
-                hogy lesz olyan, amikor lassabban.
-              </p>
-            </div>
-          </div>
-          <div className="col-12-xs col-6-md col-6-xl">
-            <div className="card__mysore-program">
-              <h3 className="clr-brand-orange font-family-primary mb-20px">
-                Önállóság
-              </h3>
-              <p>
-                A Mysore-stílus lehetővé teszi a gyakorlóknak, hogy megtanulják
-                önállóan gyakorolni a sorozatot. Ez fontos készség, amely
-                segíthet a gyakorlóknak abban, hogy hosszú távon fenntartsák a
-                jóga gyakorlását (ha pl. nincs a közelükben a tanáruk).
-              </p>
-            </div>
-          </div>
-          <div className="col-12-xs col-6-md col-6-xl">
-            <div className="card__mysore-program">
-              <h3 className="clr-brand-orange font-family-primary mb-20px">
-                Meditáció
-              </h3>
-              <p>
-                Az önálló gyakorlás, a légzés és a mozdulatok pontos
-                összehangolása komoly koncentrációt igényel a gyakorlóktól. A
-                hosszan fenntartott, megszakítás nélküli koncentráció meditatív
-                állapothoz vezethet.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
         <br />
         <div className="island-section text-align-center island-section--orange-border">
@@ -330,23 +312,45 @@ export default function Mysoreprogram() {
           </p>
         </div>
         <br />
+
         <div className="island-section">
           <h3 className="mb-20px font-family-primary clr-brand-orange">
             {" "}
             A Mysore-program vezetője
           </h3>
-          <p>
-            <strong>
-              {" "}
-              <CustomLink
-                link="/vinyasza-jogairanyzatok/"
-                title="Szalai István"
-                classNames="header header--3 link-decoration-remove schedule-teacher"
-              />{" "}
-            </strong>
-            KPJAYI Authorized Level 1 oktató
-          </p>
+          <div className="mysore-program-avatar">
+            <div className="mysore-program-avatar__image-container">
+              <Link
+                className="dropdown-item clr-shades-white"
+                to="/szalai-istvan/"
+              >
+                <StaticImage
+                  className="avatar__image avatar__image--medium zindex-1"
+                  src="../images/istvan.png"
+                  layout="fullWidth"
+                  loading="eager"
+                  quality={95}
+                  formats={["AUTO", "WEBP", "AVIF"]}
+                  alt="Szalai István"
+                  placeholder="blurred"
+                />{" "}
+              </Link>
+            </div>
+            <p>
+              <strong>
+                {" "}
+                <CustomLink
+                  link="/szalai-istvan/"
+                  title="Szalai István"
+                  classNames="header header--3 link-decoration-remove schedule-teacher"
+                />{" "}
+              </strong>
+              <br />
+              <small>KPJAYI Authorized Level 1 oktató</small>
+            </p>
+          </div>
         </div>
+
         <div className="row">
           <div className="mb-20px mt-20px">
             <h3>Gyakran ismételt kérdések</h3>

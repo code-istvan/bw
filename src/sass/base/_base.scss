@@ -375,3 +375,29 @@ blockquote {
 .font-family-primary {
   font-family: $font-family-primary;
 }
+
+.avatar__image {
+  border-radius: 50%;
+}
+
+.avatar__image--small {
+  height: 28px;
+  width: 28px;
+  border: solid 2px $color-shades-darkGray;
+}
+
+.avatar__image--medium {
+  height: 56px;
+  width: 56px;
+  border: solid 2px $color-shades-gray;
+}
+
+.avatar__image--big {
+  height: 108px;
+  width: 108px;
+  border: solid 3px $color-shades-darkGray;
+}
+
+.zindex-1 {
+  z-index: 1;
+}
