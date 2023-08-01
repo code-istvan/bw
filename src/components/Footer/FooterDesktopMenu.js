@@ -9,11 +9,11 @@ const FooterDesktopMenu = () => {
   const menuItemsJogaorak = [
     { link: "/orarend", label: "Órarend" },
     { link: "/arak", label: "Árak" },
-    { link: "/mysore-program", label: "Mysore program" },
+    { link: "/mysore-program", label: "Mysore-program" },
     { link: "/tanfolyam", label: "Tanfolyamok" },
-    { link: "/oktatok", label: "Oktatók" },
+    { link: "/csapatunk", label: "Csapatunk" },
     { link: "/vinyasza-jogairanyzatok", label: "Jógairányzatok" },
-    { link: "/sorozatabrak", label: "Sorozatábrák" },
+    { link: "/letoltesek", label: "Letöltések" },
     { link: "/galeria", label: "Galéria", extraClass: "" },
   ]
 

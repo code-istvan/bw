@@ -214,6 +214,43 @@ export default function AdatvedelmiTajekoztato() {
               feliratkozással ad meg az Adatkezelő számára [GDPR 6. Cikk (1)
               bekezdés a) pont szerinti adatkezelés]
             </p>
+
+            <h3 className="mt-20px">
+              4. Mysore-programra történő on-line jelentkezéssel kapcsolatos
+              adatkezelés
+            </h3>
+            <p className="mt-20px">
+              Az Adatkezelő a Honlapon a „Mysore-program” menüpont alatt on-line
+              módon történő jelentkezést tesz lehetővé, amelynek során az
+              érintett a programban való részvételhez szükséges személyes
+              adatait (név, születési idő, e-mail cím, telefonszám,
+              jógagyakorlással kapcsolatos adatait) adja meg. Az adatok
+              rögzítése elektronikusan történik oly módon, hogy az erre szolgáló
+              űrlapot a jelentkező kitölti, a checkbox kipipálásával elfogadja
+              az Adatvédelmi tájékoztatót és egyúttal hozzájárulását adja ahhoz,
+              hogy az Adatkezelő a megadott adatait kapcsolatfelvétel, üzenet
+              küldése, valamint a Mysore-programban való részvétel céljából
+              kezelje; majd a küldés gombra kattint.
+            </p>
+            <p className="mt-20px">
+              <strong>Kezelt adatok</strong>
+              <br />
+              Az Ön által a jelentkezés során megadott adatok (név, születési
+              idő, e-mail cím, telefonszám, jógagyakorlással kapcsolatos adatok)
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés időtartama</strong>
+              <br />
+              Az adatokat a Mysore-programban való részvétel ideje alatt,
+              illetőleg az érintett hozzájárulásának visszavonásáig kezeljük.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés jogalapja</strong>
+              <br />
+              Az Ön önkéntes hozzájárulása, amit a jelentkezéssel ad meg
+              Adatkezelő számára. [GDPR 6. Cikk (1) bekezdés a) pont szerinti
+              adatkezelés]
+            </p>
             <h1 className="mt-20px">
               II. A webshopra vonatkozó adatkezelés (A szerződéskötés és a
               teljesítés érdekében kezelt adatok)
