@@ -76,12 +76,13 @@ export default function Osztondij() {
             az esetlegesen felvetődő akadályok megoldásában.
           </p>
           <p className="mb-20px">
-            Az ösztöndíj időszaka: 2024. január 1. – 2024. március 31.
+            <strong>Az ösztöndíj időszaka:</strong> 2024. január 1. – 2024.
+            március 31.
           </p>
           <p className="mb-20px">
-            Az online jelentkezési lap: 2023. december 7. 12:00-tól, december
-            10. 12:00-ig lesz elérhető. A második forduló: 2023. december 17-én
-            vasárnap, 16:00 órától kerül megrendezésre.
+            <strong>Az online jelentkezési lap: </strong>2023. december 7.
+            12:00-tól, december 10. 12:00-ig lesz elérhető. A második forduló:
+            2023. december 17-én vasárnap, 16:00 órától kerül megrendezésre.
           </p>
           <p className="mb-20px">Várjuk jelentkezésedet!</p>
         </div>
