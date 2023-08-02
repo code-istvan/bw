@@ -46,7 +46,7 @@ export default function Osztondij() {
           <blockquote>
             A tudat stabilitásának szilárd alapja a hosszú időn keresztül,
             megszakítás nélkül végzett gondos gyakorlás.
-            <br />- Patandzsali jóga szútrák I.14
+            <br />- Patandzsali Jóga Szútrák I.14
           </blockquote>
           <p className="mb-20px">
             Jógagyakorlásod minél hatékonyabbá tételében – a reggeli
