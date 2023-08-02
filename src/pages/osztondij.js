@@ -49,27 +49,41 @@ export default function Osztondij() {
             <br />- Patanjali jóga szútrák I.14
           </blockquote>
           <p className="mb-20px">
-            Jógagyakorlásod minél hatékonyabbá tételében – az órarendi órák
-            látogatása mellett – intenzív, személyes segítséget nyújtanak
-            oktatóink. A jelentkezők vállalják, hogy minimum heti háromszor
-            részt vesznek az órarendi órákon – az előre közösen meghatározott
-            időpontokban – és havi rendszerességgel elkészítenek egy beadandó
-            esszét egy meghatározott témában.
+            Jógagyakorlásod minél hatékonyabbá tételében – a reggeli
+            Mysore-program látogatása mellett – intenzív, személyes segítséget
+            nyújtanak oktatóink. A jelentkezők vállalják, hogy minimum heti
+            háromszor részt vesznek a Mysore-program óráin – az előre közösen
+            meghatározott időpontokban – és havi rendszerességgel elkészítenek
+            egy beadandó esszét egy meghatározott témában. Amennyiben kezdő
+            astanga gyakorló vagy, az első hónapban, a kezdő tanfolyamon
+            biztosítunk helyet számodra. A második hónapban a Mysore-kurzussal
+            készítünk fel az astanga jóga egyéni gyakorlására. A harmadik
+            hónapban pedig már a reggeli Mysore-órákon tudsz résztvenni.
           </p>
           <p className="mb-20px">
-            Az ösztöndíj igényléséhez ki kell tölteni a jelentkezési űrlapot,
-            valamint mellékelni kell motivációs levelet (egy A4-es oldal, Times
-            New Roman 12-es betűtípus, 1,5-ös sorköz), amelyben a pályázó
-            leírja, hogy mit adna számára ez a lehetőség, hogyan segítene
-            elmélyíteni vagy elindítani a jóga gyakorlását és melyek azok a
-            szempontok, amelyek nehézséget okoznak a bérlet vásárlásában. A
-            második körben személyes elbeszélgetésre hívjuk be a kiválasztott
-            felvételizőket, és kiválasztjuk a nyertest. A nyertes pályázó három
-            hónapig korlátlanul látogathatja a Bandha Works jógastúdió óráit,
-            emellett minden hónapban egy magánórán vehet részt, ahol segítséget
-            kap a felvetődő problémák megoldásában és a gyakorlás
-            elmélyítésében.
+            Az ösztöndíj igényléséhez ki kell tölteni az online jelentkezési
+            űrlapot. Ehhez kell majd csatolnod egy motivációs levelet (egy A4-es
+            oldal, Times New Roman 12-es betűtípus, 1,5-ös sorköz, minimum 1
+            oldal, max. 3), amelyben a pályázó leírja, hogy mit adna számára ez
+            a lehetőség, hogyan segítene elmélyíteni vagy elindítani a jóga
+            gyakorlását és melyek azok a szempontok, amelyek nehézséget okoznak
+            a bérlet vásárlásában. Amennyiben bejutottál a második körben egy
+            személyes beszélgetésre hívjuk meg ahol is kiválasztjuk a nyertest.
+            A nyertes pályázó három hónapig korlátlanul látogathatja a Bandha
+            Works jógastúdió óráit, a fenti menetrend szerint, illetve minden
+            hónapban egy egyéni konzultációs alkalmon vehet részt, ahol
+            segítséget kap a gyakorlás elmélyítésében ill. az esetleg felvetődő
+            problémák megoldásában és.
           </p>
+          <p className="mb-20px">
+            Az ösztöndíj időszaka: 2024. január 1. – 2024. március 31.
+          </p>
+          <p className="mb-20px">
+            Az online jelentkezési lap: 2023. december 7. 12:00-tól, december
+            10. 12:00-ig lesz elérhető. A második forduló: 2023. december 17-én
+            vasárnap, 16:00 órától kerül megrendezésre.
+          </p>
+          <p className="mb-20px">Várjuk jelentkezésedet!</p>
         </div>
       </div>
     </Layout>
