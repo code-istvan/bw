@@ -24,7 +24,7 @@ export default function Mysoreprogram() {
       description: "heti 1x",
     },
     {
-      icon: <Icons.Conference color="orange" />,
+      icon: <Icons.Restday color="orange" />,
       title: "KONFERENCIA",
       description: "havi 1x",
     },
@@ -34,9 +34,9 @@ export default function Mysoreprogram() {
       description: "szombat és a holdnapok",
     },
     {
-      icon: <Icons.Restday color="orange" />,
-      title: "EGYÉNI KONZULTÁCIÓ",
-      description: "havi 1x",
+      icon: <Icons.Conference color="orange" />,
+      title: "JÓGÁS KÖZÖSSÉG",
+      description: "24/7",
     },
   ]
 
