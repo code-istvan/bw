@@ -32,8 +32,15 @@ export default function Messagesent() {
           />
         </div>
       </div>
-      <div className="row">
-        <h1>valami</h1>
+      <div className="row mt-40px">
+        <p>Az általad elküldött ürlap megérkezett szerverünkre!</p>
+        <p>
+          Amennyiben helyesen adtad meg az e-mail címed, hamarosan felvesszük
+          veled a kapcsolatot.
+        </p>
+        <p>
+          Munkanapokon általában 24-48 órán belűl válaszolunk a megkeresésekre!
+        </p>
       </div>
     </Layout>
   )
