@@ -12,7 +12,7 @@ export default function AstangaKezdoTanfolyam() {
           <h1 className="page-hero-title">ASTANGA KEZDŐ TANFOLYAM</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/astanga-kezdo-tanfolyam.jpeg"
+            src="../images/astanga-kezdo-tanfolyam-desktop.jpeg"
             layout="fullWidth"
             loading="eager"
             quality={95}
