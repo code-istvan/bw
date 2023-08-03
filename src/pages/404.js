@@ -35,10 +35,12 @@ const NotFoundPage = () => (
     </div>
 
     <div className="row">
-      <h3 className="mt-40px mb-20px">
+      <p className="mt-40px mb-20px">
         A keresett oldal nem létezik, vagy eltávolításra került.
-      </h3>
-      <br />
+      </p>
+    </div>
+
+    <div className="row">
       <Button
         type="button"
         buttonStyle="btn--small--outline"
