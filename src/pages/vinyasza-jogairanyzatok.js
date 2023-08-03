@@ -290,34 +290,54 @@ export default function Vinyasza() {
             A jógászanák megvalósításával kapcsolatos feltételek Patandzsali
             Jóga Szútrák című műve alapján a következők:
           </p>
-          <div className="unordered-list-style">
-            <ul>
-              {[
-                {
-                  title: "Stabilitás (szthira)",
-                  description:
-                    "- ahhoz, hogy egy testhelyzetet jógászanának nevezhessünk, gyakorlóját képessé kell tennie arra, hogy stabil maradjon, legyen szó akár egyszerű állóhelyzetről (tádászana) akár fejállásról (sírsászana).",
-                },
-                {
-                  title: "Kényelem (szukha)",
-                  description:
-                    "- az elmét a légzésre összpontosítjuk, ezzel biztosítjuk, hogy rendkívül örömteli és ellazult állapotban maradjunk a gyakorlás során.",
-                },
-                {
-                  title: "Egyenletes és lassú légzés (prajatna szithila)",
-                  description:
-                    "-  ezt a módszert Patandzsali a gyakorlás megkönnyítése érdekében javasolja. A prajatna (törekvés, erőfeszítés) itt a dzsívána prajatnára (élni akarásra) vonatkozik, amely itt nem más, mint maga a lélegzés. Ez a feltétel megszabja, hogy a gyakorlás alatt a légzésnek egyenletesnek és lassúnak kell maradnia. Ezért, amikor helyesen jógázunk, nem szabad erősen zihálnunk. Az aerob sportokkal ellentétben (amelyeknek szintén megvan a maga haszna) sem a légzés sebessége, sem a pulzusszám nem emelkedhet. A normál légzés sebessége 15-20 légzés percenként. Mivel a mozdulatok lassúak a vinyásza jógában, ezért a légzés sebességét is csökkenteni kell. Ideális esetben egy perc alatt legfeljebb ötször, hatszor lélegzünk.",
-                },
-              ].map((item, index) => (
-                <li key={index}>
-                  <p>
-                    <strong>{item.title}</strong> {item.description}
-                  </p>
-                </li>
-              ))}
-            </ul>
+
+          <div className="row mt-20px gap-1">
+            <div className="col-12-xs col-6-md col-6-xl">
+              <div>
+                <h3 className="clr-brand-orange font-family-primary mb-20px">
+                  Stabilitás (szthira)
+                </h3>
+                <p>
+                  Ahhoz, hogy egy testhelyzetet jógászanának nevezhessünk,
+                  gyakorlóját képessé kell tennie arra, hogy stabil maradjon,
+                  legyen szó akár egyszerű állóhelyzetről akár fejállásról.
+                </p>
+              </div>
+            </div>
+            <div className="col-12-xs col-6-md col-6-xl">
+              <div>
+                <h3 className="clr-brand-orange font-family-primary mb-20px">
+                  Kényelem (szukha)
+                </h3>
+                <p>
+                  Az elmét a légzésre összpontosítjuk, ezzel biztosítjuk, hogy
+                  rendkívül örömteli és ellazult állapotban maradjunk a
+                  gyakorlás során.
+                </p>
+              </div>
+            </div>
           </div>
-          <br />
+          <div className="row mt-20px">
+            <div>
+              <h3 className="clr-brand-orange font-family-primary mb-20px">
+                Egyenletes és lassú légzés (prajatna szithila)
+              </h3>
+              <p>
+                Ezt a módszert Patandzsali a gyakorlás megkönnyítése érdekében
+                javasolja. A prajatna (törekvés, erőfeszítés) itt a dzsívána
+                prajatnára (élni akarásra) vonatkozik, amely itt nem más, mint
+                maga a lélegzés. Ez a feltétel megszabja, hogy a gyakorlás alatt
+                a légzésnek egyenletesnek és lassúnak kell maradnia. Ezért,
+                amikor helyesen jógázunk, nem szabad erősen zihálnunk. Az aerob
+                sportokkal ellentétben (amelyeknek szintén megvan a maga haszna)
+                sem a légzés sebessége, sem a pulzusszám nem emelkedhet. A
+                normál légzés sebessége 15-20 légzés percenként. Mivel a
+                mozdulatok lassúak a vinyásza jógában, ezért a légzés sebességét
+                is csökkenteni kell. Ideális esetben egy perc alatt legfeljebb
+                ötször, hatszor lélegzünk.
+              </p>
+            </div>
+          </div>
           <StaticImage
             className="mt-20px mb-40px"
             src="../images/Krishnamacharya_teaching.jpg"

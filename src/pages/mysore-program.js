@@ -35,7 +35,7 @@ export default function Mysoreprogram() {
     },
     {
       icon: <Icons.Conference color="orange" />,
-      title: "JÓGÁS KÖZÖSSÉG",
+      title: "ASTANGÁS KÖZÖSSÉG",
       description: "24/7",
     },
   ]

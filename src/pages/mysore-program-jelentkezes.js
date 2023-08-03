@@ -2,83 +2,16 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import InputField from "../components/InputField"
+import TextArea from "../components/TextArea"
+import Button from "../components/Buttons/Button"
 import { CustomLink } from "../components/CustomLink"
 import { Link } from "gatsby"
 import Icons from "../components/Icons/Icons"
 import Counter from "../components/Counter"
-import AccordionFaq from "../components/Accordions/AccordionFaq"
-import mysoreFaq from "../data/mysoreFaq.json"
-// import ImageScroller from "../components/ImageScroller"
-import "../sass/pages/_mysoreprogram.scss"
+import "../sass/pages/_mysoreprogramjelentkezes.scss"
 
-export default function Mysoreprogram() {
-  const mysoreElements = [
-    {
-      icon: <Icons.Mysore color="orange" />,
-      title: "MYSORE GYAKORLÁS",
-      description: "heti 5x",
-    },
-    {
-      icon: <Icons.LedClass color="orange" />,
-      title: "VEZETETT ÓRA",
-      description: "heti 1x",
-    },
-    {
-      icon: <Icons.Conference color="orange" />,
-      title: "KONFERENCIA",
-      description: "havi 1x",
-    },
-    {
-      icon: <Icons.MoonDays color="orange" />,
-      title: "PIHENŐNAP",
-      description: "szombat és a holdnapok",
-    },
-    {
-      icon: <Icons.Restday color="orange" />,
-      title: "EGYÉNI KONZULTÁCIÓ",
-      description: "havi 1x",
-    },
-  ]
-
-  const mysoreSpecialities = [
-    {
-      title: "Személyes figyelem",
-      description:
-        "Mivel mindenki a saját tempójában gyakorol, az oktatónak van ideje minden egyes gyakorlóval egyénileg foglalkozni. Ez lehetővé teszi, hogy a gyakorlók specifikus, személyre szabott útmutatást kapjanak.",
-    },
-    {
-      title: "Egyéni fejlődés",
-      description:
-        'A gyakorlás során a gyakorlók az oktató aktív részvételével, a befektetett energia, lelkesedés és a "hozott csomagok" függvényében fejlődnek. Fokozatosan építik fel a gyakorlásukat. Lesznek olyan időszakok, amikor gyorsabban fejlődnek és lehet, hogy lesz olyan, amikor lassabban.',
-    },
-    {
-      title: "Önállóság",
-      description:
-        "A Mysore-stílus lehetővé teszi a gyakorlóknak, hogy megtanulják önállóan gyakorolni a sorozatot. Ez fontos készség, amely segíthet a gyakorlóknak abban, hogy hosszú távon fenntartsák a jóga gyakorlását (ha pl. nincs a közelükben a tanáruk).",
-    },
-    {
-      title: "Meditáció",
-      description:
-        "Az önálló gyakorlás, a légzés és a mozdulatok pontos összehangolása komoly koncentrációt igényel a gyakorlóktól. A hosszan fenntartott, megszakítás nélküli koncentráció meditatív állapothoz vezethet.",
-    },
-  ]
-
-  const hasznosOlvasmanyok = [
-    {
-      link: "/blog/5-dolog-amit-az-uj-gyakorloknak-erdemes-megtanulnia/",
-      title: "5 dolog amit az új gyakorlóknak érdemes megtanulnia",
-      classNames:
-        "body link-decoration-remove clr-brand-orange schedule-teacher",
-    },
-    {
-      link: "/blog/sharath-jois-arrol-hogy-miben-nyujt-tobbet-egy-helyi-shala-mint-egy-hagyomanyos-edzes/",
-      title:
-        "Sharath Jois arról, hogy miben nyújt többet egy helyi Shala mint egy hagyományos edzés",
-      classNames:
-        "body link-decoration-remove clr-brand-orange schedule-teacher",
-    },
-  ]
-
+export default function MysoreprogramJelentkezes() {
   return (
     <Layout>
       <Seo title="MYSORE PROGRAM" />
@@ -107,9 +40,74 @@ export default function Mysoreprogram() {
           />
         </div>
       </div>
-      <div className="mysore-program--wrapper">
+      <div className="mysore-program-jelentkezes--wrapper">
         <div className="mt-40px mb-20px">
           <h3>JELENTKEZÉSI LAP</h3>
+        </div>
+        <div className="col-12-xs col-6-md kapcsolat-uzenet">
+          <div className="row">
+            <h3 className="mb-20px">Üzenj nekünk</h3>
+          </div>
+          <form
+            name="mysore jelentkezes"
+            action="/message-sent"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact bandhaworks" />
+            <div hidden>
+              <input name="bot-field" />
+            </div>
+            <div className="row gap-five">
+              <div className="col-12-xs col-6-md">
+                <InputField
+                  type="text"
+                  name="name"
+                  placeholder="Név"
+                  required="required"
+                />
+              </div>
+              <div className="col-12-xs col-6-md">
+                <InputField
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required="required"
+                  className="form-control col-12-xs col-6-md mb-20px"
+                />
+              </div>
+            </div>
+            <div className="row massage-wrapper mb-2">
+              <TextArea
+                className="kapcsolat__textarea"
+                name="comments"
+                rows="4"
+                placeholder="Üzenet"
+                required
+              ></TextArea>
+            </div>
+            <div className="row">
+              <div className="col contact_checkbox">
+                <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
+                  <input type="checkbox" name="checkbox" required />
+                  <span>
+                    Megismertem és elfogadom az
+                    <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
+                    hozzájárulok nevem és e-mail címem kezeléséhez.
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-12-xs col-4-md mb-2 kapcsolat-button mt-20px">
+                <Button type="submit" buttonStyle="btn--secondary--solid">
+                  KÜLDÉS
+                </Button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </Layout>
