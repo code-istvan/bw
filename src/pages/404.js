@@ -1,6 +1,8 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
+import { navigate } from "gatsby"
+import Button from "../components/Buttons/Button"
 import Seo from "../components/seo"
 
 const NotFoundPage = () => (
@@ -33,8 +35,16 @@ const NotFoundPage = () => (
     </div>
 
     <div className="row">
-      <h1>valami</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <h3>A keresett oldal nem létezik, vagy eltávolításra került.</h3>
+      <Button
+        type="button"
+        buttonStyle="btn--small--outline"
+        onClick={() => {
+          navigate("/")
+        }}
+      >
+        Vissza a főoldalra
+      </Button>
     </div>
   </Layout>
 )
