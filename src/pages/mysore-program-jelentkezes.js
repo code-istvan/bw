@@ -50,7 +50,7 @@ export default function MysoreprogramJelentkezes() {
               <h3 className="mb-20px">Üzenj nekünk</h3>
             </div>
             <form
-              name="mysore jelentkezes"
+              name="mysore bandhaworks"
               action="/message-sent"
               method="post"
               data-netlify="true"
@@ -59,7 +59,7 @@ export default function MysoreprogramJelentkezes() {
               <input
                 type="hidden"
                 name="form-name"
-                value="mysore jelentkezes"
+                value="mysore bandhaworks"
               />
               <div hidden>
                 <input name="bot-field" />
