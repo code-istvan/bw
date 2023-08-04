@@ -51,7 +51,7 @@ export default function MysoreprogramJelentkezes() {
             </div>
             <form
               name="mysore bandhaworks"
-              action="/message-sent"
+              action="/mysore-application"
               method="post"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
