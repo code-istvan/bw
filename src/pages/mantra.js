@@ -37,7 +37,7 @@ export default function Mantra() {
       <div className="mantra-wrapper tight--desktop--container">
         <div className="row mt-40px mb-20px">
           <h3 className="mb-20px">
-            A <i>mantra</i> szanszkrit szó, a jelentése „túljutni az elmén”.
+            A <i>mantra</i> szanszkrit szó, a jelentése „túljutni az elmén”
           </h3>
 
           <p>
@@ -64,7 +64,7 @@ export default function Mantra() {
           </p>
         </div>
         <div className="row mb-20px">
-          <h3>Mantrák amiket énekelni szoktunk:</h3>
+          <h3>Mantrák amiket énekelni szoktunk</h3>
         </div>
 
         <div className="row">
