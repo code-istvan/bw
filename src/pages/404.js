@@ -9,7 +9,7 @@ const NotFoundPage = () => (
   <Layout>
     <Seo title="404: Not found" />
     <div className="page-hero-container">
-      <div className="row">
+      <div className="row tight--desktop--container">
         <h1 className="page-hero-title">404: NEM TALÁLOM!</h1>
         <StaticImage
           className="container-fluid page-hero-image page-big-image"
@@ -34,6 +34,7 @@ const NotFoundPage = () => (
       </div>
     </div>
 
+    <div className="404--wrapper tight--desktop--container"></div>
     <div className="row">
       <p className="mt-40px mb-20px">
         A keresett oldal nem létezik, vagy eltávolításra került.

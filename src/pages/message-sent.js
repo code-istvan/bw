@@ -54,7 +54,7 @@ export default function Messagesent() {
               rosszul adtad meg az e-mail címed!
             </p>
           </div>
-          <div className="row mt-20px">
+          <div className="row mt-40px">
             <Button
               type="button"
               buttonStyle="btn--small--outline"
