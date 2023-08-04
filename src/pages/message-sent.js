@@ -8,7 +8,7 @@ export default function Messagesent() {
     <Layout>
       <Seo title="ÜZENET ELKÜLDVE" />
       <div className="page-hero-container">
-        <div className="row">
+        <div className="row tight--desktop--container">
           <h1 className="page-hero-title">ÜZENET ELKÜLDVE</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
@@ -32,15 +32,27 @@ export default function Messagesent() {
           />
         </div>
       </div>
-      <div className="row mt-40px">
-        <p>Az általad elküldött ürlap megérkezett szerverünkre!</p>
-        <p>
-          Amennyiben helyesen adtad meg az e-mail címed, hamarosan felvesszük
-          veled a kapcsolatot.
-        </p>
-        <p>
-          Munkanapokon általában 24-48 órán belűl válaszolunk a megkeresésekre!
-        </p>
+      <div className="message-sent--wrapper tight--desktop--container">
+        <div className="row mt-40px">
+          <div className="col">
+            <h3 className="mb-20px">
+              Köszönjük, hogy felvetted velünk a kapcsolatot!
+            </h3>
+            <p>Az általad elküldött üzenet megérkezett szerverünkre!</p>
+            <p>
+              Adataidat bizalmasan kezeljük, és csak az üzeneted feldolgozása
+              céljából használjuk fel.
+            </p>
+            <p className="mt-20px">
+              Csapatunk az elkövetkező munkanapokon - általába 24-48 órán belül
+              - feldolgozza az üzeneted, hamarosan válaszolunk.
+            </p>
+            <p className="mt-20px">
+              Ha munkanapokon 48 órán belűl nem kapsz választ, akkor lehet, hogy
+              rosszul adtad meg az e-mail címed!
+            </p>
+          </div>
+        </div>
       </div>
     </Layout>
   )
