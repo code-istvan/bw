@@ -357,7 +357,7 @@ export default function Mysoreprogram() {
             type="button"
             buttonStyle="btn--primary--outline-full"
             onClick={() => {
-              navigate("/")
+              navigate("/mysore-program-jelentkezes")
             }}
           >
             Jelentkezés a Mysore-programba
