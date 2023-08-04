@@ -101,11 +101,29 @@ export default function MysoreprogramJelentkezes() {
                   />
                 </div>
               </div>
+              <div className="row">
+                <div className="col contact_checkbox">
+                  <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
+                    <input type="checkbox" name="kezdo" />
+                    <span>
+                      Teljesen kezdő vagyok, még nem gyakoroltam astanga jógát
+                    </span>
+                  </label>
+                  <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
+                    <input type="checkbox" name="astangaztam" />
+                    <span>Astangáztam már</span>
+                  </label>
+                  <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
+                    <input type="checkbox" name="mysoretapasztalt" />
+                    <span>Van Mysore-gyakorlás tapasztalatom</span>
+                  </label>
+                </div>
+              </div>
               <div className="row massage-wrapper mb-2">
                 <TextArea
                   className="kapcsolat__textarea"
                   name="comments"
-                  rows="4"
+                  rows="6"
                   placeholder="Ha már van tapasztalatod astanga jógában, kérlek írd le, mióta
                   és milyen rendszeresen gyakorolsz. Kitől tanultál eddig,
                   mennyi időt? Van-e tapasztalatod Mysore-gyakorlás terén?
