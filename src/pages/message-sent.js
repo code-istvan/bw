@@ -42,7 +42,7 @@ export default function Messagesent() {
             </h3>
             <p>Az általad elküldött üzenet megérkezett szerverünkre!</p>
             <p>
-              Adataidat bizalmasan kezeljük, és csak az üzeneted feldolgozása
+              Adataidat bizalmasan kezeljük, csak az üzeneted feldolgozása
               céljából használjuk fel.
             </p>
             <p className="mt-20px">
