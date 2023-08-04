@@ -34,23 +34,24 @@ const NotFoundPage = () => (
       </div>
     </div>
 
-    <div className="404--wrapper tight--desktop--container"></div>
-    <div className="row">
-      <p className="mt-40px mb-20px">
-        A keresett oldal nem létezik, vagy eltávolításra került.
-      </p>
-    </div>
+    <div className="404--wrapper tight--desktop--container">
+      <div className="row">
+        <p className="mt-40px mb-20px">
+          A keresett oldal nem létezik, vagy eltávolításra került.
+        </p>
+      </div>
 
-    <div className="row">
-      <Button
-        type="button"
-        buttonStyle="btn--small--outline"
-        onClick={() => {
-          navigate("/")
-        }}
-      >
-        Vissza a főoldalra
-      </Button>
+      <div className="row">
+        <Button
+          type="button"
+          buttonStyle="btn--small--outline"
+          onClick={() => {
+            navigate("/")
+          }}
+        >
+          Vissza a főoldalra
+        </Button>
+      </div>
     </div>
   </Layout>
 )

@@ -42,8 +42,8 @@ export default function MysoreApplication() {
             </h3>
             <p>Jelentkezési lapod megérkezett szerverünkre!</p>
             <p>
-              Adataidat bizalmasan kezeljük, és csak a jelentkezésed
-              feldolgozása céljából használjuk fel.
+              Adataidat bizalmasan kezeljük, csak a jelentkezésed feldolgozása
+              céljából használjuk fel.
             </p>
             <p className="mt-20px">
               Csapatunk az elkövetkező munkanapokon - általába 24-48 órán belül
