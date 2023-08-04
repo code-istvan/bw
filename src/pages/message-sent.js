@@ -1,5 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
+import { navigate } from "gatsby"
+import Button from "../components/Buttons/Button"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -51,6 +53,17 @@ export default function Messagesent() {
               Ha munkanapokon 48 órán belűl nem kapsz választ, akkor lehet, hogy
               rosszul adtad meg az e-mail címed!
             </p>
+          </div>
+          <div className="row mt-20px">
+            <Button
+              type="button"
+              buttonStyle="btn--small--outline"
+              onClick={() => {
+                navigate("/")
+              }}
+            >
+              Vissza a főoldalra
+            </Button>
           </div>
         </div>
       </div>
