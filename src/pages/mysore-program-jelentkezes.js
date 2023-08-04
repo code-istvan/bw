@@ -45,9 +45,9 @@ export default function MysoreprogramJelentkezes() {
           <h3>JELENTKEZÉSI LAP</h3>
         </div>
         <div className="row">
-          <div className="col-12-xs col-6-md">
+          <div className="col">
             <div className="row">
-              <h3 className="mb-20px">Üzenj nekünk</h3>
+              <h3 className="mb-20px">Valami</h3>
             </div>
             <form
               name="mysore bandhaworks"
@@ -68,8 +68,16 @@ export default function MysoreprogramJelentkezes() {
                 <div className="col-12-xs col-6-md">
                   <InputField
                     type="text"
-                    name="name"
-                    placeholder="Név"
+                    name="family-name"
+                    placeholder="Családi név"
+                    required="required"
+                  />
+                </div>
+                <div className="col-12-xs col-6-md">
+                  <InputField
+                    type="text"
+                    name="surname-name"
+                    placeholder="Utónév"
                     required="required"
                   />
                 </div>
@@ -83,13 +91,25 @@ export default function MysoreprogramJelentkezes() {
                     className="form-control col-12-xs col-6-md mb-20px"
                   />
                 </div>
+                <div className="col-12-xs col-6-md">
+                  <InputField
+                    type="text"
+                    name="phone"
+                    placeholder="Telefonszám"
+                    required="required"
+                    pattern="\+?[0-9]+"
+                  />
+                </div>
               </div>
               <div className="row massage-wrapper mb-2">
                 <TextArea
                   className="kapcsolat__textarea"
                   name="comments"
                   rows="4"
-                  placeholder="Üzenet"
+                  placeholder="Ha már van tapasztalatod astanga jógában, kérlek írd le, mióta
+                  és milyen rendszeresen gyakorolsz. Kitől tanultál eddig,
+                  mennyi időt? Van-e tapasztalatod Mysore-gyakorlás terén?
+                  Tudsz-e külső segítség nélkül egyedül gyakorolni?"
                   required
                 ></TextArea>
               </div>

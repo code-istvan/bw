@@ -10,6 +10,7 @@ const InputField = ({
   type,
   onChange,
   required,
+  pattern,
 }) => (
   <div className="input--field-box">
     <input
@@ -21,6 +22,7 @@ const InputField = ({
       className="form-control"
       placeholder={placeholder}
       onChange={onChange}
+      pattern={pattern}
       required={required}
     />
   </div>
