@@ -68,7 +68,7 @@ export default function MysoreprogramJelentkezes() {
                 <div className="col-12-xs col-6-md">
                   <InputField
                     type="text"
-                    name="family-name"
+                    name="familyname"
                     placeholder="Családi név"
                     required="required"
                   />
@@ -76,7 +76,7 @@ export default function MysoreprogramJelentkezes() {
                 <div className="col-12-xs col-6-md">
                   <InputField
                     type="text"
-                    name="surname-name"
+                    name="surnamename"
                     placeholder="Utónév"
                     required="required"
                   />
