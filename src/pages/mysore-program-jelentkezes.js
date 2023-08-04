@@ -104,7 +104,11 @@ export default function MysoreprogramJelentkezes() {
               <div className="row">
                 <div className="col contact_checkbox">
                   <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
-                    <input type="checkbox" name="tapasztalat[]" value="kezdo" />
+                    <input
+                      type="checkbox"
+                      name="tapasztalat[]"
+                      value="kezdovagyok"
+                    />
                     <span>
                       Teljesen kezdő vagyok, még nem gyakoroltam astanga jógát
                     </span>
@@ -113,7 +117,7 @@ export default function MysoreprogramJelentkezes() {
                     <input
                       type="checkbox"
                       name="tapasztalat[]"
-                      value="astangaztam"
+                      value="astangaztammar"
                     />
                     <span>Astangáztam már</span>
                   </label>
@@ -121,7 +125,7 @@ export default function MysoreprogramJelentkezes() {
                     <input
                       type="checkbox"
                       name="tapasztalat[]"
-                      value="mysoretapasztalt"
+                      value="mysoreosvagyok"
                     />
                     <span>Van Mysore-gyakorlás tapasztalatom</span>
                   </label>
