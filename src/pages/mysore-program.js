@@ -4,6 +4,8 @@ import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { CustomLink } from "../components/CustomLink"
 import { Link } from "gatsby"
+import { navigate } from "gatsby"
+import Button from "../components/Buttons/Button"
 import Icons from "../components/Icons/Icons"
 import Counter from "../components/Counter"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
@@ -350,7 +352,17 @@ export default function Mysoreprogram() {
             </p>
           </div>
         </div>
-
+        <div className="row mt-40px mb-20px">
+          <Button
+            type="button"
+            buttonStyle="btn--primary--outline-full"
+            onClick={() => {
+              navigate("/")
+            }}
+          >
+            Jelentkezés a Mysore-programba
+          </Button>
+        </div>
         <div className="row">
           <div className="mb-20px mt-20px">
             <h3>Gyakran ismételt kérdések</h3>
