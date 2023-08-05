@@ -64,6 +64,7 @@ export default function MysoreprogramJelentkezes() {
                     type="text"
                     name="familyname"
                     placeholder="Családi név"
+                    pattern="[a-zA-Z]{1,20}"
                     required="required"
                   />
                 </div>
@@ -72,6 +73,7 @@ export default function MysoreprogramJelentkezes() {
                     type="text"
                     name="surnamename"
                     placeholder="Utónév"
+                    pattern="[a-zA-Z]{1,20}"
                     required="required"
                   />
                 </div>
@@ -88,11 +90,13 @@ export default function MysoreprogramJelentkezes() {
                 </div>
                 <div className="col-12-xs col-6-md">
                   <InputField
-                    type="text"
-                    name="phone"
-                    placeholder="Telefonszám"
+                    id="email"
+                    type="email"
+                    name="email2"
+                    placeholder="E-mail mégegyszer"
+                    pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
                     required="required"
-                    pattern="\+?[0-9]+"
+                    className="form-style col-12-xs col-6-md mb-20px"
                   />
                 </div>
               </div>
