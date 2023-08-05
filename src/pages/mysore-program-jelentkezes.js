@@ -48,16 +48,16 @@ export default function MysoreprogramJelentkezes() {
               action="/mysore-application"
               method="post"
               data-netlify="true"
-              data-netlify-recaptcha="true"
+              netlify-honeypot="bot-field"
             >
-              <input
+              {/* <input
                 type="hidden"
                 name="form-name"
                 value="mysore bandhaworks"
               />
               <div hidden>
                 <input name="bot-field" />
-              </div>
+              </div> */}
               <div className="row gap-five">
                 <div className="col-12-xs col-6-md">
                   <InputField
@@ -75,12 +75,18 @@ export default function MysoreprogramJelentkezes() {
                     required="required"
                   />
                 </div>
+                <div className="col-12-xs col-6-md rejtett">
+                  <label>
+                    Nemed? <input name="bot-field" />
+                  </label>
+                </div>
                 <div className="col-12-xs col-6-md">
                   <InputField
                     id="email"
                     type="email"
                     name="email"
                     placeholder="E-mail"
+                    pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
                     required="required"
                     className="form-style col-12-xs col-6-md mb-20px"
                   />
