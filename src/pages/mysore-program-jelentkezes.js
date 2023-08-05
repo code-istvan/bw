@@ -67,7 +67,7 @@ export default function MysoreprogramJelentkezes() {
                     type="text"
                     name="familyname"
                     placeholder="Családi név"
-                    pattern="[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]"
+                    pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]+$"
                     required="required"
                   />
                 </div>
@@ -76,7 +76,7 @@ export default function MysoreprogramJelentkezes() {
                     type="text"
                     name="surnamename"
                     placeholder="Utónév"
-                    pattern="[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]"
+                    pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]+$"
                     required="required"
                   />
                 </div>
@@ -95,7 +95,7 @@ export default function MysoreprogramJelentkezes() {
                 </div>
                 <div className="col-12-xs col-6-md">
                   <InputField
-                    id="email"
+                    id="email2"
                     type="email"
                     name="email2"
                     placeholder="E-mail mégegyszer"
