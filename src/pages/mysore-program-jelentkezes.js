@@ -156,7 +156,6 @@ export default function MysoreprogramJelentkezes() {
                 </div>
               </div>
               <div className="row">
-                <div data-netlify-recaptcha="true"></div>
                 <div className="col-12-xs col-4-md mb-2 kapcsolat-button mt-20px">
                   <Button type="submit" buttonStyle="btn--secondary--solid">
                     KÜLDÉS
