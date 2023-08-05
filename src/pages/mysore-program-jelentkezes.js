@@ -50,14 +50,14 @@ export default function MysoreprogramJelentkezes() {
               data-netlify="true"
               netlify-honeypot="bot-field"
             >
-              {/* <input
+              <input
                 type="hidden"
                 name="form-name"
                 value="mysore bandhaworks"
               />
               <div hidden>
                 <input name="bot-field" />
-              </div> */}
+              </div>
               <div className="row gap-five">
                 <div className="col-12-xs col-6-md">
                   <InputField
@@ -74,11 +74,6 @@ export default function MysoreprogramJelentkezes() {
                     placeholder="Utónév"
                     required="required"
                   />
-                </div>
-                <div className="col-12-xs col-6-md rejtett">
-                  <label>
-                    Nemed? <input name="bot-field" />
-                  </label>
                 </div>
                 <div className="col-12-xs col-6-md">
                   <InputField
