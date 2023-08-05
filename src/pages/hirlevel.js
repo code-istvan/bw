@@ -46,7 +46,7 @@ const Hirlevel = () => (
         </div>
         <form
           name="newsletter bandhaworks"
-          action="/mantra"
+          action="/subscription-sent"
           method="post"
           data-netlify="true"
           onSubmit="submit"
@@ -66,6 +66,7 @@ const Hirlevel = () => (
                 type="text"
                 name="name"
                 placeholder="Név"
+                pattern="[a-zA-Z]{1,20}"
                 required="required"
               />
             </div>
@@ -75,6 +76,7 @@ const Hirlevel = () => (
                 placeholder="E-mail"
                 name="email"
                 id="email"
+                pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
                 required="required"
               />
             </div>
