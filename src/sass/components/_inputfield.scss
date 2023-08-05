@@ -4,7 +4,7 @@
 .input--field-box {
   width: 100%;
   background: transparent;
-  box-shadow: 0px 0px 0px 2px $color-shades-darkGray inset;
+  box-shadow: 0px 0px 0px 2px $color-shades-lightGray inset;
   height: 44px;
 
   &:focus-within {
@@ -20,7 +20,7 @@ input[type="email"] {
   padding-left: 16px;
   font-family: $small-font-size-desktop;
   font-weight: 600;
-  color: $color-shades-gray;
+  color: $color-shades-lightGray;
   height: 42px;
   width: calc(100% - 14px);
 

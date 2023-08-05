@@ -4,7 +4,7 @@
 .textarea--field-box {
   width: 100%;
   background: transparent;
-  box-shadow: 0px 0px 0px 2px $color-shades-darkGray inset;
+  box-shadow: 0px 0px 0px 2px $color-shades-lightGray inset;
 
   &:focus-within {
     box-shadow: 0px 0px 0px 1px $color-brand-orange inset;
@@ -14,7 +14,7 @@
   textarea {
     width: 100%;
     background: transparent;
-    color: $color-shades-gray;
+    color: $color-shades-lightGray;
     font-family: $small-font-size-desktop;
     font-weight: 600;
     width: calc(100% - 36px);
@@ -27,20 +27,3 @@
     }
   }
 }
-
-// input[type="comment"] {
-//   background: transparent;
-//   padding-left: 16px;
-//   font-family: $small-font-size-desktop;
-//   color: $color-shades-gray;
-//   height: 42px;
-//   width: calc(100% - 14px);
-
-//   &:focus {
-//     color: $color-brand-orange;
-//   }
-// }
-
-// #gatsby-focus-wrapper {
-//   padding-top: var(--header-height-base);
-// }

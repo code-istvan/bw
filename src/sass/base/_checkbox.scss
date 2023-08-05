@@ -43,9 +43,9 @@
 
   &.gray {
     input[type="checkbox"] {
-      color: $color-shades-darkGray;
+      color: $color-shades-lightGray;
       &:before {
-        background-color: $color-shades-gray;
+        background-color: $color-shades-lightGray;
       }
     }
   }

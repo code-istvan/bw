@@ -77,6 +77,7 @@ export default function Kapcsolat() {
                   type="text"
                   name="name"
                   placeholder="Név"
+                  pattern="[a-zA-Z]{1,30}"
                   required="required"
                 />
               </div>
