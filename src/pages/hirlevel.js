@@ -66,7 +66,7 @@ const Hirlevel = () => (
                 type="text"
                 name="name"
                 placeholder="Név"
-                pattern="[a-zA-Z]{1,30}"
+                pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]+$"
                 required="required"
               />
             </div>

@@ -77,7 +77,7 @@ export default function Kapcsolat() {
                   type="text"
                   name="name"
                   placeholder="Név"
-                  pattern="[a-zA-Z]{1,30}"
+                  pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]+$"
                   required="required"
                 />
               </div>
@@ -89,6 +89,7 @@ export default function Kapcsolat() {
                   placeholder="E-mail"
                   required="required"
                   className="form-style col-12-xs col-6-md mb-20px"
+                  pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
                 />
               </div>
             </div>
