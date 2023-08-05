@@ -50,8 +50,15 @@ export default function MysoreApplication() {
               - feldolgozza jelentkezésed, hamarosan válaszolunk.
             </p>
             <p className="mt-20px">
-              Ha munkanapokon 48 órán belűl nem kapsz választ, akkor lehet, hogy
-              rosszul adtad meg az e-mail címed!
+              Ha munkanapokon 48 órán belűl nem kapsz választ, akkor lehet, hogy{" "}
+              <strong>
+                <u>rosszul adtad meg</u>
+              </strong>{" "}
+              az e-mail címed vagy a{" "}
+              <strong>
+                <u>SPAM fiókodban</u>
+              </strong>{" "}
+              landolt a válaszunk!
             </p>
           </div>
           <div className="row mt-40px">

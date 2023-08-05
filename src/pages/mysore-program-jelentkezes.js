@@ -146,7 +146,6 @@ export default function MysoreprogramJelentkezes() {
                   és milyen rendszeresen gyakorolsz. Kitől tanultál eddig,
                   mennyi időt? Van-e tapasztalatod Mysore-gyakorlás terén?
                   Tudsz-e külső segítség nélkül egyedül gyakorolni?"
-                  required
                 ></TextArea>
               </div>
               <div className="row">
