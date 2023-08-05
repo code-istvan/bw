@@ -41,19 +41,43 @@ export default function Messagesent() {
               Köszönjük, hogy felvetted velünk a kapcsolatot!
             </h3>
             <p>Az általad elküldött üzenet megérkezett szerverünkre!</p>
-            <p>
-              Adataidat bizalmasan kezeljük, csak az üzeneted feldolgozása
-              céljából használjuk fel.
-            </p>
             <p className="mt-20px">
               Csapatunk az elkövetkező munkanapokon - általába 24-48 órán belül
               - feldolgozza az üzeneted, hamarosan válaszolunk.
             </p>
             <p className="mt-20px">
-              Ha munkanapokon 48 órán belűl nem kapsz választ, akkor lehet, hogy
-              rosszul adtad meg az e-mail címed!
+              Ha munkanapokon 48 órán belűl nem kapsz választ, akkor lehet, hogy{" "}
+              <strong>
+                <u>rosszul adtad meg</u>
+              </strong>{" "}
+              az e-mail címed vagy a{" "}
+              <strong>
+                <u>SPAM fiókodban</u>
+              </strong>{" "}
+              landolt a válaszunk!
+            </p>
+            <div className="separator-horizontal mt-20px"></div>
+            <h3 className="clr-brand-orange">Hol az email címünk?</h3>
+            <p className="mt-20px">
+              A weboldalunkon a biztonság és adatvédelem kiemelt prioritást
+              élvez. Ennek érdekében, hogy elkerüljük a nem kívánt spam
+              üzeneteket és az adathalászati kísérleteket, döntöttünk úgy, hogy
+              nem tesszük közzé az e-mail címünket.
+            </p>
+            <p className="mt-20px">
+              Ez a gyakorlat a mai digitális világban iparági sztenderdnek
+              számít, melynek célja, hogy a lehető legbiztonságosabb környezetet
+              teremtse meg felhasználóink számára.
+            </p>
+            <p className="mt-20px">
+              Ha továbbra is problémába ütközne a kapcsolatfelvétel irányunkban
+              a honlapon keresztűl, akkor kérünk írjál facebook üzenetet
+              részünkre (lásd. lábléc), vagy gyere el személyesen (ez a
+              tradicionális útja a kapcsolatfelvételnek a jóga világában)
+              hozzánk! Köszönjük!
             </p>
           </div>
+
           <div className="row mt-40px">
             <Button
               type="button"
