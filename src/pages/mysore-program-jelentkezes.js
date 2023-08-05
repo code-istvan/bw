@@ -67,7 +67,7 @@ export default function MysoreprogramJelentkezes() {
                     type="text"
                     name="familyname"
                     placeholder="Családi név"
-                    pattern="[a-zA-Z]{1,20}"
+                    pattern="[a-zA-Z]"
                     required="required"
                   />
                 </div>
@@ -76,7 +76,7 @@ export default function MysoreprogramJelentkezes() {
                     type="text"
                     name="surnamename"
                     placeholder="Utónév"
-                    pattern="[a-zA-Z]{1,20}"
+                    pattern="[a-zA-Z]"
                     required="required"
                   />
                 </div>
