@@ -10,7 +10,7 @@ const SearchBar = ({ id, value, label, name, placeholder, type, onChange }) => (
       value={value}
       name={name}
       label={label}
-      className="form-control"
+      className="form-style"
       placeholder={placeholder}
       onChange={onChange}
     />

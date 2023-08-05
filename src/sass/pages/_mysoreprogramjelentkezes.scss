@@ -1,1 +1,17 @@
 @import "/src/sass/global";
+
+.mysore-checkboxs {
+  label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  label:nth-child(-n + 2) {
+    margin-bottom: 12px;
+  }
+
+  input {
+    margin-top: 3px !important;
+  }
+}

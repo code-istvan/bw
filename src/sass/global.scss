@@ -24,7 +24,8 @@
 @import "/src/sass/base/_colors";
 
 // components (button, card, navbar)
-@import "/src/sass/components/_checkbox";
+@import "/src/sass/base/_checkbox";
+@import "/src/sass/base/_formstyle";
 
 // utilites (margin, padding, opacity)
 @import "/src/sass/base/_utilities";

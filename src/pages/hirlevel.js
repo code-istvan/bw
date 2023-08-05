@@ -81,7 +81,7 @@ const Hirlevel = () => (
           </div>
           <div className="row tight--desktop--container">
             <div className="col">
-              <label className="form-control hirlevel-acceptance bw-checkbox">
+              <label className="form-style hirlevel-acceptance custom-checkbox orange">
                 <input type="checkbox" name="checkbox" required />
                 <span>
                   Megismertem és elfogadom az

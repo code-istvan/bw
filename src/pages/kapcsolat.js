@@ -87,7 +87,7 @@ export default function Kapcsolat() {
                   name="email"
                   placeholder="E-mail"
                   required="required"
-                  className="form-control col-12-xs col-6-md mb-20px"
+                  className="form-style col-12-xs col-6-md mb-20px"
                 />
               </div>
             </div>
@@ -101,8 +101,8 @@ export default function Kapcsolat() {
               ></TextArea>
             </div>
             <div className="row">
-              <div className="col contact_checkbox">
-                <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
+              <div className="col">
+                <label className="form-style span span--bold clr-shades-lightGray custom-checkbox orange">
                   <input type="checkbox" name="checkbox" required />
                   <span>
                     Megismertem és elfogadom az

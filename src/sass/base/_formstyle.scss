@@ -1,0 +1,18 @@
+.form-style {
+  input[type="checkbox"] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+  }
+  label {
+    display: block;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: $color-brand-orange !important;
+  }
+  a:visited {
+    color: $color-brand-orange !important;
+  }
+}

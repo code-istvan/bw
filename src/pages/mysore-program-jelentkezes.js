@@ -5,10 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
 import Button from "../components/Buttons/Button"
-import { CustomLink } from "../components/CustomLink"
 import { Link } from "gatsby"
-import Icons from "../components/Icons/Icons"
-import Counter from "../components/Counter"
 import "../sass/pages/_mysoreprogramjelentkezes.scss"
 
 export default function MysoreprogramJelentkezes() {
@@ -46,9 +43,6 @@ export default function MysoreprogramJelentkezes() {
         </div>
         <div className="row">
           <div className="col">
-            <div className="row">
-              <h3 className="mb-20px">Valami</h3>
-            </div>
             <form
               name="mysore bandhaworks"
               action="/mysore-application"
@@ -88,7 +82,7 @@ export default function MysoreprogramJelentkezes() {
                     name="email"
                     placeholder="E-mail"
                     required="required"
-                    className="form-control col-12-xs col-6-md mb-20px"
+                    className="form-style col-12-xs col-6-md mb-20px"
                   />
                 </div>
                 <div className="col-12-xs col-6-md">
@@ -101,33 +95,33 @@ export default function MysoreprogramJelentkezes() {
                   />
                 </div>
               </div>
-              <div className="row">
-                <div className="col contact_checkbox">
-                  <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
+              <div className="row gap-1 ">
+                <div className="col mysore-checkboxs">
+                  <label className="form-style span span--bold clr-shades-lightGray custom-checkbox gray">
                     <input
                       type="checkbox"
                       name="tapasztalat[]"
                       value="kezdovagyok"
                     />
-                    <span>
-                      Teljesen kezdő vagyok, még nem gyakoroltam astanga jógát
-                    </span>
+                    <p className="clr-shades-lightGray">
+                      Teljesen kezdő vagyok,
+                    </p>
                   </label>
-                  <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
+                  <label className="form-style span span--bold clr-shades-lightGray custom-checkbox gray">
                     <input
                       type="checkbox"
                       name="tapasztalat[]"
                       value="astangaztammar"
                     />
-                    <span>Astangáztam már</span>
+                    <p>Astangáztam már,</p>
                   </label>
-                  <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
+                  <label className="form-style span span--bold clr-shades-lightGray custom-checkbox gray">
                     <input
                       type="checkbox"
                       name="tapasztalat[]"
                       value="mysoreosvagyok"
                     />
-                    <span>Van Mysore-gyakorlás tapasztalatom</span>
+                    <p>Van Mysore-gyakorlás tapasztalatom.</p>
                   </label>
                 </div>
               </div>
@@ -145,7 +139,7 @@ export default function MysoreprogramJelentkezes() {
               </div>
               <div className="row">
                 <div className="col contact_checkbox">
-                  <label className="form-control span span--bold clr-shades-lightGray bw-checkbox">
+                  <label className="form-style span span--bold clr-shades-lightGray custom-checkbox orange">
                     <input type="checkbox" name="checkbox" required />
                     <span>
                       Megismertem és elfogadom az
