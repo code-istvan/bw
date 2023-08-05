@@ -77,7 +77,7 @@ export default function Kapcsolat() {
                   type="text"
                   name="name"
                   placeholder="Név"
-                  pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]+$"
+                  pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ\s]+$"
                   required="required"
                 />
               </div>

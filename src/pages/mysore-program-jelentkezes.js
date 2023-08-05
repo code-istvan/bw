@@ -67,7 +67,7 @@ export default function MysoreprogramJelentkezes() {
                     type="text"
                     name="familyname"
                     placeholder="Családi név"
-                    pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]+$"
+                    pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ\s]+$"
                     required="required"
                   />
                 </div>
@@ -76,7 +76,7 @@ export default function MysoreprogramJelentkezes() {
                     type="text"
                     name="surnamename"
                     placeholder="Utónév"
-                    pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]+$"
+                    pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ\s]+$"
                     required="required"
                   />
                 </div>

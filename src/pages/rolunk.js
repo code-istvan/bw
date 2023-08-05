@@ -32,8 +32,43 @@ export default function Rolunk() {
           />
         </div>
       </div>
-      <div className="row">
-        <h1>valami</h1>
+      <div className="row mt-40px">
+        <h1>
+          A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket
+          összekötött azon törekvés, hogy tradicionális astanga vinyásza jógát
+          népszerűsítsék, oktassák Magyarországon.
+        </h1>
+        <p className="mt-20px mb-20px">
+          Több mint tíz év elteltével a helyzet mit sem változott, oktatóink
+          elkötelezett gyakorlói az irányzatnak, és rendszeresen, az astanga
+          jóga fővárosába, a dél-indiai Mysore-ba utaznak, hogy a paramparából
+          (tanítói láncolatból) merítve, tovább mélyítsék tudásuk,
+          tapasztalatuk.
+        </p>
+        <p className="mb-20px">
+          A jógaiskolában tradicionális astanga vinyásza jógát és vinyásza krama
+          jógát oktatunk. A Bandha Works specialitása a Magyarországon
+          egyedülálló reggeli Mysore-program, az astanga jóga tanításának
+          eredeti és leghatékonyabb formája. A módszer ötvözi a csoportos órák
+          és az egyéni gyakorlás előnyeit. Lényege, hogy a teremben az összes
+          gyakorló a saját légzésének ritmusára önállóan végzi az ismert és
+          állandó ászanasorozatokat, ezáltal az oktató mindenkinek egyénre
+          szabott igazításokat, utasításokat tud adni, anélkül, hogy ez
+          megzavarná az óra dinamikáját.
+        </p>
+        <p className="mb-20px">
+          Azok számára pedig, akik még csak most kezdenek ismerkedni ezzel az
+          irányzattal, rendszeresen indítunk astanga kezdő tanfolyamot,
+          illetőleg Mysore-gyakorlásra felkészítő kurzust.
+        </p>
+        <p className="mb-20px">
+          Az ászanák oktatásán túl nagy hangsúlyt fektetünk a jógafilozófia és a
+          jógikus életmód megismertetésére. A havonta megrendezésre kerülő
+          ingyenes astanga konferenciákon kötetlen beszélgetés formájában
+          foglalkozunk a jóga elméletével és a tudatos életmóddal. Itt mindenki
+          felteheti a felmerülő kérdéseit, és jó alkalom arra is, hogy a
+          gyakorlótársak jobban megismerjék egymást.
+        </p>
       </div>
     </Layout>
   )
