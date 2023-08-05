@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState } from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
@@ -9,6 +9,9 @@ import { Link } from "gatsby"
 import "../sass/pages/_mysoreprogramjelentkezes.scss"
 
 export default function MysoreprogramJelentkezes() {
+  const [email, setEmail] = useState("")
+  const [emailConfirm, setEmailConfirm] = useState("")
+
   return (
     <Layout>
       <Seo title="MYSORE PROGRAM" />
@@ -86,6 +89,8 @@ export default function MysoreprogramJelentkezes() {
                     pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
                     required="required"
                     className="form-style col-12-xs col-6-md mb-20px"
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
                   />
                 </div>
                 <div className="col-12-xs col-6-md">
@@ -97,6 +102,8 @@ export default function MysoreprogramJelentkezes() {
                     pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
                     required="required"
                     className="form-style col-12-xs col-6-md mb-20px"
+                    value={emailConfirm}
+                    onChange={e => setEmailConfirm(e.target.value)}
                   />
                 </div>
               </div>
@@ -156,7 +163,16 @@ export default function MysoreprogramJelentkezes() {
               </div>
               <div className="row">
                 <div className="col-12-xs col-4-md mb-2 kapcsolat-button mt-20px">
-                  <Button type="submit" buttonStyle="btn--secondary--solid">
+                  <Button
+                    type="submit"
+                    buttonStyle="btn--secondary--solid"
+                    onClick={e => {
+                      if (email !== emailConfirm) {
+                        e.preventDefault()
+                        alert("Az e-mail címek nem egyeznek!")
+                      }
+                    }}
+                  >
                     KÜLDÉS
                   </Button>
                 </div>
