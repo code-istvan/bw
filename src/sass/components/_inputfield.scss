@@ -8,7 +8,7 @@
   height: 44px;
 
   &:focus-within {
-    box-shadow: 0px 0px 0px 1px $color-brand-orange inset;
+    box-shadow: 0px 0px 0px 2px $color-brand-orange inset;
     color: $color-brand-orange;
     border-radius: none !important;
   }

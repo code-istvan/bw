@@ -14,7 +14,6 @@ export default function MysoreprogramJelentkezes() {
   const [emailConfirm, setEmailConfirm] = useState("")
   const [selectedValue, setSelectedValue] = useState("")
   const handleSelectChange = selectedValue => {
-    console.log("Kiválasztott érték:", selectedValue)
     setSelectedValue(selectedValue)
   }
 
@@ -64,11 +63,7 @@ export default function MysoreprogramJelentkezes() {
                 name="form-name"
                 value="mysore bandhaworks"
               />
-              <input
-                type="hidden"
-                name="selectedOption"
-                value={selectedValue}
-              />
+              <input type="hidden" name="Tapasztalat" value={selectedValue} />
 
               <div hidden>
                 <input name="bot-field" />
@@ -119,7 +114,7 @@ export default function MysoreprogramJelentkezes() {
                   />
                 </div>
               </div>
-              <div className="row gap-1 ">
+              {/* <div className="row gap-1 ">
                 <div className="col mysore-checkboxs">
                   <label className="form-style span span--bold clr-shades-lightGray custom-checkbox gray">
                     <input
@@ -148,7 +143,7 @@ export default function MysoreprogramJelentkezes() {
                     <p>Van Mysore-gyakorlás tapasztalatom.</p>
                   </label>
                 </div>
-              </div>
+              </div> */}
 
               <div className="row">
                 <CustomSelect

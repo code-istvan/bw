@@ -3,7 +3,9 @@
 /* The container must be positioned relative: */
 .custom-select {
   position: relative;
-  font-family: Arial;
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-semi-bold;
+  width: 100%;
 }
 
 .custom-select select {
@@ -11,7 +13,7 @@
 }
 
 .select-selected {
-  background-color: DodgerBlue;
+  background-color: $color-shades-lightGray;
 }
 
 /* Style the arrow inside the select element: */
@@ -35,7 +37,7 @@
 /* style the items (options), including the selected item: */
 .select-items div,
 .select-selected {
-  color: #ffffff;
+  color: black;
   padding: 8px 16px;
   border: 1px solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
@@ -45,7 +47,7 @@
 /* Style items (options): */
 .select-items {
   position: absolute;
-  background-color: DodgerBlue;
+  background-color: $color-shades-lightGray;
   top: 100%;
   left: 0;
   right: 0;
@@ -73,7 +75,7 @@
 }
 
 .select-selected {
-  background-color: DodgerBlue;
+  background-color: $color-shades-lightGray;
 }
 
 /* Style the arrow inside the select element: */
@@ -85,7 +87,7 @@
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
+  border-color: black transparent transparent transparent;
 }
 
 /* Point the arrow upwards when the select box is open (active): */
@@ -97,7 +99,7 @@
 /* style the items (options), including the selected item: */
 .select-items div,
 .select-selected {
-  color: #ffffff;
+  color: black;
   padding: 8px 16px;
   border: 1px solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
@@ -107,7 +109,7 @@
 /* Style items (options): */
 .select-items {
   position: absolute;
-  background-color: DodgerBlue;
+  background-color: $color-shades-lightGray;
   top: 100%;
   left: 0;
   right: 0;
