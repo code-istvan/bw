@@ -67,9 +67,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .separator-horizontal-full {
-    display: none;
+  .blog-posts-wrapper {
+    .separator-horizontal-full {
+      display: none;
+    }
   }
+
   .blog-posts-body-style {
     margin-top: 48px;
   }

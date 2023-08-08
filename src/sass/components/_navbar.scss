@@ -29,7 +29,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  transition: background-color 200ms ease, transform 1300ms ease;
+  transition: background-color 200ms ease, transform 800ms ease;
   z-index: 9999;
 }
 
@@ -47,6 +47,6 @@
 }
 
 .hide {
-  transform: translateY(-80px);
+  transform: translateY(-58px);
   background-color: $primary-background-color;
 }

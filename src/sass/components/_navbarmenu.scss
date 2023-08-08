@@ -8,7 +8,7 @@
 // MOBIL VIEW STARTS-------------------------------------------
 
 @media only screen and (min-width: 1px) and (max-width: 992px) {
-  .mobil-menu-open {
+  .mobil-menu {
     opacity: 1;
     visibility: visible;
     position: absolute;
@@ -23,15 +23,13 @@
     z-index: 1;
     overflow: scroll;
     background-color: $offcanvas-menu-color;
-  }
-
-  .mobil-menu-closed {
-    clip-path: circle(15px at 93% -40%);
-    -webkit-clip-path: circle(15px at 93% -40%);
-    opacity: 0 !important;
     -webkit-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
     transition: all 500ms ease-out;
+  }
+
+  .mobil-menu--closed {
+    opacity: 0 !important;
   }
 
   .nav-item {
@@ -47,7 +45,7 @@
   .nav-links {
     // position: fixed;
     background-color: $offcanvas-menu-color;
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
     top: 0;
     left: 0;
@@ -176,7 +174,7 @@
 
 // ---------DESKTOP VIEW STARTS
 @media only screen and (min-width: 993px) {
-  .mobil-menu-open {
+  .mobil-menu {
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -184,6 +182,11 @@
     padding-top: 40px;
     background-color: $offcanvas-menu-color;
     @include desktop-menu-fonts;
+    pointer-events: auto;
+    pointer-events: all;
+    -webkit-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
 
     & > ul {
       display: grid;
@@ -231,19 +234,9 @@
       display: flex;
       flex-direction: column;
     }
-
-    pointer-events: auto;
-    clip-path: circle(2000px at 98% -2%);
-    -webkit-clip-path: circle(2000px at 98% -2%);
-    pointer-events: all;
-    -webkit-transition: all 500ms ease-out;
-    -o-transition: all 500ms ease-out;
-    transition: all 500ms ease-out;
   }
 
-  .mobil-menu-closed {
-    clip-path: circle(15px at 98% -2%);
-    -webkit-clip-path: circle(15px at 98% -2%);
+  .mobil-menu--closed {
     opacity: 0;
     -webkit-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;

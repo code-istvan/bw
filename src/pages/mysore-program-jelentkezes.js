@@ -114,37 +114,6 @@ export default function MysoreprogramJelentkezes() {
                   />
                 </div>
               </div>
-              {/* <div className="row gap-1 ">
-                <div className="col mysore-checkboxs">
-                  <label className="form-style span span--bold clr-shades-lightGray custom-checkbox gray">
-                    <input
-                      type="checkbox"
-                      name="tapasztalat[]"
-                      value="kezdovagyok"
-                    />
-                    <p className="clr-shades-lightGray">
-                      Teljesen kezdő vagyok,
-                    </p>
-                  </label>
-                  <label className="form-style span span--bold clr-shades-lightGray custom-checkbox gray">
-                    <input
-                      type="checkbox"
-                      name="tapasztalat[]"
-                      value="astangaztammar"
-                    />
-                    <p>Astangáztam már,</p>
-                  </label>
-                  <label className="form-style span span--bold clr-shades-lightGray custom-checkbox gray">
-                    <input
-                      type="checkbox"
-                      name="tapasztalat[]"
-                      value="mysoreosvagyok"
-                    />
-                    <p>Van Mysore-gyakorlás tapasztalatom.</p>
-                  </label>
-                </div>
-              </div> */}
-
               <div className="row">
                 <CustomSelect
                   options={[

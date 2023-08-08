@@ -43,7 +43,7 @@ const NavbarMenu = ({ open, setOpen }) => {
   ]
 
   return (
-    <div className={`${open ? "mobil-menu-open" : "mobil-menu-closed"}`}>
+    <div className={`${open ? "mobil-menu" : "mobil-menu mobil-menu--closed"}`}>
       {breakpoints.lg ? <NavbarMenuMobilHeader /> : null}
       <ul className="nav-links">
         {menuGroupsFomenu.map(({ title, items }) => (

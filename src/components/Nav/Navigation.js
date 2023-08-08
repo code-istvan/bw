@@ -14,7 +14,7 @@ export default function Navigation({ isOpen = false, handleOpenMenu }) {
     const body = document.querySelector("body")
     if (isOpen) {
       html.style.overflow = "hidden"
-      body.style.height = "100%"
+      // body.style.height = "100%"
       body.style.margin = "0"
     } else {
       html.style.overflow = "auto"

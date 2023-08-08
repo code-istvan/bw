@@ -8,9 +8,9 @@
 }
 .progress-bar-wrapper {
   z-index: 9999;
-  position: sticky;
+  position: fixed;
   top: 58px;
-  transition: all 1.5s;
+  transition: all 1.3s ease;
   &.potato {
     top: 0;
   }

@@ -51,80 +51,82 @@ export default function Blog({ pageContext, data }) {
           />
         </div>
       </div>
-      <div className="row blog-frame gap-2">
-        <div className="col-12-xs col-3-md col-3-xl blog-right-column">
-          <div className="blog-header-only-mobil">
-            {/* <SearchBar id="" type="text" name="serach" placeholder="Keresés" /> */}
-            <h4>CIMKÉK</h4>
-            <BlogTags />
+      <div className="blog-list-wrapper">
+        <div className="row blog-frame gap-2">
+          <div className="col-12-xs col-3-md col-3-xl blog-right-column">
+            <div className="blog-header-only-mobil">
+              {/* <SearchBar id="" type="text" name="serach" placeholder="Keresés" /> */}
+              <h4>CIMKÉK</h4>
+              <BlogTags />
+            </div>
+            <div className="separator-horizontal-full mt-40px"></div>
+            {breakpoints.sm ? null : <BlogSidebar />}
           </div>
-          <div className="separator-horizontal-full"></div>
-          {breakpoints.sm ? null : <BlogSidebar />}
-        </div>
-        <div className="col-12-xs col-9-md col-9-xl blogroll-desktop">
-          <BlogRoll posts={data.allMdx.nodes} />
-          <div className="separator-horizontal-full"></div>
-          <div className="blog-list-footer">
-            <div className="blog-list-footer-buttons">
-              <div className="row">
-                {isFirst ? (
-                  <Icons.ChevronDoubleLeft color="darkGrey" />
-                ) : (
-                  <ButtonIcon
-                    buttonType="icon-text"
-                    className=""
-                    text=""
-                    icon={<Icons.ChevronDoubleLeft color="orange" />}
-                    onClick={() => {
-                      navigate("/blog")
-                    }}
-                  />
-                )}
-                {isFirst ? (
-                  <Icons.ChevronLeft color="darkGrey" />
-                ) : (
-                  <ButtonIcon
-                    buttonType="icon-text"
-                    className=""
-                    text=""
-                    icon={<Icons.ChevronLeft color="orange" />}
-                    onClick={() => {
-                      navigate(`${prevPage}`)
-                    }}
-                  />
-                )}
-              </div>
-              <div>
-                <p>
-                  {pageContext?.currentPage} / {pageContext?.numPages}
-                </p>
-              </div>
-              <div className="row">
-                {isLast ? (
-                  <Icons.ChevronRight color="darkGrey" />
-                ) : (
-                  <ButtonIcon
-                    buttonType="icon-text"
-                    text=""
-                    icon={<Icons.ChevronRight color="orange" />}
-                    onClick={() => {
-                      navigate(`${nextPage}`)
-                    }}
-                  />
-                )}
-                {isLast ? (
-                  <Icons.ChevronDoubleRight color="darkGrey" />
-                ) : (
-                  <ButtonIcon
-                    buttonType="icon-text"
-                    className=""
-                    text=""
-                    icon={<Icons.ChevronDoubleRight color="orange" />}
-                    onClick={() => {
-                      navigate(`/blog/${pageContext?.numPages}`)
-                    }}
-                  />
-                )}
+          <div className="col-12-xs col-9-md col-9-xl blogroll-desktop">
+            <BlogRoll posts={data.allMdx.nodes} />
+            <div className="separator-horizontal-full"></div>
+            <div className="blog-list-footer">
+              <div className="blog-list-footer-buttons">
+                <div className="row">
+                  {isFirst ? (
+                    <Icons.ChevronDoubleLeft color="darkGrey" />
+                  ) : (
+                    <ButtonIcon
+                      buttonType="icon-text"
+                      className=""
+                      text=""
+                      icon={<Icons.ChevronDoubleLeft color="orange" />}
+                      onClick={() => {
+                        navigate("/blog")
+                      }}
+                    />
+                  )}
+                  {isFirst ? (
+                    <Icons.ChevronLeft color="darkGrey" />
+                  ) : (
+                    <ButtonIcon
+                      buttonType="icon-text"
+                      className=""
+                      text=""
+                      icon={<Icons.ChevronLeft color="orange" />}
+                      onClick={() => {
+                        navigate(`${prevPage}`)
+                      }}
+                    />
+                  )}
+                </div>
+                <div>
+                  <p>
+                    {pageContext?.currentPage} / {pageContext?.numPages}
+                  </p>
+                </div>
+                <div className="row">
+                  {isLast ? (
+                    <Icons.ChevronRight color="darkGrey" />
+                  ) : (
+                    <ButtonIcon
+                      buttonType="icon-text"
+                      text=""
+                      icon={<Icons.ChevronRight color="orange" />}
+                      onClick={() => {
+                        navigate(`${nextPage}`)
+                      }}
+                    />
+                  )}
+                  {isLast ? (
+                    <Icons.ChevronDoubleRight color="darkGrey" />
+                  ) : (
+                    <ButtonIcon
+                      buttonType="icon-text"
+                      className=""
+                      text=""
+                      icon={<Icons.ChevronDoubleRight color="orange" />}
+                      onClick={() => {
+                        navigate(`/blog/${pageContext?.numPages}`)
+                      }}
+                    />
+                  )}
+                </div>
               </div>
             </div>
           </div>

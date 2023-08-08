@@ -59,9 +59,10 @@
       order: 2;
     }
   }
+}
 
+.blog-list-wrapper {
   .separator-horizontal-full {
-    margin-top: 40px;
     @include md {
       display: none;
     }

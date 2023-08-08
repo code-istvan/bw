@@ -351,7 +351,7 @@ export default function Mysoreprogram() {
         <div className="row mt-40px mb-20px">
           <Button
             type="button"
-            buttonStyle="btn--primary--solid--full"
+            buttonStyle="btn--primary--solid"
             onClick={() => {
               navigate("/mysore-program-jelentkezes")
             }}
