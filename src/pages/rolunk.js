@@ -34,9 +34,11 @@ export default function Rolunk() {
       </div>
       <div className="row mt-40px">
         <h1>
-          A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket
-          összekötött azon törekvés, hogy tradicionális astanga vinyásza jógát
-          népszerűsítsék, oktassák Magyarországon.
+          A Bandha Works Jógaiskolát{" "}
+          <span className="clr-brand-orange heading heading--1">2013</span>-ban
+          három mérnök alapította, akiket összekötött azon törekvés, hogy
+          tradicionális astanga vinyásza jógát népszerűsítsék, oktassák
+          Magyarországon.
         </h1>
         <p className="mt-20px mb-20px">
           Több mint tíz év elteltével a helyzet mit sem változott, oktatóink

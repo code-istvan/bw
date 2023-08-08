@@ -10,7 +10,6 @@ import Icons from "../components/Icons/Icons"
 import Counter from "../components/Counter"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
 import mysoreFaq from "../data/mysoreFaq.json"
-// import ImageScroller from "../components/ImageScroller"
 import "../sass/pages/_mysoreprogram.scss"
 
 export default function Mysoreprogram() {
@@ -188,9 +187,6 @@ export default function Mysoreprogram() {
             />
           </div>
         </div>
-        {/* <div className="row">
-          <ImageScroller images={images} />
-        </div> */}
         <br />
         <div className="row">
           <p>

@@ -6,11 +6,17 @@ import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
 import Button from "../components/Buttons/Button"
 import { Link } from "gatsby"
+import CustomSelect from "../components/CustomSelect"
 import "../sass/pages/_mysoreprogramjelentkezes.scss"
 
 export default function MysoreprogramJelentkezes() {
   const [email, setEmail] = useState("")
   const [emailConfirm, setEmailConfirm] = useState("")
+  const [selectedValue, setSelectedValue] = useState("")
+  const handleSelectChange = selectedValue => {
+    console.log("Kiválasztott érték:", selectedValue)
+    setSelectedValue(selectedValue)
+  }
 
   return (
     <Layout>
@@ -58,6 +64,12 @@ export default function MysoreprogramJelentkezes() {
                 name="form-name"
                 value="mysore bandhaworks"
               />
+              <input
+                type="hidden"
+                name="selectedOption"
+                value={selectedValue}
+              />
+
               <div hidden>
                 <input name="bot-field" />
               </div>
@@ -137,6 +149,19 @@ export default function MysoreprogramJelentkezes() {
                   </label>
                 </div>
               </div>
+
+              <div className="row">
+                <CustomSelect
+                  options={[
+                    "Teljesen kezdő vagyok",
+                    "Astangáztam már",
+                    "Van Mysore-gyakorlás tapasztalatom",
+                  ]}
+                  onChange={handleSelectChange}
+                  placeholder="Válassz tapasztalati szintet"
+                />
+              </div>
+
               <div className="row massage-wrapper mb-2">
                 <TextArea
                   className="kapcsolat__textarea"
