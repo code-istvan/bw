@@ -19,7 +19,7 @@ export default function Navigation({ isOpen = false, handleOpenMenu }) {
     } else {
       html.style.overflow = "auto"
       body.style.height = "auto"
-      body.style.margin = "inital"
+      body.style.margin = "initial"
     }
   }, [isOpen])
 

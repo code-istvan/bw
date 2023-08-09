@@ -29,7 +29,8 @@
   }
 
   .mobil-menu--closed {
-    opacity: 0 !important;
+    display: none;
+    // opacity: 0 !important;
   }
 
   .nav-item {
@@ -237,7 +238,9 @@
   }
 
   .mobil-menu--closed {
-    opacity: 0;
+    display: none;
+    // opacity: 0;
+    // visibility: hidden;
     -webkit-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
     transition: all 500ms ease-out;
