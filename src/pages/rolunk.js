@@ -128,7 +128,18 @@ export default function Rolunk() {
             nemzetközileg is elismert astanga jóga tanárt láthattunk vendégűl az
             évek során:
           </p>
-          <div className="tesztelek108">
+          <div className="senki">
+            {" "}
+            {guestTeachers.map((person, index) => (
+              <NameCard
+                key={index}
+                name={person.name}
+                country={person.country}
+              />
+            ))}
+          </div>
+          {/* vege */}
+          <div className="tesztelek108 mt-40px">
             <div className="name-card-container">
               {guestTeachers.map((person, index) => (
                 <NameCard
@@ -147,7 +158,8 @@ export default function Rolunk() {
             <p className="mb-20px">
               Az a hatalmas nagy megtiszteltetés ért minket, hogy az új
               jógaiskolán felszentelésénél, a Jois család is tiszteletét tette,{" "}
-              <strong>R. Saraswhathi Jois</strong> személyében.
+              <strong className="clr-brand-orange">R. Saraswhathi Jois</strong>{" "}
+              személyében.
             </p>
             <StaticImage
               className="container"
