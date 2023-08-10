@@ -35,7 +35,7 @@ export default function Ajanlottolvasmanyok() {
         </div>
       </div>
       <div className="tight--desktop--container">
-        <div>
+        <div className="row">
           <blockquote className="mt-40px">
             A jóga 99%-ban gyakorlat és 1%-ban elmélet
           </blockquote>
@@ -50,7 +50,6 @@ export default function Ajanlottolvasmanyok() {
             elsajátításához az alábbi olvasmányokat ajánljuk.
           </p>
         </div>
-
         <div className="row mt-40px mb-20px">
           <h3>Astanga vinyásza jóga</h3>
         </div>

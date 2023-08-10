@@ -114,13 +114,14 @@ const Orarend = ({ data }) => {
                           <p>{dayName}</p>
                           {fullmoon && <Icons.Fullmoon url="/holdnapok" />}
                           {newmoon && <Icons.Newmoon url="/holdnapok" />}
-                          {ekadashi && (
+                          {ekadashi && <Icons.Ekadasi url="/holdnapok" />}
+                          {/* {ekadashi && (
                             <CustomLink
                               link="/holdnapok"
                               title="ekadashi"
                               classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
                             />
-                          )}
+                          )} */}
                         </div>
                         <p>{monthDay}</p>
                       </div>

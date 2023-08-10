@@ -33,7 +33,7 @@ export default function Osztondij() {
         </div>
       </div>
       <div className="osztondij-wrapper">
-        <div className="mt-40px">
+        <div className="row mt-40px">
           <p>
             A jóga mindenki életében gyökeres változásokat hozhat, gyakorlását
             bármely élethelyzetben érdemes elkezdeni. Előfordulhat azonban, hogy

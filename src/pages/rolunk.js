@@ -128,14 +128,16 @@ export default function Rolunk() {
             nemzetközileg is elismert astanga jóga tanárt láthattunk vendégűl az
             évek során:
           </p>
-          <div className="row name-card-container">
-            {guestTeachers.map((person, index) => (
-              <NameCard
-                key={index}
-                name={person.name}
-                country={person.country}
-              />
-            ))}
+          <div className="tesztelek108">
+            <div className="name-card-container">
+              {guestTeachers.map((person, index) => (
+                <NameCard
+                  key={index}
+                  name={person.name}
+                  country={person.country}
+                />
+              ))}
+            </div>
           </div>
           <div className="separator-horizontal mt-40px"></div>
           <div className="row">
