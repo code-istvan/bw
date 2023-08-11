@@ -9,24 +9,30 @@ import "../sass/pages/_rolunk.scss"
 
 export default function Rolunk() {
   const guestTeachers = [
-    { name: "Harmon Slater", country: "CDN" },
-    { name: "Lucia Andrade", country: "BRA" },
-    { name: "David Robson", country: "CDN" },
-    { name: "Russel Case", country: "USA" },
-    { name: "Govinda Kai", country: "USA" },
-    { name: "Laruga Glaser", country: "USA" },
-    { name: "Santina Giardina-Chard", country: "AUS" },
-    { name: "Lakshmisha Bhat", country: "IND" },
-    { name: "Dr. Norman Sjoman", country: "CDN" },
-    { name: "Andrea Drottholm", country: "S" },
-    { name: "R. Saraswathi Jois", country: "IND" },
-    { name: "Sharmila Mahesh", country: "IND" },
+    [
+      { name: "Harmon Slater", country: "CDN" },
+      { name: "Lucia Andrade", country: "BRA" },
+      { name: "David Robson", country: "CDN" },
+      { name: "Russel Case", country: "USA" },
+    ],
+    [
+      { name: "Govinda Kai", country: "USA" },
+      { name: "Laruga Glaser", country: "USA" },
+      { name: "Santina Giardina-Chard", country: "AUS" },
+      { name: "Lakshmisha Bhat", country: "IND" },
+    ],
+    [
+      { name: "Dr. Norman Sjoman", country: "CDN" },
+      { name: "Andrea Drottholm", country: "S" },
+      { name: "R. Saraswathi Jois", country: "IND" },
+      { name: "Sharmila Mahesh", country: "IND" },
+    ],
   ]
 
   return (
     <Layout>
       <Seo title="RÓLUNK" />
-      <div className="">
+      <div className="page-hero-container">
         <div className="row">
           <h1 className="page-hero-title">RÓLUNK</h1>
           <StaticImage
@@ -53,20 +59,17 @@ export default function Rolunk() {
       </div>
       <div className="rolunk-wrapper">
         <div className="row mt-40px">
-          <h1>
-            A Bandha Works Jógaiskolát{" "}
-            <span className="clr-brand-orange heading heading--1">2013</span>
-            -ban három mérnök alapította, akiket összekötött azon törekvés, hogy
-            tradicionális astanga vinyásza jógát népszerűsítsék, oktassák
-            Magyarországon.
-          </h1>
+          <h3 className="font-family-primary clr-brand-orange">
+            A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket
+            összekötött azon törekvés, hogy tradicionális astanga vinyásza jógát
+            népszerűsítsék, oktassák Magyarországon.
+          </h3>
           <p className="mt-20px mb-20px">
             Több mint tíz év elteltével a helyzet mit sem változott, oktatóink
             elkötelezett gyakorlói az irányzatnak, és rendszeresen, az astanga
             jóga fővárosába, a dél-indiai Mysore-ba utaznak, hogy a{" "}
             <strong>paramparából </strong>
-            (tanítói láncolatból) merítve, tovább mélyítsék tudásuk,
-            tapasztalatuk.
+            (tanítói láncolatból) merítve, tovább mélyítsék tudásuk, megértésük.
           </p>
 
           <div className="island-section text-align-center">
@@ -96,13 +99,11 @@ export default function Rolunk() {
           <p className="mb-20px">
             A jógaiskolában tradicionális astanga vinyásza jógát és vinyásza
             krama jógát oktatunk. A Bandha Works specialitása a Magyarországon
-            egyedülálló reggeli Mysore-program, az astanga jóga tanításának
-            eredeti és leghatékonyabb formája. A módszer ötvözi a csoportos órák
-            és az egyéni gyakorlás előnyeit. Lényege, hogy a teremben az összes
-            gyakorló a saját légzésének ritmusára önállóan végzi az ismert és
-            állandó ászanasorozatokat, ezáltal az oktató mindenkinek egyénre
-            szabott igazításokat, utasításokat tud adni, anélkül, hogy ez
-            megzavarná az óra dinamikáját.
+            egyedülálló reggeli astanga Mysore-program, az astanga jóga
+            tanításának eredeti és leghatékonyabb formája. Programunkban,
+            rendszeresen látunk vendégűl nemzetközileg is elismert külföldi
+            astanga jóga tanárokat, akik tovább növelik intézményünkben az
+            oktatás színvonalát.
           </p>
           <p className="mb-20px">
             Azok számára pedig, akik még csak most kezdenek ismerkedni ezzel az
@@ -128,20 +129,27 @@ export default function Rolunk() {
             nemzetközileg is elismert astanga jóga tanárt láthattunk vendégűl az
             évek során:
           </p>
-          <div className="senki">
-            {" "}
-            {guestTeachers.map((person, index) => (
-              <NameCard
-                key={index}
-                name={person.name}
-                country={person.country}
-              />
-            ))}
-          </div>
-          {/* vege */}
-          <div className="tesztelek108 mt-40px">
-            <div className="name-card-container">
-              {guestTeachers.map((person, index) => (
+          <div className="senki-container">
+            <div className="senki">
+              {guestTeachers[0].map((person, index) => (
+                <NameCard
+                  key={index}
+                  name={person.name}
+                  country={person.country}
+                />
+              ))}
+            </div>
+            <div className="senki">
+              {guestTeachers[1].map((person, index) => (
+                <NameCard
+                  key={index}
+                  name={person.name}
+                  country={person.country}
+                />
+              ))}
+            </div>
+            <div className="senki">
+              {guestTeachers[2].map((person, index) => (
                 <NameCard
                   key={index}
                   name={person.name}
