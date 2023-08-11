@@ -135,7 +135,7 @@ export default function Mysoreprogram() {
             alapul szolgál majd az astanga jógarendszerében történő
             továbblépésre. Maga az ászanagyakorlás igen kicsi része a teljes
             rendszernek, viszont nagyon fontos, kihagyhatatlan a „modern”
-            nyugati ember számára, aki az életmódjából fakadóan igencsal
+            nyugati ember számára, aki az életmódjából fakadóan igencsak
             elhanyagolja a fizikai testét.
           </p>
         </div>

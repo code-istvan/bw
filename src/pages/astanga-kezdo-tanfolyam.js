@@ -4,6 +4,20 @@ import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function AstangaKezdoTanfolyam() {
+  const tematika = [
+    "Az astanga jóga eredetének és elméleti hátterének ismertetése",
+    "A helyes légzéstechnika elsajátítás, tisztító gyakorlatok",
+    "A vinyásza rendszer elmélete és gyakorlata",
+    "A trisztána, a gyakorlás három fókusza",
+    "A bandhák, avagy az ászanák mélyebb energetikai rétegei",
+    "Az astanga vinyásza jóga első sorozatának ászanái, púrváttánaszáig, pontos vinyászaszámolással és a hozzájuk tartozó dristikkel. Ahol szükséges, az oktató egyénre szabott módosításokat javasol a hatásos és biztonságos gyakorlás érdekében.",
+    "A hosszú távú gyakorlás felépítése: a vezetett és a Mysore óratípus, illetve az otthoni gyakorlás",
+  ]
+
+  const halfLength = Math.ceil(tematika.length / 2)
+  const firstColumnItems = tematika.slice(0, halfLength)
+  const secondColumnItems = tematika.slice(halfLength)
+
   return (
     <Layout>
       <Seo title="ASTANGA KEZDŐ TANFOLYAM" />
@@ -32,9 +46,72 @@ export default function AstangaKezdoTanfolyam() {
           />
         </div>
       </div>
-
-      <div className="row">
-        <h1>valami</h1>
+      <div className="astanga-kezdo--wrapper">
+        <div className="row">
+          <div className="mt-40px mb-20px">
+            <h3>
+              <strong>
+                Az astanga jóga gyakorlása hatékony és személyre szabott
+                módszer, amely fizikai erőt, rugalmasságot és belső nyugalmat
+                hoz. Az általa kínált folyamatos fejlődés és az oktató-tanítvány
+                kapcsolat lehetőséget ad a mélyebb megértésre és a személyes
+                fejlődésre.
+              </strong>
+            </h3>
+          </div>
+        </div>
+        <div className="row">
+          <p className="mb-20px">
+            Az astanga szanszkrit szó jelentése nyolc ág, Patandzsali
+            nyolclépcsős jógarendszerére utal. Patandzsali Maharishi
+            feltehetőleg az i.e. 2. században élt nagy indiai bölcs volt, aki
+            tömör aforizmákban, nyolc lépcsőből álló módszert dolgozott ki a
+            hatékony testi-lelki fejlődés érdekében.
+          </p>
+          <p className="mb-20px">
+            Az astanga jóga gyakorlását az ászanák gyakorlásával kell kezdeni.
+            Ezen speciális testhelyzetek rendszeres gyakorlásával elérhetjük,
+            hogy testünk erős és rugalmas legyen, ami alapul szolgál majd az
+            astanga jógarendszerében történő továbblépésre.{" "}
+          </p>
+          <p className="mb-20px">
+            Az astanga kezdő tanfolyamunk a résztvevők megismerik a rendszer
+            eredetét és elméleti hátterét. Betekintést nyernek a gyakorlás
+            megkezdésének folyamatába, ami ebben a jógairányzatban az ászanák
+            gyakorlásával indul, vinyásza rendszerben.
+          </p>
+        </div>
+        <div className="row">
+          <h3>A nyolcalkalmas kezdő tanfolyam tematikája:</h3>
+        </div>
+        <div className="row unordered-list-style">
+          <div className="col-12-xs col-6-md">
+            <ul>
+              {firstColumnItems.map((item, index) => (
+                <li key={index}>
+                  <p>{item}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="col-12-xs col-6-md">
+            <ul>
+              {secondColumnItems.map((item, index) => (
+                <li key={index + halfLength}>
+                  <p>{item}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="row">
+          <p>
+            A kezdő tanfolyam folytatása az astanga Mysore-kurzus. Ezen a
+            képzésen a résztvevők megtanulnak Mysore-stílusban gyakorolni és
+            mindenkinek személyre szabjuk az gyakorlását a leghatékonyabb
+            fejlődés érdekében.{" "}
+          </p>
+        </div>
       </div>
     </Layout>
   )
