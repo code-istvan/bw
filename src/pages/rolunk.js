@@ -171,7 +171,7 @@ export default function Rolunk() {
             </p>
             <StaticImage
               className="container"
-              src="../images/fire_ceremony.jpg"
+              src="../images/fire_ceremony.jpeg"
               layout="fullWidth"
               loading="eager"
               quality={95}
