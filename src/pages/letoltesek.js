@@ -33,6 +33,14 @@ export default function Letoltesek() {
     },
   ]
 
+  const posters = [
+    {
+      type: "Táplálkozás",
+      name: "Növényi fehérje források",
+      link: "https://mula.bandha.works/downloads/novenyi_feherje_plakat_a0.pdf",
+    },
+  ]
+
   return (
     <Layout>
       <Seo title="LETÖLTÉSEK" />
@@ -88,6 +96,26 @@ export default function Letoltesek() {
         </div>
         <div className="mt-40px mb-20px">
           <h3>Plakátok</h3>
+        </div>
+        <div className="row">
+          <div className="col unordered-list-style">
+            <ul>
+              {posters &&
+                posters.map(({ type, name, link }) => (
+                  <li key={name}>
+                    <p>
+                      {type}:{" "}
+                      <CustomLink
+                        link={link}
+                        title={name}
+                        classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+                      />{" "}
+                      (.pdf)
+                    </p>
+                  </li>
+                ))}
+            </ul>
+          </div>
         </div>
       </div>
     </Layout>
