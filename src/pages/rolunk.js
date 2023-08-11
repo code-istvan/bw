@@ -33,7 +33,7 @@ export default function Rolunk() {
     <Layout>
       <Seo title="RÓLUNK" />
       <div className="page-hero-container">
-        <div className="row">
+        <div className="row tight--desktop--container">
           <h1 className="page-hero-title">RÓLUNK</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
@@ -57,7 +57,7 @@ export default function Rolunk() {
           />
         </div>
       </div>
-      <div className="rolunk-wrapper">
+      <div className="rolunk-wrapper tight--desktop--container">
         <div className="row mt-40px">
           <h3 className="font-family-primary clr-brand-orange">
             A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket
@@ -71,7 +71,6 @@ export default function Rolunk() {
             <strong>paramparából </strong>
             (tanítói láncolatból) merítve, tovább mélyítsék tudásuk, megértésük.
           </p>
-
           <div className="island-section text-align-center">
             <h3 className="mb-20px clr-brand-orange font-family-primary">
               <strong>PARAMPARA</strong>
@@ -95,7 +94,6 @@ export default function Rolunk() {
               </Button>
             </div>
           </div>
-
           <p className="mb-20px">
             A jógaiskolában tradicionális astanga vinyásza jógát és vinyásza
             krama jógát oktatunk. A Bandha Works specialitása a Magyarországon
@@ -129,35 +127,49 @@ export default function Rolunk() {
             nemzetközileg is elismert astanga jóga tanárt láthattunk vendégűl az
             évek során:
           </p>
-          <div className="senki-container">
-            <div className="senki">
-              {guestTeachers[0].map((person, index) => (
-                <NameCard
-                  key={index}
-                  name={person.name}
-                  country={person.country}
-                />
-              ))}
-            </div>
-            <div className="senki">
-              {guestTeachers[1].map((person, index) => (
-                <NameCard
-                  key={index}
-                  name={person.name}
-                  country={person.country}
-                />
-              ))}
-            </div>
-            <div className="senki">
-              {guestTeachers[2].map((person, index) => (
-                <NameCard
-                  key={index}
-                  name={person.name}
-                  country={person.country}
-                />
-              ))}
-            </div>
+        </div>
+        <div className="guest-teachers-container-mobil">
+          <div className="guest-teachers-mobil">
+            {guestTeachers[0].map((person, index) => (
+              <NameCard
+                key={index}
+                name={person.name}
+                country={person.country}
+              />
+            ))}
           </div>
+          <div className="guest-teachers-mobil">
+            {guestTeachers[1].map((person, index) => (
+              <NameCard
+                key={index}
+                name={person.name}
+                country={person.country}
+              />
+            ))}
+          </div>
+          <div className="guest-teachers-mobil">
+            {guestTeachers[2].map((person, index) => (
+              <NameCard
+                key={index}
+                name={person.name}
+                country={person.country}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="guest-teachers-container-desktop">
+          <div className="guest-teachers-desktop">
+            {guestTeachers.flat().map((person, index) => (
+              <NameCard
+                key={index}
+                name={person.name}
+                country={person.country}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div>
           <div className="separator-horizontal mt-40px"></div>
           <div className="row">
             <h3 className="clr-brand-orange font-family-primary mt-20px mb-20px">
