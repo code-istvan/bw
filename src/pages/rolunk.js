@@ -16,16 +16,16 @@ export default function Rolunk() {
       { name: "Russel Case", country: "USA" },
     ],
     [
-      { name: "Govinda Kai", country: "USA" },
+      { name: "Lakshmisha Bhat", country: "IND" },
       { name: "Laruga Glaser", country: "USA" },
       { name: "Santina Giardina-Chard", country: "AUS" },
-      { name: "Lakshmisha Bhat", country: "IND" },
+      { name: "Govinda Kai", country: "USA" },
     ],
     [
-      { name: "Dr. Norman Sjoman", country: "CDN" },
-      { name: "Andrea Drottholm", country: "S" },
       { name: "R. Saraswathi Jois", country: "IND" },
+      { name: "Andrea Drottholm", country: "S" },
       { name: "Sharmila Mahesh", country: "IND" },
+      { name: "Dr. Norman Sjoman", country: "CDN" },
     ],
   ]
 

@@ -9,27 +9,27 @@ export default function Letoltesek() {
     {
       style: "Astanga vinyásza jóga",
       name: "Jóga csikitsza (első sorozat)",
-      link: "https://bandha.works/downloads/astanga_joga_csikitsza_elso_sorozat.pdf",
+      link: "https://mula.bandha.works/downloads/astanga_joga_csikitsza_elso_sorozat.pdf",
     },
     {
       style: "Astanga vinyásza jóga",
       name: "Nádi sódhana (második sorozat)",
-      link: "https://bandha.works/downloads/astanga_yoga_intermediate_series.pdf",
+      link: "https://mula.bandha.works/downloads/astanga_yoga_intermediate_series.pdf",
     },
     {
       style: "Astanga vinyásza jóga",
       name: "45 perces rutin",
-      link: "https://bandha.works/downloads/astanga_joga_45min.pdf",
+      link: "https://mula.bandha.works/downloads/astanga_joga_45min.pdf",
     },
     {
       style: "Prána vashja jóga",
       name: "Első sorozat",
-      link: "https://bandha.works/downloads/prana_vashya_primary_series.pdf",
+      link: "https://mula.bandha.works/downloads/prana_vashya_primary_series.pdf",
     },
     {
       style: "Prána vashja jóga",
       name: "Második sorozat",
-      link: "https://bandha.works/downloads/prana_vashya_second_series_asana_chart.pdf",
+      link: "https://mula.bandha.works/downloads/prana_vashya_second_series_asana_chart.pdf",
     },
   ]
 
