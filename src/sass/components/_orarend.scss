@@ -9,8 +9,13 @@
 }
 
 .schedule-class-second-line {
+  padding-top: 8px;
+  padding-bottom: 8px;
   .vertical-separator {
     display: none;
+  }
+  h3 {
+    margin-bottom: 4px;
   }
 }
 

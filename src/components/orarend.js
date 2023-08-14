@@ -148,11 +148,11 @@ const Orarend = ({ data }) => {
                             />
                           </div>
                         </div>
-                        <div className="schedule-buy-ticket link-decoration-remove">
+                        <div className="schedule-buy-ticket">
                           <CustomLink
                             link={signup1}
-                            classNames="body clr-brand-orange"
-                            title="Vásárlás"
+                            classNames="body clr-brand-orange link-decoration-remove"
+                            title="Részvétel"
                           />
                         </div>
                       </div>
@@ -184,11 +184,11 @@ const Orarend = ({ data }) => {
                                 />
                               </div>
                             </div>
-                            <div className="schedule-buy-ticket link-decoration-remove">
+                            <div className="schedule-buy-ticket">
                               <CustomLink
                                 link={signup2}
-                                classNames="body clr-brand-orange"
-                                title="Vásárlás"
+                                classNames="body clr-brand-orange link-decoration-remove"
+                                title="Részvétel"
                               />
                             </div>
                           </div>
@@ -221,11 +221,11 @@ const Orarend = ({ data }) => {
                               />
                             </div>
                           </div>
-                          <div className="schedule-buy-ticket link-decoration-remove">
+                          <div className="schedule-buy-ticket">
                             <CustomLink
                               link={signup3}
-                              classNames="body clr-brand-orange"
-                              title="Vásárlás"
+                              classNames="body clr-brand-orange link-decoration-remove"
+                              title="Részvétel"
                             />
                           </div>
                         </div>
@@ -253,11 +253,11 @@ const Orarend = ({ data }) => {
                               />
                             </div>
                           </div>
-                          <div className="schedule-buy-ticket link-decoration-remove">
+                          <div className="schedule-buy-ticket">
                             <CustomLink
                               link={signup4}
-                              classNames="body clr-brand-orange"
-                              title="Vásárlás"
+                              classNames="body clr-brand-orange link-decoration-remove"
+                              title="Részvétel"
                             />
                           </div>
                         </div>
