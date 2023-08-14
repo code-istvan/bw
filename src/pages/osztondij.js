@@ -7,7 +7,7 @@ export default function Osztondij() {
   return (
     <Layout>
       <Seo title="ÖSZTÖNDÍJ" />
-      <div className="page-hero-container">
+      <div className="page-hero-container tight--desktop--container">
         <div className="row">
           <h1 className="page-hero-title">ÖSZTÖNDÍJ</h1>
           <StaticImage
@@ -32,7 +32,7 @@ export default function Osztondij() {
           />
         </div>
       </div>
-      <div className="osztondij-wrapper">
+      <div className="osztondij-wrapper tight--desktop--container">
         <div className="row mt-40px">
           <p>
             A jóga mindenki életében gyökeres változásokat hozhat, gyakorlását
