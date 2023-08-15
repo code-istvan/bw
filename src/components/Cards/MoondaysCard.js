@@ -9,6 +9,10 @@ const MoondaysCard = ({
   ekadashiNewMoon,
   ekadashiFullMoon,
 }) => {
+  const sortedEkadashis = [ekadashiFullMoon, ekadashiNewMoon].sort(
+    (a, b) => parseInt(a) - parseInt(b)
+  )
+
   return (
     <div className="holdnapok-card">
       <div className="holdnapok-card-content">
@@ -44,10 +48,12 @@ const MoondaysCard = ({
           </div>
           <div className="holdnapok-card__body__grid">
             <div className="holdnapok-card__body__grid__leftSide">
-              <p>{ekadashiFullMoon}</p>
+              <p>{sortedEkadashis[0]}</p>{" "}
+              {/* A rendezett értékek közül az első */}
             </div>
             <div>
-              <p>{ekadashiNewMoon}</p>
+              <p>{sortedEkadashis[1]}</p>{" "}
+              {/* A rendezett értékek közül a második */}
             </div>
           </div>
         </div>
