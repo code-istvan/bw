@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react"
 import "../sass/components/_tabs.scss"
 
 const Tabs = ({ tabsData }) => {
-  // 1. A default tabot az URL-ből olvassuk ki
-  const defaultTabFromURL = new URLSearchParams(window.location.search).get(
-    "tab"
-  )
+  const isBrowser = typeof window !== "undefined"
+
+  let defaultTabFromURL
+  if (isBrowser) {
+    defaultTabFromURL = new URLSearchParams(window.location.search).get("tab")
+  }
 
   const defaultTab =
     tabsData.find(tab => tab.id === defaultTabFromURL)?.title ||
@@ -21,22 +23,23 @@ const Tabs = ({ tabsData }) => {
     tab => tab.title === selectedTab
   )?.content
 
-  // 2. Ha változik az URL, akkor az alapértelmezett tabot is változtassuk meg
   useEffect(() => {
-    const handleURLChange = () => {
-      const currentTabFromURL = new URLSearchParams(window.location.search).get(
-        "tab"
-      )
-      const currentTab = tabsData.find(
-        tab => tab.id === currentTabFromURL
-      )?.title
-      if (currentTab) setSelectedTab(currentTab)
-    }
+    if (isBrowser) {
+      const handleURLChange = () => {
+        const currentTabFromURL = new URLSearchParams(
+          window.location.search
+        ).get("tab")
+        const currentTab = tabsData.find(
+          tab => tab.id === currentTabFromURL
+        )?.title
+        if (currentTab) setSelectedTab(currentTab)
+      }
 
-    window.addEventListener("popstate", handleURLChange)
+      window.addEventListener("popstate", handleURLChange)
 
-    return () => {
-      window.removeEventListener("popstate", handleURLChange)
+      return () => {
+        window.removeEventListener("popstate", handleURLChange)
+      }
     }
   }, [tabsData])
 
