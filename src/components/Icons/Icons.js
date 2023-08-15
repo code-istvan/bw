@@ -438,7 +438,7 @@ const Ekadasi = props => {
   ColorSwitch(props.color)
 
   return (
-    <Link to="/holdnapok">
+    <Link to="/holdnapok/?tab=ekadasi">
       <svg
         width="24"
         height="24"
