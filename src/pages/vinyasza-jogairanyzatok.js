@@ -1,4 +1,5 @@
-import React from "react"
+import React, { useState } from "react"
+import { useLocation } from "@reach/router"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
@@ -7,6 +8,13 @@ import Tabs from "../components/Tabs"
 import "../sass/pages/_jogairanzyatok.scss"
 
 export default function Vinyasza() {
+  const location = useLocation()
+
+  const [currentTab, setCurrentTab] = useState(() => {
+    const queryParams = new URLSearchParams(location.search)
+    return queryParams.get("tab") || "astanga" // Default to "holdnapok"
+  })
+
   const tabsData = [
     {
       id: "astanga",
