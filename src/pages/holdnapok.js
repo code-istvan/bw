@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { useLocation } from "@reach/router"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
@@ -10,6 +11,13 @@ import Button from "../components/Buttons/Button"
 import "../sass/pages/_holdnapok.scss"
 
 export default function Holdnapok() {
+  const location = useLocation()
+
+  const [currentTab, setCurrentTab] = useState(() => {
+    const queryParams = new URLSearchParams(location.search)
+    return queryParams.get("tab") || "holdnapok" // Default to "holdnapok"
+  })
+
   const [currentMonthId, setCurrentMonthId] = useState(
     new Date().getMonth() + 1
   )

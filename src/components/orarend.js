@@ -112,16 +112,15 @@ const Orarend = ({ data }) => {
                       <div className="schedule-date-line clr-shades-gray tight--desktop--container">
                         <div>
                           <p>{dayName}</p>
-                          {fullmoon && <Icons.Fullmoon url="/holdnapok" />}
-                          {newmoon && <Icons.Newmoon url="/holdnapok" />}
-                          {ekadashi && <Icons.Ekadasi url="/holdnapok" />}
-                          {/* {ekadashi && (
-                            <CustomLink
-                              link="/holdnapok"
-                              title="eka"
-                              classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
-                            />
-                          )} */}
+                          <div title="Telihold">
+                            {fullmoon && <Icons.Fullmoon />}
+                          </div>
+                          <div title="Újhold">
+                            {newmoon && <Icons.Newmoon />}
+                          </div>
+                          <div title="Ékadashi">
+                            {ekadashi && <Icons.Ekadasi />}
+                          </div>
                         </div>
                         <p>{monthDay}</p>
                       </div>
