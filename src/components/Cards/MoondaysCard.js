@@ -19,16 +19,16 @@ const MoondaysCard = ({
         <div className="holdnapok-card__body">
           <div className="holdnapok-card__body__grid">
             <div className="holdnapok-card__body__grid__leftSide">
-              <h3 className="clr-brand-orange">TELI</h3>
-            </div>
-            <div>
               <h3 className="clr-brand-orange">ÚJ</h3>
             </div>
+            <div>
+              <h3 className="clr-brand-orange">TELI</h3>
+            </div>
             <div className="holdnapok-card__body__grid__leftSide">
-              <p>{fullMoon}</p>
+              <p>{newMoon}</p>
             </div>
             <div>
-              <p>{newMoon}</p>
+              <p>{fullMoon}</p>
             </div>
             {thirdMoon.length === 0 ? null : (
               <div className="holdnapok-card__body__grid__leftSide">
@@ -44,10 +44,10 @@ const MoondaysCard = ({
           </div>
           <div className="holdnapok-card__body__grid">
             <div className="holdnapok-card__body__grid__leftSide">
-              <p>{ekadashiNewMoon}</p>
+              <p>{ekadashiFullMoon}</p>
             </div>
             <div>
-              <p>{ekadashiFullMoon}</p>
+              <p>{ekadashiNewMoon}</p>
             </div>
           </div>
         </div>
