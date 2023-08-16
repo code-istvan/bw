@@ -118,8 +118,8 @@ collections:
           widget: relation,
           collection: "classes",
           value_field: "shortdescription",
-          display_fields: [“classid"],
-          search_fields: ["signup"],
+          display_fields: [“shortdescription"],
+          search_fields: ["classid"],
         }
       - {
           label: Signup1,
