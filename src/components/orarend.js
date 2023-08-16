@@ -132,7 +132,14 @@ const Orarend = ({ data }) => {
                         <div className="schedule-class">
                           <p>{time1}</p>
                           <div className="schedule-class-second-line">
-                            <h3>{class1}</h3>
+                            <div className="signup-line">
+                              <h3>{class1}</h3>
+                              <CustomLink
+                                link={signup1}
+                                classNames="body clr-brand-orange link-decoration-remove"
+                                title="Részvétel"
+                              />
+                            </div>
                             <CustomLink
                               link={teacherlink1}
                               classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
@@ -147,13 +154,6 @@ const Orarend = ({ data }) => {
                             />
                           </div>
                         </div>
-                        <div className="schedule-buy-ticket">
-                          <CustomLink
-                            link={signup1}
-                            classNames="body clr-brand-orange link-decoration-remove"
-                            title="Részvétel"
-                          />
-                        </div>
                       </div>
                     </div>
                     {class2 !== "null" && (
@@ -167,7 +167,14 @@ const Orarend = ({ data }) => {
                             <div className="schedule-class">
                               <p>{time2}</p>
                               <div className="schedule-class-second-line">
-                                <h3>{class2}</h3>
+                                <div className="signup-line">
+                                  <h3>{class2}</h3>
+                                  <CustomLink
+                                    link={signup2}
+                                    classNames="body clr-brand-orange link-decoration-remove"
+                                    title="Részvétel"
+                                  />
+                                </div>
                                 <div className="vertical-separator" />
                                 <CustomLink
                                   link={teacherlink2}
@@ -183,13 +190,6 @@ const Orarend = ({ data }) => {
                                 />
                               </div>
                             </div>
-                            <div className="schedule-buy-ticket">
-                              <CustomLink
-                                link={signup2}
-                                classNames="body clr-brand-orange link-decoration-remove"
-                                title="Részvétel"
-                              />
-                            </div>
                           </div>
                         </div>
                       </div>
@@ -204,7 +204,14 @@ const Orarend = ({ data }) => {
                           <div className="schedule-class">
                             <p>{time3}</p>
                             <div className="schedule-class-second-line">
-                              <h3>{class3}</h3>
+                              <div className="signup-line">
+                                <h3>{class3}</h3>
+                                <CustomLink
+                                  link={signup3}
+                                  classNames="body clr-brand-orange link-decoration-remove"
+                                  title="Részvétel"
+                                />
+                              </div>
                               <div className="vertical-separator" />
                               <CustomLink
                                 link={teacherlink3}
@@ -220,13 +227,6 @@ const Orarend = ({ data }) => {
                               />
                             </div>
                           </div>
-                          <div className="schedule-buy-ticket">
-                            <CustomLink
-                              link={signup3}
-                              classNames="body clr-brand-orange link-decoration-remove"
-                              title="Részvétel"
-                            />
-                          </div>
                         </div>
                       </div>
                     )}
@@ -236,7 +236,14 @@ const Orarend = ({ data }) => {
                           <div className="schedule-class">
                             <p>{time4}</p>
                             <div className="schedule-class-second-line">
-                              <h3>{class4}</h3>
+                              <div className="signup-line">
+                                <h3>{class4}</h3>
+                                <CustomLink
+                                  link={signup4}
+                                  classNames="body clr-brand-orange link-decoration-remove"
+                                  title="Részvétel"
+                                />
+                              </div>
                               <div className="vertical-separator" />
                               <CustomLink
                                 link={teacherlink4}
@@ -251,13 +258,6 @@ const Orarend = ({ data }) => {
                                 className="clr-shades-white span"
                               />
                             </div>
-                          </div>
-                          <div className="schedule-buy-ticket">
-                            <CustomLink
-                              link={signup4}
-                              classNames="body clr-brand-orange link-decoration-remove"
-                              title="Részvétel"
-                            />
                           </div>
                         </div>
                       </div>

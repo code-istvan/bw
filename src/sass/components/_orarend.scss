@@ -19,6 +19,13 @@
   }
 }
 
+.signup-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .schedule-details {
   display: flex;
   flex-flow: row wrap;
@@ -35,13 +42,6 @@
   @include md {
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-}
-
-.schedule-buy-ticket {
-  @include md {
-    display: flex;
-    align-items: center;
   }
 }
 
