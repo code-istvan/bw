@@ -71,14 +71,17 @@ export default function AstangaKezdoTanfolyam() {
           <p className="mb-20px">
             Az astanga jóga gyakorlását az ászanák gyakorlásával kell kezdeni.
             Ezen speciális testhelyzetek rendszeres gyakorlásával elérhetjük,
-            hogy testünk erős és rugalmas legyen, ami alapul szolgál majd az
-            astanga jógarendszerében történő továbblépésre.{" "}
+            hogy testünk erős és rugalmas legyen, elménk nyugodt és
+            kiegyensúlyozott, ami alapul szolgál majd az astanga
+            jógarendszerében történő továbblépésre.{" "}
           </p>
           <p className="mb-20px">
             Az astanga kezdő tanfolyamunk a résztvevők megismerik a rendszer
             eredetét és elméleti hátterét. Betekintést nyernek a gyakorlás
             megkezdésének folyamatába, ami ebben a jógairányzatban az ászanák
-            gyakorlásával indul, vinyásza rendszerben.
+            gyakorlásával indul, vinyásza rendszerben. A kezdő tanfolyamon a fő
+            hangsúly (kb. 90%) az ászanák és a hozzájuk kapcsolódó technikák
+            (pl. hangos légzés, bandhák) helyes és biztonságos gyakorlásán van.
           </p>
         </div>
         <div className="row">
@@ -107,9 +110,12 @@ export default function AstangaKezdoTanfolyam() {
         <div className="row">
           <p>
             A kezdő tanfolyam folytatása az astanga Mysore-kurzus. Ezen a
-            képzésen a résztvevők megtanulnak Mysore-stílusban gyakorolni és
-            mindenkinek személyre szabjuk az gyakorlását a leghatékonyabb
-            fejlődés érdekében.{" "}
+            képzésen a résztvevők megtanulnak Mysore-stílusban és egyénileg,
+            külső segítség nélkül, biztonságosan gyakorolni. Mindenkinek
+            személyre szabjuk az gyakorlását, ami a leghatékonyabb fejlődési
+            ütemet eredményezi. Ezek után a gyakorlók már nem lesznek, helyhez
+            és időhöz kötve, bárhová "elvihetik" a gyakorlást, bármikor
+            végezhetik.
           </p>
         </div>
       </div>
