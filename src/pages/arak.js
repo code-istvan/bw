@@ -56,6 +56,11 @@ export default function Arak() {
                 <td>VÁSÁRLÁS</td>
               </tr>
               <tr>
+                <td>Éves bérlet</td>
+                <td>320.000.- Ft</td>
+                <td>VÁSÁRLÁS</td>
+              </tr>
+              <tr>
                 <td>Éves tagság</td>
                 <td>27.000.- Ft / hó</td>
                 <td>INFO</td>
@@ -123,12 +128,12 @@ export default function Arak() {
             </thead>
             <tr>
               <td>Ászanás gyakorlás</td>
-              <td>10.000.- Ft-tól</td>
+              <td>10.000.- Ft / 60 perc</td>
               <td>JELENTKEZÉS</td>
             </tr>
             <tr>
               <td>Jógikus életmód tanácsadás</td>
-              <td>10.000.- Ft-tól</td>
+              <td>10.000.- Ft / 60 perc</td>
               <td>JELENTKEZÉS</td>
             </tr>
             <tr>
