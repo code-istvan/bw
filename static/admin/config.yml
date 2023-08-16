@@ -118,7 +118,7 @@ collections:
           widget: relation,
           collection: "classes",
           value_field: "shortdescription",
-          display_fields: [“class"],
+          display_fields: [“classid"],
           search_fields: ["signup"],
         }
       - {
@@ -175,7 +175,7 @@ collections:
           widget: relation,
           collection: "classes",
           value_field: "shortdescription",
-          display_fields: [“class"],
+          display_fields: [“classid"],
           search_fields: ["signup"],
         }
       - {
@@ -234,7 +234,7 @@ collections:
           widget: relation,
           collection: "classes",
           value_field: "shortdescription",
-          display_fields: [“class"],
+          display_fields: [“classid"],
           search_fields: ["signup"],
         }
       - {
@@ -293,7 +293,7 @@ collections:
           widget: relation,
           collection: "classes",
           value_field: "shortdescription",
-          display_fields: [“class"],
+          display_fields: [“classid"],
           search_fields: ["signup"],
         }
       - {
