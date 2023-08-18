@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
+import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function AstangaKezdoTanfolyam() {
@@ -109,12 +110,17 @@ export default function AstangaKezdoTanfolyam() {
         </div>
         <div className="row">
           <p>
-            A kezdő tanfolyam folytatása az astanga Mysore-kurzus. Ezen a
-            képzésen a résztvevők megtanulnak Mysore-stílusban és egyénileg,
-            külső segítség nélkül, biztonságosan gyakorolni. Mindenkinek
-            személyre szabjuk az gyakorlását, ami a leghatékonyabb fejlődési
-            ütemet eredményezi. Ezek után a gyakorlók már nem lesznek, helyhez
-            és időhöz kötve, bárhová "elvihetik" a gyakorlást, bármikor
+            A kezdő tanfolyam folytatása az{" "}
+            <CustomLink
+              link="/astanga-mysore-kurzus"
+              title="astanga Mysore-kurzus"
+              classNames="link-decoration-remove"
+            />
+            . Ezen a képzésen a résztvevők megtanulnak Mysore-stílusban és
+            egyénileg, külső segítség nélkül, biztonságosan gyakorolni.
+            Mindenkinek személyre szabjuk az gyakorlását, ami a leghatékonyabb
+            fejlődési ütemet eredményezi. Ezek után a gyakorlók már nem lesznek,
+            helyhez és időhöz kötve, bárhová "elvihetik" a gyakorlást, bármikor
             végezhetik.
           </p>
         </div>

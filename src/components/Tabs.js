@@ -41,7 +41,7 @@ const Tabs = ({ tabsData }) => {
         window.removeEventListener("popstate", handleURLChange)
       }
     }
-  }, [tabsData])
+  }, [tabsData, isBrowser])
 
   return (
     <div className="tabs mt-40px">

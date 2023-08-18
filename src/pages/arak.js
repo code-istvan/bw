@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
+import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
 import "../sass/pages/_arak.scss"
 
@@ -48,29 +49,66 @@ export default function Arak() {
               <tr>
                 <td>Egy alkalom (drop in)</td>
                 <td>4.500.- Ft</td>
-                <td>VÁSÁRLÁS</td>
+                <td>
+                  {" "}
+                  <CustomLink
+                    link="https://shop.bandha.works/products/drop-in-egy-alkalom-astanga-mysore-gyakorlas"
+                    title="VÁSÁRLÁS"
+                    classNames="link-decoration-remove"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Heti bérlet</td>
+                <td>20.000.- Ft</td>
+                <td>
+                  <CustomLink
+                    link="https://shop.bandha.works/products/heti-berlet-astanga-mysore-program"
+                    title="VÁSÁRLÁS"
+                    classNames="link-decoration-remove"
+                  />
+                </td>
               </tr>
               <tr>
                 <td>Havi bérlet</td>
                 <td>34.000.- Ft</td>
-                <td>VÁSÁRLÁS</td>
+                <td>
+                  <CustomLink
+                    link="https://shop.bandha.works/products/havi-berlet-astanga-mysore-program"
+                    title="VÁSÁRLÁS"
+                    classNames="link-decoration-remove"
+                  />
+                </td>
               </tr>
               <tr>
                 <td>Éves bérlet</td>
                 <td>320.000.- Ft</td>
-                <td>VÁSÁRLÁS</td>
+                <td>
+                  {" "}
+                  <CustomLink
+                    link="https://shop.bandha.works/products/eves-berlet-astanga-mysore-program"
+                    title="VÁSÁRLÁS"
+                    classNames="link-decoration-remove"
+                  />
+                </td>
               </tr>
               <tr>
                 <td>Éves tagság</td>
                 <td>27.000.- Ft / hó</td>
-                <td>INFO</td>
+                <td>HAMAROSAN</td>
               </tr>
             </tbody>
           </table>
-          <small className="arak-table-footer">
-            Az Astanga Mysore Programban való részvételhez előzetes regisztráció
-            szükséges! Részletes leírást a Mysore Program oldalán találsz.
-          </small>
+          <p className="arak-table-footer mt-20px">
+            Az astanga Mysore-programban való részvételhez előzetes regisztráció
+            szükséges! Részletes leírást a{" "}
+            <CustomLink
+              link="/mysore-program"
+              title="Mysore-program "
+              classNames="link-decoration-remove"
+            />
+            oldalán találsz.
+          </p>
         </div>
         <div className="row mt-40px mb-40px">
           <h3>Vinyásza Krama Jóga</h3>
@@ -85,12 +123,25 @@ export default function Arak() {
             <tr>
               <td>Egy alkalom (drop in)</td>
               <td>3.500.- Ft</td>
-              <td>VÁSÁRLÁS</td>
+              <td>
+                <CustomLink
+                  link="https://shop.bandha.works/products/egy-alkalom-vinyasza-krama-joga"
+                  title="VÁSÁRLÁS"
+                  classNames="link-decoration-remove"
+                />
+              </td>
             </tr>
             <tr>
               <td>Tíz alkalmas bérlet</td>
               <td>30.000.- Ft</td>
-              <td>VÁSÁRLÁS</td>
+              <td>
+                {" "}
+                <CustomLink
+                  link="https://shop.bandha.works/products/10-alkalmas-berlet-vinyasza-krama-joga"
+                  title="VÁSÁRLÁS"
+                  classNames="link-decoration-remove"
+                />
+              </td>
             </tr>
           </table>
         </div>
@@ -107,12 +158,26 @@ export default function Arak() {
             <tr>
               <td>Kezdő astanga jóga tanfolyam</td>
               <td>30.000.- Ft</td>
-              <td>JELENTKEZÉS</td>
+              <td>
+                {" "}
+                <CustomLink
+                  link="https://shop.bandha.works/products/astanga-kezdo-tanfolyam"
+                  title="JELENTKEZÉS"
+                  classNames="link-decoration-remove"
+                />
+              </td>
             </tr>
             <tr>
               <td>Astanga mysore kurzus</td>
               <td>30.000.- Ft</td>
-              <td>JELENTKEZÉS</td>
+              <td>
+                {" "}
+                <CustomLink
+                  link="https://shop.bandha.works/products/astanga-mysore-kurzus"
+                  title="JELENTKEZÉS"
+                  classNames="link-decoration-remove"
+                />
+              </td>
             </tr>
           </table>
         </div>
@@ -129,17 +194,17 @@ export default function Arak() {
             <tr>
               <td>Ászanás gyakorlás</td>
               <td>10.000.- Ft / 60 perc</td>
-              <td>JELENTKEZÉS</td>
+              <td>HAMAROSAN</td>
             </tr>
             <tr>
               <td>Jógikus életmód tanácsadás</td>
               <td>10.000.- Ft / 60 perc</td>
-              <td>JELENTKEZÉS</td>
+              <td>HAMAROSAN</td>
             </tr>
             <tr>
               <td>Kezdő astanga, négy alkalmas</td>
               <td>60.000.- Ft</td>
-              <td>JELENTKEZÉS</td>
+              <td>HAMAROSAN</td>
             </tr>
           </table>
         </div>
