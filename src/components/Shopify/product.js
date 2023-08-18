@@ -61,13 +61,13 @@ const ProductTemplate = ({ pageContext }) => {
       <div className="shopify--product--wrapper">
         <div className="row shopify--product--header">
           <div className="col-12-xs col-7-md">
-            <GatsbyImage
+            {/* <GatsbyImage
               image={
                 product.featuredMedia.preview.image.localFile
                   .childrenImageSharp[0].gatsbyImageData
               }
               alt={product.title}
-            />
+            /> */}
             <div className="shopify--product--description--desktop">
               <p
                 dangerouslySetInnerHTML={{

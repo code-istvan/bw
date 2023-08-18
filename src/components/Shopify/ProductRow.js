@@ -31,13 +31,13 @@ const ProductRow = ({ item }) => {
     <div className="product-row mt-40px row">
       <div className="product-row--left col-8-xs col-7-md">
         <div className="product-row--image">
-          <GatsbyImage
+          {/* <GatsbyImage
             image={
               product.featuredMedia.preview.image.localFile
                 .childrenImageSharp[0].gatsbyImageData
             }
             alt={product.title}
-          />
+          /> */}
         </div>
         <div className="product-row--title">
           <p>{product.title}</p>
