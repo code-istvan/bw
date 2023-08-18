@@ -54,10 +54,10 @@ export default function Shop() {
                   productPrice={
                     product.node.priceRangeV2.maxVariantPrice.amount
                   }
-                  productImg={
-                    product.node.featuredMedia.preview.image.localFile
-                      .childrenImageSharp[0].gatsbyImageData
-                  }
+                  //   productImg={
+                  //     product.node.featuredMedia.preview.image.localFile
+                  //       .childrenImageSharp[0].gatsbyImageData
+                  //   }
                   productHandle={`/shop/products/${product.node.handle}`}
                 />
               </article>
