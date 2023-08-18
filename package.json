@@ -51,7 +51,7 @@
     "remark-footnotes": "^1.0.0",
     "remark-gfm": "^3.0.1",
     "remark-rehype": "^10.1.0",
-    "sass": "^1.62.1",
+    "sass": "^1.66.1",
     "sharp": "^0.32.5",
     "shopify-buy": "^2.20.1"
   },
