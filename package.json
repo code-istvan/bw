@@ -18,7 +18,7 @@
     "gatsby-plugin-gdpr-cookies": "^2.0.9",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-loadable-components-ssr": "^4.3.2",
-    "gatsby-plugin-manifest": "^5.9.0",
+    "gatsby-plugin-manifest": "^5.11.0",
     "gatsby-plugin-mdx": "^5.9.0",
     "gatsby-plugin-netlify-cms": "^7.9.0",
     "gatsby-plugin-nprogress": "^5.9.0",
