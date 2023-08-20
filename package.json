@@ -35,7 +35,7 @@
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-source-shopify": "^8.9.0",
     "gatsby-transformer-json": "^5.11.0",
-    "gatsby-transformer-sharp": "^5.9.0",
+    "gatsby-transformer-sharp": "^5.11.0",
     "gbimage-bridge": "^0.2.2",
     "google-map-react": "^2.2.1",
     "isomorphic-fetch": "^3.0.0",
