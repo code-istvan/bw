@@ -1,8 +1,8 @@
-import React from "react"
-import { StoreProvider } from "./StoreContext"
+// import React from "react"
+// import { StoreProvider } from "./StoreContext"
 
-const CombinedProvider = ({ element }) => {
-  return <StoreProvider>{element}</StoreProvider>
-}
+// const CombinedProvider = ({ element }) => {
+//   return <StoreProvider>{element}</StoreProvider>
+// }
 
-export default CombinedProvider
+// export default CombinedProvider

@@ -188,15 +188,15 @@ const config = {
         // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: "gatsby-source-shopify",
-      options: {
-        password: process.env.SHOPIFY_APP_PASSWORD,
-        storeUrl: process.env.GATSBY_MYSHOPIFY_URL,
-        salesChannel: process.env.SHOPIFY_APP_ID, // Optional but recommended
-        downloadImages: true,
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-shopify",
+    //   options: {
+    //     password: process.env.SHOPIFY_APP_PASSWORD,
+    //     storeUrl: process.env.GATSBY_MYSHOPIFY_URL,
+    //     salesChannel: process.env.SHOPIFY_APP_ID, // Optional but recommended
+    //     downloadImages: true,
+    //   },
+    // },
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
