@@ -4,6 +4,8 @@ import Seo from "../components/seo"
 import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
+import AccordionFaq from "../components/Accordions/AccordionFaq"
+import kezdoFaq from "../data/kezdoFaq.json"
 import "../sass/pages/_astangaKezdoTanfolyam.scss"
 
 export default function AstangaKezdoTanfolyam() {
@@ -21,6 +23,36 @@ export default function AstangaKezdoTanfolyam() {
 
   const firstColumnItems = tematika.slice(0, 5)
   const secondColumnItems = tematika.slice(5)
+
+  const hasznosOlvasmanyok = [
+    {
+      link: "/blog/david-garrigues-gyenge-testben-erotlen-lelek/",
+      title: "Gyenge testben erőtlen lélek",
+      classNames:
+        "body link-decoration-remove clr-brand-orange schedule-teacher",
+    },
+
+    {
+      link: "/blog/astanga-joga-segit-a-noknek-hogy-erosebbek-legyenek/",
+      title: "Astanga jóga: „Segít a nőknek, hogy erősebbek legyenek”",
+      classNames:
+        "body link-decoration-remove clr-brand-orange schedule-teacher",
+    },
+
+    {
+      link: "/blog/5-dolog-amit-az-uj-gyakorloknak-erdemes-megtanulnia/",
+      title: "5 dolog amit az új gyakorlóknak érdemes megtanulnia",
+      classNames:
+        "body link-decoration-remove clr-brand-orange schedule-teacher",
+    },
+    {
+      link: "/blog/sharath-jois-arrol-hogy-miben-nyujt-tobbet-egy-helyi-shala-mint-egy-hagyomanyos-edzes/",
+      title:
+        "Sharath Jois arról, hogy miben nyújt többet egy helyi Shala mint egy hagyományos edzés",
+      classNames:
+        "body link-decoration-remove clr-brand-orange schedule-teacher",
+    },
+  ]
 
   return (
     <Layout>
@@ -160,7 +192,17 @@ export default function AstangaKezdoTanfolyam() {
             végezhetik.
           </p>
         </div>
-
+        <div className="row">
+          <div className="mb-20px mt-20px">
+            <h3>Gyakran ismételt kérdések</h3>
+          </div>{" "}
+          <div className="row">
+            {kezdoFaq &&
+              kezdoFaq.map(({ question, answer }) => (
+                <AccordionFaq question={question} answer={answer} />
+              ))}
+          </div>
+        </div>
         <div className="row mt-20px">
           <div className="col-12-xs">
             <StaticImage
@@ -174,6 +216,22 @@ export default function AstangaKezdoTanfolyam() {
               placeholder="blurred"
             />
           </div>
+        </div>
+        <div className="row unordered-list-style mt-20px">
+          <h3>Hasznos olvasmányok az astanga-gyakorlásról:</h3>
+          <ul>
+            {hasznosOlvasmanyok.map((link, index) => (
+              <li key={index}>
+                <p>
+                  <CustomLink
+                    link={link.link}
+                    title={link.title}
+                    classNames={link.classNames}
+                  />
+                </p>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </Layout>
