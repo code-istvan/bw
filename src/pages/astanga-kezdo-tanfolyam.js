@@ -3,8 +3,10 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 export default function AstangaKezdoTanfolyam() {
+  const breakpoints = useBreakpoint()
   const tematika = [
     "Az astanga jóga eredetének és elméleti hátterének ismertetése",
     "A helyes légzéstechnika elsajátítás, tisztító gyakorlatok",
@@ -15,15 +17,14 @@ export default function AstangaKezdoTanfolyam() {
     "A hosszú távú gyakorlás felépítése: a vezetett és a Mysore óratípus, illetve az otthoni gyakorlás",
   ]
 
-  const halfLength = Math.ceil(tematika.length / 2)
-  const firstColumnItems = tematika.slice(0, halfLength)
-  const secondColumnItems = tematika.slice(halfLength)
+  const firstColumnItems = tematika.slice(0, 5)
+  const secondColumnItems = tematika.slice(5)
 
   return (
     <Layout>
       <Seo title="ASTANGA KEZDŐ TANFOLYAM" />
       <div className="page-hero-container">
-        <div className="row">
+        <div className="row tight--desktop--container">
           <h1 className="page-hero-title">ASTANGA KEZDŐ TANFOLYAM</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
@@ -47,7 +48,7 @@ export default function AstangaKezdoTanfolyam() {
           />
         </div>
       </div>
-      <div className="astanga-kezdo--wrapper">
+      <div className="astanga-kezdo--wrapper tight--desktop--container">
         <div className="row">
           <div className="mt-40px mb-20px">
             <h3>
@@ -76,6 +77,37 @@ export default function AstangaKezdoTanfolyam() {
             kiegyensúlyozott, ami alapul szolgál majd az astanga
             jógarendszerében történő továbblépésre.{" "}
           </p>
+        </div>
+
+        <div className="row image-track-3 mb-20px">
+          <div className="col-12-xs">
+            {breakpoints.md ? (
+              <StaticImage
+                className=""
+                src="../images/akt1.jpg"
+                layout="fullWidth"
+                loading="eager"
+                quality={95}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="Astanga kezdő tanfolyam"
+                placeholder="blurred"
+              />
+            ) : (
+              <StaticImage
+                className=""
+                src="../images/akt_big.jpg"
+                layout="fullWidth"
+                loading="eager"
+                quality={95}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="Astanga kezdő tanfolyam"
+                placeholder="blurred"
+              />
+            )}
+          </div>
+        </div>
+
+        <div className="row">
           <p className="mb-20px">
             Az astanga kezdő tanfolyamunk a résztvevők megismerik a rendszer
             eredetét és elméleti hátterét. Betekintést nyernek a gyakorlás
@@ -101,7 +133,7 @@ export default function AstangaKezdoTanfolyam() {
           <div className="col-12-xs col-6-md">
             <ul>
               {secondColumnItems.map((item, index) => (
-                <li key={index + halfLength}>
+                <li key={index}>
                   <p>{item}</p>
                 </li>
               ))}
