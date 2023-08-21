@@ -4,9 +4,11 @@ import Seo from "../components/seo"
 import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
+import "../sass/pages/_astangaKezdoTanfolyam.scss"
 
 export default function AstangaKezdoTanfolyam() {
   const breakpoints = useBreakpoint()
+
   const tematika = [
     "Az astanga jóga eredetének és elméleti hátterének ismertetése",
     "A helyes légzéstechnika elsajátítás, tisztító gyakorlatok",
@@ -79,34 +81,30 @@ export default function AstangaKezdoTanfolyam() {
           </p>
         </div>
 
-        <div className="row image-track-3 mb-20px">
+        <div className="row mb-20px">
           <div className="col-12-xs">
-            {breakpoints.md ? (
-              <StaticImage
-                className=""
-                src="../images/akt1.jpg"
-                layout="fullWidth"
-                loading="eager"
-                quality={95}
-                formats={["AUTO", "WEBP", "AVIF"]}
-                alt="Astanga kezdő tanfolyam"
-                placeholder="blurred"
-              />
-            ) : (
-              <StaticImage
-                className=""
-                src="../images/akt_big.jpg"
-                layout="fullWidth"
-                loading="eager"
-                quality={95}
-                formats={["AUTO", "WEBP", "AVIF"]}
-                alt="Astanga kezdő tanfolyam"
-                placeholder="blurred"
-              />
-            )}
+            <StaticImage
+              className="page-mobil-image"
+              src="../images/akt1.jpg"
+              layout="fullWidth"
+              loading="eager"
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Astanga kezdő tanfolyam"
+              placeholder="blurred"
+            />
+            <StaticImage
+              className="page-big-image"
+              src="../images/akt_big.jpg"
+              layout="fullWidth"
+              loading="eager"
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Astanga kezdő tanfolyam"
+              placeholder="blurred"
+            />
           </div>
         </div>
-
         <div className="row">
           <p className="mb-20px">
             Az astanga kezdő tanfolyamunk a résztvevők megismerik a rendszer
@@ -120,7 +118,13 @@ export default function AstangaKezdoTanfolyam() {
         <div className="row">
           <h3>A nyolcalkalmas kezdő tanfolyam tematikája:</h3>
         </div>
-        <div className="row unordered-list-style">
+        <div
+          className={
+            breakpoints.md
+              ? "row unordered-list-style mb-20px"
+              : "row unordered-list-style mb-20px gap-1"
+          }
+        >
           <div className="col-12-xs col-6-md">
             <ul>
               {firstColumnItems.map((item, index) => (
@@ -130,7 +134,7 @@ export default function AstangaKezdoTanfolyam() {
               ))}
             </ul>
           </div>
-          <div className="col-12-xs col-6-md">
+          <div className="col-12-xs col-6-md jakika">
             <ul>
               {secondColumnItems.map((item, index) => (
                 <li key={index}>
@@ -155,6 +159,21 @@ export default function AstangaKezdoTanfolyam() {
             helyhez és időhöz kötve, bárhová "elvihetik" a gyakorlást, bármikor
             végezhetik.
           </p>
+        </div>
+
+        <div className="row mt-20px">
+          <div className="col-12-xs">
+            <StaticImage
+              className=""
+              src="../images/bandhami.jpg"
+              layout="fullWidth"
+              loading="eager"
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Astanga kezdő tanfolyam"
+              placeholder="blurred"
+            />
+          </div>
         </div>
       </div>
     </Layout>
