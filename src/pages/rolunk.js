@@ -10,7 +10,7 @@ import "../sass/pages/_rolunk.scss"
 export default function Rolunk() {
   const guestTeachers = [
     [
-      { name: "Harmon Slater", country: "CDN" },
+      { name: "Harmony Slater", country: "CDN" },
       { name: "Lucia Andrade", country: "BRA" },
       { name: "David Robson", country: "CDN" },
       { name: "Russel Case", country: "USA" },
@@ -61,8 +61,8 @@ export default function Rolunk() {
         <div className="row mt-40px">
           <h3 className="font-family-primary clr-brand-orange">
             A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket
-            összekötött azon törekvés, hogy tradicionális astanga vinyásza jógát
-            népszerűsítsék, oktassák Magyarországon.
+            összekötött azon törekvés, hogy a tradicionális astanga vinyásza
+            jógát népszerűsítsék, oktassák Magyarországon.
           </h3>
           <p className="mt-20px mb-20px">
             Több mint tíz év elteltével a helyzet mit sem változott, oktatóink
@@ -99,7 +99,7 @@ export default function Rolunk() {
             krama jógát oktatunk. A Bandha Works specialitása a Magyarországon
             egyedülálló reggeli astanga Mysore-program, az astanga jóga
             tanításának eredeti és leghatékonyabb formája. Programunkban,
-            rendszeresen látunk vendégűl nemzetközileg is elismert külföldi
+            rendszeresen látunk vendégül nemzetközileg is elismert külföldi
             astanga jóga tanárokat, akik tovább növelik intézményünkben az
             oktatás színvonalát.
           </p>
@@ -124,7 +124,7 @@ export default function Rolunk() {
           </h3>
           <p className="mb-20px">
             Abban a nagy megtiszteltetésben volt részünk, hogy rengeteg
-            nemzetközileg is elismert astanga jóga tanárt láthattunk vendégűl az
+            nemzetközileg is elismert astanga jóga tanárt láthattunk vendégül az
             évek során:
           </p>
         </div>
@@ -177,7 +177,7 @@ export default function Rolunk() {
             </h3>
             <p className="mb-20px">
               Az a hatalmas nagy megtiszteltetés ért minket, hogy az új
-              jógaiskolán felszentelésénél, a Jois család is tiszteletét tette,{" "}
+              jógaiskolánk felszentelésénél, a Jois család is tiszteletét tette,{" "}
               <strong className="clr-brand-orange">R. Saraswhathi Jois</strong>{" "}
               személyében.
             </p>

@@ -42,11 +42,11 @@ export default function Messagesent() {
             </h3>
             <p>Az általad elküldött üzenet megérkezett szerverünkre!</p>
             <p className="mt-20px">
-              Csapatunk az elkövetkező munkanapokon - általába 24-48 órán belül
-              - feldolgozza az üzeneted, hamarosan válaszolunk.
+              Csapatunk az elkövetkező munkanapokon - általában 24-48 órán belül
+              - feldolgozza az üzeneted hamarosan válaszolunk.
             </p>
             <p className="mt-20px">
-              Ha munkanapokon 48 órán belűl nem kapsz választ, akkor lehet, hogy{" "}
+              Ha munkanapokon 48 órán belül nem kapsz választ, akkor lehet, hogy{" "}
               <strong>
                 <u>rosszul adtad meg</u>
               </strong>{" "}
@@ -57,7 +57,7 @@ export default function Messagesent() {
               landolt a válaszunk!
             </p>
             <div className="separator-horizontal mt-20px"></div>
-            <h3 className="clr-brand-orange">Hol az email címünk?</h3>
+            <h3 className="clr-brand-orange">Hol az e-mail címünk?</h3>
             <p className="mt-20px">
               A weboldalunkon a biztonság és adatvédelem kiemelt prioritást
               élvez. Ennek érdekében, hogy elkerüljük a nem kívánt spam
@@ -71,10 +71,10 @@ export default function Messagesent() {
             </p>
             <p className="mt-20px">
               Ha továbbra is problémába ütközne a kapcsolatfelvétel irányunkban
-              a honlapon keresztűl, akkor kérünk írjál facebook üzenetet
-              részünkre (lásd. lábléc), vagy gyere el személyesen (ez a
-              tradicionális útja a kapcsolatfelvételnek a jóga világában)
-              hozzánk! Köszönjük!
+              a honlapon keresztül, akkor kérünk írjál facebook üzenetet
+              részünkre (lásd. lábléc), vagy gyere el személyesen hozzánk! Ez a
+              tradicionális útja a kapcsolatfelvételnek a jóga világában.
+              Köszönjük!
             </p>
           </div>
 
