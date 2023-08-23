@@ -5,6 +5,7 @@ import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
+import Button from "../components/Buttons/Button"
 import kezdoFaq from "../data/kezdoFaq.json"
 import "../sass/pages/_astangaKezdoTanfolyam.scss"
 
@@ -203,6 +204,48 @@ export default function AstangaKezdoTanfolyam() {
               ))}
           </div>
         </div>
+        <div className="island-section">
+          <h3 className="mb-20px clr-brand-orange font-family-primary">
+            <strong>JELENTKEZÉS</strong>
+          </h3>
+          <p>
+            <strong>Tanfolyam kezdete:</strong> 2023. szeptember 5. (kedd)
+            19:00.{" "}
+          </p>
+          <p>
+            <strong>Tanfolyami napok:</strong> kedd és péntek 19:00-20:30., 4
+            hét, 8 alkalom.
+          </p>
+          <p>
+            <strong>Oktató:</strong> Szalai István, KPJAYI Authorized Level 1
+          </p>
+          <p>
+            <strong>Helyszín:</strong> Bandha Works Jógaiskola
+          </p>
+          <p>
+            <strong>A tanfolyam költsége:</strong> 30.000 Ft
+          </p>
+          <br />
+          <p>
+            A tanfolyamra a részvételi díj kiegyenlítésével tudsz jelentkezni.
+          </p>
+          <div className="mt-20px">
+            <Button
+              type="button"
+              buttonStyle="btn--primary--solid"
+              onClick={() => {
+                window.open(
+                  "https://shop.bandha.works/products/astanga-kezdo-tanfolyam",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }}
+            >
+              Jelentkezem
+            </Button>
+          </div>
+        </div>
+
         <div className="row mt-20px">
           <div className="col-12-xs">
             <StaticImage
