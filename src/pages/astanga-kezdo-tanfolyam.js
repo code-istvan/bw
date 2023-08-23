@@ -217,10 +217,21 @@ export default function AstangaKezdoTanfolyam() {
             hét, 8 alkalom.
           </p>
           <p>
-            <strong>Oktató:</strong> Szalai István, KPJAYI Authorized Level 1
+            <strong>Oktató:</strong>{" "}
+            <CustomLink
+              link="/szalai-istvan"
+              title="Szalai István"
+              classNames="link-decoration-remove"
+            />
+            , KPJAYI Authorized Level 1
           </p>
           <p>
-            <strong>Helyszín:</strong> Bandha Works Jógaiskola
+            <strong>Helyszín:</strong>{" "}
+            <CustomLink
+              link="/kapcsolat"
+              title="Bandha Works Jógaiskola"
+              classNames="link-decoration-remove"
+            />
           </p>
           <p>
             <strong>A tanfolyam költsége:</strong> 30.000 Ft
@@ -250,7 +261,7 @@ export default function AstangaKezdoTanfolyam() {
           <div className="col-12-xs">
             <StaticImage
               className=""
-              src="../images/bandhami.jpg"
+              src="../images/bandhami.jpeg"
               layout="fullWidth"
               loading="eager"
               quality={95}
