@@ -176,9 +176,10 @@ export default function Rolunk() {
               2018 április 18.
             </h3>
             <p className="mb-20px">
-              Az a hatalmas nagy megtiszteltetés ért minket, hogy az új
-              jógaiskolánk felszentelésénél, a Jois család is tiszteletét tette,{" "}
-              <strong className="clr-brand-orange">R. Saraswhathi Jois</strong>{" "}
+              Az új jógaiskolánk felszentelésénél abban a különleges áldásban
+              részesültünk, hogy az ünnepségen a <strong>Jois</strong> család is
+              tiszteletét tette,
+              <strong className="clr-brand-orange"> R. Saraswathi Jois</strong>
               személyében.
             </p>
             <StaticImage
