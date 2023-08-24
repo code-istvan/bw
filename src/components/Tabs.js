@@ -47,15 +47,21 @@ const Tabs = ({ tabsData }) => {
     <div className="tabs mt-40px">
       <div className="tabs__header mb-20px">
         {tabsData.map((tab, index) => (
-          <h3
+          <button
             key={index}
             className={`tabs__label ${
               selectedTab === tab.title ? "active" : "not-active"
             }`}
             onClick={() => handleTabSelect(tab.title)}
+            onKeyDown={e => {
+              if (e.key === "Enter" || e.key === " ") {
+                handleTabSelect(tab.title)
+                e.preventDefault() // Megelőzzük az alapértelmezett space eseményt
+              }
+            }}
           >
             {tab.title}
-          </h3>
+          </button>
         ))}
       </div>
       <div className="tabs__content">{selectedTabContent}</div>
