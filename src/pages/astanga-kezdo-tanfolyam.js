@@ -14,12 +14,12 @@ export default function AstangaKezdoTanfolyam() {
 
   const tematika = [
     "Az astanga jóga eredetének és elméleti hátterének ismertetése",
-    "A helyes légzéstechnika elsajátítás, tisztító gyakorlatok",
+    "A helyes légzéstechnika elsajátítása, tisztító gyakorlatok",
     "A vinyásza rendszer elmélete és gyakorlata",
-    "A trisztána, a gyakorlás három fókusza",
+    "A triszthána, a gyakorlás három fókusza",
     "A bandhák, avagy az ászanák mélyebb energetikai rétegei",
-    "Az astanga vinyásza jóga első sorozatának ászanái, púrváttánaszáig, pontos vinyászaszámolással és a hozzájuk tartozó dristikkel. Ahol szükséges, az oktató egyénre szabott módosításokat javasol a hatásos és biztonságos gyakorlás érdekében.",
-    "A hosszú távú gyakorlás felépítése: a vezetett és a Mysore óratípus, illetve az otthoni gyakorlás",
+    "Az astanga vinyásza jóga első sorozatának ászanái, púrvóttánászanáig, pontos vinyászaszámolással és a hozzájuk tartozó dristikkel. Ahol szükséges, az oktató egyénre szabott módosításokat javasol a hatásos és biztonságos gyakorlás érdekében.",
+    "A hosszú távú gyakorlás felépítése: a vezetett és a Mysore-óratípus, illetve az otthoni gyakorlás",
   ]
 
   const firstColumnItems = tematika.slice(0, 5)
@@ -106,7 +106,7 @@ export default function AstangaKezdoTanfolyam() {
             hatékony testi-lelki fejlődés érdekében.
           </p>
           <p className="mb-20px">
-            Az astanga jóga gyakorlását az ászanák gyakorlásával kell kezdeni.
+            Az astanga jóga gyakorlását az ászanák elsajátításával kell kezdeni.
             Ezen speciális testhelyzetek rendszeres gyakorlásával elérhetjük,
             hogy testünk erős és rugalmas legyen, elménk nyugodt és
             kiegyensúlyozott, ami alapul szolgál majd az astanga
@@ -140,16 +140,17 @@ export default function AstangaKezdoTanfolyam() {
         </div>
         <div className="row">
           <p className="mb-20px">
-            Az astanga kezdő tanfolyamunk a résztvevők megismerik a rendszer
+            Az astanga kezdő tanfolyamon a résztvevők megismerik a rendszer
             eredetét és elméleti hátterét. Betekintést nyernek a gyakorlás
             megkezdésének folyamatába, ami ebben a jógairányzatban az ászanák
             gyakorlásával indul, vinyásza rendszerben. A kezdő tanfolyamon a fő
             hangsúly (kb. 90%) az ászanák és a hozzájuk kapcsolódó technikák
-            (pl. hangos légzés, bandhák) helyes és biztonságos gyakorlásán van.
+            (pl. hangos légzés, bandhák) helyes és biztonságos elsajátításán
+            van.
           </p>
         </div>
         <div className="row">
-          <h3>A nyolcalkalmas kezdő tanfolyam tematikája:</h3>
+          <h3>A nyolc alkalmas kezdő tanfolyam tematikája:</h3>
         </div>
         <div
           className={
@@ -187,7 +188,7 @@ export default function AstangaKezdoTanfolyam() {
             />
             . Ezen a képzésen a résztvevők megtanulnak Mysore-stílusban és
             egyénileg, külső segítség nélkül, biztonságosan gyakorolni.
-            Mindenkinek személyre szabjuk az gyakorlását, ami a leghatékonyabb
+            Mindenkinek személyre szabjuk a gyakorlását, ami a leghatékonyabb
             fejlődési ütemet eredményezi. Ezek után a gyakorlók már nem lesznek,
             helyhez és időhöz kötve, bárhová "elvihetik" a gyakorlást, bármikor
             végezhetik.
