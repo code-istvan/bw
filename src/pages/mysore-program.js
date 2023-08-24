@@ -190,8 +190,8 @@ export default function Mysoreprogram() {
         <br />
         <div className="row">
           <p>
-            Az astanga vinyásza jógában az ászanákat tradicionálisan Mysore
-            (ejtsd: májszor) -stílusban oktatják. A módszer ötvözi a csoportos
+            Az astanga vinyásza jógában az ászanákat tradicionálisan Mysore-
+            (ejtsd: májszor) stílusban oktatják. A módszer ötvözi a csoportos
             vezetett órák és az egyéni gyakorlás előnyeit. Lényege, hogy a
             teremben az összes gyakorló a saját légzésének ritmusára önállóan
             végzi a sorozatot, ezáltal az oktató mindenkinek egyénre szabott
