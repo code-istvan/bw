@@ -19,9 +19,26 @@ const CustomSelect = ({
     if (onChange) onChange(option)
   }
 
+  const handleKeyDown = (event, option) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault()
+      if (option) {
+        selectOption(option)
+      } else {
+        toggleOpen()
+      }
+    }
+  }
+
   return (
     <div className="custom-select">
-      <div className="select-selected" onClick={toggleOpen}>
+      <div
+        tabIndex="0"
+        role="button"
+        className="select-selected"
+        onClick={toggleOpen}
+        onKeyDown={handleKeyDown}
+      >
         {selectedOption}
         <span className={`select-arrow ${isOpen ? "select-arrow-active" : ""}`}>
           {" "}
@@ -32,7 +49,14 @@ const CustomSelect = ({
           {options.map((option, index) =>
             selectedOption !== placeholder &&
             option === selectedOption ? null : (
-              <div key={index} onClick={() => selectOption(option)}>
+              <div
+                key={index}
+                tabIndex="0"
+                role="option"
+                aria-selected={option === selectedOption}
+                onClick={() => selectOption(option)}
+                onKeyDown={e => handleKeyDown(e, option)}
+              >
                 {option}
               </div>
             )

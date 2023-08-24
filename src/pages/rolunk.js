@@ -179,7 +179,7 @@ export default function Rolunk() {
               Az új jógaiskolánk felszentelésénél abban a különleges áldásban
               részesültünk, hogy az ünnepségen a <strong>Jois</strong> család is
               tiszteletét tette,
-              <strong className="clr-brand-orange"> R. Saraswathi Jois</strong>
+              <strong className="clr-brand-orange"> R. Saraswathi Jois </strong>
               személyében.
             </p>
             <StaticImage
