@@ -1,5 +1,4 @@
 import React, { useEffect } from "react"
-import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import LogoBW from "./LogoBW"
 import LogoBWtext from "./LogoBWtext"
 import NavbarMenu from "./NavbarMenu"
@@ -7,8 +6,6 @@ import Hamburger from "./Hamburger"
 import "../../sass/components/_navigation.scss"
 
 export default function Navigation({ isOpen = false, handleOpenMenu }) {
-  const breakpoints = useBreakpoint()
-
   useEffect(() => {
     const html = document.querySelector("html")
     const body = document.querySelector("body")
@@ -23,14 +20,6 @@ export default function Navigation({ isOpen = false, handleOpenMenu }) {
     }
   }, [isOpen])
 
-  useEffect(() => {
-    if (!breakpoints.sm && handleOpenMenu) {
-      if (isOpen) {
-        handleOpenMenu()
-      }
-    }
-  }, [breakpoints])
-
   return (
     <nav className="navigation">
       <div className="container-fluid p-0 navbar-box">
@@ -39,7 +28,17 @@ export default function Navigation({ isOpen = false, handleOpenMenu }) {
           <LogoBWtext />
         </a>
         {/*// eslint-disable-next-line jsx-a11y/aria-role */}
-        <div onClick={handleOpenMenu}>
+        <div
+          onClick={handleOpenMenu}
+          onKeyDown={e => {
+            if (e.key === "Enter" || e.key === " ") {
+              handleOpenMenu()
+            }
+          }}
+          role="button"
+          tabIndex="0"
+          aria-label="Hamburger menu toggle"
+        >
           <Hamburger open={isOpen} />
         </div>
       </div>
