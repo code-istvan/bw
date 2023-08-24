@@ -47,7 +47,7 @@ const Tabs = ({ tabsData }) => {
     <div className="tabs mt-40px">
       <div className="tabs__header mb-20px">
         {tabsData.map((tab, index) => (
-          <button
+          <h3
             key={index}
             className={`tabs__label ${
               selectedTab === tab.title ? "active" : "not-active"
@@ -56,12 +56,14 @@ const Tabs = ({ tabsData }) => {
             onKeyDown={e => {
               if (e.key === "Enter" || e.key === " ") {
                 handleTabSelect(tab.title)
-                e.preventDefault() // Megelőzzük az alapértelmezett space eseményt
+                e.preventDefault()
               }
             }}
+            tabIndex="0"
+            aria-label={`Váltás a(z) ${tab.title} fülre`} // Hozzáadva az aria-label attribútum
           >
             {tab.title}
-          </button>
+          </h3>
         ))}
       </div>
       <div className="tabs__content">{selectedTabContent}</div>
