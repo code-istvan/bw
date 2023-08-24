@@ -79,6 +79,7 @@ const NavbarMenu = ({ open, setOpen }) => {
               <a
                 className="nav-link"
                 target="_blank"
+                rel="noopener noreferrer"
                 href={link}
                 onClick={() => setOpen(false)}
               >
