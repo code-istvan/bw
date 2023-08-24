@@ -73,7 +73,7 @@ export default function Mantra() {
               <AccordionMantra
                 key={name}
                 title={name}
-                content={sanskrit + "<br/>" + "---" + "<br/>" + translation}
+                content={sanskrit + "<br/>---<br/>" + translation}
                 audio={link}
                 className="clr-shades-white accordion-matra__title"
                 chantby={chantby}
