@@ -38,7 +38,8 @@ export default function Counter({ tag, className }) {
   return (
     <div>
       <Tag className={className}>
-        {years} év, {months} hónap{days !== 0 && `, ${days} nap`}
+        {years} év {months !== 0 && `, ${months} hónap`}
+        {days !== 0 && `, ${days} nap`}
       </Tag>
     </div>
   )

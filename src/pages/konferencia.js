@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import Seo from "../components/seo"
+import "../sass/pages/_konferencia.scss"
 
 export default function Konferencia() {
   return (
@@ -48,15 +49,17 @@ export default function Konferencia() {
             résztvevői számára, de örömmel fogadjuk, ha hozol magaddal egy kis
             gyümölcsöt, vegán süteményt vagy egy szép virágot Patandzsalinak.
           </p>
+        </div>
+        <div className="konferencia-event">
           <p>
-            <strong>Következő esemény időpontja:</strong> Hamarosan...
+            <strong>Következő esemény időpontja:</strong> 2023. szeptember 24.
+            10:00
           </p>
           <p>
             <strong>Téma:</strong> Hamarosan...
           </p>
           <p>
-            <strong>Házigazda:</strong> Szalai István Authorized Level 1 astanga
-            oktató
+            <strong>Házigazda:</strong> ... Authorized Level 2 astanga oktató
           </p>
         </div>
       </div>

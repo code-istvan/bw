@@ -17,7 +17,7 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/csapatunk", label: "CSAPATUNK" },
     { link: "/vinyasza-jogairanyzatok", label: "JÓGAIRÁNYZATOK" },
     { link: "/letoltesek", label: "LETÖLTÉSEK" },
-    { link: "/galeria", label: "GALÉRIA", extraClass: "" },
+    // { link: "/galeria", label: "GALÉRIA", extraClass: "" },
   ]
 
   const menuItemsTudnivalok = [
@@ -27,7 +27,7 @@ const NavbarMenu = ({ open, setOpen }) => {
     { link: "/mantra", label: "MANTRÁK" },
     { link: "/holdnapok", label: "HOLDNAPOK" },
     { link: "/osztondij", label: "ÖSZTÖNDÍJ", extraClass: "" },
-    { link: "/taplalkozas", label: "TÁPLÁLKOZÁS" },
+    // { link: "/taplalkozas", label: "TÁPLÁLKOZÁS" },
     { link: "/ajanlottolvasmanyok", label: "OLVASMÁNYOK" },
   ]
 

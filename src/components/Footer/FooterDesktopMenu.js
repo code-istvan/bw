@@ -14,7 +14,7 @@ const FooterDesktopMenu = () => {
     { link: "/csapatunk", label: "Csapatunk" },
     { link: "/vinyasza-jogairanyzatok", label: "Jógairányzatok" },
     { link: "/letoltesek", label: "Letöltések" },
-    { link: "/galeria", label: "Galéria", extraClass: "" },
+    // { link: "/galeria", label: "Galéria", extraClass: "" },
   ]
 
   const menuItemsTudnivalok = [
@@ -24,7 +24,7 @@ const FooterDesktopMenu = () => {
     { link: "/mantra", label: "Mantrák" },
     { link: "/holdnapok", label: "Holdnapok" },
     { link: "/osztondij", label: "Ösztöndíj", extraClass: "" },
-    { link: "/taplalkozas", label: "Táplálkozás" },
+    // { link: "/taplalkozas", label: "Táplálkozás" },
     { link: "/ajanlottolvasmanyok", label: "Olvasmányok" },
   ]
 
