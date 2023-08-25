@@ -40,7 +40,9 @@ const Navbar = ({ articleProperties, isOpen, handleOpenMenu }) => {
         <Navigation isOpen={isOpen} handleOpenMenu={handleOpenMenu} />
       </div>
       {articleProperties && scroll < 0 && (
-        <ProgressBar scroll={scroll} articleProperties={articleProperties} />
+        <div className="progressbar_container">
+          <ProgressBar scroll={scroll} articleProperties={articleProperties} />
+        </div>
       )}
     </>
   )
