@@ -5,3 +5,49 @@
     margin-top: -12px;
   }
 }
+
+.jelentkezes-date {
+  display: flex;
+  @include xs {
+    flex-direction: column;
+    gap: 16px;
+  }
+  @include md {
+    flex-direction: row;
+    gap: 28px;
+  }
+
+  margin: 16px 0;
+}
+
+.jelentezes-teacher {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.jelentezes-teacher--avatar {
+  margin-right: 12px;
+}
+
+.jelentkezes-button {
+  button {
+    font-weight: bold;
+  }
+}
+
+.jelentkezes-address {
+  display: flex;
+  @include xs {
+    flex-direction: column;
+  }
+  @include md {
+    flex-direction: row;
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jelentkezes-address-line {
+    display: none;
+  }
+}
