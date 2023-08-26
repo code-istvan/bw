@@ -72,10 +72,6 @@
       display: none;
     }
   }
-
-  .blog-posts-body-style {
-    margin-top: 48px;
-  }
 }
 
 .hide-blogsidebar {
@@ -90,7 +86,12 @@
 
 // Blog posts body style
 .blog-posts-body-style {
-  margin-top: 80px;
+  @include xs {
+    margin-top: 80px;
+  }
+  @include md {
+    margin-top: 40px;
+  }
 
   p,
   h1,
