@@ -5,7 +5,6 @@ import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
-import Button from "../components/Buttons/Button"
 import CourseApplication from "../components/Cards/CourseApplication"
 import kezdoFaq from "../data/kezdoFaq.json"
 import "../sass/pages/_astangaKezdoTanfolyam.scss"
@@ -201,8 +200,8 @@ export default function AstangaKezdoTanfolyam() {
           </div>{" "}
           <div className="row">
             {kezdoFaq &&
-              kezdoFaq.map(({ question, answer }) => (
-                <AccordionFaq question={question} answer={answer} />
+              kezdoFaq.map(({ question, answer }, index) => (
+                <AccordionFaq key={index} question={question} answer={answer} />
               ))}
           </div>
         </div>
