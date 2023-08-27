@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
+import CourseApplication from "../components/Cards/CourseApplication"
 import Seo from "../components/seo"
 
 export default function AstangaMysoreKurzus() {
@@ -10,7 +11,7 @@ export default function AstangaMysoreKurzus() {
       <Seo title="ASTANGA MYSORE KURZUS" />
       <div className="page-hero-container">
         <div className="row">
-          <h1 className="page-hero-title">ASTANGA MYSORE KURZUS</h1>
+          <h1 className="page-hero-title">ASTANGA MYSORE-KURZUS</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/mysore_kurzus_desktop.jpg"
@@ -42,7 +43,7 @@ export default function AstangaMysoreKurzus() {
               szabott módszer, amely fizikai erőt, rugalmasságot és belső
               nyugalmat hoz. Az általa kínált folyamatos fejlődés és az
               oktató-tanítvány kapcsolat lehetőséget ad a mélyebb megértésre és
-              a személyes fejlődésre.
+              a személyes előrehaladásra.
             </strong>
           </h3>
         </div>
@@ -62,7 +63,7 @@ export default function AstangaMysoreKurzus() {
         <div className="row mt-20px">
           <h3 className="clr-brand-orange">A kurzusról</h3>
           <p>
-            Hogyha szeretnéd kipróbálni milyen a Mysore-stílusú astanga
+            Hogyha szeretnéd kipróbálni, milyen a Mysore-stílusú astanga
             gyakorlás vagy otthon szeretnél egyedül gyakorolni, akkor minderre
             lehetőséged van a{" "}
             <CustomLink
@@ -71,15 +72,15 @@ export default function AstangaMysoreKurzus() {
               classNames="link-decoration-remove"
             />{" "}
             követő négy hétben a <strong>Mysore-kurzuson</strong>. A{" "}
-            Mysore-kurzus tananyaga az astanga kezdő tanfolyam tananyagára épűl.
+            Mysore-kurzus tananyaga az astanga kezdő tanfolyam tananyagára épül.
           </p>
           <p className="mt-20px">
-            A kurzus során megtanítjuk az első sorozat elejének ászanáinak
-            sorrendjét, az ászanákhoz tartozó vinyásza számolást és
-            belekóstolhatsz abba is, milyen a saját légzésed ütemére gyakorolni.
-            Ezen felűl megismertetjük a résztvevőket a Mysore-etikettel és
-            betekintést nyernek az indiai “main shala” (rendszerünk központi
-            intézménye) működésébe.{" "}
+            A kurzus során megtanítjuk az első sorozat álló és az első néhány
+            ülő ászanájának sorrendjét, az ászanákhoz tartozó vinyásza számolást
+            és belekóstolhatsz abba is, milyen a saját légzésed ütemére
+            gyakorolni. Ezen felül megismerhetik a résztvevők a Mysore-etikettet
+            és betekintést nyerhetnek az indiai „main shala”-nak (rendszerünk
+            központi intézményének) a működésébe.
           </p>
           <p className="mt-20px">
             Minden alkalmat egy rövid beszélgetéssel, elméleti résszel kezdünk,
@@ -88,14 +89,21 @@ export default function AstangaMysoreKurzus() {
             ütemében haladunk. A résztvevőknek a kurzus végére - ha minden
             alkalmon részt vettek - lesz egy stabil egyéni gyakorlásuk, amit
             vagy otthoni körülmények között vagy egy astanga Mysore-programban
-            tudnak majd fejleszteni (ez nem jó szó ide, de nem ugrik be más).
+            tudnak majd elmélyíteni.
           </p>
           <p className="mt-20px">
-            Az kurzus utolsó két reggeli alkalmán, a Mysore-programban,
+            A kurzus utolsó két reggeli alkalmán, a Mysore-programban,
             megtapasztalhatod milyen másokkal együtt, de mégis önállóan
             gyakorolni, tanári jelenlét mellett.
           </p>
         </div>
+        <CourseApplication
+          courseDate={"2023. szeptember 5. (kedd) 19:00."}
+          courseLink={
+            "https://shop.bandha.works/products/astanga-mysore-kurzus"
+          }
+          courseType={"kurzus"}
+        />
         <div className="row"></div>
         <div className="row"></div>
       </div>
