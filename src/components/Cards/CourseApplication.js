@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { CustomLink } from "../CustomLink"
 import Button from "../Buttons/Button"
 
-const CourseApplication = ({ courseDate, courseLink }) => {
+const CourseApplication = ({ courseDate, courseLink, courseType }) => {
   return (
     <div className="island-section">
       <div className="row">
@@ -13,7 +13,10 @@ const CourseApplication = ({ courseDate, courseLink }) => {
       </div>
       <div className="row">
         <p>
-          <strong>Tanfolyam kezdete</strong>
+          <strong>
+            {" "}
+            {courseType === "tanfolyam" ? "Tanfolyam" : "Kurzus"} kezdete
+          </strong>
         </p>
       </div>
       <div className="row">
@@ -22,7 +25,9 @@ const CourseApplication = ({ courseDate, courseLink }) => {
       <div className="separator-horizontal mt-20px"></div>
       <div className="row">
         <p>
-          <strong>Tanfolyami napok</strong>{" "}
+          <strong>
+            {courseType === "tanfolyam" ? "Tanfolyami" : "Kurzus"} napok
+          </strong>{" "}
         </p>
       </div>
       <div>
@@ -41,7 +46,7 @@ const CourseApplication = ({ courseDate, courseLink }) => {
       <div className="separator-horizontal mt-20px"></div>
       <div className="row">
         <p>
-          <strong>A tanfolyam költsége</strong>
+          <strong>A {courseType} költsége</strong>
         </p>
       </div>
       <div className="row">
@@ -102,7 +107,10 @@ const CourseApplication = ({ courseDate, courseLink }) => {
       </div>
       <div className="separator-horizontal mt-20px"></div>
 
-      <p>A tanfolyamra a részvételi díj kiegyenlítésével tudsz jelentkezni.</p>
+      <p>
+        A {courseType === "tanfolyam" ? "tanfolyamra" : "kurzusra"} a részvételi
+        díj kiegyenlítésével tudsz jelentkezni.
+      </p>
       <div className="mt-20px jelentkezes-button">
         <Button
           type="button"

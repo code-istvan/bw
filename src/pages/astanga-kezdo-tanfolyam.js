@@ -210,6 +210,7 @@ export default function AstangaKezdoTanfolyam() {
           courseLink={
             "https://shop.bandha.works/products/astanga-kezdo-tanfolyam"
           }
+          courseType={"tanfolyam"}
         />
         <div className="row mt-20px">
           <div className="col-12-xs">
