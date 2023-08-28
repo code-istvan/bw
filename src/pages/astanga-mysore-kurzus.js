@@ -10,7 +10,7 @@ export default function AstangaMysoreKurzus() {
     <Layout>
       <Seo title="ASTANGA MYSORE KURZUS" />
       <div className="page-hero-container">
-        <div className="row">
+        <div className="row tight--desktop--container">
           <h1 className="page-hero-title">ASTANGA MYSORE-KURZUS</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
@@ -35,7 +35,7 @@ export default function AstangaMysoreKurzus() {
         </div>
       </div>
 
-      <div className="mysore-kurzus--wrapper">
+      <div className="mysore-kurzus--wrapper tight--desktop--container">
         <div className="mt-40px mb-20px">
           <h3 className="clr-brand-orange">
             <strong>
@@ -47,7 +47,7 @@ export default function AstangaMysoreKurzus() {
             </strong>
           </h3>
         </div>
-        <div className="row">
+        <div className="row mb-20px">
           <p>
             Az astanga vinyásza jógában az ászanákat tradicionálisan Mysore-
             (ejtsd: májszor) stílusban oktatják. A módszer ötvözi a csoportos
@@ -59,6 +59,30 @@ export default function AstangaMysoreKurzus() {
             (pl. kezdő gyakorlók), vagy ha valaki hosszabb időt tölt a teremben
             (pl. haladó gyakorlók) ugyanazon az órán.
           </p>
+        </div>
+        <div className="row mb-20px">
+          <div className="col-12-xs">
+            <StaticImage
+              className="page-mobil-image"
+              src="../images/akt1.jpg"
+              layout="fullWidth"
+              loading="eager"
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Astanga kezdő tanfolyam"
+              placeholder="blurred"
+            />
+            <StaticImage
+              className="page-big-image"
+              src="../images/akt_big.jpg"
+              layout="fullWidth"
+              loading="eager"
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Astanga kezdő tanfolyam"
+              placeholder="blurred"
+            />
+          </div>
         </div>
         <div className="row mt-20px">
           <h3 className="clr-brand-orange">A kurzusról</h3>
