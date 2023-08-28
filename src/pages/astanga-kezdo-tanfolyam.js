@@ -113,7 +113,6 @@ export default function AstangaKezdoTanfolyam() {
             jógarendszerében történő továbblépésre.{" "}
           </p>
         </div>
-
         <div className="row mb-20px">
           <div className="col-12-xs">
             <StaticImage
