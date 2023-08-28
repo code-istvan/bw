@@ -3,9 +3,27 @@ import Layout from "../components/Layouts/Layout"
 import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
 import CourseApplication from "../components/Cards/CourseApplication"
+import AccordionFaq from "../components/Accordions/AccordionFaq"
+import mysoreKurzusFaq from "../data/mysoreKurzusFaq.json"
 import Seo from "../components/seo"
 
 export default function AstangaMysoreKurzus() {
+  const hasznosOlvasmanyok = [
+    {
+      link: "/blog/5-dolog-amit-az-uj-gyakorloknak-erdemes-megtanulnia/",
+      title: "5 dolog amit az új gyakorlóknak érdemes megtanulnia",
+      classNames:
+        "body link-decoration-remove clr-brand-orange schedule-teacher",
+    },
+    {
+      link: "/blog/sharath-jois-arrol-hogy-miben-nyujt-tobbet-egy-helyi-shala-mint-egy-hagyomanyos-edzes/",
+      title:
+        "Sharath Jois arról, hogy miben nyújt többet egy helyi Shala mint egy hagyományos edzés",
+      classNames:
+        "body link-decoration-remove clr-brand-orange schedule-teacher",
+    },
+  ]
+
   return (
     <Layout>
       <Seo title="ASTANGA MYSORE KURZUS" />
@@ -121,13 +139,43 @@ export default function AstangaMysoreKurzus() {
             gyakorolni, tanári jelenlét mellett.
           </p>
         </div>
+
+        <div className="row">
+          <div className="mb-20px mt-20px">
+            <h3>Gyakran ismételt kérdések</h3>
+          </div>{" "}
+          <div className="row">
+            {mysoreKurzusFaq &&
+              mysoreKurzusFaq.map(({ question, answer }, index) => (
+                <AccordionFaq key={index} question={question} answer={answer} />
+              ))}
+          </div>
+        </div>
+
         <CourseApplication
-          courseDate={"2023. szeptember 5. (kedd) 19:00."}
+          courseDate={"2024. február 6. (kedd) 19:00."}
           courseLink={
             "https://shop.bandha.works/products/astanga-mysore-kurzus"
           }
           courseType={"kurzus"}
         />
+        <div className="row unordered-list-style mt-20px">
+          <h3>Hasznos olvasmányok az astanga-gyakorlásról:</h3>
+          <ul>
+            {hasznosOlvasmanyok.map((link, index) => (
+              <li key={index}>
+                <p>
+                  <CustomLink
+                    link={link.link}
+                    title={link.title}
+                    classNames={link.classNames}
+                  />
+                </p>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <div className="row"></div>
         <div className="row"></div>
       </div>

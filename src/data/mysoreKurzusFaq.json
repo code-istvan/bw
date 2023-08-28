@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "Nem vettem részt az astanga kezdő tanfolyamon, jöhetek-e a Mysore-kurzusra?",
+    "answer": ""
+  },
+  {
+    "id": 2,
+    "question": "Nem tudok eljönni minden alkalommal, jöhetek a kurzusra?",
+    "answer": ""
+  },
+  {
+    "id": 3,
+    "question": "Messze lakom, nem tudok catlakozni Mysore-programhoz, érdemes-e eljönnöm?",
+    "answer": ""
+  },
+  {
+    "id": 4,
+    "question": "Nem szeretnék semmilyen igazítást kapni, attól még jöhetek Mysore-kurzusra?",
+    "answer": "Természetesen. Ez mindenkinek a saját választása, hogy szeretne-e igazítást kapni. Ha új vagy a programban, megbeszéljük a preferenciádat, és a későbbiekben is bármikor meggondolhatod magad bármilyen indoklás nélkül. Ha az igazítás során bármikor fájdalmat vagy kellemetlenséget érzel, azt azonnal jelezd az oktató felé."
+  }
+]
