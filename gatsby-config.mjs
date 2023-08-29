@@ -17,10 +17,10 @@ const myCustomQueries = {
 
 const config = {
   siteMetadata: {
-    title: `BW test`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Bandha Works Astanga Jógaiskola`,
+    description: `Fedezzd fel az Astanga Jógát a Bandha Works Jógaiskolában! Specialitásunk a reggeli Mysore-stílusú astanga jóga gyakorlás. Ismerd meg az astanga jógát, ismerd meg önmagad!"`,
     author: `@omworks`,
-    siteUrl: `https://lucid-easley-756a67.netlify.app`,
+    siteUrl: `https://bandha.works/`,
     social: {
       facebook: `bandhaworks`,
       twitter: `IstvnSzalai5`,
