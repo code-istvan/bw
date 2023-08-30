@@ -88,15 +88,46 @@ label {
   width: 100%;
 }
 
-.kapcsolat-body {
-  p:nth-child(3) {
-    padding-bottom: 28px;
-    border-bottom: solid 1px $color-shades-lightBlack;
-    @media only screen and (min-width: 1px) and (max-width: 768px) {
-      margin-bottom: -12px;
+.kapcsolat-modal-box {
+  padding-top: 12px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px $color-shades-lightBlack;
+  @media only screen and (min-width: 1px) and (max-width: 768px) {
+    margin-bottom: -12px;
+  }
+  @media only screen and (min-width: 769px) {
+    margin-bottom: 28px;
+  }
+  button {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  dialog {
+    background-color: $color-shades-gray;
+    @include xs {
+      margin-left: 5%;
+      margin-right: 5%;
     }
-    @media only screen and (min-width: 769px) {
-      margin-bottom: 28px;
+    @include md {
+      margin-left: 20%;
+      margin-right: 20%;
     }
+
+    p {
+      margin-right: 12px;
+    }
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: transparent;
+      cursor: pointer;
+      svg {
+        margin: 8px;
+      }
+    }
+  }
+  dialog::backdrop {
+    background-color: hsl(0, 0%, 77%, 0.3);
   }
 }

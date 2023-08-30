@@ -8,10 +8,12 @@ import SocialBlock from "../components/Icons/SocialBlock"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
+import Icons from "../components/Icons/Icons"
 import "../sass/pages/_kapcsolat.scss"
 
 export default function Kapcsolat() {
   const breakpoints = useBreakpoint()
+  const dialogRef = React.useRef(null)
 
   return (
     <Layout>
@@ -54,6 +56,39 @@ export default function Kapcsolat() {
             Parkolási zónakód az utcában: 0201. Hétfőtől péntekig 8:30-22:00-ig
             kell fizetni a parkolásért.
           </p>
+          <div className="kapcsolat-modal-box">
+            <dialog ref={dialogRef} className="kapcsolat-modal-open">
+              <div>
+                <p>
+                  A weboldalunkon a biztonság és adatvédelem kiemelt prioritást
+                  élvez. Ennek érdekében, hogy elkerüljük a nem kívánt spam
+                  üzeneteket és az adathalászati kísérleteket, döntöttünk úgy,
+                  hogy nem tesszük közzé az e-mail címünket.
+                </p>
+              </div>
+              <button
+                onClick={() => {
+                  if (dialogRef.current) {
+                    dialogRef.current.close()
+                  }
+                }}
+              >
+                <Icons.Close color="darkGrey" />
+              </button>
+            </dialog>
+            <Button
+              type="submit"
+              buttonStyle="btn--third--naked-orange"
+              onClick={() => {
+                if (dialogRef.current) {
+                  dialogRef.current.showModal()
+                }
+              }}
+            >
+              Hol az e-mail címünk?
+            </Button>
+          </div>
+
           {breakpoints.md ? null : <SocialBlock />}
         </div>
         <div className="col-12-xs col-6-md kapcsolat-uzenet">
