@@ -115,7 +115,7 @@ export default function Kapcsolat() {
             </Button>
           </div>
 
-          {breakpoints.md ? null : <SocialBlock />}
+          {breakpoints.md ? null : <SocialBlock language="magyar" />}
         </div>
         <div className="col-12-xs col-6-md kapcsolat-uzenet">
           <div className="row">
@@ -184,7 +184,7 @@ export default function Kapcsolat() {
             </div>
           </form>
           {breakpoints.md ? <div className="separator-horizontal"></div> : null}
-          {breakpoints.md ? <SocialBlock /> : null}
+          {breakpoints.md ? <SocialBlock language="magyar" /> : null}
         </div>
       </div>
     </Layout>

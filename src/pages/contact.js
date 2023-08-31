@@ -115,7 +115,7 @@ export default function Contact() {
             </Button>
           </div>
 
-          {breakpoints.md ? null : <SocialBlock />}
+          {breakpoints.md ? null : <SocialBlock language="english" />}
         </div>
         <div className="col-12-xs col-6-md contact-message">
           <div className="row">
@@ -188,7 +188,7 @@ export default function Contact() {
             </div>
           </form>
           {breakpoints.md ? <div className="separator-horizontal"></div> : null}
-          {breakpoints.md ? <SocialBlock /> : null}
+          {breakpoints.md ? <SocialBlock language="english" /> : null}
         </div>
       </div>
     </Layout>

@@ -13,16 +13,16 @@ export default function English() {
       <Hero />
       <div className="container">
         <div className="row tight--desktop--container">
-          <div className="col index-namaste mt-20px mb-20px">
+          <div className="col index-namaste">
             <Icons.Namaste />
             <h3>Our English language site is under development.</h3>
           </div>
         </div>
         <br />
-        <div className="row tight--desktop--container mb-20px">
+        <div className="row tight--desktop--container">
           <div className="col">
             {" "}
-            <p>
+            <p className="mb-20px">
               In the meantime, if you have any questions, please send us a
               message. If you would like to join our astanga mysore program,
               please fill out the application form below.
@@ -51,7 +51,7 @@ export default function English() {
           />{" "}
         </div>
         <div className="row tight--desktop--container mt-20px">
-          <p>We welcome you to our yoga shala!</p>
+          <p className="mt-20px">We welcome you to our yoga shala!</p>
         </div>
       </div>
     </Layout>
