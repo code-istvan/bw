@@ -9,6 +9,7 @@ import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import Icons from "../components/Icons/Icons"
+import { CustomLink } from "../components/CustomLink"
 import "../sass/pages/_kapcsolat.scss"
 
 export default function Kapcsolat() {
@@ -59,11 +60,23 @@ export default function Kapcsolat() {
           <div className="kapcsolat-modal-box">
             <dialog ref={dialogRef} className="kapcsolat-modal-open">
               <div>
+                <h3 className="mb-20px">Hol az e-mail címünk?</h3>
                 <p>
                   A weboldalunkon a biztonság és adatvédelem kiemelt prioritást
                   élvez. Ennek érdekében, hogy elkerüljük a nem kívánt spam
                   üzeneteket és az adathalászati kísérleteket, döntöttünk úgy,
                   hogy nem tesszük közzé az e-mail címünket.
+                </p>
+                <br />
+                <p>
+                  Üzenj nekünk az oldalon található online felületen keresztűl
+                  vagy akár{" "}
+                  <CustomLink
+                    link="https://m.me/bandhaworks"
+                    classNames="body link-decoration-remove"
+                    title="Messengeren"
+                  />{" "}
+                  is.
                 </p>
               </div>
               <button
