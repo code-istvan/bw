@@ -19,10 +19,10 @@ export default function MysoreprogramJelentkezes() {
 
   return (
     <Layout>
-      <Seo title="MYSORE PROGRAM JELENTKEZÉS" />
+      <Seo title="MYSORE PROGRAMME APPLICATION" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
-          <h1 className="page-hero-title">MYSORE-PROGRAM JELENTKEZÉS</h1>
+          <h1 className="page-hero-title">MYSORE PROGRAMME APPLICATION</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/mysore_desktop.jpg"
@@ -47,7 +47,7 @@ export default function MysoreprogramJelentkezes() {
       </div>
       <div className="mysore-program-jelentkezes--wrapper tight--desktop--container">
         <div className="row mt-40px mb-20px">
-          <h3>JELENTKEZÉSI LAP</h3>
+          <h3>APPLICATION FORM</h3>
         </div>
         <div className="row">
           <div className="col">
@@ -73,7 +73,7 @@ export default function MysoreprogramJelentkezes() {
                   <InputField
                     type="text"
                     name="familyname"
-                    placeholder="Családi név"
+                    placeholder="Family name"
                     pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ\s]+$"
                     required="required"
                   />
@@ -82,7 +82,7 @@ export default function MysoreprogramJelentkezes() {
                   <InputField
                     type="text"
                     name="surnamename"
-                    placeholder="Utónév"
+                    placeholder="Last name"
                     pattern="^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ\s]+$"
                     required="required"
                   />
@@ -105,7 +105,7 @@ export default function MysoreprogramJelentkezes() {
                     id="email2"
                     type="email"
                     name="email2"
-                    placeholder="E-mail mégegyszer"
+                    placeholder="E-mail once again"
                     pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
                     required="required"
                     className="form-style col-12-xs col-6-md mb-20px"
@@ -117,12 +117,12 @@ export default function MysoreprogramJelentkezes() {
               <div className="row">
                 <CustomSelect
                   options={[
-                    "Teljesen kezdő vagyok",
-                    "Astangáztam már",
-                    "Van Mysore-gyakorlás tapasztalatom",
+                    "I am a complete beginner",
+                    "I've been on the Astanga",
+                    "I have experience of Mysore practice",
                   ]}
                   onChange={handleSelectChange}
-                  placeholder="Válassz tapasztalati szintet"
+                  placeholder="Choose experience level"
                 />
               </div>
 
@@ -131,10 +131,10 @@ export default function MysoreprogramJelentkezes() {
                   className="kapcsolat__textarea"
                   name="comments"
                   rows="6"
-                  placeholder="Ha már van tapasztalatod astanga jógában, kérlek írd le, mióta
-                  és milyen rendszeresen gyakorolsz. Kitől tanultál eddig,
-                  mennyi időt? Van-e tapasztalatod Mysore-gyakorlás terén?
-                  Tudsz-e külső segítség nélkül egyedül gyakorolni?"
+                  placeholder="If you have experience in astanga yoga, please describe how long you have been
+                  and how regularly you practice. Who have you learned from so far,
+                  how long? Do you have any experience of practicing Mysore?
+                  Can you practice on your own without outside help?"
                 ></TextArea>
               </div>
               <div className="row">
@@ -142,9 +142,9 @@ export default function MysoreprogramJelentkezes() {
                   <label className="form-style span span--bold clr-shades-lightGray custom-checkbox orange">
                     <input type="checkbox" name="checkbox" required />
                     <span>
-                      Megismertem és elfogadom az
-                      <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
-                      hozzájárulok nevem és e-mail címem kezeléséhez.
+                      I have read and accept
+                      <Link to="/adatvedelem"> the privacy policy</Link>, and
+                      consent to the processing of my name and e-mail address.
                     </span>
                   </label>
                 </div>
@@ -161,7 +161,7 @@ export default function MysoreprogramJelentkezes() {
                       }
                     }}
                   >
-                    KÜLDÉS
+                    SEND
                   </Button>
                 </div>
               </div>
