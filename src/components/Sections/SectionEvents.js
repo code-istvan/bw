@@ -8,7 +8,11 @@ const SectionEvents = () => {
   return (
     <section className="section--events">
       <h1 className="mb-20px">Programok</h1>
-      <EventsFeaturedRoll onlyFeatured={true} />
+      <EventsFeaturedRoll
+        maxEventsToShow={3}
+        onlyFeatured={false}
+        excludeTypes={["Konferencia"]}
+      />
       <Button
         type="button"
         buttonStyle="btn--primary--outline"

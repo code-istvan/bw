@@ -9,13 +9,25 @@ import "../../sass/components/_eventsroll.scss"
 export default function EventsFeaturedRoll({
   onlyFeatured = false,
   showAll = false,
+  maxEventsToShow,
+  excludeTypes = [],
 }) {
   let events = useEventsRoll()
   const teachers = useTeachers()
   const featuredEvents = events.filter(item => item.featured === true)
   let filteredEvents = onlyFeatured ? featuredEvents : events
+
+  filteredEvents = filteredEvents.filter(
+    event => !excludeTypes.includes(event.esemenytipusa)
+  )
+
   if (showAll) {
     filteredEvents = events
+  }
+
+  // Limit the number of events to show if maxEventsToShow is defined
+  if (typeof maxEventsToShow === "number") {
+    filteredEvents = filteredEvents.slice(0, maxEventsToShow)
   }
 
   return (
@@ -25,6 +37,7 @@ export default function EventsFeaturedRoll({
           title,
           date,
           day,
+          esemenytipusa,
           Shortdescription,
           teacher: teacherName,
           eventlink,
@@ -37,7 +50,7 @@ export default function EventsFeaturedRoll({
           const emptyString = ""
 
           let eventFooterContent
-          if (eventlink === emptyString) {
+          if (!eventlink) {
             eventFooterContent = <p>Részletek hamarosan</p>
           } else {
             eventFooterContent = (
@@ -85,7 +98,13 @@ export default function EventsFeaturedRoll({
                   <div className="event-card-body">
                     <p className="clr-shades-gray">{Shortdescription}</p>
                   </div>
-                  <div className="event-card-footer body custom-link-style">
+                  <div
+                    className={`event-card-footer body ${
+                      eventlink === null
+                        ? "clr-brand-orange"
+                        : "custom-link-style"
+                    }`}
+                  >
                     {eventFooterContent}
                   </div>
                 </div>
