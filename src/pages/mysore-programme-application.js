@@ -53,7 +53,7 @@ export default function MysoreprogramJelentkezes() {
           <div className="col">
             <form
               name="mysore english bandhaworks"
-              action="/mysore-application"
+              action="/mysore-application-english"
               method="post"
               data-netlify="true"
               netlify-honeypot="bot-field"
