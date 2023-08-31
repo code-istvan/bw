@@ -123,7 +123,7 @@ export default function Contact() {
           </div>
           <form
             name="contact english bandhaworks"
-            action="/message-sent"
+            action="/message-sent-english/"
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
