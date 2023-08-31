@@ -88,18 +88,11 @@ export default function Kapcsolat() {
                 </p>
                 <br />
                 <p>
-                  Üzenj nekünk az oldalon található online felületen keresztűl
-                  vagy akár{" "}
-                  <CustomLink
-                    link="https://m.me/bandhaworks"
-                    classNames="body link-decoration-remove"
-                    title="Messengeren"
-                  />{" "}
-                  is.
+                  Üzenj nekünk az oldalon található üzenetküldő űrlapon
+                  keresztűl. Ha rendben megkaptuk üzeneted, akkor erről egy
+                  automata visszaigazoló e-mailt fogsz kapni.
                 </p>
               </div>
-              <br />
-              <p>Köszönjük!</p>
               <button
                 onClick={() => {
                   if (dialogRef.current) {

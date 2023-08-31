@@ -112,6 +112,10 @@ label {
       margin-left: 20%;
       margin-right: 20%;
     }
+    @include xl {
+      margin-left: 30%;
+      margin-right: 30%;
+    }
 
     p {
       margin-right: 30px;
