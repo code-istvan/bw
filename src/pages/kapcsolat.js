@@ -9,7 +9,6 @@ import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import Icons from "../components/Icons/Icons"
-import { CustomLink } from "../components/CustomLink"
 import "../sass/pages/_kapcsolat.scss"
 
 export default function Kapcsolat() {

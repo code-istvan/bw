@@ -52,7 +52,7 @@ export default function MysoreprogramJelentkezes() {
         <div className="row">
           <div className="col">
             <form
-              name="mysore bandhaworks"
+              name="mysore english bandhaworks"
               action="/mysore-application"
               method="post"
               data-netlify="true"
@@ -61,7 +61,7 @@ export default function MysoreprogramJelentkezes() {
               <input
                 type="hidden"
                 name="form-name"
-                value="mysore bandhaworks"
+                value="mysore english bandhaworks"
               />
               <input type="hidden" name="Tapasztalat" value={selectedValue} />
 
