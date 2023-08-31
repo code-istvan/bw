@@ -16,6 +16,17 @@ export default function Kapcsolat() {
   const breakpoints = useBreakpoint()
   const dialogRef = React.useRef(null)
 
+  const openGoogleMaps = () => {
+    window.open("https://www.google.com/maps?q=47.51416,19.03734", "_blank")
+  }
+
+  const openWaze = () => {
+    window.open(
+      "https://waze.com/ul?ll=47.51416,19.51416&navigate=yes",
+      "_blank"
+    )
+  }
+
   return (
     <Layout>
       <Seo title="Kapcsolat" />
@@ -23,12 +34,20 @@ export default function Kapcsolat() {
 
       <div className="row gap-1 kapcsolat-navigation">
         <div className="col-6-xs kapcsolat-navigation-button">
-          <Button type="submit" buttonStyle="btn--secondary--outline">
+          <Button
+            type="submit"
+            buttonStyle="btn--secondary--outline"
+            onClick={openGoogleMaps}
+          >
             Google Maps
           </Button>
         </div>
         <div className="col-6-xs kapcsolat-navigation-button">
-          <Button type="submit" buttonStyle="btn--secondary--outline">
+          <Button
+            type="submit"
+            buttonStyle="btn--secondary--outline"
+            onClick={openWaze}
+          >
             Waze
           </Button>
         </div>
