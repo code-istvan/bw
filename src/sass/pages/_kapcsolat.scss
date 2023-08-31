@@ -124,11 +124,9 @@ label {
       cursor: pointer;
       svg {
         margin: 8px;
+        margin-top: 14px;
       }
     }
-  }
-  dialog::backdrop {
-    background-color: hsl(0, 0%, 77%, 0.3);
   }
 }
 

@@ -79,6 +79,8 @@ export default function Kapcsolat() {
                   is.
                 </p>
               </div>
+              <br />
+              <p>Köszönjük!</p>
               <button
                 onClick={() => {
                   if (dialogRef.current) {
