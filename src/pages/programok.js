@@ -42,8 +42,8 @@ export default function Programok() {
         <EventsTypeOfRoll typeOfEvents="Konferencia" />
       </div>
       <div className="row mt-40px mb-40px">
-        <h1 className="mb-20px">Astanga workshop</h1>
-        <EventsTypeOfRoll typeOfEvents="SharathDzsi" />
+        <h1 className="mb-20px">Tábor</h1>
+        <EventsTypeOfRoll typeOfEvents="Tábor" />
       </div>
     </Layout>
   )

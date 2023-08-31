@@ -31,7 +31,7 @@ export default function EventsTypeOfRoll({ typeOfEvents }) {
           const emptyString = ""
 
           let eventFooterContent
-          if (eventlink === emptyString) {
+          if (!eventlink) {
             eventFooterContent = <p>Részletek hamarosan</p>
           } else {
             eventFooterContent = (
@@ -79,7 +79,13 @@ export default function EventsTypeOfRoll({ typeOfEvents }) {
                   <div className="event-card-body">
                     <p className="clr-shades-gray">{Shortdescription}</p>
                   </div>
-                  <div className="event-card-footer body custom-link-style">
+                  <div
+                    className={`event-card-footer body ${
+                      eventlink === null
+                        ? "clr-brand-orange"
+                        : "custom-link-style"
+                    }`}
+                  >
                     {eventFooterContent}
                   </div>
                 </div>
