@@ -19,7 +19,7 @@ export default function English() {
           </div>
         </div>
         <br />
-        <div className="row tight--desktop--container mb-40px">
+        <div className="row tight--desktop--container mb-20px">
           <div className="col">
             {" "}
             <p>
@@ -28,21 +28,30 @@ export default function English() {
               please fill out the application form below.
             </p>
           </div>
-        </div>{" "}
-        <br />
-        <div className="row tight--desktop--container mt-40px">
+        </div>
+        <div className="row tight--desktop--container">
+          <CustomLink
+            link="/contact"
+            classNames="heading heading--3  link-decoration-remove clr-brand-orange schedule-teacher"
+            title="Shala location"
+          />{" "}
+        </div>
+        <div className="row tight--desktop--container">
+          <CustomLink
+            link="/contact"
+            classNames="heading heading--3  link-decoration-remove clr-brand-orange schedule-teacher"
+            title="Send us a message"
+          />
+        </div>
+        <div className="row tight--desktop--container">
           <CustomLink
             link="/mysore-programme-application"
             classNames="heading heading--3  link-decoration-remove clr-brand-orange schedule-teacher"
             title="Mysore Program Application"
           />{" "}
         </div>
-        <div className="row tight--desktop--container mt-40px">
-          <CustomLink
-            link="/kapcsolat"
-            classNames="heading heading--3  link-decoration-remove clr-brand-orange schedule-teacher"
-            title="Send us a message"
-          />
+        <div className="row tight--desktop--container mt-20px">
+          <p>We welcome you to our yoga shala!</p>
         </div>
       </div>
     </Layout>
