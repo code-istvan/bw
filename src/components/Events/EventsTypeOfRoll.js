@@ -28,8 +28,6 @@ export default function EventsTypeOfRoll({ typeOfEvents }) {
             teacher => teacher.name === teacherName
           )
 
-          const emptyString = ""
-
           let eventFooterContent
           if (!eventlink) {
             eventFooterContent = <p>Részletek hamarosan</p>

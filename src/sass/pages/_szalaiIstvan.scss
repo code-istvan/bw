@@ -1,0 +1,10 @@
+@import "/src/sass/global";
+
+.szalai-istvan-image-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  @include md {
+    flex-direction: row;
+  }
+}
