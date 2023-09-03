@@ -76,7 +76,7 @@ export default function MessageSentEnglish() {
               type="button"
               buttonStyle="btn--small--outline"
               onClick={() => {
-                navigate("/")
+                navigate("/english")
               }}
             >
               Back to Homepage

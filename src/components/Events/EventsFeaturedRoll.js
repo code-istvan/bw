@@ -47,8 +47,6 @@ export default function EventsFeaturedRoll({
             teacher => teacher.name === teacherName
           )
 
-          const emptyString = ""
-
           let eventFooterContent
           if (!eventlink) {
             eventFooterContent = <p>Részletek hamarosan</p>

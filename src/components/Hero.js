@@ -10,7 +10,7 @@ const Hero = () => (
           <div className="row">
             <StaticImage
               className="container-fluid page-hero-image page-big-image"
-              src="../images/hero_desktop.jpeg"
+              src="../images/hero_desktop.jpg"
               layout="fullWidth"
               loading="eager"
               quality={95}
