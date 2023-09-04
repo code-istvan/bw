@@ -1,0 +1,54 @@
+{
+  "2010": [
+    {
+      "event": "Hatha jóga oktatói továbbképzés",
+      "teacher": "Dev Kapil",
+      "teacherCountry": "India",
+      "teacherLink": "",
+      "city": "Budapest",
+      "duration": "1 hét"
+    },
+    {
+      "event": "Astanga vinyásza jóga oktatói továbbképzés",
+      "teacher": "Andrea Lutz",
+      "teacherCountry": "Germany",
+      "teacherLink": "",
+      "city": "Budapest",
+      "duration": "3 nap"
+    },
+    {
+      "event": "Astanga vinyásza jóga workshop",
+      "teacher": "Danny Paradise",
+      "teacherCountry": "United States",
+      "teacherLink": "",
+      "city": "Prága",
+      "duration": "3 nap"
+    }
+  ],
+  "2011": [
+    {
+      "event": "Astanga vinyásza jóga workshop",
+      "teacher": "Govinda Kai",
+      "teacherCountry": "United States",
+      "teacherLink": "",
+      "city": "Budapest",
+      "duration": "3 nap"
+    },
+    {
+      "event": "Astanga vinyásza jóga workshop",
+      "teacher": "David Swenson",
+      "teacherCountry": "United States",
+      "teacherLink": "",
+      "city": "Berlin",
+      "duration": "2 nap"
+    },
+    {
+      "event": "Astanga vinyásza jóga oktatói képzés",
+      "teacher": "David Swenson",
+      "teacherCountry": "United States",
+      "teacherLink": "",
+      "city": "Berlin",
+      "duration": "2 hét"
+    }
+  ]
+}
