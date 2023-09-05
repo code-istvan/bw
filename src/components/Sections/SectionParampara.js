@@ -14,7 +14,7 @@ const SectionParampara = () => {
         <div className="container">
           <div className="section--parampara--wapper">
             <div className="row parampara">
-              <div className="col-12-xs col-4-xl section--parampara--image">
+              <div className="col-12-xs col-4-md section--parampara--image">
                 <StaticImage
                   className={`${breakpoints.md ? "container-fluid" : null}`}
                   src="../../images/SharathJi.jpg"
@@ -26,7 +26,7 @@ const SectionParampara = () => {
                   placeholder="blurred"
                 />
               </div>
-              <div className="col-12-xs col-8-xl section--parampara-text">
+              <div className="col-12-xs col-8-md section--parampara-text">
                 <h1 className="mb-20px">Bandha Works Parampara</h1>
                 <p>
                   A parampara a tudás, amelyet a tanár a tanítványára

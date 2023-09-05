@@ -2,7 +2,7 @@
 
 .section--parampara {
   .container-fluid {
-    background-color: $color-shades-darkerGray;
+    background-color: $color-shades-darkGray;
   }
 
   @media only screen and (min-width: 1px) and (max-width: 768px) {
@@ -19,13 +19,20 @@
 }
 
 .section--parampara--image {
+  display: flex;
+  align-items: center;
   z-index: 2;
 
   @include xs {
     order: 0;
   }
-  @include xl {
+
+  @include md {
     order: 1;
+    img {
+      width: 200px;
+      height: 200px;
+    }
   }
 
   @include xl {
@@ -38,12 +45,15 @@
 
 .section--parampara-text {
   max-width: 732px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
   @include xs {
     padding-top: 20px;
     padding-bottom: 40px;
   }
 
-  @include xl {
+  @include md {
     padding-top: 0;
     padding-bottom: 0;
   }
