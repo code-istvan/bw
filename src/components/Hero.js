@@ -31,6 +31,16 @@ const Hero = () => (
           </div>
         </div>
 
+        <div className="row">
+          <div className="col">
+            <div className="hero-text">
+              <p className="hero--font-big mb-20px">
+                Az egyetlen kiút befelé vezet <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* <div className="row">
           <div className="col">
             <div className="hero-text">
