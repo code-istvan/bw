@@ -36,7 +36,7 @@ export default function Arak() {
       </div>
       <div className="arak-wrapper tight--desktop--container">
         <div className="row mt-40px">
-          <h3>Astanga Mysore Program</h3>
+          <h3>Astanga Mysore-Program</h3>
           <table className="prices mt-10px">
             <thead>
               <tr>
@@ -168,7 +168,7 @@ export default function Arak() {
               </td>
             </tr>
             <tr>
-              <td>Astanga mysore kurzus</td>
+              <td>Astanga Mysore-kurzus</td>
               <td>30.000.- Ft</td>
               <td>
                 {" "}
@@ -193,17 +193,17 @@ export default function Arak() {
             </thead>
             <tr>
               <td>Ászanás gyakorlás</td>
-              <td>10.000.- Ft / 60 perc</td>
+              <td>15.000.- Ft / 60 perc</td>
               <td>HAMAROSAN</td>
             </tr>
             <tr>
               <td>Jógikus életmód tanácsadás</td>
-              <td>10.000.- Ft / 60 perc</td>
+              <td>15.000.- Ft / 60 perc</td>
               <td>HAMAROSAN</td>
             </tr>
             <tr>
               <td>Kezdő astanga, négy alkalmas</td>
-              <td>60.000.- Ft</td>
+              <td>80.000.- Ft</td>
               <td>HAMAROSAN</td>
             </tr>
           </table>
