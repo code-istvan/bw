@@ -10,6 +10,7 @@ import Icons from "../components/Icons/Icons"
 import Counter from "../components/Counter"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
 import mysoreFaq from "../data/mysoreFaq.json"
+import Sj_blessing from "../components/Icons/sj_handwrite.svg"
 import "../sass/pages/_mysoreprogram.scss"
 
 export default function Mysoreprogram() {
@@ -250,10 +251,48 @@ export default function Mysoreprogram() {
           </p>
         </div>
         <br />
+        <div className=" text-align-center mb-20px mt-20px">
+          <h3 className="clr-brand-orange font-family-primary">
+            A Mysore-gyakorlás jellegzetességei
+          </h3>
+        </div>
+        <div className="row gap-1">
+          {mysoreSpecialities.map((program, index) => (
+            <div className="col-12-xs col-6-md col-6-xl" key={index}>
+              <div className="card__mysore-program">
+                <h3 className="clr-brand-orange font-family-primary mb-20px">
+                  {program.title}
+                </h3>
+                <p>{program.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <br />
+        <div className="mysore-program--tradicio">
+          <div className="island-section island-section--orange-border island-section--orange-border__width text-align-center mysore-program--blessing">
+            <h3 className="mb-20px font-family-primary clr-brand-orange">
+              TRADÍCIÓ
+            </h3>
+            <div className="col-12-xs mb-20px">
+              <Counter tag="h3" className="" />
+            </div>
+            <p>Magyarország legrégebbi astanga Mysore-programja</p>
+            <p>
+              <strong>Paramaguru Sharath Jois</strong> áldásával
+            </p>
+            <div className="mysore-program--tradicio__image">
+              <img src={Sj_blessing} alt="Sj_blessing" />
+            </div>
+          </div>
+        </div>
+        <br />
         <div className="framed-section mt-20px">
           <div className="framed-section-orange__inside">
             <div className="framed-section-orange-title text-align-center mb-20px">
-              <h3>A Mysore-program felépítése, elemei</h3>
+              <h3 className="font-family-primary">
+                A Mysore-program felépítése, elemei
+              </h3>
             </div>
             <div className="framed-section-orange__body">
               {mysoreElements.map((card, index) => (
@@ -272,30 +311,6 @@ export default function Mysoreprogram() {
           </div>
         </div>
         <br />
-        <div className="row gap-1">
-          {mysoreSpecialities.map((program, index) => (
-            <div className="col-12-xs col-6-md col-6-xl" key={index}>
-              <div className="card__mysore-program">
-                <h3 className="clr-brand-orange font-family-primary mb-20px">
-                  {program.title}
-                </h3>
-                <p>{program.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-        <br />
-        <div className="island-section text-align-center island-section--orange-border">
-          <h3 className="mb-20px font-family-primary clr-brand-orange">
-            TRADÍCIÓ
-          </h3>
-          <div className="col-12-xs text-align-center mb-20px">
-            <Counter tag="h3" className="" />
-          </div>
-          <p>Magyarország legrégebbi astanga Mysore-programja</p>
-          <p>Paramaguru Sharath Jois áldásával</p>
-        </div>
-        <br />
         <div className="row">
           <p>
             Látszik, hogy szigorúak a feltételek, nagy elkötelezettséget kíván
@@ -311,7 +326,7 @@ export default function Mysoreprogram() {
         </div>
         <br />
 
-        <div className="island-section">
+        <div className="island-section mysore-program-lead container-fluid">
           <h3 className="mb-20px font-family-primary clr-brand-orange">
             {" "}
             A Mysore-program vezetője
@@ -344,20 +359,37 @@ export default function Mysoreprogram() {
                 />{" "}
               </strong>
               <br />
-              <small>KPJAYI Authorized Level 1 oktató</small>
+              <small>KPJAYI Authorized Level 1</small> <br />
+              <small>astanga jóga oktató</small>
             </p>
           </div>
         </div>
-        <div className="row mt-40px mb-20px">
-          <Button
-            type="button"
-            buttonStyle="btn--primary--solid"
-            onClick={() => {
-              navigate("/mysore-program-jelentkezes")
-            }}
-          >
-            Jelentkezés a Mysore-programba
-          </Button>
+        <div className="mysore-program--buttons">
+          <div className="row mt-40px mb-20px gap-1">
+            <div className="col">
+              <Button
+                type="button"
+                buttonStyle="btn--primary--solid"
+                onClick={() => {
+                  navigate("/mysore-program-jelentkezes")
+                }}
+              >
+                Jelentkezés a Mysore-programba
+              </Button>
+            </div>
+            <div className="col">
+              {" "}
+              <Button
+                type="button"
+                buttonStyle="btn--primary--outline"
+                onClick={() => {
+                  navigate("/arak")
+                }}
+              >
+                Mysore-program árak
+              </Button>
+            </div>
+          </div>
         </div>
         <div className="row">
           <div className="mb-20px mt-20px">

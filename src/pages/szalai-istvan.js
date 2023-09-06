@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import IstvanEducation from "../data/istvanEducation.json"
+// import IstvanEducation from "../data/istvanEducation.json"
 import "../sass/pages/_szalaiIstvan.scss"
 
 export default function Istvan() {

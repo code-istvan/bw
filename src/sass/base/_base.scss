@@ -353,7 +353,7 @@ blockquote {
   background-color: $color-shades-darkGray;
   padding: 20px;
   margin: 20px;
-  min-width: 300px;
+  min-width: 200px;
   svg {
     margin-top: 20px;
   }
@@ -370,13 +370,18 @@ blockquote {
   border: solid 2px $color-brand-orange;
 }
 
+.island-section--orange-border__width {
+  width: max-content;
+  padding: 40px;
+}
+
 .link-color-orange {
   color: $color-brand-orange !important;
   font-weight: bolder;
 }
 
 .font-family-primary {
-  font-family: $font-family-primary;
+  font-family: $font-family-primary !important;
 }
 
 .avatar__image {

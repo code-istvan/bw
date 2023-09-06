@@ -26,3 +26,32 @@
 .mysore-program-avatar__image-container {
   height: 60px;
 }
+
+.mysore-program--blessing-img {
+  z-index: 2;
+}
+
+.mysore-program--tradicio {
+  display: flex;
+  justify-content: center;
+}
+
+.mysore-program--buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.mysore-program--tradicio__image {
+  display: flex;
+  justify-content: center;
+  img {
+    margin-top: 20px;
+    width: 150px;
+  }
+}
+
+.mysore-program-lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
