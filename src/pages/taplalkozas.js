@@ -6,7 +6,6 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Taplalkozas() {
   return (
     <Layout>
-      <Seo title="TÁPLÁLKOZÁS" />
       <div className="page-hero-container">
         <div className="row">
           <h1 className="page-hero-title">TÁPLÁLKOZÁS</h1>
@@ -38,3 +37,5 @@ export default function Taplalkozas() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="TÁPLÁLKOZÁS" />

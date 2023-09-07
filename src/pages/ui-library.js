@@ -24,7 +24,6 @@ export default function Uilibrary() {
 
   return (
     <div className="container">
-      <Seo title="UI Library" />
       <div className="row">
         <h1 className="mb-5">BANDHA WORKS - UI Library</h1>
         <div className="row">
@@ -75,3 +74,5 @@ export default function Uilibrary() {
     </div>
   )
 }
+
+export const Head = () => <Seo title="UI Library" />

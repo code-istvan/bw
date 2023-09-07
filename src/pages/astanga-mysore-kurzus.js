@@ -26,7 +26,6 @@ export default function AstangaMysoreKurzus() {
 
   return (
     <Layout>
-      <Seo title="ASTANGA MYSORE KURZUS" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">ASTANGA MYSORE-KURZUS</h1>
@@ -182,3 +181,5 @@ export default function AstangaMysoreKurzus() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="ASTANGA MYSORE KURZUS" />

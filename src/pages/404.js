@@ -7,7 +7,6 @@ import Seo from "../components/seo"
 
 const NotFoundPage = () => (
   <Layout>
-    <Seo title="404: Not found" />
     <div className="page-hero-container">
       <div className="row tight--desktop--container">
         <h1 className="page-hero-title">404: NEM TALÁLOM!</h1>
@@ -57,3 +56,5 @@ const NotFoundPage = () => (
 )
 
 export default NotFoundPage
+
+export const Head = () => <Seo title="404: Not found" />

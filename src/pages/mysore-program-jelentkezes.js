@@ -19,7 +19,6 @@ export default function MysoreprogramJelentkezes() {
 
   return (
     <Layout>
-      <Seo title="MYSORE PROGRAM JELENTKEZÉS" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">MYSORE-PROGRAM JELENTKEZÉS</h1>
@@ -172,3 +171,5 @@ export default function MysoreprogramJelentkezes() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="MYSORE PROGRAM JELENTKEZÉS" />

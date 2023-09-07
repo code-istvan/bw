@@ -57,7 +57,6 @@ export default function AstangaKezdoTanfolyam() {
 
   return (
     <Layout>
-      <Seo title="ASTANGA KEZDŐ TANFOLYAM" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">ASTANGA KEZDŐ TANFOLYAM</h1>
@@ -245,3 +244,5 @@ export default function AstangaKezdoTanfolyam() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="ASTANGA KEZDŐ TANFOLYAM" />

@@ -28,7 +28,6 @@ export default function Kapcsolat() {
 
   return (
     <Layout>
-      <Seo title="Kapcsolat" />
       <GoogleMap />
 
       <div className="row gap-1 kapcsolat-navigation">
@@ -190,3 +189,5 @@ export default function Kapcsolat() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="Kapcsolat" />

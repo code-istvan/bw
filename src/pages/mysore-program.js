@@ -83,7 +83,6 @@ export default function Mysoreprogram() {
 
   return (
     <Layout>
-      <Seo title="MYSORE PROGRAM" />
       <div className="page-hero-container">
         <div className="row">
           <h1 className="page-hero-title">MYSORE-PROGRAM</h1>
@@ -423,3 +422,5 @@ export default function Mysoreprogram() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="MYSORE PROGRAM" />

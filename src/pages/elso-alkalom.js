@@ -52,7 +52,6 @@ export default function Elsoalkalom() {
 
   return (
     <Layout>
-      <Seo title="ELSŐ ALKALOM" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">ELSŐ ALKALOM</h1>
@@ -123,3 +122,5 @@ export default function Elsoalkalom() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="ELSŐ ALKALOM" />

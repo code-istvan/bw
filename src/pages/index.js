@@ -14,13 +14,11 @@ const IndexPage = () => (
   <>
     <Layout>
       <Hero />
-
       <div className="row">
         <div className="col index-namaste mt-20px mb-20px">
           <Icons.Namaste />
         </div>
       </div>
-
       <SectionRolunk />
       <SectionParampara />
       <SectionMysoreProgram />

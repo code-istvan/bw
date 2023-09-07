@@ -391,7 +391,6 @@ export default function Vinyasza() {
 
   return (
     <Layout>
-      <Seo title="VINYÁSZA JÓGAIRÁNYZATOK" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">VINYÁSZA JÓGAIRÁNYZATOK</h1>
@@ -423,3 +422,5 @@ export default function Vinyasza() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="VINYÁSZA JÓGAIRÁNYZATOK" />

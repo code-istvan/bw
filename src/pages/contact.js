@@ -28,7 +28,6 @@ export default function Contact() {
 
   return (
     <Layout>
-      <Seo title="Contact" />
       <GoogleMap />
 
       <div className="row gap-1 kapcsolat-navigation">
@@ -194,3 +193,5 @@ export default function Contact() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="Contact" />

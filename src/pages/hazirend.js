@@ -8,7 +8,6 @@ import "../sass/pages/_hazirend.scss"
 export default function Házirend() {
   return (
     <Layout>
-      <Seo title="HÁZIREND" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">HÁZIREND</h1>
@@ -60,3 +59,5 @@ export default function Házirend() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="HÁZIREND" />

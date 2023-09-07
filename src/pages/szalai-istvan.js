@@ -24,7 +24,6 @@ export default function Istvan() {
 
   return (
     <Layout>
-      <Seo title="Szalai István Jóga" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">István</h1>
@@ -179,3 +178,5 @@ export default function Istvan() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="Szalai István Jóga" />

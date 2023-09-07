@@ -7,7 +7,6 @@ import EventsTypeOfRoll from "../components/Events/EventsTypeOfRoll"
 export default function Tanfolyam() {
   return (
     <Layout>
-      <Seo title="TANFOLYAMOK" />
       <div className="page-hero-container">
         <div className="row">
           <h1 className="page-hero-title">TANFOLYAMOK</h1>
@@ -45,3 +44,5 @@ export default function Tanfolyam() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="TANFOLYAMOK" />

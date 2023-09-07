@@ -6,7 +6,6 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Galeria() {
   return (
     <Layout>
-      <Seo title="GALÉRIA" />
       <div className="page-hero-container">
         <div className="row">
           <h1 className="page-hero-title">GALÉRIA</h1>
@@ -38,3 +37,5 @@ export default function Galeria() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="GALÉRIA" />

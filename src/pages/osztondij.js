@@ -6,7 +6,6 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Osztondij() {
   return (
     <Layout>
-      <Seo title="ÖSZTÖNDÍJ" />
       <div className="page-hero-container tight--desktop--container">
         <div className="row">
           <h1 className="page-hero-title">ÖSZTÖNDÍJ</h1>
@@ -90,3 +89,5 @@ export default function Osztondij() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="ÖSZTÖNDÍJ" />

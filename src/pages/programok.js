@@ -7,7 +7,6 @@ import EventsTypeOfRoll from "../components/Events/EventsTypeOfRoll"
 export default function Programok() {
   return (
     <Layout>
-      <Seo title="PROGRAMOK" />
       <div className="page-hero-container">
         <div className="row">
           <h1 className="page-hero-title">PROGRAMOK</h1>
@@ -48,3 +47,5 @@ export default function Programok() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="PROGRAMOK" />

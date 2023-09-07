@@ -8,7 +8,6 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function MessageSentEnglish() {
   return (
     <Layout>
-      <Seo title="MESSAGE SENT" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">MESSAGE SENT</h1>
@@ -87,3 +86,5 @@ export default function MessageSentEnglish() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="MESSAGE SENT" />

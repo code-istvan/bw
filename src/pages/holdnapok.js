@@ -130,7 +130,6 @@ export default function Holdnapok() {
 
   return (
     <Layout>
-      <Seo title="HOLDNAPOK" />
       <div className="holdnapok-wrapper">
         <div className="page-hero-container">
           <div className="row">
@@ -237,3 +236,5 @@ export default function Holdnapok() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="HOLDNAPOK" />

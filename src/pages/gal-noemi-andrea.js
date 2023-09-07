@@ -6,7 +6,6 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Noemi() {
   return (
     <Layout>
-      <Seo title="Gál Noémi Andrea" />
       <div className="page-hero-container">
         <div className="row">
           <h1 className="page-hero-title">Noémi</h1>
@@ -57,3 +56,5 @@ export default function Noemi() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="Gál Noémi Andrea" />

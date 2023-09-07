@@ -9,7 +9,6 @@ import "../sass/pages/_hirlevel.scss"
 
 const Hirlevel = () => (
   <Layout>
-    <Seo title="Hírlevél" />
     <div className="hirlevel-wrapper">
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
@@ -109,3 +108,5 @@ const Hirlevel = () => (
 )
 
 export default Hirlevel
+
+export const Head = () => <Seo title="Hírlevél" />

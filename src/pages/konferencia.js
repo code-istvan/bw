@@ -7,7 +7,6 @@ import "../sass/pages/_konferencia.scss"
 export default function Konferencia() {
   return (
     <Layout>
-      <Seo title="Konferencia" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">KONFERENCIA</h1>
@@ -66,3 +65,5 @@ export default function Konferencia() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="Konferencia" />

@@ -9,7 +9,6 @@ import "../sass/pages/_english.scss"
 export default function English() {
   return (
     <Layout>
-      <Seo title="English" />
       <Hero />
       <div className="container">
         <div className="row tight--desktop--container">
@@ -57,3 +56,5 @@ export default function English() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="English" />

@@ -8,7 +8,6 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function MysoreApplicationEnglish() {
   return (
     <Layout>
-      <Seo title="APPLICATION SUBMITTED" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">APPLICATION SUBMITTED</h1>
@@ -91,3 +90,5 @@ export default function MysoreApplicationEnglish() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="APPLICATION SUBMITTED" />

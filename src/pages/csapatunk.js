@@ -14,7 +14,6 @@ const Csapatunk = () => {
 
   return (
     <Layout>
-      <Seo title="CSAPATUNK" />
       <div className="page-hero-container">
         <div className="row">
           <h1 className="page-hero-title">CSAPATUNK</h1>
@@ -71,3 +70,5 @@ const Csapatunk = () => {
 }
 
 export default Csapatunk
+
+export const Head = () => <Seo title="CSAPATUNK" />

@@ -8,7 +8,6 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Messagesent() {
   return (
     <Layout>
-      <Seo title="ÜZENET ELKÜLDVE" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">ÜZENET ELKÜLDVE</h1>
@@ -94,3 +93,5 @@ export default function Messagesent() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="ÜZENET ELKÜLDVE" />

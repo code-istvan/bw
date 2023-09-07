@@ -43,7 +43,6 @@ export default function Letoltesek() {
 
   return (
     <Layout>
-      <Seo title="LETÖLTÉSEK" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">LETÖLTÉSEK</h1>
@@ -121,3 +120,5 @@ export default function Letoltesek() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="LETÖLTÉSEK" />

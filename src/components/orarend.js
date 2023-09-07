@@ -26,7 +26,6 @@ const Orarend = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title="ÓRAREND" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">ÓRAREND</h1>
@@ -291,6 +290,8 @@ const Orarend = ({ data }) => {
 }
 
 export default Orarend
+
+export const Head = () => <Seo title="ÓRAREND" />
 
 export const scheduleListQuery = graphql`
   query scheduleListQuery {

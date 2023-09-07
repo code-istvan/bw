@@ -8,7 +8,6 @@ import mantras from "../data/mantras.json"
 export default function Mantra() {
   return (
     <Layout>
-      <Seo title="MANTRÁK" />
       <div className="page-hero-container tight--desktop--container">
         <div className="row">
           <h1 className="page-hero-title">MANTRÁK</h1>
@@ -84,3 +83,5 @@ export default function Mantra() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="MANTRÁK" />

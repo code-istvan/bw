@@ -8,7 +8,6 @@ import "../sass/pages/_olvasmanyok.scss"
 export default function Ajanlottolvasmanyok() {
   return (
     <Layout>
-      <Seo title="AJÁNLOTT OLVASMÁNYOK" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">AJÁNLOTT OLVASMÁNYOK</h1>
@@ -117,3 +116,5 @@ export default function Ajanlottolvasmanyok() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="AJÁNLOTT OLVASMÁNYOK" />

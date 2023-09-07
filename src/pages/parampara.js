@@ -6,7 +6,6 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Parampara() {
   return (
     <Layout>
-      <Seo title="PARAMPARA" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title ">PARAMPARA</h1>
@@ -102,3 +101,5 @@ export default function Parampara() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="PARAMPARA" />

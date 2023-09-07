@@ -7,7 +7,6 @@ import BlogTags from "../components/Blog/BlogTags"
 export default function Tags() {
   return (
     <Layout>
-      <Seo title="TAGS" />
       <div className="blog-hero-container tight--desktop--container">
         <h1 className="blog-title">BLOG CÍMKÉK</h1>
         <div className="row blog--desktop--container">
@@ -42,3 +41,5 @@ export default function Tags() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="TAGS" />

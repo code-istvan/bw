@@ -31,7 +31,6 @@ export default function Rolunk() {
 
   return (
     <Layout>
-      <Seo title="RÓLUNK" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">RÓLUNK</h1>
@@ -198,3 +197,5 @@ export default function Rolunk() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="RÓLUNK" />
