@@ -1,5 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import Button from "./Buttons/Button"
+import { navigate } from "gatsby"
 import "../sass/components/_hero.scss"
 
 const Hero = () => (
@@ -37,6 +39,30 @@ const Hero = () => (
               <p className="hero--font-big mb-20px">
                 Az egyetlen kiút befelé vezet <br />
               </p>
+              <p className="hero--font-subtitle">
+                Tradicionális astanga jógaiskola a Paramaguru áldásával
+              </p>
+            </div>
+            <div className="hero--buttons">
+              <Button
+                type="button"
+                buttonStyle="btn--primary--solid--full"
+                className="mb-20px"
+                onClick={() => {
+                  navigate("/parampara")
+                }}
+              >
+                Astanga Mysore-program
+              </Button>
+              <Button
+                type="button"
+                buttonStyle="btn--primary--outline-full"
+                onClick={() => {
+                  navigate("/parampara")
+                }}
+              >
+                Astanga tanfolyamok
+              </Button>
             </div>
           </div>
         </div>

@@ -3,8 +3,8 @@ import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
-import Sj_blessing from "../Icons/sj_handwrite.svg"
-import Counter from "../Counter"
+// import Sj_blessing from "../Icons/sj_handwrite.svg"
+// import Counter from "../Counter"
 import "../../sass/components/_sectionMysoreProgram.scss"
 
 const SectionMysoreProgram = () => {

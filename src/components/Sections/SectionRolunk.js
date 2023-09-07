@@ -18,18 +18,16 @@ const SectionRolunk = () => {
           </p>
         </div>
       </div>
-      <div className="row">
-        <div className="col mt-20px">
-          <Button
-            type="button"
-            buttonStyle="btn--primary--outline"
-            onClick={() => {
-              navigate("/rolunk")
-            }}
-          >
-            Tudj meg többet rólunk
-          </Button>
-        </div>
+      <div className="row mt-20px">
+        <Button
+          type="button"
+          buttonStyle="btn--primary--outline"
+          onClick={() => {
+            navigate("/rolunk")
+          }}
+        >
+          Tudj meg többet rólunk
+        </Button>
       </div>
     </section>
   )
