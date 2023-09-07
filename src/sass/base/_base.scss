@@ -314,6 +314,12 @@ blockquote {
   }
 }
 
+@media screen and (min-width: 769px) {
+  .display-none-desktop {
+    display: none;
+  }
+}
+
 // 3 images in a row
 .image-track-3 {
   display: flex;

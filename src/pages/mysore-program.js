@@ -365,8 +365,8 @@ export default function Mysoreprogram() {
           </div>
         </div>
         <div className="mysore-program--buttons">
-          <div className="row mt-40px mb-20px gap-1">
-            <div className="col">
+          <div className="row mb-20px gap-1">
+            <div className="col mysore-program--button-holder">
               <Button
                 type="button"
                 buttonStyle="btn--primary--solid"
@@ -377,7 +377,7 @@ export default function Mysoreprogram() {
                 Jelentkezés a Mysore-programba
               </Button>
             </div>
-            <div className="col">
+            <div className="col mysore-program--button-holder">
               {" "}
               <Button
                 type="button"

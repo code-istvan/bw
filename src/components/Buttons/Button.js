@@ -16,13 +16,23 @@ const STYLES = [
   "btn--small--outline",
 ]
 
-export default function Button({ children, type, onClick, buttonStyle }) {
+export default function Button({
+  children,
+  type,
+  onClick,
+  buttonStyle,
+  className = "",
+}) {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0]
 
   return (
-    <button className={`btn ${checkButtonStyle}`} onClick={onClick} type={type}>
+    <button
+      className={`btn ${checkButtonStyle} ${className}`}
+      onClick={onClick}
+      type={type}
+    >
       {children}
     </button>
   )

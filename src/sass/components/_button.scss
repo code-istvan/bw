@@ -13,6 +13,12 @@
   // width: 100%;
 }
 
+// @media only screen and (min-width: 1px) and (max-width: 768px) {
+//   .btn {
+//     width: 100%;
+//   }
+// }
+
 // .btn:hover {
 //   transform: translateY(0px);
 //   background-color: $color-brand-orange;
@@ -34,7 +40,8 @@
 .btn--primary--solid {
   background-color: $color-brand-orange;
   color: $color-shades-black;
-  border: none;
+  border: 2px solid $color-brand-orange;
+  width: 100%;
 }
 
 .btn--primary--solid--full {
