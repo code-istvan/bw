@@ -8,7 +8,6 @@ import "../sass/pages/_arak.scss"
 export default function Arak() {
   return (
     <Layout>
-      <Seo title="ÁRAK" />
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="page-hero-title">ÁRAK</h1>

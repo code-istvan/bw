@@ -201,8 +201,11 @@ const config = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://lucid-easley-756a67.netlify.app",
+        // host: "https://bandha.works",
         sitemap: "https://lucid-easley-756a67.netlify.app/sitemap.xml",
+        // sitemap: "https://bandha.works/sitemap-index.xml",
         policy: [{ userAgent: "*", disallow: "/" }],
+        // policy: [{userAgent: '*', allow: '/'}]
       },
     },
     `gatsby-plugin-netlify-cms`,
