@@ -221,3 +221,5 @@ export default function Arak() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="ÁRAK" />

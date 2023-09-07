@@ -13,7 +13,6 @@ import "../sass/pages/_index.scss"
 const IndexPage = () => (
   <>
     <Layout>
-      <Seo title="FŐOLDAL" />
       <Hero />
 
       <div className="row">
@@ -53,3 +52,5 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const Head = () => <Seo title="FŐOLDAL" />
