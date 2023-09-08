@@ -29,16 +29,14 @@
 
   @include md {
     order: 1;
-    img {
-      width: 200px;
-      height: 200px;
+    .gatsby-image-wrapper img {
+      width: 280px;
     }
   }
 
   @include xl {
-    img {
-      width: 260px;
-      height: 260px;
+    .gatsby-image-wrapper img {
+      width: 380px;
     }
   }
 }
