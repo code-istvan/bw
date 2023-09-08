@@ -28,26 +28,41 @@ export default function English() {
             </p>
           </div>
         </div>
-        <div className="row tight--desktop--container">
-          <CustomLink
-            link="/contact"
-            classNames="heading heading--3  link-decoration-remove clr-brand-orange schedule-teacher"
-            title="Shala location"
-          />{" "}
-        </div>
-        <div className="row tight--desktop--container">
-          <CustomLink
-            link="/contact"
-            classNames="heading heading--3  link-decoration-remove clr-brand-orange schedule-teacher"
-            title="Send us a message"
-          />
-        </div>
-        <div className="row tight--desktop--container">
-          <CustomLink
-            link="/mysore-programme-application"
-            classNames="heading heading--3  link-decoration-remove clr-brand-orange schedule-teacher"
-            title="Mysore Program Application"
-          />{" "}
+        <div className="row tight--desktop--container mb-20px">
+          <div className="english-menu">
+            <div className="english-menu-items">
+              {" "}
+              <div className="english-page-index">
+                <span className="english-page-index---number">1</span>
+              </div>
+              <CustomLink
+                link="/contact"
+                classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
+                title="Shala location"
+              />
+            </div>
+
+            <div className="english-menu-items">
+              <div className="english-page-index">
+                <span className="english-page-index---number">2</span>
+              </div>
+              <CustomLink
+                link="/contact"
+                classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
+                title="Send us a message"
+              />
+            </div>
+            <div className="english-menu-items">
+              <div className="english-page-index">
+                <span className="english-page-index---number">3</span>
+              </div>
+              <CustomLink
+                link="/mysore-programme-application"
+                classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
+                title="Mysore Program Application"
+              />{" "}
+            </div>
+          </div>
         </div>
         <div className="row tight--desktop--container mt-20px">
           <p className="mt-20px">We welcome you to our yoga shala!</p>
