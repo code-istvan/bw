@@ -6,19 +6,18 @@ import "../../sass/components/_sectionrolunk.scss"
 const SectionRolunk = () => {
   return (
     <section className="section--rolunk">
-      <div className="row mt-20px">
-        <div className="col">
-          <p>
-            A Bandha Works jógaiskolát három mérnök alapította. Összeköt
-            bennünket a törekvés, hogy a tradicionális astanga vinyásza jógát
-            népszerűsítsük Magyarországon. Mi maguk is elkötelezett gyakorlói
-            vagyunk az irányzatnak, minden évben az astanga jóga fővárosába, a
-            dél-indiai Mysore-ba utazunk, ahol a legkiválóbb tanároktól tanulunk
-            és mélyítjük tudásukat.
-          </p>
-        </div>
+      <div className="mt-20px section--rolunk--text">
+        <p>
+          A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket
+          összekötött azon törekvés, hogy a tradicionális astanga vinyásza jógát
+          népszerűsítsék, oktassák Magyarországon. Több mint tíz év elteltével a
+          helyzet mit sem változott, oktatóink elkötelezett gyakorlói az
+          irányzatnak, és rendszeresen, az astanga jóga fővárosába, a dél-indiai
+          Mysore-ba utaznak, hogy a paramparából merítve, tovább mélyítsék
+          tudásuk, megértésük.
+        </p>
       </div>
-      <div className="row mt-20px">
+      <div className="section--rolunk--button mt-20px">
         <Button
           type="button"
           buttonStyle="btn--primary--outline"
