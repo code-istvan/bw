@@ -23,27 +23,28 @@
   align-items: center;
   z-index: 2;
 
-  //   @include xs {
-  //     order: 0;
-  //   }
+  @include xs {
+    .gatsby-image-wrapper img {
+      width: fit-content;
+    }
+  }
 
   @include md {
-    // order: 1;
-    img {
+    .gatsby-image-wrapper img {
       width: 200px;
       height: 200px;
     }
   }
 
   @include xl {
-    img {
+    .gatsby-image-wrapper img {
       width: 260px;
       height: 260px;
     }
   }
 }
 
-.section--parampara-text {
+.section--mysore-program-text {
   max-width: 732px;
   margin-top: 20px;
   margin-bottom: 20px;

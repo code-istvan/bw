@@ -28,7 +28,7 @@ const SectionMysoreProgram = () => {
                   placeholder="blurred"
                 />
               </div>
-              <div className="col-12-xs col-8-md section--parampara-text">
+              <div className="col-12-xs col-8-md section--mysore-program-text">
                 <h1 className="mb-20px">Astanga Mysore-program</h1>
                 <p>
                   A Mysore-stílusú astanga jóga gyakorlás hatékony és személyre
