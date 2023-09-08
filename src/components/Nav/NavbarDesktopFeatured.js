@@ -6,8 +6,9 @@ import "../../sass/components/_navbardesktopfeatured.scss"
 const NavbarDesktopFeatured = () => {
   const desktopSubmenuItems = [
     { link: "/english", label: "ENGLISH" },
-    { link: "/english", label: "日本語" },
-    { link: "/admin", label: "LOG_IN" },
+    // { link: "/english", label: "日本語" },
+    // { link: "/admin", label: "LOG_IN" },
+    { link: "/orarend", label: "ÓRAREND" },
     { link: "/mysore-program", label: "MYSORE PROGRAM" },
     { link: "/tanfolyam", label: "TANFOLYAMOK" },
   ]

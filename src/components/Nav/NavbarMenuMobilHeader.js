@@ -5,8 +5,8 @@ import "../../sass/components/_navbarmenumobilheader.scss"
 
 const NavbarMenuMobilHeader = () => {
   const mobilHeaderItems = [
-    { link: "/orarend", label: "ÓRAREND" },
     { link: "/english", label: "ENGLISH" },
+    { link: "/orarend", label: "ÓRAREND" },
   ]
 
   return (

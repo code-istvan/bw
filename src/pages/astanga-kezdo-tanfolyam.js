@@ -204,7 +204,7 @@ export default function AstangaKezdoTanfolyam() {
           </div>
         </div>
         <CourseApplication
-          courseDate={"2023. szeptember 5. (kedd) 19:00."}
+          courseDate={"2024. január 9. (kedd) 19:00."}
           courseLink={
             "https://shop.bandha.works/products/astanga-kezdo-tanfolyam"
           }
