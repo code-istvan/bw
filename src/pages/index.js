@@ -25,26 +25,10 @@ const IndexPage = () => (
       <SectionEvents />
       <div className="row">
         <div className="col">
-          <Counter tag="h3" />
+          <Counter tag="p" />
         </div>
       </div>
-      <div className="row">
-        <div className="col">
-          <p>
-            Avocado kiwi matcha pichu peach strawberry mango a delicious meal
-            guacamole asian pear black bean chili dip seasonal raspberry fizz
-            kimchi sweet potato kale spiced pumpkin chili double dark chocolate
-            grapefruit Bolivian rainbow pepper samosa chocolate lemon lime
-            minty. Balsamic vinaigrette tasty coriander vine tomatoes spring
-            tabasco pepper strawberry spinach salad picnic salad pinch of yum
-            green pepper ginger lemongrass agave green tea arugula salad red
-            amazon pepper almond milk chai latte pine nuts sesame soba noodles.
-            Miso turmeric glazed aubergine lemon tahini dressing miso dressing
-            banana bread springtime strawberry with cremini mushrooms chickpea
-            crust pizza cherry bomb pepper candy cane winter coconut sushmna.
-          </p>
-        </div>
-      </div>
+      <div className="row"></div>
     </Layout>
   </>
 )

@@ -36,11 +36,9 @@ export default function Counter({ tag, className }) {
   const Tag = tag || "h1"
 
   return (
-    <div>
-      <Tag className={className}>
-        {years} év{months !== 0 && `, ${months} hónap`}
-        {days !== 0 && `, ${days} nap`}
-      </Tag>
-    </div>
+    <Tag className={`counter--wrapper ${className}`}>
+      {years} év{months !== 0 && `, ${months} hónap`}
+      {days !== 0 && `, ${days} nap`}
+    </Tag>
   )
 }

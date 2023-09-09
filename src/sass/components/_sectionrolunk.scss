@@ -2,13 +2,12 @@
 
 .section--rolunk {
   // max-width: 670px;
-  @media only screen and (min-width: 1px) and (max-width: 768px) {
+  @media only screen and (min-width: 1px) and (max-width: 576px) {
     .btn {
       width: 100%;
-      margin-bottom: 40px;
     }
   }
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 577px) {
     .section--rolunk--text,
     .section--rolunk--button {
       display: flex;

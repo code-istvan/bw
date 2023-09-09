@@ -1,7 +1,7 @@
 @import "/src/sass/global";
 
 .index-namaste {
-  @include md {
+  @include sm {
     justify-content: center;
   }
 }

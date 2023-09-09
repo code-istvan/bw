@@ -32,7 +32,7 @@ body {
 
 section {
   @include xs {
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
   @include md {
     margin-bottom: 70px;

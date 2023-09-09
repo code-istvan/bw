@@ -3,6 +3,7 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import NameCard from "../components/NameCard"
 import Button from "../components/Buttons/Button"
+import { CustomLink } from "../components/CustomLink"
 import { navigate } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import "../sass/pages/_rolunk.scss"
@@ -70,7 +71,7 @@ export default function Rolunk() {
             <strong>paramparából </strong>
             (tanítói láncolatból) merítve, tovább mélyítsék tudásuk, megértésük.
           </p>
-          <div className="island-section text-align-center">
+          <div className="island-section text-align-center rolunk-parampara">
             <h3 className="mb-20px clr-brand-orange font-family-primary">
               <strong>PARAMPARA</strong>
             </h3>
@@ -81,7 +82,7 @@ export default function Rolunk() {
               fejezi ki. Ez minden tanítói láncolat alapja: az évezredes tanítás
               megőrzésének láncolatában a tanár és tanítványa a láncszemek.
             </p>
-            <div className="">
+            <div>
               <Button
                 type="button"
                 buttonStyle="btn--third--naked-orange"
@@ -96,11 +97,16 @@ export default function Rolunk() {
           <p className="mb-20px">
             A jógaiskolában tradicionális astanga vinyásza jógát és vinyásza
             krama jógát oktatunk. A Bandha Works specialitása a Magyarországon
-            egyedülálló reggeli astanga Mysore-program, az astanga jóga
-            tanításának eredeti és leghatékonyabb formája. Programunkban,
-            rendszeresen látunk vendégül nemzetközileg is elismert külföldi
-            astanga jóga tanárokat, akik tovább növelik intézményünkben az
-            oktatás színvonalát.
+            egyedülálló múltú reggeli{" "}
+            <CustomLink
+              link="/mysore-program"
+              title="astanga Mysore-program,"
+              classNames="link-decoration-remove"
+            />
+            {""} az astanga jóga tanításának eredeti és leghatékonyabb formája.
+            Programunkban, rendszeresen látunk vendégül nemzetközileg is
+            elismert külföldi astanga jóga tanárokat, akik tovább növelik
+            intézményünkben az oktatás színvonalát.
           </p>
           <p className="mb-20px">
             Azok számára pedig, akik még csak most kezdenek ismerkedni ezzel az

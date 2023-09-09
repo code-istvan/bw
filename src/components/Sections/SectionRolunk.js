@@ -13,8 +13,7 @@ const SectionRolunk = () => {
           népszerűsítsék, oktassák Magyarországon. Több mint tíz év elteltével a
           helyzet mit sem változott, oktatóink elkötelezett gyakorlói az
           irányzatnak, és rendszeresen, az astanga jóga fővárosába, a dél-indiai
-          Mysore-ba utaznak, hogy a paramparából merítve, tovább mélyítsék
-          tudásuk, megértésük.
+          Mysore-ba utaznak, hogy tovább mélyítsék tudásuk, megértésük.
         </p>
       </div>
       <div className="section--rolunk--button mt-20px">

@@ -18,7 +18,6 @@ const SectionParampara = () => {
                 <StaticImage
                   className={`${breakpoints.md ? "container-fluid" : null}`}
                   src="../../images/SharathJi.jpg"
-                  // layout="fullWidth"
                   loading="eager"
                   quality={95}
                   formats={["AUTO", "WEBP", "AVIF"]}
