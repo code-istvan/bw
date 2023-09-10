@@ -363,6 +363,33 @@ export default function Mysoreprogram() {
             </p>
           </div>
         </div>
+        <div className="row mb-20px">
+          <p>
+            Amennyiben szeretnél csatlakozni, ezt a{" "}
+            <CustomLink
+              link="/mysore-program-jelentkezes/"
+              title="jelentkezés a
+                  Mysore-programba"
+              classNames="header header--3 link-decoration-remove schedule-teacher"
+            />{" "}
+            felületen keresztül teheted meg. Kérlek, mindenképp várd meg
+            visszajelzésünket, mielőtt jössz az első Mysore-órára, amelyhez
+            hasznos információkat találhatsz a következő menüpontok alatt:{" "}
+            <CustomLink
+              link="/elso-alkalom/"
+              title="első alkalom"
+              classNames="header header--3 link-decoration-remove schedule-teacher"
+            />{" "}
+            valamint{" "}
+            <CustomLink
+              link="/hazirend/"
+              title="házirend"
+              classNames="header header--3 link-decoration-remove schedule-teacher"
+            />{" "}
+            .
+          </p>
+        </div>
+
         <div className="mysore-program--buttons">
           <div className="row mb-20px gap-1">
             <div className="col mysore-program--button-holder">

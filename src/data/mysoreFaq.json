@@ -6,26 +6,31 @@
   },
   {
     "id": 2,
+    "question": "Nem vagyok túl idős ahhoz, hogy elkezdjek astangát gyakorolni?",
+    "answer": "Sosem leszel túl idős ahhoz, hogy elkezdj astangázni! Ugyanis a Mysore-stílusú astanga gyakorlás egy olyan sajátos  - személyre szabott - módszeren alapul, amely minden korosztályhoz, illetőleg edzettségi-egészségi szinthez igazítható."
+  },
+  {
+    "id": 3,
     "question": "Kell-e ismernem az astanga sorozatot ahhoz, hogy Mysore-órákra járjak?",
     "answer": "Nem. Teljesen rendben van, ha úgy csatlakozol, hogy nem ismered a sorozatot. (Lásd feljebb a kezdőkre vonatkozó válaszunkat.) Ha korábban már tanultad a sorozatot, de időközben elfelejtetted, akkor végigvesszük veled az oktató által javasolt hosszúságú gyakorlatsort, és az egyes ászanákat (jógapózokat) addig ismételjük, amíg szükséges, hogy megjegyezd őket."
   },
   {
-    "id": 3,
+    "id": 4,
     "question": "Hány napot gyakoroljak egy héten?",
     "answer": "Az astanga hagyománya szerint heti hat napot gyakorlunk. Ez komoly elköteleződésnek tűnhet elsőre. Azt javasoljuk, hogy kezdetben vállalj valami számodra megvalósíthatót, és tartsd magad hozzá. Heti két-három nap például jó kiindulópont lehet. Idővel, fokozatosan, több napot is hozzáadhatsz a gyakorlásodhoz. Ha kevés az időd, otthon is végezhetsz néhány napüdvözletet. A lényeg a stabil gyakorlás, így a rövid, de rendszeres gyakorlás mindig jobb, mint a hosszabb, de rendszertelen."
   },
   {
-    "id": 4,
+    "id": 5,
     "question": "Nem szeretnék semmilyen igazítást kapni, attól még jöhetek Mysore-órára?",
     "answer": "Természetesen. Ez mindenkinek a saját választása, hogy szeretne-e igazítást kapni. Ha új vagy a programban, megbeszéljük a preferenciádat, és a későbbiekben is bármikor meggondolhatod magad bármilyen indoklás nélkül. Ha az igazítás során bármikor fájdalmat vagy kellemetlenséget érzel, azt azonnal jelezd az oktató felé."
   },
   {
-    "id": 5,
+    "id": 6,
     "question": "Sérülésem van, gyakoroljak vagy inkább pihenjek?",
     "answer": "Azt szoktuk tanácsolni, hogy folytasd a gyakorlást, az adott sérüléshez igazodó módosításokkal. A folyamatos mozgás fenntartja a vér áramlását, és segít a gyógyulásban. Ha bármilyen sérülésed van, azt mindig jelezd az oktató felé!"
   },
   {
-    "id": 6,
+    "id": 7,
     "question": "Korlátozottak az anyagi körülményeim, de szeretnék jönni gyakorolni, lenne valamilyen lehetőség számomra?",
     "answer": "Legyél ösztöndíjas! A pályázati feltételeket és az erről szóló tájékoztatónkat az ösztöndíj menüpont alatt találod!"
   }

@@ -16,6 +16,12 @@
   },
   {
     "id": 4,
+    "question": "Nem vagyok túl idős ahhoz, hogy elkezdjek astangát gyakorolni?",
+    "answer": "Sosem leszel túl idős ahhoz, hogy elkezdj astangázni! Ugyanis a Mysore-stílusú astanga gyakorlás egy olyan sajátos  - személyre szabott - módszeren alapul, amely minden korosztályhoz, illetőleg edzettségi-egészségi szinthez igazítható."
+  },
+
+  {
+    "id": 5,
     "question": "A reggeli Mysore-gyakorlásra szeretnék majd jönni, érdemes-e elvégezni a kezdő astanga tanfolyamot?",
     "answer": "Igen feltétlenül! Ennek a tanfolyamnak pont az a célja, hogy a résztvevők elsajátítsák az ászanák és a hozzájuk kapcsolódó technikák (pl. vinyásza rendszer, triszthána, bandhák) helyes és biztonságos kivitelezését, és ezáltal felkészítsen a Mysore-stílusú gyakorlásra."
   }
