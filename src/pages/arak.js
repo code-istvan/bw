@@ -102,7 +102,7 @@ export default function Arak() {
             Az astanga Mysore-programban való részvételhez előzetes regisztráció
             szükséges! Részletes leírást a{" "}
             <CustomLink
-              link="/mysore-program"
+              link="/astanga-mysore-program"
               title="Mysore-program "
               classNames="link-decoration-remove"
             />

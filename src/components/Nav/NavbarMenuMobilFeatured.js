@@ -5,7 +5,7 @@ import "../../sass/components/_navbarmenumobilfeatured.scss"
 
 const NavbarMenuMobilFeatured = () => {
   const mobilFeaturedItems = [
-    { link: "/mysore-program", label: "MYSORE PROGRAM" },
+    { link: "/astanga-mysore-program", label: "MYSORE PROGRAM" },
     { link: "/tanfolyam", label: "TANFOLYAMOK" },
     // { link: "/admin", label: "LOG_IN" },
     // { link: "/english", label: "日本語" },

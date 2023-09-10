@@ -98,7 +98,7 @@ const Hero = () => (
                       type="button"
                       buttonStyle="btn--primary--outline"
                       onClick={() => {
-                        navigate("/mysore-program")
+                        navigate("/astanga-mysore-program")
                       }}
                     >
                       Mysore program
@@ -160,7 +160,7 @@ const Hero = () => (
             type="button"
             buttonStyle="btn--primary--solid"
             onClick={() => {
-              navigate("/mysore-program")
+              navigate("/astanga-mysore-program")
             }}
           >
             Mysore program

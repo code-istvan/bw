@@ -42,7 +42,7 @@ const SectionMysoreProgram = () => {
                     type="button"
                     buttonStyle="btn--primary--outline"
                     onClick={() => {
-                      navigate("/mysore-program")
+                      navigate("/astanga-mysore-program")
                     }}
                   >
                     Mysore-programról bővebben

@@ -12,7 +12,7 @@ const NavbarMenu = ({ open, setOpen }) => {
   const menuItemsJogaorak = [
     { link: "/orarend", label: "ÓRAREND" },
     { link: "/arak", label: "ÁRAK" },
-    { link: "/mysore-program", label: "MYSORE-PROGRAM" },
+    { link: "/astanga-mysore-program", label: "MYSORE-PROGRAM" },
     { link: "/tanfolyam", label: "TANFOLYAMOK" },
     { link: "/csapatunk", label: "CSAPATUNK" },
     { link: "/vinyasza-jogairanyzatok", label: "JÓGAIRÁNYZATOK" },

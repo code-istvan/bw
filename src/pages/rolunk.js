@@ -99,7 +99,7 @@ export default function Rolunk() {
             krama jógát oktatunk. A Bandha Works specialitása a Magyarországon
             egyedülálló múltú reggeli{" "}
             <CustomLink
-              link="/mysore-program"
+              link="/astanga-mysore-program"
               title="astanga Mysore-program,"
               classNames="link-decoration-remove"
             />
