@@ -389,7 +389,6 @@ export default function Mysoreprogram() {
             .
           </p>
         </div>
-
         <div className="mysore-program--buttons">
           <div className="row mb-20px gap-1">
             <div className="col mysore-program--button-holder">

@@ -62,6 +62,16 @@ export default function English() {
                 title="Mysore Program Application"
               />{" "}
             </div>
+            <div className="english-menu-items">
+              <div className="english-page-index">
+                <span className="english-page-index---number">4</span>
+              </div>
+              <CustomLink
+                link="/prices"
+                classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
+                title="Prices"
+              />{" "}
+            </div>
           </div>
         </div>
         <div className="row tight--desktop--container mt-20px">
