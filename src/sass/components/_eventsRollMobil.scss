@@ -1,0 +1,92 @@
+@import "/src/sass/global";
+
+.event-card {
+  h3 {
+    text-transform: uppercase;
+  }
+  border: solid 2px $color-shades-darkGray;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 300px;
+  width: 300px;
+}
+
+.event-card-content-wrapper {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.event-card-header {
+  width: 200px;
+}
+
+.event-card-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.avatar-group {
+  align-items: center;
+  gap: 8px;
+}
+
+.event-card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.event-card-header-secondline {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+
+  .vertical-separator {
+    display: none;
+  }
+
+  @include md {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+
+    .vertical-separator {
+      display: block;
+      height: 30px;
+      margin: 0px 8px;
+    }
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+}
+
+.mobilbaby {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  width: 90%;
+  height: 300px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  //   background-color: $color-brand-orange;
+}
+
+.event-card h3,
+.event-card-body p {
+  white-space: normal;
+  overflow-wrap: break-word;
+  //   word-break: break-all;
+}
