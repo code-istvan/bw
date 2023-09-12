@@ -18,7 +18,7 @@ const myCustomQueries = {
 const config = {
   siteMetadata: {
     title: `Bandha Works Astanga Jógaiskola`,
-    description: `Fedezzd fel az Astanga Jógát a Bandha Works Jógaiskolában! Specialitásunk a reggeli Mysore-stílusú astanga jóga gyakorlás. Ismerd meg az astanga jógát, ismerd meg önmagad!"`,
+    description: `Fedezzd fel az Astanga Jógát a Bandha Works Jógaiskolában! Astanga Mysore-stílusú gyakorlás, astanga kezdő tanfolyamok, vinyásza krama jógaórák."`,
     author: `@omworks`,
     siteUrl: `https://bandha.works/`,
     social: {

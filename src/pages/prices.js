@@ -35,7 +35,7 @@ export default function Prices() {
       </div>
       <div className="arak-wrapper tight--desktop--container">
         <div className="row mt-40px">
-          <h3>Ashtanga Mysore-Program</h3>
+          <h3>Ashtanga Mysore Program</h3>
           <table className="prices mt-10px">
             <thead>
               <tr>
@@ -80,7 +80,7 @@ export default function Prices() {
                 </td>
               </tr>
               <tr>
-                <td>Annual pass</td>
+                <td>Yearly Membership</td>
                 <td>320.000.- Ft</td>
                 <td>
                   {" "}
@@ -91,37 +91,38 @@ export default function Prices() {
                   />
                 </td>
               </tr>
-              <tr>
-                <td>Yearly Membership</td>
-                <td>27.000.- Ft / month</td>
-                <td>COMING SOON</td>
-              </tr>
             </tbody>
           </table>
           <p className="arak-table-footer mt-20px">
             Pre-registration is required to participate in the astanga Mysore
-            programme! For a detailed description, please visit the Mysore
-            programme page.{" "}
+            programme! Register for Mysore Programme here{" "}
             <CustomLink
-              link="/astanga-mysore-program"
-              title="Mysore-program "
+              link="/mysore-programme-application/"
+              title="here"
               classNames="link-decoration-remove"
             />
-            oldalán találsz.
+            .
           </p>
         </div>
         <div className="row mt-40px mb-40px">
-          <h3>Vinyasa Krama Yoga</h3>
+          <div>
+            <h3>Vinyasa Krama Yoga</h3>
+            <p>
+              The vinyasa krama classes are held in Hungarian. The teacher can
+              give individual instructions in English to foreign practitioners.
+            </p>
+          </div>
+
           <table className="prices mt-10px">
             <thead>
               <tr>
                 <th>&nbsp;</th>
-                <th>Árak</th>
+                <th>Prices</th>
                 <th>&nbsp;</th>
               </tr>
             </thead>
             <tr>
-              <td>Egy alkalom (drop in)</td>
+              <td>Drop in</td>
               <td>3.500.- Ft</td>
               <td>
                 <CustomLink
@@ -132,7 +133,7 @@ export default function Prices() {
               </td>
             </tr>
             <tr>
-              <td>Tíz alkalmas bérlet</td>
+              <td>10-session pass"</td>
               <td>30.000.- Ft</td>
               <td>
                 {" "}
@@ -146,35 +147,39 @@ export default function Prices() {
           </table>
         </div>
         <div className="row mb-40px">
-          <h3>Tanfolyamok</h3>
+          <div>
+            <h3>Courses</h3>
+            <p>All courses are taught in Hungarian</p>
+          </div>
+
           <table className="prices mt-10px">
             <thead>
               <tr>
                 <th>&nbsp;</th>
-                <th>Árak</th>
+                <th>Prices</th>
                 <th>&nbsp;</th>
               </tr>
             </thead>
             <tr>
-              <td>Kezdő astanga jóga tanfolyam</td>
+              <td>Beginners astanga yoga course</td>
               <td>30.000.- Ft</td>
               <td>
                 {" "}
                 <CustomLink
                   link="https://shop.bandha.works/products/astanga-kezdo-tanfolyam"
-                  title="JELENTKEZÉS"
+                  title="APPLICATION"
                   classNames="link-decoration-remove"
                 />
               </td>
             </tr>
             <tr>
-              <td>Astanga Mysore-kurzus</td>
+              <td>Astanga Mysore course</td>
               <td>30.000.- Ft</td>
               <td>
                 {" "}
                 <CustomLink
                   link="https://shop.bandha.works/products/astanga-mysore-kurzus"
-                  title="JELENTKEZÉS"
+                  title="APPLICATION"
                   classNames="link-decoration-remove"
                 />
               </td>
@@ -182,40 +187,39 @@ export default function Prices() {
           </table>
         </div>
         <div className="row mb-40px">
-          <h3>Magánórák</h3>
+          <h3>Private classes</h3>
           <table className="prices mt-10px">
             <thead>
               <tr>
                 <th>&nbsp;</th>
-                <th>Árak</th>
+                <th>Prices</th>
                 <th>&nbsp;</th>
               </tr>
             </thead>
             <tr>
-              <td>Ászanás gyakorlás</td>
-              <td>15.000.- Ft / 60 perc</td>
-              <td>HAMAROSAN</td>
+              <td>Asana practice</td>
+              <td>15.000.- Ft / 60 minute</td>
+              <td>COMING SOON</td>
             </tr>
             <tr>
-              <td>Jógikus életmód tanácsadás</td>
-              <td>15.000.- Ft / 60 perc</td>
-              <td>HAMAROSAN</td>
+              <td>Yogic lifestyle counselling</td>
+              <td>15.000.- Ft / 60 minute</td>
+              <td>COMING SOON</td>
             </tr>
             <tr>
-              <td>Kezdő astanga, négy alkalmas</td>
+              <td>Beginner astanga intro (private), 4-session</td>
               <td>80.000.- Ft</td>
-              <td>HAMAROSAN</td>
+              <td>COMING SOON</td>
             </tr>
           </table>
         </div>
         <div className="row">
           <p>
-            A bérletek, tanfolyamok és az egy alkalmas jegyek árai nem
-            visszatéríthetőek. A bérletek az érvényességi időn túl nem
-            hosszabbíthatók meg; a bérletek felhasználása, illetőleg a
-            tanfolyamok nem szüneteltethetők. A megvásárolt egy alkalmas (egy
-            alkalomra szóló) jegyek időpontjának utólagos módosítására nincsen
-            lehetőség.
+            Passes, courses and drop in tickets are non-refundable. Passes may
+            not be extended beyond their period of validity; the use of passes
+            and courses may not be interrupted. There is no right to change the
+            date of a drop in ticket (single-occasion ticket) purchased after
+            the expiry of the validity period.
           </p>
         </div>
       </div>
