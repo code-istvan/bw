@@ -74,7 +74,7 @@
   display: flex;
   flex-direction: row;
   gap: 12px;
-  width: 90%;
+  width: 100%;
   height: 300px;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -89,4 +89,23 @@
   white-space: normal;
   overflow-wrap: break-word;
   //   word-break: break-all;
+}
+
+.circle-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* or any margin you prefer */
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid gray; /* Inactive circle color */
+  margin: 0 5px;
+}
+
+.circle.active {
+  background-color: gray; /* Active circle color */
 }
