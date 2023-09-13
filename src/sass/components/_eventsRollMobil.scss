@@ -1,111 +1,119 @@
-// @import "/src/sass/global";
+@import "/src/sass/global";
 
-// .event-card {
-//   h3 {
-//     text-transform: uppercase;
-//   }
-//   border: solid 2px $color-shades-darkGray;
-//   border-radius: 2px;
-//   box-sizing: border-box;
-//   height: 100%;
-//   min-height: 300px;
-//   width: 300px;
-// }
+.erm-event-card {
+  h3 {
+    text-transform: uppercase;
+  }
+  border: solid 2px $color-shades-darkGray;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 300px;
+  width: 300px;
+}
 
-// .event-card-content-wrapper {
-//   padding: 20px;
-//   height: 100%;
-//   display: flex;
-//   flex-direction: column;
-//   box-sizing: border-box;
-// }
+.erm-event-card-content-wrapper {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
 
-// .event-card-header {
-//   width: 200px;
-// }
+.erm-event-card-header {
+  width: 200px;
+}
 
-// .event-card-body {
-//   padding-top: 20px;
-//   padding-bottom: 20px;
-// }
+.erm-event-card-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-// .avatar-group {
-//   align-items: center;
-//   gap: 8px;
-// }
+.avatar-group {
+  align-items: center;
+  gap: 8px;
+}
 
-// .event-card-footer {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   margin-top: auto;
-// }
+.erm-event-card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+}
 
-// .event-card-header-secondline {
-//   margin-top: 8px;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: flex-start;
-//   gap: 5px;
+.erm-event-card-header-secondline {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
 
-//   .vertical-separator {
-//     display: none;
-//   }
+  .vertical-separator {
+    display: none;
+  }
 
-//   @include md {
-//     flex-direction: row-reverse;
-//     align-items: center;
-//     justify-content: flex-end;
-//     gap: 10px;
+  @include md {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
 
-//     .vertical-separator {
-//       display: block;
-//       height: 30px;
-//       margin: 0px 8px;
-//     }
-//   }
+    .vertical-separator {
+      display: block;
+      height: 30px;
+      margin: 0px 8px;
+    }
+  }
 
-//   a:link {
-//     text-decoration: none;
-//   }
-// }
+  a:link {
+    text-decoration: none;
+  }
+}
 
-// .mobilbaby {
-//   display: flex;
-//   flex-direction: row;
-//   gap: 12px;
-//   width: 100%;
-//   height: 300px;
-//   overflow-x: scroll;
-//   overflow-y: hidden;
-//   white-space: nowrap;
-//   -webkit-overflow-scrolling: touch;
-//   scrollbar-width: none; /* Firefox */
-//   //   background-color: $color-brand-orange;
-// }
+.mobilbaby {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  width: 100%;
+  height: 300px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  //   background-color: $color-brand-orange;
+}
 
-// .event-card h3,
-// .event-card-body p {
-//   white-space: normal;
-//   overflow-wrap: break-word;
-//   //   word-break: break-all;
-// }
+.erm-event-card h3,
+.erm-event-card-body p {
+  white-space: normal;
+  overflow-wrap: break-word;
+  //   word-break: break-all;
+}
 
-// .circle-indicator {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   margin-top: 10px; /* or any margin you prefer */
-// }
+.circle-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* or any margin you prefer */
+}
 
-// .circle {
-//   width: 10px;
-//   height: 10px;
-//   border-radius: 50%;
-//   border: 1px solid gray; /* Inactive circle color */
-//   margin: 0 5px;
-// }
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid gray; /* Inactive circle color */
+  margin: 0 5px;
+}
 
-// .circle.active {
-//   background-color: gray; /* Active circle color */
-// }
+.circle.active {
+  background-color: gray; /* Active circle color */
+}
+
+.erm-event-card-body p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
