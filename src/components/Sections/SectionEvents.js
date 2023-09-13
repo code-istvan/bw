@@ -10,17 +10,17 @@ const SectionEvents = () => {
     <section className="section--events">
       <h1 className="mb-20px">Programok</h1>
 
-      <EventsFeaturedMobil
-        maxEventsToShow={3}
-        onlyFeatured={false}
-        excludeTypes={["Konferencia"]}
-      />
-
-      {/* <EventsFeaturedRoll
+      {/* <EventsFeaturedMobil
         maxEventsToShow={3}
         onlyFeatured={false}
         excludeTypes={["Konferencia"]}
       /> */}
+
+      <EventsFeaturedRoll
+        maxEventsToShow={3}
+        onlyFeatured={false}
+        excludeTypes={["Konferencia"]}
+      />
       <div className="mt-20px">
         {" "}
         <Button
