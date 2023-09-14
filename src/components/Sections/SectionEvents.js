@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
-import EventsFeaturedRoll from "../Events/EventsFeaturedRoll"
+import EventsForMobil from "../Events/EventsForMobil"
 import EventsFeaturedMobil from "../Events/EventsFeaturedMobil"
 import "../../sass/components/_sectionevents.scss"
 
@@ -16,11 +16,7 @@ const SectionEvents = () => {
         // excludeTypes={["Konferencia"]}
       />
 
-      {/* <EventsFeaturedRoll
-        maxEventsToShow={3}
-        onlyFeatured={false}
-        excludeTypes={["Konferencia"]}
-      /> */}
+      <EventsForMobil />
       <div className="mt-20px">
         {" "}
         <Button
