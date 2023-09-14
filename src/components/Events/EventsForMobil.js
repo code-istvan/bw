@@ -23,30 +23,50 @@ export default function EventsFeaturedMobil({
     filteredEvents = events
   }
 
+  const [activeCardIndex, setActiveCardIndex] = React.useState(0)
+  const eventsRowRef = React.useRef(null)
+
+  const handleScroll = () => {
+    const index = Math.round(
+      eventsRowRef.current.scrollLeft / window.innerWidth
+    )
+    setActiveCardIndex(index)
+  }
+
   return (
-    <div className="events-row">
-      {filteredEvents.map(
-        ({ title, date, day, teacher: teacherName, eventlink }) => {
-          const currentTeacher = teachers.find(
-            teacher => teacher.name === teacherName
-          )
-          return (
-            <div className="events-col" key={title + date}>
-              <EventsMobilCard
-                key={title + date}
-                title={title}
-                date={date}
-                day={day}
-                teacher={currentTeacher}
-                teacherImage={
-                  currentTeacher.teacherimage.childImageSharp.gatsbyImageData
-                }
-                eventLink={eventlink}
-              />
-            </div>
-          )
-        }
-      )}
+    <div>
+      <div className="events-row" onScroll={handleScroll} ref={eventsRowRef}>
+        {filteredEvents.map(
+          ({ title, date, day, teacher: teacherName, eventlink }) => {
+            const currentTeacher = teachers.find(
+              teacher => teacher.name === teacherName
+            )
+            return (
+              <div className="events-col" key={title + date}>
+                <EventsMobilCard
+                  key={title + date}
+                  title={title}
+                  date={date}
+                  day={day}
+                  teacher={currentTeacher}
+                  teacherImage={
+                    currentTeacher.teacherimage.childImageSharp.gatsbyImageData
+                  }
+                  eventLink={eventlink}
+                />
+              </div>
+            )
+          }
+        )}
+      </div>
+      <div className="pagination-dots">
+        {filteredEvents.map((_, index) => (
+          <span
+            key={index}
+            className={`dot ${index === activeCardIndex ? "active" : ""}`}
+          ></span>
+        ))}
+      </div>
     </div>
   )
 }
