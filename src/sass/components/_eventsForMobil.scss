@@ -1,1 +1,31 @@
 @import "/src/sass/global";
+
+.events-row {
+  display: flex; // Sorba rendezzük a kártyákat
+  flex-wrap: nowrap; // Nem engedjük, hogy tördelődjenek
+  overflow-x: auto; // Engedélyezzük a horizontális görgetést
+  width: 100%; // A konténer szélessége 100%
+  gap: 12px; // A kártyák közötti rés
+
+  scroll-snap-type: x mandatory;
+
+  // Scrollbár eltüntetése
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  scrollbar-width: none; // Firefoxhoz
+}
+
+.events-col {
+  flex: 0 0 100%; // A kártya nem növekszik, nem zsugorodik, és a szélessége 100% (azaz a szülő szélessége)
+  box-sizing: border-box;
+
+  // Scroll Snap pont
+  scroll-snap-align: center;
+
+  .EventsMobilCard {
+    width: 100%; // A kártya szélessége a konténerével megegyezik
+    flex: none; // Ezen az állításon nem változtat
+  }
+}

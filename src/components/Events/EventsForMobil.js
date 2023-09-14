@@ -24,15 +24,16 @@ export default function EventsFeaturedMobil({
   }
 
   return (
-    <div className="row">
-      <div className="col-12-xs">
-        {filteredEvents.map(
-          ({ title, date, day, teacher: teacherName, eventlink }) => {
-            const currentTeacher = teachers.find(
-              teacher => teacher.name === teacherName
-            )
-            return (
+    <div className="events-row">
+      {filteredEvents.map(
+        ({ title, date, day, teacher: teacherName, eventlink }) => {
+          const currentTeacher = teachers.find(
+            teacher => teacher.name === teacherName
+          )
+          return (
+            <div className="events-col" key={title + date}>
               <EventsMobilCard
+                key={title + date}
                 title={title}
                 date={date}
                 day={day}
@@ -42,10 +43,10 @@ export default function EventsFeaturedMobil({
                 }
                 eventLink={eventlink}
               />
-            )
-          }
-        )}
-      </div>
+            </div>
+          )
+        }
+      )}
     </div>
   )
 }
