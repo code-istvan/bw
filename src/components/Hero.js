@@ -49,7 +49,7 @@ const Hero = () => (
                 buttonStyle="btn--primary--outline-full"
                 className=""
                 onClick={() => {
-                  navigate("/parampara")
+                  navigate("/astanga-mysore-program")
                 }}
               >
                 Astanga Mysore-program

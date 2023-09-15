@@ -1,7 +1,9 @@
 @import "/src/sass/global";
 
-// .events-row {
-//   display: flex;
-//   flex-flow: row wrap;
-//   //   gap: 10px 10px;
-// }
+.section--events {
+  @media only screen and (min-width: 1px) and (max-width: 768px) {
+    .btn {
+      width: 100%;
+    }
+  }
+}
