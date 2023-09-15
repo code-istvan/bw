@@ -32,11 +32,10 @@ const Hero = () => (
             />
           </div>
         </div>
-
         <div className="row">
           <div className="col">
             <div className="hero-text">
-              <p className="hero--font-big mb-20px">
+              <p className="hero--font-big">
                 Az egyetlen kiút <br />
                 befelé vezet <br />
               </p>
@@ -44,27 +43,18 @@ const Hero = () => (
                 Tradicionális astanga jógaiskola a Paramaguru áldásával
               </p>
             </div>
-            {/* <div className="hero--buttons">
+            <div className="hero--buttons">
               <Button
                 type="button"
-                buttonStyle="btn--primary--solid--full"
-                className="mb-20px"
+                buttonStyle="btn--primary--outline-full"
+                className=""
                 onClick={() => {
                   navigate("/parampara")
                 }}
               >
                 Astanga Mysore-program
               </Button>
-              <Button
-                type="button"
-                buttonStyle="btn--primary--outline-full"
-                onClick={() => {
-                  navigate("/parampara")
-                }}
-              >
-                Astanga tanfolyamok
-              </Button>
-            </div> */}
+            </div>
           </div>
         </div>
 

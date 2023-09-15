@@ -39,6 +39,8 @@
   }
   .hero--font-big {
     font-size: 2.6rem;
+    line-height: 120%;
+    margin-bottom: 8px;
   }
   .hero--font-subtitle {
     font-size: 1.25rem;
@@ -51,6 +53,8 @@
   }
   .hero--font-big {
     font-size: 3.2rem;
+    line-height: 120%;
+    margin-bottom: 8px;
   }
   .hero--font-subtitle {
     font-size: 1.5rem;
@@ -63,9 +67,14 @@
   }
   .hero--font-big {
     font-size: 4rem;
+    line-height: 120%;
+    margin-bottom: 8px;
   }
   .hero--font-subtitle {
     font-size: 2rem;
+  }
+  .hero--buttons {
+    margin-bottom: 12px;
   }
 }
 
@@ -100,11 +109,6 @@
   width: 100%;
 }
 
-// .hero-risi-section {
-//   display: flex;
-//   flex-direction: row;
-// }
-
 .hero-buttons {
   @media only screen and (min-width: 1px) and (max-width: 768px) {
     .btn {
@@ -112,54 +116,3 @@
     }
   }
 }
-
-// .hero--risi {
-//   border-radius: 50%;
-//   @include xs {
-//     height: 44px;
-//     width: 44px;
-//     border: solid 2px white;
-//   }
-
-//   @include xl {
-//     height: 75px;
-//     width: 75px;
-//     border: solid 4px white;
-//   }
-// }
-
-// @media only screen and (min-width: 721px) {
-//   .hero_tablet,
-//   .hero_mobil {
-//     display: none !important;
-//   }
-
-//   .hero-buttons-underhero {
-//     display: none;
-//   }
-// }
-
-// @media only screen and (min-width: 1px) and (max-width: 720px) {
-//   .hero_tablet,
-//   .hero_desktop {
-//     display: none !important;
-//   }
-
-//   .hero-buttons-onthehero {
-//     .btn {
-//       display: none;
-//     }
-//   }
-// }
-
-// .hero--author {
-//   display: flex;
-//   flex-direction: column;
-//   height: 100%;
-//   justify-content: center;
-//   p {
-//     // margin-bottom: 0;
-//     margin-left: 14px;
-//     line-height: 130%;
-//   }
-// }
