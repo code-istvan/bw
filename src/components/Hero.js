@@ -35,14 +35,15 @@ const Hero = () => (
 
         <div className="row">
           <div className="col">
-            {/* <div className="hero-text">
+            <div className="hero-text">
               <p className="hero--font-big mb-20px">
-                Az egyetlen kiút befelé vezet <br />
+                Az egyetlen kiút <br />
+                befelé vezet <br />
               </p>
               <p className="hero--font-subtitle">
                 Tradicionális astanga jógaiskola a Paramaguru áldásával
               </p>
-            </div> */}
+            </div>
             {/* <div className="hero--buttons">
               <Button
                 type="button"
