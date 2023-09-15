@@ -4,11 +4,18 @@
   border: solid 2px $color-shades-lightBlack;
   border-radius: 2px;
   min-height: 180px;
-  height: auto;
 }
 
 .events-mobil-card-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  height: auto;
   padding: 20px;
+  justify-content: space-between;
+  .erm-event-card-footer {
+    margin-top: auto;
+  }
 
   h3 {
     text-transform: uppercase;
@@ -17,4 +24,13 @@
 }
 .events-mobil-card-avatar {
   margin-top: 8px;
+}
+
+.truncated-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 80px; // Ezt az értéket módosíthatja, ha a tényleges sorok magassága eltér.
+  line-height: 20px; // Ez az érték is becsült, módosítsa ha szükséges.
 }

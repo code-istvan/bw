@@ -26,18 +26,6 @@ const SectionEvents = () => {
           // excludeTypes={["Konferencia"]}
         />
       )}
-
-      {/* <EventsFeaturedRoll
-        maxEventsToShow={4}
-        onlyFeatured={false}
-        // excludeTypes={["Konferencia"]}
-      />
-
-      <EventsForMobil
-        maxEventsToShow={4}
-        onlyFeatured={false}
-        // excludeTypes={["Konferencia"]}
-      /> */}
       <div className="mt-20px">
         {" "}
         <Button

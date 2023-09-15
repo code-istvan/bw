@@ -42,7 +42,14 @@ export default function EventsForMobil({
     <div>
       <div className="events-row" onScroll={handleScroll} ref={eventsRowRef}>
         {filteredEvents.map(
-          ({ title, date, day, teacher: teacherName, eventlink }) => {
+          ({
+            title,
+            date,
+            day,
+            teacher: teacherName,
+            Shortdescription,
+            eventlink,
+          }) => {
             const currentTeacher = teachers.find(
               teacher => teacher.name === teacherName
             )
@@ -57,6 +64,7 @@ export default function EventsForMobil({
                   teacherImage={
                     currentTeacher.teacherimage.childImageSharp.gatsbyImageData
                   }
+                  Shortdescription={Shortdescription}
                   eventLink={eventlink}
                 />
               </div>

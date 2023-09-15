@@ -10,6 +10,7 @@ const EventsMobilCard = ({
   day,
   teacher,
   teacherImage,
+  Shortdescription,
   eventLink,
 }) => {
   let eventFooterContent
@@ -23,6 +24,17 @@ const EventsMobilCard = ({
         classNames="btn--third--naked-orange"
       />
     )
+  }
+
+  const truncatedDescription = desc => {
+    const maxCharsPerLine = 50 // Ez az érték becsült, állítsa be az Ön igényei szerint
+    const maxChars = 4 * maxCharsPerLine
+
+    if (desc.length > maxChars) {
+      return `${desc.slice(0, maxChars - 3)}...`
+    }
+
+    return desc
   }
 
   return (
@@ -43,7 +55,9 @@ const EventsMobilCard = ({
             <p className="clr-shades-gray">{teacher.name}</p>
           </div>
         </Link>
-
+        <p className="truncated-text mt-20px">
+          {truncatedDescription(Shortdescription)}
+        </p>
         <div
           className={`erm-event-card-footer body ${
             eventLink === null ? "clr-brand-orange" : "custom-link-style"
