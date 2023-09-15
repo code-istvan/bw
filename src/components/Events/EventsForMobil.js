@@ -45,7 +45,6 @@ export default function EventsForMobil({
           ({
             title,
             date,
-            day,
             teacher: teacherName,
             Shortdescription,
             eventlink,
@@ -59,7 +58,6 @@ export default function EventsForMobil({
                   key={title + date}
                   title={title}
                   date={date}
-                  day={day}
                   teacher={currentTeacher}
                   teacherImage={
                     currentTeacher.teacherimage.childImageSharp.gatsbyImageData

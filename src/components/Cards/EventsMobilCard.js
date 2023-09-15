@@ -7,7 +7,6 @@ import "../../sass/components/_eventsMobilCard.scss"
 const EventsMobilCard = ({
   title,
   date,
-  day,
   teacher,
   teacherImage,
   Shortdescription,
@@ -41,9 +40,7 @@ const EventsMobilCard = ({
     <div className="events-mobil-card">
       <div className="events-mobil-card-content">
         <h3>{title}</h3>
-        <p className="clr-shades-gray">
-          {date} {day}
-        </p>
+        <p className="clr-shades-gray">{date}</p>
         <Link to={teacher.link}>
           <div className="row avatar-group events-mobil-card-avatar">
             <GatsbyImage
