@@ -3,8 +3,18 @@
 .events-mobil-card {
   border: solid 2px $color-shades-lightBlack;
   border-radius: 2px;
+  min-height: 180px;
+  height: auto;
 }
 
 .events-mobil-card-content {
   padding: 20px;
+
+  h3 {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+}
+.events-mobil-card-avatar {
+  margin-top: 8px;
 }

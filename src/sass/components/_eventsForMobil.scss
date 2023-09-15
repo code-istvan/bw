@@ -45,7 +45,8 @@
     transition: background-color 0.3s;
 
     &.active {
-      background-color: gray;
+      background-color: $color-brand-orange;
+      border: 1px solid $color-brand-orange;
     }
   }
 }

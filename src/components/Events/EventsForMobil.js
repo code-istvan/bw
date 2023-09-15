@@ -4,7 +4,7 @@ import { useTeachers } from "../../hooks/useTeachersQuery"
 import EventsMobilCard from "../Cards/EventsMobilCard"
 import "../../sass/components/_eventsForMobil.scss"
 
-export default function EventsFeaturedMobil({
+export default function EventsForMobil({
   onlyFeatured = false,
   showAll = false,
   maxEventsToShow,
@@ -18,6 +18,11 @@ export default function EventsFeaturedMobil({
   filteredEvents = filteredEvents.filter(
     event => !excludeTypes.includes(event.esemenytipusa)
   )
+
+  // Considering maxEventsToShow
+  if (typeof maxEventsToShow === "number") {
+    filteredEvents = filteredEvents.slice(0, maxEventsToShow)
+  }
 
   if (showAll) {
     filteredEvents = events
