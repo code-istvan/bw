@@ -52,9 +52,12 @@ const EventsMobilCard = ({
             <p className="clr-shades-gray">{teacher.name}</p>
           </div>
         </Link>
-        <p className="truncated-text mt-20px">
-          {truncatedDescription(Shortdescription)}
-        </p>
+        <div className="truncated-text-wraper">
+          <p className="truncated-text mt-20px mb-40px">
+            {truncatedDescription(Shortdescription)}
+          </p>
+        </div>
+
         <div
           className={`erm-event-card-footer body ${
             eventLink === null ? "clr-brand-orange" : "custom-link-style"
