@@ -92,7 +92,7 @@ export default function AdatvedelmiTajekoztato() {
               <span>Levelezési cím, panaszkezelés: {adatkezeloLevelezes}</span>
             </p>
             <p className="mt-20px">
-              <span>E-mail: {adatkezeloEmail}</span>
+              <span>Email: {adatkezeloEmail}</span>
             </p>
             <p className="mt-20px">
               <strong>
@@ -108,7 +108,7 @@ export default function AdatvedelmiTajekoztato() {
               <span>Levelezési cím: {tarhelyszolgaltatoLevelezes}</span>
             </p>
             <p className="mt-20px">
-              <span>E-mail cím: {tarhelyszolgaltatoEmail}</span>
+              <span>Email cím: {tarhelyszolgaltatoEmail}</span>
             </p>
             <p className="mt-20px">
               <span>Telefonszám: {tarhelyszolgaltatoTelefon}</span>
@@ -152,23 +152,23 @@ export default function AdatvedelmiTajekoztato() {
             </p>
             <h3 className="mt-20px">2. Kapcsolatfelvétel</h3>
             <p className="mt-20px">
-              Ha például e-mailben, vagy a kapcsolatfelvételi űrlapon a
+              Ha például emailben, vagy a kapcsolatfelvételi űrlapon a
               jógaiskolával, jógaórákkal kapcsolatos kérdéssel fordul hozzánk.
               Az Adatkezelő a Honlapon „Kapcsolat” menüpont alatt üzenetküldési
               lehetőséget biztosít a felhasználók részére, amelynek során az
               érintett a kapcsolatfelvételhez szükséges személyes adatait
-              (nevét, e-mail címét) köteles megadni. A név, e-mail cím rögzítése
+              (nevét, email címét) köteles megadni. A név, email cím rögzítése
               elektronikusan történik oly módon, hogy az erre szolgáló panelt a
               felhasználó kitölti, a checkbox kipipálásával elfogadja az
               Adatvédelmi tájékoztatót és egyúttal hozzájárulását adja ahhoz,
-              hogy az Adatkezelő a nevét és e-mail címét kapcsolatfelvétel,
+              hogy az Adatkezelő a nevét és email címét kapcsolatfelvétel,
               valamint üzenet küldése céljából kezelje, majd a küldés gombra
               kattint.
             </p>
             <p className="mt-20px">
               <strong>Kezelt adatok</strong>
               <br /> Az Ön által a kapcsolatfelvétel során megadott adatok (név,
-              e-mail cím).
+              email cím).
             </p>
             <p className="mt-20px">
               <strong>Az adatkezelés időtartama</strong>
@@ -188,8 +188,8 @@ export default function AdatvedelmiTajekoztato() {
             <p className="mt-20px">
               Az adatkezelési folyamat a hírlevelek kiküldése érdekében
               történik. A hírlevél-szolgáltatás nyújtása érdekében az Adatkezelő
-              személyes adatot (nevet, e-mail címet) vesz fel Öntől. A név, és
-              az e-mail cím rögzítése elektronikusan történik oly módon, hogy az
+              személyes adatot (nevet, email címet) vesz fel Öntől. A név, és az
+              email cím rögzítése elektronikusan történik oly módon, hogy az
               erre szolgáló panelt a felhasználó kitölti, a checkbox
               kipipálásával elfogadja az Adatvédelmi tájékoztatót és egyúttal
               hozzájárulását adja ahhoz, hogy az Adatkezelő a megadott adatait
@@ -198,7 +198,7 @@ export default function AdatvedelmiTajekoztato() {
             <p className="mt-20px">
               <strong>Kezelt adatok</strong>
               <br />
-              Név, e-mail cím.
+              Név, email cím.
             </p>
             <p className="mt-20px">
               <strong>Az adatkezelés időtartama</strong>
@@ -222,7 +222,7 @@ export default function AdatvedelmiTajekoztato() {
               Az Adatkezelő a Honlapon a „Mysore-program” menüpont alatt on-line
               módon történő jelentkezést tesz lehetővé, amelynek során az
               érintett a programban való részvételhez szükséges személyes
-              adatait (név, születési idő, e-mail cím, telefonszám,
+              adatait (név, születési idő, email cím, telefonszám,
               jógagyakorlással kapcsolatos adatait) adja meg. Az adatok
               rögzítése elektronikusan történik oly módon, hogy az erre szolgáló
               űrlapot a jelentkező kitölti, a checkbox kipipálásával elfogadja
@@ -235,7 +235,7 @@ export default function AdatvedelmiTajekoztato() {
               <strong>Kezelt adatok</strong>
               <br />
               Az Ön által a jelentkezés során megadott adatok (név, születési
-              idő, e-mail cím, telefonszám, jógagyakorlással kapcsolatos adatok)
+              idő, email cím, telefonszám, jógagyakorlással kapcsolatos adatok)
             </p>
             <p className="mt-20px">
               <strong>Az adatkezelés időtartama</strong>
@@ -266,14 +266,14 @@ export default function AdatvedelmiTajekoztato() {
             </p>
             <h3 className="mt-20px">1. Kapcsolatfelvétel</h3>
             <p className="mt-20px">
-              Ha például e-mailben kérdéssel fordul hozzánk valamely termékkel
+              Ha például emailben kérdéssel fordul hozzánk valamely termékkel
               kapcsolatban. Az előzetes kapcsolatfelvétel nem kötelező, ezt
               kihagyva is bármikor rendelhet a webshopból.
             </p>
             <p className="mt-20px">
               <strong>Kezelt adatok</strong>
               <br />
-              Az Ön által a kapcsolatfelvétel során megadott adatok (név, e-mail
+              Az Ön által a kapcsolatfelvétel során megadott adatok (név, email
               cím)
             </p>
             <p className="mt-20px">
@@ -299,7 +299,7 @@ export default function AdatvedelmiTajekoztato() {
               <strong>Kezelt adatok</strong>
               <br />
               Az adatkezelés során az Adatkezelő az Ön nevét, lakcímét,
-              telefonszámát, e-mail címét, a megvásárolt termék jellemzőit és a
+              telefonszámát, email címét, a megvásárolt termék jellemzőit és a
               vásárlás időpontját kezeli.
             </p>
             <p className="mt-20px">
@@ -322,7 +322,7 @@ export default function AdatvedelmiTajekoztato() {
               <strong>Kezelt adatok</strong>
               <br />
               Az adatkezelés során az Adatkezelő az Ön nevét, lakcímét,
-              telefonszámát, e-mail címét, a megvásárolt termék jellemzőit, a
+              telefonszámát, email címét, a megvásárolt termék jellemzőit, a
               megrendelés számát és a vásárlás időpontját kezeli.
             </p>
             <p className="mt-20px">
@@ -352,7 +352,7 @@ export default function AdatvedelmiTajekoztato() {
             <p className="mt-20px">
               <strong>Kezelt adatok</strong>
               <br />
-              Név, cím, e-mail cím
+              Név, cím, email cím
             </p>
             <p className="mt-20px">
               <strong>Az adatkezelés időtartama</strong>
@@ -378,7 +378,7 @@ export default function AdatvedelmiTajekoztato() {
             <p className="mt-20px">
               <strong>Kezelt adatok</strong>
               <br />
-              Név, cím, e-mail cím, telefonszám.
+              Név, cím, email cím, telefonszám.
             </p>
             <p className="mt-20px">
               <strong>Az adatkezelés időtartama</strong>
@@ -395,7 +395,7 @@ export default function AdatvedelmiTajekoztato() {
             <p className="mt-20px">A címzett megnevezése: {futarNev}</p>
             <p className="mt-20px">A címzett székhelye: {futarSzekhely}</p>
             <p className="mt-20px">A címzett telefonszáma: {futarTelefon}</p>
-            <p className="mt-20px">A címzett e-mail címe: {futarEmail}</p>
+            <p className="mt-20px">A címzett email címe: {futarEmail}</p>
             <p className="mt-20px">A címzett weboldala: {futarWeboldal}</p>
             <p className="mt-20px">
               A futárszolgálat az Adatkezelővel kötött szerződés alapján
@@ -543,7 +543,7 @@ export default function AdatvedelmiTajekoztato() {
               Az adatfeldolgozó telefonszáma: 06-1/303-7885
             </p>
             <p className="mt-20px">
-              Az adatfeldolgozó e-mail címe: konyveles@nnnbt.eu
+              Az adatfeldolgozó email címe: konyveles@nnnbt.eu
             </p>
             <p className="mt-20px">
               Az adatfeldolgozó weboldala: http://www.nnnbt.hu
@@ -569,7 +569,7 @@ export default function AdatvedelmiTajekoztato() {
               Az adatkezelő telefonszáma: +36 1/20-30-70
             </p>
             <p className="mt-20px">
-              Az adatkezelő e-mail címe: ugyfelszolgalat@simple.hu
+              Az adatkezelő email címe: ugyfelszolgalat@simple.hu
             </p>
             <p className="mt-20px">Az adatkezelő weboldala: simple.hu</p>
             <p className="mt-20px">
@@ -708,7 +708,7 @@ export default function AdatvedelmiTajekoztato() {
             </p>
             <p className="mt-20px">
               A személyes adatokhoz való hozzáférést az Adatkezelő úgy
-              biztosítja, hogy az Ön azonosítását követően e-mailben juttatja el
+              biztosítja, hogy az Ön azonosítását követően emailben juttatja el
               Önhöz a kezelt személyes adatokat és az információkat. Amennyiben
               regisztrációval rendelkezik, akkor a hozzáférést úgy biztosítjuk,
               hogy a felhasználói fiókjába belépve tudja az Önről kezelt
@@ -941,7 +941,7 @@ export default function AdatvedelmiTajekoztato() {
               teljesítette valamely kérelmét, akkor vélelmezett jogellenes
               adatkezelés megszüntetése érdekében a Nemzeti Adatvédelmi és
               Információszabadság Hatóság vizsgálati eljárását kezdeményezheti
-              (levelezési cím: 1363 Budapest, Pf. 9., e-mail:
+              (levelezési cím: 1363 Budapest, Pf. 9., email:
               ugyfelszolgalat@naih.hu, telefonszámok: +36 (30) 683-5969 +36 (30)
               549-6838; +36 (1) 391 1400).
             </p>

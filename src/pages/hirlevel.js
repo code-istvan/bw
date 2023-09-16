@@ -40,7 +40,7 @@ const Hirlevel = () => (
           <p>
             Iratkozz fel hírlevelünkre, hogy elsőként értesülj jógaiskolánkat
             érintő történésekről. Havonta max. egy hírlevelet küldünk. Harmadik
-            fél számára nem adjuk ki a feliratkozók nevét és e-mail címét.
+            fél számára nem adjuk ki a feliratkozók nevét és email címét.
           </p>
         </div>
         <form
@@ -72,7 +72,7 @@ const Hirlevel = () => (
             <div className="col-12-xs col-6-md hirlevel-input-email">
               <InputField
                 type="email"
-                placeholder="E-mail"
+                placeholder="Email"
                 name="email"
                 id="email"
                 pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"

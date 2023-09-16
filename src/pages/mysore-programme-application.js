@@ -91,7 +91,7 @@ export default function MysoreprogramJelentkezes() {
                     id="email"
                     type="email"
                     name="email"
-                    placeholder="E-mail"
+                    placeholder="Email"
                     pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
                     required="required"
                     className="form-style col-12-xs col-6-md mb-20px"
@@ -104,7 +104,7 @@ export default function MysoreprogramJelentkezes() {
                     id="email2"
                     type="email"
                     name="email2"
-                    placeholder="E-mail once again"
+                    placeholder="Email once again"
                     pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
                     required="required"
                     className="form-style col-12-xs col-6-md mb-20px"
@@ -143,7 +143,7 @@ export default function MysoreprogramJelentkezes() {
                     <span>
                       I have read and accept
                       <Link to="/adatvedelem"> the privacy policy</Link>, and
-                      consent to the processing of my name and e-mail address.
+                      consent to the processing of my name and email address.
                     </span>
                   </label>
                 </div>
@@ -156,7 +156,7 @@ export default function MysoreprogramJelentkezes() {
                     onClick={e => {
                       if (email !== emailConfirm) {
                         e.preventDefault()
-                        alert("Az e-mail címek nem egyeznek!")
+                        alert("Az email címek nem egyeznek!")
                       }
                     }}
                   >

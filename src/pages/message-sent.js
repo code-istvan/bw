@@ -49,19 +49,19 @@ export default function Messagesent() {
               <strong>
                 <u>rosszul adtad meg</u>
               </strong>{" "}
-              az e-mail címed vagy a{" "}
+              az email címed vagy a{" "}
               <strong>
                 <u>SPAM fiókodban</u>
               </strong>{" "}
               landolt a válaszunk!
             </p>
             <div className="separator-horizontal mt-20px"></div>
-            <h3 className="clr-brand-orange">Hol az e-mail címünk?</h3>
+            <h3 className="clr-brand-orange">Hol az email címünk?</h3>
             <p className="mt-20px">
               A weboldalunkon a biztonság és adatvédelem kiemelt prioritást
               élvez. Ennek érdekében, hogy elkerüljük a nem kívánt spam
               üzeneteket és az adathalászati kísérleteket, döntöttünk úgy, hogy
-              nem tesszük közzé az e-mail címünket.
+              nem tesszük közzé az email címünket.
             </p>
             <p className="mt-20px">
               Ez a gyakorlat a mai digitális világban iparági sztenderdnek

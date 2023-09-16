@@ -14,7 +14,9 @@ export default function English() {
         <div className="row tight--desktop--container">
           <div className="col index-namaste">
             <Icons.Namaste />
-            <h3>Our English language site is under development.</h3>
+            <h3 className="mt-40px">
+              Our English language site is under development.
+            </h3>
           </div>
         </div>
         <br />

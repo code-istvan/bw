@@ -77,18 +77,18 @@ export default function Kapcsolat() {
           <div className="kapcsolat-modal-box">
             <dialog ref={dialogRef} className="kapcsolat-modal-open">
               <div>
-                <h3 className="mb-20px">Hol az e-mail címünk?</h3>
+                <h3 className="mb-20px">Hol az email címünk?</h3>
                 <p>
                   A weboldalunkon a biztonság és adatvédelem kiemelt prioritást
                   élvez. Ennek érdekében, hogy elkerüljük a nem kívánt spam
                   üzeneteket és az adathalászati kísérleteket, döntöttünk úgy,
-                  hogy nem tesszük közzé az e-mail címünket.
+                  hogy nem tesszük közzé az email címünket.
                 </p>
                 <br />
                 <p>
                   Üzenj nekünk az oldalon található üzenetküldő űrlapon
                   keresztűl. Ha rendben megkaptuk üzeneted, akkor erről egy
-                  automata visszaigazoló e-mailt fogsz kapni.
+                  automata visszaigazoló emailt fogsz kapni.
                 </p>
               </div>
               <button
@@ -110,7 +110,7 @@ export default function Kapcsolat() {
                 }
               }}
             >
-              Hol az e-mail címünk?
+              Hol az email címünk?
             </Button>
           </div>
 
@@ -146,7 +146,7 @@ export default function Kapcsolat() {
                   id="email"
                   type="email"
                   name="email"
-                  placeholder="E-mail"
+                  placeholder="Email"
                   required="required"
                   className="form-style col-12-xs col-6-md mb-20px"
                   pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
@@ -169,7 +169,7 @@ export default function Kapcsolat() {
                   <span>
                     Megismertem és elfogadom az
                     <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
-                    hozzájárulok nevem és e-mail címem kezeléséhez.
+                    hozzájárulok nevem és email címem kezeléséhez.
                   </span>
                 </label>
               </div>

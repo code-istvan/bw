@@ -71,8 +71,9 @@ export default function Contact() {
             left side of the building entrance.
           </p>
           <p className="clr-shades-lightGray span span--bold mt-20px">
-            Parking zone code on the street: 0201. Parking is required from
-            Monday to Friday between 8:30 AM and 10:00 PM.
+            Parking zone code on the street: 0201. Parking is required (you have
+            to pay for parking) from Monday to Friday between 8:30 AM and 10:00
+            PM.
           </p>
           <div className="kapcsolat-modal-box">
             <dialog ref={dialogRef} className="kapcsolat-modal-open">
