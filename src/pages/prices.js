@@ -95,7 +95,7 @@ export default function Prices() {
           </table>
           <p className="arak-table-footer mt-20px">
             Pre-registration is required to participate in the astanga Mysore
-            programme! Register for Mysore Programme here{" "}
+            programme! Register for Mysore Programme{" "}
             <CustomLink
               link="/mysore-programme-application/"
               title="here"
@@ -217,9 +217,9 @@ export default function Prices() {
           <p>
             Passes, courses and drop in tickets are non-refundable. Passes may
             not be extended beyond their period of validity; the use of passes
-            and courses may not be interrupted. There is no right to change the
-            date of a drop in ticket (single-occasion ticket) purchased after
-            the expiry of the validity period.
+            and courses cannot be paused. There is no right to change afterwards
+            the validity date of purchased drop in ticket (single-occasion
+            ticket).
           </p>
         </div>
       </div>
