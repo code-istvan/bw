@@ -86,20 +86,56 @@
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .hero-text {
     width: 50%;
-    transform: translateY(-15%);
+    transform: translateY(15%);
   }
   .hero--font-big {
-    font-size: 3rem;
+    font-size: 2.8rem;
     line-height: 120%;
   }
   .hero--font-subtitle {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .hero-text {
+    width: 50%;
+    transform: translateY(15%);
+  }
+  .hero--font-big {
+    font-size: 4rem;
+    line-height: 120%;
+  }
+  .hero--font-subtitle {
+    font-size: 1.5rem;
+  }
 }
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .hero-text {
+    width: 50%;
+    transform: translateY(10%);
+  }
+  .hero--font-big {
+    font-size: 4.2rem;
+    line-height: 120%;
+  }
+  .hero--font-subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  .hero-text {
+    width: 50%;
+    transform: translateY(15%);
+  }
+  .hero--font-big {
+    font-size: 4.5rem;
+    line-height: 120%;
+  }
+  .hero--font-subtitle {
+    font-size: 1.7rem;
+  }
 }
 
 .hero--font-small-serif {
@@ -121,10 +157,24 @@
   width: 100%;
 }
 
-.hero-buttons {
+.hero--buttons {
   @media only screen and (min-width: 1px) and (max-width: 768px) {
     .btn {
       width: 100%;
     }
+  }
+  @include md {
+    .btn {
+      display: none;
+    }
+  }
+}
+
+.hero-button-desktop {
+  @include xs {
+    display: none;
+  }
+  @include md {
+    display: block;
   }
 }

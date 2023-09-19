@@ -39,9 +39,21 @@ const Hero = () => (
                 Az egyetlen kiút <br />
                 befelé vezet <br />
               </p>
-              <p className="hero--font-subtitle">
+              <p className="hero--font-subtitle mb-20px">
                 Tradicionális astanga jógaiskola a Paramaguru áldásával
               </p>
+              <div className="hero-button-desktop">
+                <Button
+                  type="button"
+                  buttonStyle="btn--primary--outline"
+                  className=""
+                  onClick={() => {
+                    navigate("/astanga-mysore-program")
+                  }}
+                >
+                  Astanga Mysore-program
+                </Button>
+              </div>
             </div>
             <div className="hero--buttons">
               <Button
