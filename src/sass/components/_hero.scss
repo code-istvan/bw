@@ -83,6 +83,25 @@
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .hero-text {
+    width: 50%;
+    transform: translateY(-15%);
+  }
+  .hero--font-big {
+    font-size: 3rem;
+    line-height: 120%;
+  }
+  .hero--font-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+}
+@media only screen and (min-width: 1201px) {
+}
+
 .hero--font-small-serif {
   font-family: "Abril Fatface", cursive;
   font-size: var(--fs-l);

@@ -91,7 +91,7 @@ export default function AstangaKezdoTanfolyam() {
                 módszer, amely fizikai erőt, rugalmasságot és belső nyugalmat
                 hoz. Az általa kínált folyamatos fejlődés és az oktató-tanítvány
                 kapcsolat lehetőséget ad a mélyebb megértésre és a személyes
-                fejlődésre.
+                előrehaladásra.
               </strong>
             </h3>
           </div>

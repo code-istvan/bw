@@ -133,7 +133,7 @@ export default function Prices() {
               </td>
             </tr>
             <tr>
-              <td>10-session pass"</td>
+              <td>10-session pass</td>
               <td>30.000.- Ft</td>
               <td>
                 {" "}

@@ -44,7 +44,7 @@ export default function Konferencia() {
             sajnos nincs lehetőség.
           </p>
           <p className="mb-20px">
-            A konferencián való részvétel ingyenes a Mysore programunk
+            A konferencián való részvétel ingyenes a Mysore-programunk
             résztvevői számára, de örömmel fogadjuk, ha hozol magaddal egy kis
             gyümölcsöt, vegán süteményt vagy egy szép virágot Patandzsalinak.
           </p>
