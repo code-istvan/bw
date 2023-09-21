@@ -41,6 +41,7 @@
     height: 10px;
     margin: 0 5px;
     border: 1px solid $color-shades-lightBlack; /* Inactive circle color */
+    background-color: $color-shades-lightBlack;
     border-radius: 50%;
     transition: background-color 0.3s;
 

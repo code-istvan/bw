@@ -54,11 +54,12 @@ export default function Konferencia() {
             <strong>Következő esemény időpontja:</strong> 2023. szeptember 24.
             10:00
           </p>
-          <p>
+          {/* <p>
             <strong>Téma:</strong> Hamarosan...
-          </p>
+          </p> */}
           <p>
-            <strong>Házigazda:</strong> ... Authorized Level 2 astanga oktató
+            <strong>Vendégünk:</strong> Charles Secallus (USA), Authorized Level
+            2 astanga oktató
           </p>
         </div>
       </div>

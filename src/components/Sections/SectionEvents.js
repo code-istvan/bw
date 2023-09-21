@@ -15,13 +15,13 @@ const SectionEvents = () => {
 
       {breakpoints.md ? (
         <EventsForMobil
-          maxEventsToShow={4}
+          maxEventsToShow={5}
           onlyFeatured={false}
           // excludeTypes={["Konferencia"]}
         />
       ) : (
         <EventsFeaturedRoll
-          maxEventsToShow={4}
+          maxEventsToShow={3}
           onlyFeatured={false}
           // excludeTypes={["Konferencia"]}
         />

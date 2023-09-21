@@ -6,6 +6,7 @@ import Icons from "../components/Icons/Icons"
 import SectionRolunk from "../components/Sections/SectionRolunk"
 import SectionParampara from "../components/Sections/SectionParampara"
 import SectionEvents from "../components/Sections/SectionEvents"
+import SectionOsztondij from "../components/Sections/SectionOsztondij"
 import SectionMysoreProgram from "../components/Sections/SectionMysoreProgram"
 import "../sass/pages/_index.scss"
 
@@ -22,6 +23,7 @@ const IndexPage = () => (
       <SectionParampara />
       <SectionMysoreProgram />
       <SectionEvents />
+      <SectionOsztondij />
       <div className="row"></div>
     </Layout>
   </>

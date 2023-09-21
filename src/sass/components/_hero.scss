@@ -127,7 +127,7 @@
 @media only screen and (min-width: 1401px) {
   .hero-text {
     width: 50%;
-    transform: translateY(15%);
+    transform: translateY(5%);
   }
   .hero--font-big {
     font-size: 4.5rem;
@@ -136,18 +136,6 @@
   .hero--font-subtitle {
     font-size: 1.7rem;
   }
-}
-
-.hero--font-small-serif {
-  font-family: "Abril Fatface", cursive;
-  font-size: var(--fs-l);
-  line-height: 110%;
-  margin-bottom: 4px;
-}
-.hero--font-small-sans-serif {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: var(--fs-m);
-  line-height: 110%;
 }
 
 .hero--buttons {

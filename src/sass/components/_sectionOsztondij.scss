@@ -1,0 +1,21 @@
+@import "/src/sass/global";
+
+.section--osztondij {
+  @media only screen and (min-width: 1px) and (max-width: 576px) {
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .section--osztondij--header,
+  .section--osztondij--text,
+  .section--osztondij--button {
+    display: flex;
+    justify-content: center;
+
+    p {
+      width: 600px;
+      text-align: center;
+    }
+  }
+}
