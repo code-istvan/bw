@@ -28,6 +28,8 @@ const BlogPost = ({ data, children, pageContext, location }) => {
   const sectionRef = useRef(null)
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
+  console.log("pageContext", pageContext)
+
   return (
     <Layout articleProperties={articleProperties}>
       <div className="blog-posts-wrapper">
@@ -45,7 +47,12 @@ const BlogPost = ({ data, children, pageContext, location }) => {
                   : "blog-post-image"
               }`}
             >
-              {!pageContext.postThumbnail ? (
+              {pageContext.mobileImageName && breakpoints.md ? (
+                <img
+                  src={pageContext.mobileImageName}
+                  alt={post.frontmatter.title ?? "some value"}
+                />
+              ) : !pageContext.postThumbnail ? (
                 <img
                   src={pageContext.frontmatter.thumbnail}
                   alt={post.frontmatter.title ?? "some value"}

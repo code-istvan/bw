@@ -54,6 +54,7 @@ const ALL_QUERIES = `
         tags
         author
         thumbnail
+        thumbnailMobil
       }
       internal {
         contentFilePath

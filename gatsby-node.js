@@ -142,6 +142,7 @@ exports.createPages = async ({ actions, graphql }) => {
         .split("/")
         .pop()
         .split(".")[0]
+      const mobileImageName = post.frontmatter?.thumbnailMobil ?? ""
 
       const postThumbnail = result.data.allFile.edges.find(({ node }) =>
         node.childImageSharp?.gatsbyImageData?.images?.sources[0]?.srcSet?.includes(
@@ -168,6 +169,7 @@ exports.createPages = async ({ actions, graphql }) => {
         context: {
           slug: post.fields.slug,
           postThumbnail,
+          mobileImageName,
           author: post.frontmatter.author,
         },
       })
