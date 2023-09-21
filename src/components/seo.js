@@ -26,7 +26,7 @@ function Seo({ description, lang = "hu", title, location, children }) {
     `
   )
 
-  const canonicalUrl = site.siteMetadata.siteUrl + location.pathname
+  const canonicalUrl = site.siteMetadata.siteUrl + location?.pathname
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
