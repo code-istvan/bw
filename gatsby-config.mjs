@@ -28,6 +28,14 @@ const config = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID,
+      },
+    },
+
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `./blog`,

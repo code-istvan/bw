@@ -7,10 +7,10 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-// import { Helmet } from "react-helmet"
+import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, lang, meta, title, children }) {
+function Seo({ description, lang = "hu", title, location, children }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,18 +19,25 @@ function Seo({ description, lang, meta, title, children }) {
             title
             description
             author
+            siteUrl
           }
         }
       }
     `
   )
 
+  const canonicalUrl = site.siteMetadata.siteUrl + location.pathname
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
   return (
-    <>
+    <Helmet
+      htmlAttributes={{ lang }}
+      title={title}
+      titleTemplate={`%s | ${site.siteMetadata.title}`}
+    >
       <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
+      <link rel="canonical" href={canonicalUrl} />
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
@@ -42,8 +49,10 @@ function Seo({ description, lang, meta, title, children }) {
       />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
+      <meta name={`robots`} content={`noindex, nofollow`} />
+      {/* <meta name={`robots`} content={`index, follow`}/> */}
       {children}
-    </>
+    </Helmet>
   )
 }
 

@@ -71,4 +71,6 @@ const Csapatunk = () => {
 
 export default Csapatunk
 
-export const Head = () => <Seo title="CSAPATUNK" />
+export const Head = ({ location }) => (
+  <Seo title="CSAPATUNK" location={location} />
+)

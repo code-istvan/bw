@@ -291,7 +291,9 @@ const Orarend = ({ data }) => {
 
 export default Orarend
 
-export const Head = () => <Seo title="ÓRAREND" />
+export const Head = ({ location }) => (
+  <Seo title="ÓRAREND" location={location} />
+)
 
 export const scheduleListQuery = graphql`
   query scheduleListQuery {
