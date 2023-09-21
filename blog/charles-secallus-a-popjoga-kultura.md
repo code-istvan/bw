@@ -5,7 +5,7 @@ description: "Régebben még egyáltalán nem zavart a popjóga kultúra előret
 author: Dorka
 tags:
   - astangaelmélet
-date: 2023-09-21T13:38:17.757Z
+date: 2014-11-19T13:38:17.757Z
 thumbnail: /blogpostimages/charlesji_popar.jpeg
 ---
 Régebben még egyáltalán nem zavart a popjóga kultúra előretörése… Olyan dolgokra gondolok, mint a túlzott önreklámozás, a képzetlen tanárok hirdetései, az eltúlzott marketing, a „jóga selfiek”, vagy olyan ászanák fényképei, amelyeket még nem kellene a gyakorlóknak megtanítani…. Képes voltam ellenállni annak, hogy megzavarjanak a tanárok, akik nem tisztelik a rendszert, a tanítványok, akik nem hallgatnak Sharathra vagy nem bíznak a módszerben, illetve a tiszteletlenség Guruji életművével és a láncolattal szemben.
