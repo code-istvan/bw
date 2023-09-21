@@ -123,4 +123,6 @@ export default function Elsoalkalom() {
   )
 }
 
-export const Head = () => <Seo title="ELSŐ ALKALOM" />
+export const Head = ({ location }) => (
+  <Seo title="ELSŐ ALKALOM" location={location} />
+)

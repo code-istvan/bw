@@ -38,4 +38,6 @@ export default function Taplalkozas() {
   )
 }
 
-export const Head = () => <Seo title="TÁPLÁLKOZÁS" />
+export const Head = ({ location }) => (
+  <Seo title="TÁPLÁLKOZÁS" location={location} />
+)

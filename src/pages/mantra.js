@@ -84,4 +84,6 @@ export default function Mantra() {
   )
 }
 
-export const Head = () => <Seo title="MANTRÁK" />
+export const Head = ({ location }) => (
+  <Seo title="MANTRÁK" location={location} />
+)

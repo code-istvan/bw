@@ -91,4 +91,6 @@ export default function MysoreApplicationEnglish() {
   )
 }
 
-export const Head = () => <Seo title="APPLICATION SUBMITTED" />
+export const Head = ({ location }) => (
+  <Seo title="APPLICATION SUBMITTED" location={location} />
+)

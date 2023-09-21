@@ -90,4 +90,6 @@ export default function Osztondij() {
   )
 }
 
-export const Head = () => <Seo title="ÖSZTÖNDÍJ" />
+export const Head = ({ location }) => (
+  <Seo title="ÖSZTÖNDÍJ" location={location} />
+)

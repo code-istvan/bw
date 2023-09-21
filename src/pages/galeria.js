@@ -38,4 +38,6 @@ export default function Galeria() {
   )
 }
 
-export const Head = () => <Seo title="GALÉRIA" />
+export const Head = ({ location }) => (
+  <Seo title="GALÉRIA" location={location} />
+)

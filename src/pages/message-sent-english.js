@@ -87,4 +87,6 @@ export default function MessageSentEnglish() {
   )
 }
 
-export const Head = () => <Seo title="MESSAGE SENT" />
+export const Head = ({ location }) => (
+  <Seo title="MESSAGE SENT" location={location} />
+)

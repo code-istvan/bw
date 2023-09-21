@@ -245,4 +245,6 @@ export default function AstangaKezdoTanfolyam() {
   )
 }
 
-export const Head = () => <Seo title="ASTANGA KEZDŐ TANFOLYAM" />
+export const Head = ({ location }) => (
+  <Seo title="ASTANGA KEZDŐ TANFOLYAM" location={location} />
+)

@@ -60,4 +60,6 @@ export default function Házirend() {
   )
 }
 
-export const Head = () => <Seo title="HÁZIREND" />
+export const Head = ({ location }) => (
+  <Seo title="HÁZIREND" location={location} />
+)

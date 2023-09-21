@@ -449,4 +449,6 @@ export default function Mysoreprogram() {
   )
 }
 
-export const Head = () => <Seo title="MYSORE PROGRAM" />
+export const Head = ({ location }) => (
+  <Seo title="MYSORE PROGRAM" location={location} />
+)

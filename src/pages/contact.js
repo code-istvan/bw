@@ -195,4 +195,6 @@ export default function Contact() {
   )
 }
 
-export const Head = () => <Seo title="Contact" />
+export const Head = ({ location }) => (
+  <Seo title="Contact" location={location} />
+)

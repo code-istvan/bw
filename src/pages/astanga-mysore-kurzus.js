@@ -182,4 +182,6 @@ export default function AstangaMysoreKurzus() {
   )
 }
 
-export const Head = () => <Seo title="ASTANGA MYSORE KURZUS" />
+export const Head = ({ location }) => (
+  <Seo title="ASTANGA MYSORE KURZUS" location={location} />
+)

@@ -237,4 +237,6 @@ export default function Holdnapok() {
   )
 }
 
-export const Head = () => <Seo title="HOLDNAPOK" />
+export const Head = ({ location }) => (
+  <Seo title="HOLDNAPOK" location={location} />
+)

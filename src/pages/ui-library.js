@@ -75,4 +75,6 @@ export default function Uilibrary() {
   )
 }
 
-export const Head = () => <Seo title="UI Library" />
+export const Head = ({ location }) => (
+  <Seo title="UI Library" location={location} />
+)

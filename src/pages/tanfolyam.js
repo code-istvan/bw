@@ -45,4 +45,6 @@ export default function Tanfolyam() {
   )
 }
 
-export const Head = () => <Seo title="TANFOLYAMOK" />
+export const Head = ({ location }) => (
+  <Seo title="TANFOLYAMOK" location={location} />
+)

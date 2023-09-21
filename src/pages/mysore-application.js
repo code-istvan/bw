@@ -93,4 +93,6 @@ export default function MysoreApplication() {
   )
 }
 
-export const Head = () => <Seo title="JELENTKEZÉS ELKÜLDVE" />
+export const Head = ({ location }) => (
+  <Seo title="JELENTKEZÉS ELKÜLDVE" location={location} />
+)

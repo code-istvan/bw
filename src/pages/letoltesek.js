@@ -121,4 +121,6 @@ export default function Letoltesek() {
   )
 }
 
-export const Head = () => <Seo title="LETÖLTÉSEK" />
+export const Head = ({ location }) => (
+  <Seo title="LETÖLTÉSEK" location={location} />
+)

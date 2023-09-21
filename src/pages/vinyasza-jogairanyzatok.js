@@ -423,4 +423,6 @@ export default function Vinyasza() {
   )
 }
 
-export const Head = () => <Seo title="VINYÁSZA JÓGAIRÁNYZATOK" />
+export const Head = ({ location }) => (
+  <Seo title="VINYÁSZA JÓGAIRÁNYZATOK" location={location} />
+)

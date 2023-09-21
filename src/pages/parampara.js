@@ -102,4 +102,6 @@ export default function Parampara() {
   )
 }
 
-export const Head = () => <Seo title="PARAMPARA" />
+export const Head = ({ location }) => (
+  <Seo title="PARAMPARA" location={location} />
+)

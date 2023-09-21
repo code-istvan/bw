@@ -58,4 +58,6 @@ export default function Developmentpage() {
   )
 }
 
-export const Head = () => <Seo title="Developer page" />
+export const Head = ({ location }) => (
+  <Seo title="Developer page" location={location} />
+)

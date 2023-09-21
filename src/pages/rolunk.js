@@ -204,4 +204,4 @@ export default function Rolunk() {
   )
 }
 
-export const Head = () => <Seo title="RÓLUNK" />
+export const Head = ({ location }) => <Seo title="RÓLUNK" location={location} />

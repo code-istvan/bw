@@ -31,4 +31,6 @@ const IndexPage = () => (
 
 export default IndexPage
 
-export const Head = () => <Seo title="FŐOLDAL" />
+export const Head = ({ location }) => (
+  <Seo title="FŐOLDAL" location={location} />
+)

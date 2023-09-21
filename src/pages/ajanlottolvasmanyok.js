@@ -117,4 +117,6 @@ export default function Ajanlottolvasmanyok() {
   )
 }
 
-export const Head = () => <Seo title="AJÁNLOTT OLVASMÁNYOK" />
+export const Head = ({ location }) => (
+  <Seo title="AJÁNLOTT OLVASMÁNYOK" location={location} />
+)

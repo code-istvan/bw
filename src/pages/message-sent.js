@@ -94,4 +94,6 @@ export default function Messagesent() {
   )
 }
 
-export const Head = () => <Seo title="ÜZENET ELKÜLDVE" />
+export const Head = ({ location }) => (
+  <Seo title="ÜZENET ELKÜLDVE" location={location} />
+)

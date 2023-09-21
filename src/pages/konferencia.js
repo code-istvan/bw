@@ -67,4 +67,6 @@ export default function Konferencia() {
   )
 }
 
-export const Head = () => <Seo title="Konferencia" />
+export const Head = ({ location }) => (
+  <Seo title="Konferencia" location={location} />
+)

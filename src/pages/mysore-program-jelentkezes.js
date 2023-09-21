@@ -172,4 +172,6 @@ export default function MysoreprogramJelentkezes() {
   )
 }
 
-export const Head = () => <Seo title="MYSORE PROGRAM JELENTKEZÉS" />
+export const Head = ({ location }) => (
+  <Seo title="MYSORE PROGRAM JELENTKEZÉS" location={location} />
+)

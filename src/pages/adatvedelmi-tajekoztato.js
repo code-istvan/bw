@@ -959,4 +959,6 @@ export default function AdatvedelmiTajekoztato() {
   )
 }
 
-export const Head = () => <Seo title="ADATVÉDELMI TÁJÉKOZTATÓ" />
+export const Head = ({ location }) => (
+  <Seo title="ADATVÉDELMI TÁJÉKOZTATÓ" location={location} />
+)

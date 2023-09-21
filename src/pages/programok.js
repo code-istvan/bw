@@ -48,4 +48,6 @@ export default function Programok() {
   )
 }
 
-export const Head = () => <Seo title="PROGRAMOK" />
+export const Head = ({ location }) => (
+  <Seo title="PROGRAMOK" location={location} />
+)

@@ -222,4 +222,4 @@ export default function Arak() {
   )
 }
 
-export const Head = () => <Seo title="ÁRAK" />
+export const Head = ({ location }) => <Seo title="ÁRAK" location={location} />

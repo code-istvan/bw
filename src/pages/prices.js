@@ -227,4 +227,4 @@ export default function Prices() {
   )
 }
 
-export const Head = () => <Seo title="Prices" />
+export const Head = ({ location }) => <Seo title="Prices" location={location} />

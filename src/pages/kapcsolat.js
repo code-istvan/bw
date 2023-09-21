@@ -190,4 +190,6 @@ export default function Kapcsolat() {
   )
 }
 
-export const Head = () => <Seo title="Kapcsolat" />
+export const Head = ({ location }) => (
+  <Seo title="Kapcsolat" location={location} />
+)

@@ -57,4 +57,6 @@ export default function Noemi() {
   )
 }
 
-export const Head = () => <Seo title="Gál Noémi Andrea" />
+export const Head = ({ location }) => (
+  <Seo title="Gál Noémi Andrea" location={location} />
+)

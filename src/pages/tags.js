@@ -42,4 +42,4 @@ export default function Tags() {
   )
 }
 
-export const Head = () => <Seo title="TAGS" />
+export const Head = ({ location }) => <Seo title="TAGS" location={location} />

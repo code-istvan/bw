@@ -60,4 +60,6 @@ export default function Messagesent() {
   )
 }
 
-export const Head = () => <Seo title="FELIRATKOZTÁL HÍRLEVELÜNKRE" />
+export const Head = ({ location }) => (
+  <Seo title="FELIRATKOZTÁL HÍRLEVELÜNKRE" location={location} />
+)

@@ -179,4 +179,6 @@ export default function Istvan() {
   )
 }
 
-export const Head = () => <Seo title="Szalai István Jóga" />
+export const Head = ({ location }) => (
+  <Seo title="Szalai István Jóga" location={location} />
+)

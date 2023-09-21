@@ -84,4 +84,6 @@ export default function English() {
   )
 }
 
-export const Head = () => <Seo title="English" />
+export const Head = ({ location }) => (
+  <Seo title="English" location={location} />
+)
