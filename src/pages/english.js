@@ -10,27 +10,26 @@ export default function English() {
   return (
     <Layout>
       <Hero />
-      <div className="container">
-        <div className="row tight--desktop--container">
-          <div className="col index-namaste">
-            <Icons.Namaste />
-            <h3 className="mt-40px">
-              Our English language site is under development.
-            </h3>
-          </div>
+      <div className="tight--desktop--container">
+        <div className="row index-namaste">
+          <Icons.Namaste />
+        </div>
+        <div className="row">
+          {" "}
+          <h3 className="mt-40px">
+            Our English language site is under development.
+          </h3>
         </div>
         <br />
-        <div className="row tight--desktop--container">
-          <div className="col">
-            {" "}
-            <p className="mb-20px">
-              In the meantime, if you have any questions, please send us a
-              message. If you would like to join our astanga mysore program,
-              please fill out the application form below.
-            </p>
-          </div>
+        <div className="row">
+          {" "}
+          <p className="mb-40px">
+            In the meantime, if you have any questions, please send us a
+            message. If you would like to join our astanga mysore program,
+            please fill out the application form below.
+          </p>
         </div>
-        <div className="row tight--desktop--container mb-20px">
+        <div className="row mb-20px">
           <div className="english-menu">
             <div className="english-menu-items">
               {" "}
@@ -76,7 +75,7 @@ export default function English() {
             </div>
           </div>
         </div>
-        <div className="row tight--desktop--container mt-20px">
+        <div className="row mt-20px">
           <p className="mt-20px">We welcome you to our yoga shala!</p>
         </div>
       </div>
