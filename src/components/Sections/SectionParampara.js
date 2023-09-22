@@ -26,7 +26,9 @@ const SectionParampara = () => {
                 />
               </div>
               <div className="col-12-xs col-8-md section--parampara-text">
-                <h1 className="mb-20px">Bandha Works Parampara</h1>
+                <h2 className="mb-20px heading heading--1 text-align-left">
+                  Bandha Works Parampara
+                </h2>
                 <p>
                   A parampara a tudás, amelyet a tanár a tanítványára
                   hagyományoz. A parampara szanszkrit szó jelentése a tudás

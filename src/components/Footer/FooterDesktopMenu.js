@@ -1,6 +1,7 @@
 import React from "react"
 import { useState } from "react"
 import Button from "../Buttons/Button"
+import { CustomLink } from "../CustomLink"
 import { navigate } from "gatsby"
 import { Link } from "gatsby"
 import "../../sass/components/_footerdesktopmenu.scss"
@@ -98,7 +99,13 @@ const FooterDesktopMenu = () => {
             </Link>
           </li>
           <li>
-            <h4>Shop</h4>
+            <CustomLink
+              link="https://shop.bandha.works/"
+              classNames="clr-shades-lightGray footer-menuitem heading heading--4"
+              title="SHOP"
+            />
+
+            {/* <h4 className="clr-shades-lightGray footer-menuitem">Shop</h4> */}
           </li>
           <li>
             <Link to="/kapcsolat">
