@@ -32,7 +32,7 @@ function Seo({ description, lang = "hu", title, location, children }) {
       <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
       <link rel="canonical" href={canonicalUrl} />
       <meta name="description" content={metaDescription} />
-      <meta property="og:title" content={title} />
+      {/* <meta property="og:title" content={title} /> */}
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary" />
