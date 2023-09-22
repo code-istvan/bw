@@ -28,8 +28,8 @@ function Seo({ description, lang = "hu", title, location, children }) {
   return (
     <Helmet
       htmlAttributes={{ lang }}
-      // title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={title}
+      // titleTemplate={`%s | ${site.siteMetadata.title}`}
     >
       <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
       <link rel="canonical" href={canonicalUrl} />
