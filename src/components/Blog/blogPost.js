@@ -29,6 +29,7 @@ const BlogPost = ({ data, children, pageContext, location }) => {
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
   console.log("pageContext", pageContext)
+  console.log("post.frontmatter.title", post.frontmatter.title)
 
   return (
     <Layout articleProperties={articleProperties}>
