@@ -23,16 +23,18 @@ function Seo({ description, lang = "hu", title, location, children }) {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
+  console.log("defTitle", title)
+
   return (
     <Helmet
       htmlAttributes={{ lang }}
-      title={title}
+      // title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
     >
       <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
       <link rel="canonical" href={canonicalUrl} />
       <meta name="description" content={metaDescription} />
-      {/* <meta property="og:title" content={title} /> */}
+      <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary" />
