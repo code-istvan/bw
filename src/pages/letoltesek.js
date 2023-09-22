@@ -73,6 +73,9 @@ export default function Letoltesek() {
           <h3>Sorozatábrák</h3>
           <p>A sorozatábra nem helyettesíti a szakképzett oktató útmutatását</p>
         </div>
+        <div className="row clr-brand-orange">
+          <p>Szerver karbantartás miatt a linkek átmenetileg nem üzemelnek!</p>
+        </div>
         <div className="row">
           <div className="col unordered-list-style">
             <ul>
