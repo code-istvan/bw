@@ -11,7 +11,7 @@ const SectionEvents = () => {
 
   return (
     <section className="section--events">
-      <h1 className="mb-20px">Programok</h1>
+      <h2 className="mb-20px heading heading--1 text-align-left">Programok</h2>
 
       {breakpoints.md ? (
         <EventsForMobil

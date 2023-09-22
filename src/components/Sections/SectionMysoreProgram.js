@@ -29,7 +29,9 @@ const SectionMysoreProgram = () => {
                 />
               </div>
               <div className="col-12-xs col-8-md section--mysore-program-text">
-                <h1 className="mb-20px">Astanga Mysore-program</h1>
+                <h2 className="mb-20px heading heading--1 text-align-left">
+                  Astanga Mysore-program
+                </h2>
                 <p>
                   A Mysore-stílusú astanga jóga gyakorlás hatékony és személyre
                   szabott módszer, amely fizikai erőt, rugalmasságot és belső

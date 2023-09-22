@@ -6,7 +6,9 @@ import "../../sass/components/_sectionOsztondij.scss"
 const SectionOsztondij = () => {
   return (
     <section className="section--osztondij">
-      <h1 className="mb-20px section--osztondij--header">Jóga ösztöndíj</h1>
+      <h2 className="mb-20px section--osztondij--header heading heading--1">
+        Jóga ösztöndíj
+      </h2>
       <div className="mt-20px section--osztondij--text">
         <p>
           A jóga mindenki életében gyökeres változásokat hozhat, gyakorlását
