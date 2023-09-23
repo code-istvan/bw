@@ -26,7 +26,35 @@
   font-family: "Nunito Sans", sans-serif;
 }
 
-@media only screen and (min-width: 1px) and (max-width: 320px) {
+@media only screen and (min-width: 1px) and (max-width: 260px) {
+  .hero-text {
+    // transform: translateY(10%);
+  }
+  .hero--font-big {
+    font-size: 2.2rem;
+    line-height: 120%;
+    margin-bottom: 8px;
+  }
+  .hero--font-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 261px) and (max-width: 280px) {
+  .hero-text {
+    // transform: translateY(10%);
+  }
+  .hero--font-big {
+    font-size: 2.4rem;
+    line-height: 120%;
+    margin-bottom: 8px;
+  }
+  .hero--font-subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 281px) and (max-width: 320px) {
   .hero-text {
     // transform: translateY(10%);
   }
