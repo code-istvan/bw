@@ -163,6 +163,7 @@ collections:
           value_field: "link",
           display_fields: ["link"],
           search_fields: ["link"],
+          required: false,
         }
       - {
           label: Class2,
