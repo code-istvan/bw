@@ -64,6 +64,11 @@ const Csapatunk = () => {
             }
           )}
         </div>
+        <div className="row mt-20px">
+          <p className="clr-brand-orange">
+            Az oldal jelenleg feltöltés alatt áll!
+          </p>
+        </div>
       </div>
     </Layout>
   )
