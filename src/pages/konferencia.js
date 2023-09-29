@@ -44,6 +44,11 @@ export default function Konferencia() {
             sajnos nincs lehetőség.
           </p>
           <p className="mb-20px">
+            Ezt a tradíciót követve mi is összegyűlünk havi rendszerességgel,
+            hogy lehetőséget teremtsünk a gyakorlók számára, hogy feltegyék
+            kérdéseiket és mélyítsék megértésüket az astanga jóga tudományában.
+          </p>
+          <p className="mb-20px">
             A konferencián való részvétel ingyenes a Mysore-programunk
             résztvevői számára, de örömmel fogadjuk, ha hozol magaddal egy kis
             gyümölcsöt, vegán süteményt vagy egy szép virágot Patandzsalinak.
@@ -51,15 +56,15 @@ export default function Konferencia() {
         </div>
         <div className="konferencia-event">
           <p>
-            <strong>Következő esemény időpontja:</strong> 2023. szeptember 24.
-            10:00 - 12:00
+            <strong>Következő esemény időpontja:</strong> 2023. december 10.
+            16:00 - 18:00
           </p>
           {/* <p>
             <strong>Téma:</strong> Hamarosan...
           </p> */}
           <p>
-            <strong>Vendégünk:</strong> Charles Secallus (USA), Authorized Level
-            2 astanga oktató
+            <strong>Házigazda:</strong> Szalai István, Authorized Level 1
+            astanga oktató
           </p>
         </div>
       </div>
