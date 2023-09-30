@@ -50,6 +50,12 @@ const config = {
       },
     },
     {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `bandha.works`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blogpostimages`,
