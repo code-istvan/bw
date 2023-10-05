@@ -8,8 +8,8 @@ author: István
 tags:
   - astangaelmelet
 date: 2023-10-04T08:31:19.457Z
-thumbnail: /blogpostimages/systems.jpeg
-thumbnailMobil: /blogpostimages/systems.jpeg
+thumbnail: /blogpostimages/system2.jpeg
+thumbnailMobil: /blogpostimages/system2.jpeg
 ---
 A helyesen végzett és kitartó gyakorlás hatására egy teljes strukturális változáson megy keresztül a testünk, ami szükségszerűen magában hordoz bizonyos kellemetlen helyzeteket. Sok gyakorló nem érti ezeknek a kellemetlenségeknek a jelentőségét a gyakorlásban. Ahelyett, hogy elfogadnák és tovább gyakorolnának türelmesen, néhányan azonnal külső segítségért folyamodnak, hogy megszüntessék a fájdalmat, amilyen gyorsan csak lehetséges. Szerencsére ritkán fordulnak olyan módszerekhez, amelyek tényleges orvosi beavatkozással járnak, azonban így is sok astangi van, akik Indiába mennek, akár sebészekhez, mert gyors és egyszerű diagnózist és kezelési megoldást szeretnének a térdfájdalmaikra.
 
