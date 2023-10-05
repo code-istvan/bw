@@ -9,7 +9,7 @@ const NavbarDesktopFeatured = () => {
     // { link: "/english", label: "日本語" },
     // { link: "/admin", label: "LOG_IN" },
     { link: "/orarend", label: "ÓRAREND" },
-    { link: "/mysore-program", label: "MYSORE PROGRAM" },
+    { link: "/astanga-mysore-program", label: "MYSORE PROGRAM" },
     { link: "/tanfolyam", label: "TANFOLYAMOK" },
   ]
 
