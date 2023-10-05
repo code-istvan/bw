@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Rendszerelméletű szemléletmód a fájdalom feloldására astanga gyakorlók számára
 description: A helyesen végzett és kitartó gyakorlás hatására egy teljes
   strukturális változáson megy keresztül a testünk, ami szükségszerűen magában
