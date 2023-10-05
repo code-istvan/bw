@@ -2,7 +2,7 @@
 published: false
 title: Rendszerelméletű szemléletmód a fájdalom feloldására astanga gyakorlók számára
 description: A helyesen végzett és kitartó gyakorlás hatására egy teljes
-  strukturális változásokon megy keresztül a testünk, ami szükségszerűen magában
+  strukturális változáson megy keresztül a testünk, ami szükségszerűen magában
   hordoz bizonyos kellemetlen, fájdalmas helyzeteket.
 author: István
 tags:
@@ -122,4 +122,10 @@ Telt az idő, míg egy napon hallottam valakitől egy híres tibeti orvoslóról
 Ezután felírt receptként mindenféle tibeti gyógynövényt, amelyeket ki kellett szárítani és kis pirula alakú golyókká összegyúrni, majd elmondta, hogyan szedjem őket, és visszarendelt két héttel később egy kontrollra. Ezenkívűl határozottan kifejtette: ***“És – NAGYON AKTÍVNAK kell maradnia, amíg ezt a gyógyszert szedi!”*** ***„Aktívnak?”*** kérdeztem vissza. ***„Például sétálni?"*** ***"Igen!"*** válaszolta: ***„Sokat kell sétálnod. Ezáltal az energia folyamatosan áramlik a sérült testrészben, és a gyógyszer sokkal jobban fog hatni.”*** Alig akartam elhinni ezt a csodálatos hírt. ***„Elmehetek a hegyekbe is túrázni?”*** kérdeztem vissza lelkesen. ***„Ó, igen”***- válaszolta ***“az nagyon jó lenne.”***
 
 Csakúgy, mint amikor a kanadai orvos azt mondta, hogy soha ne korlátozzam magam, most is csodálatos hangulatban hagytam el Yeshi Dhonden rendelőjét. Erősnek és magabiztosnak éreztem magam. Amint meglettek a tibeti gyógynövénykapszuláim, már terveztem is azonnal, hogy nekivágok a hegyeknek. A következő hat hetet Dharamsalában töltöttem, túráztam, hegyet másztam, kipróbáltam életemben először a jógát. Kéthetente meglátogattam az orvost, kaptam egy újabb adag gyógynövényes kapszulát. Az orvos nagyon elégedett volt a gyógyulásom folyamatával és úgy látta, hogy már nem sok választ el a végső gyógyulástól. Mire visszarepültem Kanadába, még egy hónapig elegendő gyógynövénytablettával felszerelkezve, a fájdalom elmúlt. Amikor nem sokkal később elkezdtem a faültetéssel járó nehéz munkát, a fájdalom rövid időre újra előjött, a bal ágyékomról a jobb csípőmre vándorolt át egy napig, de aztán eltűnt, és többé nem tért vissza, így folytathattam az életemet a tervek szerint.
+
+**Az írás szerzője:** Iain Grysak, [Spacious Yoga](https://spaciousyoga.com), Bali 
+
+**Az írás eredeti címe:** A systems thinking perspective on the resolution of pain in Ashtanga Yoga practice – by Iain Grysak
+
+**Szerkesztette:** Dr. Kővári Zsuzsa
 
