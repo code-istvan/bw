@@ -6,7 +6,7 @@ description: A jógagyakorláshoz az úgynevezett Brahma muhurta napszak a
 author: Dorka
 tags:
   - astangaelmélet
-date: 2023-10-06T10:23:08.590Z
+date: 2013-11-20T10:23:08.590Z
 thumbnail: /blogpostimages/home_practice_desktop.jpg
 thumbnailMobil: /blogpostimages/home_practice_mobil.jpg
 ---
