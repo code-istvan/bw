@@ -45,9 +45,18 @@ const Hero = () => {
                   {isEnglish ? "OUT is IN" : "befelé vezet"} <br />
                 </p>
                 <p className="hero--font-subtitle mb-20px">
-                  {isEnglish
-                    ? "Traditional astanga yoga shala with the blessing of Paramaguru"
-                    : "Tradicionális astanga jógaiskola a Paramaguru áldásával"}
+                  {isEnglish ? (
+                    <>
+                      Traditional astanga yoga shala with
+                      <br />
+                      the blessing of Paramaguru
+                    </>
+                  ) : (
+                    <>
+                      Tradicionális astanga jógaiskola
+                      <br />a Paramaguru áldásával
+                    </>
+                  )}
                 </p>
                 <div className="hero-button-desktop">
                   <Button
