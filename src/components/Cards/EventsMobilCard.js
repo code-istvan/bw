@@ -26,11 +26,23 @@ const EventsMobilCard = ({
   }
 
   const truncatedDescription = desc => {
-    const maxCharsPerLine = 50 // Ez az érték becsült, állítsa be az Ön igényei szerint
+    const maxCharsPerLine = 50
     const maxChars = 4 * maxCharsPerLine
 
     if (desc.length > maxChars) {
-      return `${desc.slice(0, maxChars - 3)}...`
+      const truncatedText = `${desc.slice(0, maxChars - 5)}`
+      return eventLink ? (
+        <>
+          {truncatedText}
+          <CustomLink
+            link={eventLink}
+            title="[...]"
+            classNames="truncate-link"
+          />
+        </>
+      ) : (
+        `${truncatedText}[...]`
+      )
     }
 
     return desc
