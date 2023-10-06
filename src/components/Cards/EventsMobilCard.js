@@ -36,12 +36,12 @@ const EventsMobilCard = ({
           {truncatedText}
           <CustomLink
             link={eventLink}
-            title="[...]"
-            classNames="truncate-link"
+            title=" [...]"
+            classNames="truncate-link clr-brand-orange"
           />
         </>
       ) : (
-        `${truncatedText}[...]`
+        `${truncatedText} [...]`
       )
     }
 
