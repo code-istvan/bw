@@ -6,7 +6,7 @@ description: A helyesen végzett és kitartó gyakorlás hatására egy teljes
   hordoz bizonyos kellemetlen, fájdalmas helyzeteket.
 author: István
 tags:
-  - astangaelmelet
+  - astangaelmélet
 date: 2023-10-04T08:31:19.457Z
 thumbnail: /blogpostimages/system2.jpeg
 thumbnailMobil: /blogpostimages/system2.jpeg
