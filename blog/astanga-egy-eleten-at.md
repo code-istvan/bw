@@ -7,12 +7,13 @@ description: Milyen sokszínű is az astangás családunk. Vannak nagyvárosi
 author: Dorka
 tags:
   - astangaelmélet
-date: 2015-11-30T11:08:07.022Z
+date: 2023-10-07T11:08:07.022Z
 thumbnail: /blogpostimages/5things.jpg
 thumbnailMobil: /blogpostimages/5things.jpg
 ---
 > Ahogy a méh mindenféle virágon nektár után kutat, keress tanításokat mindenfelé. Ahogy az őz, mely csendes helyre megy legelni, vonulj el, hogy mindent megeméssz, amit gyűjtöttél. Ahogy az oroszlán, élj teljesen félelem nélkül. És végül mint egy őrült, túl minden korláton, menj, ahová csak akarsz.
-> - Csögyal Namkai Norbu
+- Csögyal Namkai Norbu
+> 
 
 Milyen sokszínű is az astangás családunk! Vannak nagyvárosi aszkéták, akik minden nap hajnalban kelnek, és úgy gyakorolnak, mintha a tanáruk ott állna közvetlenül a matracuk előtt. Vannak szívükben örökifjú, de már őszülő halántékú hippik, akikről hol egy csodás tengerparton, hol pedig az esőerdő mélyéről kerül elő egy-egy megkapó fénykép. Vannak olyanok, akik szerint a gyakorlás elsősorban örömszerzés forrása, de sosem a fájdalomé, ezért ahelyett hogy patakokban folyó verítékben fürödve fújtatnának, inkább könnyedén végiglebegnek egy – sok esetben módosított – sorozaton. Vannak olyanok is, akik szerint a jógának nem elengedhetetlen része a napi szintű ászanagyakorlás, ezért időnként ki is váltják egy önfeledt kírtannal, sétával a természetben vagy akár egy vidám baráti reggelivel. Ők mindannyian részei a családnak, és különbözőségeik ellenére összeköti őket a rendszer szeretete, a mysore-i utazások és az, hogy előszeretettel válaszolnak a kérdéseinkre olyan talányos mondatokkal, mint 
 
