@@ -7,7 +7,7 @@ description: Milyen sokszínű is az astangás családunk. Vannak nagyvárosi
 author: Dorka
 tags:
   - astangaelmélet
-date: 2023-10-07T11:08:07.022Z
+date: 2015-11-30T11:08:07.022Z
 thumbnail: /blogpostimages/astanga_egy_eleten_at_desktop.jpg
 thumbnailMobil: /blogpostimages/astanga_egy_eleten_at.jpg
 ---
