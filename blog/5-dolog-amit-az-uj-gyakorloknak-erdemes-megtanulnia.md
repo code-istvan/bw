@@ -5,9 +5,10 @@ description: A gyakorlás, amelyet az első napon megtanulsz egy olyan egységes
   teljes gyakorlás, amelyhez mindig visszatérhetsz
 author: István
 tags:
-  - astanga elmélet
+  - astangaelmélet
 date: 2019-11-19T11:59:44.928Z
 thumbnail: /blogpostimages/5things.jpg
+thumbnailMobil: /blogpostimages/5things.jpg
 ---
 A jóga gyakorlás a kezdetekben elég lehangoló is tud lenni. Rengeteg cikket lehet olvasni arról, hogy mit is várhat az ember a különféle jóga stílusoktól, hogy milyen ruhában érdemes gyakorolni, hogy mit vigyünk magunkkal, stb., de ezúttal egy kicsit arra szeretnék jobban rávilágítani, hogy mit érdemes az új, a Mysore-stílusú astanga világába érkező gyakorlók számára megtanítani. Azt remélem, hogy úgy tanítok, hogy azon diákjaimhoz akik eljöttek néhány órámra, az alábbi gondolatok egyszersmind, mint „kívülről” érkező dolgok jutnak el, mind pedig sikerül azt belülről is megélniük — tehát ezen írás segít abban, hogy saját gondolataimat rendezzem kissé, ugyanakkor abban is, hogy azokat megosszam másokkal is (ideértve a tanárokat, akik szeretnék, hogy tanulóik jó tapasztalatokkal gazdagodjanak és biztonságban legyenek, és azokat is akik habár nem „újak”, de hasznosak lehetnek számukra az alábbi sorok.)
 
