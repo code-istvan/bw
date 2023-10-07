@@ -8,8 +8,8 @@ author: Dorka
 tags:
   - astangaelmélet
 date: 2023-10-07T11:08:07.022Z
-thumbnail: /blogpostimages/5things.jpg
-thumbnailMobil: /blogpostimages/5things.jpg
+thumbnail: /blogpostimages/astanga_egy_eleten_at_desktop.jpg
+thumbnailMobil: /blogpostimages/astanga_egy_eleten_at.jpg
 ---
 > Ahogy a méh mindenféle virágon nektár után kutat, keress tanításokat mindenfelé. Ahogy az őz, mely csendes helyre megy legelni, vonulj el, hogy mindent megeméssz, amit gyűjtöttél. Ahogy az oroszlán, élj teljesen félelem nélkül. És végül mint egy őrült, túl minden korláton, menj, ahová csak akarsz. - Csögyal Namkai Norbu
 > 
