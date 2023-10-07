@@ -5,9 +5,10 @@ description: '"Agresszívnak és ijesztőnek tűnik, de az astanga éppen a fáj
   meghaladásáról és a félelmeink legyőzéséről szól"'
 author: István
 tags:
-  - astanga elmélet
+  - astangaelmélet
 date: 2017-05-29T09:53:38.989Z
 thumbnail: /blogpostimages/govinda_interju.jpg
+thumbnailMobil: /blogpostimages/govinda_mobil.jpg
 ---
 Agresszívnak és ijesztőnek tűnik, de az astanga éppen a fájdalom meghaladásáról és a félelmeink legyőzéséről szól, állítja Govinda Kai, a világ egyik legismertebb astanga jógaguruja. A budapesti workshopon jártunk.
 
