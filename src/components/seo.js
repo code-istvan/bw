@@ -32,7 +32,10 @@ function Seo({ description, lang = "hu", title, location, children }) {
     >
       {/* <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title> */}
       <title>
-        {!isIndexPage && defaultTitle ? `${title} | ${defaultTitle}` : title}
+        {/* {!isIndexPage && defaultTitle ? `${title} | ${defaultTitle}` : title} */}
+        {!isIndexPage && defaultTitle
+          ? `${title} | ${defaultTitle}`
+          : `${defaultTitle} | Astanga Mysore Budapest`}
       </title>
       <link rel="canonical" href={canonicalUrl} />
       <meta name="description" content={metaDescription} />
