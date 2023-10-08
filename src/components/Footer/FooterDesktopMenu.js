@@ -8,25 +8,25 @@ import "../../sass/components/_footerdesktopmenu.scss"
 
 const FooterDesktopMenu = () => {
   const menuItemsJogaorak = [
-    { link: "/orarend", label: "Órarend" },
-    { link: "/arak", label: "Árak" },
-    { link: "/astanga-mysore-program", label: "Mysore-program" },
-    { link: "/tanfolyam", label: "Tanfolyamok" },
-    { link: "/csapatunk", label: "Csapatunk" },
-    { link: "/vinyasza-jogairanyzatok", label: "Jógairányzatok" },
-    { link: "/letoltesek", label: "Letöltések" },
+    { link: "/orarend/", label: "Órarend" },
+    { link: "/arak/", label: "Árak" },
+    { link: "/astanga-mysore-program/", label: "Mysore-program" },
+    { link: "/tanfolyam/", label: "Tanfolyamok" },
+    { link: "/csapatunk/", label: "Csapatunk" },
+    { link: "/vinyasza-jogairanyzatok/", label: "Jógairányzatok" },
+    { link: "/letoltesek/", label: "Letöltések" },
     // { link: "/galeria", label: "Galéria", extraClass: "" },
   ]
 
   const menuItemsTudnivalok = [
-    { link: "/rolunk", label: "Rólunk" },
-    { link: "/elso-alkalom", label: "Első alkalom" },
-    { link: "/hazirend", label: "Házirend" },
-    { link: "/mantra", label: "Mantrák" },
-    { link: "/holdnapok", label: "Holdnapok" },
-    { link: "/osztondij", label: "Ösztöndíj", extraClass: "" },
+    { link: "/rolunk/", label: "Rólunk" },
+    { link: "/elso-alkalom/", label: "Első alkalom" },
+    { link: "/hazirend/", label: "Házirend" },
+    { link: "/mantra/", label: "Mantrák" },
+    { link: "/holdnapok/", label: "Holdnapok" },
+    { link: "/osztondij/", label: "Ösztöndíj", extraClass: "" },
     // { link: "/taplalkozas", label: "Táplálkozás" },
-    { link: "/ajanlottolvasmanyok", label: "Olvasmányok" },
+    { link: "/ajanlottolvasmanyok/", label: "Olvasmányok" },
   ]
 
   // The submenu flashes for a moment when I move the mouse to the main menu. Only in the desktop view.

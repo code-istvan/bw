@@ -24,7 +24,7 @@ export default function Rolunk() {
     ],
     [
       { name: "R. Saraswathi Jois", country: "IND" },
-      { name: "Andrea Drottholm", country: "S" },
+      { name: "Andréa Drottholm", country: "S" },
       { name: "Sharmila Mahesh", country: "IND" },
       { name: "Dr. Norman Sjoman", country: "CDN" },
     ],
@@ -178,7 +178,7 @@ export default function Rolunk() {
           <div className="separator-horizontal mt-40px"></div>
           <div className="row">
             <h3 className="clr-brand-orange font-family-primary mt-20px mb-20px">
-              2018 április 18.
+              2018. április 18.
             </h3>
             <p className="mb-20px">
               Az új jógaiskolánk felszentelésénél abban a különleges áldásban
