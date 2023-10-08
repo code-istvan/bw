@@ -142,8 +142,12 @@ export default function MysoreprogramJelentkezes() {
                     <input type="checkbox" name="checkbox" required />
                     <span>
                       I have read and accept
-                      <Link to="/adatvedelem"> the privacy policy</Link>, and
-                      consent to the processing of my name and email address.
+                      <Link to="/adatvedelmi-tajekoztato/">
+                        {" "}
+                        the privacy policy
+                      </Link>
+                      , and consent to the processing of my name and email
+                      address.
                     </span>
                   </label>
                 </div>
