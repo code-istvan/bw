@@ -110,5 +110,5 @@ const Hirlevel = () => (
 export default Hirlevel
 
 export const Head = ({ location }) => (
-  <Seo title="Hírlevél" location={location} />
+  <Seo title="HÍRLEVÉL" location={location} />
 )
