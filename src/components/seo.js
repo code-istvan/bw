@@ -22,8 +22,7 @@ function Seo({ description, lang = "hu", title, location, children }) {
   const canonicalUrl = site.siteMetadata.siteUrl + location?.pathname
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-
-  console.log("Title", title)
+  const isIndexPage = location?.pathname === "/"
 
   return (
     <Helmet
@@ -31,7 +30,10 @@ function Seo({ description, lang = "hu", title, location, children }) {
       title={title}
       // titleTemplate={`%s | ${site.siteMetadata.title}`}
     >
-      <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
+      {/* <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title> */}
+      <title>
+        {!isIndexPage && defaultTitle ? `${title} | ${defaultTitle}` : title}
+      </title>
       <link rel="canonical" href={canonicalUrl} />
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
@@ -45,7 +47,6 @@ function Seo({ description, lang = "hu", title, location, children }) {
       />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
-      {/* <meta name={`robots`} content={`noindex, nofollow`} /> */}
       <meta name={`robots`} content={`index, follow`} />
       {children}
     </Helmet>
