@@ -73,5 +73,5 @@ export default function Konferencia() {
 }
 
 export const Head = ({ location }) => (
-  <Seo title="Konferencia" location={location} />
+  <Seo title="KONFERENCIA" location={location} />
 )

@@ -10,25 +10,25 @@ const NavbarMenu = ({ open, setOpen }) => {
   const breakpoints = useBreakpoint()
 
   const menuItemsJogaorak = [
-    { link: "/orarend/", label: "ÓRAREND" },
-    { link: "/arak/", label: "ÁRAK" },
-    { link: "/astanga-mysore-program/", label: "MYSORE-PROGRAM" },
-    { link: "/tanfolyam/", label: "TANFOLYAMOK" },
-    { link: "/csapatunk/", label: "CSAPATUNK" },
-    { link: "/vinyasza-jogairanyzatok/", label: "JÓGAIRÁNYZATOK" },
-    { link: "/letoltesek/", label: "LETÖLTÉSEK" },
+    { link: "/orarend", label: "ÓRAREND" },
+    { link: "/arak", label: "ÁRAK" },
+    { link: "/astanga-mysore-program", label: "MYSORE-PROGRAM" },
+    { link: "/tanfolyam", label: "TANFOLYAMOK" },
+    { link: "/csapatunk", label: "CSAPATUNK" },
+    { link: "/vinyasza-jogairanyzatok", label: "JÓGAIRÁNYZATOK" },
+    { link: "/letoltesek", label: "LETÖLTÉSEK" },
     // { link: "/galeria", label: "GALÉRIA", extraClass: "" },
   ]
 
   const menuItemsTudnivalok = [
-    { link: "/rolunk/", label: "RÓLUNK" },
-    { link: "/elso-alkalom/", label: "ELSŐ ALKALOM" },
-    { link: "/hazirend/", label: "HÁZIREND" },
-    { link: "/mantra/", label: "MANTRÁK" },
-    { link: "/holdnapok/", label: "HOLDNAPOK" },
-    { link: "/osztondij/", label: "ÖSZTÖNDÍJ", extraClass: "" },
+    { link: "/rolunk", label: "RÓLUNK" },
+    { link: "/elso-alkalom", label: "ELSŐ ALKALOM" },
+    { link: "/hazirend", label: "HÁZIREND" },
+    { link: "/mantra", label: "MANTRÁK" },
+    { link: "/holdnapok", label: "HOLDNAPOK" },
+    { link: "/osztondij", label: "ÖSZTÖNDÍJ", extraClass: "" },
     // { link: "/taplalkozas", label: "TÁPLÁLKOZÁS" },
-    { link: "/ajanlottolvasmanyok/", label: "OLVASMÁNYOK" },
+    { link: "/ajanlottolvasmanyok", label: "OLVASMÁNYOK" },
   ]
 
   const menuGroupsFomenu = [
@@ -37,9 +37,9 @@ const NavbarMenu = ({ open, setOpen }) => {
   ]
 
   const menuItemsFomenu = [
-    { link: "/blog/", label: "BLOG" },
+    { link: "/blog", label: "BLOG" },
     { link: "https://shop.bandha.works", label: "SHOP", isExternal: true },
-    { link: "/kapcsolat/", label: "KAPCSOLAT" },
+    { link: "/kapcsolat", label: "KAPCSOLAT" },
   ]
 
   return (
