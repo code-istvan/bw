@@ -40,24 +40,24 @@ const Hero = () => {
           <div className="row">
             <div className="col">
               <div className="hero-text">
-                <p className="hero--font-big">
+                <h1 className="hero--font-big">
                   {isEnglish ? "The only way " : "Az egyetlen kiút"} <br />
                   {isEnglish ? "OUT is IN" : "befelé vezet"} <br />
-                </p>
-                <p className="hero--font-subtitle mb-20px">
+                </h1>
+                <h2 className="hero--font-subtitle mb-20px">
                   {isEnglish ? (
                     <>
-                      Traditional astanga yoga shala with
-                      <br />
+                      Traditional astanga yoga shala with{" "}
+                      <br className="display-none-mobil" />
                       the blessing of Paramaguru
                     </>
                   ) : (
                     <>
-                      Tradicionális astanga jógaiskola
-                      <br />a Paramaguru áldásával
+                      Tradicionális astanga jógaiskola <br />a Paramaguru
+                      áldásával
                     </>
                   )}
-                </p>
+                </h2>
                 <div className="hero-button-desktop">
                   <Button
                     type="button"
@@ -71,7 +71,7 @@ const Hero = () => {
                   </Button>
                 </div>
               </div>
-              <div className="hero--buttons">
+              <div className="hero--buttons hero-button-mobil">
                 <Button
                   type="button"
                   buttonStyle="btn--primary--outline-full"
