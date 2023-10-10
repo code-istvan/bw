@@ -11,7 +11,7 @@ export default function English() {
     <Layout>
       <Hero />
       <div className="tight--desktop--container">
-        <div className="row index-namaste">
+        <div className="row index-namaste index-namaste-english">
           <Icons.Namaste />
         </div>
         <div className="row">

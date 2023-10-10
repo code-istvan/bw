@@ -44,7 +44,7 @@ const Hero = () => {
                   {isEnglish ? "The only way " : "Az egyetlen kiút"} <br />
                   {isEnglish ? "OUT is IN" : "befelé vezet"} <br />
                 </h1>
-                <h2 className="hero--font-subtitle mb-20px">
+                <h2 className="hero--font-subtitle">
                   {isEnglish ? (
                     <>
                       Traditional astanga yoga shala with{" "}
@@ -58,11 +58,21 @@ const Hero = () => {
                     </>
                   )}
                 </h2>
-                <div className="hero-button-desktop">
+                <Button
+                  type="button"
+                  buttonStyle="btn--primary--outline-full"
+                  className="hero-button-mobil display-none-desktop "
+                  onClick={() => {
+                    navigate("/astanga-mysore-program")
+                  }}
+                >
+                  Astanga Mysore-program
+                </Button>
+                <div>
                   <Button
                     type="button"
                     buttonStyle="btn--primary--outline"
-                    className=""
+                    className="hero-button-desktop"
                     onClick={() => {
                       navigate("/astanga-mysore-program")
                     }}
@@ -71,18 +81,18 @@ const Hero = () => {
                   </Button>
                 </div>
               </div>
-              <div className="hero--buttons hero-button-mobil">
+              {/* <div className="hero--buttons hero-button-mobil">
                 <Button
                   type="button"
                   buttonStyle="btn--primary--outline-full"
-                  className=""
+                  className="hero-button-mobil"
                   onClick={() => {
                     navigate("/astanga-mysore-program")
                   }}
                 >
                   Astanga Mysore-program
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
