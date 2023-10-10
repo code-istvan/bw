@@ -30,6 +30,23 @@ export default function EventsFeaturedRoll({
     filteredEvents = filteredEvents.slice(0, maxEventsToShow)
   }
 
+  const truncatedDescription = desc => {
+    const maxCharsPerLine = 50
+    const maxChars = 4 * maxCharsPerLine
+
+    if (desc.length > maxChars) {
+      return {
+        text: `${desc.slice(0, maxChars - 5)}`,
+        isTruncated: true,
+      }
+    }
+
+    return {
+      text: desc,
+      isTruncated: false,
+    }
+  }
+
   return (
     <div className="row gap-1">
       {filteredEvents.map(
@@ -94,7 +111,36 @@ export default function EventsFeaturedRoll({
                     </div>
                   </div>
                   <div className="event-card-body">
-                    <p className="clr-shades-gray">{Shortdescription}</p>
+                    <p className="clr-shades-gray">
+                      {(() => {
+                        const { text, isTruncated } =
+                          truncatedDescription(Shortdescription)
+                        if (eventlink && isTruncated) {
+                          return (
+                            <>
+                              {text}
+                              <CustomLink
+                                link={eventlink}
+                                title=" [...]"
+                                classNames="truncate-link clr-brand-orange"
+                              />
+                            </>
+                          )
+                        } else if (eventlink) {
+                          return (
+                            <>
+                              {text}
+                              <CustomLink
+                                link={eventlink}
+                                title=""
+                                classNames="truncate-link clr-brand-orange"
+                              />
+                            </>
+                          )
+                        }
+                        return text
+                      })()}
+                    </p>
                   </div>
                   <div
                     className={`event-card-footer body ${
