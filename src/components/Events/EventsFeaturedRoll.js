@@ -115,28 +115,8 @@ export default function EventsFeaturedRoll({
                       {(() => {
                         const { text, isTruncated } =
                           truncatedDescription(Shortdescription)
-                        if (eventlink && isTruncated) {
-                          return (
-                            <>
-                              {text}
-                              <CustomLink
-                                link={eventlink}
-                                title=" [...]"
-                                classNames="truncate-link clr-brand-orange"
-                              />
-                            </>
-                          )
-                        } else if (eventlink) {
-                          return (
-                            <>
-                              {text}
-                              <CustomLink
-                                link={eventlink}
-                                title=""
-                                classNames="truncate-link clr-brand-orange"
-                              />
-                            </>
-                          )
+                        if (isTruncated) {
+                          return `${text}...`
                         }
                         return text
                       })()}
