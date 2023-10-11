@@ -4,14 +4,7 @@ import { Link } from "gatsby"
 import { CustomLink } from "../CustomLink"
 import "../../sass/components/_eventsMobilCard.scss"
 
-const EventsMobilCard = ({
-  title,
-  date,
-  teacher,
-  teacherImage,
-  Shortdescription,
-  eventLink,
-}) => {
+const EventsMobilCard = ({ title, date, teacher, teacherImage, eventLink }) => {
   let eventFooterContent
   if (!eventLink) {
     eventFooterContent = <p>Részletek hamarosan</p>
@@ -24,35 +17,17 @@ const EventsMobilCard = ({
       />
     )
   }
-
-  const truncatedDescription = desc => {
-    const maxCharsPerLine = 50
-    const maxChars = 4 * maxCharsPerLine
-
-    if (desc.length > maxChars) {
-      const truncatedText = `${desc.slice(0, maxChars - 5)}`
-      return eventLink ? (
-        <>
-          {truncatedText}
-          <CustomLink
-            link={eventLink}
-            title=" [...]"
-            classNames="truncate-link clr-brand-orange"
-          />
-        </>
-      ) : (
-        `${truncatedText} [...]`
-      )
-    }
-
-    return desc
-  }
-
   return (
     <div className="events-mobil-card">
       <div className="events-mobil-card-content">
-        <h3>{title}</h3>
-        <p className="clr-shades-gray">{date}</p>
+        <div className="events-mobil-card-header">
+          <h3>{title}</h3>
+        </div>
+
+        <div className="events-mobil-card-date">
+          <p className="clr-shades-gray">{date}</p>
+        </div>
+        <div className="events-mobil-card-separator"></div>
         <Link to={teacher.link}>
           <div className="row avatar-group events-mobil-card-avatar">
             <GatsbyImage
@@ -60,16 +35,10 @@ const EventsMobilCard = ({
               alt={teacher.name}
               className="avatar__image avatar__image--small"
             />
-
             <p className="clr-shades-gray">{teacher.name}</p>
           </div>
         </Link>
-        <div className="truncated-text-wraper">
-          <p className="truncated-text mt-20px mb-40px">
-            {truncatedDescription(Shortdescription)}
-          </p>
-        </div>
-
+        <div className="events-mobil-card-separator"></div>
         <div
           className={`erm-event-card-footer body ${
             eventLink === null ? "clr-brand-orange" : "custom-link-style"
