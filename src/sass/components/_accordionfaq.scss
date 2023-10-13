@@ -72,6 +72,22 @@
   p {
     padding: 16px 36px 0 24px;
   }
+
+  @media only screen and (min-width: 1px) and (max-width: 260px) {
+    p {
+      padding-top: 52px;
+    }
+  }
+  @media only screen and (min-width: 261px) and (max-width: 320px) {
+    p {
+      padding-top: 40px;
+    }
+  }
+  @media only screen and (min-width: 321px) and (max-width: 450px) {
+    p {
+      padding-top: 36px;
+    }
+  }
 }
 
 .accordion-faq__plus {
