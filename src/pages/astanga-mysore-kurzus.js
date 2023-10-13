@@ -174,9 +174,6 @@ export default function AstangaMysoreKurzus() {
             ))}
           </ul>
         </div>
-
-        <div className="row"></div>
-        <div className="row"></div>
       </div>
     </Layout>
   )

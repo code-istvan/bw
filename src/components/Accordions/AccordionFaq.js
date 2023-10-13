@@ -41,7 +41,7 @@ function AccordionFaq({ question, answer }) {
           style={{ maxHeight: `${accordionState.height}` }}
           className="accordion-faq__content"
         >
-          <div className="accordion-faq__text mb-20px">
+          <div className="accordion-faq__text">
             <p>{answer}</p>
           </div>
         </div>
