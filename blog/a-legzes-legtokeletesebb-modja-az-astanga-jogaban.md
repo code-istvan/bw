@@ -4,9 +4,10 @@ title: A légzés legtökéletesebb módja az astanga jógában
 description: “Vinā Vinyāsa yogena āsanādih na kārayet” Ne végezz ászanát vinyásza nélkül
 author: István
 tags:
-  - jógaelmélet
+  - astangaelmélet
 date: 2020-12-30T12:46:27.551Z
 thumbnail: /blogpostimages/sharath_jois.jpg
+thumbnailMobil: /blogpostimages/sharathji_pranayama_mobil.jpg
 ---
 Egy különleges légzéstechnika a kulcsa a vinyásza rendszernek, amelyen az astanga jóga alapul. Pattabhi Jois sokszor hangsúlyozta ezt, Vāmana Risit idézve a Jóga Koruntából:
 
