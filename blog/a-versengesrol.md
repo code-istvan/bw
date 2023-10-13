@@ -6,7 +6,7 @@ description: Guruji azt mondta, hogy ha kitartóan gyakorlunk, akkor mindenhol
 author: Dorka
 tags:
   - jógaelmélet
-date: 2023-10-13T17:46:54.830Z
+date: 2015-10-11T17:46:54.830Z
 thumbnail: /blogpostimages/versenges_desktop.jpg
 thumbnailMobil: /blogpostimages/versenges_mobil.jpg
 ---
