@@ -1,7 +1,8 @@
 import React from "react"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
-import "../../sass/components/_sectionrolunk.scss"
+import Counter from "../Counter"
+import "../../sass/components/_sectionRolunk.scss"
 
 const SectionRolunk = () => {
   return (
@@ -26,6 +27,18 @@ const SectionRolunk = () => {
         >
           Tudj meg többet rólunk
         </Button>
+      </div>
+      <div className="section--rolunk--tradicio island-section--gray-border island-section--gray-border mt-20px">
+        <div className="section--rolunk--wrapper">
+          <Counter tag="h3" className="mb-20px" />
+          <p>
+            Magyarország legrégebbi astanga{" "}
+            <span className="nowrap body">Mysore-programja</span>
+          </p>
+          <p>
+            <strong>Paramaguru Sharath Jois</strong> áldásával
+          </p>
+        </div>
       </div>
     </section>
   )

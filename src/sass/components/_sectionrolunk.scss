@@ -2,6 +2,10 @@
 
 .section--rolunk {
   // max-width: 670px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   @media only screen and (min-width: 1px) and (max-width: 576px) {
     .btn {
       width: 100%;
@@ -18,5 +22,19 @@
       width: 600px;
       text-align: center;
     }
+  }
+}
+
+.section--rolunk--tradicio {
+}
+
+.section--rolunk--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  p {
+    width: fit-content;
+    text-align: center;
   }
 }

@@ -376,6 +376,10 @@ blockquote {
   border: solid 2px $color-brand-orange;
 }
 
+.island-section--gray-border {
+  border: solid 2px $color-shades-lightBlack;
+}
+
 .island-section--orange-border__width {
   width: max-content;
   padding: 40px;
@@ -422,4 +426,8 @@ blockquote {
 
 .text-align-left {
   text-align: left;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
