@@ -2,7 +2,7 @@ import React from "react"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
 import Counter from "../Counter"
-import "../../sass/components/_sectionRolunk.scss"
+import "../../sass/components/_sectionrolunk.scss"
 
 const SectionRolunk = () => {
   return (
