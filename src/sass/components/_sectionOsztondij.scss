@@ -1,9 +1,35 @@
 @import "/src/sass/global";
 
 .section--osztondij {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include xs {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
   @media only screen and (min-width: 1px) and (max-width: 576px) {
     .btn {
       width: 100%;
+    }
+  }
+
+  .section-osztondij__wrapper {
+    background-image: url("https://mula.bandha.works/images/osztondij_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+
+    @include xs {
+      width: 100%;
+    }
+    @include md {
+      width: fit-content;
     }
   }
 
@@ -12,10 +38,16 @@
   .section--osztondij--button {
     display: flex;
     justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
 
     p {
       width: 600px;
       text-align: center;
     }
   }
+}
+
+.section--osztondij--button {
+  z-index: 9999;
 }

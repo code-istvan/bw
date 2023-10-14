@@ -2,6 +2,7 @@ import React from "react"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
 import Counter from "../Counter"
+import Sj_blessing from "../Icons/sj_handwrite.svg"
 import "../../sass/components/_sectionrolunk.scss"
 
 const SectionRolunk = () => {
@@ -32,12 +33,15 @@ const SectionRolunk = () => {
         <div className="section--rolunk--wrapper">
           <Counter tag="h3" className="mb-20px" />
           <p>
-            Magyarország legrégebbi astanga{" "}
-            <span className="nowrap body">Mysore-programja</span>
+            Magyarország legrégebbi{" "}
+            <span className="nowrap body">astanga Mysore-programja</span>
           </p>
           <p>
             <strong>Paramaguru Sharath Jois</strong> áldásával
           </p>
+          <div className="mysore-program--tradicio__image">
+            <img src={Sj_blessing} alt="Sj_blessing" />
+          </div>
         </div>
       </div>
     </section>
