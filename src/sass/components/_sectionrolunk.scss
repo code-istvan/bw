@@ -1,10 +1,16 @@
 @import "/src/sass/global";
 
 .section--rolunk {
-  // max-width: 670px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  .section--rolunk--text {
+    display: flex;
+    justify-content: center;
+    p {
+      text-align: center;
+    }
+  }
 
   @media only screen and (min-width: 1px) and (max-width: 576px) {
     .btn {
@@ -12,15 +18,8 @@
     }
   }
   @media only screen and (min-width: 577px) {
-    .section--rolunk--text,
-    .section--rolunk--button {
-      display: flex;
-      justify-content: center;
-    }
-
     p {
       width: 600px;
-      text-align: center;
     }
   }
 }

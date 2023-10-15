@@ -18,19 +18,21 @@ const SectionRolunk = () => {
           Mysore-ba utaznak, hogy tovább mélyítsék tudásuk, megértésük.
         </p>
       </div>
-      <div className="section--rolunk--button mt-20px">
-        <Button
-          type="button"
-          buttonStyle="btn--primary--outline"
-          onClick={() => {
-            navigate("/rolunk")
-          }}
-        >
-          Tudj meg többet rólunk
-        </Button>
-      </div>
+
+      <Button
+        type="button"
+        buttonStyle="btn--primary--outline"
+        className="mt-20px"
+        onClick={() => {
+          navigate("/rolunk")
+        }}
+      >
+        Tudj meg többet rólunk
+      </Button>
+
       <div className="section--rolunk--tradicio island-section--gray-border island-section--gray-border mt-20px">
         <div className="section--rolunk--wrapper">
+          <h3 className="mb-20px font-family-primary">TRADÍCIÓ</h3>
           <Counter tag="h3" className="mb-20px" />
           <p>
             Magyarország legrégebbi{" "}
