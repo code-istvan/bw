@@ -157,16 +157,16 @@ const Conference = props => {
         d="M15.7737 19.264C17.2065 19.264 18.368 18.1025 18.368 16.6697C18.368 15.2369 17.2065 14.0754 15.7737 14.0754C14.3409 14.0754 13.1794 15.2369 13.1794 16.6697C13.1794 18.1025 14.3409 19.264 15.7737 19.264Z"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_2"
         d="M24.4616 10.9985C26.3942 10.9985 27.9609 9.43184 27.9609 7.49926C27.9609 5.56668 26.3942 4 24.4616 4C22.5291 4 20.9624 5.56668 20.9624 7.49926C20.9624 9.43184 22.5291 10.9985 24.4616 10.9985Z"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_3"
@@ -174,64 +174,64 @@ const Conference = props => {
         fill={fillColor}
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_4"
         d="M36.3469 16.187C38.2795 16.187 39.8461 14.6203 39.8461 12.6878C39.8461 10.7552 38.2795 9.18852 36.3469 9.18852C34.4143 9.18852 32.8477 10.7552 32.8477 12.6878C32.8477 14.6203 34.4143 16.187 36.3469 16.187Z"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_5"
         d="M34.5368 25.2971C35.8363 25.2971 36.8897 24.2437 36.8897 22.9442C36.8897 21.6447 35.8363 20.5912 34.5368 20.5912C33.2373 20.5912 32.1838 21.6447 32.1838 22.9442C32.1838 24.2437 33.2373 25.2971 34.5368 25.2971Z"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_6"
         d="M30.6758 37.3635C32.6083 37.3635 34.175 35.7968 34.175 33.8642C34.175 31.9317 32.6083 30.365 30.6758 30.365C28.7432 30.365 27.1765 31.9317 27.1765 33.8642C27.1765 35.7968 28.7432 37.3635 30.6758 37.3635Z"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_7"
         d="M21.8959 31.7919C23.4953 31.7919 24.7919 30.4953 24.7919 28.8959C24.7919 27.2966 23.4953 26 21.8959 26C20.2966 26 19 27.2966 19 28.8959C19 30.4953 20.2966 31.7919 21.8959 31.7919Z"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_8"
         d="M15.9546 40.6817C17.6539 40.6817 19.0315 39.3041 19.0315 37.6048C19.0315 35.9055 17.6539 34.5279 15.9546 34.5279C14.2553 34.5279 12.8777 35.9055 12.8777 37.6048C12.8777 39.3041 14.2553 40.6817 15.9546 40.6817Z"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_9"
         d="M9.07692 29.3997C10.7763 29.3997 12.1538 28.0221 12.1538 26.3228C12.1538 24.6235 10.7763 23.2459 9.07692 23.2459C7.37758 23.2459 6 24.6235 6 26.3228C6 28.0221 7.37758 29.3997 9.07692 29.3997Z"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_10"
         d="M39.1222 44C40.9548 44 42.4405 42.5144 42.4405 40.6818C42.4405 38.8492 40.9548 37.3635 39.1222 37.3635C37.2896 37.3635 35.804 38.8492 35.804 40.6818C35.804 42.5144 37.2896 44 39.1222 44Z"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
     </svg>
   )
@@ -535,24 +535,24 @@ const Mysore = props => {
         d="M24.5545 27.1412C24.5545 24.3297 21.5264 24.2215 21.5264 24.2215C17.9575 24.2215 16.7678 27.1412 16.7678 28.9795C16.7678 35.0352 22.6079 36.7654 24.5545 36.7654C34.8287 36.7654 37.0998 28.8714 37.0998 24.2215C37.0998 6.70341 20.7693 4 16.6597 4"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_2"
         d="M21.7427 28.6551C24.2301 30.0609 25.8524 27.4656 25.8524 27.4656C27.691 24.3297 25.7442 21.8425 24.122 20.9774C18.9308 17.9496 14.4967 22.1669 13.5234 23.8971C8.44039 32.7643 14.0641 38.7118 18.1738 41.0908C32.9902 49.6336 43.9133 36.9816 45.86 33.5213"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_3"
         d="M21.8509 25.5192C19.3635 26.9249 20.7694 29.6284 20.7694 29.6284C22.6079 32.7643 25.6361 32.3318 27.3665 31.3585C32.5576 28.3307 31.1517 22.3832 30.1784 20.653C25.0954 11.7858 17.0923 13.7323 12.9827 16.0031C-1.83377 24.5459 3.68185 40.3339 5.62853 43.7942"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_4"
@@ -659,48 +659,48 @@ const Restday = props => {
         d="M20.4023 40.9232C20.4639 42.6462 22.1253 43.9385 23.8483 44C25.5713 44 27.1097 42.9539 28.0942 41.6001C29.0788 40.2464 29.5711 38.5234 29.9403 36.9235C30.6172 33.7236 30.9249 30.4623 30.7403 27.2009"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_2"
         d="M37.7555 36.6773C39.2323 37.4773 41.263 36.6158 42.1245 35.2005C42.986 33.7236 42.8014 31.816 42.1245 30.3392C41.3861 28.8008 40.1554 27.5701 38.9247 26.4625C36.4633 24.3087 33.7557 22.4627 30.802 20.9858"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_3"
         d="M41.3861 19.4475C42.8014 18.5244 43.0475 16.3707 42.1861 14.8939C41.3246 13.417 39.6016 12.6171 37.9401 12.5555C36.2787 12.4325 34.5557 12.9247 32.9558 13.4786C29.879 14.5862 26.9253 16.063 24.2793 17.9091"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_4"
         d="M6.18787 32.1852C4.83409 33.1698 4.64949 35.3235 5.57252 36.7388C6.49555 38.1542 8.28007 38.8926 9.94152 38.8926C11.6645 38.9541 13.2644 38.4003 14.8643 37.785C17.8796 36.5542 20.7717 34.9543 23.3562 32.9852"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_5"
         d="M9.81837 13.3555C8.27999 12.617 6.31086 13.5401 5.5109 15.0169C4.71095 16.4938 4.95708 18.4014 5.75704 19.8782C6.557 21.3551 7.84924 22.5858 9.14148 23.6319C11.6644 25.6625 14.495 27.3855 17.4487 28.7393"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_6"
         d="M27.2944 6.89427C27.1713 5.23282 25.4483 3.94057 23.7253 4.00211C22.0023 4.06364 20.5255 5.17129 19.6024 6.5866C18.6794 8.00191 18.2487 9.72489 18.0025 11.3863C17.4487 14.5862 17.3257 17.9091 17.6333 21.1089"
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
       <path
         id="Vector_7"
@@ -708,8 +708,8 @@ const Restday = props => {
         fill={fillColor}
         stroke={fillColor}
         strokeWidth="2"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
       />
     </svg>
   )

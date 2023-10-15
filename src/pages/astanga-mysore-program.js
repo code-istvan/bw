@@ -422,8 +422,8 @@ export default function Mysoreprogram() {
           </div>{" "}
           <div className="row">
             {mysoreFaq &&
-              mysoreFaq.map(({ question, answer }) => (
-                <AccordionFaq question={question} answer={answer} />
+              mysoreFaq.map(({ question, answer }, index) => (
+                <AccordionFaq key={index} question={question} answer={answer} />
               ))}
           </div>
         </div>
