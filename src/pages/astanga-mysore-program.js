@@ -456,5 +456,5 @@ export default function Mysoreprogram() {
 }
 
 export const Head = ({ location }) => (
-  <Seo title="Astanga Jóga Mysore Program Budapest" location={location} />
+  <Seo title="ASTANGA JÓGA MYSORE PROGRAM BUDAPEST" location={location} />
 )

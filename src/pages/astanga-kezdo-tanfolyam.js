@@ -105,11 +105,16 @@ export default function AstangaKezdoTanfolyam() {
             hatékony testi-lelki fejlődés érdekében.
           </p>
           <p className="mb-20px">
-            Az astanga jóga gyakorlását az ászanák elsajátításával kell kezdeni.
-            Ezen speciális testhelyzetek rendszeres gyakorlásával elérhetjük,
-            hogy testünk erős és rugalmas legyen, elménk nyugodt és
-            kiegyensúlyozott, ami alapul szolgál majd az astanga
-            jógarendszerében történő továbblépésre.{" "}
+            Az{" "}
+            <CustomLink
+              link="/vinyasza-jogairanyzatok/"
+              title="astanga jóga"
+              classNames="body link-decoration-remove schedule-teacher"
+            />{" "}
+            gyakorlását az ászanák elsajátításával kell kezdeni. Ezen speciális
+            testhelyzetek rendszeres gyakorlásával elérhetjük, hogy testünk erős
+            és rugalmas legyen, elménk nyugodt és kiegyensúlyozott, ami alapul
+            szolgál majd az astanga jógarendszerében történő továbblépésre.{" "}
           </p>
         </div>
         <div className="row mb-20px">
@@ -246,5 +251,5 @@ export default function AstangaKezdoTanfolyam() {
 }
 
 export const Head = ({ location }) => (
-  <Seo title="ASTANGA KEZDŐ TANFOLYAM" location={location} />
+  <Seo title="ASTANGA JÓGA KEZDŐ TANFOLYAM BUDAPEST" location={location} />
 )
