@@ -93,7 +93,7 @@ export default function Mysoreprogram() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Astanga jóga Mysore gyakorlás"
             placeholder="blurred"
           />
           <StaticImage
@@ -103,7 +103,7 @@ export default function Mysoreprogram() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Astanga jóga Mysore Budapest"
             placeholder="blurred"
           />
         </div>
@@ -158,7 +158,7 @@ export default function Mysoreprogram() {
               loading="eager"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
-              alt="Astanga jóga Mysore"
+              alt="Astanga Mysore program"
               placeholder="blurred"
             />
           </div>
@@ -170,7 +170,7 @@ export default function Mysoreprogram() {
               loading="eager"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
-              alt="Astanga jóga Mysore"
+              alt="Astanga jóga Budapest"
               placeholder="blurred"
             />
           </div>
@@ -182,7 +182,7 @@ export default function Mysoreprogram() {
               loading="eager"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
-              alt="Astanga jóga Mysore"
+              alt="Astanga Mysore gyakorlás"
               placeholder="blurred"
             />
           </div>
@@ -208,9 +208,15 @@ export default function Mysoreprogram() {
           </h3>
           <p>
             A Mysore-stílusú astanga gyakorlás a dél-indiai Mysore városáról
-            kapta a nevét. Pattabhi Jois itt fejlesztette ki a modernkori
-            astanga jóga rendszerét az 1948-ban alapított Ashtanga Yoga Research
-            Institute-ban (Astanga Jóga Kutató Intézet).
+            kapta a nevét.{" "}
+            <CustomLink
+              link="/blog/astanga-ikonok-sri-k-pattabhi-jois-1-resz/"
+              title="Pattabhi Jois"
+              classNames="body link-decoration-remove schedule-teacher"
+            />{" "}
+            itt fejlesztette ki a modernkori astanga jóga rendszerét az 1948-ban
+            alapított Ashtanga Yoga Research Institute-ban (Astanga Jóga Kutató
+            Intézet).
           </p>
         </div>
         <div className="row">
@@ -343,7 +349,7 @@ export default function Mysoreprogram() {
                   loading="eager"
                   quality={95}
                   formats={["AUTO", "WEBP", "AVIF"]}
-                  alt="Szalai István"
+                  alt="Szalai István astanga jóga oktató"
                   placeholder="blurred"
                 />{" "}
               </Link>
@@ -450,5 +456,5 @@ export default function Mysoreprogram() {
 }
 
 export const Head = ({ location }) => (
-  <Seo title="MYSORE PROGRAM" location={location} />
+  <Seo title="Astanga Jóga Mysore Program Budapest" location={location} />
 )
