@@ -12,18 +12,18 @@ import "../sass/pages/_astangaKezdoTanfolyam.scss"
 export default function AstangaKezdoTanfolyam() {
   const breakpoints = useBreakpoint()
 
-  const tematika = [
-    "Az astanga jóga eredetének és elméleti hátterének ismertetése",
-    "A helyes légzéstechnika elsajátítása, tisztító gyakorlatok",
-    "A vinyásza rendszer elmélete és gyakorlata",
-    "A triszthána, a gyakorlás három fókusza",
-    "A bandhák, avagy az ászanák mélyebb energetikai rétegei",
-    "Az astanga vinyásza jóga első sorozatának ászanái, púrvóttánászanáig, pontos vinyászaszámolással és a hozzájuk tartozó dristikkel. Ahol szükséges, az oktató egyénre szabott módosításokat javasol a hatásos és biztonságos gyakorlás érdekében.",
-    "A hosszú távú gyakorlás felépítése: a vezetett és a Mysore-óratípus, illetve az otthoni gyakorlás",
-  ]
+  // const tematika = [
+  //   "Az astanga jóga eredetének és elméleti hátterének ismertetése",
+  //   "A helyes légzéstechnika elsajátítása, tisztító gyakorlatok",
+  //   "A vinyásza rendszer elmélete és gyakorlata",
+  //   "A triszthána, a gyakorlás három fókusza",
+  //   "A bandhák, avagy az ászanák mélyebb energetikai rétegei",
+  //   "Az astanga vinyásza jóga első sorozatának ászanái, púrvóttánászanáig, pontos vinyászaszámolással és a hozzájuk tartozó dristikkel. Ahol szükséges, az oktató egyénre szabott módosításokat javasol a hatásos és biztonságos gyakorlás érdekében.",
+  //   "A hosszú távú gyakorlás felépítése: a vezetett és a Mysore-óratípus, illetve az otthoni gyakorlás",
+  // ]
 
-  const firstColumnItems = tematika.slice(0, 5)
-  const secondColumnItems = tematika.slice(5)
+  // const firstColumnItems = tematika.slice(0, 5)
+  // const secondColumnItems = tematika.slice(5)
 
   const hasznosOlvasmanyok = [
     {
@@ -164,20 +164,58 @@ export default function AstangaKezdoTanfolyam() {
         >
           <div className="col-12-xs col-6-md">
             <ul>
-              {firstColumnItems.map((item, index) => (
-                <li key={index}>
-                  <p>{item}</p>
-                </li>
-              ))}
+              <li>
+                <p>
+                  Az astanga jóga eredetének és elméleti hátterének ismertetése
+                </p>
+              </li>
+              <li>
+                <p>
+                  A helyes{" "}
+                  <CustomLink
+                    link="/blog/a-legzes-legtokeletesebb-modja-az-astanga-jogaban/"
+                    title="légzéstechnika"
+                    classNames="body link-decoration-remove schedule-teacher"
+                  />{" "}
+                  elsajátítása, tisztító gyakorlatok
+                </p>
+              </li>
+              <li>
+                <p>A vinyásza rendszer elmélete és gyakorlata</p>
+              </li>
+              <li>
+                <p>
+                  A{" "}
+                  <CustomLink
+                    link="/astanga-triszthana/"
+                    title="triszthána,"
+                    classNames="body link-decoration-remove schedule-teacher"
+                  />{" "}
+                  a gyakorlás három fókusza
+                </p>
+              </li>
+              <li>
+                <p>A bandhák, avagy az ászanák mélyebb energetikai rétegei</p>
+              </li>
             </ul>
           </div>
-          <div className="col-12-xs col-6-md jakika">
+          <div className="col-12-xs col-6-md tematika__second-column">
             <ul>
-              {secondColumnItems.map((item, index) => (
-                <li key={index}>
-                  <p>{item}</p>
-                </li>
-              ))}
+              <li>
+                <p>
+                  Az astanga vinyásza jóga első sorozatának ászanái,
+                  púrvóttánászanáig, pontos vinyászaszámolással és a hozzájuk
+                  tartozó dristikkel. Ahol szükséges, az oktató egyénre szabott
+                  módosításokat javasol a hatásos és biztonságos gyakorlás
+                  érdekében.
+                </p>
+              </li>
+              <li>
+                <p>
+                  A hosszú távú gyakorlás felépítése: a vezetett és a
+                  Mysore-óratípus, illetve az otthoni gyakorlás
+                </p>
+              </li>
             </ul>
           </div>
         </div>
