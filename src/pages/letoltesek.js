@@ -41,6 +41,14 @@ export default function Letoltesek() {
     },
   ]
 
+  const sounds = [
+    {
+      type: "Gurudzsi Sri. K. Pattabhi Jois",
+      name: "Vezetett első sorozat (1993)",
+      link: "https://mula.bandha.works/downloads/GURUJI_LED_PRIMARY_1993.mp3",
+    },
+  ]
+
   return (
     <Layout>
       <div className="page-hero-container">
@@ -53,7 +61,7 @@ export default function Letoltesek() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Astanga jóga sorozatábra"
             placeholder="blurred"
           />
           <StaticImage
@@ -63,7 +71,7 @@ export default function Letoltesek() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Astanga jóga sorozatábra"
             placeholder="blurred"
           />
         </div>
@@ -72,9 +80,6 @@ export default function Letoltesek() {
         <div className="mt-40px mb-20px">
           <h3>Sorozatábrák</h3>
           <p>A sorozatábra nem helyettesíti a szakképzett oktató útmutatását</p>
-        </div>
-        <div className="row clr-brand-orange">
-          <p>Szerver karbantartás miatt a linkek átmenetileg nem üzemelnek!</p>
         </div>
         <div className="row">
           <div className="col unordered-list-style">
@@ -90,6 +95,29 @@ export default function Letoltesek() {
                         classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
                       />{" "}
                       (.pdf)
+                    </p>
+                  </li>
+                ))}
+            </ul>
+          </div>
+        </div>
+        <div className="mt-40px mb-20px">
+          <h3>Hang file-ok</h3>
+        </div>
+        <div className="row">
+          <div className="col unordered-list-style">
+            <ul>
+              {sounds &&
+                sounds.map(({ type, name, link }) => (
+                  <li key={name}>
+                    <p>
+                      {type}:{" "}
+                      <CustomLink
+                        link={link}
+                        title={name}
+                        classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+                      />{" "}
+                      (.mp3)
                     </p>
                   </li>
                 ))}
