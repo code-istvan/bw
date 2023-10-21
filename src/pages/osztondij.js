@@ -2,6 +2,10 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import SocialProofs from "../data/socialProofs.json"
+import AccordionSocial from "../components/Accordions/AccordionSocial"
+
+import "../sass/pages/_osztondij.scss"
 
 export default function Osztondij() {
   return (
@@ -84,6 +88,16 @@ export default function Osztondij() {
             2023. december 17-én vasárnap, 16:00 órától kerül megrendezésre.
           </p>
           <p className="mb-20px">Várjuk jelentkezésedet!</p>
+        </div>
+        <div className="row mt-40px mb-20px">
+          <h3>ÖSZTÖNDÍJASAINK ÍRTÁK</h3>{" "}
+        </div>
+        <div className="row unordered-list-style mb-40px">
+          {SocialProofs.scholarship &&
+            SocialProofs.scholarship.map(({ name, text, intro }) => (
+              <AccordionSocial name={name} text={text} intro={intro} />
+            ))}
+          <br />
         </div>
       </div>
     </Layout>

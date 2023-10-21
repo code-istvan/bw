@@ -813,6 +813,22 @@ const Whatsapp = props => {
     </svg>
   )
 }
+const QuoteDouble = props => {
+  ColorSwitch(props.color)
+
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill={fillColor}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M16.5 3H21L19.5 23H12.5L16.5 3Z" fill={fillColor} />
+      <path d="M7 3H11.5L10 23H3L7 3Z" fill={fillColor} />
+    </svg>
+  )
+}
 
 const Icons = {
   ArrowLeft,
@@ -842,6 +858,7 @@ const Icons = {
   Telegram,
   Twitter,
   Whatsapp,
+  QuoteDouble,
 }
 
 export default Icons

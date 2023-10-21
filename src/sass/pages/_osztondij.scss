@@ -1,0 +1,28 @@
+@import "/src/sass/global";
+
+.card-social-proof {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 4px;
+  width: 100%;
+
+  padding: 12px;
+  margin: 12px;
+  background-color: $color-shades-darkGray;
+  position: relative;
+}
+
+.card-social-proof--inside {
+  margin: 30px;
+  :first-child {
+    margin-bottom: 12px;
+  }
+}
+
+.card-social-proof--header {
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-between;
+  gap: 12px;
+}

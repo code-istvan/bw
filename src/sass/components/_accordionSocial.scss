@@ -1,0 +1,127 @@
+@import "/src/sass/global";
+
+/* Style the accordion section */
+.accordion-social__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  //   border-left: 4px solid $color-brand-orange;
+  background-color: $color-shades-darkGray;
+  margin-bottom: 20px;
+  @include xs {
+    padding: 20px 0;
+  }
+  @include md {
+    padding: 0;
+  }
+}
+
+.accordion-social__box {
+  padding: 20px 0;
+  button {
+    width: 100%;
+  }
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion-social {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+  padding: 0;
+}
+
+/* Style the accordion content title */
+.accordion-social__title {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-semi-bold;
+  font-size: $body-font-size-mobile;
+  text-align: left;
+  @include md {
+    font-size: $body-font-size-desktop;
+  }
+}
+
+/* Style the accordion chevron icon */
+.accordion-social__icon {
+  margin-right: 16px;
+  transition: transform 0.6s ease;
+  flex-shrink: 0;
+}
+
+/* Style to rotate icon when state is active */
+.rotate__45deg {
+  transform: rotate(45deg);
+}
+/* Style the accordion content panel. Note: hidden by default */
+.accordion-social__content {
+  overflow: auto;
+  transition: max-height 0.6s ease;
+  overflow: hidden;
+  background-color: $color-shades-darkGray;
+}
+
+/* Style the accordion content text */
+.accordion-social__text {
+  p {
+    padding: 16px 36px 0 24px;
+  }
+
+  @media only screen and (min-width: 1px) and (max-width: 260px) {
+    p {
+      padding-top: 52px;
+    }
+  }
+  @media only screen and (min-width: 261px) and (max-width: 320px) {
+    p {
+      padding-top: 40px;
+    }
+  }
+  @media only screen and (min-width: 321px) and (max-width: 450px) {
+    p {
+      padding-top: 36px;
+    }
+  }
+}
+
+.accordion-social__plus {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  gap: 16px;
+  height: auto;
+  svg {
+    float: right;
+    margin-right: 16px;
+  }
+}
+
+.accordion-social__title {
+  font-weight: 900;
+}
+
+.malaji {
+  text-align: left;
+}
+
+.nnnccc {
+  display: flex;
+  flex-direction: row;
+  //   margin-bottom: 12px;
+  //   justify-content: space-between;
+  svg {
+    position: relative;
+    top: -12px;
+    margin-bottom: 12px;
+  }
+}
