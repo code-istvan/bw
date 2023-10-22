@@ -3,6 +3,7 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import SocialProofs from "../data/socialProofs.json"
+import { CustomLink } from "../components/CustomLink"
 import AccordionSocial from "../components/Accordions/AccordionSocial"
 
 import "../sass/pages/_osztondij.scss"
@@ -48,21 +49,39 @@ export default function Osztondij() {
           </p>
           <blockquote>
             A tudat stabilitásának szilárd alapja a hosszú időn keresztül,
-            megszakítás nélkül végzett gondos gyakorlás.
-            <br />- Patandzsali Jóga Szútrák I.14
+            megszakítás nélkül végzett gondos gyakorlás. - Patandzsali Jóga
+            Szútrák I.14
           </blockquote>
-          <p className="mb-20px">
-            Jógagyakorlásod minél hatékonyabbá tételében – a reggeli
-            Mysore-program látogatása mellett – intenzív, személyes segítséget
-            nyújtanak oktatóink. A jelentkezők vállalják, hogy minimum heti
-            háromszor részt vesznek a Mysore-program óráin – az előre közösen
+          <p>
+            Jógagyakorlásod minél hatékonyabbá tételében – a reggeli{" "}
+            <CustomLink
+              link="/astanga-mysore-program/"
+              title="Mysore-program"
+              classNames="body link-decoration-remove schedule-teacher"
+            />{" "}
+            látogatása mellett – intenzív, személyes segítséget nyújtanak
+            oktatóink. A jelentkezők vállalják, hogy minimum heti háromszor
+            részt vesznek a Mysore-program óráin – az előre közösen
             meghatározott időpontokban –, és havi rendszerességgel elkészítenek
             egy beadandó esszét egy meghatározott témában. Amennyiben kezdő
-            astanga gyakorló vagy, az első hónapban a kezdő tanfolyamon
-            biztosítunk helyet számodra. A második hónapban a Mysore-kurzussal
+            astanga gyakorló vagy, az első hónapban az{" "}
+            <CustomLink
+              link="/astanga-kezdo-tanfolyam/"
+              title="astanga kezdő tanfolyamon"
+              classNames="body link-decoration-remove schedule-teacher"
+            />{" "}
+            biztosítunk helyet számodra. A második hónapban az{" "}
+            <CustomLink
+              link="/astanga-mysore-kurzus/"
+              title="astanga Mysore-kurzussal"
+              classNames="body link-decoration-remove schedule-teacher"
+            />{" "}
             készítünk fel az astanga jóga egyéni gyakorlására. A harmadik
             hónapban pedig már a reggeli Mysore-órákon tudsz résztvenni.
           </p>
+          <h2 className="clr-brand-orange font-family-primary mb-20px">
+            Jelentkezés az ösztöndíjra
+          </h2>
           <p className="mb-20px">
             Az ösztöndíj igényléséhez ki kell tölteni az online jelentkezési
             űrlapot. Ehhez kell a pályázónak csatolnia egy motivációs levelet
@@ -78,25 +97,55 @@ export default function Osztondij() {
             vehet részt, ahol segítséget kap a gyakorlás elmélyítésében, illetve
             az esetlegesen felvetődő akadályok megoldásában.
           </p>
-          <p className="mb-20px">
-            <strong>Az ösztöndíj időszaka:</strong> 2024. január 1. – 2024.
-            március 31.
-          </p>
-          <p className="mb-20px">
-            <strong>Az online jelentkezési lap: </strong>2023. december 7.
-            12:00-tól, december 10. 12:00-ig lesz elérhető. A második forduló:
-            2023. december 17-én vasárnap, 16:00 órától kerül megrendezésre.
-          </p>
-          <p className="mb-20px">Várjuk jelentkezésedet!</p>
+
+          <div className="osztondij-timings">
+            <div className="osztondij-timings--wrapper">
+              <p className="mb-20px">
+                <strong>Az ösztöndíj időszaka</strong>
+                <br />
+                2024. január 1. – 2024. március 31.
+              </p>
+              <div className="separator-horizontal"></div>
+              <p className="mb-20px">
+                <strong>Első forduló</strong> <br />
+                Az első fordulóra online tudsz jelentkezni a fenti leírás
+                szerint. A jelentkezési felület 2023. december 7. 12:00-tól,
+                december 10. 12:00-ig lesz elérhető ezen az oldalon.
+                <br /> <br />
+                <strong>Második forduló</strong>
+                <br />A második fordulóban, az első fordúlóból továbjutott
+                jelentkezők vehetnek részt egy személyes felvételi beszélgetés
+                keretein belűl. Ennek időpontja: 2023. december 17-én vasárnap,
+                16:00 órától. Helyszín:{" "}
+                <CustomLink
+                  link="/kapcsolat/"
+                  title="Bandha Works Jógaiskola"
+                  classNames="body link-decoration-remove schedule-teacher"
+                />
+                .
+              </p>
+              <div className="separator-horizontal"></div>
+              <p className="mb-20px">Várjuk jelentkezésedet!</p>
+            </div>
+          </div>
         </div>
-        <div className="row mt-40px mb-20px">
-          <h3>ÖSZTÖNDÍJASAINK ÍRTÁK</h3>{" "}
+        <div className="separator-horizontal-full mt-20px"></div>
+        <div className="row mt-40px">
+          <h2 className="clr-brand-orange font-family-primary">
+            Ösztöndíjasaink írták
+          </h2>
         </div>
-        <div className="row unordered-list-style mb-40px">
+        <div className="row mb-40px">
           {SocialProofs.scholarship &&
-            SocialProofs.scholarship.map(({ name, text, intro }) => (
-              <AccordionSocial name={name} text={text} intro={intro} />
+            SocialProofs.scholarship.map(({ name, text, intro }, index) => (
+              <AccordionSocial
+                key={index}
+                name={name}
+                text={text}
+                intro={intro}
+              />
             ))}
+
           <br />
         </div>
       </div>
@@ -105,5 +154,5 @@ export default function Osztondij() {
 }
 
 export const Head = ({ location }) => (
-  <Seo title="ÖSZTÖNDÍJ" location={location} />
+  <Seo title="JÓGA ÖSZTÖNDÍJ" location={location} />
 )

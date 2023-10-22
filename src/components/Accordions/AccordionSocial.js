@@ -1,5 +1,4 @@
 import React, { useState, useRef } from "react"
-import Plus from "../Icons/Plus"
 import Icons from "../Icons/Icons"
 import "../../sass/components/_accordionSocial.scss"
 
@@ -42,12 +41,6 @@ function AccordionSocial({ name, text, intro }) {
               <span className="body clr-shades-gray">{intro}</span>
               <span className="body clr-brand-orange"> [tovább]</span>
             </div>
-            {/* </div> */}
-            {/* 
-            <Plus
-              className={`${accordionState.rotate}`}
-              fill={"hsl(37.3, 90.4%, 51.2%)"}
-            /> */}
           </div>
         </button>
         <div
