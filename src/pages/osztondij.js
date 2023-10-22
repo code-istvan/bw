@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import SocialProofs from "../data/socialProofs.json"
 import { CustomLink } from "../components/CustomLink"
 import AccordionSocial from "../components/Accordions/AccordionSocial"
-
+import Carousel from "../components/Carusel"
 import "../sass/pages/_osztondij.scss"
 
 export default function Osztondij() {
@@ -136,16 +136,17 @@ export default function Osztondij() {
           </h2>
         </div>
         <div className="row mb-40px">
-          {SocialProofs.scholarship &&
-            SocialProofs.scholarship.map(({ name, text, intro }, index) => (
-              <AccordionSocial
-                key={index}
-                name={name}
-                text={text}
-                intro={intro}
-              />
-            ))}
-
+          <Carousel>
+            {SocialProofs.scholarship &&
+              SocialProofs.scholarship.map(({ name, text, intro }, index) => (
+                <AccordionSocial
+                  key={index}
+                  name={name}
+                  text={text}
+                  intro={intro}
+                />
+              ))}
+          </Carousel>
           <br />
         </div>
       </div>
