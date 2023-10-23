@@ -148,7 +148,7 @@ export default function Osztondij() {
           <Slider {...settings}>
             {SocialProofs.scholarship &&
               SocialProofs.scholarship.map(({ name, text, intro }, index) => (
-                <SocialProofCard name={name} intro={intro} />
+                <SocialProofCard key={index} name={name} intro={intro} />
               ))}
           </Slider>
         </div>

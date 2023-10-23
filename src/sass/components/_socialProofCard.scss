@@ -4,14 +4,34 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: auto;
   background-color: $color-shades-darkGray;
   margin-bottom: 16px;
-  @include xs {
-    padding: 20px 0;
+
+  @media only screen and (min-width: 1px) and (max-width: 300px) {
+    height: 360px;
   }
-  @include md {
-    padding: 0;
+  @media only screen and (min-width: 301px) and (max-width: 320px) {
+    height: 320px;
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 400px) {
+    height: 300px;
+  }
+
+  @media only screen and (min-width: 401px) and (max-width: 576px) {
+    height: 250px;
+  }
+
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    height: 210px;
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    height: 210px;
+  }
+
+  @media only screen and (min-width: 993px) {
+    height: 220px;
   }
 }
 
@@ -19,6 +39,7 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
+  padding-top: 32px;
   button {
     width: 100%;
   }
@@ -39,7 +60,7 @@
   text-align: left;
   margin-top: 12px;
   @include xs {
-    height: 140px;
+    height: 180px;
   }
   @include md {
     height: 100px;
