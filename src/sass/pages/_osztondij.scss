@@ -34,3 +34,32 @@
 .osztondij-timings--wrapper {
   margin: 20px;
 }
+
+.slick-slider {
+  width: 100%;
+}
+
+.slick-dots {
+  margin-top: 16px;
+}
+
+.slick-dots li button:before {
+  color: $color-shades-lightGray;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: $color-brand-orange;
+}
+
+.slick-dots li {
+  margin: 0 0; /* függőleges és vízszintes margó */
+}
+
+.slick-dots li:focus {
+  color: $color-shades-lightGray !important; /* A kívánt szín */
+}
+
+.slick-dots li:hover {
+  color: $color-shades-lightGray !important; /* A kívánt szín */
+}

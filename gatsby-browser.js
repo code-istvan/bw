@@ -1,5 +1,8 @@
 import "/src/sass/global.scss"
 import "bootstrap/js/dist/dropdown"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+
 // shopify_commen-out
 // import CombinedProvider from "./src/components/Shopify/CombinedProvider"
 // export const wrapRootElement = CombinedProvider

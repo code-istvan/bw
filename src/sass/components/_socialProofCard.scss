@@ -1,0 +1,47 @@
+@import "/src/sass/global";
+
+.social-proof-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: $color-shades-darkGray;
+  margin-bottom: 16px;
+  @include xs {
+    padding: 20px 0;
+  }
+  @include md {
+    padding: 0;
+  }
+}
+
+.social-proof-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  button {
+    width: 100%;
+  }
+}
+
+.social-proof-card__wrapper-header {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  svg {
+    position: relative;
+    top: -12px;
+    margin-bottom: 12px;
+  }
+}
+
+.social-proof-card__wrapper-body {
+  text-align: left;
+  margin-top: 12px;
+  @include xs {
+    height: 140px;
+  }
+  @include md {
+    height: 100px;
+  }
+}

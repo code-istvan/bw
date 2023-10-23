@@ -4,11 +4,20 @@ import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import SocialProofs from "../data/socialProofs.json"
 import { CustomLink } from "../components/CustomLink"
-import AccordionSocial from "../components/Accordions/AccordionSocial"
-import Carousel from "../components/Carusel"
+import SocialProofCard from "../components/Cards/SocialProofCard"
+import Slider from "react-slick"
 import "../sass/pages/_osztondij.scss"
 
 export default function Osztondij() {
+  const settings = {
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  }
+
   return (
     <Layout>
       <div className="page-hero-container tight--desktop--container">
@@ -136,18 +145,12 @@ export default function Osztondij() {
           </h2>
         </div>
         <div className="row mb-40px">
-          <Carousel>
+          <Slider {...settings}>
             {SocialProofs.scholarship &&
               SocialProofs.scholarship.map(({ name, text, intro }, index) => (
-                <AccordionSocial
-                  key={index}
-                  name={name}
-                  text={text}
-                  intro={intro}
-                />
+                <SocialProofCard name={name} intro={intro} />
               ))}
-          </Carousel>
-          <br />
+          </Slider>
         </div>
       </div>
     </Layout>
