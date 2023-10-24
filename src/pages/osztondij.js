@@ -107,7 +107,6 @@ export default function Osztondij() {
             vehet részt, ahol segítséget kap a gyakorlás elmélyítésében, illetve
             az esetlegesen felvetődő akadályok megoldásában.
           </p>
-
           <div className="osztondij-timings">
             <div className="osztondij-timings--wrapper">
               <p className="mb-20px">
