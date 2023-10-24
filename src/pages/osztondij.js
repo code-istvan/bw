@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import SocialProofs from "../data/socialProofs.json"
 import { CustomLink } from "../components/CustomLink"
 import SocialProofCard from "../components/Cards/SocialProofCard"
+
 import Slider from "react-slick"
 import "../sass/pages/_osztondij.scss"
 
@@ -118,14 +119,21 @@ export default function Osztondij() {
               <p className="mb-20px">
                 <strong>Első forduló</strong> <br />
                 Az első fordulóra online tudsz jelentkezni a fenti leírás
-                szerint. A jelentkezési felület 2023. december 7. 12:00-tól,
-                december 10. 12:00-ig lesz elérhető ezen az oldalon.
+                szerint. A jelentkezési felület{" "}
+                <strong>
+                  2023. december 7. 12:00-tól, december 10. 12:00-ig
+                </strong>{" "}
+                lesz elérhető ezen az oldalon.
                 <br /> <br />
                 <strong>Második forduló</strong>
-                <br />A második fordulóban, az első fordúlóból továbjutott
-                jelentkezők vehetnek részt egy személyes felvételi beszélgetés
-                keretein belűl. Ennek időpontja: 2023. december 17-én vasárnap,
-                16:00 órától. Helyszín:{" "}
+                <br />A második fordulóban, az első fordulóból továbbjutott
+                jelentkezők vehetnek részt, ahol egy személyes felvételi
+                beszélgetés keretein belül választjuk kis a nyertest. Ennek
+                időpontja:{" "}
+                <strong>
+                  2023. december 17-én vasárnap, 16:00 órától
+                </strong>. <br />
+                Helyszín:{" "}
                 <CustomLink
                   link="/kapcsolat/"
                   title="Bandha Works Jógaiskola"
@@ -148,7 +156,12 @@ export default function Osztondij() {
           <Slider {...settings}>
             {SocialProofs.scholarship &&
               SocialProofs.scholarship.map(({ name, text, intro }, index) => (
-                <SocialProofCard key={index} name={name} intro={intro} />
+                <SocialProofCard
+                  key={index}
+                  name={name}
+                  intro={intro}
+                  text={text}
+                />
               ))}
           </Slider>
         </div>

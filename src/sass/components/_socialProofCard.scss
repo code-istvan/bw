@@ -40,9 +40,6 @@
   flex-direction: column;
   padding: 20px;
   padding-top: 32px;
-  button {
-    width: 100%;
-  }
 }
 
 .social-proof-card__wrapper-header {
@@ -65,4 +62,76 @@
   @include md {
     height: 100px;
   }
+}
+
+.social-proof-card--modal-box {
+  @media only screen and (min-width: 1px) and (max-width: 768px) {
+    margin-bottom: -12px;
+  }
+  @media only screen and (min-width: 769px) {
+    margin-bottom: 28px;
+  }
+  button {
+    padding-top: 0;
+    padding-bottom: 0;
+    svg {
+      float: right;
+    }
+  }
+
+  .social-proof-card--modal-header {
+    margin-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .social-proof--persona {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    svg {
+      position: relative;
+      top: -12px;
+      margin-bottom: 12px;
+    }
+  }
+
+  dialog {
+    background-color: $color-shades-darkGray;
+    color: $color-shades-white;
+    padding-bottom: 24px;
+    @include xs {
+      margin-top: 60px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    @include md {
+      margin-top: auto;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    @include xl {
+      margin-top: auto;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    p {
+      margin-right: 30px;
+    }
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: transparent;
+      cursor: pointer;
+      svg {
+        margin: 8px;
+        margin-top: 14px;
+      }
+    }
+  }
+}
+
+dialog:div {
+  width: 90%;
 }
