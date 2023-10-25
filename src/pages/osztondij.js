@@ -89,6 +89,30 @@ export default function Osztondij() {
             készítünk fel az astanga jóga egyéni gyakorlására. A harmadik
             hónapban pedig már a reggeli Mysore-órákon tudsz résztvenni.
           </p>
+        </div>
+
+        <StaticImage
+          className="container-fluid-right page-hero-image page-big-image mt-40px"
+          src="../images/oszt_content_img.jpg"
+          layout="fullWidth"
+          loading="eager"
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="Astanga jóga ösztöndíj"
+          placeholder="blurred"
+        />
+
+        <StaticImage
+          className="container-fluid page-hero-image page-mobil-image mt-40px"
+          src="../images/oszt_content_img_mobil.jpg"
+          layout="fullWidth"
+          loading="eager"
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="Astanga jóga Mysore"
+          placeholder="blurred"
+        />
+        <div className="row mt-20px">
           <h2 className="clr-brand-orange font-family-primary mb-20px">
             Jelentkezés az ösztöndíjra
           </h2>
