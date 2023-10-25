@@ -132,7 +132,8 @@ export default function Osztondij() {
                 <strong>
                   2023. december 17-én vasárnap, 16:00 órától
                 </strong>. <br />
-                Helyszín:{" "}
+                <div className="separator-horizontal mt-20px"></div>
+                <strong>Helyszín:</strong>{" "}
                 <CustomLink
                   link="/kapcsolat/"
                   title="Bandha Works Jógaiskola"
