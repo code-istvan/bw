@@ -3,6 +3,7 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
+import Button from "../components/Buttons/Button"
 import "../sass/pages/_szaznyolc.scss"
 
 export default function Szaznyolc() {
@@ -122,9 +123,27 @@ export default function Szaznyolc() {
                 classNames="body link-decoration-remove schedule-teacher"
               />{" "}
               <br />
+              <div className="separator-horizontal mt-20px"></div>A résztvevők
+              száma sajnos korlátozott. Összesen 23-an tudnak részt venni az
+              eseményen, 15-en a nagyteremben, 8-an a kisteremben. Érkezz
+              minimum 15 perccel kezdés előtt.
               <div className="separator-horizontal mt-20px"></div>
-              Az eseményen 23-an tudnak részt venni, 15-en a nagyteremben, 8-an
-              a kisteremben. Érkezz minimum 15 perccel kezdés előtt.
+              <p className="mb-20px">
+                A programra a részvételi díj kiegyenlítésével tudsz jelentkezni.
+              </p>
+              <Button
+                type="button"
+                buttonStyle="btn--primary--solid"
+                onClick={() => {
+                  window.open(
+                    "https://shop.bandha.works/products/ujevi-108-napudvozlet?_pos=1&_psq=108&_ss=e&_v=1.0",
+                    "_blank",
+                    "noopener,noreferrer"
+                  )
+                }}
+              >
+                Jelentkezem
+              </Button>
             </p>
           </div>
         </div>
