@@ -3,6 +3,7 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import EventsTypeOfRoll from "../components/Events/EventsTypeOfRoll"
+import EventsFeaturedRoll from "../components/Events/EventsFeaturedRoll"
 
 export default function Programok() {
   return (
@@ -36,13 +37,21 @@ export default function Programok() {
         <h1 className="mb-20px">Tradicionális astanga jóga tanfolyamok</h1>
         <EventsTypeOfRoll typeOfEvents="Tanfolyam" />
       </div>
-      <div className="row mt-40px mb-40px">
+      {/* <div className="row mt-40px mb-40px">
         <h1 className="mb-20px">Astanga konferencia</h1>
         <EventsTypeOfRoll typeOfEvents="Konferencia" />
       </div>
       <div className="row mt-40px mb-40px">
         <h1 className="mb-20px">Tábor</h1>
         <EventsTypeOfRoll typeOfEvents="Tábor" />
+      </div> */}
+      <div className="row mt-40px mb-40px">
+        <h1 className="mb-20px">Egyéb eseményeink</h1>
+        <EventsFeaturedRoll
+          maxEventsToShow={6}
+          onlyFeatured={false}
+          excludeTypes={["Tanfolyam"]}
+        />
       </div>
     </Layout>
   )
