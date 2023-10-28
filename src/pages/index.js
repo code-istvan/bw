@@ -5,9 +5,10 @@ import Hero from "../components/Hero"
 import Icons from "../components/Icons/Icons"
 import SectionRolunk from "../components/Sections/SectionRolunk"
 import SectionParampara from "../components/Sections/SectionParampara"
+import SectionMysoreProgram from "../components/Sections/SectionMysoreProgram"
 import SectionEvents from "../components/Sections/SectionEvents"
 import SectionOsztondij from "../components/Sections/SectionOsztondij"
-import SectionMysoreProgram from "../components/Sections/SectionMysoreProgram"
+import SectionSocialProofs from "../components/Sections/SectionSocialProofs"
 import "../sass/pages/_index.scss"
 
 const IndexPage = () => (
@@ -24,7 +25,7 @@ const IndexPage = () => (
       <SectionMysoreProgram />
       <SectionEvents />
       <SectionOsztondij />
-      <div className="row"></div>
+      <SectionSocialProofs />
     </Layout>
   </>
 )

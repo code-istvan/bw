@@ -5,7 +5,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import SocialProofs from "../data/socialProofs.json"
 import { CustomLink } from "../components/CustomLink"
 import SocialProofCard from "../components/Cards/SocialProofCard"
-
 import Slider from "react-slick"
 import "../sass/pages/_osztondij.scss"
 
@@ -90,7 +89,6 @@ export default function Osztondij() {
             hónapban pedig már a reggeli Mysore-órákon tudsz résztvenni.
           </p>
         </div>
-
         <StaticImage
           className="container-fluid-right page-hero-image page-big-image mt-40px"
           src="../images/oszt_content_img.jpg"
@@ -101,7 +99,6 @@ export default function Osztondij() {
           alt="Astanga jóga ösztöndíj"
           placeholder="blurred"
         />
-
         <StaticImage
           className="container-fluid page-hero-image page-mobil-image mt-40px"
           src="../images/oszt_content_img_mobil.jpg"
