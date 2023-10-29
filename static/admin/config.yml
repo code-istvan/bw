@@ -118,13 +118,24 @@ collections:
           search_fields: ["class", "signup"],
         }
       - {
-          label: Description1,
-          name: description1,
+          label: Class1 English,
+          name: class1English,
+          widget: relation,
+          collection: "classes",
+          value_field: "class",
+          display_fields: ["class"],
+          search_fields: ["class", "signup"],
+          required: false,
+        }
+      - {
+          label: Description1 English,
+          name: description1English,
           widget: relation,
           collection: "classes",
           value_field: "shortdescription",
           display_fields: ["class"],
           search_fields: ["signup"],
+          required: false,
         }
       - {
           label: Signup1,
@@ -176,8 +187,28 @@ collections:
           default: "null",
         }
       - {
+          label: Class2 English,
+          name: class2English,
+          widget: relation,
+          collection: "classes",
+          value_field: "class",
+          display_fields: ["class"],
+          search_fields: ["class", "signup"],
+          default: "null",
+        }
+      - {
           label: Description2,
           name: description2,
+          widget: relation,
+          collection: "classes",
+          value_field: "shortdescription",
+          display_fields: ["class"],
+          search_fields: ["signup"],
+          default: "null",
+        }
+      - {
+          label: Description2 English,
+          name: description2English,
           widget: relation,
           collection: "classes",
           value_field: "shortdescription",
@@ -236,8 +267,28 @@ collections:
           default: "null",
         }
       - {
+          label: Class3 English,
+          name: class3English,
+          widget: relation,
+          collection: "classes",
+          value_field: "class",
+          display_fields: ["class"],
+          search_fields: ["class", "signup"],
+          default: "null",
+        }
+      - {
           label: Description3,
           name: description3,
+          widget: relation,
+          collection: "classes",
+          value_field: "shortdescription",
+          display_fields: ["class"],
+          search_fields: ["signup"],
+          default: "null",
+        }
+      - {
+          label: Description3 English,
+          name: description3English,
           widget: relation,
           collection: "classes",
           value_field: "shortdescription",
@@ -296,8 +347,28 @@ collections:
           default: "null",
         }
       - {
+          label: Class4 English,
+          name: class4English,
+          widget: relation,
+          collection: "classes",
+          value_field: "class",
+          display_fields: ["class"],
+          search_fields: ["class", "signup"],
+          default: "null",
+        }
+      - {
           label: Description4,
           name: description4,
+          widget: relation,
+          collection: "classes",
+          value_field: "shortdescription",
+          display_fields: ["class"],
+          search_fields: ["signup"],
+          default: "null",
+        }
+      - {
+          label: Description4 English,
+          name: description4English,
           widget: relation,
           collection: "classes",
           value_field: "shortdescription",
