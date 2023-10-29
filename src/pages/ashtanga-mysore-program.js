@@ -17,65 +17,65 @@ export default function Mysoreprogram() {
   const mysoreElements = [
     {
       icon: <Icons.Mysore color="orange" />,
-      title: "MYSORE GYAKORLÁS",
-      description: "heti 5x",
+      title: "MYSORE PRACTICE",
+      description: "5 times a week",
     },
     {
       icon: <Icons.LedClass color="orange" />,
-      title: "VEZETETT ÓRA",
-      description: "heti 1x",
+      title: "LED CLASS",
+      description: "once a week",
     },
     {
       icon: <Icons.Restday color="orange" />,
-      title: "KONFERENCIA",
-      description: "havi 1x",
+      title: "CONFERENCE",
+      description: "once a month",
     },
     {
       icon: <Icons.MoonDays color="orange" />,
-      title: "PIHENŐNAP",
-      description: "szombat és a holdnapok",
+      title: "REST DAY",
+      description: "Saturdays and moon days",
     },
     {
       icon: <Icons.Conference color="orange" />,
-      title: "ASTANGÁS KÖZÖSSÉG",
+      title: "ASHTANGA COMMUNITY",
       description: "24/7",
     },
   ]
 
   const mysoreSpecialities = [
     {
-      title: "Személyes figyelem",
+      title: "Personal Attention",
       description:
-        "Mivel mindenki a saját tempójában gyakorol, az oktatónak van ideje minden egyes gyakorlóval egyénileg foglalkozni. Ez lehetővé teszi, hogy a gyakorlók specifikus, személyre szabott útmutatást kapjanak.",
+        "Since everyone practices at their own pace, the instructor has time to work individually with each practitioner. This allows the practitioners to receive specific, personalized guidance.",
     },
     {
-      title: "Egyéni fejlődés",
+      title: "Individual Progress",
       description:
-        'A gyakorlás során a gyakorlók az oktató aktív részvételével, a befektetett energia, lelkesedés és a "hozott csomagok" függvényében fejlődnek. Fokozatosan építik fel a gyakorlásukat. Lesznek olyan időszakok, amikor gyorsabban fejlődnek és lehet, hogy lesz olyan, amikor lassabban.',
+        "During practice, practitioners develop through active participation of the instructor, based on the invested energy, enthusiasm, and the 'baggage' they bring along. They gradually build up their practice. There will be periods of faster progress and there might be times when progress is slower.",
     },
     {
-      title: "Önállóság",
+      title: "Independence",
       description:
-        "A Mysore-stílus lehetővé teszi a gyakorlóknak, hogy megtanulják önállóan gyakorolni a sorozatot. Ez fontos készség, amely segíthet a gyakorlóknak abban, hogy hosszú távon fenntartsák a jóga gyakorlását (ha pl. nincs a közelükben a tanáruk).",
+        "The Mysore style enables practitioners to learn to practice the sequence independently. This is an important skill that can help practitioners maintain their yoga practice in the long run, even if their teacher is not nearby.",
     },
     {
-      title: "Meditáció",
+      title: "Meditation",
       description:
-        "Az önálló gyakorlás, a légzés és a mozdulatok pontos összehangolása komoly koncentrációt igényel a gyakorlóktól. A hosszan fenntartott, megszakítás nélküli koncentráció meditatív állapothoz vezethet.",
+        "Independent practice, precise synchronization of breath and movement require serious concentration from the practitioners. Sustained, uninterrupted concentration can lead to a meditative state.",
     },
   ]
 
   const hasznosOlvasmanyok = [
     {
       link: "/blog/5-dolog-amit-az-uj-gyakorloknak-erdemes-megtanulnia/",
-      title: "5 dolog amit az új gyakorlóknak érdemes megtanulnia",
+      title: "5 Things That New Practitioners Should Learn",
       classNames:
         "body link-decoration-remove clr-brand-orange schedule-teacher",
     },
     {
       link: "/blog/sharath-jois-arrol-hogy-miben-nyujt-tobbet-egy-helyi-shala-mint-egy-hagyomanyos-edzes/",
       title:
-        "Sharath Jois arról, hogy miben nyújt többet egy helyi Shala mint egy hagyományos edzés",
+        "Sharath Jois on How a Local Shala Offers More Than a Traditional Gym",
       classNames:
         "body link-decoration-remove clr-brand-orange schedule-teacher",
     },
@@ -85,7 +85,7 @@ export default function Mysoreprogram() {
     <Layout>
       <div className="page-hero-container">
         <div className="row">
-          <h1 className="page-hero-title">MYSORE-PROGRAM</h1>
+          <h1 className="page-hero-title">ASHTANGA MYSORE-PROGRAM</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/mysore_desktop.jpg"
@@ -112,40 +112,40 @@ export default function Mysoreprogram() {
         <div className="mt-40px mb-20px">
           <h3>
             <strong>
-              A Mysore-stílusú astanga jóga gyakorlás hatékony és személyre
-              szabott módszer, amely fizikai erőt, rugalmasságot és belső
-              nyugalmat hoz. Az általa kínált folyamatos fejlődés és az
-              oktató-tanítvány kapcsolat lehetőséget ad a mélyebb megértésre és
-              a személyes fejlődésre.
+              The Mysore style of ashtanga yoga practice is an effective and
+              personalized method that brings physical strength, flexibility,
+              and inner calm. The continuous progress it offers, along with the
+              teacher-student relationship, provides an opportunity for deeper
+              understanding and personal development.
             </strong>
           </h3>
         </div>
         <div className="row">
           <p>
-            Az{" "}
+            The{" "}
             <CustomLink
               link="/vinyasza-jogairanyzatok/"
-              title="astanga jóga"
+              title="ashtanga yoga"
               classNames="body link-decoration-remove schedule-teacher"
             />{" "}
-            egy nyolcágú jógarendszer, amelynek célja a test, az elme és a lélek
-            egységének elérése. Az út hosszú és rögös lehet, amit az ászanák
-            gyakorlásával kell kezdeni. Ezen speciális testhelyzetek
-            gyakorlásával elérhetjük, hogy testünk erős és rugalmas legyen, ami
-            alapul szolgál majd az astanga jógarendszerében történő
-            továbblépésre. Maga az ászanagyakorlás igen kicsi része a teljes
-            rendszernek, viszont nagyon fontos, kihagyhatatlan a „modern”
-            nyugati ember számára, aki az életmódjából fakadóan igencsak
-            elhanyagolja a fizikai testét.
+            is an eight-limbed yoga system aimed at achieving the unity of body,
+            mind, and spirit. The journey can be long and arduous, and it should
+            begin with the practice of asanas. By practicing these specific
+            bodily postures, we can achieve a strong and flexible body, which
+            will serve as the foundation for progressing in the ashtanga yoga
+            system. The asana practice itself is a very small part of the entire
+            system, but it is very important and indispensable for the "modern"
+            Western person, who tends to neglect their physical body due to
+            their lifestyle.
           </p>
         </div>
         <br />
         <div className="row">
           <p>
-            Az astanga vinyásza jóga sajátossága, hogy az ászanagyakorlás által,
-            nemcsak a fizikai test gyógyításán dolgozunk, hanem számos magasabb
-            szintű ágat is előkészítünk, mint például a pránajáma, koncentráció
-            vagy a meditációs tudatállapotot.
+            A distinctive feature of ashtanga vinyasa yoga is that through the
+            practice of asanas, we not only work on healing the physical body,
+            but also prepare numerous higher-level branches, such as pranayama,
+            concentration, or the meditative state of consciousness.
           </p>
         </div>
         <br />
@@ -190,75 +190,75 @@ export default function Mysoreprogram() {
         <br />
         <div className="row">
           <p>
-            Az astanga vinyásza jógában az ászanákat tradicionálisan Mysore-
-            (ejtsd: májszor) stílusban oktatják. A módszer ötvözi a csoportos
-            vezetett órák és az egyéni gyakorlás előnyeit. Lényege, hogy a
-            teremben az összes gyakorló a saját légzésének ritmusára önállóan
-            végzi a sorozatot, ezáltal az oktató mindenkinek egyénre szabott
-            igazításokat, utasításokat tud adni, anélkül hogy ez megzavarná az
-            óra dinamikáját. Így az sem probléma, ha valaki rövidebben gyakorol
-            (pl. kezdő gyakorlók), vagy ha valaki hosszabb időt tölt a teremben
-            (pl. haladó gyakorlók) ugyanazon az órán.
+            In ashtanga vinyasa yoga, asanas are traditionally taught in the
+            Mysore style (pronounced 'my-sore'). This method combines the
+            advantages of group-led classes and individual practice. The essence
+            of it is that all practitioners in the room perform the sequence
+            independently, according to the rhythm of their own breath, allowing
+            the instructor to give personalized adjustments and instructions to
+            each individual without disrupting the dynamics of the class. This
+            means it is not a problem if someone practices for a shorter time
+            (e.g., beginners) or spends a longer time in the room (e.g.,
+            advanced practitioners) during the same class.
           </p>
         </div>
         <br />
         <div className="island-section text-align-center">
           <h3 className="mb-20px clr-brand-orange font-family-primary">
-            <strong>TUDTAD?</strong>
+            <strong>Did you know?</strong>
           </h3>
           <p>
-            A Mysore-stílusú astanga gyakorlás a dél-indiai Mysore városáról
-            kapta a nevét.{" "}
+            The Mysore style of ashtanga practice is named after the city of
+            Mysore in South India.{" "}
             <CustomLink
               link="/blog/astanga-ikonok-sri-k-pattabhi-jois-1-resz/"
               title="Pattabhi Jois"
               classNames="body link-decoration-remove schedule-teacher"
             />{" "}
-            itt fejlesztette ki a modernkori astanga jóga rendszerét az 1948-ban
-            alapított Ashtanga Yoga Research Institute-ban (Astanga Jóga Kutató
-            Intézet).
+            developed the modern system of ashtanga yoga here at the Ashtanga
+            Yoga Research Institute, founded in 1948.
           </p>
         </div>
         <div className="row">
           <p>
-            A gyakorlás időpontja is meghatározott, a Mysore-órákat
-            tradicionálisan reggel tartják. Ennek az az oka, hogy a
-            jógagyakorláshoz az úgynevezett <i>Brahma muhurta</i> napszak a
-            legmegfelelőbb, azaz a napfelkelte előtti másfél óra, vagy ehhez
-            minél közelebbi időpont. Ekkor a levegő friss, a környezet csendes,
-            frissen, kipihenten ébredve még nem nyomasztanak bennünket a
-            benyomások, amelyek a nehéz munkanap során értek minket. Az elme
-            könnyebben tud fókuszálni és kevésbé kalandozik el. A test tiszta, a
-            gyomor üres, tehát a körülmények ideálisak a gyakorláshoz. Kezdetben
-            a test kevésbé hajlékonynak tűnhet a reggeli órákban, de gyorsan
-            alkalmazkodik az új rutinhoz.
+            The timing of the practice is also specific; Mysore classes are
+            traditionally held in the morning. This is because the time of day
+            known as <i>Brahma muhurta</i>, which is the one and a half hours
+            before sunrise, or as close to it as possible, is considered most
+            suitable for yoga practice. At this time, the air is fresh, the
+            environment is quiet, and after waking up refreshed, we are not yet
+            burdened by the impressions of a hard day’s work. The mind is more
+            easily able to focus and is less prone to wander. The body is clean,
+            and the stomach is empty, creating ideal conditions for practice.
+            Initially, the body may seem less flexible in the early hours, but
+            it quickly adapts to the new routine.
           </p>
         </div>
         <br />
         <div className="row">
           <p>
-            Ehhez a hagyományos mysore-i oktatási módszerhez az is
-            hozzátartozik, hogy mindenki rendszeresen gyakorol, a cél a heti
-            hatszori gyakorlás; de a legtöbb gyakorló ezt csak fokozatosan éri
-            el, vagy kevesebbszer gyakorol. A szombatok, illetve a teli- és az
-            újhold, azaz a{" "}
+            This traditional Mysore teaching method also entails that everyone
+            practices regularly, aiming for six sessions per week; however, most
+            practitioners only gradually achieve this, or may practice less
+            frequently. Saturdays, as well as the full and new moon days,
+            referred to as{" "}
             <CustomLink
               link="/holdnapok/"
-              title="holdnapok"
+              title="moon days"
               classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
             />{" "}
-            pihenőnapok, valamint a hölgyeknél a menstruáció első három-öt
-            napja. Ez elsőre igen nagy kihívásnak tűnik, de természetesen a
-            jógában is a fokozatosság fontos eleme a zavartalan fejlődésnek. A
-            tanár figyeli a gyakorlók előrehaladását, és ha a tanítvány készen
-            áll, akkor újabb ászanákat kap, amelyeket hozzá kell fűznie a
-            többihez.
+            are rest days, as are the first three to five days of menstruation
+            for women. This might seem like a significant challenge at first,
+            but of course, gradual progression is a crucial component of
+            uninterrupted development in yoga. The teacher monitors the
+            students' progress, and when a student is ready, they are given new
+            asanas to add to their sequence.
           </p>
         </div>
         <br />
         <div className=" text-align-center mb-20px mt-20px">
           <h3 className="clr-brand-orange font-family-primary">
-            A Mysore-gyakorlás jellegzetességei
+            Characteristics of Mysore Practice
           </h3>
         </div>
         <div className="row gap-1">
@@ -277,14 +277,15 @@ export default function Mysoreprogram() {
         <div className="mysore-program--tradicio">
           <div className="island-section island-section--orange-border island-section--orange-border__width text-align-center mysore-program--blessing">
             <h3 className="mb-20px font-family-primary clr-brand-orange">
-              TRADÍCIÓ
+              TRADITION
             </h3>
             <div className="col-12-xs mb-20px">
               <Counter tag="h3" className="" />
             </div>
-            <p>Magyarország legrégebbi astanga Mysore-programja</p>
+            <p>Hungary's oldest ashtanga mysore program</p>
+
             <p>
-              <strong>Paramaguru Sharath Jois</strong> áldásával
+              <strong>With the Blessing of Paramaguru Sharath Jois</strong>
             </p>
             <div className="mysore-program--tradicio__image">
               <img src={Sj_blessing} alt="Sj_blessing" />
@@ -296,7 +297,7 @@ export default function Mysoreprogram() {
           <div className="framed-section-orange__inside">
             <div className="framed-section-orange-title text-align-center mb-20px">
               <h3 className="font-family-primary">
-                A Mysore-program felépítése, elemei
+                The Structure and Elements of the Mysore Program
               </h3>
             </div>
             <div className="framed-section-orange__body">
@@ -318,15 +319,15 @@ export default function Mysoreprogram() {
         <br />
         <div className="row">
           <p>
-            Látszik, hogy szigorúak a feltételek, nagy elkötelezettséget kíván
-            ez az irányzat. Azonban az astanga vinyásza jóga ezen keretek között
-            képes kifejteni teljesen az áldásos hatását. Amellett, hogy a
-            gyakorlás fenntartásához automatikusan egészségesebb életmódra
-            váltanak a gyakorlók (könnyű étkezések, korai fekvés és kelés,
-            rendszeres életritmus), az elme is fokozatosan átalakul. A
-            Mysore-gyakorlás szinte rákényszerít minket, hogy őszinték legyünk
-            önmagunkkal, szembesít a hibáinkkal, amelyek akadályt képeznek a
-            spirituális úton, és eszközként szolgál a leküzdésükhöz.
+            It is evident that the conditions are strict and this approach
+            demands a high level of commitment. However, within these
+            frameworks, Astanga Vinyasa Yoga is able to fully unfold its
+            beneficial effects. In addition to automatically adopting a
+            healthier lifestyle to maintain the practice (light meals, early to
+            bed and early to rise, regular life rhythm), the mind also gradually
+            transforms. The Mysore practice almost forces us to be honest with
+            ourselves, confronts us with our flaws that pose obstacles on the
+            spiritual path, and serves as a tool to overcome them.
           </p>
         </div>
         <br />
@@ -334,7 +335,7 @@ export default function Mysoreprogram() {
         <div className="island-section mysore-program-lead container-fluid">
           <h3 className="mb-20px font-family-primary clr-brand-orange">
             {" "}
-            A Mysore-program vezetője
+            The Leader of the Mysore Program
           </h3>
           <div className="mysore-program-avatar">
             <div className="mysore-program-avatar__image-container">
@@ -349,7 +350,7 @@ export default function Mysoreprogram() {
                   loading="eager"
                   quality={95}
                   formats={["AUTO", "WEBP", "AVIF"]}
-                  alt="Szalai István astanga jóga oktató"
+                  alt="Szalai István ashtanga yoga teacher"
                   placeholder="blurred"
                 />{" "}
               </Link>
@@ -359,37 +360,36 @@ export default function Mysoreprogram() {
                 {" "}
                 <CustomLink
                   link="/szalai-istvan/"
-                  title="Szalai István"
+                  title="István Szalai"
                   classNames="header header--3 link-decoration-remove schedule-teacher"
                 />{" "}
               </strong>
               <br />
               <small>KPJAYI Authorized Level 1</small> <br />
-              <small>astanga jóga oktató</small>
+              <small>ashtanga yoga teacher</small>
             </p>
           </div>
         </div>
         <div className="row mb-20px">
           <p>
-            Amennyiben szeretnél csatlakozni, ezt a{" "}
+            If you would like to join, you can do so through the
             <CustomLink
               link="/mysore-program-jelentkezes/"
-              title="jelentkezés a
-                  Mysore-programba"
+              title=" application to the Mysore program"
               classNames="header header--3 link-decoration-remove schedule-teacher"
             />{" "}
-            felületen keresztül teheted meg. Kérlek, mindenképp várd meg
-            visszajelzésünket, mielőtt jössz az első Mysore-órára, amelyhez
-            hasznos információkat találhatsz a következő menüpontok alatt:{" "}
+            interface. Please make sure to wait for our feedback before coming
+            to your first Mysore class, useful information for which can be
+            found under the following menu items:
             <CustomLink
               link="/elso-alkalom/"
-              title="első alkalom"
+              title=" first time"
               classNames="header header--3 link-decoration-remove schedule-teacher"
             />{" "}
-            valamint{" "}
+            as well as
             <CustomLink
               link="/hazirend/"
-              title="házirend"
+              title=" house rules"
               classNames="header header--3 link-decoration-remove schedule-teacher"
             />
             .
@@ -402,10 +402,10 @@ export default function Mysoreprogram() {
                 type="button"
                 buttonStyle="btn--primary--solid"
                 onClick={() => {
-                  navigate("/mysore-program-jelentkezes")
+                  navigate("/mysore-programme-application")
                 }}
               >
-                Jelentkezés a Mysore-programba
+                Application to the Mysore Program
               </Button>
             </div>
             <div className="col mysore-program--button-holder">
@@ -414,17 +414,17 @@ export default function Mysoreprogram() {
                 type="button"
                 buttonStyle="btn--primary--outline"
                 onClick={() => {
-                  navigate("/arak")
+                  navigate("/prices")
                 }}
               >
-                Mysore-program árak
+                Mysore program prices
               </Button>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="mb-20px mt-20px">
-            <h3>Gyakran ismételt kérdések</h3>
+            <h3>Frequently Asked Questions</h3>
           </div>{" "}
           <div className="row">
             {mysoreFaq &&
@@ -435,7 +435,7 @@ export default function Mysoreprogram() {
         </div>
         <br />
         <div className="row unordered-list-style">
-          <h3>Hasznos olvasmányok a Mysore-gyakorlásról:</h3>
+          <h3>Useful readings about Mysore practice:</h3>
           <ul>
             {hasznosOlvasmanyok.map((link, index) => (
               <li key={index}>

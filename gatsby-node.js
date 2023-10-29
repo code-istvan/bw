@@ -30,6 +30,7 @@ exports.createPages = async ({ actions, graphql }) => {
   const tagsTemplate = path.resolve("./src/components/Blog/tags.js")
   // const tagsShopify = path.resolve("./src/components/Shopify/tagsShop.js")
   const scheduleTemplate = path.resolve("./src/components/orarend.js")
+  const scheduleTemplateEnglish = path.resolve("./src/components/schedule.js")
 
   // shopify_commen-out
   // const productShopify = await graphql(`
@@ -100,6 +101,13 @@ exports.createPages = async ({ actions, graphql }) => {
       createPage({
         path: "/orarend",
         component: scheduleTemplate,
+      })
+    )
+
+    schedule.forEach(item =>
+      createPage({
+        path: "/schedule",
+        component: scheduleTemplateEnglish,
       })
     )
 

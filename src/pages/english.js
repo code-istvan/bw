@@ -32,9 +32,53 @@ export default function English() {
         <div className="row mb-20px">
           <div className="english-menu">
             <div className="english-menu-items">
-              {" "}
               <div className="english-page-index">
                 <span className="english-page-index---number">1</span>
+              </div>
+              <CustomLink
+                link="/ashtanga-mysore-program"
+                classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
+                title="Ashtanga Mysore Program"
+              />{" "}
+            </div>
+
+            <div className="english-menu-items">
+              <div className="english-page-index">
+                <span className="english-page-index---number">2</span>
+              </div>
+              <CustomLink
+                link="/mysore-programme-application"
+                classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
+                title="Mysore Program Application"
+              />{" "}
+            </div>
+
+            <div className="english-menu-items">
+              <div className="english-page-index">
+                <span className="english-page-index---number">3</span>
+              </div>
+              <CustomLink
+                link="/schedule"
+                classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
+                title="Schedule"
+              />{" "}
+            </div>
+
+            <div className="english-menu-items">
+              <div className="english-page-index">
+                <span className="english-page-index---number">4</span>
+              </div>
+              <CustomLink
+                link="/prices"
+                classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
+                title="Prices"
+              />{" "}
+            </div>
+
+            <div className="english-menu-items">
+              {" "}
+              <div className="english-page-index">
+                <span className="english-page-index---number">5</span>
               </div>
               <CustomLink
                 link="/contact"
@@ -45,33 +89,13 @@ export default function English() {
 
             <div className="english-menu-items">
               <div className="english-page-index">
-                <span className="english-page-index---number">2</span>
+                <span className="english-page-index---number">6</span>
               </div>
               <CustomLink
                 link="/contact"
                 classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
                 title="Send us a message"
               />
-            </div>
-            <div className="english-menu-items">
-              <div className="english-page-index">
-                <span className="english-page-index---number">3</span>
-              </div>
-              <CustomLink
-                link="/mysore-programme-application"
-                classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
-                title="Mysore Program Application"
-              />{" "}
-            </div>
-            <div className="english-menu-items">
-              <div className="english-page-index">
-                <span className="english-page-index---number">4</span>
-              </div>
-              <CustomLink
-                link="/prices"
-                classNames="heading heading--3 clr-brand-orange schedule-teacher english-menu-item"
-                title="Prices"
-              />{" "}
             </div>
           </div>
         </div>
