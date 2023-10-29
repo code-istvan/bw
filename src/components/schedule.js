@@ -28,7 +28,7 @@ const Orarend = ({ data }) => {
     <Layout>
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
-          <h1 className="page-hero-title">SCHEDULE</h1>
+          <h1 className="page-hero-title">SCHEDULE - UNDER CONSTRUCTION</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/orarend_desktop.jpg"
