@@ -128,6 +128,16 @@ collections:
           required: false,
         }
       - {
+          label: Description1,
+          name: description1,
+          widget: relation,
+          collection: "classes",
+          value_field: "shortdescription",
+          display_fields: ["class"],
+          search_fields: ["signup"],
+          required: false,
+        }
+      - {
           label: Description1 English,
           name: description1English,
           widget: relation,
