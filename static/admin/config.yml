@@ -423,7 +423,12 @@ collections:
     fields:
       - { label: Classid, name: classid, widget: string }
       - { label: Class, name: class, widget: string }
-      - { label: Class English, name: class, widget: string, required: false }
+      - {
+          label: Class English,
+          name: classEnglish,
+          widget: string,
+          required: false,
+        }
       - {
           label: Shortdescription,
           name: shortdescription,
