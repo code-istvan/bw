@@ -21,6 +21,7 @@ const SocialProofCard = ({ name, intro, text }) => {
           </span>
           {!shouldShowText && (
             <span className="social-proof-card--modal-box">
+              <div className="social-proof-card--overlay"></div>
               <dialog ref={dialogRef} className="social-proof-card--modal-open">
                 <div>
                   <div className="social-proof-card--modal-header">
