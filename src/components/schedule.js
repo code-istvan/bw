@@ -87,13 +87,13 @@ const Orarend = ({ data }) => {
 
             if (new Date(date).getTime() >= new Date().setHours(0, 0, 0, 0)) {
               let daysArray = [
-                "vasárnap",
-                "hétfő",
-                "kedd",
-                "szerda",
-                "csütörtök",
-                "péntek",
-                "szombat",
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
               ]
               let day = new Date(date).getDay()
               let dayName = daysArray[day].toUpperCase()

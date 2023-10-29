@@ -424,20 +424,8 @@ collections:
       - { label: Classid, name: classid, widget: string }
       - { label: Class, name: class, widget: string }
       - {
-          label: Class English,
-          name: classEnglish,
-          widget: string,
-          required: false,
-        }
-      - {
           label: Shortdescription,
           name: shortdescription,
-          widget: "markdown",
-          required: false,
-        }
-      - {
-          label: Shortdescription English,
-          name: shortdescriptionEnglish,
           widget: "markdown",
           required: false,
         }
