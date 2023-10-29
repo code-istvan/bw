@@ -295,6 +295,7 @@ collections:
           display_fields: ["class"],
           search_fields: ["signup"],
           default: "null",
+          required: false,
         }
       - {
           label: Description3 English,
@@ -375,6 +376,7 @@ collections:
           display_fields: ["class"],
           search_fields: ["signup"],
           default: "null",
+          required: false,
         }
       - {
           label: Description4 English,
