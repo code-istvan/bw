@@ -1,6 +1,8 @@
 {
   "classid": "mysore",
   "class": "Mysore-astanga",
-  "shortdescription": "<p><em>Scroll down for the English version!</em></p><br>\n<p>\n  A Mysore-programban való részvételhez regisztráció szükséges. Bővebben a <a href=\"/astanga-mysore-program/\">Mysore-programról</a>. \n</p><br><p>\n<strong>English</strong>\n</p>\n<p>Registration is required to participate in the Mysore programme. Read more about the  <a href=\"/mysore-programme-application/\">Mysore programme application</a>. If you live abroad and are only in Budapest for a short time and would like to come and practice, please send us a message.</p>",
-  "signup": "https://shop.bandha.works/collections/astanga-mysore-program"
+  "shortdescription": "<p>\n  A Mysore-programban való részvételhez regisztráció szükséges. Bővebben a <a href=\"/astanga-mysore-program/\">Mysore-programról</a>. \n</p>\n",
+  "signup": "https://shop.bandha.works/collections/astanga-mysore-program",
+  "classEnglish": "Ashtanga Mysore Style",
+  "shortdescriptionEnglish": "<p>Registration is required to participate in the Mysore programme. Read more about the  <a href=\"/mysore-programme-application/\">Mysore programme application</a>. If you live abroad and are only in Budapest for a short time and would like to come and practice, please send us a message.</p>"
 }
