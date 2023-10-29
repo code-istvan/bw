@@ -28,7 +28,7 @@ const Orarend = ({ data }) => {
     <Layout>
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
-          <h1 className="page-hero-title">ÓRAREND</h1>
+          <h1 className="page-hero-title">SCHEDULE</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/orarend_desktop.jpg"
@@ -148,7 +148,7 @@ const Orarend = ({ data }) => {
                           <div className="schedule-details">
                             <Accordion
                               content={description1}
-                              text="Info"
+                              text="Details"
                               className="clr-shades-white span"
                             />
                           </div>
@@ -184,7 +184,7 @@ const Orarend = ({ data }) => {
                               <div className="schedule-details">
                                 <Accordion
                                   content={description2}
-                                  text="Info"
+                                  text="Details"
                                   className="clr-shades-white span"
                                 />
                               </div>
@@ -221,7 +221,7 @@ const Orarend = ({ data }) => {
                             <div className="schedule-details">
                               <Accordion
                                 content={description3}
-                                text="Info"
+                                text="Details"
                                 className="clr-shades-white span"
                               />
                             </div>
@@ -253,7 +253,7 @@ const Orarend = ({ data }) => {
                             <div className="schedule-details">
                               <Accordion
                                 content={description4}
-                                text="Info"
+                                text="Details"
                                 className="clr-shades-white span"
                               />
                             </div>

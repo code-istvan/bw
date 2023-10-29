@@ -148,7 +148,7 @@ const Orarend = ({ data }) => {
                           <div className="schedule-details">
                             <Accordion
                               content={description1}
-                              text="Info"
+                              text="Részletek"
                               className="clr-shades-white span"
                             />
                           </div>
@@ -184,7 +184,7 @@ const Orarend = ({ data }) => {
                               <div className="schedule-details">
                                 <Accordion
                                   content={description2}
-                                  text="Info"
+                                  text="Részletek"
                                   className="clr-shades-white span"
                                 />
                               </div>
@@ -221,7 +221,7 @@ const Orarend = ({ data }) => {
                             <div className="schedule-details">
                               <Accordion
                                 content={description3}
-                                text="Info"
+                                text="Részletek"
                                 className="clr-shades-white span"
                               />
                             </div>
@@ -253,7 +253,7 @@ const Orarend = ({ data }) => {
                             <div className="schedule-details">
                               <Accordion
                                 content={description4}
-                                text="Info"
+                                text="Részletek"
                                 className="clr-shades-white span"
                               />
                             </div>
