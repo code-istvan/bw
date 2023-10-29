@@ -42,7 +42,7 @@ export default function Rolunk() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="bandha Wokrs jógaiskola Három mérnök alapította"
             placeholder="blurred"
           />
           <StaticImage
@@ -52,7 +52,7 @@ export default function Rolunk() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="bandha Wokrs jógaiskola Három mérnök alapította"
             placeholder="blurred"
           />
         </div>
@@ -94,10 +94,18 @@ export default function Rolunk() {
               </Button>
             </div>
           </div>
+          <h3 className="clr-brand-orange font-family-primary mt-20px mb-20px">
+            Tradicionális astanga jóga
+          </h3>
           <p className="mb-20px">
-            A jógaiskolában tradicionális astanga vinyásza jógát és vinyásza
-            krama jógát oktatunk. A Bandha Works specialitása a Magyarországon
-            egyedülálló múltú reggeli{" "}
+            A jógaiskolában tradicionális{" "}
+            <CustomLink
+              link="/vinyasza-jogairanyzatok"
+              title="astanga vinyásza jógát"
+              classNames="link-decoration-remove"
+            />{" "}
+            és vinyásza krama jógát oktatunk. A Bandha Works specialitása a
+            Magyarországon egyedülálló múltú reggeli{" "}
             <CustomLink
               link="/astanga-mysore-program"
               title="astanga Mysore-program,"

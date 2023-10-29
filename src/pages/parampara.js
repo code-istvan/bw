@@ -16,7 +16,7 @@ export default function Parampara() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Astanga jóga Parampara"
             placeholder="blurred"
           />
           <StaticImage
@@ -26,7 +26,7 @@ export default function Parampara() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Astanga jóga Parampara"
             placeholder="blurred"
           />
         </div>
@@ -49,6 +49,9 @@ export default function Parampara() {
           legyen. A parampara biztosítja azt, hogy a jóga tanítása hatékony,
           igaz és teljes legyen.
         </p>
+        <h3 className="clr-brand-orange font-family-primary mt-20px">
+          A tanítvány útja
+        </h3>
         <p className="mt-20px">
           A tudást csak azt követően lehet átadni, hogy a tanítvány már éveket
           töltött egy tapasztalt guruval, egy olyan tanárral, akinek a tanítvány
@@ -65,6 +68,9 @@ export default function Parampara() {
           tiszteletből fakad, és ennek a kapcsolatnak a kiműveléséhez
           elkerülhetetlenül idő kell.
         </p>
+        <h3 className="clr-brand-orange font-family-primary mt-20px">
+          A tanítvány és a tanár kapcsolata
+        </h3>
         <p className="mt-20px">
           A tanár kötelessége az, hogy pontosan a gurujától tanult módon tanítsa
           a jógát, jó szívvel és nemes szándékkal, jó célra törekedve. A
@@ -80,10 +86,13 @@ export default function Parampara() {
           anya, aki tanítványa minden egyes spirituális lépésénél jelen van és
           ügyel azokra.
         </p>
+        <h3 className="clr-brand-orange font-family-primary mt-20px">
+          A parampara hagyománya és jelentősége
+        </h3>
         <p className="mt-20px">
           A jóga tanítását számos ősi tanári tradíció őrzi, ugyanakkor manapság
           egyesek új tanítói láncolatokat próbálnak létrehozni és új utakat
-          részesítve előnyben gurujuk paramparaját elítélik vagy megváltozatják.
+          részesítve előnyben Gurujuk paramparaját elítélik vagy megváltozatják.
           Ezzel szemben átadni magunkat a paramparanak olyasvalami, mintha sok
           ezer éve tartó tanítások folyamába olvadnánk bele, egy olyan folyó
           áramlatába, amelyet ősrégi mesterek tartottak fenn, és amely egy
@@ -93,7 +102,7 @@ export default function Parampara() {
         </p>
         <p className="mt-20px">
           A Himalája csúcsaira sokan akarnak feljutni, de nem mindenki jár
-          sikerrel. Ugyanakkor bátorság és önátadás által, valamint a guru
+          sikerrel. Ugyanakkor bátorság és önátadás által, valamint a Guru
           kegyelméből, aki a tudás birtokosa és aki tanítványaiért
           fáradhatatlanul dolgozik, feljuthatunk a tudás csúcsaira.
         </p>
