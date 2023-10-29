@@ -56,14 +56,14 @@ const Orarend = ({ data }) => {
           {sortedEdges.map(({ node }) => {
             const {
               date,
-              class1,
-              class2,
-              class3,
-              class4,
-              description1,
-              description2,
-              description3,
-              description4,
+              class1English,
+              class2English,
+              class3English,
+              class4English,
+              description1English,
+              description2English,
+              description3English,
+              description4English,
               signup1,
               signup2,
               signup3,
@@ -132,7 +132,7 @@ const Orarend = ({ data }) => {
                           <p>{time1}</p>
                           <div className="schedule-class-second-line">
                             <div className="signup-line">
-                              <h3>{class1}</h3>
+                              <h3>{class1English}</h3>
                               <CustomLink
                                 link={signup1}
                                 classNames="body clr-brand-orange link-decoration-remove"
@@ -147,7 +147,7 @@ const Orarend = ({ data }) => {
                           </div>
                           <div className="schedule-details">
                             <Accordion
-                              content={description1}
+                              content={description1English}
                               text="Details"
                               className="clr-shades-white span"
                             />
@@ -155,10 +155,12 @@ const Orarend = ({ data }) => {
                         </div>
                       </div>
                     </div>
-                    {class2 !== "null" && (
+                    {class2English !== "null" && (
                       <div
                         className={
-                          class2 === "null" ? "hide-class" : "schedule-card"
+                          class2English === "null"
+                            ? "hide-class"
+                            : "schedule-card"
                         }
                       >
                         <div>
@@ -167,7 +169,7 @@ const Orarend = ({ data }) => {
                               <p>{time2}</p>
                               <div className="schedule-class-second-line">
                                 <div className="signup-line">
-                                  <h3>{class2}</h3>
+                                  <h3>{class2English}</h3>
                                   <CustomLink
                                     link={signup2}
                                     classNames="body clr-brand-orange link-decoration-remove"
@@ -183,7 +185,7 @@ const Orarend = ({ data }) => {
                               </div>
                               <div className="schedule-details">
                                 <Accordion
-                                  content={description2}
+                                  content={description2English}
                                   text="Details"
                                   className="clr-shades-white span"
                                 />
@@ -193,10 +195,12 @@ const Orarend = ({ data }) => {
                         </div>
                       </div>
                     )}
-                    {class3 !== "null" && (
+                    {class3English !== "null" && (
                       <div
                         className={
-                          class3 === "null" ? "hide-class" : "schedule-card"
+                          class3English === "null"
+                            ? "hide-class"
+                            : "schedule-card"
                         }
                       >
                         <div className="schedule-main-row">
@@ -204,7 +208,7 @@ const Orarend = ({ data }) => {
                             <p>{time3}</p>
                             <div className="schedule-class-second-line">
                               <div className="signup-line">
-                                <h3>{class3}</h3>
+                                <h3>{class3English}</h3>
                                 <CustomLink
                                   link={signup3}
                                   classNames="body clr-brand-orange link-decoration-remove"
@@ -220,7 +224,7 @@ const Orarend = ({ data }) => {
                             </div>
                             <div className="schedule-details">
                               <Accordion
-                                content={description3}
+                                content={description3English}
                                 text="Details"
                                 className="clr-shades-white span"
                               />
@@ -229,14 +233,14 @@ const Orarend = ({ data }) => {
                         </div>
                       </div>
                     )}
-                    {class4 !== "null" && (
+                    {class4English !== "null" && (
                       <div className="schedule-card">
                         <div className="schedule-main-row">
                           <div className="schedule-class">
                             <p>{time4}</p>
                             <div className="schedule-class-second-line">
                               <div className="signup-line">
-                                <h3>{class4}</h3>
+                                <h3>{class4English}</h3>
                                 <CustomLink
                                   link={signup4}
                                   classNames="body clr-brand-orange link-decoration-remove"
@@ -252,7 +256,7 @@ const Orarend = ({ data }) => {
                             </div>
                             <div className="schedule-details">
                               <Accordion
-                                content={description4}
+                                content={description4English}
                                 text="Details"
                                 className="clr-shades-white span"
                               />
