@@ -104,6 +104,8 @@ const Orarend = ({ data }) => {
                 })
                 .toUpperCase()
 
+              console.log("class1English", class1English)
+
               return (
                 <div className="schedule-wrapper">
                   <div className="bg-shades-darkGray container-fluid">
@@ -136,7 +138,7 @@ const Orarend = ({ data }) => {
                               <CustomLink
                                 link={signup1}
                                 classNames="body clr-brand-orange link-decoration-remove"
-                                title="Részvétel"
+                                title="Tickets"
                               />
                             </div>
                             <CustomLink
@@ -173,7 +175,7 @@ const Orarend = ({ data }) => {
                                   <CustomLink
                                     link={signup2}
                                     classNames="body clr-brand-orange link-decoration-remove"
-                                    title="Részvétel"
+                                    title="Tickets"
                                   />
                                 </div>
                                 <div className="vertical-separator" />
@@ -212,7 +214,7 @@ const Orarend = ({ data }) => {
                                 <CustomLink
                                   link={signup3}
                                   classNames="body clr-brand-orange link-decoration-remove"
-                                  title="Részvétel"
+                                  title="Tickets"
                                 />
                               </div>
                               <div className="vertical-separator" />
@@ -244,7 +246,7 @@ const Orarend = ({ data }) => {
                                 <CustomLink
                                   link={signup4}
                                   classNames="body clr-brand-orange link-decoration-remove"
-                                  title="Részvétel"
+                                  title="Tickets"
                                 />
                               </div>
                               <div className="vertical-separator" />
@@ -305,14 +307,14 @@ export const scheduleListQuery = graphql`
       edges {
         node {
           date
-          class1
-          class2
-          class3
-          class4
-          description1
-          description2
-          description3
-          description4
+          class1English
+          class2English
+          class3English
+          class4English
+          description1English
+          description2English
+          description3English
+          description4English
           signup1
           signup2
           signup3

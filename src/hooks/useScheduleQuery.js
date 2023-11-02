@@ -16,10 +16,18 @@ export const useSchedule = () => {
             class2
             class3
             class4
+            class1English
+            class2English
+            class3English
+            class4English
             description1
             description2
             description3
             description4
+            description1English
+            description2English
+            description3English
+            description4English
             signup1
             signup2
             signup3
