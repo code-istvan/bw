@@ -205,6 +205,33 @@ export default function Rolunk() {
               alt="Astanga jóga Mysore"
               placeholder="blurred"
             />
+            <h3 className="clr-brand-orange font-family-primary mt-20px mb-20px">
+              2019-2020
+            </h3>
+            <p className="mb-20px">
+              „2019-ben, majd 2020-ban az a hatalmas megtiszteltetés ért minket,
+              hogy <strong>Paramaguru R. Sharath Jois</strong>{" "}
+              <CustomLink
+                link="https://shop.bandha.works/collections/konyvek"
+                title="két művét"
+                classNames="link-decoration-remove"
+              />{" "}
+              is kiadhattuk magyar nyelven, alapítványunk, a{" "}
+              <CustomLink
+                link="https://nyolcag.hu/"
+                title="Nyolcágú Jóga
+              Alapítvány"
+                classNames="link-decoration-remove"
+              />{" "}
+              gondozásában. Ezen túl még Eddie Stern bestseller{" "}
+              <CustomLink
+                link="https://shop.bandha.works/products/eddie-stern-egy-egyszeru-modszer"
+                title="astanga
+                könyvének"
+                classNames="link-decoration-remove"
+              />{" "}
+              magyar nyelvű kiadása is alapítványunkhoz fűződik.
+            </p>
           </div>
         </div>
       </div>
