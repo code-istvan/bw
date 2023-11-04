@@ -74,10 +74,10 @@ const Hero = () => {
                     buttonStyle="btn--primary--outline"
                     className="hero-button-desktop"
                     onClick={() => {
-                      navigate("/astanga-mysore-program")
+                      navigate("/ashtanga-mysore-program")
                     }}
                   >
-                    Astanga Mysore-program
+                    Ashtanga Mysore Program
                   </Button>
                 </div>
               </div>

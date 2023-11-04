@@ -206,7 +206,7 @@ export default function Rolunk() {
               placeholder="blurred"
             />
             <h3 className="clr-brand-orange font-family-primary mt-20px mb-20px">
-              2019-2020
+              Kiadványaink
             </h3>
             <p className="mb-20px">
               „2019-ben, majd 2020-ban az a hatalmas megtiszteltetés ért minket,
@@ -230,7 +230,8 @@ export default function Rolunk() {
                 könyvének"
                 classNames="link-decoration-remove"
               />{" "}
-              magyar nyelvű kiadása is alapítványunkhoz fűződik.
+              - 2022. áprilisában megjelent - magyar nyelvű kiadása is
+              alapítványunkhoz fűződik.
             </p>
           </div>
         </div>
