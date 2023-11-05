@@ -39,7 +39,7 @@ const SocialProofCard = ({ name, intro, text }) => {
                       <Icons.Close color="white" />
                     </button>
                   </div>
-                  <p>{text}</p>
+                  <p className="social-proof-card--modal-body">{text}</p>
                 </div>
               </dialog>
               <Button

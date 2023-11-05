@@ -53,6 +53,10 @@
   }
 }
 
+.social-proof-card--modal-body {
+  padding-bottom: 40px;
+}
+
 .social-proof-card__wrapper-body {
   text-align: left;
   margin-top: 12px;
@@ -105,15 +109,17 @@
       margin-right: 5%;
     }
     @include md {
-      margin-top: auto;
+      margin-top: 10%;
       margin-left: 10%;
       margin-right: 10%;
+      max-height: 90vh;
+      overflow-y: auto;
     }
-    @include xl {
-      margin-top: auto;
-      margin-left: 20%;
-      margin-right: 20%;
-    }
+    // @include xl {
+    //   margin-top: auto;
+    //   margin-left: 10%;
+    //   margin-right: 10%;
+    // }
 
     p {
       margin-right: 30px;
