@@ -134,6 +134,7 @@ collections:
           value_field: "shortdescription",
           display_fields: ["class"],
           search_fields: ["signup"],
+          default: "null",
           required: false,
         }
       - {
@@ -144,6 +145,7 @@ collections:
           value_field: "shortdescription",
           display_fields: ["class"],
           search_fields: ["signup"],
+          default: "null",
           required: false,
         }
       - {
