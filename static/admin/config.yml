@@ -156,6 +156,7 @@ collections:
           value_field: "signup",
           display_fields: ["signup"],
           search_fields: ["signup"],
+          default: "null",
           required: false,
         }
       - {
@@ -236,6 +237,7 @@ collections:
           display_fields: ["signup"],
           search_fields: ["signup"],
           default: "null",
+          required: false,
         }
       - {
           label: Time,
@@ -317,6 +319,7 @@ collections:
           display_fields: ["signup"],
           search_fields: ["signup"],
           default: "null",
+          required: false,
         }
       - {
           label: Time,
@@ -398,6 +401,7 @@ collections:
           display_fields: ["signup"],
           search_fields: ["signup"],
           default: "null",
+          required: false,
         }
       - {
           label: Time,
