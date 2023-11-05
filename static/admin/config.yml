@@ -125,7 +125,6 @@ collections:
           value_field: "class",
           display_fields: ["class"],
           search_fields: ["class", "signup"],
-          required: false,
         }
       - {
           label: Description1,
