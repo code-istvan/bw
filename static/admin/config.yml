@@ -115,7 +115,7 @@ collections:
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
-          search_fields: ["class", "signup"],
+          search_fields: ["class"],
         }
       - {
           label: Class1 English,
@@ -124,7 +124,7 @@ collections:
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
-          search_fields: ["class", "signup"],
+          search_fields: ["class"],
         }
       - {
           label: Description1,
@@ -195,7 +195,7 @@ collections:
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
-          search_fields: ["class", "signup"],
+          search_fields: ["class"],
           default: "null",
         }
       - {
@@ -205,7 +205,7 @@ collections:
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
-          search_fields: ["class", "signup"],
+          search_fields: ["class"],
           default: "null",
         }
       - {
@@ -276,7 +276,7 @@ collections:
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
-          search_fields: ["class", "signup"],
+          search_fields: ["class"],
           default: "null",
         }
       - {
@@ -358,7 +358,7 @@ collections:
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
-          search_fields: ["class", "signup"],
+          search_fields: ["class"],
           default: "null",
         }
       - {
@@ -368,7 +368,7 @@ collections:
           collection: "classes",
           value_field: "class",
           display_fields: ["class"],
-          search_fields: ["class", "signup"],
+          search_fields: ["class"],
           default: "null",
         }
       - {
