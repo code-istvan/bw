@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "A Bandha „Fája”: Mozgás a Földhöz kapcsolódva"
 description: "A Bandha „Fája”: Mozgás a Földhöz kapcsolódva"
 author: Zsuzsi
@@ -39,7 +39,7 @@ A bandha energetikai formája testtartásunkban és mozgásunkban is megérthet�
 
 ## Az élőlények filogenetikai leszármazása
 
-Ide jön a kép!
+![Az élőlények filogenetikai leszármazása](/blogpostimages/phylogenetic_tree_magyar.png)
 
 Ahhoz, hogy lássuk az összes mozgásmintát, amelyben egy fa részt vesz, időközönként mélyebben kell szemlélődnünk, és azt is meg kell látnunk, hogy mi történik a föld alatt. Látnunk kell azokat a kémiai hatásokat, jeleket is, amelyek a fák között, a fák és az állatok, illetve más élőlények között áramolnak. A fák gyökereikkel hatalmas, egymással összefüggő hálózatokat alkotnak a föld alatti gombahálózaton keresztül, amelyeket egyes modern ökológusok az emlősagy neuronjai között kialakuló dendrites (azaz faágszerűen elágazó rövid nyúlványok által létrejövő)  kapcsolatokhoz hasonlítanak. A fák társaikkal és más élőlényekkel is kommunikálnak úgy, hogy leveleiken keresztül kémiai anyagokat, elektromos impulzusokat bocsátanak ki, illetőleg vesznek fel, raktároznak el. Ebből arra következtetett néhány ökológus, hogy a fák kevésbé viselkednek úgy mint egyéni entitások, és inkább csomópontok egy hatalmas, összekapcsolódó erdő- és bolygóhálózatban. A fák inkább olyan sejtekhez hasonlítanak, amelyek hozzájárulnak az egész erdő mint szervezet egészségéhez és működéséhez, és viselkedésük jobban megérthető, ha ebből a perspektívából nézzük. Az emberek mint az élővilág részei szintén ilyen fokú kapcsolódási ponttal rendelkeznek környezetükkel. Sajnos az elkülönülés illúziójának több évszázados [karteziánus](https://hu.wikipedia.org/wiki/Kartezianizmus) öröksége arra késztetett minket, hogy elnyomjuk és figyelmen kívül hagyjuk az emberi természet ezen alapvető kapcsolódásait. A bandhát csak akkor lehet hatékonyan megérteni és érezni, ha megengedjük magunknak, hogy belemerüljünk az érzékenység ezen aspektusába, és úgy érezzünk és mozogjunk, mintha egy nagyobb kapcsolati hálózat résztvevőiként kapcsolódnánk környezetünkhöz és kommunikálnánk vele.
 
