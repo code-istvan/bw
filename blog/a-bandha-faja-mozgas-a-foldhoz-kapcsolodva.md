@@ -1,13 +1,16 @@
 ---
 published: true
 title: "A Bandha „Fája”: Mozgás a Földhöz kapcsolódva"
-description: "A Bandha „Fája”: Mozgás a Földhöz kapcsolódva"
+description: Egy tapasztalt gyakorlót a hosszantartó, puha és mély légzés
+  folyamatos áramlásának hangja és érzése segíti, hogy még mélyebbre merüljön
+  önmagában, és ez lesz az astanga gyakorlás tapasztalatának legszembetűnőbb
+  jellemzője.
 author: Zsuzsi
 tags:
   - astangaelmélet
 date: 2023-11-08T08:10:48.005Z
-thumbnail: /blogpostimages/connected-forest-1.jpg
-thumbnailMobil: /blogpostimages/connected-forest-1.jpg
+thumbnail: /blogpostimages/tree_roots_desktop.jpg
+thumbnailMobil: /blogpostimages/tree_roots_mobil.jpg
 ---
 Amikor az elmélyülés és a pránájáma című kurzusaimon bemutatom a légzés és a bandha témaköreit, a belső érzések és tapasztalatok három különböző rétegének leírásával kezdem, amelyekhez a gyakorlás során eljuthatunk, és onnan továbbfejlődhetünk. A testtartások és mozgásminták megtapasztalásának e három rétege: a fizikai test, a légzés és a bandha. Ezek a rétegek az egész szervezet tapasztalatán belül funkcionálisan összefonódnak és szerepüket tekintve elválaszthatatlanok, ezért ahelyett hogy külön „dolgoknak” tekinteném őket, inkább különböző perspektívákként írom le, ahonnan - a testtartásokból és mozgásmintákból származó - tapasztalataink egészét szemlélhetjük.
 
