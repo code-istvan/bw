@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "I'm a beginner, can I practice in the Mysore style?",
+    "answer": "Yes! The Mysore style is the best way to start practicing ashtanga yoga. In Mysore practice, everyone gets personalized, individual instruction, yet it's all in a group setting. Every new practitioner first learns a very simple sequence, which we call Surya Namaskar, or Sun Salutation in English. This is followed by a few seated poses, and the series ends with relaxation. The first practice lasts about 30-45 minutes. Later, the duration of your practice will increase at a pace that's right for you. The teacher will monitor your progress, and as you're ready, you'll receive more asanas (poses), added to the previous ones."
+  },
+  {
+    "id": 2,
+    "question": "Am I too old to start practicing ashtanga?",
+    "answer": "You're never too old to start practicing ashtanga! The Mysore style ashtanga practice is based on a unique - personalized - method that can be adapted to every age group and level of fitness and health."
+  },
+  {
+    "id": 3,
+    "question": "Do I need to know the ashtanga sequence to attend Mysore classes?",
+    "answer": "No. It's completely fine if you join without knowing the sequence. (See our answer above for beginners.) If you have learned the sequence before but have since forgotten it, we will go through the practice sequence of the length suggested by the instructor, and we will repeat the individual asanas (yoga poses) as long as necessary for you to remember them."
+  },
+  {
+    "id": 4,
+    "question": "How many days a week should I practice?",
+    "answer": "According to the tradition of ashtanga, we practice six days a week. This may seem like a serious commitment at first. We suggest that you start with something achievable for you and stick to it. For example, practicing two or three days a week can be a good starting point. Over time, you can gradually add more days to your practice. If you're short on time, you can also do a few sun salutations at home. The key is stable practice, so short but regular practice is always better than longer, but irregular practice."
+  },
+  {
+    "id": 5,
+    "question": "I don't want any adjustments, can I still come to Mysore classes?",
+    "answer": "Of course. It's everyone's personal choice whether they want to receive adjustments or not. If you're new to the program, we'll discuss your preference, and you can change your mind later without any explanation. If you feel any pain or discomfort during an adjustment, immediately inform the instructor."
+  },
+  {
+    "id": 6,
+    "question": "I have an injury, should I practice or rest instead?",
+    "answer": "We usually advise that you continue practicing, with modifications appropriate for your injury. Continuous movement maintains blood flow and helps in healing. If you have any injuries, always inform your instructor!"
+  }
+]

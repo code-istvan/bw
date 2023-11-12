@@ -9,7 +9,7 @@ import Button from "../components/Buttons/Button"
 import Icons from "../components/Icons/Icons"
 import Counter from "../components/Counter"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
-import mysoreFaq from "../data/mysoreFaq.json"
+import mysoreFaqEnglish from "../data/mysoreFaqEnglish.json"
 import Sj_blessing from "../components/Icons/sj_handwrite.svg"
 import "../sass/pages/_mysoreprogram.scss"
 
@@ -67,15 +67,14 @@ export default function Mysoreprogram() {
 
   const hasznosOlvasmanyok = [
     {
-      link: "/blog/5-dolog-amit-az-uj-gyakorloknak-erdemes-megtanulnia/",
+      link: "https://samawellnessmn.com/blog/2019/10/28/5-things-new-students-should-learn",
       title: "5 Things That New Practitioners Should Learn",
       classNames:
         "body link-decoration-remove clr-brand-orange schedule-teacher",
     },
     {
-      link: "/blog/sharath-jois-arrol-hogy-miben-nyujt-tobbet-egy-helyi-shala-mint-egy-hagyomanyos-edzes/",
-      title:
-        "Sharath Jois on How a Local Shala Offers More Than a Traditional Gym",
+      link: "https://www.sonima.com/yoga/yoga-articles/yoga-shala",
+      title: "Sharath Jois on How a Local Shala Offers More Than a Workout",
       classNames:
         "body link-decoration-remove clr-brand-orange schedule-teacher",
     },
@@ -426,8 +425,8 @@ export default function Mysoreprogram() {
             <h3>Frequently Asked Questions</h3>
           </div>{" "}
           <div className="row">
-            {mysoreFaq &&
-              mysoreFaq.map(({ question, answer }, index) => (
+            {mysoreFaqEnglish &&
+              mysoreFaqEnglish.map(({ question, answer }, index) => (
                 <AccordionFaq key={index} question={question} answer={answer} />
               ))}
           </div>
