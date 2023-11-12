@@ -1,6 +1,6 @@
 ---
-published: false
-title: "A Bandha „Fája”: Mozgás a Földhöz kapcsolódva"
+published: true
+title: "A bandha „fája”: Mozgás a Földhöz kapcsolódva"
 description: Egy tapasztalt gyakorlót a hosszantartó, puha és mély légzés
   folyamatos áramlásának hangja és érzése segíti, hogy még mélyebbre merüljön
   önmagában, és ez lesz az astanga gyakorlás tapasztalatának legszembetűnőbb
