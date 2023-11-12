@@ -333,8 +333,7 @@ export default function Mysoreprogram() {
         <br />
 
         <div className="island-section mysore-program-lead container-fluid">
-          <h3 className="mb-20px font-family-primary clr-brand-orange">
-            {" "}
+          <h3 className="mb-20px font-family-primary clr-brand-orange text-align-center">
             The Leader of the Mysore Program
           </h3>
           <div className="mysore-program-avatar">

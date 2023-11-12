@@ -332,8 +332,7 @@ export default function Mysoreprogram() {
         <br />
 
         <div className="island-section mysore-program-lead container-fluid">
-          <h3 className="mb-20px font-family-primary clr-brand-orange">
-            {" "}
+          <h3 className="mb-20px font-family-primary clr-brand-orange text-align-center">
             A Mysore-program vezetője
           </h3>
           <div className="mysore-program-avatar">

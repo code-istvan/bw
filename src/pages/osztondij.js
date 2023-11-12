@@ -162,7 +162,6 @@ export default function Osztondij() {
                     title="Szalai István"
                     classNames="body link-decoration-remove schedule-teacher"
                   />
-                  .
                 </p>
                 <div className="separator-horizontal mt-20px"></div>
                 <strong>Helyszín</strong> <br />
@@ -171,7 +170,6 @@ export default function Osztondij() {
                   title="Bandha Works Jógaiskola"
                   classNames="body link-decoration-remove schedule-teacher"
                 />
-                .
               </p>
               <div className="separator-horizontal"></div>
               <p className="mb-20px">Várjuk jelentkezésedet!</p>
