@@ -154,7 +154,18 @@ export default function Osztondij() {
                   2023. december 17-én vasárnap, 16:00 órától
                 </strong>. <br />
                 <div className="separator-horizontal mt-20px"></div>
-                <strong>Helyszín:</strong>{" "}
+                <strong>Felvételi bizottság tagjai</strong> <br />
+                <p>
+                  Dr. Kővári Zsuzsa, Dr. Németh György,{" "}
+                  <CustomLink
+                    link="/szalai-istvan/"
+                    title="Szalai István"
+                    classNames="body link-decoration-remove schedule-teacher"
+                  />
+                  .
+                </p>
+                <div className="separator-horizontal mt-20px"></div>
+                <strong>Helyszín</strong> <br />
                 <CustomLink
                   link="/kapcsolat/"
                   title="Bandha Works Jógaiskola"
