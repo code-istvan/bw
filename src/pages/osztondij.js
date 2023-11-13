@@ -2,10 +2,12 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
 import SocialProofs from "../data/socialProofs.json"
 import { CustomLink } from "../components/CustomLink"
 import SocialProofCard from "../components/Cards/SocialProofCard"
 import Slider from "react-slick"
+import { useStaticQuery, graphql } from "gatsby"
 import "../sass/pages/_osztondij.scss"
 
 export default function Osztondij() {
@@ -200,11 +202,31 @@ export default function Osztondij() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo
-    title="JÓGA ÖSZTÖNDÍJ"
-    description="A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget."
-    location={location}
-    image2="osztondij_desktop.jpg"
-  />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "osztondij_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="JÓGA ÖSZTÖNDÍJ"
+      description="A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget."
+      image2={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}
