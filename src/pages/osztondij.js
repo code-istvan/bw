@@ -201,5 +201,10 @@ export default function Osztondij() {
 }
 
 export const Head = ({ location }) => (
-  <Seo title="JÓGA ÖSZTÖNDÍJ" location={location} />
+  <Seo
+    title="JÓGA ÖSZTÖNDÍJ"
+    description="A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget."
+    location={location}
+    image2="osztondij_desktop.jpg"
+  />
 )
