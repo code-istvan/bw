@@ -20,10 +20,7 @@ export default function Developmentpage() {
         <br />
         <p>
           The linked tags work within the blog post. This is my blog page:{" "}
-          <a href="https://lucid-easley-756a67.netlify.app/blog">
-            https://lucid-easley-756a67.netlify.app/blog
-          </a>
-          .
+          <a href="https:/bandha.works/blog">https:/bandha.works/blog</a>.
         </p>
         <p>
           What I'd like your help me to write the code in gatsby-node.js to
