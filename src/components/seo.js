@@ -26,6 +26,10 @@ function Seo({ description, lang = "hu", title, location, children }) {
   const image = site.siteMetadata?.image
   const domain = site.siteMetadata?.siteUrl
 
+  console.log("location", location)
+  console.log("title", title)
+  console.log("canonicalUrl", canonicalUrl)
+
   return (
     <Helmet
       htmlAttributes={{ lang }}
@@ -42,7 +46,8 @@ function Seo({ description, lang = "hu", title, location, children }) {
       <link rel="canonical" href={canonicalUrl} />
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
-      <meta property="og:description" content={metaDescription} />
+      <meta property="og:url" content={canonicalUrl} />
+      {/* <meta property="og:description" content={metaDescription} /> */}
       <meta property="og:type" content="website" />
       <meta property="og:image" content={domain + image} />
       <meta name="twitter:card" content="summary" />

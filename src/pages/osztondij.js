@@ -156,7 +156,7 @@ export default function Osztondij() {
                 <div className="separator-horizontal mt-20px"></div>
                 <strong>Felvételi bizottság tagjai</strong> <br />
                 <p>
-                  Dr. Kővári Zsuzsa, Dr. Németh György,{" "}
+                  Dr. Kővári Zsuzsa, Dr. Németh György, Dr. Bokk Ágota,{" "}
                   <CustomLink
                     link="/szalai-istvan/"
                     title="Szalai István"
