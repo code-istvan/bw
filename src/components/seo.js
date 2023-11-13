@@ -33,18 +33,7 @@ function Seo({ description, lang = "hu", title, location, children, image2 }) {
   console.log("image2", canonicalUrl + image2)
 
   return (
-    <Helmet
-      htmlAttributes={{ lang }}
-      title={title}
-      // titleTemplate={`%s | ${site.siteMetadata.title}`}
-    >
-      {/* <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title> */}
-      <title>
-        {/* {!isIndexPage && defaultTitle ? `${title} | ${defaultTitle}` : title} */}
-        {!isIndexPage && defaultTitle
-          ? `${title} | ${defaultTitle}`
-          : `${defaultTitle} | Astanga Mysore Budapest`}
-      </title>
+    <Helmet htmlAttributes={{ lang }} title={title}>
       <link rel="canonical" href={canonicalUrl} />
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
@@ -66,7 +55,7 @@ function Seo({ description, lang = "hu", title, location, children, image2 }) {
 }
 
 Seo.defaultProps = {
-  lang: `en`,
+  // lang: `en`,
   meta: [],
   description: ``,
 }

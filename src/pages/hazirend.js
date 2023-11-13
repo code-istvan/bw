@@ -61,5 +61,10 @@ export default function Házirend() {
 }
 
 export const Head = ({ location }) => (
-  <Seo title="HÁZIREND" location={location} />
+  <Seo
+    title="HÁZIREND"
+    description=" A zavartalan gyakorlás és befelé figyelés érdekében kérünk, hogy
+    olvasd el, és tartsd be a házirendben foglaltakat. Köszönjük!"
+    location={location}
+  />
 )
