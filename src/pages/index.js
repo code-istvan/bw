@@ -9,6 +9,8 @@ import SectionMysoreProgram from "../components/Sections/SectionMysoreProgram"
 import SectionEvents from "../components/Sections/SectionEvents"
 import SectionOsztondij from "../components/Sections/SectionOsztondij"
 import SectionSocialProofs from "../components/Sections/SectionSocialProofs"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import "../sass/pages/_index.scss"
 
 const IndexPage = () => (
@@ -32,9 +34,31 @@ const IndexPage = () => (
 
 export default IndexPage
 
-export const Head = ({ location }) => (
-  <Seo
-    title="Bandha Works Astanga Jógaiskola | Astanga Jóga Mysore Budapest"
-    location={location}
-  />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "hero_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Bandha Works Astanga Jógaiskola | Astanga Jóga Mysore Budapest"
+      location={location}
+      description="Fedezzd fel az Astanga Jógát a Bandha Works Jógaiskolában! Astanga Mysore-stílusú gyakorlás, astanga kezdő tanfolyamok, vinyásza krama jógaórák."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+    />
+  )
+}
