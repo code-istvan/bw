@@ -223,7 +223,7 @@ export const Head = ({ location }) => {
 
   return (
     <Seo
-      title="JÓGA ÖSZTÖNDÍJ"
+      title="JÓGA ÖSZTÖNDÍJ - Bandha Works Jógaiskola"
       description="A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget."
       image2={`${siteUrl}${ogImage}`}
       location={location}

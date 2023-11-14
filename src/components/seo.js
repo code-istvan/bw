@@ -21,8 +21,8 @@ function Seo({ description, lang = "hu", title, location, children, image2 }) {
 
   const canonicalUrl = site.siteMetadata.siteUrl + location?.pathname
   const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
-  const isIndexPage = location?.pathname === "/"
+  // const defaultTitle = site.siteMetadata?.title
+  // const isIndexPage = location?.pathname === "/"
   const domain = site.siteMetadata?.siteUrl
 
   console.log("location", location)
