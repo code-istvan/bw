@@ -3,11 +3,12 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import SocialProofs from "../data/socialProofs.json"
 import { CustomLink } from "../components/CustomLink"
 import SocialProofCard from "../components/Cards/SocialProofCard"
 import Slider from "react-slick"
-import { useStaticQuery, graphql } from "gatsby"
+
 import "../sass/pages/_osztondij.scss"
 
 export default function Osztondij() {
@@ -223,9 +224,9 @@ export const Head = ({ location }) => {
 
   return (
     <Seo
-      title="JÓGA ÖSZTÖNDÍJ | Bandha Works Jógaiskola"
+      title="Jóga ösztöndíj | Bandha Works Jógaiskola"
       description="A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget."
-      image2={`${siteUrl}${ogImage}`}
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
       location={location}
     />
   )

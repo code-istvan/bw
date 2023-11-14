@@ -477,13 +477,13 @@ export const Head = ({ location }) => {
 
   return (
     <Seo
-      title="ASTANGA JÓGA MYSORE PROGRAM BUDAPEST | Bandha Works Jógaiskola"
+      title="Astanga jóga mysore program budapest | Bandha Works Jógaiskola"
       description="A Mysore-stílusú astanga jóga gyakorlás hatékony és személyre
   szabott módszer, amely fizikai erőt, rugalmasságot és belső
   nyugalmat hoz. Az általa kínált folyamatos fejlődés és az
   oktató-tanítvány kapcsolat lehetőséget ad a mélyebb megértésre és
   a személyes fejlődésre."
-      image2={`${siteUrl}${ogImage}`}
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
       location={location}
     />
   )

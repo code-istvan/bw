@@ -6,6 +6,8 @@ import MoondaysCard from "../components/Cards/MoondaysCard"
 import { CustomLink } from "../components/CustomLink"
 import Tabs from "../components/Tabs"
 import moonDays from "../data/moonDays.json"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import Button from "../components/Buttons/Button"
 import "../sass/pages/_holdnapok.scss"
 
@@ -237,6 +239,32 @@ export default function Holdnapok() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="HOLDNAPOK" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "holdnapok_desktop.jpeg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Holdnapok | Bandha Works Jógaiskola"
+      description=" Az astanga jóga tradíció része, hogy a Telihold és az Újhold napjai
+  pihenőnapok, amikor nincs ászanagyakorlás."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

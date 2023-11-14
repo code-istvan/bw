@@ -3,6 +3,8 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import AccordionMantra from "../components/Accordions/AccordionMantra"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import mantras from "../data/mantras.json"
 
 export default function Mantra() {
@@ -84,6 +86,33 @@ export default function Mantra() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="MANTRÁK" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "mantra_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Mantrák | Bandha Works Jógaiskola"
+      description="A mantrák varázsigék, amelyek képesek megváltoztatni a
+      valóságot, vagy legalábbis a mi felfogásunkat róla, ami valójában
+      jelentheti ugyanazt, mint az előbbi."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

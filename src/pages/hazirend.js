@@ -2,6 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import houseRules from "../data/houseRules.json"
 import "../sass/pages/_hazirend.scss"
 
@@ -59,12 +61,32 @@ export default function Házirend() {
     </Layout>
   )
 }
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "hazirend_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
 
-export const Head = ({ location }) => (
-  <Seo
-    title="HÁZIREND"
-    description=" A zavartalan gyakorlás és befelé figyelés érdekében kérünk, hogy
-    olvasd el, és tartsd be a házirendben foglaltakat. Köszönjük!"
-    location={location}
-  />
-)
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Házirend | Bandha Works Jógaiskola"
+      description=" A zavartalan gyakorlás és befelé figyelés érdekében kérünk, hogy
+    olvasd el, és tartsd be a házirendben foglaltakat."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

@@ -2,6 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import RecommendedReadings from "../data/recommendedReadings.json"
 import "../sass/pages/_olvasmanyok.scss"
 
@@ -117,6 +119,32 @@ export default function Ajanlottolvasmanyok() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="AJÁNLOTT OLVASMÁNYOK" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "olvasmanyok_desktop.jpeg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Ajánlott olvasmányok | Bandha Works Jógaiskola"
+      description="A jóga gyakorlásához szükséges elméleti tudás
+      elsajátításához az alábbi olvasmányokat ajánljuk."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

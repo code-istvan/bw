@@ -3,7 +3,14 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, lang = "hu", title, location, children, image2 }) {
+function Seo({
+  description,
+  lang = "hu",
+  title,
+  location,
+  children,
+  ogFeaturedImage,
+}) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -30,7 +37,7 @@ function Seo({ description, lang = "hu", title, location, children, image2 }) {
   console.log("canonicalUrl", canonicalUrl)
   console.log("description", description)
   console.log("domain", domain)
-  console.log("image2", canonicalUrl + image2)
+  console.log("ogFeaturedImage", canonicalUrl + ogFeaturedImage)
 
   return (
     <Helmet htmlAttributes={{ lang }} title={title}>
@@ -40,7 +47,7 @@ function Seo({ description, lang = "hu", title, location, children, image2 }) {
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content={image2} />
+      <meta property="og:image" content={ogFeaturedImage} />
       <meta name="twitter:card" content="summary" />
       {/* <meta
         name="twitter:creator"

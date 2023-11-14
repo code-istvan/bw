@@ -4,6 +4,8 @@ import Seo from "../components/seo"
 import NameCard from "../components/NameCard"
 import Button from "../components/Buttons/Button"
 import { CustomLink } from "../components/CustomLink"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import { navigate } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import "../sass/pages/_rolunk.scss"
@@ -240,4 +242,33 @@ export default function Rolunk() {
   )
 }
 
-export const Head = ({ location }) => <Seo title="RÓLUNK" location={location} />
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "rolunk_desktop.jpeg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Rólunk | Bandha Works Jógaiskola"
+      description="A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket
+  összekötött azon törekvés, hogy a tradicionális astanga vinyásza
+  jógát népszerűsítsék, oktassák Magyarországon."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}
