@@ -34,7 +34,7 @@ export default IndexPage
 
 export const Head = ({ location }) => (
   <Seo
-    title="Bandha Works Astanga Jógaiskola | Astanga Mysore Budapest"
+    title="Bandha Works Astanga Jógaiskola | Astanga Jóga Mysore Budapest"
     location={location}
   />
 )

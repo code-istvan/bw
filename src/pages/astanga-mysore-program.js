@@ -459,7 +459,7 @@ export default function Mysoreprogram() {
 export const Head = ({ location }) => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "omysore_desktop.jpg" }) {
+      file(relativePath: { eq: "mysore_desktop.jpg" }) {
         childImageSharp {
           gatsbyImageData(width: 1200)
         }
@@ -477,7 +477,7 @@ export const Head = ({ location }) => {
 
   return (
     <Seo
-      title="ASTANGA JÓGA MYSORE PROGRAM BUDAPEST"
+      title="ASTANGA JÓGA MYSORE PROGRAM BUDAPEST | Bandha Works Jógaiskola"
       description="A Mysore-stílusú astanga jóga gyakorlás hatékony és személyre
   szabott módszer, amely fizikai erőt, rugalmasságot és belső
   nyugalmat hoz. Az általa kínált folyamatos fejlődés és az
