@@ -42,12 +42,12 @@ function Seo({ description, lang = "hu", title, location, children, image2 }) {
       <meta property="og:type" content="website" />
       <meta property="og:image" content={image2} />
       <meta name="twitter:card" content="summary" />
-      <meta
+      {/* <meta
         name="twitter:creator"
         content={site.siteMetadata?.social?.twitter || ``}
       />
       <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={metaDescription} />
+      <meta name="twitter:description" content={metaDescription} /> */}
       <meta name={`robots`} content={`index, follow`} />
       {children}
     </Helmet>
