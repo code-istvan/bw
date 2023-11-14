@@ -3,6 +3,8 @@ import Layout from "../components/Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import TeachersCard from "../components/Cards/TeachersCard"
 import Seo from "../components/seo"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import { useTeachers } from "../hooks/useTeachersQuery"
 import "../sass/pages/_oktatok.scss"
 
@@ -76,6 +78,31 @@ const Csapatunk = () => {
 
 export default Csapatunk
 
-export const Head = ({ location }) => (
-  <Seo title="CSAPATUNK" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "oktatok_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Csapatunk | Bandha Works Jógaiskola"
+      description="Itt találod oktatóinkat és admin kollégáinkat. Oldal jelenleg feltöltés alatt áll."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

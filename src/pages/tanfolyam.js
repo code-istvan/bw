@@ -2,6 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import EventsTypeOfRoll from "../components/Events/EventsTypeOfRoll"
 
 export default function Tanfolyam() {
@@ -44,7 +46,31 @@ export default function Tanfolyam() {
     </Layout>
   )
 }
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "tanfolyam_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
 
-export const Head = ({ location }) => (
-  <Seo title="TANFOLYAMOK" location={location} />
-)
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Tanfolyamok | Bandha Works Jógaiskola"
+      description="Itt találod a Bandha Works Jógaiskola tanfolyamait és egyéb programjait."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

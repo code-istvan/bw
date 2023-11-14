@@ -30,14 +30,7 @@ function Seo({
   const metaDescription = description || site.siteMetadata.description
   // const defaultTitle = site.siteMetadata?.title
   // const isIndexPage = location?.pathname === "/"
-  const domain = site.siteMetadata?.siteUrl
-
-  console.log("location", location)
-  console.log("title", title)
-  console.log("canonicalUrl", canonicalUrl)
-  console.log("description", description)
-  console.log("domain", domain)
-  console.log("ogFeaturedImage", canonicalUrl + ogFeaturedImage)
+  // const domain = site.siteMetadata?.siteUrl
 
   return (
     <Helmet htmlAttributes={{ lang }} title={title}>
