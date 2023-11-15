@@ -1,10 +1,10 @@
 ---
-published: false
+published: true
 title: "A bandha „fája”: Mozgás a Földhöz kapcsolódva"
-description: Egy tapasztalt gyakorlót a hosszantartó, puha és mély légzés
-  folyamatos áramlásának hangja és érzése segíti, hogy még mélyebbre merüljön
-  önmagában, és ez lesz az astanga gyakorlás tapasztalatának legszembetűnőbb
-  jellemzője.
+description: A bandha alapvető mozgása két egymást kiegészítő vagy ellentétes
+  mozgásminta együttes összekapcsolása. A földbe gyökerezés, valamint a földből
+  felfelé emelkedés és a földből kifelé terjeszkedés egymást kiegészítő erőiről
+  beszélhetünk.
 author: Zsuzsi
 tags:
   - astangaelmélet
