@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import { CustomLink } from "../components/CustomLink"
 import Tabs from "../components/Tabs"
 import "../sass/pages/_jogairanzyatok.scss"
@@ -422,7 +424,33 @@ export default function Vinyasza() {
     </Layout>
   )
 }
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "jogairanyzatok_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
 
-export const Head = ({ location }) => (
-  <Seo title="VINYÁSZA JÓGAIRÁNYZATOK" location={location} />
-)
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Vinyásza jógairányzatok | Bandha Works Jógaiskola"
+      description="Viná vinyásza jógéna ászanádin na kárajét
+      Óh, jógi, ne végezz ászanát vinyásza nélkül
+      Jóga Korunta - Vámana Risi"
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

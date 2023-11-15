@@ -2,6 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import { CustomLink } from "../components/CustomLink"
 
 export default function Letoltesek() {
@@ -152,6 +154,31 @@ export default function Letoltesek() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="LETÖLTÉSEK" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "sorozatabrak_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Letöltések | Bandha Works Jógaiskola"
+      description="Itt találod a letölthető anyagainkat."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}
