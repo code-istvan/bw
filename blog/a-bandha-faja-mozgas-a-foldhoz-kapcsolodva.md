@@ -98,6 +98,8 @@ Megvizsgálhatjuk testünk fa alakú mozgásmintáját bármilyen más ászanáb
 
 A bandha, a légzés és a test fa alakú mozgásmintájának tapasztalati megértéséhez szükséges, hogy kapcsolódjunk a környezetünkhöz. A test és a légzés minden mozdulata, gesztusa választ generál a talajtól és a minket körülvevő környezettől, és elég fogékonynak és érzékenynek kell lennünk ahhoz, hogy érezzük ezt a visszacsatolást. Amikor képesek vagyunk befogadni, érezni és továbbadni ezt a választ a saját testünkön és légzésünkön keresztül, ez már jelzi következő mozdulatunkat, gesztusunkat. Ez az én és a környezet közötti kölcsönös visszacsatolási folyamat - intenzitását és fókuszát tekintve - fokozatosan épül fel a gyakorlásunk során, miközben a test, a légzés, a bandha és a Föld összefonódik a kölcsönös kommunikációcsere elválaszthatatlan hálózatában. Az astanga gyakorlás egyik fő jellemzője a test és a légzés összehangolt és koncentrált áramló mozgásaiból álló vinyásza rendszer, amely nélkülözhetetlen a bandha ilyen módon történő megtapasztalásához. A bandha mély megtapasztalása során az én és a környezet - azaz a test és a Föld - határai kezdenek feloldódni, és elkezdjük tapasztalati úton megérteni azt az alapvető igazságot, hogy nem különülünk el a környezetünktől (a környezettel szerves egységet alkotunk). Egyre kevésbé tudunk azonosulni az én elszigeteltségével, és inkább egy gazdag kapcsolati hálózattal átszőtt élő szervezet - azaz az élő és lélegző Földünk egészének - érzékelhető valóságát tapasztaljuk meg, annak részeként létezve.
 
-**Az írás szerzője:** Iain Grysak
+**Az írás szerzője:** Iain Grysak, [Spacious Yoga](https://spaciousyoga.com), Bali 
+
 **Az írás eredeti címe:** The Tree of Bandha: Moving in Embodied Relationship with the Earth – by Iain Grysak
+
 **Fordította és szerkesztette:** Dr. Kővári Zsuzsa
