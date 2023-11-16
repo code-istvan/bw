@@ -2,6 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import { CustomLink } from "../components/CustomLink"
 import { Link } from "gatsby"
 import { navigate } from "gatsby"
@@ -453,10 +455,32 @@ export default function Mysoreprogram() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo
-    title="ASHTANGA YOGA MYSORE PROGRAM BUDAPEST"
-    lang="en"
-    location={location}
-  />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "mysore_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Ashtanga Yoga Mysore Program Budapest | Bandha Works Shala"
+      lang="en"
+      description="Ashtanga Yoga Mysore Program in Budapest. Best plaece for Mysore style of Ashtanga Yoga practice in Budapest. Join our Mysore program!"
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

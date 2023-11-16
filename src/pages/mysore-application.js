@@ -4,6 +4,8 @@ import { navigate } from "gatsby"
 import Button from "../components/Buttons/Button"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 
 export default function MysoreApplication() {
   return (
@@ -93,6 +95,31 @@ export default function MysoreApplication() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="JELENTKEZÉS ELKÜLDVE" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "confirm_desktop.jpeg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Jelentkezés astanga Mysore-programunkba | Bandha Works Jógaiskola"
+      description="Itt jelentkezhetsz astanga Mysore-programunkba."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

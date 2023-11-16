@@ -5,6 +5,8 @@ import { Link } from "gatsby"
 import GoogleMap from "../components/GoogleMap/GoogleMap"
 import Layout from "../components/Layouts/Layout"
 import SocialBlock from "../components/Icons/SocialBlock"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
@@ -195,6 +197,32 @@ export default function Contact() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="Contact" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "hero_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Contact | Bandha Works Shala"
+      lang="en"
+      description="Here you can find our contacts"
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}
