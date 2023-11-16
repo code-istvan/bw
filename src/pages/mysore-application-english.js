@@ -4,6 +4,8 @@ import { navigate } from "gatsby"
 import Button from "../components/Buttons/Button"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 
 export default function MysoreApplicationEnglish() {
   return (
@@ -91,6 +93,32 @@ export default function MysoreApplicationEnglish() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="APPLICATION SUBMITTED" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "orarend_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Application submitted | Bandha Works Yoga Shala"
+      lang="en"
+      description="Ashtanga Mysore program application submitted"
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

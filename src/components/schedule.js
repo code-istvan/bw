@@ -6,8 +6,8 @@ import Accordion from "./Accordions/Accordion"
 import Icons from "./Icons/Icons"
 import Button from "../components/Buttons/Button"
 import { StaticImage } from "gatsby-plugin-image"
-import { getSrc } from "gatsby-plugin-image"
-import { useStaticQuery, graphql } from "gatsby"
+// import { getSrc } from "gatsby-plugin-image"
+import { graphql } from "gatsby"
 import { navigate } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import "../sass/components/_orarend.scss"
@@ -299,30 +299,30 @@ const Orarend = ({ data }) => {
 export default Orarend
 
 export const Head = ({ location }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "osztondij_desktop.jpg" }) {
-        childImageSharp {
-          gatsbyImageData(width: 1200)
-        }
-      }
-      site {
-        siteMetadata {
-          siteUrl
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     file(relativePath: { eq: "osztondij_desktop.jpg" }) {
+  //       childImageSharp {
+  //         gatsbyImageData(width: 1200)
+  //       }
+  //     }
+  //     site {
+  //       siteMetadata {
+  //         siteUrl
+  //       }
+  //     }
+  //   }
+  // `)
 
-  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
-  const siteUrl = data.site.siteMetadata.siteUrl
+  // const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  // const siteUrl = data.site.siteMetadata.siteUrl
 
   return (
     <Seo
       title="Schedule | Bandha Works Shala"
       lang="en"
       description="The schedule of Bandha Works Shala"
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      // ogFeaturedImage={`${siteUrl}${ogImage}`}
       location={location}
     />
   )

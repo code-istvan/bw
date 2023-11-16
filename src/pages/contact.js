@@ -218,7 +218,7 @@ export const Head = ({ location }) => {
 
   return (
     <Seo
-      title="Contact | Bandha Works Shala"
+      title="Contact | Bandha Works Yoga Shala"
       lang="en"
       description="Here you can find our contacts"
       ogFeaturedImage={`${siteUrl}${ogImage}`}

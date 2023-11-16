@@ -476,7 +476,7 @@ export const Head = ({ location }) => {
 
   return (
     <Seo
-      title="Ashtanga Yoga Mysore Program Budapest | Bandha Works Shala"
+      title="Ashtanga Yoga Mysore Program Budapest | Bandha Works Yoga Shala"
       lang="en"
       description="Ashtanga Yoga Mysore Program in Budapest. Best plaece for Mysore style of Ashtanga Yoga practice in Budapest. Join our Mysore program!"
       ogFeaturedImage={`${siteUrl}${ogImage}`}
