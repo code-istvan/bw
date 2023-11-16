@@ -2,6 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import CourseApplication from "../components/Cards/CourseApplication"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
 import mysoreKurzusFaq from "../data/mysoreKurzusFaq.json"
@@ -179,6 +181,31 @@ export default function AstangaMysoreKurzus() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="ASTANGA MYSORE KURZUS" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "mysore_kurzus_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Astnaga jóga Mysore-kurzus Budapest | Bandha Works Jógaiskola"
+      description="Astnaga jóga Mysore-kurzus Budapesten"
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

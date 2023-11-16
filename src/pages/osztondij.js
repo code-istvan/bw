@@ -206,7 +206,7 @@ export default function Osztondij() {
 export const Head = ({ location }) => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "osztondij_desktop.jpg" }) {
+      file(relativePath: { eq: "orarend_desktop.jpg" }) {
         childImageSharp {
           gatsbyImageData(width: 1200)
         }

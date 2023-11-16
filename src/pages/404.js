@@ -1,6 +1,8 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import { navigate } from "gatsby"
 import Button from "../components/Buttons/Button"
 import Seo from "../components/seo"
@@ -57,6 +59,31 @@ const NotFoundPage = () => (
 
 export default NotFoundPage
 
-export const Head = ({ location }) => (
-  <Seo title="404: Not found" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "404_desktop.jpeg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="404: Nem találom | Bandha Works Jógaiskola"
+      description="A keresett oldal nem létezik, vagy eltávolításra került."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

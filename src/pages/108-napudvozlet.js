@@ -3,6 +3,8 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import Button from "../components/Buttons/Button"
 import "../sass/pages/_szaznyolc.scss"
 
@@ -155,6 +157,34 @@ export default function Szaznyolc() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="ÚJÉVI 108 NAPÜDVÖZLET" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "108_napudvozlet.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Újévi 108 napüdvözlet | Bandha Works Jógaiskola"
+      description="  Kezdd az Újévet 108 napüdvözlettel! Ez az intenzív mozgó
+      meditációs technika kiváló módszert kínál, hogy elengedd az előző
+      év feszültségeit, aggodalmait, problémáit és kitisztult testtel és
+      elmével vágj neki 2024-es évnek!"
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

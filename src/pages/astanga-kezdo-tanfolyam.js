@@ -3,6 +3,8 @@ import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
 import CourseApplication from "../components/Cards/CourseApplication"
@@ -288,6 +290,31 @@ export default function AstangaKezdoTanfolyam() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="ASTANGA JÓGA KEZDŐ TANFOLYAM BUDAPEST" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "astanga-kezdo-tanfolyam-desktop.jpeg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Astanga jóga kezdő tanfolyam Budapest | Bandha Works Jógaiskola"
+      description="Astanga jóga kezdő tanfolyam Budapesten a második kerületben"
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}
