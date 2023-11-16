@@ -2,6 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 
 export default function Parampara() {
   return (
@@ -111,6 +113,31 @@ export default function Parampara() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="PARAMPARA" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "parampara_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Parampara | Bandha Works Jógaiskola"
+      description="A parampara a tudás, amelyet a tanár a tanítványára hagyományoz."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

@@ -4,6 +4,8 @@ import Seo from "../components/seo"
 import Hero from "../components/Hero"
 import Icons from "../components/Icons/Icons"
 import { CustomLink } from "../components/CustomLink"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import "../sass/pages/_english.scss"
 
 export default function English() {
@@ -107,6 +109,32 @@ export default function English() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="English" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "hero_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="English | Bandha Works Astanga Yoga School | Astanga Yoga Mysore Budapest"
+      lang="en"
+      description="Discover Ashtanga Yoga at Bandha Works Yoga School! Ashtanga Mysore style practice, ashtanga beginner courses, vinyasa krama yoga classes."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}

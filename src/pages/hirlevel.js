@@ -5,6 +5,8 @@ import Button from "../components/Buttons/Button"
 import InputField from "../components/InputField"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import "../sass/pages/_hirlevel.scss"
 
 const Hirlevel = () => (
@@ -109,6 +111,31 @@ const Hirlevel = () => (
 
 export default Hirlevel
 
-export const Head = ({ location }) => (
-  <Seo title="HÍRLEVÉL" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "hirlevel_desktop.jpeg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  return (
+    <Seo
+      title="Hírlevél | Bandha Works Jógaiskola"
+      description="Itt tudsz feliratkozni hírlevelünkre."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      location={location}
+    />
+  )
+}
