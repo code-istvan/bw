@@ -308,8 +308,6 @@ export const Head = ({ data, location }) => {
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
 
-  console.log("macika", data)
-
   return (
     <Seo
       title="Schedule | Bandha Works Shala"

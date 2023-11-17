@@ -6,7 +6,7 @@ import Accordion from "./Accordions/Accordion"
 import Icons from "./Icons/Icons"
 import Button from "../components/Buttons/Button"
 import { StaticImage } from "gatsby-plugin-image"
-// import { getSrc } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
 import { graphql } from "gatsby"
 import { navigate } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
@@ -292,37 +292,26 @@ const Orarend = ({ data }) => {
 
 export default Orarend
 
-export const Head = ({ location }) => {
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     file(relativePath: { eq: "orarend_desktop.jpg" }) {
-  //       childImageSharp {
-  //         gatsbyImageData(width: 1200)
-  //       }
-  //     }
-  //     site {
-  //       siteMetadata {
-  //         siteUrl
-  //       }
-  //     }
-  //   }
-  // `)
+export const Head = ({ data, location }) => {
+  if (!data) {
+    return null
+  }
 
-  // const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
-  // const siteUrl = data.site.siteMetadata.siteUrl
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
 
   return (
     <Seo
       title="Órarend | Bandha Works Jógaiskola"
       description="A Bandha Works jógaiskola órarendje"
-      // ogFeaturedImage={`${siteUrl}${ogImage}`}
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
       location={location}
     />
   )
 }
 
 export const scheduleListQuery = graphql`
-  query scheduleListQuery {
+  query CombinedQuery {
     allScheduleJson(sort: { date: ASC }) {
       edges {
         node {
@@ -355,6 +344,16 @@ export const scheduleListQuery = graphql`
           newmoon
           ekadashi
         }
+      }
+    }
+    file(relativePath: { eq: "osztondij_desktop.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(width: 1200)
+      }
+    }
+    site {
+      siteMetadata {
+        siteUrl
       }
     }
   }
