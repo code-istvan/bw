@@ -18,12 +18,14 @@ const sortByDate = (a, b) => {
   return dateA - dateB
 }
 
-const Orarend = ({ data }) => {
+const Schedule = ({ data }) => {
   const {
     allScheduleJson: { edges },
   } = data
   const sortedEdges = edges.sort(sortByDate)
   const breakpoints = useBreakpoint()
+
+  console.log("macika", data)
 
   return (
     <Layout>
@@ -296,7 +298,7 @@ const Orarend = ({ data }) => {
   )
 }
 
-export default Orarend
+export default Schedule
 
 export const Head = ({ data, location }) => {
   if (!data) {
@@ -305,6 +307,8 @@ export const Head = ({ data, location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+
+  console.log("macika", data)
 
   return (
     <Seo
@@ -319,18 +323,18 @@ export const Head = ({ data, location }) => {
 
 export const combinedQuery = graphql`
   query CombinedQuery {
-    allScheduleJson(sort: { fields: [date], order: ASC }) {
+    allScheduleJson(sort: { date: ASC }) {
       edges {
         node {
           date
-          class1
-          class2
-          class3
-          class4
-          description1
-          description2
-          description3
-          description4
+          class1English
+          class2English
+          class3English
+          class4English
+          description1English
+          description2English
+          description3English
+          description4English
           signup1
           signup2
           signup3
