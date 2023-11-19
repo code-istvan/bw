@@ -216,7 +216,7 @@ const config = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://bandha.works",
-        sitemap: "https://bandha.works/sitemap-index.xml",
+        sitemap: "https://bandha.works/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
