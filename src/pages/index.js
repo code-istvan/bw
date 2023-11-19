@@ -75,10 +75,6 @@ export const Head = ({ location }) => {
     description: data.site.siteMetadata.description,
     url: data.site.siteMetadata.siteUrl,
     logo: "https://mula.bandha.works/images/bw_logo.png",
-    sameAs: [
-      "https://www.facebook.com/bandhaworks",
-      "https://www.instagram.com/bandhaworks1",
-    ],
   }
 
   return (

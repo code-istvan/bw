@@ -222,12 +222,23 @@ export const Head = ({ location }) => {
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
 
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Project",
+    name: "Bandha Works Jóga Ösztöndíj",
+    description:
+      "A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget.",
+    url: "https://bandha.works/osztondij",
+    logo: "https://mula.bandha.works/images/bw_logo.png",
+  }
+
   return (
     <Seo
       title="Jóga ösztöndíj | Bandha Works Jógaiskola"
       description="A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget."
       ogFeaturedImage={`${siteUrl}${ogImage}`}
       location={location}
+      schemaMarkup={schema}
     />
   )
 }
