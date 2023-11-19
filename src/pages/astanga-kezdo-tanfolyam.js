@@ -109,7 +109,7 @@ export default function AstangaKezdoTanfolyam() {
           <p className="mb-20px">
             Az{" "}
             <CustomLink
-              link="/vinyasza-jogairanyzatok/"
+              link="/vinyasza-jogairanyzatok"
               title="astanga jóga"
               classNames="body link-decoration-remove schedule-teacher"
             />{" "}

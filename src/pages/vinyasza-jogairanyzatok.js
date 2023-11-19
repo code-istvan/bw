@@ -120,7 +120,7 @@ export default function Vinyasza() {
           <p>
             A{" "}
             <CustomLink
-              link="/letoltesek/"
+              link="/letoltesek"
               classNames="body link-decoration-remove clr-brand-orange"
               title="sorozatokat"
             />{" "}
@@ -165,7 +165,7 @@ export default function Vinyasza() {
           <p>
             A szombat, illetve a teli- és újhold napjai (
             <CustomLink
-              link="/holdnapok/"
+              link="/holdnapok"
               classNames="body link-decoration-remove clr-brand-orange"
               title="a holdnapok"
             />

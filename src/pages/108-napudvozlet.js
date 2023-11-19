@@ -112,7 +112,7 @@ export default function Szaznyolc() {
               <div className="separator-horizontal mt-20px"></div>
               <strong>Oktató</strong> <br />
               <CustomLink
-                link="/szalai-istvan/"
+                link="/szalai-istvan"
                 title="Szalai István"
                 classNames="body link-decoration-remove schedule-teacher"
               />{" "}
@@ -120,7 +120,7 @@ export default function Szaznyolc() {
               <div className="separator-horizontal mt-20px"></div>
               <strong>Helyszín</strong> <br />
               <CustomLink
-                link="/kapcsolat/"
+                link="/kapcsolat"
                 title="Bandha Works Jógaiskola"
                 classNames="body link-decoration-remove schedule-teacher"
               />{" "}

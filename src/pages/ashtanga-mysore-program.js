@@ -125,7 +125,7 @@ export default function Mysoreprogram() {
           <p>
             The{" "}
             <CustomLink
-              link="/vinyasza-jogairanyzatok/"
+              link="/vinyasza-jogairanyzatok"
               title="ashtanga yoga"
               classNames="body link-decoration-remove schedule-teacher"
             />{" "}
@@ -244,7 +244,7 @@ export default function Mysoreprogram() {
             frequently. Saturdays, as well as the full and new moon days,
             referred to as{" "}
             <CustomLink
-              link="/holdnapok/"
+              link="/holdnapok"
               title="moon days"
               classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
             />{" "}
@@ -341,7 +341,7 @@ export default function Mysoreprogram() {
             <div className="mysore-program-avatar__image-container">
               <Link
                 className="dropdown-item clr-shades-white"
-                to="/szalai-istvan/"
+                to="/szalai-istvan"
               >
                 <StaticImage
                   className="avatar__image avatar__image--medium zindex-1"
@@ -359,7 +359,7 @@ export default function Mysoreprogram() {
               <strong>
                 {" "}
                 <CustomLink
-                  link="/szalai-istvan/"
+                  link="/szalai-istvan"
                   title="István Szalai"
                   classNames="header header--3 link-decoration-remove schedule-teacher"
                 />{" "}
@@ -382,13 +382,13 @@ export default function Mysoreprogram() {
             to your first Mysore class, useful information for which can be
             found under the following menu items:
             <CustomLink
-              link="/elso-alkalom/"
+              link="/elso-alkalom"
               title=" first time"
               classNames="header header--3 link-decoration-remove schedule-teacher"
             />{" "}
             as well as
             <CustomLink
-              link="/hazirend/"
+              link="/hazirend"
               title=" house rules"
               classNames="header header--3 link-decoration-remove schedule-teacher"
             />

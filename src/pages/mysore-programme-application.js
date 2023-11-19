@@ -142,7 +142,7 @@ export default function MysoreprogramJelentkezes() {
                     <input type="checkbox" name="checkbox" required />
                     <span>
                       I have read and accept
-                      <Link to="/adatvedelmi-tajekoztato/">
+                      <Link to="/adatvedelmi-tajekoztato">
                         {" "}
                         the privacy policy
                       </Link>

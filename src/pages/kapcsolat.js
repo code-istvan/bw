@@ -168,7 +168,7 @@ export default function Kapcsolat() {
                   <input type="checkbox" name="checkbox" required />
                   <span>
                     Megismertem és elfogadom az
-                    <Link to="/adatvedelmi-tajekoztato/">
+                    <Link to="/adatvedelmi-tajekoztato">
                       {" "}
                       adatvédelmi tájékoztatót
                     </Link>

@@ -78,7 +78,7 @@ export default function Osztondij() {
             egy beadandó esszét egy meghatározott témában. Amennyiben kezdő
             astanga gyakorló vagy, az első hónapban az{" "}
             <CustomLink
-              link="/astanga-kezdo-tanfolyam/"
+              link="/astanga-kezdo-tanfolyam"
               title="astanga kezdő tanfolyamon"
               classNames="body link-decoration-remove schedule-teacher"
             />{" "}
@@ -161,7 +161,7 @@ export default function Osztondij() {
                 <p>
                   Dr. Kővári Zsuzsa, Dr. Németh György, Dr. Bokk Ágota,{" "}
                   <CustomLink
-                    link="/szalai-istvan/"
+                    link="/szalai-istvan"
                     title="Szalai István"
                     classNames="body link-decoration-remove schedule-teacher"
                   />
@@ -169,7 +169,7 @@ export default function Osztondij() {
                 <div className="separator-horizontal mt-20px"></div>
                 <strong>Helyszín</strong> <br />
                 <CustomLink
-                  link="/kapcsolat/"
+                  link="/kapcsolat"
                   title="Bandha Works Jógaiskola"
                   classNames="body link-decoration-remove schedule-teacher"
                 />

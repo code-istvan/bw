@@ -126,7 +126,7 @@ export default function Mysoreprogram() {
           <p>
             Az{" "}
             <CustomLink
-              link="/vinyasza-jogairanyzatok/"
+              link="/vinyasza-jogairanyzatok"
               title="astanga jóga"
               classNames="body link-decoration-remove schedule-teacher"
             />{" "}
@@ -245,7 +245,7 @@ export default function Mysoreprogram() {
             el, vagy kevesebbszer gyakorol. A szombatok, illetve a teli- és az
             újhold, azaz a{" "}
             <CustomLink
-              link="/holdnapok/"
+              link="/holdnapok"
               title="holdnapok"
               classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
             />{" "}
@@ -341,7 +341,7 @@ export default function Mysoreprogram() {
             <div className="mysore-program-avatar__image-container">
               <Link
                 className="dropdown-item clr-shades-white"
-                to="/szalai-istvan/"
+                to="/szalai-istvan"
               >
                 <StaticImage
                   className="avatar__image avatar__image--medium zindex-1"
@@ -359,7 +359,7 @@ export default function Mysoreprogram() {
               <strong>
                 {" "}
                 <CustomLink
-                  link="/szalai-istvan/"
+                  link="/szalai-istvan"
                   title="Szalai István"
                   classNames="header header--3 link-decoration-remove schedule-teacher"
                 />{" "}
@@ -383,13 +383,13 @@ export default function Mysoreprogram() {
             visszajelzésünket, mielőtt jössz az első Mysore-órára, amelyhez
             hasznos információkat találhatsz a következő menüpontok alatt:{" "}
             <CustomLink
-              link="/elso-alkalom/"
+              link="/elso-alkalom"
               title="első alkalom"
               classNames="header header--3 link-decoration-remove schedule-teacher"
             />{" "}
             valamint{" "}
             <CustomLink
-              link="/hazirend/"
+              link="/hazirend"
               title="házirend"
               classNames="header header--3 link-decoration-remove schedule-teacher"
             />

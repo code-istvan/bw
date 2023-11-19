@@ -175,7 +175,7 @@ export default function Contact() {
                   <input type="checkbox" name="checkbox" required />
                   <span>
                     I have read and accept the{" "}
-                    <Link to="/adatvedelmi-tajekoztato/">privacy policy</Link>,
+                    <Link to="/adatvedelmi-tajekoztato">privacy policy</Link>,
                     and I consent to the handling of my name and email address.
                   </span>
                 </label>
