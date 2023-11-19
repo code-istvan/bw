@@ -10,6 +10,7 @@ function Seo({
   location,
   children,
   ogFeaturedImage,
+  schemaMarkup,
 }) {
   const { site } = useStaticQuery(
     graphql`
@@ -50,6 +51,11 @@ function Seo({
       <meta name="twitter:description" content={metaDescription} /> */}
       <meta name={`robots`} content={`index, follow`} />
       {children}
+      {schemaMarkup && (
+        <script type="application/ld+json">
+          {JSON.stringify(schemaMarkup)}
+        </script>
+      )}
     </Helmet>
   )
 }
