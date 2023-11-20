@@ -17,21 +17,6 @@ const myCustomQueries = {
 
 let plugins = [
   {
-    resolve: `gatsby-plugin-google-gtag`,
-    options: {
-      // You can add multiple tracking ids and a pageview event will be fired for all of them.
-      trackingIds: [
-        "G-KYWKTRNWDQ", // Google Analytics / GA
-      ],
-      // This object is used for configuration specific to this plugin
-      pluginConfig: {
-        // Puts tracking script in the head instead of the body
-        head: true,
-        // Setting this parameter is also optional
-      },
-    },
-  },
-  {
     resolve: `gatsby-source-filesystem`,
     options: {
       path: `./blog`,
@@ -212,9 +197,18 @@ let plugins = [
 
 if (process.env.NODE_ENV === "production") {
   plugins.push({
-    resolve: `gatsby-plugin-google-analytics`,
+    resolve: `gatsby-plugin-google-gtag`,
     options: {
-      trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID,
+      // You can add multiple tracking ids and a pageview event will be fired for all of them.
+      trackingIds: [
+        process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID, // Google Analytics / GA
+      ],
+      // This object is used for configuration specific to this plugin
+      pluginConfig: {
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // Setting this parameter is also optional
+      },
     },
   })
 }
