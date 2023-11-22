@@ -99,7 +99,7 @@ export default function Prices() {
             Pre-registration is required to participate in the astanga Mysore
             programme! Register for Mysore Programme{" "}
             <CustomLink
-              link="/mysore-programme-application/"
+              link="/mysore-programme-application"
               title="here"
               classNames="link-decoration-remove"
             />

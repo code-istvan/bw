@@ -67,7 +67,7 @@ export default function Osztondij() {
           <p>
             Jógagyakorlásod minél hatékonyabbá tételében – a reggeli{" "}
             <CustomLink
-              link="/astanga-mysore-program/"
+              link="/astanga-mysore-program"
               title="Mysore-program"
               classNames="body link-decoration-remove schedule-teacher"
             />{" "}
@@ -84,7 +84,7 @@ export default function Osztondij() {
             />{" "}
             biztosítunk helyet számodra. A második hónapban az{" "}
             <CustomLink
-              link="/astanga-mysore-kurzus/"
+              link="/astanga-mysore-kurzus"
               title="astanga Mysore-kurzussal"
               classNames="body link-decoration-remove schedule-teacher"
             />{" "}

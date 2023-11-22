@@ -12,13 +12,13 @@ import Seo from "../components/seo"
 export default function AstangaMysoreKurzus() {
   const hasznosOlvasmanyok = [
     {
-      link: "/blog/5-dolog-amit-az-uj-gyakorloknak-erdemes-megtanulnia/",
+      link: "/blog/5-dolog-amit-az-uj-gyakorloknak-erdemes-megtanulnia",
       title: "5 dolog amit az új gyakorlóknak érdemes megtanulnia",
       classNames:
         "body link-decoration-remove clr-brand-orange schedule-teacher",
     },
     {
-      link: "/blog/sharath-jois-arrol-hogy-miben-nyujt-tobbet-egy-helyi-shala-mint-egy-hagyomanyos-edzes/",
+      link: "/blog/sharath-jois-arrol-hogy-miben-nyujt-tobbet-egy-helyi-shala-mint-egy-hagyomanyos-edzes",
       title:
         "Sharath Jois arról, hogy miben nyújt többet egy helyi Shala mint egy hagyományos edzés",
       classNames:
