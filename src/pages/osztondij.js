@@ -237,6 +237,7 @@ export const Head = ({ location }) => {
       title="Jóga ösztöndíj | Bandha Works Jógaiskola"
       description="A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget."
       ogFeaturedImage={`${siteUrl}${ogImage}`}
+      fbAppId="162565676946134"
       location={location}
       schemaMarkup={schema}
     />

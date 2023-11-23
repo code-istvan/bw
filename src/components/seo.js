@@ -11,6 +11,7 @@ function Seo({
   children,
   ogFeaturedImage,
   schemaMarkup,
+  fbAppId,
 }) {
   const { site } = useStaticQuery(
     graphql`
@@ -43,6 +44,7 @@ function Seo({
       <meta property="og:type" content="website" />
       <meta property="og:image" content={ogFeaturedImage} />
       <meta name="twitter:card" content="summary" />
+      {fbAppId && <meta property="fb:app_id" content={fbAppId} />}
       {/* <meta
         name="twitter:creator"
         content={site.siteMetadata?.social?.twitter || ``}
