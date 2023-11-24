@@ -188,7 +188,7 @@ let plugins = [
     resolve: "gatsby-plugin-robots-txt",
     options: {
       host: "https://bandha.works",
-      sitemap: "https://bandha.works/sitemap.xml",
+      sitemap: "https://bandha.works/sitemap-0.xml",
       policy: [{ userAgent: "*", allow: "/" }],
     },
   },
