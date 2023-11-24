@@ -101,9 +101,9 @@ const Schedule = ({ data }) => {
               let day = new Date(date).getDay()
               let dayName = daysArray[day].toUpperCase()
               let monthDay = new Date(date)
-                .toLocaleDateString("hu-HU", {
-                  month: "long",
+                .toLocaleDateString("en-US", {
                   day: "numeric",
+                  month: "long",
                 })
                 .toUpperCase()
 
