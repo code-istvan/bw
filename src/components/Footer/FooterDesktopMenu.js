@@ -100,7 +100,7 @@ const FooterDesktopMenu = () => {
           </li>
           <li>
             <CustomLink
-              link="https://shop.bandha.works/"
+              link="https://shop.bandha.works"
               classNames="clr-shades-lightGray footer-menuitem heading heading--4"
               title="SHOP"
             />
