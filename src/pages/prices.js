@@ -20,7 +20,7 @@ export default function Prices() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Bandha Works Yoga Shala prices"
             placeholder="blurred"
           />
           <StaticImage
@@ -30,7 +30,7 @@ export default function Prices() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Bandha Works Yoga Shala prices"
             placeholder="blurred"
           />
         </div>

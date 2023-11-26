@@ -33,14 +33,14 @@ export default function Parampara() {
           />
         </div>
       </div>
-      <div className="row  tight--desktop--container">
-        <h1 className="mt-40px">
+      <div className="row tight--desktop--container">
+        <h2 className="mt-40px heading heading--1 text-align-left mb-0px">
           <span className="clr-brand-orange heading heading--1">
             Tanítói láncolatunk:
           </span>{" "}
           R. Sharath Jois – K. Pattabhi Jois – T. Krishnamacharya – Ramamohana
           Brahmachari… ...Patandzsali
-        </h1>
+        </h2>
         <p className="mt-20px">
           A parampara a tudás, amelyet a tanár a tanítványára hagyományoz. A
           parampara szanszkrit szó jelentése a tudás átadásának legértékesebb

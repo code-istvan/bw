@@ -43,7 +43,7 @@ export default function Osztondij() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Astanga jóga ösztöndíj"
             placeholder="blurred"
           />
         </div>
