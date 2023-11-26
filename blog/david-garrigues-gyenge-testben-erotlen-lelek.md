@@ -7,6 +7,7 @@ tags:
   - jógaelmélet
 date: 2014-09-30T13:22:14.675Z
 thumbnail: /blogpostimages/dg.jpg.webp
+thumbnailMobil: /blogpostimages/dg.jpg.webp
 ---
 ### Sri K. Pattabhi Jois gyakran emlegette mára híressé vált mondását, miszerint “gyenge test, gyenge elme”, ugyanakkor szeretett idézni a jóga szentírásból is, amelyben az áll, hogy az “Önvaló nem ismerhető meg a gyengék által”.
 
@@ -36,5 +37,5 @@ Minden, amit eddig leírtam, rám is igaz volt. A jóga csak lassan, intenzív f
 Az ászanák világában átadom magam a csavarás, az előrehajlás, a hátrahajlás és egyéb technikai tanulási folyamatnak. Ahhoz, hogy ezeket magas szinte művelhessem úgy, hogy sokkal több érzés, mint szakértés legyen benne, nem csak a fizikai erőmre van szükség, hanem arra is, hogy alaposan igénybe vegyem az agyamat, az idegrendszeremet, az intelligenciámat, a szívemet és a koncentráció általi mentális erőmet.
 Tehát nem csak egyszerűen hajlítok és csavarok, azért hogy erősödjek és rugalmasabbá váljak, vagy a gyakorlás kedvéért; de azért is, hogy kiélesítsem, hogy a megfelelő helyre irányítsam az érzékeimet, hogy belakjam a testemet, hogy élvezhessem a „Teljes képet”, amely a „Nagy alkotó” kifinomult látásmódjában él, amely megmutatja, milyen csodálatos a szellem.
 
-**Forrás:** [http://www.elephantjournal.com/2012/04/weak-bodyweak-mind-david-garrigues/](url)
+**Forrás:** Elephant Journal - Weak body, weak mind by David Garrigues
 **Fordította:** Fazekas Gyöngyi
