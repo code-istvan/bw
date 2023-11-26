@@ -39,7 +39,7 @@ export default function AdatvedelmiTajekoztato() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Bandha Works Jógaiskola adatvédelmi tájékoztató"
             placeholder="blurred"
           />
           <StaticImage
@@ -49,7 +49,7 @@ export default function AdatvedelmiTajekoztato() {
             loading="eager"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Astanga jóga Mysore"
+            alt="Bandha Works Jógaiskola adatvédelmi tájékoztató"
             placeholder="blurred"
           />
         </div>
