@@ -7,11 +7,12 @@ tags:
   - shala
 date: 2018-04-13T11:37:11.407Z
 thumbnail: /blogpostimages/tuzceremonia_meghivo.jpg.webp
+thumbnailMobil: /blogpostimages/tuzceremonia_meghivo.jpg.webp
 ---
 Bhuh (föld), bhuvah (ég) és szváhá (mennyei birodalom). Felcsendül a mantra, és repíti magával a tüzre dobott felajánlásokat. Ösi és kultúrákon átívelö hagyomány a tüzáldozat a szerencsés kezdetek és kedvezö körülmények megteremtéséhez. Indiában mind a mai napig részesei lehetünk ennek a gyönyörű szertartásnak, amely meghittségével a tömeget közösséggé, a teret szentéllyé változtatja. Éppen ezért mi is szeretettel várunk mindenkit a tűzceremóniára, amely  felizzítja a tapasz tüzét a napi szádhanánkhoz az új gyakorlóhelyünkön.
 
-**Ceremóniamester:** [Baktai Ádám](https://bhaktikutir.hu/baktai-adam-a-bhaktikutir-papaja/) védikus pap
-**Díszvendég:** [Saraswathi Jois](https://bandha.works/astanga-ikonok-saraswathi/)
+**Ceremóniamester:** [Baktai Ádám](https://bhaktikutir.hu/baktai-adam-a-bhaktikutir-papaja) védikus pap
+**Díszvendég:** [Saraswathi Jois] (https://www.kpjayshala.com) (Sri. K. Pattabhi Jois lánya)
 **Helyszín:** Frankel Leó út 18. (ahonnét a füst jön majd…)
 **Időpont:** [Aksaya Tritiya](https://en.wikipedia.org/wiki/Akshaya_Tritiya) az év legjobb napja, 2018. április 18. reggel 5 óra.
 **Dress code:** Ünnepi öltözet, vagy amiben jól érzed magad”
