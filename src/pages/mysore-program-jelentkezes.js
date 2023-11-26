@@ -142,8 +142,11 @@ export default function MysoreprogramJelentkezes() {
                     <input type="checkbox" name="checkbox" required />
                     <span>
                       Megismertem és elfogadom az
-                      <Link to="/adatvedelem"> adatvédelmi tájékoztatót</Link>,
-                      hozzájárulok nevem és email címem kezeléséhez.
+                      <Link to="/adatvedelemi-tajekoztato">
+                        {" "}
+                        adatvédelmi tájékoztatót
+                      </Link>
+                      , hozzájárulok nevem és email címem kezeléséhez.
                     </span>
                   </label>
                 </div>
