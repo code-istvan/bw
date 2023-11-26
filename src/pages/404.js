@@ -19,7 +19,7 @@ const NotFoundPage = () => (
           loading="eager"
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
-          alt="Astanga jóga Mysore"
+          alt="Bandha Works Jógaiskola 404-es oldal"
           placeholder="blurred"
         />
         <StaticImage
@@ -29,7 +29,7 @@ const NotFoundPage = () => (
           loading="eager"
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
-          alt="Astanga jóga Mysore"
+          alt="Bandha Works Jógaiskola 404-es oldal"
           placeholder="blurred"
         />
       </div>
