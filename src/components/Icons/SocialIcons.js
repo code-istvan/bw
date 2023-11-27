@@ -12,7 +12,7 @@ export default function SocialIcons(props) {
       </div>
       <div>
         <Icons.Soundcloud url="https://soundcloud.com/bandhaworks-hu" />
-        <Icons.Messenger url="http://m.me/bandhaworks" />
+        <Icons.Messenger url="https://m.me/bandhaworks" />
         <Icons.Telegram url="https://t.me/@istvan108" />
       </div>
     </div>
