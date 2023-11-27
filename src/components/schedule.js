@@ -138,11 +138,13 @@ const Schedule = ({ data }) => {
                           <div className="schedule-class-second-line">
                             <div className="signup-line">
                               <h3>{class1English}</h3>
-                              <CustomLink
-                                link={signup1}
-                                classNames="body clr-brand-orange link-decoration-remove"
-                                title="Tickets"
-                              />
+                              {signup1 && signup1 !== "null" && (
+                                <CustomLink
+                                  link={signup1}
+                                  classNames="body clr-brand-orange link-decoration-remove"
+                                  title="Tickets"
+                                />
+                              )}
                             </div>
                             <CustomLink
                               link={teacherlink1}
@@ -175,11 +177,13 @@ const Schedule = ({ data }) => {
                               <div className="schedule-class-second-line">
                                 <div className="signup-line">
                                   <h3>{class2English}</h3>
-                                  <CustomLink
-                                    link={signup2}
-                                    classNames="body clr-brand-orange link-decoration-remove"
-                                    title="Tickets"
-                                  />
+                                  {signup2 && signup2 !== "null" && (
+                                    <CustomLink
+                                      link={signup2}
+                                      classNames="body clr-brand-orange link-decoration-remove"
+                                      title="Tickets"
+                                    />
+                                  )}
                                 </div>
                                 <div className="vertical-separator" />
                                 <CustomLink
@@ -214,11 +218,13 @@ const Schedule = ({ data }) => {
                             <div className="schedule-class-second-line">
                               <div className="signup-line">
                                 <h3>{class3English}</h3>
-                                <CustomLink
-                                  link={signup3}
-                                  classNames="body clr-brand-orange link-decoration-remove"
-                                  title="Tickets"
-                                />
+                                {signup3 && signup3 !== "null" && (
+                                  <CustomLink
+                                    link={signup3}
+                                    classNames="body clr-brand-orange link-decoration-remove"
+                                    title="Tickets"
+                                  />
+                                )}
                               </div>
                               <div className="vertical-separator" />
                               <CustomLink
@@ -246,11 +252,13 @@ const Schedule = ({ data }) => {
                             <div className="schedule-class-second-line">
                               <div className="signup-line">
                                 <h3>{class4English}</h3>
-                                <CustomLink
-                                  link={signup4}
-                                  classNames="body clr-brand-orange link-decoration-remove"
-                                  title="Tickets"
-                                />
+                                {signup4 && signup4 !== "null" && (
+                                  <CustomLink
+                                    link={signup4}
+                                    classNames="body clr-brand-orange link-decoration-remove"
+                                    title="Tickets"
+                                  />
+                                )}
                               </div>
                               <div className="vertical-separator" />
                               <CustomLink
