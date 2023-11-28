@@ -189,7 +189,7 @@ export default function AstangaKezdoTanfolyam() {
                 <p>
                   A{" "}
                   <CustomLink
-                    link="/astanga-triszthana/"
+                    link="/blog/astanga-triszthana/"
                     title="triszthána,"
                     classNames="body link-decoration-remove schedule-teacher"
                   />{" "}
