@@ -100,8 +100,11 @@ exports.createPages = async ({ actions, graphql }) => {
         })
       })
 
+      console.log("Creating page for slug:", post.fields.slug)
+
       createPage({
-        path: `blog${post.fields.slug}`,
+        path: `/blog${post.fields.slug}`,
+        // path: `blog${post.fields.slug}`,
         component: `${blogPostTemplate}?__contentFilePath=${post.internal.contentFilePath}`,
         context: {
           slug: post.fields.slug,
