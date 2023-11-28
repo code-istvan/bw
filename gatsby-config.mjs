@@ -162,12 +162,12 @@ let plugins = [
       },
     },
   },
-  {
-    resolve: `gatsby-plugin-page-creator`,
-    options: {
-      path: `./blog`,
-    },
-  },
+  // {
+  //   resolve: `gatsby-plugin-page-creator`,
+  //   options: {
+  //     path: `./blog`,
+  //   },
+  // },
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
