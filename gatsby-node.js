@@ -28,63 +28,8 @@ exports.createPages = async ({ actions, graphql }) => {
   const blogListTamplate = path.resolve("./src/components/Blog/blogList.js")
   const blogPostTemplate = path.resolve("./src/components/Blog/blogPost.js")
   const tagsTemplate = path.resolve("./src/components/Blog/tags.js")
-  // const tagsShopify = path.resolve("./src/components/Shopify/tagsShop.js")
   const scheduleTemplate = path.resolve("./src/components/orarend.js")
   const scheduleTemplateEnglish = path.resolve("./src/components/schedule.js")
-
-  // shopify_commen-out
-  // const productShopify = await graphql(`
-  //   query {
-  //     allShopifyProduct {
-  //       edges {
-  //         node {
-  //           title
-  //           handle
-  //           tags
-  //           featuredMedia {
-  //             preview {
-  //               image {
-  //                 localFile {
-  //                   childrenImageSharp {
-  //                     gatsbyImageData
-  //                   }
-  //                 }
-  //               }
-  //             }
-  //           }
-  //           variants {
-  //             shopifyId
-  //             product {
-  //               options {
-  //                 name
-  //                 position
-  //                 shopifyId
-  //                 values
-  //               }
-  //             }
-  //           }
-  //           priceRangeV2 {
-  //             maxVariantPrice {
-  //               amount
-  //             }
-  //           }
-  //           descriptionHtml
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
-
-  // shopify_commen-out
-  // productShopify.data.allShopifyProduct.edges.forEach(({ node }) => {
-  //   createPage({
-  //     path: `/shop/products/${node.handle}`,
-  //     component: path.resolve(`./src/components/Shopify/product.js`),
-  //     context: {
-  //       product: node,
-  //     },
-  //   })
-  // })
 
   return graphql(ALL_QUERIES).then(result => {
     if (result.errors) {
@@ -126,22 +71,6 @@ exports.createPages = async ({ actions, graphql }) => {
       })
     })
 
-    // shopify_commen-out
-    // const products = productShopify.data.allShopifyProduct.edges
-    // let productTags = []
-    // products.forEach(({ node }) => {
-    //   productTags.push(...node.tags)
-    // })
-    // productTags = Array.from(new Set(productTags))
-
-    // productTags.forEach(productTag => {
-    //   createPage({
-    //     path: `shop/tags/${slugify(productTag)}`,
-    //     component: tagsShopify,
-    //     context: { productTag },
-    //   })
-    // })
-
     const postsPerPage = 5
     const postNumPages = Math.ceil(Number(posts.length) / 5)
     // create page for each mdx node
@@ -172,7 +101,13 @@ exports.createPages = async ({ actions, graphql }) => {
       })
 
       createPage({
-        path: `blog${post.fields.slug}`,
+        // path: `blog${post.fields.slug}`,
+        path: `/blog${
+          post.fields.slug.startsWith("/")
+            ? post.fields.slug.substring(1)
+            : post.fields.slug
+        }`,
+        // component: `${blogPostTemplate}?__contentFilePath=${post.internal.contentFilePath}`,
         component: `${blogPostTemplate}?__contentFilePath=${post.internal.contentFilePath}`,
         context: {
           slug: post.fields.slug,
