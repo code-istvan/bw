@@ -8,7 +8,7 @@ import "../../sass/components/_blogSidebar.scss"
 const BlogSidebar = () => {
   const mostPopularPosts = [
     {
-      link: "/blog/david-garrigues-gyenge-testben-erotlen-lelek/",
+      link: "/blog/david-garrigues-gyenge-testben-erotlen-lelek",
       title: "David Garrigues: Gyenge testben erőtlen lélek",
     },
     {
@@ -16,7 +16,7 @@ const BlogSidebar = () => {
       title: "Az astanga vinyásza jóga nem hatha jóga",
     },
     {
-      link: "/blog/az-astanga-muveszete/",
+      link: "/blog/az-astanga-muveszete",
       title: "Az astanga művészete",
     },
     { link: "/blog/a-kombucha-tea", title: "A kombucha tea" },

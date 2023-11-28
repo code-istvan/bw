@@ -73,7 +73,7 @@ const Footer = ({ handleOpenMenu }) => {
               <p className="small">
                 Designed and code by <br className="footer-br" />
                 <CustomLink
-                  link="https://omworks.hu/"
+                  link="https://omworks.hu"
                   title=" OmWorks Yoga Creatives"
                   classNames="link-color-orange"
                 />

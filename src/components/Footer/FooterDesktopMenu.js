@@ -75,7 +75,7 @@ const FooterDesktopMenu = () => {
           </li>
           {menuItemsTudnivalok.map(({ link, label, extraClass }) => (
             <li key={label}>
-              <a href={link}>
+              <Link to={link}>
                 <p
                   className={`clr-shades-lightGray footer-submenu ${
                     isHoveringTudnivalok ? "menu-flash" : ""
@@ -83,7 +83,7 @@ const FooterDesktopMenu = () => {
                 >
                   {label}
                 </p>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

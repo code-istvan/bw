@@ -60,7 +60,7 @@ export default function Szaznyolc() {
           <p>
             {" "}
             <CustomLink
-              link="/blog/astanga-ikonok-sri-k-pattabhi-jois-1-resz/"
+              link="/blog/astanga-ikonok-sri-k-pattabhi-jois-1-resz"
               title="Sri K. Pattabhi Jois"
               classNames="body link-decoration-remove schedule-teacher"
             />{" "}
