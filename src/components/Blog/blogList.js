@@ -3,7 +3,8 @@ import Layout from "../Layouts/Layout"
 import Seo from "../seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
-import { graphql, navigate } from "gatsby"
+import { graphql, navigate, useStaticQuery } from "gatsby"
+import { getSrc } from "gatsby-plugin-image"
 import Icons from "../Icons/Icons"
 import BlogTags from "./BlogTags"
 import BlogSidebar from "./BlogSidebar"
@@ -25,7 +26,6 @@ export default function Blog({ pageContext, data }) {
 
   return (
     <Layout>
-      <Seo title="BLOG" />
       <div className="blog-hero-container">
         <h1 className="blog-title">BLOG</h1>
         <div className="row blog--desktop--container">
@@ -133,6 +133,47 @@ export default function Blog({ pageContext, data }) {
         </div>
       </div>
     </Layout>
+  )
+}
+
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "blog_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Project",
+    name: "Bandha Works Blog",
+    description:
+      "A Bandha Works blogon astanga jóga és jógikus életmód témájában olvashatsz érdekes cikkeket, interjúkat, és a jóga világában történt érdekességeket.",
+    url: "https://bandha.works/blog",
+    logo: "https://mula.bandha.works/images/bw_logo.png",
+  }
+
+  return (
+    <Seo
+      title="Blog | Bandha Works Jógaiskola"
+      description="A Bandha Works blogon astanga jóga és jógikus életmód témájában olvashatsz érdekes cikkeket, interjúkat, és a jóga világában történt érdekességeket."
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      fbAppId="162565676946134"
+      location={location}
+      schemaMarkup={schema}
+    />
   )
 }
 
