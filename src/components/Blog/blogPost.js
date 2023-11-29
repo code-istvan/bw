@@ -156,11 +156,10 @@ export const Head = ({ location, data }) => {
 
   const schema = {
     "@context": "https://schema.org",
-    "@type": "Project",
-    name: "Bandha Works Blog",
-    description:
-      "A Bandha Works blogon astanga jóga és jógikus életmód témájában olvashatsz érdekes cikkeket, interjúkat, és a jóga világában történt érdekességeket.",
-    url: "https://bandha.works/blog",
+    "@type": "BlogPosting",
+    name: post.frontmatter.title,
+    description: post.frontmatter.description,
+    url: `${siteUrl}${location.pathname}`,
     logo: "https://mula.bandha.works/images/bw_logo.png",
   }
 
