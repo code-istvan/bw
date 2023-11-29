@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql, useStaticQuery, navigate } from "gatsby"
+import { Link, graphql, navigate } from "gatsby"
 import PropTypes from "prop-types"
 import Layout from "../Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
@@ -97,25 +97,9 @@ Tags.propTypes = {
 
 export default Tags
 
-export const Head = ({ pageContext, location, data }) => {
-  const data2 = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "blog_desktop.jpg" }) {
-        childImageSharp {
-          gatsbyImageData(width: 1200)
-        }
-      }
-      site {
-        siteMetadata {
-          siteUrl
-        }
-      }
-    }
-  `)
-
-  const ogImage = getSrc(data2.file.childImageSharp.gatsbyImageData)
-  const siteUrl = data2.site.siteMetadata.siteUrl
-  // const { tag } = pageContext
+export const Head = ({ location, data }) => {
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
 
   const schema = {
     "@context": "https://schema.org",
@@ -138,8 +122,8 @@ export const Head = ({ pageContext, location, data }) => {
   )
 }
 
-export const pageQuery = graphql`
-  query ($tag: String) {
+export const combinedQuery = graphql`
+  query CombinedPageQuery($tag: String) {
     allMdx(limit: 2000, filter: { frontmatter: { tags: { in: [$tag] } } }) {
       totalCount
       edges {
@@ -151,6 +135,16 @@ export const pageQuery = graphql`
             title
           }
         }
+      }
+    }
+    file(relativePath: { eq: "orarend_desktop.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(width: 1200)
+      }
+    }
+    site {
+      siteMetadata {
+        siteUrl
       }
     }
   }
