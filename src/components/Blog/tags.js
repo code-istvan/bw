@@ -137,7 +137,7 @@ export const combinedQuery = graphql`
         }
       }
     }
-    file(relativePath: { eq: "orarend_desktop.jpg" }) {
+    file(relativePath: { eq: "blog_desktop.jpg" }) {
       childImageSharp {
         gatsbyImageData(width: 1200)
       }
