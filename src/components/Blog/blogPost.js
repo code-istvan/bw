@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react"
 import { graphql, Link, navigate } from "gatsby"
+import { getSrc } from "gatsby-plugin-image"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
@@ -28,19 +29,16 @@ const BlogPost = ({ data, children, pageContext, location }) => {
   const sectionRef = useRef(null)
   useEffect(() => setArticleProperties(sectionRef.current), [])
 
-  console.log("pageContext", pageContext)
-  console.log("post.frontmatter.title", post.frontmatter.title)
-
   return (
     <Layout articleProperties={articleProperties}>
       <div className="blog-posts-wrapper">
         <div className="row">
           <div ref={sectionRef} className="col-12-xs col-9-md col-9-xl">
-            <Seo
+            {/* <Seo
               title={post.frontmatter.title}
               description={post.frontmatter.description}
               // thumbnail={src}
-            />
+            /> */}
             <div
               className={`${
                 breakpoints.md
@@ -151,6 +149,33 @@ const BlogPost = ({ data, children, pageContext, location }) => {
 
 export default BlogPost
 
+export const Head = ({ location, data }) => {
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+  const post = data.mdx
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Project",
+    name: "Bandha Works Blog",
+    description:
+      "A Bandha Works blogon astanga jóga és jógikus életmód témájában olvashatsz érdekes cikkeket, interjúkat, és a jóga világában történt érdekességeket.",
+    url: "https://bandha.works/blog",
+    logo: "https://mula.bandha.works/images/bw_logo.png",
+  }
+
+  return (
+    <Seo
+      title={post.frontmatter.title}
+      description={post.frontmatter.description}
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      fbAppId="162565676946134"
+      location={location}
+      schemaMarkup={schema}
+    />
+  )
+}
+
 export const query = graphql`
   query PostsBySlug($slug: String!, $author: String) {
     authorsJson(name: { eq: $author }) {
@@ -179,6 +204,16 @@ export const query = graphql`
         tags
         thumbnail
         description
+      }
+    }
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
+    file(relativePath: { eq: "blog_desktop.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(width: 1200)
       }
     }
     site {
