@@ -136,22 +136,7 @@ export default function Blog({ pageContext, data }) {
   )
 }
 
-export const Head = ({ location }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "blog_desktop.jpg" }) {
-        childImageSharp {
-          gatsbyImageData(width: 1200)
-        }
-      }
-      site {
-        siteMetadata {
-          siteUrl
-        }
-      }
-    }
-  `)
-
+export const Head = ({ location, data }) => {
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
 
@@ -177,8 +162,8 @@ export const Head = ({ location }) => {
   )
 }
 
-export const blogListQuery = graphql`
-  query blogListQuery($skip: Int!, $limit: Int!) {
+export const blogListAndImageDataQuery = graphql`
+  query blogListAndImageDataQuery($skip: Int!, $limit: Int!) {
     allMdx(sort: { frontmatter: { date: DESC } }, limit: $limit, skip: $skip) {
       nodes {
         excerpt
@@ -195,6 +180,16 @@ export const blogListQuery = graphql`
           author
           tags
         }
+      }
+    }
+    file(relativePath: { eq: "blog_desktop.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(width: 1200)
+      }
+    }
+    site {
+      siteMetadata {
+        siteUrl
       }
     }
   }
