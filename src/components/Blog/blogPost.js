@@ -215,10 +215,5 @@ export const query = graphql`
         gatsbyImageData(width: 1200)
       }
     }
-    site {
-      siteMetadata {
-        siteUrl
-      }
-    }
   }
 `

@@ -1,11 +1,12 @@
 import React from "react"
-import { Link, graphql, navigate } from "gatsby"
+import { Link, graphql, useStaticQuery, navigate } from "gatsby"
 import PropTypes from "prop-types"
 import Layout from "../Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import Seo from "../seo"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
+import { getSrc } from "gatsby-plugin-image"
 import "../../sass/components/_tags.scss"
 
 const Tags = ({ pageContext, data }) => {
@@ -17,7 +18,6 @@ const Tags = ({ pageContext, data }) => {
 
   return (
     <Layout>
-      <Seo title="Cimkék" />
       <div className="blog-hero-container">
         <div className="row tight--desktop--container">
           <h1 className="blog-title">BLOG</h1>
@@ -96,6 +96,47 @@ Tags.propTypes = {
 }
 
 export default Tags
+
+export const Head = ({ pageContext, location, data }) => {
+  const data2 = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "blog_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data2.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data2.site.siteMetadata.siteUrl
+  // const { tag } = pageContext
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    name: "Blog cimkék szerinti szűrése",
+    description: "A Bandha Works Blog cimkék szerinti szűrése",
+    url: `${siteUrl}${location.pathname}`,
+    logo: "https://mula.bandha.works/images/bw_logo.png",
+  }
+
+  return (
+    <Seo
+      title="Blog cimkék | Bandha Works Jógaiskola"
+      description="A Bandha Works Blog cimkék szerinti szűrése"
+      ogFeaturedImage={`${siteUrl}${ogImage}`}
+      fbAppId="162565676946134"
+      location={location}
+      schemaMarkup={schema}
+    />
+  )
+}
 
 export const pageQuery = graphql`
   query ($tag: String) {
