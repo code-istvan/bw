@@ -52,6 +52,22 @@ const Orarend = ({ data }) => {
           />
         </div>
       </div>
+      {breakpoints.md ? (
+        <>
+          <div className="separator-horizontal-full"></div>
+          <div className="row mt-40px">
+            <Button
+              type="button"
+              buttonStyle="btn--secondary--solid--full"
+              onClick={() => {
+                navigate("/osztondij")
+              }}
+            >
+              Jóga ösztondíj 2024
+            </Button>
+          </div>
+        </>
+      ) : null}
       <div className="mt-40px">
         <ul>
           {sortedEdges.map(({ node }) => {
