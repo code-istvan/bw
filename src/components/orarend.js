@@ -58,7 +58,7 @@ const Orarend = ({ data }) => {
           <div className="row mt-40px">
             <Button
               type="button"
-              buttonStyle="btn--secondary--solid--full"
+              buttonStyle="btn--primary--outline-full"
               onClick={() => {
                 navigate("/osztondij")
               }}
