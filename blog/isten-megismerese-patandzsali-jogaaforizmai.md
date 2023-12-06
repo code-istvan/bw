@@ -8,8 +8,8 @@ author: István
 tags:
   - jógaelmélet
 date: 2023-12-06T09:11:23.301Z
-thumbnail: /blogpostimages/isten-megismerese-hardcover.jpg
-thumbnailMobil: /blogpostimages/ke-pernyo-foto-2023-12-05-13.42.00.png
+thumbnail: /blogpostimages/ke-pernyo-foto-2023-12-05-13.42.00.png
+thumbnailMobil: /blogpostimages/isten-megismerese-hardcover.jpg
 ---
 ## Nagy örömmel tudatjuk Veletek, hogy megjelent legújabb könyvünk, Patandzsali Jóga szútráinak új fordítása,az „Isten megismerése - Patandzsali jógaaforizmái"!  
 
