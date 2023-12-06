@@ -9,7 +9,7 @@ tags:
   - jógaelmélet
 date: 2023-12-06T09:11:23.301Z
 thumbnail: /blogpostimages/ke-pernyo-foto-2023-12-05-13.42.00.png
-thumbnailMobil: /blogpostimages/isten-megismerese-hardcover.jpg
+thumbnailMobil: /blogpostimages/mobil.jpg
 ---
 ## Nagy örömmel tudatjuk Veletek, hogy megjelent legújabb könyvünk, Patandzsali Jóga szútráinak új fordítása,az „Isten megismerése - Patandzsali jógaaforizmái"!  
 
