@@ -37,5 +37,5 @@ Ezentúl külön köszönetünket szeretnénk kifejezni **Dr. Kővári Zsuzsána
 
 A könyvet webshopunkban tudod megvásárolni: [Isten megismerése - Patandzsali jógaaforizmái](https://shop.bandha.works/products/isten-megismerese-patandzsali-jogaaforizmai). 
 
-Raktárról szállítjuk egy munkanapon belűl a futárszolgálathoz kerülnek a rendelések. 
+Raktárról szállítjuk!
 
