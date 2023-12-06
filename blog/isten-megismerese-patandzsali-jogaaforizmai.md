@@ -22,8 +22,7 @@ Ez a különleges kiadvány mélyreható betekintést nyújt a jógikus filozóf
 Patandzsali ősi bölcsessége által vezetve, ez a könyv a jógikus tudás és a spirituális megvilágosodás útját tárja elénk. Az aforizmák egyszerű, mégis mélyreható üzenetekkel segítenek a belső béke és a tudatos jelenlét elérésében.
 Legyen szó városi jógikról vagy haladó gyakorlókról, ez a könyv mindenki számára gazdag forrás lehet a mindennapi gyakorlatokhoz.  
 
-Engedd meg, hogy ez a különleges könyv útmutatást nyújtson neked az önismeret és a belső harmónia felé vezető úton.
-Fedezd  fel velünk „Isten megismerését” Patandzsali bölcs szavaival, és  merülj el a jógikus tudás mélységeiben. Várjuk, hogy együtt utazzunk ezen az inspiráló spirituális úton!
+Engedd meg, hogy ez a különleges könyv útmutatást nyújtson neked az önismeret és a belső harmónia felé vezető úton. Fedezd  fel velünk „Isten megismerését” Patandzsali bölcs szavaival, és  merülj el a jógikus tudás mélységeiben. Várjuk, hogy együtt utazzunk ezen az inspiráló spirituális úton!
 
 Külön öröm és megtiszteltetés számunkra, hogy iskolánk megjelentetheti a Jóga szútrának azt a kommentárját, amely a legrégebbi astanga jóga iskola, a Mysore-i KPJAYI (mai nevén Sharath Yoga Centre) oktatási anyagát is képezi.
 
