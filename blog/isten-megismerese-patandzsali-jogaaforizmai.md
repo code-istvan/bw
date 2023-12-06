@@ -11,9 +11,9 @@ date: 2023-12-06T09:11:23.301Z
 thumbnail: /blogpostimages/ke-pernyo-foto-2023-12-05-13.42.00.png
 thumbnailMobil: /blogpostimages/mobil.jpg
 ---
-## Nagy örömmel tudatjuk Veletek, hogy megjelent legújabb könyvünk, Patandzsali Jóga szútráinak új fordítása,az „Isten megismerése - Patandzsali jógaaforizmái"!  
+## Nagy örömmel tudatjuk Veletek, hogy megjelent legújabb könyvünk, Patandzsali Jóga szútráinak új fordítása, az „Isten megismerése - Patandzsali jógaaforizmái"!  
 
-Ebben  a különleges kiadványban Szvámi Prabhavananda és Christopher Isherwood kommentárjai olvashatók. A szerzők mélyreható betekintést nyújtanak a jógikus filozófiába, és kiváló útmutatót kínálnak mindazoknak, akik
+Ebben  a különleges kiadványban **Szvámi Prabhavananda** és **Christopher Isherwood** kommentárjai olvashatók. A szerzők mélyreható betekintést nyújtanak a jógikus filozófiába, és kiváló útmutatót kínálnak mindazoknak, akik
 szeretnének mélyebben elmerülni a spirituális gyakorlatok világában.
 
 Patandzsali ősi bölcsessége által vezetve, ez a könyv a jógikus tudás és a spirituális megvilágosodás útját tárja elénk. Az aforizmák  és a szerzők kommentárjai  egyszerű, mégis mélyreható üzenetekkel segítenek a belső béke és a tudatos jelenlét elérésében.
@@ -37,5 +37,7 @@ Ezentúl külön köszönetünket szeretnénk kifejezni **Dr. Kővári Zsuzsána
 
 A könyvet webshopunkban tudod megvásárolni: [Isten megismerése - Patandzsali jógaaforizmái](https://shop.bandha.works/products/isten-megismerese-patandzsali-jogaaforizmai). 
 
-Raktárról szállítjuk!
+Végül, minden kedves olvasónknak szívből kívánunk gazdag és elgondolkodtató olvasmányélményt "Isten megismerése - Patandzsali jógaaforizmái" című könyvünkkel. Bízunk benne, hogy ez a mű nemcsak tudást ad, hanem inspiráló útitárs is lesz a spirituális úton.
+
+Jó olvasást és mély spirituális elmerülést kívánunk!
 
