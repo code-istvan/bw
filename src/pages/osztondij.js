@@ -144,7 +144,7 @@ export default function Osztondij() {
                 Az első fordulóra online tudsz jelentkezni a fenti leírás
                 szerint. A jelentkezési felület{" "}
                 <strong>
-                  2023. december 7. 12:00-tól, december 10. 12:00-ig
+                  2023. december 8. 18:00-tól, december 11. 18:00-ig
                 </strong>{" "}
                 lesz elérhető ezen az oldalon.
                 <br /> <br />
