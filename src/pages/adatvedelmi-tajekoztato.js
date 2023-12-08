@@ -252,6 +252,54 @@ export default function AdatvedelmiTajekoztato() {
               Adatkezelő számára. [GDPR 6. Cikk (1) bekezdés a) pont szerinti
               adatkezelés]
             </p>
+            <h3 className="mt-20px">
+              5. Astanga jóga ösztöndíjra történő on-line jelentkezéssel
+              kapcsolatos adatkezelés
+            </h3>
+
+            <p className="mt-20px">
+              Az Adatkezelő a Honlapon az „Ösztöndíj” menüpont alatt a megjelölt
+              időszakban on-line módon történő jelentkezést tesz lehetővé,
+              amelynek során az érintett az Astanga jóga ösztöndíj programra
+              történő jelentkezéshez szükséges személyes adatait (családi és
+              utónév, nem, életkor, lakcím, e-mail cím, telefonszám,
+              foglalkozás, munkahely, illetve iskola megnevezése, gyermekek
+              száma, jógagyakorlással kapcsolatos adatait) adja meg, továbbá
+              csatolja motivációs levelét. Az adatok rögzítése elektronikusan
+              történik oly módon, hogy az erre szolgáló űrlapot a jelentkező
+              kitölti, feltölti a motivációs levelét, majd a checkbox
+              kipipálásával elfogadja az Adatvédelmi tájékoztatót és egyúttal
+              hozzájárulását adja ahhoz, hogy az Adatkezelő a megadott személyes
+              adatait az ösztöndíj programba való jelentkezés elbírálása,
+              illetőleg a programban való részvétele, továbbá ezek keretében
+              kapcsolatfelvétel és üzenetküldés céljából kezelje; majd a küldés
+              gombra kattint.
+            </p>
+            <p className="mt-20px">
+              <strong>Kezelt adatok</strong>
+              <br />
+              Az Ön által a jelentkezés során megadott adatok (családi és
+              utónév, nem, életkor, lakcím, e-mail cím, telefonszám,
+              foglalkozás, munkahely, illetve iskola megnevezése, gyermekek
+              száma, jógagyakorlással kapcsolatos adatok, motivációs levélben
+              szereplő személyes adatok)
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés időtartama</strong>
+              <br />
+              Az adatokat az ösztöndíj programra történő jelentkezés
+              elbírálásáig, továbbá nyertes pályázó esetén a programban való
+              részvétel ideje alatt, illetőleg az érintett hozzájárulásának
+              visszavonásáig kezeljük.
+            </p>
+            <p className="mt-20px">
+              <strong>Az adatkezelés jogalapja</strong>
+              <br />
+              Az Ön önkéntes hozzájárulása, amelyet a jelentkezéssel ad meg
+              Adatkezelő számára. [GDPR 6. Cikk (1) bekezdés a) pont szerinti
+              adatkezelés]
+            </p>
+
             <h1 className="mt-20px">
               II. A webshopra vonatkozó adatkezelés (A szerződéskötés és a
               teljesítés érdekében kezelt adatok)
