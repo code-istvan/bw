@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import Seo from "../components/seo"
+import Button from "../components/Buttons/Button"
 import { StaticImage } from "gatsby-plugin-image"
 import { getSrc } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
@@ -49,7 +50,14 @@ export default function Osztondij() {
         </div>
       </div>
       <div className="osztondij-wrapper tight--desktop--container">
-        <div className="row mt-40px">
+        <div className="mt-20px clr-brand-orange">
+          <h3>
+            Az ösztöndíj programunkra az oldal alján található narancssárga
+            "Jelentkezés az ösztöndíjra" gombra kattintva tudsz jelentkezni!
+          </h3>
+        </div>
+
+        <div className="row mt-20px">
           <p>
             A jóga mindenki életében gyökeres változásokat hozhat, gyakorlását
             bármely élethelyzetben érdemes elkezdeni. Előfordulhat azonban, hogy
@@ -118,18 +126,26 @@ export default function Osztondij() {
           </h2>
           <p className="mb-20px">
             Az ösztöndíj igényléséhez ki kell tölteni az online jelentkezési
-            űrlapot. Ehhez kell a pályázónak csatolnia egy motivációs levelet
-            (A4-es oldal, Times New Roman 12-es betűtípus, 1,5-ös sorköz,
-            minimum 1 oldal, maximum 3), amelyben leírja, hogy ez a lehetőség
-            mit adna számára, hogyan segítené elmélyíteni vagy elindítani a jóga
-            gyakorlását és melyek azok a körülmények, amelyek nehézséget okoznak
-            a bérlet vásárlásában. Azon pályázókat, akik bejutnak a második
-            fordulóba egy személyes beszélgetésre hívjuk meg, ahol is
-            kiválasztjuk a nyertest. A nyertes pályázó három hónapig korlátlanul
-            látogathatja a Bandha Works jógastúdió óráit, a fenti menetrend
-            szerint. Továbbá minden hónapban egy egyéni konzultációs alkalmon
-            vehet részt, ahol segítséget kap a gyakorlás elmélyítésében, illetve
-            az esetlegesen felvetődő akadályok megoldásában.
+            űrlapot, amihez{" "}
+            <u>
+              <b>Google regisztrációra </b>
+            </u>
+            van szükség (Google form). Ehhez kell a pályázónak csatolnia egy
+            motivációs levelet (A4-es oldal, Times New Roman 12-es betűtípus,
+            1,5-ös sorköz, minimum 1 oldal, maximum 3), amelyben leírja, hogy ez
+            a lehetőség mit adna számára, hogyan segítené elmélyíteni vagy
+            elindítani a jóga gyakorlását és melyek azok a körülmények, amelyek
+            nehézséget okoznak a bérlet vásárlásában.{" "}
+            <u>
+              <b>A motivációs levélen ne felejtsd el feltüntetni a neved!</b>
+            </u>{" "}
+            Azon pályázókat, akik bejutnak a második fordulóba egy személyes
+            beszélgetésre hívjuk meg, ahol is kiválasztjuk a nyertest. A nyertes
+            pályázó három hónapig korlátlanul látogathatja a Bandha Works
+            jógastúdió óráit, a fenti menetrend szerint. Továbbá minden hónapban
+            egy egyéni konzultációs alkalmon vehet részt, ahol segítséget kap a
+            gyakorlás elmélyítésében, illetve az esetlegesen felvetődő akadályok
+            megoldásában.
           </p>
           <div className="osztondij-timings">
             <div className="osztondij-timings--wrapper">
@@ -179,6 +195,19 @@ export default function Osztondij() {
             </div>
           </div>
         </div>
+        <div>
+          <br />
+          <Button
+            type="button"
+            buttonStyle="btn--primary--solid"
+            onClick={() => {
+              window.open("https://forms.gle/4vuubd3fWMKgCkAm7", "_blank")
+            }}
+          >
+            Jelentkezés az ösztöndíjra
+          </Button>
+        </div>
+
         <div className="separator-horizontal-full mt-40px"></div>
         <div className="row mt-40px">
           <h2 className="clr-brand-orange font-family-primary">
