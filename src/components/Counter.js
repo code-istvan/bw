@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 
-export default function Counter({ tag, className }) {
+export default function Counter({ tag, className, language = "hu" }) {
   const initialDate = "2013-08-25"
   const [years, setYears] = useState(0)
   const [months, setMonths] = useState(0)
@@ -35,10 +35,39 @@ export default function Counter({ tag, className }) {
 
   const Tag = tag || "h1"
 
+  // Többes szám kezelése angolul
+  const pluralize = (count, singular, plural) => {
+    return count === 1 ? singular : plural
+  }
+
+  // Nyelvi szövegek kezelése
+  const translations = {
+    hu: {
+      years: "év",
+      months: "hónap",
+      days: "nap",
+    },
+    eng: {
+      years: count => pluralize(count, "year", "years"),
+      months: count => pluralize(count, "month", "months"),
+      days: count => pluralize(count, "day", "days"),
+    },
+  }
+
+  // Nyelv kiválasztása
+  const currentLanguage = translations[language]
+
+  // Nyelvi szöveg megjelenítése
+  const renderText = (count, type) => {
+    const text = currentLanguage[type]
+    return typeof text === "function" ? text(count) : text
+  }
+
   return (
     <Tag className={`counter--wrapper ${className}`}>
-      {years} év{months !== 0 && `, ${months} hónap`}
-      {days !== 0 && `, ${days} nap`}
+      {years} {renderText(years, "years")}
+      {months !== 0 && `, ${months} ${renderText(months, "months")}`}
+      {days !== 0 && `, ${days} ${renderText(days, "days")}`}
     </Tag>
   )
 }

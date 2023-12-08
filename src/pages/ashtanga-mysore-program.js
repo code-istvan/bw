@@ -281,7 +281,7 @@ export default function Mysoreprogram() {
               TRADITION
             </h3>
             <div className="col-12-xs mb-20px">
-              <Counter tag="h3" className="" />
+              <Counter tag="h3" className="" language="eng" />
             </div>
             <p>Hungary's oldest ashtanga mysore program</p>
 
@@ -434,7 +434,7 @@ export default function Mysoreprogram() {
           </div>
         </div>
         <br />
-        <div className="row unordered-list-style">
+        <div className="unordered-list-style">
           <h3>Useful readings about Mysore practice:</h3>
           <ul>
             {hasznosOlvasmanyok.map((link, index) => (
