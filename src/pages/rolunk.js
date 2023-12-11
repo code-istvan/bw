@@ -233,7 +233,16 @@ export default function Rolunk() {
                 classNames="link-decoration-remove"
               />{" "}
               - 2022. áprilisában megjelent - magyar nyelvű kiadása is
-              alapítványunkhoz fűződik.
+              alapítványunkhoz fűződik. <br />
+              <br /> Legújabb kiadványunk Szvámi Prabhavananda és Christopher
+              Isherwood:{" "}
+              <CustomLink
+                link="https://shop.bandha.works/products/isten-megismerese-patandzsali-jogaaforizmai"
+                title="Isten megismerése –
+                Patandzsali jógaaforizmái"
+                classNames="link-decoration-remove"
+              />{" "}
+              című művének magyar nyelvű fordítása (2023. december).
             </p>
           </div>
         </div>
