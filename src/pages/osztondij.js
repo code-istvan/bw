@@ -52,8 +52,9 @@ export default function Osztondij() {
       <div className="osztondij-wrapper tight--desktop--container">
         <div className="mt-20px clr-brand-orange">
           <h3>
-            Az ösztöndíj programunkra az oldal alján található narancssárga
-            "Jelentkezés az ösztöndíjra" gombra kattintva tudsz jelentkezni!
+            A 2024. első negyedévére szóló ösztöndíj-jelentkezés határideje
+            lezárult. A második negyedévre vonatkozó információkat jövő év
+            elején publikáljuk .
           </h3>
         </div>
 
@@ -195,7 +196,7 @@ export default function Osztondij() {
             </div>
           </div>
         </div>
-        <div>
+        {/* <div>
           <br />
           <Button
             type="button"
@@ -206,8 +207,7 @@ export default function Osztondij() {
           >
             Jelentkezés az ösztöndíjra
           </Button>
-        </div>
-
+        </div> */}
         <div className="separator-horizontal-full mt-40px"></div>
         <div className="row mt-40px">
           <h2 className="clr-brand-orange font-family-primary">
