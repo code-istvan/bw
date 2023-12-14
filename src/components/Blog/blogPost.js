@@ -149,8 +149,10 @@ const BlogPost = ({ data, children, pageContext, location }) => {
 
 export default BlogPost
 
-export const Head = ({ location, data }) => {
-  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+export const Head = ({ location, data, pageContext }) => {
+  const ogImage =
+    pageContext.frontmatter.thumbnail ??
+    getSrc(pageContext.postThumbnail.node.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
   const post = data.mdx
 
@@ -162,6 +164,8 @@ export const Head = ({ location, data }) => {
     url: `${siteUrl}${location.pathname}`,
     logo: "https://mula.bandha.works/images/bw_logo.png",
   }
+
+  console.log("ogImage", ogImage)
 
   return (
     <>
