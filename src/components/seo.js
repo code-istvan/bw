@@ -34,6 +34,9 @@ function Seo({
   // const isIndexPage = location?.pathname === "/"
   // const domain = site.siteMetadata?.siteUrl
 
+  console.log("canonica", canonicalUrl)
+  console.log("location", location?.pathname)
+
   return (
     <Helmet htmlAttributes={{ lang }} title={title}>
       <link rel="canonical" href={canonicalUrl} />

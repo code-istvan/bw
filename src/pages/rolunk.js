@@ -272,6 +272,7 @@ export const Head = ({ location }) => {
 
   return (
     <>
+      <link rel="canonical" href="https://bandha.works/rolunk/" />
       <meta name="description" content="Ez az Rolunk oldal TEST" />
       <meta property="og:title" content="Rólunk oldal" />
       <meta property="og:url" content="/rolunk" />
