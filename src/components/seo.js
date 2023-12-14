@@ -39,10 +39,10 @@ function Seo({
 
   return (
     <Helmet htmlAttributes={{ lang }} title={title}>
-      <link rel="canonical" href={canonicalUrl} />
+      {/* <link rel="canonical" href={canonicalUrl} /> */}
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
-      <meta property="og:url" content={canonicalUrl} />
+      {/* <meta property="og:url" content={canonicalUrl} /> */}
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:image" content={ogFeaturedImage} />
