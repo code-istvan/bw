@@ -164,14 +164,16 @@ export const Head = ({ location, data }) => {
   }
 
   return (
-    <Seo
-      title={post.frontmatter.title}
-      description={post.frontmatter.description}
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      fbAppId="162565676946134"
-      location={location}
-      schemaMarkup={schema}
-    />
+    <>
+      <link rel="canonical" href={schema.url} />
+      <meta name="description" content={schema.description} />
+      <meta property="og:title" content={schema.name} />
+      <meta property="og:url" content={schema.url} />
+      <meta property="og:description" content={schema.description} />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content={ogImage} />
+      <meta name="twitter:card" content="summary" />
+    </>
   )
 }
 
