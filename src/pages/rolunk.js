@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
+// import Seo from "../components/seo"
 import NameCard from "../components/NameCard"
 import Button from "../components/Buttons/Button"
 import { CustomLink } from "../components/CustomLink"
@@ -271,13 +271,14 @@ export const Head = ({ location }) => {
   const siteUrl = data.site.siteMetadata.siteUrl
 
   return (
-    <Seo
-      title="Rólunk | Bandha Works Jógaiskola"
-      description="A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket
-  összekötött azon törekvés, hogy a tradicionális astanga vinyásza
-  jógát népszerűsítsék, oktassák Magyarországon."
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
-    />
+    <>
+      <meta name="description" content="Ez az Rolunk oldal TEST" />
+      <meta property="og:title" content="Rólunk oldal" />
+      <meta property="og:url" content="/rolunk" />
+      <meta property="og:description" content="Ez az Rolunk oldal TEST" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="" />
+      <meta name="twitter:card" content="summary" />
+    </>
   )
 }
