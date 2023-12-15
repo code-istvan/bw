@@ -50,14 +50,13 @@ export default function Osztondij() {
         </div>
       </div>
       <div className="osztondij-wrapper tight--desktop--container">
-        <div className="mt-20px clr-brand-orange">
+        {/* <div className="mt-20px clr-brand-orange">
           <h3>
             A 2024. első negyedévére szóló ösztöndíj-jelentkezés határideje
             lezárult. A második negyedévre vonatkozó információkat jövő év
             elején publikáljuk .
           </h3>
-        </div>
-
+        </div> */}
         <div className="row mt-20px">
           <p>
             A jóga mindenki életében gyökeres változásokat hozhat, gyakorlását
@@ -153,7 +152,7 @@ export default function Osztondij() {
               <p className="mb-20px">
                 <strong>Az ösztöndíj időszaka</strong>
                 <br />
-                2024. január 1. – 2024. március 31.
+                2024. április 1. – 2024. június 30. (második negyedév)
               </p>
               <div className="separator-horizontal"></div>
               <p className="mb-20px">
@@ -161,7 +160,7 @@ export default function Osztondij() {
                 Az első fordulóra online tudsz jelentkezni a fenti leírás
                 szerint. A jelentkezési felület{" "}
                 <strong>
-                  2023. december 8. 18:00-tól, december 11. 18:00-ig
+                  2024. március 8. 18:00-tól, március 11. 18:00-ig
                 </strong>{" "}
                 lesz elérhető ezen az oldalon.
                 <br /> <br />
@@ -171,7 +170,7 @@ export default function Osztondij() {
                 beszélgetés keretein belül választjuk kis a nyertest. Ennek
                 időpontja:{" "}
                 <strong>
-                  2023. december 17-én vasárnap, 16:00 órától
+                  2023. március 24-én vasárnap, 16:00 órától
                 </strong>. <br />
                 <div className="separator-horizontal mt-20px"></div>
                 <strong>Felvételi bizottság tagjai</strong> <br />

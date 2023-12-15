@@ -1,6 +1,21 @@
-export const CustomHead = ({ canonical, description, title, url, image }) => {
-  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
-  const siteUrl = data.site.siteMetadata.siteUrl
+import * as React from "react"
+
+export const CustomHead = ({ canonical, description, title, image }) => {
+  //   const data = useStaticQuery(graphql`
+  //     query {
+  //       site {
+  //         siteMetadata {
+  //           title
+  //           description
+  //           author
+  //           siteUrl
+  //         }
+  //       }
+  //     }
+  //   `)
+
+  //   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  //   const siteUrl = data.site.siteMetadata.siteUrl
 
   return (
     <>
@@ -12,7 +27,6 @@ export const CustomHead = ({ canonical, description, title, url, image }) => {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:image" content={image} />
-      <meta name="twitter:card" content="summary" />
     </>
   )
 }

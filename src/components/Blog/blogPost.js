@@ -5,7 +5,6 @@ import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import ButtonIcon from "../Buttons/ButtonIcon"
 import Icons from "../Icons/Icons"
 import Layout from "../Layouts/Layout"
-import Seo from "../seo"
 import { GatsbyImage } from "gatsby-plugin-image"
 import BlogSidebar from "./BlogSidebar"
 import {
