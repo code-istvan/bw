@@ -1,6 +1,5 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-// import Seo from "../components/seo"
 import { CustomHead } from "../components/CustomHead"
 import NameCard from "../components/NameCard"
 import Button from "../components/Buttons/Button"

@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import { StaticImage } from "gatsby-plugin-image"
 import MoondaysCard from "../components/Cards/MoondaysCard"
 import { CustomLink } from "../components/CustomLink"
@@ -259,12 +259,14 @@ export const Head = ({ location }) => {
   const siteUrl = data.site.siteMetadata.siteUrl
 
   return (
-    <Seo
-      title="Holdnapok | Bandha Works Jógaiskola"
-      description=" Az astanga jóga tradíció része, hogy a Telihold és az Újhold napjai
-  pihenőnapok, amikor nincs ászanagyakorlás."
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
-    />
+    <>
+      <CustomHead
+        canonical={siteUrl + location.pathname}
+        description="A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket összekötött azon törekvés, hogy a tradicionális astanga vinyásza jógát népszerűsítsék, oktassák Magyarországon."
+        title={`Holdnapok | ${data.site.siteMetadata.title}`}
+        url={siteUrl + location.pathname}
+        image={ogImage}
+      />
+    </>
   )
 }
