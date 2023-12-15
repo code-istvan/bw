@@ -1,25 +1,10 @@
 import * as React from "react"
 
 export const CustomHead = ({ canonical, description, title, image }) => {
-  //   const data = useStaticQuery(graphql`
-  //     query {
-  //       site {
-  //         siteMetadata {
-  //           title
-  //           description
-  //           author
-  //           siteUrl
-  //         }
-  //       }
-  //     }
-  //   `)
-
-  //   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
-  //   const siteUrl = data.site.siteMetadata.siteUrl
-
   return (
     <>
       <html lang="hu" />
+      <title>{title}</title>
       <link rel="canonical" href={canonical} />
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />

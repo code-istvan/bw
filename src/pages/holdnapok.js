@@ -250,6 +250,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -257,13 +258,15 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const siteTitle = data.site.siteMetadata.title
 
   return (
     <>
       <CustomHead
         canonical={siteUrl + location.pathname}
-        description="A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket összekötött azon törekvés, hogy a tradicionális astanga vinyásza jógát népszerűsítsék, oktassák Magyarországon."
-        title={`Holdnapok | ${data.site.siteMetadata.title}`}
+        description=" Az astanga jóga tradíció része, hogy a Telihold és az Újhold napjai
+        pihenőnapok, amikor nincs ászanagyakorlás."
+        title={`Holdnapok | ${siteTitle}`}
         url={siteUrl + location.pathname}
         image={ogImage}
       />

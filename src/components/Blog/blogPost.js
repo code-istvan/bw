@@ -173,7 +173,6 @@ export const Head = ({ location, data, pageContext }) => {
       <meta property="og:description" content={schema.description} />
       <meta property="og:type" content="website" />
       <meta property="og:image" content={ogImage} />
-      <meta name="twitter:card" content="summary" />
     </>
   )
 }
