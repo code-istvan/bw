@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 // import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import NameCard from "../components/NameCard"
 import Button from "../components/Buttons/Button"
 import { CustomLink } from "../components/CustomLink"
@@ -9,6 +10,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import { navigate } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import "../sass/pages/_rolunk.scss"
+
+const rolunk = "Rólunk"
 
 export default function Rolunk() {
   const guestTeachers = [
@@ -36,7 +39,7 @@ export default function Rolunk() {
     <Layout>
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
-          <h1 className="page-hero-title">RÓLUNK</h1>
+          <h1 className="page-hero-title">{rolunk}</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/rolunk_desktop.jpeg"
@@ -262,6 +265,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -272,14 +276,13 @@ export const Head = ({ location }) => {
 
   return (
     <>
-      <link rel="canonical" href="https://bandha.works/rolunk/" />
-      <meta name="description" content="Ez az Rolunk oldal TEST" />
-      <meta property="og:title" content="Rólunk oldal" />
-      <meta property="og:url" content="/rolunk" />
-      <meta property="og:description" content="Ez az Rolunk oldal TEST" />
-      <meta property="og:type" content="website" />
-      <meta property="og:image" content="" />
-      <meta name="twitter:card" content="summary" />
+      <CustomHead
+        canonical={siteUrl + location.pathname}
+        description="A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket összekötött azon törekvés, hogy a tradicionális astanga vinyásza jógát népszerűsítsék, oktassák Magyarországon."
+        title={`Rólunk | ${data.site.siteMetadata.title}`}
+        url={siteUrl + location.pathname}
+        image={ogImage}
+      />
     </>
   )
 }

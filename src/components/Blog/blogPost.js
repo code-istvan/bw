@@ -165,8 +165,6 @@ export const Head = ({ location, data, pageContext }) => {
     logo: "https://mula.bandha.works/images/bw_logo.png",
   }
 
-  console.log("ogImage", ogImage)
-
   return (
     <>
       <link rel="canonical" href={schema.url} />
