@@ -149,11 +149,17 @@ const BlogPost = ({ data, children, pageContext, location }) => {
 export default BlogPost
 
 export const Head = ({ location, data, pageContext }) => {
+  const post = data.mdx
+
+  useEffect(() => {
+    // Beállítja a dokumentum címét
+    document.title = post.frontmatter.title
+  }, [post.frontmatter.title])
+
   const ogImage =
     pageContext.frontmatter.thumbnail ??
     getSrc(pageContext.postThumbnail.node.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
-  const post = data.mdx
 
   const schema = {
     "@context": "https://schema.org",

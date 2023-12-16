@@ -10,8 +10,6 @@ import { navigate } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import "../sass/pages/_rolunk.scss"
 
-const rolunk = "Rólunk"
-
 export default function Rolunk() {
   const guestTeachers = [
     [
@@ -38,7 +36,7 @@ export default function Rolunk() {
     <Layout>
       <div className="page-hero-container">
         <div className="row tight--desktop--container">
-          <h1 className="page-hero-title">{rolunk}</h1>
+          <h1 className="page-hero-title">Rólunk</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
             src="../images/rolunk_desktop.jpeg"

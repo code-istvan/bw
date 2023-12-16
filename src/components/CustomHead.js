@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useEffect } from "react"
 
 export const CustomHead = ({
   canonical,
@@ -7,9 +7,15 @@ export const CustomHead = ({
   image,
   schemaData,
 }) => {
+  useEffect(() => {
+    // Beállítja a dokumentum címét
+    document.title = title
+  }, [title]) // A cím frissítése minden alkalommal, amikor a title prop megváltozik
+
   return (
     <>
       <html lang="hu" />
+      {/* A HTML title tag itt redundáns lehet, de meghagyható a konszisztencia érdekében */}
       <title>{title}</title>
       <link rel="canonical" href={canonical} />
       <meta name="description" content={description} />
