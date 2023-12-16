@@ -1,6 +1,12 @@
 import * as React from "react"
 
-export const CustomHead = ({ canonical, description, title, image }) => {
+export const CustomHead = ({
+  canonical,
+  description,
+  title,
+  image,
+  schemaData,
+}) => {
   return (
     <>
       <html lang="hu" />
@@ -12,6 +18,9 @@ export const CustomHead = ({ canonical, description, title, image }) => {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:image" content={image} />
+      {schemaData && (
+        <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
+      )}
     </>
   )
 }

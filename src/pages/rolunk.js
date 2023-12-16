@@ -272,15 +272,28 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "Rólunk"
+  const pageDescription =
+    "A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket összekötött azon törekvés, hogy a tradicionális astanga vinyásza jógát népszerűsítsék, oktassák Magyarországon."
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: pageTitle,
+    description: pageDescription,
+    url: `${siteUrl}${location.pathname}`,
+    logo: "https://mula.bandha.works/images/bw_logo.png",
+  }
 
   return (
     <>
       <CustomHead
         canonical={siteUrl + location.pathname}
-        description="A Bandha Works Jógaiskolát 2013-ban három mérnök alapította, akiket összekötött azon törekvés, hogy a tradicionális astanga vinyásza jógát népszerűsítsék, oktassák Magyarországon."
+        description={pageDescription}
         title={`Rólunk | ${data.site.siteMetadata.title}`}
         url={siteUrl + location.pathname}
         image={ogImage}
+        schemaData={schema}
       />
     </>
   )
