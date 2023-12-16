@@ -1,10 +1,11 @@
 {
-  "published": true,
-  "featured": true,
-  "date": "2024-01-20T16:36:50.331Z",
-  "esemenytipusa": "Tanfolyam",
-  "eventid": "weekend_ashtanga",
-  "title": "Hétvégi ASTANGA KEZDŐ TANFOLYAM",
   "Shortdescription": "Négyalkalmas, hétvégi astanga jóga kezdő tanfolyam, teljesen kezdők és újrakezdők számára. Ismerd meg ezen ősi módszer alapjait, amely hatékony és személyre szabott technika, fizikai erőt, rugalmasságot és belső nyugalmat hoz.",
-  "teacher": "Noémi"
+  "esemenytipusa": "Tanfolyam",
+  "teacher": "Noémi",
+  "featured": true,
+  "published": true,
+  "date": "2024-01-20T16:36:50.331Z",
+  "eventlink": "https://shop.bandha.works/products/hetvegi-astanga-kezdo-tanfolyam",
+  "eventid": "weekend_ashtanga",
+  "title": "Hétvégi ASTANGA KEZDŐ TANFOLYAM"
 }
