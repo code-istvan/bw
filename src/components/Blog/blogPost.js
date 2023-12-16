@@ -166,6 +166,8 @@ export const Head = ({ location, data, pageContext }) => {
 
   return (
     <>
+      <html lang="hu" />
+      <title>{schema.name} | Bandha Works Blog</title>
       <link rel="canonical" href={schema.url} />
       <meta name="description" content={schema.description} />
       <meta property="og:title" content={schema.name} />
