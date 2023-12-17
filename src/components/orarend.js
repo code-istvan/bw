@@ -60,10 +60,10 @@ const Orarend = ({ data }) => {
               type="button"
               buttonStyle="btn--primary--outline-full"
               onClick={() => {
-                navigate("/osztondij")
+                navigate("/tanfolyam")
               }}
             >
-              Jóga ösztondíj 2024
+              2024-es astanga tanfolyamok
             </Button>
           </div>
         </>
