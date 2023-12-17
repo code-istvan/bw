@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
-import { CustomHead } from "../components/CustomHead"
+import Seo from "../components/seo"
 import "../sass/pages/_konferencia.scss"
 
 export default function Konferencia() {
