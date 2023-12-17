@@ -6,16 +6,15 @@ export const CustomHead = ({
   title,
   image,
   schemaData,
+  lang = "hu", // Alapértelmezett nyelv
 }) => {
   useEffect(() => {
-    // Beállítja a dokumentum címét
     document.title = title
-  }, [title]) // A cím frissítése minden alkalommal, amikor a title prop megváltozik
+  }, [title])
 
   return (
     <>
-      <html lang="hu" />
-      {/* A HTML title tag itt redundáns lehet, de meghagyható a konszisztencia érdekében */}
+      <html lang={lang} />
       <title>{title}</title>
       <link rel="canonical" href={canonical} />
       <meta name="description" content={description} />
@@ -25,7 +24,9 @@ export const CustomHead = ({
       <meta property="og:type" content="website" />
       <meta property="og:image" content={image} />
       {schemaData && (
-        <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
+        <script type="application/ld+json">
+          {JSON.stringify({ "@context": "https://schema.org", ...schemaData })}
+        </script>
       )}
     </>
   )
