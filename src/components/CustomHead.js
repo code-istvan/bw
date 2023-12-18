@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 
 export const CustomHead = ({
   canonical,
@@ -8,10 +8,6 @@ export const CustomHead = ({
   schemaData,
   lang = "hu", // Alapértelmezett nyelv
 }) => {
-  useEffect(() => {
-    document.title = title
-  }, [title])
-
   return (
     <>
       <html lang={lang} />
