@@ -258,18 +258,23 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
-  const siteTitle = data.site.siteMetadata.title
+  const pageTitle = "Holdnapok | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Az astanga jóga tradíció része, hogy a Telihold és az Újhold napjai pihenőnapok, amikor nincs ászanagyakorlás."
 
   return (
-    <>
-      <CustomHead
-        canonical={siteUrl + location.pathname}
-        description=" Az astanga jóga tradíció része, hogy a Telihold és az Újhold napjai
-        pihenőnapok, amikor nincs ászanagyakorlás."
-        title={`Holdnapok | ${siteTitle}`}
-        url={siteUrl + location.pathname}
-        image={ogImage}
-      />
-    </>
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
+    />
   )
 }

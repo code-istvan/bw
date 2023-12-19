@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 // import Button from "../components/Buttons/Button"
 import { StaticImage } from "gatsby-plugin-image"
 import { getSrc } from "gatsby-plugin-image"
@@ -242,6 +242,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -249,25 +250,23 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
-
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Project",
-    name: "Bandha Works Jóga Ösztöndíj",
-    description:
-      "A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget.",
-    url: "https://bandha.works/osztondij",
-    logo: "https://mula.bandha.works/images/bw_logo.png",
-  }
+  const pageTitle = "Jóga ösztöndíj | " + data.site.siteMetadata.title
+  const pageDescription =
+    "A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget."
 
   return (
-    <Seo
-      title="Jóga ösztöndíj | Bandha Works Jógaiskola"
-      description="A jóga életre szóló változásokat hozhat az életedbe, és ha anyagi akadályok állnak a gyakorlás útjában, a Bandha Works Ösztöndíj éppen az ilyen helyzetekben nyújthat segítséget."
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      fbAppId="162565676946134"
-      location={location}
-      schemaMarkup={schema}
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }

@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import { StaticImage } from "gatsby-plugin-image"
 import { getSrc } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
@@ -136,6 +136,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -143,13 +144,23 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "Első alklalom | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Fontos tudnivalók, ha elöször jársz a Bandha Works Astanga jógaikolákban"
 
   return (
-    <Seo
-      title="Első alklalom | Bandha Works Jógaiskola"
-      description="Fontos tudnivalók, ha elöször jársz jógaikolánkban"
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }

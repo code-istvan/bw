@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import "../sass/pages/_konferencia.scss"
 
 export default function Konferencia() {
@@ -72,6 +72,42 @@ export default function Konferencia() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="KONFERENCIA" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "konferencia_desktop.jpeg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+          title
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "Konferencia | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Az astanga konferencia hagyománya a Mysore-i KPJAYI-ból származik, ahol is heti rendszerességgel összegyűlnek az intézményben gyakorlók és a vezető oktató, Guruji Sharath Jois a jóga elméletről beszélgetni."
+
+  return (
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
+    />
+  )
+}

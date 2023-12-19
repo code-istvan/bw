@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
+import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
 import { getSrc } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
@@ -58,10 +59,19 @@ export default function Ajanlottolvasmanyok() {
           <ul>
             {RecommendedReadings.olvasmanyokAstanga &&
               RecommendedReadings.olvasmanyokAstanga.map(
-                ({ author, title }) => (
+                ({ author, title, link }) => (
                   <li key={title}>
                     <p>
-                      <strong>{author}</strong>: {title}
+                      <strong>{author}</strong>:{" "}
+                      {link ? (
+                        <CustomLink
+                          link={link}
+                          classNames="body clr-brand-orange link-decoration-remove"
+                          title={title}
+                        />
+                      ) : (
+                        title
+                      )}
                     </p>
                   </li>
                 )
@@ -93,7 +103,7 @@ export default function Ajanlottolvasmanyok() {
               RecommendedReadings.olvasmanyokSpiri.map(({ author, title }) => (
                 <li key={title}>
                   <p>
-                    <strong>{author}</strong>: {title}
+                    <strong>{author}</strong>:{title}
                   </p>
                 </li>
               ))}
@@ -105,13 +115,24 @@ export default function Ajanlottolvasmanyok() {
         <div className="row unordered-list-style mb-40px">
           <ul>
             {RecommendedReadings.olvasmanyokFood &&
-              RecommendedReadings.olvasmanyokFood.map(({ author, title }) => (
-                <li key={title}>
-                  <p>
-                    <strong>{author}</strong>: {title}
-                  </p>
-                </li>
-              ))}
+              RecommendedReadings.olvasmanyokFood.map(
+                ({ author, title, link }) => (
+                  <li key={title}>
+                    <p>
+                      <strong>{author}</strong>:{" "}
+                      {link ? (
+                        <CustomLink
+                          link={link}
+                          classNames="body clr-brand-orange link-decoration-remove"
+                          title={title}
+                        />
+                      ) : (
+                        title
+                      )}
+                    </p>
+                  </li>
+                )
+              )}
           </ul>
         </div>
       </div>
@@ -130,6 +151,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -137,14 +159,23 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "Ajánlott olvasmányok | " + data.site.siteMetadata.title
+  const pageDescription =
+    "A jóga gyakorlásához szükséges elméleti tudás elsajátításához az alábbi olvasmányokat ajánljuk."
 
   return (
-    <Seo
-      title="Ajánlott olvasmányok | Bandha Works Jógaiskola"
-      description="A jóga gyakorlásához szükséges elméleti tudás
-      elsajátításához az alábbi olvasmányokat ajánljuk."
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }
