@@ -43,7 +43,7 @@ export default function Taplalkozas() {
 export const Head = ({ location }) => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "taplalkozas_desktop" }) {
+      file(relativePath: { eq: "taplalkozas_desktop.jpg" }) {
         childImageSharp {
           gatsbyImageData(width: 1200)
         }
