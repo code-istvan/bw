@@ -1,7 +1,9 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 // import IstvanEducation from "../data/istvanEducation.json"
 import "../sass/pages/_szalaiIstvan.scss"
 
@@ -179,6 +181,42 @@ export default function Istvan() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="Szalai István Jóga" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "istvan_desktop.jpeg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+          title
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "Szalai István Jógaoktató | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Itt olvashatsz Szalai István jógaoktatóról, a Bandha Works alapítójáról."
+
+  return (
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
+    />
+  )
+}

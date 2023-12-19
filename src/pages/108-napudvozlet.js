@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import { CustomLink } from "../components/CustomLink"
 import { StaticImage } from "gatsby-plugin-image"
 import { getSrc } from "gatsby-plugin-image"
@@ -168,6 +168,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -175,16 +176,23 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "Újévi 108 napüdvözlet | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Kezdd az Újévet 108 napüdvözlettel! Ez az intenzív mozgó meditációs technika kiváló módszert kínál, hogy elengedd az előző év feszültségeit, aggodalmait, problémáit és kitisztult testtel és elmével vágj neki 2024-es évnek!"
 
   return (
-    <Seo
-      title="Újévi 108 napüdvözlet | Bandha Works Jógaiskola"
-      description="  Kezdd az Újévet 108 napüdvözlettel! Ez az intenzív mozgó
-      meditációs technika kiváló módszert kínál, hogy elengedd az előző
-      év feszültségeit, aggodalmait, problémáit és kitisztult testtel és
-      elmével vágj neki 2024-es évnek!"
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }

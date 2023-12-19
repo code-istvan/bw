@@ -1,5 +1,5 @@
 import * as React from "react"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import Button from "../components/Buttons/Button"
 import { Link } from "gatsby"
 import GoogleMap from "../components/GoogleMap/GoogleMap"
@@ -7,6 +7,8 @@ import Layout from "../components/Layouts/Layout"
 import SocialBlock from "../components/Icons/SocialBlock"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import Icons from "../components/Icons/Icons"
 import "../sass/pages/_kapcsolat.scss"
@@ -193,6 +195,42 @@ export default function Kapcsolat() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="KAPCSOLAT" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "hero_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+          title
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "Kapcsolat | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Bandha Works Astanga Jóga Mysore Jógaiskola elérhetőségei, kapcsolatfelvétel."
+
+  return (
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
+    />
+  )
+}
