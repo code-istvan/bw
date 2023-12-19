@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { StaticImage } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
 import { CustomHead } from "../components/CustomHead"
 import { useStaticQuery, graphql } from "gatsby"
 import "../sass/pages/_konferencia.scss"
