@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import { StaticImage } from "gatsby-plugin-image"
 import { getSrc } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
@@ -466,6 +466,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -473,14 +474,25 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle =
+    "Ashtanga Yoga Mysore Program Budapest | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Ashtanga Yoga Mysore Program in Budapest. Best plaece for Mysore style of Ashtanga Yoga practice in Budapest. Join our Mysore program!"
 
   return (
-    <Seo
-      title="Ashtanga Yoga Mysore Program Budapest | Bandha Works Yoga Shala"
+    <CustomHead
       lang="en"
-      description="Ashtanga Yoga Mysore Program in Budapest. Best plaece for Mysore style of Ashtanga Yoga practice in Budapest. Join our Mysore program!"
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }

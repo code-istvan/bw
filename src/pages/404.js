@@ -5,7 +5,7 @@ import { getSrc } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
 import { navigate } from "gatsby"
 import Button from "../components/Buttons/Button"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 
 const NotFoundPage = () => (
   <Layout>
@@ -70,6 +70,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -77,13 +78,23 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "404: Nem találom | " + data.site.siteMetadata.title
+  const pageDescription =
+    "A keresett oldal nem létezik, vagy eltávolításra került."
 
   return (
-    <Seo
-      title="404: Nem találom | Bandha Works Jógaiskola"
-      description="A keresett oldal nem létezik, vagy eltávolításra került."
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }

@@ -7,7 +7,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import CourseApplication from "../components/Cards/CourseApplication"
 import AccordionFaq from "../components/Accordions/AccordionFaq"
 import mysoreKurzusFaq from "../data/mysoreKurzusFaq.json"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 
 export default function AstangaMysoreKurzus() {
   const hasznosOlvasmanyok = [
@@ -192,6 +192,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -199,13 +200,23 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle =
+    "Astanga jóga Mysore-kurzus Budapest | " + data.site.siteMetadata.title
+  const pageDescription = "Astnaga jóga Mysore-kurzus Budapesten"
 
   return (
-    <Seo
-      title="Astnaga jóga Mysore-kurzus Budapest | Bandha Works Jógaiskola"
-      description="Astnaga jóga Mysore-kurzus Budapesten"
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }

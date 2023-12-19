@@ -1,12 +1,14 @@
 import React, { useState } from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import { StaticImage } from "gatsby-plugin-image"
 import InputField from "../components/InputField"
 import TextArea from "../components/TextArea"
 import Button from "../components/Buttons/Button"
 import { Link } from "gatsby"
 import CustomSelect from "../components/CustomSelect"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import "../sass/pages/_mysoreprogramjelentkezes.scss"
 
 export default function MysoreprogramJelentkezes() {
@@ -175,6 +177,42 @@ export default function MysoreprogramJelentkezes() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="MYSORE PROGRAM JELENTKEZÉS" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "mysore_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+          title
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle =
+    "Mysore-program jelentkezés | " + data.site.siteMetadata.title
+  const pageDescription = "Mysore-program jelentkezési felület"
+
+  return (
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
+    />
+  )
+}
