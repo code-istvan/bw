@@ -1,6 +1,8 @@
 import React from "react"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import useBreakpoint from "../components/useBreakpoint"
+import { getSrc } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 
 // import { Link } from "gatsby"
 
@@ -75,6 +77,41 @@ export default function Uilibrary() {
   )
 }
 
-export const Head = ({ location }) => (
-  <Seo title="UI Library" location={location} />
-)
+export const Head = ({ location }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "hero_desktop.jpg" }) {
+        childImageSharp {
+          gatsbyImageData(width: 1200)
+        }
+      }
+      site {
+        siteMetadata {
+          siteUrl
+          title
+        }
+      }
+    }
+  `)
+
+  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
+  const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "UI Library | " + data.site.siteMetadata.title
+  const pageDescription = "UI Library for Bandha Works."
+
+  return (
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
+    />
+  )
+}

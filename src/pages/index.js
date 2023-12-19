@@ -1,5 +1,5 @@
 import * as React from "react"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import Layout from "../components/Layouts/Layout"
 import Hero from "../components/Hero"
 import Icons from "../components/Icons/Icons"
@@ -14,17 +14,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import "../sass/pages/_index.scss"
 
 const IndexPage = () => {
-  // const site = useStaticQuery(graphql`
-  //   query {
-  //     site {
-  //       siteMetadata {
-  //         description
-  //         siteUrl
-  //       }
-  //     }
-  //   }
-  // `)
-
   return (
     <>
       <Layout>
@@ -59,6 +48,7 @@ export const Head = ({ location }) => {
         siteMetadata {
           description
           siteUrl
+          title
         }
       }
     }
@@ -66,24 +56,24 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
-
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    name: "Bandha Works Jógaiskola",
-    alternateName: "Bandha Works",
-    description: data.site.siteMetadata.description,
-    url: data.site.siteMetadata.siteUrl,
-    logo: "https://mula.bandha.works/images/bw_logo.png",
-  }
+  const pageTitle =
+    "Bandha Works Astanga Jógaiskola | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Fedezzd fel az Astanga Jógát a Bandha Works Jógaiskolában! Astanga Mysore-stílusú gyakorlás, astanga kezdő tanfolyamok, vinyásza krama jógaórák."
 
   return (
-    <Seo
-      title="Bandha Works Astanga Jógaiskola | Astanga Jóga Mysore Budapest"
-      location={location}
-      description="Fedezzd fel az Astanga Jógát a Bandha Works Jógaiskolában! Astanga Mysore-stílusú gyakorlás, astanga kezdő tanfolyamok, vinyásza krama jógaórák."
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      schemaMarkup={schema}
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }
