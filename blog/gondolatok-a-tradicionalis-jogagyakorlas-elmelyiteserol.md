@@ -79,6 +79,7 @@ Miután létrehoztuk az egyesülést a tudatos elme és az érző test között,
 Ez egyszerű, de rendkívül nagy kihívást jelent. Az emberi lények arra vannak „programozva”, hogy örömet keressenek és elkerüljék a fájdalmat. Tehát, ha olyan gyakorlást végzünk, amely tudatos érintkezésbe hoz bennünket az érző testben felmerülő esetlegesen kellemetlen élményekkel, természetes ösztönünk a menekülés lesz. A folyamat megértésére, eltökéltségre, összpontosításra és hitre van szükségünk ahhoz, hogy a gyakorlást folytassuk és felülírjuk az elkerülendő ösztönös válaszokat. Ezt is kiegyensúlyozottan kell tennünk, és csak annyit kell megtapasztalnunk, amennyit képesek vagyunk feldolgozni és integrálni az életünkbe. Nem sokan hajlandók erre a mélyebb munkára, ezért 20 évnyi, ugyanazon mesterrel (tanárral) eltöltött gyakorlás szokatlan jelenség.
 
 Megfigyeltem, hogy amikor az emberek a hiteles, tradíciókon alapuló gyakorlásuk során elkezdenek találkozni önmaguk mélyebb rétegeivel, három dolog szokott megtörténni:
+
 1. Abbahagyják a gyakorlást – visszafordulnak az úton, és elnyomják a szankhára mintákat.
 
 Ez a leggyakoribb jelenség. A gyakorlás abbahagyása szó szerint a tényleges elfordulást jelentheti. Abbahagyják az astangát (vagy bármilyen gyakorlás is legyen az), és áttérnek a jóga vagy gyakorlás egy másik típusára.
