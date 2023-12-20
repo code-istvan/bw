@@ -108,6 +108,10 @@ Ez azonban nehéz, valódi alkalmazkodási és változási hajlandóságot igén
 
 Senki sem tökéletes, és még a legjobb szándékkal is időről időre mindannyian az 1. vagy a 2. kategóriába esünk. Ez egy másik ok, hogy szükség van egy egészséges gyakorlóközösség támogatására, visszajelzésére, egy jó tanárra és sok önreflexióra. Ha megvannak ezek a támaszok, illetőleg ez a szándék, és kitartunk, akkor sikerülni fog hitelesen gyakorolnunk, a gyakorlás pedig segíteni fog minket abban, hogy életünk a lehető legjobban alakuljon!
 
+**Az írás szerzője:** Iain Grysak, [Spacious Yoga](https://spaciousyoga.com), Bali 
 
+**Az írás eredeti címe:** Thoughts on Deepening an Authentic Yoga Practice
+
+**Fordította:** Dr. Kővári Zsuzsa 
 
 
