@@ -80,7 +80,7 @@ Ez egyszerű, de rendkívül nagy kihívást jelent. Az emberi lények arra vann
 
 Megfigyeltem, hogy amikor az emberek a hiteles, tradíciókon alapuló gyakorlásuk során elkezdenek találkozni önmaguk mélyebb rétegeivel, három dolog szokott megtörténni:
 
-<div class="blog-special-list">1.</div>  Abbahagyják a gyakorlást – visszafordulnak az úton, és elnyomják a szankhára mintákat.
+<div class="blog-special-list">1</div>  Abbahagyják a gyakorlást – visszafordulnak az úton, és elnyomják a szankhára mintákat.
 
 Ez a leggyakoribb jelenség. A gyakorlás abbahagyása szó szerint a tényleges elfordulást jelentheti. Abbahagyják az astangát (vagy bármilyen gyakorlás is legyen az), és áttérnek a jóga vagy gyakorlás egy másik típusára.
 
@@ -88,7 +88,7 @@ Azonban ez a jelenség árnyaltabb módokon is megnyilvánulhat. Például – a
 
 Más gyakorlók úgy mennek végig a sorozaton, hogy egyáltalán nincs meg náluk a kapcsolódás a tudatos elme és az érző test között. Ahelyett, hogy a gyakorlást arra használnák, hogy elmélyítsék az érző testük iránti érzékenységüket, valójában „kikapcsolják” a tudatukat, hogy „átvészeljék” a gyakorlást. Vagy közben bekapcsolják a tévét, zenét hallgatnak, és így tovább. Ez mind-mind azt eredményezi, hogy elkerüljük a valódi munkát, az önmagunkhoz való tudatos kapcsolódást a gyakorláson keresztül. Az ember fizikailag végigmegy a mozdulatokon, de valójában nem igazán gyakorol.
 
-<div class="blog-special-list">2.</div> A gyakorlást a szankhára minták táplálására és elmélyítésére használják.
+<div class="blog-special-list">2</div> A gyakorlást a szankhára minták táplálására és elmélyítésére használják.
 
 Ez is rendszeres jelenség. Az önbecsmérlő és önsértő hajlamokkal rendelkezők nagyon termékeny talajt találhatnak az astanga gyakorlásban, hogy elmélyítsék ezeket a szankhárákat.
 
@@ -98,7 +98,7 @@ A Facebook posztok és a Yoga Journal borítók jóga szelfi korszaka nagyban ho
 
 Vagy azok, akik hajlamosak önmagukat „isteníteni”, termékeny talajra lelhetnek mintáik elmélyítésére. Esetükben a gyakorlás által generált erő és energia még manipulatívabbá és irányítóbbá válik. Ha az ilyen típusú emberek tanárokká válnak, miközben a többi diák felnéz rájuk, ez katasztrofális, káros hatással lehet magukra és a diákok életére nézve is. Túl sok a bántalmazó és botrányos tanárról, gururól szóló történet. Sajnos ez sem szokatlan út.
 
-<div class="blog-special-list">3.</div> Csendben megfigyelik önmagukat és kitartóan gyakorolnak.
+<div class="blog-special-list">3</div> Csendben megfigyelik önmagukat és kitartóan gyakorolnak.
 
 A türelmet és a tárgyilagos megfigyelést lehet fejleszteni. Bármit is mond nekünk az érző test, hallgatunk. Igyekszünk a lehető legtisztábban hallgatni. És elfogadjuk, amit mond nekünk az érző testünk. Ennek az érzékenységnek a tudatában folytatjuk gyakorlásunkat, és hagyjuk, hogy a változások természetes módon megtörténjenek.
 
