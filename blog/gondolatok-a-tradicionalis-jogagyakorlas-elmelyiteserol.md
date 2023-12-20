@@ -11,11 +11,11 @@ tags:
   - astangaelmélet
 date: 2023-12-20T09:01:56.096Z
 thumbnail: /blogpostimages/5things.jpg
-thumbnailMobil: /blogpostimages/an.jpg.webp
+thumbnailMobil: /blogpostimages/shala_mysore_mobil.jpg
 ---
 A hiteles, eredeti tradíciókon alapuló jógagyakorlás a kapcsolatok felfedezését is magában foglalja. Aki a jógát inkább szádhanaként gyakorolja (és nem pedig szórakozásként), kapcsolódik a tanárához, kapcsolódik a gyakorlási módszerhez, illetve a tradícióhoz, és ami a legfontosabb, kapcsolódik önmagához.
 
-Végső soron a jóga igazi lényege ezeknek a kapcsolatoknak az elmélyítése és megerősítése. A tanárhoz és a tradíciókhoz való szilárd és stabil kapcsolódás elengedhetetlen egy egészséges és transzformatív jógagyakorláshoz, de ugyanakkor ezek a kapcsolatok szolgálnak alapul és támaszul ahhoz, hogy a gyakorlók a saját magukhoz fűződő kapcsolatukat elmélyíthessék. Azaz a gyakorlás elmélyítése mindig a kapcsolatok elmélyítésével jár.
+<div class="island-section">Végső soron a jóga igazi lényege ezeknek a kapcsolatoknak az elmélyítése és megerősítése. A tanárhoz és a tradíciókhoz való szilárd és stabil kapcsolódás elengedhetetlen egy egészséges és transzformatív jógagyakorláshoz, de ugyanakkor ezek a kapcsolatok szolgálnak alapul és támaszul ahhoz, hogy a gyakorlók a saját magukhoz fűződő kapcsolatukat elmélyíthessék. Azaz a gyakorlás elmélyítése mindig a kapcsolatok elmélyítésével jár.</div>
 
 Hasznos lehet megőrizni ezeket a gondolatokat, amikor jógagyakorlásunk elmélyítésének módjait keressük.
 
@@ -58,11 +58,11 @@ A Szatipatthána-szuttában Buddha azt állította, hogy ha képesek vagyunk fol
 
 Felszabadulttá válni meglehetősen egyszerűen hangozhat. Csak egy dolgot kell tennünk, valamikor 7 nap és 7 év közötti időtartamban. Sajnos az érző test objektív megfigyelése nem könnyű dolog. Valójában ez egy nagyon kemény munka.
 
-<div class=“island-section">Valószínűleg nem lesz könnyű „eladni” minden olyan hiteles gyakorlatot, amely mélyebbre visz bennünket ebben a tapasztalásban (élményben). Hatalmas kihívás szembenézni azzal, ami legbelül történik, anélkül hogy meghátrálnánk vagy elfordulnánk tőle. Mégis, a saját tapasztalataim megerősítettek, hogy ez a legközvetlenebb módja annak, hogy a lehető legkövetkezetesebb, legintegráltabb, leghatékonyabb és jelentőségteljesebb lényekké váljunk. Valójában ez az egyetlen út, hogy megerősítsük és elmélyítsük az önmagunkkal való kapcsolatunkat. Ez a létező legőszintébb kommunikáció.</div>
+<div class="island-section">Valószínűleg nem lesz könnyű „eladni” minden olyan hiteles gyakorlatot, amely mélyebbre visz bennünket ebben a tapasztalásban (élményben). Hatalmas kihívás szembenézni azzal, ami legbelül történik, anélkül hogy meghátrálnánk vagy elfordulnánk tőle. Mégis, a saját tapasztalataim megerősítettek, hogy ez a legközvetlenebb módja annak, hogy a lehető legkövetkezetesebb, legintegráltabb, leghatékonyabb és jelentőségteljesebb lényekké váljunk. Valójában ez az egyetlen út, hogy megerősítsük és elmélyítsük az önmagunkkal való kapcsolatunkat. Ez a létező legőszintébb kommunikáció.</div>
 
 Miután a tudatos elme és az érző test megtanulta, hogyan kell harmonikusabban kommunikálniuk egymással, elkezdünk egészségesebb döntéseket hozni minden szinten, kezdve onnan, hogy mit eszünk és hogyan töltjük az időnket, egészen odáig, hogy hogyan reagálunk valamire és milyen kapcsolatba kerülünk mélyebb szinten minden körülöttünk lévővel, beleértve a többi élőlényt is.
 
-<div class=“island-section">15 év folyamatos és következetes gyakorlásom során megfigyeltem, hogy ezek az előnyök csakis erősödtek bennem. Én így értelmezem azt, amit Sharath Jois gyakran úgy emleget a konferenciákon mint „a benned zajló jóga”.</div> 
+<div class="island-section">15 év folyamatos és következetes gyakorlásom során megfigyeltem, hogy ezek az előnyök csakis erősödtek bennem. Én így értelmezem azt, amit Sharath Jois gyakran úgy emleget a konferenciákon mint „a benned zajló jóga”.</div> 
 
 Bár vannak kétségeim, illetőleg fenntartásaim azzal kapcsolatban, hogy ezek az előnyök következnek-e a Buddha teljes felszabadulásról alkotott definíciójából, azonban nincs kétségem afelől, hogy az előnyök léteznek, és a hosszú távú gyakorlással tovább nővekednek.
 
