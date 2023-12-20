@@ -132,6 +132,16 @@ article {
     }
   }
 
+  .blog-island-section {
+    background-color: $color-shades-darkGray;
+    padding: 32px 20px;
+    margin: 20px 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    color: $color-brand-orange;
+    font-size: 1.1428571429rem !important;
+  }
+
   ul {
     list-style: none;
     margin-left: 40px;
