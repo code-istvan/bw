@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { navigate } from "gatsby"
 import Button from "../components/Buttons/Button"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import { StaticImage } from "gatsby-plugin-image"
 import { getSrc } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
@@ -104,6 +104,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -111,14 +112,23 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "Application submitted | " + data.site.siteMetadata.title
+  const pageDescription = "Ashtanga Mysore program application submitted"
 
   return (
-    <Seo
-      title="Application submitted | Bandha Works Yoga Shala"
+    <CustomHead
       lang="en"
-      description="Ashtanga Mysore program application submitted"
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }

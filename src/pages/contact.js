@@ -1,5 +1,5 @@
 import * as React from "react"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import Button from "../components/Buttons/Button"
 import { Link } from "gatsby"
 import GoogleMap from "../components/GoogleMap/GoogleMap"
@@ -208,6 +208,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -215,14 +216,24 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "Contact | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Here you can find the contact details of Bandha Works Ashtanga Yoga School"
 
   return (
-    <Seo
-      title="Contact | Bandha Works Yoga Shala"
+    <CustomHead
       lang="en"
-      description="Here you can find our contacts"
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }

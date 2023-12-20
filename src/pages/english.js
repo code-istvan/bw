@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
-import Seo from "../components/seo"
+import { CustomHead } from "../components/CustomHead"
 import Hero from "../components/Hero"
 import Icons from "../components/Icons/Icons"
 import { CustomLink } from "../components/CustomLink"
@@ -120,6 +120,7 @@ export const Head = ({ location }) => {
       site {
         siteMetadata {
           siteUrl
+          title
         }
       }
     }
@@ -127,14 +128,24 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "English | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Discover Ashtanga Yoga at Bandha Works Yoga School! Ashtanga Mysore style practice, ashtanga beginner courses, vinyasa krama yoga classes."
 
   return (
-    <Seo
-      title="English | Bandha Works Astanga Yoga School | Astanga Yoga Mysore Budapest"
+    <CustomHead
       lang="en"
-      description="Discover Ashtanga Yoga at Bandha Works Yoga School! Ashtanga Mysore style practice, ashtanga beginner courses, vinyasa krama yoga classes."
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }
