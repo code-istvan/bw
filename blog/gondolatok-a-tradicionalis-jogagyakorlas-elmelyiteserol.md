@@ -64,7 +64,7 @@ Miután a tudatos elme és az érző test megtanulta, hogyan kell harmonikusabba
 
 <div class="blog-island-section">15 év folyamatos és következetes gyakorlásom során megfigyeltem, hogy ezek az előnyök csakis erősödtek bennem. Én így értelmezem azt, amit Sharath Jois gyakran úgy emleget a konferenciákon mint „a benned zajló jóga”.</div> 
 
-Bár vannak kétségeim, illetőleg fenntartásaim azzal kapcsolatban, hogy ezek az előnyök következnek-e a Buddha teljes felszabadulásról alkotott definíciójából, azonban nincs kétségem afelől, hogy az előnyök léteznek, és a hosszú távú gyakorlással tovább nővekednek.
+Bár vannak kétségeim, illetőleg fenntartásaim azzal kapcsolatban, hogy ezek az előnyök következnek-e a Buddha teljes felszabadulásról alkotott definíciójából, azonban nincs kétségem afelől, hogy az előnyök léteznek, és a hosszú távú gyakorlással tovább növekednek.
 
 A jóga- és meditációs gyakorlatokat gyakran úgy hirdetik, hogy „boldogságot”, „békét” hoznak, és így tovább. Nem kétséges, hogy ezek hosszú távú eredménye az elégedettség, a következetesség és a hatékonyság mélyebb érzése. Rövid távú hatásokat is tapasztalhatunk, amikor elkezdünk rendszeresen gyakorolni, ezek egyszerre lehetnek euforikusak, illetve mámorítóak.
 
