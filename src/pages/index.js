@@ -9,8 +9,9 @@ import SectionMysoreProgram from "../components/Sections/SectionMysoreProgram"
 import SectionEvents from "../components/Sections/SectionEvents"
 import SectionOsztondij from "../components/Sections/SectionOsztondij"
 import SectionSocialProofs from "../components/Sections/SectionSocialProofs"
+// import { useSiteMetadata } from "../../hooks/useSiteMetadata"
 import { getSrc } from "gatsby-plugin-image"
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import "../sass/pages/_index.scss"
 
 const IndexPage = () => {
@@ -36,44 +37,42 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = ({ location }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "hero_desktop.jpg" }) {
-        childImageSharp {
-          gatsbyImageData(width: 1200)
-        }
-      }
-      site {
-        siteMetadata {
-          description
-          siteUrl
-          title
+// export const Head = ({ location }) => {
+//   const { heroImage, siteMetadata } = useSiteMetadata()
+
+//   const ogImage = getSrc(heroImage)
+//   const siteUrl = siteMetadata.siteUrl
+//   const pageTitle = "Bandha Works Astanga Jógaiskola | " + siteMetadata.title
+//   const pageDescription =
+//     "Fedezzd fel az Astanga Jógát a Bandha Works Jógaiskolában! Astanga Mysore-stílusú gyakorlás, astanga kezdő tanfolyamok, vinyásza krama jógaórák."
+
+//   return (
+//     <CustomHead
+//       canonical={siteUrl + location.pathname}
+//       title={pageTitle}
+//       description={pageDescription}
+//       image={ogImage}
+//       schemaData={{
+//         "@type": "WebPage",
+//         name: pageTitle,
+//         description: pageDescription,
+//         url: `${siteUrl}${location.pathname}`,
+//         logo: "https://mula.bandha.works/images/bw_logo.png",
+//       }}
+//     />
+//   )
+// }
+
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
         }
       }
     }
-  `)
-
-  const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
-  const siteUrl = data.site.siteMetadata.siteUrl
-  const pageTitle =
-    "Bandha Works Astanga Jógaiskola | " + data.site.siteMetadata.title
-  const pageDescription =
-    "Fedezzd fel az Astanga Jógát a Bandha Works Jógaiskolában! Astanga Mysore-stílusú gyakorlás, astanga kezdő tanfolyamok, vinyásza krama jógaórák."
-
-  return (
-    <CustomHead
-      canonical={siteUrl + location.pathname}
-      title={pageTitle}
-      description={pageDescription}
-      image={ogImage}
-      schemaData={{
-        "@type": "WebPage",
-        name: pageTitle,
-        description: pageDescription,
-        url: `${siteUrl}${location.pathname}`,
-        logo: "https://mula.bandha.works/images/bw_logo.png",
-      }}
-    />
-  )
-}
+  }
+`

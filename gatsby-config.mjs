@@ -1,3 +1,5 @@
+import path from "path"
+import { fileURLToPath } from "url"
 import remarkGfm from "remark-gfm"
 import rehypeMetaAsAttributes from "@lekoarts/rehype-meta-as-attributes"
 import rehypeExternalLinks from "rehype-external-links"
@@ -5,6 +7,10 @@ import dotenv from "dotenv"
 dotenv.config({
   path: `.env.${process.env.NODE_ENV}`,
 })
+
+const __filename = fileURLToPath(import.meta.url)
+
+const __dirname = path.dirname(__filename)
 
 const myCustomQueries = {
   xs: "(max-width: 320px)",
@@ -166,6 +172,7 @@ let plugins = [
     resolve: `gatsby-omni-font-loader`,
     options: {
       enableListener: true,
+      mode: "render-blocking",
       preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
       web: [
         {
@@ -179,7 +186,44 @@ let plugins = [
       ],
     },
   },
-
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      path: `${__dirname}/locales`,
+      name: `locale`,
+    },
+  },
+  {
+    resolve: `gatsby-plugin-react-i18next`,
+    options: {
+      localeJsonSourceName: `locale`, // name given to `gatsby-source-filesystem` plugin.
+      languages: [`en`, `hu`],
+      defaultLanguage: `hu`,
+      siteUrl: `https://bandha.works/`,
+      // if you are using trailingSlash gatsby config include it here, as well (the default is 'always')
+      trailingSlash: "always",
+      // you can pass any i18next options
+      // i18nextOptions: {
+      //   fallbackLng: "hu",
+      //   interpolation: {
+      //     escapeValue: false, // not needed for react as it escapes by default
+      //   },
+      //   keySeparator: false,
+      //   nsSeparator: false,
+      // },
+      pages: [
+        {
+          matchPath: "/:lang?/blog/:uid",
+          getLanguageFromPath: true,
+          excludeLanguages: ["en"],
+        },
+        {
+          matchPath: "/preview",
+          languages: ["en"],
+        },
+      ],
+    },
+  },
   // {
   //   resolve: `gatsby-plugin-page-creator`,
   //   options: {
