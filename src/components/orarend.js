@@ -1,7 +1,7 @@
 import React from "react"
 import { CustomLink } from "./CustomLink"
 import Layout from "./Layouts/Layout"
-import Seo from "./seo"
+import { CustomHead } from "../components/CustomHead"
 import Accordion from "./Accordions/Accordion"
 import Icons from "./Icons/Icons"
 import Button from "../components/Buttons/Button"
@@ -316,20 +316,26 @@ const Orarend = ({ data }) => {
 
 export default Orarend
 
-export const Head = ({ data, location }) => {
-  if (!data) {
-    return null
-  }
-
+export const Head = ({ location, data }) => {
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
+  const pageTitle = "Órarend | " + data.site.siteMetadata.title
+  const pageDescription =
+    "Itt találod a heti órarendünket, a tanárok neveit, az órák leírását és a regisztrációs linkeket."
 
   return (
-    <Seo
-      title="Órarend | Bandha Works Jógaiskola"
-      description="A Bandha Works jógaiskola órarendje"
-      ogFeaturedImage={`${siteUrl}${ogImage}`}
-      location={location}
+    <CustomHead
+      canonical={siteUrl + location.pathname}
+      title={pageTitle}
+      description={pageDescription}
+      image={ogImage}
+      schemaData={{
+        "@type": "WebPage",
+        name: pageTitle,
+        description: pageDescription,
+        url: `${siteUrl}${location.pathname}`,
+        logo: "https://mula.bandha.works/images/bw_logo.png",
+      }}
     />
   )
 }
@@ -370,7 +376,7 @@ export const scheduleListQuery = graphql`
         }
       }
     }
-    file(relativePath: { eq: "osztondij_desktop.jpg" }) {
+    file(relativePath: { eq: "orarend_desktop.jpg" }) {
       childImageSharp {
         gatsbyImageData(width: 1200)
       }
@@ -378,6 +384,7 @@ export const scheduleListQuery = graphql`
     site {
       siteMetadata {
         siteUrl
+        title
       }
     }
   }
