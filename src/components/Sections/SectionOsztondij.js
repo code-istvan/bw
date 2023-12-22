@@ -1,11 +1,19 @@
 import React from "react"
 import Button from "../Buttons/Button"
 import { navigate } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import "../../sass/components/_sectionOsztondij.scss"
 
 const SectionOsztondij = () => {
   return (
     <section className="section--osztondij">
+      <StaticImage
+        src="../../images/osztondij_background.jpg"
+        alt="Astanga jóga ösztöndíj"
+        placeholder="blurred"
+        layout="fullWidth"
+        className="section-osztondij__background"
+      />
       <div className="section-osztondij__wrapper">
         <h2 className="mb-20px section--osztondij--header heading heading--1">
           Jóga ösztöndíj

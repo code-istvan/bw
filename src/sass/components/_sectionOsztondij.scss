@@ -19,10 +19,14 @@
     }
   }
 
+  .section-osztondij__background {
+    position: absolute;
+    width: 670px;
+    height: 100%;
+    z-index: -1;
+  }
+
   .section-osztondij__wrapper {
-    background-image: url("https://mula.bandha.works/images/osztondij_background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
     padding: 20px;
 
     @include xs {
