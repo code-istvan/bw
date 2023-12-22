@@ -36,7 +36,7 @@ export default function AdatvedelmiTajekoztato() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/adatkezeles_desktop.jpeg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Bandha Works Jógaiskola adatvédelmi tájékoztató"
@@ -46,7 +46,7 @@ export default function AdatvedelmiTajekoztato() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/adatkezeles_mobil.jpeg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Bandha Works Jógaiskola adatvédelmi tájékoztató"

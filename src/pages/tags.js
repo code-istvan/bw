@@ -16,7 +16,7 @@ export default function Tags() {
             className="container-fluid blog-hero-image hero-big-image"
             src="../images/blog_desktop.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"
@@ -26,7 +26,7 @@ export default function Tags() {
             className="container-fluid blog-hero-image hero-mobil-image"
             src="../images/blog_mobil.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"

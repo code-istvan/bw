@@ -92,7 +92,7 @@ export default function Mysoreprogram() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/mysore_desktop.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore gyakorlás"
@@ -102,7 +102,7 @@ export default function Mysoreprogram() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/mysore_mobil.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore Budapest"
@@ -157,7 +157,7 @@ export default function Mysoreprogram() {
               className=""
               src="../images/Mysore_program_1.jpg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Astanga Mysore program"
@@ -169,7 +169,7 @@ export default function Mysoreprogram() {
               className="display-none-mobil"
               src="../images/Mysore_program_2.jpg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Astanga jóga Budapest"
@@ -181,7 +181,7 @@ export default function Mysoreprogram() {
               className="display-none-mobil"
               src="../images/Mysore_program_7.jpeg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Astanga Mysore gyakorlás"
@@ -347,7 +347,7 @@ export default function Mysoreprogram() {
                   className="avatar__image avatar__image--medium zindex-1"
                   src="../images/istvan.png"
                   layout="fullWidth"
-                  loading="eager"
+                  loading="lazy"
                   quality={95}
                   formats={["AUTO", "WEBP", "AVIF"]}
                   alt="Szalai István astanga jóga oktató"

@@ -17,7 +17,7 @@ export default function Messagesent() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/confirm_desktop.jpeg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"
@@ -27,7 +27,7 @@ export default function Messagesent() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/confirm_mobil.jpeg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"

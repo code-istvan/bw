@@ -16,7 +16,7 @@ const NotFoundPage = () => (
           className="container-fluid page-hero-image page-big-image"
           src="../images/404_desktop.jpeg"
           layout="fullWidth"
-          loading="eager"
+          loading="lazy"
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="Bandha Works Jógaiskola 404-es oldal"
@@ -26,7 +26,7 @@ const NotFoundPage = () => (
           className="container-fluid page-hero-image page-mobil-image"
           src="../images/404_mobil.jpeg"
           layout="fullWidth"
-          loading="eager"
+          loading="lazy"
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="Bandha Works Jógaiskola 404-es oldal"

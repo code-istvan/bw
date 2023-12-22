@@ -16,7 +16,7 @@ export default function Tanfolyam() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/tanfolyam_desktop.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"
@@ -26,7 +26,7 @@ export default function Tanfolyam() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/tanfolyam_mobil.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"

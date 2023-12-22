@@ -66,7 +66,7 @@ export default function AstangaKezdoTanfolyam() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/astanga-kezdo-tanfolyam-desktop.jpeg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"
@@ -76,7 +76,7 @@ export default function AstangaKezdoTanfolyam() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/astanga-kezdo-tanfolyam-mobil.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"
@@ -125,7 +125,7 @@ export default function AstangaKezdoTanfolyam() {
               className="page-mobil-image"
               src="../images/akt1.jpg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Astanga kezdő tanfolyam"
@@ -135,7 +135,7 @@ export default function AstangaKezdoTanfolyam() {
               className="page-big-image"
               src="../images/akt_big.jpg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Astanga kezdő tanfolyam"
@@ -261,7 +261,7 @@ export default function AstangaKezdoTanfolyam() {
               className=""
               src="../images/bandhami.jpeg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Astanga kezdő tanfolyam"

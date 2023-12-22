@@ -31,7 +31,7 @@ export default function Osztondij() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/osztondij_desktop.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga ösztöndíj"
@@ -41,7 +41,7 @@ export default function Osztondij() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/osztondij_mobil.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga ösztöndíj"
@@ -104,7 +104,7 @@ export default function Osztondij() {
           className="container-fluid-right page-hero-image page-big-image mt-40px"
           src="../images/oszt_content_img.jpg"
           layout="fullWidth"
-          loading="eager"
+          loading="lazy"
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="Astanga jóga ösztöndíj"
@@ -114,7 +114,7 @@ export default function Osztondij() {
           className="container-fluid page-hero-image page-mobil-image mt-40px"
           src="../images/oszt_content_img_mobil.jpg"
           layout="fullWidth"
-          loading="eager"
+          loading="lazy"
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="Astanga jóga Mysore"

@@ -35,7 +35,7 @@ export default function AstangaMysoreKurzus() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/mysore_kurzus_desktop.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"
@@ -45,7 +45,7 @@ export default function AstangaMysoreKurzus() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/mysore_kurzus_mobil.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"
@@ -85,7 +85,7 @@ export default function AstangaMysoreKurzus() {
               className="page-mobil-image"
               src="../images/akt1.jpg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Astanga kezdő tanfolyam"
@@ -95,7 +95,7 @@ export default function AstangaMysoreKurzus() {
               className="page-big-image"
               src="../images/akt_big.jpg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Astanga kezdő tanfolyam"

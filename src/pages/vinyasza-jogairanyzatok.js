@@ -87,7 +87,7 @@ export default function Vinyasza() {
             className="mt-20px mb-40px"
             src="../images/old_shala.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Old Shala Mysore"
@@ -156,7 +156,7 @@ export default function Vinyasza() {
             className="mt-20px mb-40px"
             src="../images/Guruji_Sharathji.jpeg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Guruji Sharathji rooftop asana pratice"
@@ -247,7 +247,7 @@ export default function Vinyasza() {
             className="mt-20px mb-40px"
             src="../images/Krishnamacharya.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Krishnamacharya"
@@ -344,7 +344,7 @@ export default function Vinyasza() {
             className="mt-20px mb-40px"
             src="../images/Krishnamacharya_teaching.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Krishnamacharya teaching"
@@ -400,7 +400,7 @@ export default function Vinyasza() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/jogairanyzatok_desktop.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"
@@ -410,7 +410,7 @@ export default function Vinyasza() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/jogairanyzatok_mobil.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Mysore"

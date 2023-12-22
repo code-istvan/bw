@@ -17,7 +17,7 @@ export default function Prices() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/arak_desktop.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Bandha Works Yoga Shala prices"
@@ -27,7 +27,7 @@ export default function Prices() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/arak_mobil.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Bandha Works Yoga Shala prices"

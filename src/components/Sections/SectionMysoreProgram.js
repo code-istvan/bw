@@ -21,7 +21,7 @@ const SectionMysoreProgram = () => {
                   className={`${breakpoints.md ? "container-fluid" : null}`}
                   src="../../images/Mysore-program-bw.jpg"
                   // layout="fullWidth"
-                  loading="eager"
+                  loading="lazy"
                   quality={95}
                   formats={["AUTO", "WEBP", "AVIF"]}
                   alt="R. Sharath Jois"

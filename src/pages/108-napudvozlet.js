@@ -18,7 +18,7 @@ export default function Szaznyolc() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/108_napudvozlet.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Újévi 108 napüdvözlet"
@@ -28,7 +28,7 @@ export default function Szaznyolc() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/108_napudvozlet_mobil.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Újévi 108 napüdvözlet a bandhában"

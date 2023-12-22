@@ -19,7 +19,7 @@ const Hero = () => {
                 className="container-fluid page-hero-image page-big-image"
                 src="../images/hero_desktop.jpg"
                 layout="fullWidth"
-                loading="eager"
+                loading="lazy"
                 quality={95}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="Astanga jóga Mysore"
@@ -29,7 +29,7 @@ const Hero = () => {
                 className="container-fluid page-hero-image page-mobil-image"
                 src="../images/hero_mobil.jpeg"
                 layout="fullWidth"
-                loading="eager"
+                loading="lazy"
                 quality={95}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="Astanga jóga Mysore"

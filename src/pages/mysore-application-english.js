@@ -17,7 +17,7 @@ export default function MysoreApplicationEnglish() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/confirm_desktop.jpeg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Ashtanga Yoga Mysore"
@@ -27,7 +27,7 @@ export default function MysoreApplicationEnglish() {
             className="container-fluid page-hero-image page-mobile-image"
             src="../images/confirm_mobile.jpeg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Ashtanga Yoga Mysore"

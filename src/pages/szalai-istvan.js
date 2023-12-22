@@ -33,7 +33,7 @@ export default function Istvan() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/istvan_desktop.jpeg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Szalai István jóga oktató"
@@ -43,7 +43,7 @@ export default function Istvan() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/istvan_mobil.jpeg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Szalai István jóga oktató"
@@ -141,7 +141,7 @@ export default function Istvan() {
               className=""
               src="../images/sharathji_and_istvan.jpg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Saharath Jois és Szalai István, Mysore, KPJAYI"
@@ -153,7 +153,7 @@ export default function Istvan() {
               className=""
               src="../images/assist_team.jpg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Assist team with Szalai Istvan, Mysore, KPJAYI"
@@ -165,7 +165,7 @@ export default function Istvan() {
               className=""
               src="../images/lakshmishji_and_istvan.jpg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Lakshmish Ji és Szalai István, Mysore, KPJAYI"

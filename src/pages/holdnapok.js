@@ -140,7 +140,7 @@ export default function Holdnapok() {
               className="container-fluid page-hero-image page-big-image"
               src="../images/holdnapok_desktop.jpeg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Astanga jóga Mysore"
@@ -150,7 +150,7 @@ export default function Holdnapok() {
               className="container-fluid page-hero-image page-mobil-image"
               src="../images/holdnapok_mobil.jpeg"
               layout="fullWidth"
-              loading="eager"
+              loading="lazy"
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="Astanga jóga Mysore"

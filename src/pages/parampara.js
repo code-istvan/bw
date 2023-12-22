@@ -15,7 +15,7 @@ export default function Parampara() {
             className="container-fluid page-hero-image page-big-image"
             src="../images/parampara_desktop.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Parampara"
@@ -25,7 +25,7 @@ export default function Parampara() {
             className="container-fluid page-hero-image page-mobil-image"
             src="../images/parampara_mobil.jpg"
             layout="fullWidth"
-            loading="eager"
+            loading="lazy"
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Astanga jóga Parampara"
