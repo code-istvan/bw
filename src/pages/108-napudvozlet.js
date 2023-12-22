@@ -108,7 +108,15 @@ export default function Szaznyolc() {
           <div className="szaznyolc-timings--wrapper">
             <p>
               <strong>Időpont</strong>
-              <br /> 2024. január 1. (hétfő) 17:00
+              <br /> 2024. január 1. (hétfő) <strong>17:00-től</strong> és{" "}
+              <strong>19:00-tól</strong>. A nagy érdeklődésre való tekintettel
+              lesz egy második időpont is (19:00).{" "}
+              <span className="body clr-brand-orange">
+                <strong>
+                  A 17:00 időpontra a szabad helyek sajnos elfogytak a
+                  nagyteremben.{" "}
+                </strong>
+              </span>
               <div className="separator-horizontal mt-20px"></div>
               <strong>Oktató</strong> <br />
               <CustomLink
