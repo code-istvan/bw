@@ -248,10 +248,39 @@ export default function AstangaKezdoTanfolyam() {
               ))}
           </div>
         </div>
+        <div className="row">
+          <h3 className="mt-40px mb-20px clr-brand-orange font-family-primary">
+            <strong>TANFOLYAMI IDŐPONTOK</strong>
+          </h3>
+        </div>
+        <div className="island-section gigajs">
+          <div>
+            {" "}
+            <div className="row">
+              <h3>
+                <strong>JANUÁRI ASTANGA KEZDŐ TANFOLYAM</strong>
+              </h3>
+            </div>
+            <div className="row">
+              <p>
+                2024. január 9. (kedd) 19:00. <br />4 hét / 8 alkalom
+              </p>
+            </div>
+          </div>
+          <div className="clr-brand-orange">
+            <p>
+              <strong>
+                BETELT
+                <br />
+              </strong>
+            </p>
+          </div>
+        </div>
+
         <CourseApplication
-          courseDate={"2024. január 9. (kedd) 19:00."}
+          courseDate={"2024. március 5. (kedd) 19:00."}
           courseLink={
-            "https://shop.bandha.works/products/astanga-kezdo-tanfolyam"
+            "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-marcius"
           }
           courseType={"tanfolyam"}
         />

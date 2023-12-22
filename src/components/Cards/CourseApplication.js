@@ -7,8 +7,8 @@ const CourseApplication = ({ courseDate, courseLink, courseType }) => {
   return (
     <div className="island-section">
       <div className="row">
-        <h3 className="mb-20px clr-brand-orange font-family-primary">
-          <strong>JELENTKEZÉS</strong>
+        <h3 className="mb-20px font-family-primary">
+          <strong>MÁRCIUSI ASTANGA KEZDŐ TANFOLYAM</strong>
         </h3>
       </div>
       <div className="row">

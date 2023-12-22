@@ -35,6 +35,13 @@
   }
 }
 
+.gigajs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .jelentkezes-address {
   display: flex;
   @include xs {
