@@ -162,24 +162,24 @@ let plugins = [
       },
     },
   },
-  {
-    resolve: `gatsby-omni-font-loader`,
-    options: {
-      mode: "async",
-      enableListener: true,
-      preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
-      web: [
-        {
-          name: `Nunito Sans`,
-          file: `https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap`,
-        },
-        {
-          name: `Abril Fatface`,
-          file: `https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap`,
-        },
-      ],
-    },
-  },
+  // {
+  //   resolve: `gatsby-omni-font-loader`,
+  //   options: {
+  //     mode: "async",
+  //     enableListener: true,
+  //     preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+  //     web: [
+  //       {
+  //         name: `Nunito Sans`,
+  //         file: `https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap`,
+  //       },
+  //       {
+  //         name: `Abril Fatface`,
+  //         file: `https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap`,
+  //       },
+  //     ],
+  //   },
+  // },
 
   // {
   //   resolve: `gatsby-plugin-page-creator`,
