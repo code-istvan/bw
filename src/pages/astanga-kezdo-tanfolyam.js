@@ -257,7 +257,7 @@ export default function AstangaKezdoTanfolyam() {
           <div>
             {" "}
             <div className="row">
-              <h3>
+              <h3 className="font-family-primary">
                 <strong>JANUÁRI ASTANGA KEZDŐ TANFOLYAM</strong>
               </h3>
             </div>
