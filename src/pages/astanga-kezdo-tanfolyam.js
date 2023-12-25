@@ -253,36 +253,35 @@ export default function AstangaKezdoTanfolyam() {
             <strong>TANFOLYAMI IDŐPONTOK</strong>
           </h3>
         </div>
-        <div className="island-section gigajs">
-          <div>
-            {" "}
-            <div className="row">
-              <h3 className="font-family-primary">
-                <strong>JANUÁRI ASTANGA KEZDŐ TANFOLYAM</strong>
-              </h3>
-            </div>
-            <div className="row">
-              <p>
-                2024. január 9. (kedd) 19:00. <br />4 hét / 8 alkalom
-              </p>
-            </div>
-          </div>
-          <div className="clr-brand-orange">
-            <p>
-              <strong>
-                BETELT
-                <br />
-              </strong>
-            </p>
-          </div>
-        </div>
 
         <CourseApplication
-          courseDate={"2024. március 5. (kedd) 19:00."}
+          courseName={"ASTANGA KEZDŐ TANFOLYAM"}
+          courseDate={"2024. január 9. (kedd) 19:00"}
+          courseLink={
+            "https://shop.bandha.works/products/astanga-kezdo-tanfolyam"
+          }
+          courseType={"tanfolyam"}
+          courseTeacher={"István"}
+          courseNote={"Még két szabad hely van!"}
+        />
+        <CourseApplication
+          courseName={"HÉTVÉGI ASTANGA KEZDŐ TANFOLYAM"}
+          courseDate={"2024. január 20. (szombat) 10:00"}
+          courseLink={
+            "https://shop.bandha.works/products/hetvegi-astanga-kezdo-tanfolyam"
+          }
+          courseType={"tanfolyam"}
+          courseWeekend={"igen"}
+          courseTeacher={"Noémi"}
+        />
+        <CourseApplication
+          courseName={"ASTANGA KEZDŐ TANFOLYAM - MÁRCIUS"}
+          courseDate={"2024. március 5. (kedd) 19:00"}
           courseLink={
             "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-marcius"
           }
           courseType={"tanfolyam"}
+          courseTeacher={"István"}
         />
         <div className="row mt-20px">
           <div className="col-12-xs">

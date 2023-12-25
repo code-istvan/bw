@@ -3,124 +3,133 @@ import { StaticImage } from "gatsby-plugin-image"
 import { CustomLink } from "../CustomLink"
 import Button from "../Buttons/Button"
 
-const CourseApplication = ({ courseDate, courseLink, courseType }) => {
+const CourseApplication = ({
+  courseDate,
+  courseLink,
+  courseType,
+  courseNote,
+  courseName,
+  courseWeekend,
+  courseTeacher,
+}) => {
   return (
     <div className="island-section">
       <div className="row">
-        <h3 className="mb-20px font-family-primary">
-          <strong>MÁRCIUSI ASTANGA KEZDŐ TANFOLYAM</strong>
+        <h3 className="">
+          <strong>{courseName}</strong>
         </h3>
       </div>
+
       <div className="row">
-        <p>
-          <strong>
+        <p className="clr-shades-gray">
+          {courseDate} <br />
+          {!courseWeekend ? (
+            <p>
+              Kedd és péntek, 19:00-től 20:30-ig
+              <br />4 hét / 8 alkalom
+            </p>
+          ) : (
+            <p>
+              Szombat és vasárnap, 10:00-től 12:00-ig
+              <br />2 hét / 4 alkalom
+            </p>
+          )}
+          <strong className="clr-brand-orange">
             {" "}
-            {courseType === "tanfolyam" ? "Tanfolyam" : "Kurzus"} kezdete
+            {courseNote ? courseNote : ""}
           </strong>
-        </p>
-      </div>
-      <div className="row">
-        <p>{courseDate}</p>
+        </p>{" "}
       </div>
       <div className="separator-horizontal mt-20px"></div>
-      <div className="row">
+      {/* <div className="row">
         <p>
-          <strong>
-            {courseType === "tanfolyam" ? "Tanfolyami" : "Kurzus"} napok
-          </strong>{" "}
+          <strong>A {courseType} költsége: </strong>30.000 Ft
         </p>
+      </div>
+      <div className="row">
+        <p></p>
+      </div>
+      <div className="separator-horizontal mt-20px"></div> */}
+      <div className="row">
+        <div>
+          {courseTeacher === "István" ? (
+            <div className="jelentkezes-teacher">
+              <StaticImage
+                className="avatar__image avatar__image--medium jelentkezes-teacher--avatar zindex-1"
+                src="../../images/istvan.png"
+                layout="fullWidth"
+                loading="eager"
+                quality={95}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="Szalai István jógatanár"
+                placeholder="blurred"
+              />
+              <div>
+                <CustomLink
+                  link="/szalai-istvan"
+                  title="Szalai István"
+                  classNames="link-decoration-remove body"
+                />
+                <br />
+                <span className="clr-shades-gray">
+                  KPJAYI Authorized Level 1<br /> oktató
+                </span>
+              </div>
+            </div>
+          ) : (
+            <div className="jelentkezes-teacher">
+              <StaticImage
+                className="avatar__image avatar__image--medium jelentkezes-teacher--avatar zindex-1"
+                src="../../images/noemi.png"
+                layout="fullWidth"
+                loading="eager"
+                quality={95}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="Gál Noémi jógatanár"
+                placeholder="blurred"
+              />
+              <div>
+                <CustomLink
+                  link="/gal-noemi-andrea"
+                  title="Gál Noémi Andrea"
+                  classNames="link-decoration-remove body"
+                />
+                <br />
+                <span className="clr-shades-gray">oktató</span>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+      <div className="separator-horizontal mt-20px"></div>
+      <div>
+        {!courseLink ? (
+          <p className="clr-brand-orange">
+            <strong>Sajnos erre a képzésre már nincs szabad helyünk</strong>
+          </p>
+        ) : (
+          <div className="mb-20px jelentkezes-button">
+            <Button
+              type="button"
+              buttonStyle="btn--primary--solid"
+              onClick={() => {
+                window.open(courseLink, "_blank", "noopener,noreferrer")
+              }}
+            >
+              Jelentkezem
+            </Button>
+          </div>
+        )}
       </div>
       <div>
-        <div className="jelentkezes-date">
-          <div className="">
-            <p className="clr-shades-gray span">KEDD</p>
-            <p>19:00-20:30</p>
-          </div>
-          <div className="">
-            <p className="clr-shades-gray span">PÉNTEK</p>
-            <p>19:00-20:30</p>
-          </div>
-        </div>
-        <p>4 hét / 8 alkalom</p>
-      </div>
-      <div className="separator-horizontal mt-20px"></div>
-      <div className="row">
-        <p>
-          <strong>A {courseType} költsége</strong>
-        </p>
-      </div>
-      <div className="row">
-        <p>30.000 Ft</p>
-      </div>
-      <div className="separator-horizontal mt-20px"></div>
-      <div className="row">
-        <p>
-          <strong>Helyszín</strong>{" "}
-        </p>
-      </div>
-      <div className="jelentkezes-address">
-        <div>
+        {!courseLink ? (
+          ""
+        ) : (
           <p>
-            <CustomLink
-              link="/kapcsolat"
-              title="Bandha Works Jógaiskola "
-              classNames="link-decoration-remove"
-            />
+            A {courseType === "tanfolyam" ? "tanfolyamra" : "kurzusra"} a
+            részvételi díj kiegyenlítésével tudsz jelentkezni.
           </p>
-        </div>
-        <div>
-          <p>
-            <span className="jelentkezes-address-line body"> - </span>1027
-            Budapest, Frankel Leó út 18.
-          </p>
-        </div>
-      </div>
-      <div className="separator-horizontal mt-20px"></div>
-      <div className="row">
-        {" "}
-        <p className="mb-12px">
-          <strong>Oktató</strong>
-        </p>
-      </div>
-      <div className="row">
-        <div className="jelentezes-teacher">
-          <StaticImage
-            className="avatar__image avatar__image--medium jelentezes-teacher--avatar zindex-1"
-            src="../../images/istvan.png"
-            layout="fullWidth"
-            loading="eager"
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Szalai István jógatanár"
-            placeholder="blurred"
-          />
-
-          <div>
-            <CustomLink
-              link="/szalai-istvan"
-              title="Szalai István"
-              classNames="link-decoration-remove body"
-            />
-            <p>KPJAYI Authorized Level 1</p>
-          </div>
-        </div>
-      </div>
-      <div className="separator-horizontal mt-20px"></div>
-
-      <p>
-        A {courseType === "tanfolyam" ? "tanfolyamra" : "kurzusra"} a részvételi
-        díj kiegyenlítésével tudsz jelentkezni.
-      </p>
-      <div className="mt-20px jelentkezes-button">
-        <Button
-          type="button"
-          buttonStyle="btn--primary--solid"
-          onClick={() => {
-            window.open(courseLink, "_blank", "noopener,noreferrer")
-          }}
-        >
-          Jelentkezem
-        </Button>
+        )}
       </div>
     </div>
   )
