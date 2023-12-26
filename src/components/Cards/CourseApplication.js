@@ -14,24 +14,27 @@ const CourseApplication = ({
 }) => {
   return (
     <div className="island-section">
+      <div className="row mb-20px">
+        {" "}
+        <p className="clr-brand-orange">
+          <strong>{courseDate}</strong>
+        </p>{" "}
+      </div>
       <div className="row">
         <h3 className="">
           <strong>{courseName}</strong>
         </h3>
       </div>
-
       <div className="row">
         <p className="clr-shades-gray">
-          {courseDate} <br />
           {!courseWeekend ? (
             <p>
-              Kedd és péntek, 19:00-től 20:30-ig
-              <br />4 hét / 8 alkalom
+              Kedd és péntek, 19:00 - 20:30 <br />4 hét, 8 alkalom
             </p>
           ) : (
             <p>
-              Szombat és vasárnap, 10:00-től 12:00-ig
-              <br />2 hét / 4 alkalom
+              Szombat és vasárnap, 10:00 - 12:00
+              <br />2 hét, 4 alkalom
             </p>
           )}
           <strong className="clr-brand-orange">
