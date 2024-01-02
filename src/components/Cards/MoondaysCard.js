@@ -29,10 +29,10 @@ const MoondaysCard = ({
               <h3 className="clr-brand-orange">TELI</h3>
             </div>
             <div className="holdnapok-card__body__grid__leftSide">
-              <p>{newMoon}</p>
+              <p>{fullMoon}</p>
             </div>
             <div>
-              <p>{fullMoon}</p>
+              <p>{newMoon}</p>
             </div>
             {thirdMoon.length === 0 ? null : (
               <div className="holdnapok-card__body__grid__leftSide">
