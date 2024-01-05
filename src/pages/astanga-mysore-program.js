@@ -122,6 +122,11 @@ export default function Mysoreprogram() {
             </strong>
           </h3>
         </div>
+        <div className="framed-section-orange-title mb-20px">
+          <h3 className="clr-brand-orange font-family-primary">
+            Ászanák: Az astanga jóga alapjai
+          </h3>
+        </div>
         <div className="row">
           <p>
             Az{" "}
@@ -221,6 +226,11 @@ export default function Mysoreprogram() {
             Intézet).
           </p>
         </div>
+        <div className="framed-section-orange-title mb-20px">
+          <h3 className="clr-brand-orange font-family-primary">
+            Az ászanagyakorlás ideális időpontja
+          </h3>
+        </div>
         <div className="row">
           <p>
             A gyakorlás időpontja is meghatározott, a Mysore-órákat
@@ -237,6 +247,11 @@ export default function Mysoreprogram() {
           </p>
         </div>
         <br />
+        <div className="framed-section-orange-title mb-20px">
+          <h3 className="clr-brand-orange font-family-primary">
+            A rendszeres gyakorlás elve
+          </h3>
+        </div>
         <div className="row">
           <p>
             Ehhez a hagyományos mysore-i oktatási módszerhez az is
@@ -297,7 +312,7 @@ export default function Mysoreprogram() {
         <div className="framed-section mt-20px">
           <div className="framed-section-orange__inside">
             <div className="framed-section-orange-title text-align-center mb-20px">
-              <h3 className="font-family-primary">
+              <h3 className="clr-brand-orange font-family-primary">
                 A Mysore-program felépítése, elemei
               </h3>
             </div>
