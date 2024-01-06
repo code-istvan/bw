@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import "../sass/components/_counter.scss"
 
 export default function Counter({ tag, className, language = "hu" }) {
   const initialDate = "2013-08-25"
@@ -60,14 +61,24 @@ export default function Counter({ tag, className, language = "hu" }) {
   // Nyelvi szöveg megjelenítése
   const renderText = (count, type) => {
     const text = currentLanguage[type]
-    return typeof text === "function" ? text(count) : text
+    return `${count} ${typeof text === "function" ? text(count) : text}`
   }
 
   return (
     <Tag className={`counter--wrapper ${className}`}>
-      {years} {renderText(years, "years")}
-      {months !== 0 && `, ${months} ${renderText(months, "months")}`}
-      {days !== 0 && `, ${days} ${renderText(days, "days")}`}
+      <span className="counter--no-wrap heading heading--3">
+        {renderText(years, "years")}
+      </span>
+      {months !== 0 && (
+        <span className="counter--no-wrap heading heading--3">
+          , {renderText(months, "months")}
+        </span>
+      )}
+      {days !== 0 && (
+        <span className="counter--no-wrap heading heading--3">
+          , {renderText(days, "days")}
+        </span>
+      )}
     </Tag>
   )
 }

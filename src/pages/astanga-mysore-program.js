@@ -111,7 +111,7 @@ export default function Mysoreprogram() {
         </div>
       </div>
       <div className="mysore-program--wrapper">
-        <div className="mt-40px mb-20px">
+        <div className="mt-40px mb-40px">
           <h3>
             <strong>
               A Mysore-stílusú astanga jóga gyakorlás hatékony és személyre
@@ -194,7 +194,11 @@ export default function Mysoreprogram() {
             />
           </div>
         </div>
-        <br />
+        <div className="framed-section-orange-title mb-20px mt-20px">
+          <h3 className="clr-brand-orange font-family-primary">
+            Mysore-stílus
+          </h3>
+        </div>
         <div className="row">
           <p>
             Az astanga vinyásza jógában az ászanákat tradicionálisan Mysore-
@@ -332,7 +336,11 @@ export default function Mysoreprogram() {
             </div>
           </div>
         </div>
-        <br />
+        <div className="mb-20px mt-20px">
+          <h3 className="clr-brand-orange font-family-primary">
+            Szigor és Áldás: Az astanga jóga útja
+          </h3>
+        </div>
         <div className="row">
           <p>
             Látszik, hogy szigorúak a feltételek, nagy elkötelezettséget kíván
