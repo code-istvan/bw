@@ -19,8 +19,9 @@ Dr. Kausthub Desikachar, The Yoga of the Yogi. The Legacy of T. Krishnamacharya.
 (részlet)
 
 
-### Északi kitérő /
-Harmadik fejezet
+### Északi kitérő
+<span>Harmadik fejezet</span>
+
 
 **A jógamester születése**
 az igazság a hegyekben lakik
