@@ -19,7 +19,7 @@ Dr. Kausthub Desikachar, The Yoga of the Yogi. The Legacy of T. Krishnamacharya.
 (részlet)
 
 
-### Északi kitérő
+### Északi kitérő /
 Harmadik fejezet
 
 **A jógamester születése**
