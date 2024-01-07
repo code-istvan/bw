@@ -8,8 +8,8 @@ author: Anita
 tags:
   - astangaikon
 date: 2024-01-07T19:30:45.522Z
-thumbnail: /blogpostimages/desktop.png
-thumbnailMobil: /blogpostimages/mobil.png
+thumbnail: /blogpostimages/desktop.jpg
+thumbnailMobil: /blogpostimages/mobil_coming.jpg
 ---
 A bejegyzés első része [itt olvasható](https://bandha.works/blog/astanga-ikonok-t-krishnamacharya-1-resz/).
 
@@ -19,10 +19,10 @@ Dr. Kausthub Desikachar, The Yoga of the Yogi. The Legacy of T. Krishnamacharya.
 (részlet)
 
 
-### Északi kitérő \
+### Északi kitérő  
 Harmadik fejezet 
 
-**A jógamester születése** \
+**A jógamester születése**  
 az igazság a hegyekben lakik
 
 Az Alvar Tirunagariban történtek örökre megváltoztatták Krishnamacharya életét. Világos volt számára, hogy sorsa az, hogy szerepet vállaljon a jóga hagyományának feltámasztásában, ugyanúgy, ahogy őse, Nathamuni felélesztette a Srí-vaisnava-sampradayát évszázadokkal korábban. Ez azonban nem volt egyszerű feladat egy tizenhat éves fiatalembernek, és Krishnamacharya felismerte, hogy ha sikerrel akar járni, folytatnia kell a tanulást, hogy tudása és hitelessége felépüljön.
