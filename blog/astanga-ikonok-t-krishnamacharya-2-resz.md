@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: "Astanga ikonok: T. Krishnamacharya 2. rész"
 description: Ha igazán bírni akarod a jógát, el kell menned Nepálon túlra,
   Tibetbe. Ott él egy Rama Mohana Brahmachari nevű jógi. Ő az egyetlen, aki
@@ -18,10 +18,9 @@ A bejegyzés első része [itt olvasható](https://bandha.works/blog/astanga-iko
 Dr. Kausthub Desikachar, The Yoga of the Yogi. The Legacy of T. Krishnamacharya. North Point Press, New York, 2011
 (részlet)
 
+**Harmadik fejezet**
 
 ### Északi kitérő
-<span>Harmadik fejezet</span>
-
 
 **A jógamester születése**
 az igazság a hegyekben lakik
