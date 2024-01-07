@@ -22,7 +22,7 @@ Dr. Kausthub Desikachar, The Yoga of the Yogi. The Legacy of T. Krishnamacharya.
 ### Északi kitérő
 Harmadik fejezet
 
-**A jógamester születése**  
+**A jógamester születése**
 az igazság a hegyekben lakik
 
 Az Alvar Tirunagariban történtek örökre megváltoztatták Krishnamacharya életét. Világos volt számára, hogy sorsa az, hogy szerepet vállaljon a jóga hagyományának feltámasztásában, ugyanúgy, ahogy őse, Nathamuni felélesztette a Srí-vaisnava-sampradayát évszázadokkal korábban. Ez azonban nem volt egyszerű feladat egy tizenhat éves fiatalembernek, és Krishnamacharya felismerte, hogy ha sikerrel akar járni, folytatnia kell a tanulást, hogy tudása és hitelessége felépüljön.
