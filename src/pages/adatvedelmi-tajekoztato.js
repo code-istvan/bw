@@ -7,10 +7,10 @@ import { CustomHead } from "../components/CustomHead"
 import "../sass/pages/_adatvedelmi.scss"
 
 export default function AdatvedelmiTajekoztato() {
-  const adatkezeloNev = "Szalai István EV"
+  const adatkezeloNev = "Omworks Tech Kft."
   const adatkezeloSzekhely = "1133 Budapest, Bessenyei u. 8-10."
   const adatkezeloTelephely = "1027 Budapest, Frankel Leó út 18."
-  const adatkezeloNyilvantartasiSzam = "5786080"
+  const adatkezeloNyilvantartasiSzam = "01 09 879437"
   const adatkezeloLevelezes = "1133 Budapest, Bessenyei u. 8-10."
   const adatkezeloEmail = "bandha.works@gmail.com"
 
@@ -88,7 +88,7 @@ export default function AdatvedelmiTajekoztato() {
               <span>Telephely: {adatkezeloTelephely}</span>
             </p>
             <p className="mt-20px">
-              <span>Nyilvántartási szám: {adatkezeloNyilvantartasiSzam}</span>
+              <span>Cégjegyzékszám: {adatkezeloNyilvantartasiSzam}</span>
             </p>
             <p className="mt-20px">
               <span>Levelezési cím, panaszkezelés: {adatkezeloLevelezes}</span>
