@@ -7,7 +7,7 @@ description: Ha igazán bírni akarod a jógát, el kell menned Nepálon túlra,
 author: Anita
 tags:
   - astangaikon
-date: 2024-01-07T19:30:45.522Z
+date: 2016-11-08T19:30:45.522Z
 thumbnail: /blogpostimages/desktop.jpg
 thumbnailMobil: /blogpostimages/mobil_coming.jpg
 ---
