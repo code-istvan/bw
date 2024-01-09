@@ -56,8 +56,8 @@ Egy napon egy helyi szent, aki látta, ahogy **Krishnamacharya** jógát gyakoro
 
 **Krishnamacharya** kitüntetéssel tette le a vizsgát. Tanárai Váránasziban (…) csodálták azt a képességét, hogy ennyi tudást ilyen rövid idő alatt képes magába szívni.
 
-**Krishnamacharya** jóga iránti tudásvágya azonban nem csillapodott. **Ganganath Jha** segítségét kérte, aki nemcsak az egyetem vezetője volt, de jógácsárja, vagyis jógamester is. Azt mondta neki, hogy követni akarja apja tanácsát, hogy mélységeiben megismerje a *Jóga szútrát*. **Ganganath Jha** azt tanácsolta neki: \
-\
+**Krishnamacharya** jóga iránti tudásvágya azonban nem csillapodott. **Ganganath Jha** segítségét kérte, aki nemcsak az egyetem vezetője volt, de jógácsárja, vagyis jógamester is. Azt mondta neki, hogy követni akarja apja tanácsát, hogy mélységeiben megismerje a *Jóga szútrát*. **Ganganath Jha** azt tanácsolta neki: 
+
 > Ha igazán bírni akarod a jógát, el kell menned Nepálon túlra, Tibetbe. Ott él egy **Rama Mohana Brahmachari** nevű jógi. Ő az egyetlen, aki maradéktalanul meg tudja neked tanítani a Jóga szútra jelentését.
 
 **Krishnamacharya** azonnal indulni akart, de akkoriban nem volt egyszerű India határain túlra utazni. Még várnia kellett, és némi szerencsére is szüksége volt.
@@ -80,8 +80,8 @@ Innen folytatta útját; huszonkét nap és csaknem 340km megtétele után vég�
 
 Gyakran csodáltam[^3], hogyan tette meg **Krishnamacharya** ezt az utat, amely még ma, a túrázók részére rendelkezésre álló speciális felszerelésekkel is nehéznek és kimerítőnek számít.
 
-Nemrégiben Mysore-ban jártam, ahol **Krishnamacharya** egyik tanítványával, **Pattabhi Joisszal** találkoztam, hogy interjút készítsek vele ehhez a könyvhöz. Amikor a beszélgetést a Kajlás-hegy felkeresésére tereltem, **Pattabhi Jois** könnyezni kezdett, és azt mondta: \
-\
+Nemrégiben Mysore-ban jártam, ahol **Krishnamacharya** egyik tanítványával, **Pattabhi Joisszal** találkoztam, hogy interjút készítsek vele ehhez a könyvhöz. Amikor a beszélgetést a Kajlás-hegy felkeresésére tereltem, **Pattabhi Jois** könnyezni kezdett, és azt mondta: 
+
 > Senki nem lenne képes ma megtenni azt az utat. **Krishnamacharya** akkor tette meg, amikor nem volt rendes cipő, nem volt csomagolt élelem. Csak az az elhatározása vitte őt oda, hogy megtalálja a guruját. Az ilyen hit ritka manapság.
 
 Hosszú és fárasztó útja végén sem pihent meg, amikor elérte a Manaszarovar-tavat, hanem elindult, hogy megtalálja tanára lakhelyét. Végül talált egy barlangot, amelynek bejáratánál egy nagyon magas, hosszú szakállú remete állt. A remete facipőt viselt; nagyon békés arccal figyelt. **Krishnamacharya** azonnal tudta, hogy ő a tanára.
@@ -156,10 +156,9 @@ Megnyugvást merítve ebből az üzenetből **Krishnamacharya** visszautasított
 
 Ideje volt elhagyni Váránaszit és visszatérni végleg Mysore-ba. Mysore volt az a város, ahol felnőtt, és ahol sorsa örökre megváltozott.
 
-Ötödik fejezet
-### Fejedelmi kezdet\
-Az aranykor megalapozása
-\
+**Ötödik fejezet**
+### Fejedelmi kezdet
+Az aranykor megalapozása\
 csináld jól elsőre – lehet, hogy nem kapsz második esélyt
 
 Felvértezve a legjobb indiai egyetemeken szerzett végzettségekkel, **Krishnamacharya** készen állt arra, hogy elkötelezze magát mestere parancsa teljesítése mellett. Életét a jógának kívánta szentelni.
