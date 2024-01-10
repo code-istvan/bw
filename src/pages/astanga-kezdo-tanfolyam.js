@@ -253,8 +253,7 @@ export default function AstangaKezdoTanfolyam() {
             <strong>TANFOLYAMI IDŐPONTOK</strong>
           </h3>
         </div>
-
-        <CourseApplication
+        {/* <CourseApplication
           courseName={"ASTANGA KEZDŐ TANFOLYAM"}
           courseDate={"2024. január 9."}
           // courseLink={
@@ -263,7 +262,7 @@ export default function AstangaKezdoTanfolyam() {
           courseType={"tanfolyam"}
           courseTeacher={"István"}
           // courseNote={"Még két szabad hely van!"}
-        />
+        /> */}
         <CourseApplication
           courseName={"HÉTVÉGI ASTANGA KEZDŐ TANFOLYAM"}
           courseDate={"2024. január 20."}
