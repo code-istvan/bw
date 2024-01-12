@@ -1,5 +1,5 @@
 {
-  "newmoon": true,
+  "newmoon": false,
   "time2": "18:00 - 19:30",
   "time3": "null",
   "time4": "null",
@@ -7,7 +7,7 @@
   "date": "January 25, 2024",
   "teacher1": "Miért nem gyakorlunk ilyenkor?",
   "teacher2": "Noémi",
-  "fullmoon": false,
+  "fullmoon": true,
   "teacher3": "null",
   "teacher4": "null",
   "class4English": "null",
