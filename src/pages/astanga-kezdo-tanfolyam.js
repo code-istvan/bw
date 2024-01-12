@@ -272,7 +272,7 @@ export default function AstangaKezdoTanfolyam() {
           courseType={"tanfolyam"}
           courseWeekend={"igen"}
           courseTeacher={"Noémi"}
-          courseNote={"Még két szabad helyünk van erre a tanfolyamra!"}
+          courseNote={"Még egy szabad helyünk van erre a tanfolyamra!"}
         />
         <CourseApplication
           courseName={"ASTANGA KEZDŐ TANFOLYAM - MÁRCIUS"}
@@ -282,7 +282,7 @@ export default function AstangaKezdoTanfolyam() {
           }
           courseType={"tanfolyam"}
           courseTeacher={"István"}
-          // courseNote={"Még két szabad hely van!"}
+          // courseNote={"Még egy szabad hely van!"}
         />
         <div className="row mt-20px">
           <div className="col-12-xs">
