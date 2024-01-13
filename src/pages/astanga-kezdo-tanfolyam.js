@@ -267,7 +267,7 @@ export default function AstangaKezdoTanfolyam() {
         </div>
         <div className="row">
           <h3 className="mt-40px mb-20px clr-brand-orange font-family-primary">
-            <strong>TANFOLYAMI IDŐPONTOK</strong>
+            Tanfolyami időpontok
           </h3>
         </div>
         {/* <CourseApplication
