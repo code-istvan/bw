@@ -159,7 +159,7 @@ export default function AstangaMysoreKurzus() {
           courseLink={
             "https://shop.bandha.works/products/astanga-mysore-kurzus"
           }
-          courseNote={"Szabad helyek száma kevesebb mint öt!"}
+          courseNote={"Szabad helyek száma kevesebb mint három!"}
           courseType={"kurzus"}
           courseTeacher={"István"}
         />

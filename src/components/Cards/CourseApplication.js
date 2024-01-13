@@ -11,6 +11,7 @@ const CourseApplication = ({
   courseName,
   courseWeekend,
   courseTeacher,
+  courseFull,
 }) => {
   return (
     <div className="island-section">
@@ -108,7 +109,7 @@ const CourseApplication = ({
       <div>
         {!courseLink ? (
           <p className="clr-brand-orange">
-            <strong>Sajnos erre a képzésre már nincs szabad helyünk</strong>
+            <strong>Sajnos erre a képzésre nincs már szabad helyünk!</strong>
           </p>
         ) : (
           <div className="mb-20px jelentkezes-button">
