@@ -338,20 +338,20 @@ export default function Mysoreprogram() {
         </div>
         <div className="mb-20px mt-20px">
           <h3 className="clr-brand-orange font-family-primary">
-            Szigor és Áldás: Az astanga jóga útja
+            Fegyelem és áldás: Az astanga jóga útja
           </h3>
         </div>
         <div className="row">
           <p>
-            Látszik, hogy szigorúak a feltételek, nagy elkötelezettséget kíván
-            ez az irányzat. Azonban az astanga vinyásza jóga ezen keretek között
-            képes kifejteni teljesen az áldásos hatását. Amellett, hogy a
-            gyakorlás fenntartásához automatikusan egészségesebb életmódra
-            váltanak a gyakorlók (könnyű étkezések, korai fekvés és kelés,
-            rendszeres életritmus), az elme is fokozatosan átalakul. A
-            Mysore-gyakorlás szinte rákényszerít minket, hogy őszinték legyünk
-            önmagunkkal, szembesít a hibáinkkal, amelyek akadályt képeznek a
-            spirituális úton, és eszközként szolgál a leküzdésükhöz.
+            Látszik, hogy nagy elkötelezettséget és komoly fegyelmet kíván ez az
+            irányzat. Azonban az astanga vinyásza jóga ezen keretek között képes
+            kifejteni teljesen az áldásos hatását. Amellett, hogy a gyakorlás
+            fenntartásához automatikusan egészségesebb életmódra váltanak a
+            gyakorlók (könnyű étkezések, korai fekvés és kelés, rendszeres
+            életritmus), az elme is fokozatosan átalakul. A Mysore-gyakorlás
+            szinte rákényszerít minket, hogy őszinték legyünk önmagunkkal,
+            szembesít a hibáinkkal, amelyek akadályt képeznek a spirituális
+            úton, és eszközként szolgál a leküzdésükhöz.
           </p>
         </div>
         <br />
