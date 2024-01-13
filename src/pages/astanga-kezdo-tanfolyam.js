@@ -106,6 +106,11 @@ export default function AstangaKezdoTanfolyam() {
             tömör aforizmákban, nyolc lépcsőből álló módszert dolgozott ki a
             hatékony testi-lelki fejlődés érdekében.
           </p>
+          <div className="framed-section-orange-title mb-20px">
+            <h3 className="clr-brand-orange font-family-primary">
+              Ászanák: Az astanga jóga alapjai
+            </h3>
+          </div>
           <p className="mb-20px">
             Az{" "}
             <CustomLink
@@ -144,6 +149,11 @@ export default function AstangaKezdoTanfolyam() {
           </div>
         </div>
         <div className="row">
+          <div className="framed-section-orange-title mb-20px">
+            <h3 className="clr-brand-orange font-family-primary">
+              Bevezetés az astanga jógába
+            </h3>
+          </div>
           <p className="mb-20px">
             Az astanga kezdő tanfolyamon a résztvevők megismerik a rendszer
             eredetét és elméleti hátterét. Betekintést nyernek a gyakorlás
@@ -155,7 +165,9 @@ export default function AstangaKezdoTanfolyam() {
           </p>
         </div>
         <div className="row">
-          <h3>A nyolc alkalmas kezdő tanfolyam tematikája:</h3>
+          <h3 className="clr-brand-orange font-family-primary">
+            A nyolc alkalmas kezdő tanfolyam tematikája
+          </h3>
         </div>
         <div
           className={
@@ -222,6 +234,11 @@ export default function AstangaKezdoTanfolyam() {
           </div>
         </div>
         <div className="row">
+          <div className="framed-section-orange-title mb-20px">
+            <h3 className="clr-brand-orange font-family-primary">
+              A gyakorlás elmélyítése és személyre szabása
+            </h3>
+          </div>
           <p>
             A kezdő tanfolyam folytatása az{" "}
             <CustomLink
@@ -229,7 +246,7 @@ export default function AstangaKezdoTanfolyam() {
               title="astanga Mysore-kurzus"
               classNames="link-decoration-remove"
             />
-            . Ezen a képzésen a résztvevők megtanulnak Mysore-stílusban és
+            . Ezen a képzésen a résztvevők megtanulnak Mysore-stílusban,
             egyénileg, külső segítség nélkül, biztonságosan gyakorolni.
             Mindenkinek személyre szabjuk a gyakorlását, ami a leghatékonyabb
             fejlődési ütemet eredményezi. Ezek után a gyakorlók már nem lesznek,
