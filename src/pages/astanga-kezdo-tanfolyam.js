@@ -272,7 +272,7 @@ export default function AstangaKezdoTanfolyam() {
           courseType={"tanfolyam"}
           courseWeekend={"igen"}
           courseTeacher={"Noémi"}
-          courseNote={"Még egy szabad helyünk van erre a tanfolyamra!"}
+          courseNote={"Sajnos erre a tanfolyamra nincs már szabad helyünk!"}
         />
         <CourseApplication
           courseName={"ASTANGA KEZDŐ TANFOLYAM - MÁRCIUS"}
