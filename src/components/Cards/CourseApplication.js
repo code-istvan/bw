@@ -11,7 +11,6 @@ const CourseApplication = ({
   courseName,
   courseWeekend,
   courseTeacher,
-  courseFull,
 }) => {
   return (
     <div className="island-section">
@@ -56,7 +55,85 @@ const CourseApplication = ({
       <div className="separator-horizontal mt-20px"></div> */}
       <div className="row">
         <div>
-          {courseTeacher === "István" ? (
+          {(() => {
+            if (courseTeacher === "István") {
+              return (
+                <div className="jelentkezes-teacher">
+                  <StaticImage
+                    className="avatar__image avatar__image--medium jelentkezes-teacher--avatar zindex-1"
+                    src="../../images/istvan.png"
+                    layout="fullWidth"
+                    loading="eager"
+                    quality={95}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    alt="Szalai István jógatanár"
+                    placeholder="blurred"
+                  />
+                  <div>
+                    <CustomLink
+                      link="/szalai-istvan"
+                      title="Szalai István"
+                      classNames="link-decoration-remove body"
+                    />
+                    <br />
+                    <span className="clr-shades-gray">
+                      KPJAYI Authorized Level 1<br /> oktató
+                    </span>
+                  </div>
+                </div>
+              )
+            } else if (courseTeacher === "Noémi") {
+              return (
+                <div className="jelentkezes-teacher">
+                  <StaticImage
+                    className="avatar__image avatar__image--medium jelentkezes-teacher--avatar zindex-1"
+                    src="../../images/noemi.png"
+                    layout="fullWidth"
+                    loading="eager"
+                    quality={95}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    alt="Gál Noémi jógatanár"
+                    placeholder="blurred"
+                  />
+                  <div>
+                    <CustomLink
+                      link="/gal-noemi-andrea"
+                      title="Gál Noémi Andrea"
+                      classNames="link-decoration-remove body"
+                    />
+                    <br />
+                    <span className="clr-shades-gray">oktató</span>
+                  </div>
+                </div>
+              )
+            } else if (courseTeacher === "Kisanna") {
+              return (
+                <div className="jelentkezes-teacher">
+                  <StaticImage
+                    className="avatar__image avatar__image--medium jelentkezes-teacher--avatar zindex-1"
+                    src="../../images/kisanna.png"
+                    layout="fullWidth"
+                    loading="eager"
+                    quality={95}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    alt="Gál Noémi jógatanár"
+                    placeholder="blurred"
+                  />
+                  <div>
+                    <CustomLink
+                      link="/csapatunk"
+                      title="Barna Kisanna"
+                      classNames="link-decoration-remove body"
+                    />
+                    <br />
+                    <span className="clr-shades-gray">oktató</span>
+                  </div>
+                </div>
+              )
+            }
+          })()}
+
+          {/* {courseTeacher === "István" ? (
             <div className="jelentkezes-teacher">
               <StaticImage
                 className="avatar__image avatar__image--medium jelentkezes-teacher--avatar zindex-1"
@@ -102,7 +179,7 @@ const CourseApplication = ({
                 <span className="clr-shades-gray">oktató</span>
               </div>
             </div>
-          )}
+          )} */}
         </div>
       </div>
       <div className="separator-horizontal mt-20px"></div>
