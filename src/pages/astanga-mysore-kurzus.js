@@ -140,7 +140,6 @@ export default function AstangaMysoreKurzus() {
             gyakorolni, tanári jelenlét mellett.
           </p>
         </div>
-
         <div className="row">
           <div className="mb-20px mt-20px">
             <h3>Gyakran ismételt kérdések</h3>
@@ -152,7 +151,6 @@ export default function AstangaMysoreKurzus() {
               ))}
           </div>
         </div>
-
         <CourseApplication
           courseName={"ASTANGA MYSORE-KURZUS"}
           courseDate={"2024. február 6. (kedd) 19:00."}
@@ -160,6 +158,16 @@ export default function AstangaMysoreKurzus() {
             "https://shop.bandha.works/products/astanga-mysore-kurzus"
           }
           courseNote={"Még egy szabad helyünk van erre a kurzusra!"}
+          courseType={"kurzus"}
+          courseTeacher={"István"}
+        />
+        <CourseApplication
+          courseName={"ASTANGA MYSORE-KURZUS"}
+          courseDate={"2024. április 9. (kedd) 19:00."}
+          courseLink={
+            "https://shop.bandha.works/products/copy-of-astanga-mysore-kurzus"
+          }
+          // courseNote={"Még egy szabad helyünk van erre a kurzusra!"}
           courseType={"kurzus"}
           courseTeacher={"István"}
         />
