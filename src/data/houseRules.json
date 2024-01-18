@@ -33,5 +33,8 @@
   {
     "rule": "Távozás előtt győződj meg róla, hogy nem hagysz semmit az öltözőben, az itt felejtett ruhákat nem áll módunkban megőrizni."
   },
-  { "rule": "Az öltözőben hagyott értékekért felelősséget nem vállalunk." }
+  { "rule": "Az öltözőben hagyott értékekért felelősséget nem vállalunk." },
+  {
+    "rule": "Mysore-programunk keretében az érvényes bérlettel rendelkező gyakorlók  - bérletük érvényességi ideje alatt -  jógamatracukat térítésmentesen a Jógaiskolában tárolhatják. Ennek feltétele, hogy a matrac beazonosítható legyen, a gazdája nevével ellátva. Kérünk, hogy amennyiben nem rendelkezel érvényes Mysore-bérlettel, vidd haza a jógamatracod!"
+  }
 ]
