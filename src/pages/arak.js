@@ -95,7 +95,7 @@ export default function Arak() {
               </tr>
               <tr>
                 <td>Éves tagság</td>
-                <td>27.000.- Ft / hó</td>
+                <td>28.000.- Ft / hó</td>
                 <td>HAMAROSAN</td>
               </tr>
             </tbody>
