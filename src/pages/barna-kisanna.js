@@ -100,9 +100,9 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
-  const pageTitle = "Noémi jógaoktató | " + data.site.siteMetadata.title
+  const pageTitle = "Kisanna jógaoktató | " + data.site.siteMetadata.title
   const pageDescription =
-    "Noémi jógaoktató bemutatkozása. Astanga Jóga Mysore Jógaiskola."
+    "Kisanna jógaoktató bemutatkozása. Astanga Jóga Mysore Jógaiskola."
 
   return (
     <CustomHead
