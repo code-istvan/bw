@@ -13,7 +13,7 @@ export default function Noemi() {
           <h1 className="page-hero-title">Kisanna</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/img_coming_soon.jpg"
+            src="../images/kisanna_desktop.png"
             layout="fullWidth"
             loading="lazy"
             quality={95}
@@ -84,7 +84,7 @@ export default function Noemi() {
 export const Head = ({ location }) => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "noemi_desktop.jpg" }) {
+      file(relativePath: { eq: "kisanna_desktop.png" }) {
         childImageSharp {
           gatsbyImageData(width: 1200)
         }
