@@ -41,6 +41,11 @@ export default function Letoltesek() {
       name: "Növényi fehérje források",
       link: "https://mula.bandha.works/downloads/novenyi_feherje_plakat_a0.pdf",
     },
+    {
+      type: "Holdnapok",
+      name: "2024-es holdnapok",
+      link: "https://mula.bandha.works/downloads/holdnapok_bandhaworks_2024.pdf",
+    },
   ]
 
   const sounds = [
