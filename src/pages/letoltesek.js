@@ -12,26 +12,31 @@ export default function Letoltesek() {
       style: "Astanga vinyásza jóga",
       name: "Jóga csikitsza (első sorozat)",
       link: "https://mula.bandha.works/downloads/astanga_joga_csikitsza_elso_sorozat.pdf",
+      new: false,
     },
     {
       style: "Astanga vinyásza jóga",
       name: "Nádi sódhana (második sorozat)",
       link: "https://mula.bandha.works/downloads/astanga_yoga_intermediate_series.pdf",
+      new: false,
     },
     {
       style: "Astanga vinyásza jóga",
       name: "45 perces rutin",
       link: "https://mula.bandha.works/downloads/astanga_joga_45min.pdf",
+      new: false,
     },
     {
       style: "Prána vashja jóga",
       name: "Első sorozat",
       link: "https://mula.bandha.works/downloads/prana_vashya_primary_series.pdf",
+      new: false,
     },
     {
       style: "Prána vashja jóga",
       name: "Második sorozat",
       link: "https://mula.bandha.works/downloads/prana_vashya_second_series_asana_chart.pdf",
+      new: false,
     },
   ]
 
@@ -40,11 +45,13 @@ export default function Letoltesek() {
       type: "Táplálkozás",
       name: "Növényi fehérje források",
       link: "https://mula.bandha.works/downloads/novenyi_feherje_plakat_a0.pdf",
+      new: false,
     },
     {
       type: "Holdnapok",
       name: "2024-es holdnapok",
       link: "https://mula.bandha.works/downloads/holdnapok_bandhaworks_2024.pdf",
+      new: true,
     },
   ]
 
@@ -53,6 +60,7 @@ export default function Letoltesek() {
       type: "Gurudzsi Sri. K. Pattabhi Jois",
       name: "Vezetett első sorozat (1993)",
       link: "https://mula.bandha.works/downloads/GURUJI_LED_PRIMARY_1993.mp3",
+      new: false,
     },
   ]
 
@@ -92,7 +100,7 @@ export default function Letoltesek() {
           <div className="col unordered-list-style">
             <ul>
               {sequences &&
-                sequences.map(({ name, style, link }) => (
+                sequences.map(({ name, style, link, new: isNew }) => (
                   <li key={name}>
                     <p>
                       {style}:{" "}
@@ -102,29 +110,7 @@ export default function Letoltesek() {
                         classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
                       />{" "}
                       (.pdf)
-                    </p>
-                  </li>
-                ))}
-            </ul>
-          </div>
-        </div>
-        <div className="mt-40px mb-20px">
-          <h3>Hang file-ok</h3>
-        </div>
-        <div className="row">
-          <div className="col unordered-list-style">
-            <ul>
-              {sounds &&
-                sounds.map(({ type, name, link }) => (
-                  <li key={name}>
-                    <p>
-                      {type}:{" "}
-                      <CustomLink
-                        link={link}
-                        title={name}
-                        classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
-                      />{" "}
-                      (.mp3)
+                      {isNew && <span className="new-item"> ÚJ!</span>}
                     </p>
                   </li>
                 ))}
@@ -138,7 +124,7 @@ export default function Letoltesek() {
           <div className="col unordered-list-style">
             <ul>
               {posters &&
-                posters.map(({ type, name, link }) => (
+                posters.map(({ type, name, link, new: isNew }) => (
                   <li key={name}>
                     <p>
                       {type}:{" "}
@@ -148,6 +134,36 @@ export default function Letoltesek() {
                         classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
                       />{" "}
                       (.pdf)
+                      {isNew && (
+                        <span className="body body--bold clr-brand-orange">
+                          {" "}
+                          ÚJ!
+                        </span>
+                      )}
+                    </p>
+                  </li>
+                ))}
+            </ul>
+          </div>
+        </div>
+        <div className="mt-40px mb-20px">
+          <h3>Hang file-ok</h3>
+        </div>
+        <div className="row">
+          <div className="col unordered-list-style">
+            <ul>
+              {sounds &&
+                sounds.map(({ type, name, link, new: isNew }) => (
+                  <li key={name}>
+                    <p>
+                      {type}:{" "}
+                      <CustomLink
+                        link={link}
+                        title={name}
+                        classNames="body link-decoration-remove clr-brand-orange schedule-teacher"
+                      />{" "}
+                      (.mp3)
+                      {isNew && <span className="new-item"> ÚJ!</span>}
                     </p>
                   </li>
                 ))}

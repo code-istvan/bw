@@ -179,6 +179,10 @@ h5 {
   @include xl {
     font-size: fontSize(body, desktop);
   }
+
+  &--bold {
+    font-weight: bold;
+  }
 }
 
 p {
