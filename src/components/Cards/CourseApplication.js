@@ -121,7 +121,7 @@ const CourseApplication = ({
                   />
                   <div>
                     <CustomLink
-                      link="/csapatunk"
+                      link="/barna-kisanna"
                       title="Barna Kisanna"
                       classNames="link-decoration-remove body"
                     />
