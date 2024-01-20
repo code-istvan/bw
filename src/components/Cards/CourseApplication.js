@@ -116,7 +116,7 @@ const CourseApplication = ({
                     loading="eager"
                     quality={95}
                     formats={["AUTO", "WEBP", "AVIF"]}
-                    alt="Gál Noémi jógatanár"
+                    alt="Barna Kisanna jógatanár"
                     placeholder="blurred"
                   />
                   <div>
