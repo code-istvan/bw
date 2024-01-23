@@ -150,7 +150,7 @@ filozófiai docens
 Belmont Egyetem
 
 
-**Az írás szerzője:** Iain Grysak, [Spacious Yoga(https://spaciousyoga.com), Bali 
+**Az írás szerzője:** Iain Grysak, Spacious Yoga(https://spaciousyoga.com), Bali 
 
 **Az írás eredeti címe:** Wellbeing on the Edge: Learning from Mysore Style Ashtanga Yoga by Andy Davis
 
@@ -167,7 +167,7 @@ Belmont Egyetem
 [^6]: A Bhagavad-gítá 3.27 és a Jóga Szútrák 2.15-17 példaszövegei, amelyek felhasználhatók e problematikus nézet alátámasztására (de nem muszáj így értelmezni).
 [^7]: Arisztotelész valami ilyesmit sejtet a Nikomakhoszi Etika című művének (VIII. Könyv) 3. fejezetében (1147a25-1147b5)
 [^8]: A közzétett szöveg, amely felvázolja Jois módszerét, a Yoga Mala. Úgy tűnik, hogy a módszer Jois saját tanára, T. Krishnamacharya módszerén alapul, ahogyan azt az 1930-as és 40-es években megtanította Joisnak (lásd Singleton: Yoga Body, 176. oldal); Krishnamacharya több különféle módszert is tanított (lásd Desikachar: The Heart of Yoga, 28-29. oldal).
-[^9]: 2015. január 22-én publikált esszé, „Itt állj meg” címmel
+[^9]: 2015 január 22-én publikált esszé, „Itt állj meg” címmel
 [https://spaciousyoga.com/you-stop-there-lessons-from-sharath-jois/](https://spaciousyoga.com/you-stop-there-lessons-from-sharath-jois/)
 [^10]:  Erről bővebben Iain Grysak 2018. december 5-én publikált „Tanítás kontra prédikáció: A megtestesülés, mint a hiteles megértés és integráció kapuja” című írásában olvashat
 [https://spaciousyoga.com/teaching-vs-preaching-embodiment/](https://spaciousyoga.com/teaching-vs-preaching-embodiment/)
