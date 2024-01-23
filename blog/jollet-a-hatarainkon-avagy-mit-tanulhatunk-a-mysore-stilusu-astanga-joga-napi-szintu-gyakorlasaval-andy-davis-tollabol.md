@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Jóllét a határainkon – avagy mit tanulhatunk a Mysore-stílusú astanga
   jóga napi szintű gyakorlásával? – Andy Davis tollából
 description: A tanár olyan teret, helyiséget, helyet kínál, ahol a körülmények
