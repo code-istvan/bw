@@ -147,13 +147,11 @@ Megjegyzés: Szeretnék köszönetet mondani Iain Grysak részére az írásaié
 filozófiai docens
 Belmont Egyetem
 
-
-**Az írás szerzője:** Iain Grysak, Spacious Yoga(https://spaciousyoga.com), Bali 
+**Az írás szerzője:** Iain Grysak, Spacious Yoga (https://spaciousyoga.com), Bali 
 
 **Az írás eredeti címe:** Wellbeing on the Edge: Learning from Mysore Style Ashtanga Yoga by Andy Davis
 
 **Fordította:** Dr. Kővári Zsuzsa 
-
 
 ——————
 
