@@ -13,8 +13,6 @@ date: 2024-01-23T15:43:30.833Z
 thumbnail: /blogpostimages/mysore_dr_desktop.jpg
 thumbnailMobil: /blogpostimages/mysore_harmony_mobil.jpg
 ---
-Jóllét a határainkon – avagy mit tanulhatunk a Mysore-stílusú astanga jóga napi szintű gyakorlásával? – Andy Davis tollából
-
 Az alábbi cikk annak a tanulmánynak az átirata, amelyről Andy Davis, a Tennessee állambeli Nashville-ben lévő Belmont Egyetem filozófiai docense tartott előadást a 25. országos Ázsiai Tanulmányok Fejlesztési Program konferenciáján: „Jóllét a gondolkodás és gyakorlat ázsiai hagyományaiban” címmel.
 
 A cikk részben egy interjún alapul, amelyet Andy készített velem 2018 novemberében, amikor részt vett a Mysore-óráimon és a pránájáma kurzusomon.
