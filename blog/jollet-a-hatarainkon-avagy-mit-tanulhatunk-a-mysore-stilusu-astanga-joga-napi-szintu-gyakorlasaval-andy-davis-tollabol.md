@@ -10,8 +10,8 @@ author: Zsuzsi
 tags:
   - astangaelmélet
 date: 2024-01-23T15:43:30.833Z
-thumbnail: /blogpostimages/mysore_wall.jpg
-thumbnailMobil: /blogpostimages/mysore_mobil.jpg
+thumbnail: /blogpostimages/mysore_dr_desktop.jpg
+thumbnailMobil: /blogpostimages/mysore_harmony_mobil.jpg
 ---
 Jóllét a határainkon – avagy mit tanulhatunk a Mysore-stílusú astanga jóga napi szintű gyakorlásával? – Andy Davis tollából
 
