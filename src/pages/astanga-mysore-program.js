@@ -81,6 +81,13 @@ export default function Mysoreprogram() {
       classNames:
         "body link-decoration-remove clr-brand-orange schedule-teacher",
     },
+    {
+      link: "/blog/jollet-a-hatarainkon-avagy-mit-tanulhatunk-a-mysore-stilusu-astanga-joga-napi-szintu-gyakorlasaval-andy-davis-tollabol/",
+      title:
+        "Mit tanulhatunk a Mysore-stílusú astanga jóga napi szintű gyakorlásával?",
+      classNames:
+        "body link-decoration-remove clr-brand-orange schedule-teacher",
+    },
   ]
 
   return (
