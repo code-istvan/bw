@@ -1,10 +1,11 @@
 {
-  "published": true,
-  "featured": true,
-  "date": "2024-05-17T16:27:26.062Z",
-  "esemenytipusa": "Tábor",
-  "eventid": "tabor",
-  "title": "Vinyásza krama jóga elvonulás",
   "Shortdescription": "Merülj el a vinyásza krama jóga tradiciójában egy természetközeli környezetben, és találd meg a testi-lelki harmóniát. Egy hétvége, ahol a gyakorlótársaiddal együtt mélyítheted el jógaismereteidet és töltekezhetsz pozitív energiával.",
-  "teacher": "Noémi"
+  "esemenytipusa": "Tábor",
+  "teacher": "Noémi",
+  "featured": true,
+  "published": true,
+  "date": "2024-05-17T16:27:26.062Z",
+  "eventlink": "https://www.facebook.com/events/268819169399804/",
+  "eventid": "tabor",
+  "title": "Vinyásza krama jóga elvonulás"
 }
