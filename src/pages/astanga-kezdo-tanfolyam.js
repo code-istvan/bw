@@ -311,7 +311,7 @@ export default function AstangaKezdoTanfolyam() {
           }
           courseType={"tanfolyam"}
           courseTeacher={"István"}
-          courseNote={"Kevesebb mint 10 szabad hely"}
+          courseNote={"Kevesebb mint 5 szabad hely"}
         />
         <div className="row mt-20px">
           <div className="col-12-xs">
