@@ -13,6 +13,7 @@ export const useEventsRoll = () => {
             title
             Shortdescription
             featured
+            published
             esemenytipusa
           }
         }

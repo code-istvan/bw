@@ -13,6 +13,8 @@ export default function EventsFeaturedRoll({
   excludeTypes = [],
 }) {
   let events = useEventsRoll()
+  events = events.filter(event => event.published === true)
+
   const teachers = useTeachers()
   const featuredEvents = events.filter(item => item.featured === true)
   let filteredEvents = onlyFeatured ? featuredEvents : events
@@ -58,6 +60,7 @@ export default function EventsFeaturedRoll({
           Shortdescription,
           teacher: teacherName,
           eventlink,
+          published,
           // teacher: teacherLink,
         }) => {
           const currentTeacher = teachers.find(
