@@ -8,6 +8,8 @@ import "../../sass/components/_eventsroll.scss"
 
 export default function EventsTypeOfRoll({ typeOfEvents }) {
   let events = useEventsRoll()
+  events = events.filter(event => event.published === true)
+
   const teachers = useTeachers()
   const onlyTypeOf = events.filter(item => item.esemenytipusa === typeOfEvents)
   const displayEvents = typeOfEvents ? onlyTypeOf : events
@@ -22,6 +24,7 @@ export default function EventsTypeOfRoll({ typeOfEvents }) {
           Shortdescription,
           teacher: teacherName,
           eventlink,
+          published,
           // teacher: teacherLink,
         }) => {
           const currentTeacher = teachers.find(

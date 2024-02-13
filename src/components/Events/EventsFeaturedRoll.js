@@ -15,6 +15,8 @@ export default function EventsFeaturedRoll({
   let events = useEventsRoll()
   events = events.filter(event => event.published === true)
 
+  console.log(events)
+
   const teachers = useTeachers()
   const featuredEvents = events.filter(item => item.featured === true)
   let filteredEvents = onlyFeatured ? featuredEvents : events
