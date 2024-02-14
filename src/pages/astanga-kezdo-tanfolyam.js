@@ -270,39 +270,6 @@ export default function AstangaKezdoTanfolyam() {
             Tanfolyami időpontok
           </h3>
         </div>
-        {/* <CourseApplication
-          courseName={"ASTANGA KEZDŐ TANFOLYAM"}
-          courseDate={"2024. január 9."}
-          // courseLink={
-          //   "https://shop.bandha.works/products/astanga-ezdo-tanfolyam"
-          // }
-          courseType={"tanfolyam"}
-          courseTeacher={"István"}
-          // courseNote={"Még két szabad hely van!"}
-        /> */}
-        {/* <CourseApplication
-          courseName={"HÉTVÉGI ASTANGA KEZDŐ TANFOLYAM"}
-          courseDate={"2024. január 20."}
-          // courseLink={
-          //   "https://shop.bandha.works/products/hetvegi-astanga-kezdo-tanfolyam"
-          // }
-          courseType={"tanfolyam"}
-          courseWeekend={"igen"}
-          courseTeacher={"Noémi"}
-          // courseNote={"Sajnos erre a tanfolyamra már nincs szabad helyünk!"}
-        /> */}
-        <CourseApplication
-          courseName={"HÉTVÉGI ASTANGA KEZDŐ TANFOLYAM"}
-          courseDate={"2024. február 10."}
-          courseLink={
-            "https://shop.bandha.works/products/copy-of-hetvegi-astanga-kezdo-tanfolyam"
-          }
-          courseType={"tanfolyam"}
-          courseWeekend={"igen"}
-          courseTeacher={"Kisanna"}
-          // courseNote={"Még egy szabad hely van!"}
-        />
-
         <CourseApplication
           courseName={"ASTANGA KEZDŐ TANFOLYAM - MÁRCIUS"}
           courseDate={"2024. március 5."}
@@ -312,6 +279,17 @@ export default function AstangaKezdoTanfolyam() {
           courseType={"tanfolyam"}
           courseTeacher={"István"}
           courseNote={"Kevesebb mint 5 szabad hely"}
+        />
+        <CourseApplication
+          courseName={"HÉTVÉGI ASTANGA KEZDŐ TANFOLYAM"}
+          courseDate={"2024. április 6."}
+          courseLink={
+            "https://shop.bandha.works/products/hetvegi-astanga-kezdo-tanfolyam-aprilis"
+          }
+          courseType={"tanfolyam"}
+          courseWeekend={"igen"}
+          courseTeacher={"Kisanna"}
+          // courseNote={"Még egy szabad hely van!"}
         />
         <div className="row mt-20px">
           <div className="col-12-xs">
