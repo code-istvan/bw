@@ -306,7 +306,7 @@ export default function AstangaKezdoTanfolyam() {
           </div>
         </div>
         <div className="row unordered-list-style mt-20px">
-          <h3>Hasznos olvasmányok az astanga-gyakorlásról:</h3>
+          <h3>Hasznos olvasmányok az astanga-gyakorlásról</h3>
           <ul>
             {hasznosOlvasmanyok.map((link, index) => (
               <li key={index}>

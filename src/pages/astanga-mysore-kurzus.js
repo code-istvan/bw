@@ -153,7 +153,7 @@ export default function AstangaMysoreKurzus() {
         </div>
         <CourseApplication
           courseName={"HÉTVÉGI ASTANGA MYSORE-KURZUS"}
-          courseDate={"2024. március 2. (szombat) 10:00."}
+          courseDate={"2024. március 2. (szombat) 10:00"}
           courseLink={
             "https://shop.bandha.works/products/hetvegi-astanga-mysore-kurzus"
           }
@@ -164,7 +164,7 @@ export default function AstangaMysoreKurzus() {
         />
         <CourseApplication
           courseName={"ASTANGA MYSORE-KURZUS"}
-          courseDate={"2024. április 9. (kedd) 19:00."}
+          courseDate={"2024. április 9. (kedd) 19:00"}
           courseLink={
             "https://shop.bandha.works/products/copy-of-astanga-mysore-kurzus"
           }
