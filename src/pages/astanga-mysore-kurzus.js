@@ -151,6 +151,11 @@ export default function AstangaMysoreKurzus() {
               ))}
           </div>
         </div>
+        <div className="row">
+          <h3 className="mt-40px mb-20px clr-brand-orange font-family-primary">
+            Tanfolyami időpontok
+          </h3>
+        </div>
         <CourseApplication
           courseName={"HÉTVÉGI ASTANGA MYSORE-KURZUS"}
           courseDate={"2024. március 2. (szombat) 10:00"}
