@@ -123,7 +123,7 @@ export default function Arak() {
             </thead>
             <tr>
               <td>Egy alkalom (drop in)</td>
-              <td>3.500.- Ft</td>
+              <td>3.800.- Ft</td>
               <td>
                 <CustomLink
                   link="https://shop.bandha.works/products/egy-alkalom-vinyasza-krama-joga"
@@ -134,7 +134,7 @@ export default function Arak() {
             </tr>
             <tr>
               <td>Tíz alkalmas bérlet</td>
-              <td>30.000.- Ft</td>
+              <td>32.000.- Ft</td>
               <td>
                 {" "}
                 <CustomLink
