@@ -125,7 +125,7 @@ export default function Prices() {
             </thead>
             <tr>
               <td>Drop in</td>
-              <td>3.500.- Ft</td>
+              <td>3.800.- Ft</td>
               <td>
                 <CustomLink
                   link="https://shop.bandha.works/products/egy-alkalom-vinyasza-krama-joga"
@@ -136,7 +136,7 @@ export default function Prices() {
             </tr>
             <tr>
               <td>10-session pass</td>
-              <td>30.000.- Ft</td>
+              <td>32.000.- Ft</td>
               <td>
                 {" "}
                 <CustomLink
