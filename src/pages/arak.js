@@ -158,7 +158,7 @@ export default function Arak() {
             </thead>
             <tr>
               <td>Kezdő astanga jóga tanfolyam</td>
-              <td>30.000.- Ft</td>
+              <td>32.000.- Ft</td>
               <td>
                 {" "}
                 <CustomLink
@@ -170,7 +170,7 @@ export default function Arak() {
             </tr>
             <tr>
               <td>Astanga Mysore-kurzus</td>
-              <td>30.000.- Ft</td>
+              <td>32.000.- Ft</td>
               <td>
                 {" "}
                 <CustomLink
