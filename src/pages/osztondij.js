@@ -170,7 +170,7 @@ export default function Osztondij() {
                 beszélgetés keretein belül választjuk kis a nyertest. Ennek
                 időpontja:{" "}
                 <strong>
-                  2023. március 24-én vasárnap, 16:00 órától
+                  2024. március 24-én vasárnap, 16:00 órától
                 </strong>. <br />
                 <div className="separator-horizontal mt-20px"></div>
                 <strong>Felvételi bizottság tagjai</strong> <br />
