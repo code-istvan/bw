@@ -49,11 +49,11 @@ export default function Programok() {
       </div> */}
       <div className="row mt-40px mb-40px">
         <h1 className="mb-20px">Egyéb eseményeink</h1>
-        <EventsFeaturedRoll
-          maxEventsToShow={6}
-          onlyFeatured={false}
-          excludeTypes={["Tanfolyam"]}
-        />
+        <EventsTypeOfRoll typeOfEvents="Egyéb közösségi" />
+      </div>
+      <div className="row mt-40px mb-40px">
+        <h1 className="mb-20px">Paramaguru Sharath Jois 2024 workshopok</h1>
+        <EventsTypeOfRoll typeOfEvents="SharathDzsi" />
       </div>
     </Layout>
   )
