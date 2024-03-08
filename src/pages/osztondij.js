@@ -169,9 +169,8 @@ export default function Osztondij() {
                 jelentkezők vehetnek részt, ahol egy személyes felvételi
                 beszélgetés keretein belül választjuk kis a nyertest. Ennek
                 időpontja:{" "}
-                <strong>
-                  2024. március 24-én vasárnap, 16:00 órától
-                </strong>. <br />
+                <strong>2024. április 7-én vasárnap, 16:00 órától</strong>.{" "}
+                <br />
                 <div className="separator-horizontal mt-20px"></div>
                 <strong>Felvételi bizottság tagjai</strong> <br />
                 <p>
