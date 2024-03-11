@@ -194,7 +194,7 @@ export default function Osztondij() {
             </div>
           </div>
         </div>
-        <div>
+        {/* <div>
           <br />
           <Button
             type="button"
@@ -205,7 +205,7 @@ export default function Osztondij() {
           >
             Jelentkezés az ösztöndíjra
           </Button>
-        </div>
+        </div> */}
         <div className="separator-horizontal-full mt-40px"></div>
         <div className="row mt-40px">
           <h2 className="clr-brand-orange font-family-primary">
