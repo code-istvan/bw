@@ -1,6 +1,6 @@
 {
-  "classid": "mysore",
-  "class": "Mysore-astanga",
-  "shortdescription": "<p>\n  A Mysore-programban való részvételhez regisztráció szükséges. Bővebben a <a href=\"/astanga-mysore-program\">Mysore-programról</a>. \n</p>",
+  "classid": "mysore_egyeni",
+  "class": "Mysore-astanga egyéni gyakorlás",
+  "shortdescription": "<p>\n  Csak a  <a href=\"/astanga-mysore-program\">Mysore-programunk</a>  rendszeres és regisztrált résztvevői csatlakozhatnak az egyéni gyakorlókhoz.  \n</p>",
   "signup": "https://shop.bandha.works/collections/astanga-mysore-program"
 }
