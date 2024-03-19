@@ -1,9 +1,11 @@
 ---
 published: true
 title: A bandhák csodálatos világa
-description: Az ászanagyakorlás során, amikor kapcsolatba kerülünk a testünkkel,
-  a központunkkal, egyúttal belépünk a múla bandha „birodalmába”, amely a
-  gyökércsakra támogatójaként a gerincoszlop alján található.
+description: A „múla” kifejezést gyakran úgy fordítják, hogy „gyökér”. A
+  „gyökeresedés” lényege, hogy a testünkkel mély, stabil kapcsolatot hozzunk
+  létre a talajjal. Miután ez a gyökeresedés létrejött, és a Föld energiája
+  elkezd felfelé áramolni a testbe, meg kell találnunk a „szukhát”, hogy ez az
+  energia keresztülhaladjon, kibontakozhasson bennünk és eloszlódjon mindenhol.
 author: Zsuzsi
 tags:
   - jógaelmélet
@@ -28,8 +30,7 @@ A közelmúltban véget ért elmélyülés című kurzusomon elmagyaráztam, hog
 Miután ez a gyökeresedés létrejött, és a Föld energiája elkezd felfelé áramolni a testbe, meg kell találnunk a „szukhát”, hogy ez az energia keresztülhaladjon, kibontakozhasson bennünk és eloszlódjon mindenhol. Egyszerűen csak „utat kell engednünk” a növekvő energiának, amelynek természetes tendenciája a terjedés és terjeszkedés. Ehhez ellazulásra, a feszültség feloldására, lágyságra és a megengedés érzésére van szükség. Bármilyen összeszorítás vagy megfeszítés gátolja ezt a nyugodt kiteljesedést.
 Amikor segítek a diákoknak a hátrahajlításban (dropback-nél), azt vettem észre, hogy a gyakorlók túlnyomó többsége leginkább a hátrahajlítás csípő és kismedencei nyújtásában van blokkolva. Úgy érzem, ez gyakran, de legalábbis részben a múla bandha fogalma helytelen alkalmazásának köszönhető.
 
-A múla bandha stabil, de egyben laza is. Olyan, mint egy fa, amely erős gyökereket ereszt a földbe, majd felfelé szívja magába a föld táplálékát, és ezt nyugodt növekedésével, oldalirányú kiterjedésével osztja szét minden ágának és levelének. A fa gyökerei és alsó törzse szilárdak. Az ágak és a levelek rugalmasak, a környezeti hatásokhoz való alkalmazkodás során elmozdulhatnak és változhatnak. Miközben itt ülök és ezt gépelem, nézem, ahogy a verandám körüli fák ringatóznak a lágy szellőben. Még a legnagyobb és legerősebb fák is elég lazák és rugalmasak ahhoz, hogy a legenyhébb szellővel is könnyedén mozogjanak, hajladozzanak. Ez a szukha. Amikor viharos erejű szél fúj, a legkisebb fa is viszonylag stabil és szilárd marad, és nem dől ki, nem pusztul el (ellenáll a szélfúvás szélsőséges erőinek). 
-**Ez a szthira.** **A múla bandha ott van a természetben!**
+A múla bandha stabil, de egyben laza is. Olyan, mint egy fa, amely erős gyökereket ereszt a földbe, majd felfelé szívja magába a föld táplálékát, és ezt nyugodt növekedésével, oldalirányú kiterjedésével osztja szét minden ágának és levelének. A fa gyökerei és alsó törzse szilárdak. Az ágak és a levelek rugalmasak, a környezeti hatásokhoz való alkalmazkodás során elmozdulhatnak és változhatnak. Miközben itt ülök és ezt gépelem, nézem, ahogy a verandám körüli fák ringatóznak a lágy szellőben. Még a legnagyobb és legerősebb fák is elég lazák és rugalmasak ahhoz, hogy a legenyhébb szellővel is könnyedén mozogjanak, hajladozzanak. Ez a szukha. Amikor viharos erejű szél fúj, a legkisebb fa is viszonylag stabil és szilárd marad, és nem dől ki, nem pusztul el (ellenáll a szélfúvás szélsőséges erőinek). Ez a szthira. A múla bandha ott van a természetben!
 
 **Az írás szerzője:** Iain Grysak, [Spacious Yoga ](https://spaciousyoga.com), Bali\
 **Az írás eredeti címe:** [Sukha…](https://spaciousyoga.com/sukha/)\
