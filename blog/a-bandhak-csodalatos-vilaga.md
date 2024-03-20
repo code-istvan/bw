@@ -10,7 +10,7 @@ author: Zsuzsi
 tags:
   - jógaelmélet
 date: 2024-03-19T15:05:09.412Z
-thumbnail: /blogpostimages/desktop.jpg
+thumbnail: /blogpostimages/csodalatos_bandha.jpg
 thumbnailMobil: /blogpostimages/frame-103.jpg
 ---
 ELŐSZÓ
