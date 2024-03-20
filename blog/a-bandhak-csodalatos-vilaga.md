@@ -42,6 +42,8 @@ A múla bandha stabil, de egyben laza is. Olyan, mint egy fa, amely erős gyöke
 
 A bandha természetes módon akkor jön létre bennünk, amikor létezésünk (lényünk) bármely aspektusának lehetséges két ellentétes pontja - polaritása - viszonylagos egyensúlyban van és kommunikál egymással. Ha egy magas hegygerinc közepén állunk, jól láthatjuk, mi fekszik a hegygerinc két oldalán. Hasonlóképpen a bandha egyensúlyi állapotában könnyen megtapasztalhatjuk a várható érzeteink spektrumának mindkét határát, és azok tulajdonságait. Ebből a nézőpontból maximális szabadságot és teret érzékelhetünk a perspektívánkban és az energiaáramlásunkban. A középúttól kezdve tetszés szerint bármelyik irányba mozoghatunk, így a lehető legtöbb lehetőség áll rendelkezésünkre.
 
+![Trikonasana B](/blogpostimages/trikonasana-b-2.jpg)
+
 A Trikonászana B-ről készült fenti fénykép (amely nem fotózásra beállított kép, hanem egy szokásos gyakorlás során készült) szépen illusztrálja a múla és az uddijána bandha fizikai értelemben vett dinamikáját. Ez az egyik kedvenc testtartásom a bandha dinamikájának megérzéséhez és megértéséhez.
 
 A múla bandhát akkor tapasztalhatjuk meg, ha a medence környéki ellentétes irányú izomerők dinamikus egyensúlyban vannak egymással. A Trikonászana B-ben a medence és a gerinc párhuzamos a talajjal. A lábak feladata, hogy a medencecsontokat a föld tengelye mentén hátrafelé, a kamerától távolabb húzzák. A jobb kéz és a törzs mélyebb izmai azon dolgoznak, hogy a gerincet és a törzset ellentétes irányba húzzák, ami a kamera felé nyújtózkodó fejünk búbjában éri el a végpontot, a föld tengelye mentén.
@@ -65,6 +67,3 @@ A múla és az uddijána bandha - végső soron - a test kétdimenziós modellj�
 **Az írás szerzője:** Iain Grysak, [Spacious Yoga ](https://spaciousyoga.com), Bali\
 **Az írás eredeti címe:** [The Geometry of Bandha](https://spaciousyoga.com/the-geometry-of-bandha/#comments)\
 **Fordította:** Dr. Kővári Zsuzsa
-
-
-
