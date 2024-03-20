@@ -11,7 +11,7 @@ tags:
   - jógaelmélet
 date: 2024-03-19T15:05:09.412Z
 thumbnail: /blogpostimages/desktop.jpg
-thumbnailMobil: /blogpostimages/bandhas.jpg
+thumbnailMobil: /blogpostimages/frame-103.jpg
 ---
 ELŐSZÓ
 
