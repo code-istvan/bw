@@ -63,7 +63,7 @@ const Orarend = ({ data }) => {
                 navigate("/tanfolyam")
               }}
             >
-              2024-es astanga tanfolyamok
+              Astanga tanfolyamok
             </Button>
           </div>
         </>
