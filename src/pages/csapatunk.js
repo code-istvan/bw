@@ -12,7 +12,10 @@ const Csapatunk = () => {
   const teachers = useTeachers()
   const filterTeachers = teachers.filter(
     item =>
-      item.name === "István" || item.name === "Noémi" || item.name === "Kisanna"
+      item.name === "István" ||
+      item.name === "Noémi" ||
+      item.name === "Kisanna" ||
+      item.name === "Temu"
   )
 
   return (
