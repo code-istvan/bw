@@ -13,7 +13,7 @@ export default function Noemi() {
           <h1 className="page-hero-title">Temu</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/temu_desktop.png"
+            src="../images/temu_desktop.jpeg"
             layout="fullWidth"
             loading="lazy"
             quality={95}
