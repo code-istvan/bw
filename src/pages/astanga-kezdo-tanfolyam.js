@@ -281,16 +281,6 @@ export default function AstangaKezdoTanfolyam() {
           // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
         /> */}
         <CourseApplication
-          courseName={"ASTANGA KEZDŐ TANFOLYAM - MÁJUS"}
-          courseDate={"2024. május 7."}
-          courseLink={
-            "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-majus"
-          }
-          courseType={"tanfolyam"}
-          courseTeacher={"István"}
-          // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
-        />
-        <CourseApplication
           courseName={"HÉTVÉGI ASTANGA KEZDŐ TANFOLYAM"}
           courseDate={"2024. június 8."}
           courseLink={
@@ -300,6 +290,16 @@ export default function AstangaKezdoTanfolyam() {
           courseWeekend={"igen"}
           courseTeacher={"Kisanna"}
           // courseNote={"Még két szabad helyünk van erre a tanfolyamra"}
+        />
+        <CourseApplication
+          courseName={"ASTANGA KEZDŐ TANFOLYAM"}
+          courseDate={"2024. szeptember 10."}
+          courseLink={
+            "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-1"
+          }
+          courseType={"tanfolyam"}
+          courseTeacher={"István"}
+          // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
         />
         <div className="row mt-20px">
           <div className="col-12-xs">
