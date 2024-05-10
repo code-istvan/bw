@@ -157,17 +157,6 @@ export default function AstangaMysoreKurzus() {
           </h3>
         </div>
         <CourseApplication
-          courseName={"HÉTVÉGI ASTANGA MYSORE-KURZUS"}
-          courseDate={"2024. április 20. (szombat) 10:00"}
-          courseLink={
-            "https://shop.bandha.works/products/hetvegi-astanga-mysore-kurzus"
-          }
-          // courseNote={"Még három szabad helyünk van erre a kurzusra!"}
-          courseType={"kurzus"}
-          courseTeacher={"István"}
-          courseWeekend={"igen"}
-        />
-        <CourseApplication
           courseName={"ASTANGA MYSORE-KURZUS"}
           courseDate={"2024. június 4. (kedd) 19:00"}
           courseLink={
@@ -176,6 +165,17 @@ export default function AstangaMysoreKurzus() {
           // courseNote={"Még egy szabad helyünk van erre a kurzusra!"}
           courseType={"kurzus"}
           courseTeacher={"István"}
+        />
+        <CourseApplication
+          courseName={"HÉTVÉGI ASTANGA MYSORE-KURZUS"}
+          courseDate={"2024. június 22. (szombat) 10:00"}
+          courseLink={
+            "https://shop.bandha.works/products/hetvegi-astanga-mysore-kurzus"
+          }
+          // courseNote={"Még három szabad helyünk van erre a kurzusra!"}
+          courseType={"kurzus"}
+          courseTeacher={"Kisanna"}
+          courseWeekend={"igen"}
         />
         <div className="row unordered-list-style mt-20px">
           <h3>Hasznos olvasmányok az astanga-gyakorlásról:</h3>
