@@ -70,7 +70,7 @@ export default function Noemi() {
 export const Head = ({ location }) => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "kisanna_desktop.png" }) {
+      file(relativePath: { eq: "temu_desktop.jpeg" }) {
         childImageSharp {
           gatsbyImageData(width: 1200)
         }
@@ -86,9 +86,9 @@ export const Head = ({ location }) => {
 
   const ogImage = getSrc(data.file.childImageSharp.gatsbyImageData)
   const siteUrl = data.site.siteMetadata.siteUrl
-  const pageTitle = "Kisanna jógaoktató | " + data.site.siteMetadata.title
+  const pageTitle = "Temu jógaoktató | " + data.site.siteMetadata.title
   const pageDescription =
-    "Kisanna jógaoktató bemutatkozása. Astanga Jóga Mysore Jógaiskola."
+    "Temu jógaoktató bemutatkozása. Astanga Jóga Mysore Jógaiskola."
 
   return (
     <CustomHead
