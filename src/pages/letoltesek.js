@@ -11,31 +11,31 @@ export default function Letoltesek() {
     {
       style: "Astanga vinyásza jóga",
       name: "Jóga csikitsza (első sorozat)",
-      link: "https://mula.bandha.works/downloads/astanga_joga_csikitsza_elso_sorozat.pdf",
+      link: "https://bandha.works/downloads/pdf/astanga_joga_csikitsza_elso_sorozat.pdf",
       new: false,
     },
     {
       style: "Astanga vinyásza jóga",
       name: "Nádi sódhana (második sorozat)",
-      link: "https://mula.bandha.works/downloads/astanga_yoga_intermediate_series.pdf",
+      link: "https://bandha.works/downloads/pdf/astanga_yoga_intermediate_series.pdf",
       new: false,
     },
     {
       style: "Astanga vinyásza jóga",
       name: "45 perces rutin",
-      link: "https://mula.bandha.works/downloads/astanga_joga_45min.pdf",
+      link: "https://bandha.works/downloads/pdf/astanga_joga_45min.pdf",
       new: false,
     },
     {
       style: "Prána vashja jóga",
       name: "Első sorozat",
-      link: "https://mula.bandha.works/downloads/prana_vashya_primary_series.pdf",
+      link: "https://bandha.works/downloads/pdf/prana_vashya_primary_series.pdf",
       new: false,
     },
     {
       style: "Prána vashja jóga",
       name: "Második sorozat",
-      link: "https://mula.bandha.works/downloads/prana_vashya_second_series_asana_chart.pdf",
+      link: "https://bandha.works/downloads/pdf/prana_vashya_second_series_asana_chart.pdf",
       new: false,
     },
   ]
@@ -44,13 +44,13 @@ export default function Letoltesek() {
     {
       type: "Táplálkozás",
       name: "Növényi fehérje források",
-      link: "https://mula.bandha.works/downloads/novenyi_feherje_plakat_a0.pdf",
+      link: "https://bandha.works/downloads/pdf/novenyi_feherje_plakat_a0.pdf",
       new: false,
     },
     {
       type: "Holdnapok",
       name: "2024-es holdnapok",
-      link: "https://mula.bandha.works/downloads/holdnapok_bandhaworks_2024.pdf",
+      link: "https://bandha.works/downloads/pdf/holdnapok_bandhaworks_2024.pdf",
       new: true,
     },
   ]
