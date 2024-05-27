@@ -152,7 +152,7 @@ export default function Osztondij() {
               <p className="mb-20px">
                 <strong>Az ösztöndíj időszaka</strong>
                 <br />
-                2024. április 1. – 2024. június 30. (második negyedév)
+                2024. október 1. – 2024. december 31. (negyedik negyedév)
               </p>
               <div className="separator-horizontal"></div>
               <p className="mb-20px">
@@ -160,7 +160,7 @@ export default function Osztondij() {
                 Az első fordulóra online tudsz jelentkezni a fenti leírás
                 szerint. A jelentkezési felület{" "}
                 <strong>
-                  2024. március 8. 18:00-tól, március 11. 18:00-ig
+                  2024. szeptember 11. 18:00-tól, szeptember 15. 18:00-ig
                 </strong>{" "}
                 lesz elérhető ezen az oldalon.
                 <br /> <br />
@@ -169,8 +169,9 @@ export default function Osztondij() {
                 jelentkezők vehetnek részt, ahol egy személyes felvételi
                 beszélgetés keretein belül választjuk kis a nyertest. Ennek
                 időpontja:{" "}
-                <strong>2024. április 7-én vasárnap, 16:00 órától</strong>.{" "}
-                <br />
+                <strong>
+                  2024. szeptember 29-én vasárnap, 16:00 órától
+                </strong>. <br />
                 <div className="separator-horizontal mt-20px"></div>
                 <strong>Felvételi bizottság tagjai</strong> <br />
                 <p>
