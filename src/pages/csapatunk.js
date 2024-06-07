@@ -15,6 +15,7 @@ const Csapatunk = () => {
       item.name === "István" ||
       item.name === "Noémi" ||
       item.name === "Kisanna" ||
+      item.name === "Rózsa" ||
       item.name === "Temu"
   )
 
