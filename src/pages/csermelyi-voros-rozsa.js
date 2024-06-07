@@ -75,7 +75,7 @@ export default function Noemi() {
 export const Head = ({ location }) => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "kisanna_desktop.png" }) {
+      file(relativePath: { eq: "rozsa_desktop.jpeg" }) {
         childImageSharp {
           gatsbyImageData(width: 1200)
         }
