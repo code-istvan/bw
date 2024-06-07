@@ -35,46 +35,37 @@ export default function Noemi() {
       </div>
       <div className="row mt-40px">
         <p className="mb-20px">
-          Barna Kisanna vagyok, pszichológus, astanga jóga gyakorló.
+          Gyerekkorom óta életem szerves része a testmozgás. Versenytáncos
+          múltam mellett szívesen kipróbáltam egyéb mozgásformákat is. Így
+          kerültem el gimnazista koromban az első jóga órámra. Örömmel
+          tapasztaltam, hogy a gyakorlás képes enyhíteni az időnként előtörő
+          szorongásomon.
         </p>
         <p className="mb-20px">
-          A jógával még egyetemista koromban találkoztam először. Sokféle
-          irányzatot kipróbáltam már, mígnem egy ismerősöm ajánlására
-          felkerestem és lesétáltam életem első vinyásza kráma órájára a Bandha
-          Works-be. Egyből éreztem, hogy jó helyen járok: lenyűgözött a shala
-          autentikussága, az a szakmai elhivatottság és odaadás, amit az
-          oktatókon láttam, valamint a jógaórák maguk, amiket egyre gyakrabban
-          és rendszeresebben látogattam, mert éreztem, hogy jobban vagyok
-          utánuk, mint nélkülük.
+          Az astanga jógáról Sugár Bertalan óráin hallottam először. Nagyon
+          kíváncsivá tett, viszont egy évig halogattam, mire elmentem az első
+          Mysore órára. Féltem és nem hittem magamban, nem gondoltam, hogy képes
+          vagyok egy ilyen intenzív és rendszeres gyakorlást fenntartani.
         </p>
         <p className="mb-20px">
-          Kicsivel később – az első várandósságom második felében, keresve egy
-          kiszámítható, testem (és lelkem) aktuális állapotához módosítható,
-          rendszeres gyakorlást biztosító sorozatot – kezdtem el astanga
-          vinyásza jógázni. Amit azóta is gyakorlok, immár a kisgyerekes családi
-          lét lehetőségein belül. Ez a felállás megerősít abban a
-          meggyőződésemben, hogy a jóga mindenkinek való, és hogy messze
-          túlmutat az ászanák gyakorlásán.
+          Azonban, mivel egy nehéz időszakot éltem át és változásra vágytam, így
+          végül egy hideg, februári reggelen lejöttem a Bandha Works-be. Tisztán
+          emlékszem az első benyomásokra. Néztem a gyakorlókat, hallgattam az
+          Ujjayi légzést és már akkor tudtam, hogy ez az amit kerestem.
         </p>
         <p className="mb-20px">
-          2019-ben lehetőségem adódott a jóga szülőhazájába, Indiába utazni,
-          ahol Vijay Kumarnál astangáztam. Négy évvel később, 2023-ban pedig
-          felvételt nyertem a Sharath Yoga Centre-be, ahol Paramaguru Sharath
-          Jois felügyelete alatt gyakorolhattam.
+          Úgymond hamar elkapott a gépszíj, rendszeresen gyakoroltam, majd 3 év
+          után azt éreztem, hogy el kell mennem Mysore-ba a forráshoz. 2022-ben
+          felvételt nyertem a Sharath Yoga Centre-be. Nagyon szerencsésnek érzem
+          magam, hogy lehetőségem volt 2 hónapot Paramaguru Sharath Jois
+          felügyelete alatt gyakorolnom. Ezen kívül, meghatározó volt
+          bepillantást nyerni az dél-indiai kultúrába és része lenni az emberek
+          hétköznapjainak.
         </p>
         <p className="mb-20px">
-          Számomra a jóga egy lehetőség, hogy kapcsolódhassunk önmagunkkal. A
-          belső zűr-, és a külső hangzavar lecsendesítése, amikor bepillantást
-          nyerhetünk abba, éppen miben vagyunk, „mivel van dolgunk”. Engem
-          rendszeresen szembesít perfekcionizmusom korlátoltságával, és arra
-          tanít, hogy elfogadóbb és megengedőbb legyek önmagammal, „elengedőbb”
-          a külső elvárásokkal.
-        </p>
-        <p>
-          Pszichológusként külön izgalmasnak tartom felfedezni a többezer éves
-          keleti tanítások, a jóga filozófia, illetve a modern nyugati
-          pszichológiai és idegtudományi elméletek közötti párhuzamokat. Ebben a
-          témában indul hamarosan blogsorozatom a jógaiskola honlapján.
+          Rendkívül hálás vagyok a tanáraimnak és a gyakorlásnak. Sokat tanultam
+          alázatról, hitről, elfogadásról és a félelmeim leküzdéséről.
+          Kíváncsian várom, hogy mit tanít és merre visz tovább a gyakorlás.
         </p>
       </div>
     </Layout>
