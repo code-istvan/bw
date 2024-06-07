@@ -13,7 +13,7 @@ export default function Noemi() {
           <h1 className="page-hero-title">Rózsa</h1>
           <StaticImage
             className="container-fluid page-hero-image page-big-image"
-            src="../images/rozsa_desktop.png"
+            src="../images/rozsa_desktop.jpg"
             layout="fullWidth"
             loading="lazy"
             quality={95}
@@ -23,7 +23,7 @@ export default function Noemi() {
           />
           <StaticImage
             className="container-fluid page-hero-image page-mobil-image"
-            src="../images/rozsa_mobil.png"
+            src="../images/rozsa_mobil.jpg"
             layout="fullWidth"
             loading="lazy"
             quality={95}
