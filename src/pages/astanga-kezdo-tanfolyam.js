@@ -280,7 +280,7 @@ export default function AstangaKezdoTanfolyam() {
           courseTeacher={"István"}
           // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
         /> */}
-        <CourseApplication
+        {/* <CourseApplication
           courseName={"HÉTVÉGI ASTANGA KEZDŐ TANFOLYAM"}
           courseDate={"2024. június 8."}
           courseLink={
@@ -290,7 +290,7 @@ export default function AstangaKezdoTanfolyam() {
           courseWeekend={"igen"}
           courseTeacher={"Kisanna"}
           courseNote={"Még két szabad helyünk van erre a tanfolyamra"}
-        />
+        /> */}
         <CourseApplication
           courseName={"ASTANGA KEZDŐ TANFOLYAM"}
           courseDate={"2024. szeptember 10."}
@@ -298,7 +298,7 @@ export default function AstangaKezdoTanfolyam() {
             "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-1"
           }
           courseType={"tanfolyam"}
-          courseTeacher={"István"}
+          courseTeacher={"Kisanna"}
           // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
         />
         <div className="row mt-20px">
