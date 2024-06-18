@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: A harmadik sorozat újrakezdése – elmélkedések egy 11 éves kapcsolatról
 description: Azáltal, hogy megmutatták, hol vannak a korlátaim, és kénytelen
   voltam megállni és szembenézni velük, arra kényszerültem, hogy figyelmemet,
