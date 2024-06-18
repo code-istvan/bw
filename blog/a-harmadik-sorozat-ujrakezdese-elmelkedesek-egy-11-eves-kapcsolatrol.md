@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: A harmadik sorozat újrakezdése – elmélkedések egy 11 éves kapcsolatról
 description: Valami
 author: Zsuzsi
