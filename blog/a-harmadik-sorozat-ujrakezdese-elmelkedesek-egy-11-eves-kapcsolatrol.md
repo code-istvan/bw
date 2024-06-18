@@ -1,7 +1,10 @@
 ---
 published: false
 title: A harmadik sorozat újrakezdése – elmélkedések egy 11 éves kapcsolatról
-description: Valami
+description: Azáltal, hogy megmutatták, hol vannak a korlátaim, és kénytelen
+  voltam megállni és szembenézni velük, arra kényszerültem, hogy figyelmemet,
+  tudatosságomat és erőfeszítésemet azokra a helyekre koncentráljam, amelyeket
+  korábban elkerültem vagy elhanyagoltam.
 author: Zsuzsi
 tags:
   - astangaelmélet
