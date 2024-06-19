@@ -202,10 +202,22 @@ Ezt a folyamatot három héttel ezelőtt kezdtem, és a cikk írásakor a harmad
 
 Három héttel ezelőtt, amikor úgy döntöttem, hogy újra hozzáadom a haladó sorozatos ászanákat a gyakorlásomhoz, nem voltam biztos abban, hogy készen állok-e rá. Bár fájdalommentesen tudtam gyakorolni a második sorozatot, összességében elég fáradtnak, nehéznek és merevnek éreztem magam. Következetlennek tűnt, amikor elkezdtem ebben a helyzetben hosszabbá és intenzívebbé tenni a gyakorlásomat. Viszont valami belülről azt súgta, hogy próbáljam meg, és így is tettem. Az első héten minden haladó sorozatból csak két-három testtartást adtam hozzá a gyakorlásomhoz. Csodálatos volt érezni a szétáradó energiát és az egész gyakorlásom általános változását. Ezeknek az új testhelyzeteknek a hozzáadása jelentős térérzetet teremtett a medence területén, új vitalitást juttatott a testembe és ezáltal a gyakorlásomba. Olyan érzés volt, mintha minden újjáéledt volna. Egyértelmű, hogy jól döntöttem. Várom a folytatást a következő pár hónapban.
 
-A képek, amelyeket ehhez a blogbejegyzésemhez mellékelek, a harmadik, otthoni gyakorlásomról készültek, körülbelül két héttel ezelőtt, 2016 áprilisában, hajnali 4 óra körül, miután - bemelegítésképpen - a teljes második sorozattal végeztem. Ez a harmadik alkalom, amikor gyakoroltam ezeket a testhelyzeteket, közel hat hónapos kihagyás után. A képek nem fotózásra beállítva készültek, hanem a pillanatok őszinte megörökítései, a szokásosan végzett gyakorlásom során. Mivel viszonylag gyenge fényű helyiségben gyakorlok, a Windows fotógaléria segítségével növeltem a képek általános fényerejét. Más módon nincsenek szerkesztve.
+A képek, amelyeket ehhez a blogbejegyzésemhez mellékelek -lásd. lentebb -, a harmadik, otthoni gyakorlásomról készültek, körülbelül két héttel ezelőtt, 2016 áprilisában, hajnali 4 óra körül, miután - bemelegítésképpen - a teljes második sorozattal végeztem. Ez a harmadik alkalom, amikor gyakoroltam ezeket a testhelyzeteket, közel hat hónapos kihagyás után. A képek nem fotózásra beállítva készültek, hanem a pillanatok őszinte megörökítései, a szokásosan végzett gyakorlásom során. Mivel viszonylag gyenge fényű helyiségben gyakorlok, a Windows fotógaléria segítségével növeltem a képek általános fényerejét. Más módon nincsenek szerkesztve.
 
 Eredetileg ezeket a képeket a [Spacious Yoga Facebook](https://www.facebook.com/spaciousyogaashtanga/) oldalamon szerettem volna közzétenni, néhány gondolattal a harmadik sorozathoz fűződő kapcsolatomról, és röviden leírva, hogy milyen előnyei lehetnek annak, ha elhagyjuk a gyakorlásunk egy részét, majd később újra visszatérünk hozzá. Aztán ahogy elkezdtem írni, rájöttem, hogy sokkal több mondanivalóm van, mint amennyi néhány bekezdésbe belefér. Az eredmény ez a hosszú cikk!
 
 **Az írás szerzője:** Iain Grysak
 **Az írás eredeti címe:** Starting Third Series (Again) – Reflections on an 11 year relationship. \
 **Fordította és szerkesztette:** Dr. Kővári Zsuzsa
+
+![Visvamitrászana ](/blogpostimages/1.jpeg "Visvamitrászana otthon, kb. hajnali 4-kor,  2016 áprilisában")
+
+![Visvamitrászana  2](/blogpostimages/2.jpeg "Visvamitrászana otthon, kb. hajnali 4-kor,  2016 áprilisában")
+
+![Vasisthászana ](/blogpostimages/3.jpeg "Vasisthászana otthon, kb. hajnali 4-kor,  2016 áprilisában")
+
+![Vasisthászana 2](/blogpostimages/4.jpeg " Vasisthászana otthon, kb. hajnali 4-kor,  2016 áprilisában")
+
+![Csakorászana](/blogpostimages/5.jpeg "Csakorászana otthon, kb. hajnali 4-kor,  2016 áprilisában")
+
+![Csakorászana 2](/blogpostimages/6.jpeg "Csakorászana otthon, kb. hajnali 4-kor,  2016 áprilisában")
