@@ -207,4 +207,5 @@ A képek, amelyeket ehhez a blogbejegyzésemhez mellékelek, a harmadik, otthoni
 Eredetileg ezeket a képeket a [Spacious Yoga Facebook](https://www.facebook.com/spaciousyogaashtanga/) oldalamon szerettem volna közzétenni, néhány gondolattal a harmadik sorozathoz fűződő kapcsolatomról, és röviden leírva, hogy milyen előnyei lehetnek annak, ha elhagyjuk a gyakorlásunk egy részét, majd később újra visszatérünk hozzá. Aztán ahogy elkezdtem írni, rájöttem, hogy sokkal több mondanivalóm van, mint amennyi néhány bekezdésbe belefér. Az eredmény ez a hosszú cikk!
 
 **Az írás szerzője:** Iain Grysak
-**Az írás eredeti címe:** Starting Third Series (Again) – Reflections on an 11 year relationship. **Fordította és szerkesztette:** Dr. Kővári Zsuzsa
+**Az írás eredeti címe:** Starting Third Series (Again) – Reflections on an 11 year relationship. \
+**Fordította és szerkesztette:** Dr. Kővári Zsuzsa
