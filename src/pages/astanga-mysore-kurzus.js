@@ -142,7 +142,7 @@ export default function AstangaMysoreKurzus() {
         </div>
         <div className="row">
           <div className="mb-20px mt-20px">
-            <h3>Gyakran ismételt kérdések</h3>
+            <h3 className="clr-brand-orange">Gyakran ismételt kérdések</h3>
           </div>{" "}
           <div className="row">
             {mysoreKurzusFaq &&
