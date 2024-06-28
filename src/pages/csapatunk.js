@@ -17,7 +17,8 @@ const Csapatunk = () => {
       item.name === "Kisanna" ||
       item.name === "Rózsa" ||
       item.name === "Temu" ||
-      item.name === "Janka"
+      item.name === "Janka" ||
+      item.name === "Andris"
   )
 
   return (
@@ -71,11 +72,6 @@ const Csapatunk = () => {
               )
             }
           )}
-        </div>
-        <div className="row mt-20px">
-          <p className="clr-brand-orange">
-            Az oldal jelenleg feltöltés alatt áll!
-          </p>
         </div>
       </div>
     </Layout>
