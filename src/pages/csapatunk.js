@@ -10,17 +10,21 @@ import "../sass/pages/_oktatok.scss"
 
 const Csapatunk = () => {
   const teachers = useTeachers()
-  const filterTeachers = teachers.filter(
+  // Meghatározott tanárok kiválasztása
+  const fixedTeachers = ["István", "Kisanna", "Janka", "Rózsa", "Andris"]
+
+  // Kiválasztott tanárok és a többiek szétválasztása
+  const prioritizedTeachers = fixedTeachers
+    .map(name => teachers.find(teacher => teacher.name === name))
+    .filter(teacher => teacher !== undefined) // Eltávolítja az undefined
+  const otherTeachers = teachers.filter(
     item =>
-      item.name === "István" ||
-      item.name === "Noémi" ||
-      item.name === "Kisanna" ||
-      item.name === "Rózsa" ||
-      item.name === "Temu" ||
-      item.name === "Janka" ||
-      item.name === "Andris"
+      !fixedTeachers.includes(item.name) &&
+      (item.name === "Temu" || item.name === "Noémi")
   )
 
+  // Tanárok újrarendezése
+  const filterTeachers = [...prioritizedTeachers, ...otherTeachers]
   return (
     <Layout>
       <div className="page-hero-container">
