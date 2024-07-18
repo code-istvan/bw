@@ -210,7 +210,7 @@ export default function Rolunk() {
               Kiadványaink
             </h3>
             <p className="mb-20px">
-              „2019-ben, majd 2020-ban az a hatalmas megtiszteltetés ért minket,
+              2019-ben, majd 2020-ban az a hatalmas megtiszteltetés ért minket,
               hogy <strong>Paramaguru R. Sharath Jois</strong>{" "}
               <CustomLink
                 link="https://shop.bandha.works/collections/konyvek"
