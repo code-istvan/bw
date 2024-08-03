@@ -164,11 +164,11 @@ export default function Prices() {
             </thead>
             <tr>
               <td>Beginners astanga yoga course</td>
-              <td>30.000.- Ft</td>
+              <td>32.000.- Ft</td>
               <td>
                 {" "}
                 <CustomLink
-                  link="https://shop.bandha.works/products/astanga-kezdo-tanfolyam"
+                  link="https://shop.bandha.works/products/astanga-kezdo-tanfolyam-1"
                   title="APPLICATION"
                   classNames="link-decoration-remove"
                 />
@@ -176,11 +176,11 @@ export default function Prices() {
             </tr>
             <tr>
               <td>Astanga Mysore course</td>
-              <td>30.000.- Ft</td>
+              <td>35.000.- Ft</td>
               <td>
                 {" "}
                 <CustomLink
-                  link="https://shop.bandha.works/products/astanga-mysore-kurzus"
+                  link="https://shop.bandha.works/products/astanga-mysore-kurzus-1"
                   title="APPLICATION"
                   classNames="link-decoration-remove"
                 />

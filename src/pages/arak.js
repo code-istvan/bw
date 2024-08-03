@@ -162,7 +162,7 @@ export default function Arak() {
               <td>
                 {" "}
                 <CustomLink
-                  link="https://shop.bandha.works/products/astanga-kezdo-tanfolyam"
+                  link="https://shop.bandha.works/products/astanga-kezdo-tanfolyam-1"
                   title="JELENTKEZÉS"
                   classNames="link-decoration-remove"
                 />
@@ -170,11 +170,11 @@ export default function Arak() {
             </tr>
             <tr>
               <td>Astanga Mysore-kurzus</td>
-              <td>32.000.- Ft</td>
+              <td>35.000.- Ft</td>
               <td>
                 {" "}
                 <CustomLink
-                  link="https://shop.bandha.works/products/astanga-mysore-kurzus"
+                  link="https://shop.bandha.works/products/astanga-mysore-kurzus-1"
                   title="JELENTKEZÉS"
                   classNames="link-decoration-remove"
                 />
