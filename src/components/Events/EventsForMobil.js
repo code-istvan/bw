@@ -11,6 +11,7 @@ export default function EventsForMobil({
   excludeTypes = [],
 }) {
   let events = useEventsRoll()
+  events = events.filter(event => event.published === true)
   const teachers = useTeachers()
   const featuredEvents = events.filter(item => item.featured === true)
   let filteredEvents = onlyFeatured ? featuredEvents : events
