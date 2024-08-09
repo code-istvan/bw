@@ -17,30 +17,40 @@ export default function EventsForMobil({
   const today = new Date()
   events = events.filter(event => new Date(event.date) >= today)
 
+  // Kiemelt események szűrése
   const featuredEvents = events.filter(item => item.featured === true)
   let filteredEvents = onlyFeatured ? featuredEvents : events
 
+  // Szűrés az eseménytípusok alapján
   filteredEvents = filteredEvents.filter(
     event => !excludeTypes.includes(event.esemenytipusa)
   )
 
-  // Considering maxEventsToShow
+  // Ha showAll be van állítva, akkor az összes eseményt mutatjuk
+  if (showAll) {
+    filteredEvents = events
+  }
+
+  // Maximum megjelenítendő események
   if (typeof maxEventsToShow === "number") {
     filteredEvents = filteredEvents.slice(0, maxEventsToShow)
   }
 
-  if (showAll) {
-    filteredEvents = events
+  // Ellenőrzés, hogy van-e esemény
+  if (filteredEvents.length === 0) {
+    return <p>Nincsenek megjeleníthető események</p>
   }
 
   const [activeCardIndex, setActiveCardIndex] = React.useState(0)
   const eventsRowRef = React.useRef(null)
 
   const handleScroll = () => {
-    const index = Math.round(
-      eventsRowRef.current.scrollLeft / window.innerWidth
-    )
-    setActiveCardIndex(index)
+    if (eventsRowRef.current) {
+      const index = Math.round(
+        eventsRowRef.current.scrollLeft / window.innerWidth
+      )
+      setActiveCardIndex(index)
+    }
   }
 
   return (
@@ -57,10 +67,12 @@ export default function EventsForMobil({
             const currentTeacher = teachers.find(
               teacher => teacher.name === teacherName
             )
+
+            if (!currentTeacher) return null
+
             return (
               <div className="events-col" key={title + date}>
                 <EventsMobilCard
-                  key={title + date}
                   title={title}
                   date={date}
                   teacher={currentTeacher}
