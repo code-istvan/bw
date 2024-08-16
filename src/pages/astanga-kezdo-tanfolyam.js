@@ -87,7 +87,7 @@ export default function AstangaKezdoTanfolyam() {
       <div className="astanga-kezdo--wrapper tight--desktop--container">
         <div className="row">
           <div className="mt-40px mb-20px">
-            <h3>
+            <h3 className="clr-brand-orange">
               <strong>
                 Az astanga jóga gyakorlása hatékony és személyre szabott
                 módszer, amely fizikai erőt, rugalmasságot és belső nyugalmat
