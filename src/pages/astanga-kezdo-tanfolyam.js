@@ -294,13 +294,14 @@ export default function AstangaKezdoTanfolyam() {
         <CourseApplication
           courseName={"ASTANGA KEZDŐ TANFOLYAM"}
           courseDate={"2024. szeptember 10."}
-          courseLink={
-            "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-1"
-          }
+          // courseLink={
+          //   "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-1"
+          // }
           courseType={"tanfolyam"}
           courseTeacher={"Kisanna"}
           // courseNote={"Kevesebb mint 3 szabad hely"}
-          courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
+          // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
+          // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
         />
         <div className="row mt-20px">
           <div className="col-12-xs">
