@@ -205,7 +205,14 @@ export default function Arak() {
             <tr>
               <td>Kezdő astanga, négy alkalmas</td>
               <td>80.000.- Ft</td>
-              <td>HAMAROSAN</td>
+              <td>
+                {" "}
+                <CustomLink
+                  link="https://shop.bandha.works/products/kezdo-astanga-tanfolyam-magan-4-alkalmas"
+                  title="JELENTKEZÉS"
+                  classNames="link-decoration-remove"
+                />
+              </td>
             </tr>
           </table>
         </div>
