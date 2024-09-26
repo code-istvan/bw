@@ -93,11 +93,6 @@ export default function Arak() {
                   />
                 </td>
               </tr>
-              <tr>
-                <td>Éves tagság</td>
-                <td>28.000.- Ft / hó</td>
-                <td>HAMAROSAN</td>
-              </tr>
             </tbody>
           </table>
           <p className="arak-table-footer mt-20px">

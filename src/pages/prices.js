@@ -164,7 +164,7 @@ export default function Prices() {
             </thead>
             <tr>
               <td>Beginners astanga yoga course</td>
-              <td>32.000.- Ft</td>
+              <td>35.000.- Ft</td>
               <td>
                 {" "}
                 <CustomLink
