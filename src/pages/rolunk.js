@@ -30,6 +30,10 @@ export default function Rolunk() {
       { name: "Sharmila Mahesh", country: "IND" },
       { name: "Dr. Norman Sjoman", country: "CDN" },
     ],
+    [
+      { name: "Charles Secallus", country: "USA" },
+      { name: "Dr. Vairagya Ranko", country: "SRB" },
+    ],
   ]
 
   return (
@@ -164,6 +168,15 @@ export default function Rolunk() {
           </div>
           <div className="guest-teachers-mobil">
             {guestTeachers[2].map((person, index) => (
+              <NameCard
+                key={index}
+                name={person.name}
+                country={person.country}
+              />
+            ))}
+          </div>
+          <div className="guest-teachers-mobil">
+            {guestTeachers[3].map((person, index) => (
               <NameCard
                 key={index}
                 name={person.name}
