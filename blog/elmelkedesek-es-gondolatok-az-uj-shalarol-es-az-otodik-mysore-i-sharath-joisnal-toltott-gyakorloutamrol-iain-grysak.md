@@ -179,3 +179,9 @@ Az utolsó tényező, amelyet erős ászanagyakorlásom fenntartásának tulajdo
 
 Köszönetnyilvánítás:
 Köszönöm Clayton Loizou-nak és Greg Steward-nak a szerkesztést és a cikkel kapcsolatos hasznos javaslatokat.
+
+**Az írás szerzője:** Iain Grysak, [Spacious Yoga](https://spaciousyoga.com), Bali 
+
+**Az írás eredeti címe:** Reflections on the new shala and my fifth trip of practice in Mysore with Sharath Jois – by Iain Grysak
+
+**Fordította és szerkesztette:** Dr. Kővári Zsuzsa
