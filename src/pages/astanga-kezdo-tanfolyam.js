@@ -293,6 +293,18 @@ export default function AstangaKezdoTanfolyam() {
         /> */}
         <CourseApplication
           courseName={"ASTANGA KEZDŐ TANFOLYAM"}
+          courseDate={"2025. január 7."}
+          courseLink={
+            "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-2025-januar"
+          }
+          courseType={"tanfolyam"}
+          courseTeacher={"Kisanna"}
+          // courseNote={"Kevesebb mint 3 szabad hely"}
+          // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
+          // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
+        />
+        <CourseApplication
+          courseName={"ASTANGA KEZDŐ TANFOLYAM"}
           courseDate={"2024. november 5."}
           courseLink={
             "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-1"
