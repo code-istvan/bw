@@ -20,7 +20,7 @@ thumbnailMobil: /blogpostimages/taplalkozas_mobil.jpg
 
 Ez ugyanígy van a jóga gyakorlása során is, legyen szó ászanákról, pránájámáról vagy dhjánáról (meditációról); a jóga gyakorlásában a sziddhi (mesteri szint) képességének elérése azon múlik, hogy mennyire tudjuk felébreszteni és kihasználni a testünkben áramló pránát. Minden, amit az ászanagyakorlás során végzünk - hangos légzés, bandhák tartása stb. - a pránát hasznosítja. A prána áramlása teszi a testet hajlékonnyá, alkalmassá a magasabb tudatállapotok elérésére. Sok dolog blokkolja a prána áramlását, ezek közül a legfőbb a rossz étrend. Ezért javasolják a jógiknak az összes jógaszövegben, amelyek részletesen tárgyalják a különböző jógagyakorlatokat, a mitahárát (a könnyű, szattvikus étrendet).
 
-## A Mitahara (mértékletes étrend) különböző jóga szövegekben
+## A *mitahara* (mértékletes étrend) különböző jóga szövegekben
 
 A rishikeshi Swami Sivananda rámutatott: 
 
@@ -28,14 +28,14 @@ A rishikeshi Swami Sivananda rámutatott:
 
 A Hatha Jóga Pradipiká azt mondja,
 
-> A Mitahara kellemes és édes étel, amely a gyomor egynegyedét üresen hagyja, és amelyet Shiva örömére való felajánlásként fogyasztanak.
+> A *mitahara* kellemes és édes étel, amely a gyomor egynegyedét üresen hagyja, és amelyet Shiva örömére való felajánlásként fogyasztanak.
 
 A Gheranda Samhita még tovább megy,  
 
-A krijákról (tisztító technikákról) szóló részt az ászanákról szóló rész elé helyezi. Való igaz, hogy megfelelő elimináció nélkül nem lehet befolyásolni a pránát.  Egy korábbi cikkben leírtam Indra Devi kezdeti bizonytalanságát és későbbi háláját, amikor T. Krishnamacharya felügyelete alatt megkezdte jógatanulmányait. A Gheranda Samhita szerint,
+A krijákról (tisztító technikákról) szóló részt az ászanákról szóló rész elé helyezi. Való igaz, hogy megfelelő elimináció nélkül nem lehet befolyásolni a pránát. Egy korábbi cikkben leírtam Indra Devi kezdeti bizonytalanságát és későbbi háláját, amikor T. Krishnamacharya felügyelete alatt megkezdte jógatanulmányait. A Gheranda Samhita szerint,
 
 > आमकुम्भ इवाम्भस्यो जीर्यमाणः सदा घटः | योगाग्निलेन सन्दग्धा घटशुद्धिं समाचरेत् || ८\
-> A testünk idővel legyengül, (romlik), mint egy égetetlen edény a vízben. ​​A Jóga tüzével kell felizzítani és megtisztítani.  
+> A testünk idővel legyengül, (romlik), mint egy égetetlen edény a vízben. ​​A jóga tüzével kell felizzítani és megtisztítani.  
 
 ## A múla bandha a teli gyomor fokmérője
 
