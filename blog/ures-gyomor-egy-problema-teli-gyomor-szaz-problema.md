@@ -16,9 +16,9 @@ thumbnailMobil: /blogpostimages/taplalkozas_mobil.jpg
 
 > nimittamaprayojakaṃ prakṛtīnāṃ varaṇabhedastu tataḥ kṣetrikavat\
 > Ahogy a földműves sem hordja a vizet a folyóból a mezőkre, hanem eltávolítja az akadályokat, amelyek megakadályozzák a víz folyását, és gátakat hoz létre,  úgy a jógikus gyakorlatok is eltávolítják a tudatosság áramlásának akadályait. \
-> Patandzsali a Jóga-szútra 4.3
+> Patandzsali Jóga-szútrák 4.3
 
-Ez ugyanígy van a jóga gyakorlása során is, legyen szó ászanákról, pránajámáról vagy dhjánáról (meditációról); a jóga gyakorlásában a sziddhi (mesteri szint) képességének elérése azon múlik, hogy mennyire tudjuk felébreszteni és kihasználni a testünkben áramló pránát. Minden, amit az ászanagyakorlás során végzünk - hangos légzés, bandhák tartása stb. - a pránát hasznosítja. A prána áramlása teszi a testet hajlékonnyá, alkalmassá a magasabb tudatállapotok elérésére. Sok dolog blokkolja a prána áramlását, ezek közül a legfőbb a rossz étrend. Ezért javasolják a jógiknak az összes jógaszövegben, amelyek részletesen tárgyalják a különböző jógagyakorlatokat, a mitahárát (a könnyű, szattvikus étrendet).
+Ez ugyanígy van a jóga gyakorlása során is, legyen szó ászanákról, pránájámáról vagy dhjánáról (meditációról); a jóga gyakorlásában a sziddhi (mesteri szint) képességének elérése azon múlik, hogy mennyire tudjuk felébreszteni és kihasználni a testünkben áramló pránát. Minden, amit az ászanagyakorlás során végzünk - hangos légzés, bandhák tartása stb. - a pránát hasznosítja. A prána áramlása teszi a testet hajlékonnyá, alkalmassá a magasabb tudatállapotok elérésére. Sok dolog blokkolja a prána áramlását, ezek közül a legfőbb a rossz étrend. Ezért javasolják a jógiknak az összes jógaszövegben, amelyek részletesen tárgyalják a különböző jógagyakorlatokat, a mitahárát (a könnyű, szattvikus étrendet).
 
 ## A Mitahara (mértékletes étrend) különböző jóga szövegekben
 
@@ -28,7 +28,7 @@ A rishikeshi Swami Sivananda rámutatott:
 
 ## A Hatha Jóga Pradipiká azt mondja,
 
-> A Mitaharát kellemes és édes étel, amely a gyomor egynegyedét üresen hagyja, és amelyet Shiva örömére való felajánlásként fogyasztanak.
+> A Mitahara kellemes és édes étel, amely a gyomor egynegyedét üresen hagyja, és amelyet Shiva örömére való felajánlásként fogyasztanak.
 
 ## A Gheranda Samhita még tovább megy,  
 
@@ -39,7 +39,7 @@ A krijákról (tisztító technikákról) szóló részt az ászanákról szól�
 
 ## A múla bandha a teli gyomor fokmérője
 
-Pattabhi Jois, az astanga jóga hagyomány alapítója gyakran mondta, hogy a múla bandhát vagy gyökérzárat mindig behúzva kell tartani, kivéve három alkalommal - evés, mosdóhasználat és alvás közben. A múla bandha a gát területének (a végbélnyílás és a nemi szervek közötti terület) felfelé emelése, ami a könnyedség érzését és a prána felfelé áramlását eredményezi. Az ászanagyakorlók ezt a technikát a lebegés érzésének előidézésére használják. Bár a legtöbbünknek nehéz ezt állandóan tartani, de ellenőrizni lehet vele, hogy, valaki nem evett-e túl sokat.
+Pattabhi Jois, az astanga jóga hagyomány alapítója gyakran mondta, hogy a múla bandhát vagy gyökérzárat mindig behúzva kell tartani, kivéve három alkalommal - evés, mosdóhasználat és alvás közben. A múla bandha a gát területének (a végbélnyílás és a nemi szervek közötti terület) összehúzása és felfelé emelése, amely a könnyedség érzését és a prána felfelé áramlását eredményezi. Az ászanagyakorlók ezt a technikát a lebegés érzésének előidézésére használják. Bár a legtöbbünknek nehéz ezt állandóan tartani, de ellenőrizni lehet vele, hogy, valaki nem evett-e túl sokat.
 
 ## Konklúzió
 
