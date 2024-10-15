@@ -22,16 +22,16 @@ Ez ugyanígy van a jóga gyakorlása során is, legyen szó ászanákról, prán
 
 ## A Mitahara (mértékletes étrend) különböző jóga szövegekben
 
-A rishikeshi Swami Sivananda rámutatott: \
-\
+A rishikeshi Swami Sivananda rámutatott: 
+
 > A nehéz ételek tompa, tamaszikus állapothoz vezetnek, ami álmosságot idéz elő. Általános tévhit, hogy nagy mennyiségű étel szükséges az egészséghez és az erőhöz. Sok múlik azon, hogy a szervezet mennyire képes a tápanyagokat hatékonyan feldolgozni és hasznosítani. A legtöbb betegség az egészségtelen étrendből és a túlevésből fakad.
 
 ## A Hatha Jóga Pradipiká azt mondja,
 
-A Mitaharát úgy definiálják, mint kellemes és édes étel, amely a gyomor egynegyedét üresen hagyja, és amelyet Shiva örömére való felajánlásként fogyasztanak.
+> A Mitaharát kellemes és édes étel, amely a gyomor egynegyedét üresen hagyja, és amelyet Shiva örömére való felajánlásként fogyasztanak.
 
-## A Gheranda Samhita még tovább megy,  \
-\
+## A Gheranda Samhita még tovább megy,  
+
 A krijákról (tisztító technikákról) szóló részt az ászanákról szóló rész elé helyezi. Való igaz, hogy megfelelő elimináció nélkül nem lehet befolyásolni a pránát.  Egy korábbi cikkben leírtam Indra Devi kezdeti bizonytalanságát és későbbi háláját, amikor T. Krishnamacharya felügyelete alatt megkezdte jógatanulmányait. A Gheranda Samhita szerint,
 
 > आमकुम्भ इवाम्भस्यो जीर्यमाणः सदा घटः | योगाग्निलेन सन्दग्धा घटशुद्धिं समाचरेत् || ८\
