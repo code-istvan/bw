@@ -7,7 +7,7 @@ description: A túlevéstől való tartózkodás és a könnyű diéta betartás
   végezni.
 author: István
 tags:
-  - jógaelmélet
+  - táplálkozás
 date: 2024-10-15T13:59:11.612Z
 thumbnail: /blogpostimages/taplalkozas_desktop.jpg
 thumbnailMobil: /blogpostimages/taplalkozas_mobil.jpg
