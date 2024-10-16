@@ -51,3 +51,5 @@ A túlevéstől való tartózkodás és a könnyű diéta betartása elengedhete
 **Az írás szerzője:** Ganesh Balachandran, Ph.D.
 
 **Az írás eredeti címe:** [An empty stomach has one problem;  A full stomach has a 100 problems.](https://www.yogasukshma.com/articles-and-lecture-presentations-by-ganesh/an-empty-stomach-has-one-problem-a-full-stomach-has-a-100-problems)
+
+**Korrektor:** Dr. Kővári Zsuzsa
