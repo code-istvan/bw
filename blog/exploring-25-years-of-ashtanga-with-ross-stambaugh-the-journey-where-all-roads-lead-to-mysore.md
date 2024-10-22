@@ -15,9 +15,9 @@ thumbnail: /blogpostimages/ross_1800x600.jpeg
 thumbnailMobil: /blogpostimages/ross_1080x1080.jpeg
 ---
 
-**Bandha Works**\
+**Bandha Works**
 How did you get introduced to Ashtanga yoga?\
-**Ross Stambaugh** \
+**Ross Stambaugh**
 I believe it was August 14th, 1999. I was walking down the street in Cincinnati, Ohio (USA) and I stopped into a headshop. There, I saw a video of Richard Freeman doing the Primary Series. He pressed up into a handstand, and I thought it was the most beautiful thing I had ever seen. I had just graduated college, finished a swimming career, and didn't know what I wanted to do with my life. Anyway, I bought the video and played it until it broke. By that time, I was able to do about the first half of the Primary Series.
 
 **Bandha Works**\
