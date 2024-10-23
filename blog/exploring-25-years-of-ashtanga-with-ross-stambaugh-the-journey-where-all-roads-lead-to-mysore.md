@@ -1,7 +1,6 @@
 ---
 published: true
-title: "Exploring 25 Years of Ashtanga with Ross Stambaugh: The Journey Where
-  All Roads Lead to Mysore"
+title: "25 Years of Ashtanga: An Interview with Ross Stambaugh"
 description: In this interview, Ross Stambaugh reflects on 25 years of
   practicing and teaching Ashtanga yoga. He shares his journey from discovering
   the practice in Cincinnati to his many visits to Mysore, where he continues to
