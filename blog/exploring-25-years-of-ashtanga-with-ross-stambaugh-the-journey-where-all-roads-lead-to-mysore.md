@@ -14,7 +14,7 @@ date: 2024-10-22T13:19:50.085Z
 thumbnail: /blogpostimages/ross_1800x600.jpeg
 thumbnailMobil: /blogpostimages/ross_1080x1080.jpeg
 ---
-In this interview, Ashtanga yoga teacher Ross Stambaugh shares how his journey with yoga began, the experiences he gained during his trips to Mysore, and how regular practice has transformed his life. He also provides insight into how he balances his commitment to yoga with other physical activities, and the changes that yoga philosophy has brought into his everyday life.
+In this interview, Ross Stambaugh reflects on 25 years of practicing and teaching Ashtanga yoga. He shares his journey from discovering the practice in Cincinnati to his many visits to Mysore, where he continues to deepen his understanding. Learn how Ashtanga has shaped his life both on and off the mat.
 
 ### How did you get introduced to Ashtanga yoga?
 I believe it was August 14th, 1999. I was walking down the street in Cincinnati, Ohio (USA) and I stopped into a headshop. There, I saw a video of Richard Freeman doing the Primary Series. He pressed up into a handstand, and I thought it was the most beautiful thing I had ever seen. I had just graduated college, finished a swimming career, and didn't know what I wanted to do with my life. Anyway, I bought the video and played it until it broke. By that time, I was able to do about the first half of the Primary Series.
