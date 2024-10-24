@@ -1,7 +1,7 @@
 ---
 published: true
-title: A Jó, a Ross és az Astanga jóga – Interjú egy negyed évszázados útról
-description: Ross Stambaugh közel 25 éve gyakorolja az Ashtanga jógát. Az
+title: Negyed évszázad astanga jógája – Beszélgetés Ross Stambaugh-val (USA)
+description: Ross Stambaugh közel 25 éve gyakorolja az Astanga jógát. Az
   interjúban megosztja tapasztalatait és útját Mysore-tól Budapestig.
 author: István
 tags:
