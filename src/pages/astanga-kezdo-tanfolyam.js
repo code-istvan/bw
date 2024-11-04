@@ -308,7 +308,7 @@ export default function AstangaKezdoTanfolyam() {
           courseName={"ASTANGA KEZDŐ TANFOLYAM"}
           courseDate={"2025. január 7."}
           courseLink={
-            "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-2025-januar"
+            "https://shop.bandha.works/products/astanga-kezdo-tanfolyam-januar"
           }
           courseType={"tanfolyam"}
           courseTeacher={"Kisanna"}
