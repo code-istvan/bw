@@ -9,7 +9,7 @@ author: Zsuzsi
 tags:
   - jógaelmélet
 date: 2024-11-05T13:52:13.017Z
-thumbnail: /blogpostimages/ross.jpeg
+thumbnail: /blogpostimages/ross_simple_blog.jpeg
 thumbnailMobil: /blogpostimages/ross_mobil.jpg
 ---
 Az alábbiakban három rövid történetet írtam, amelyek segítettek abban, hogy több mint 20 éve fenntartsam a jógagyakorlásomat. Ahogy múlnak az évek a gyakorlásomban, az ászanák apró részletei egyre kisebb hangsúlyt kapnak, és a rutin gyökeret ereszt. A gyakorlás adja meg a nap tempóját, ez lesz a napom vetülete, számomra igazából ez teszi relevánssá a jógát. Így töltöm el a gyakorlás utáni további 22 órát, ami olyan erőteljes értelmet ad az életemnek.
@@ -22,12 +22,12 @@ Kis ember, kopott fehér dhotiban, fehér pólóban, cipő nélkül, a mellkasá
 A professzor elfoglalja helyét a kis kanapéján, és elkezdi énekelni a szútrákat. A kántálás semmiképpen sem „angyali”. Valójában nem is éneklés, az akcentusok és a nemzetiségek keveredése miatt borzasztóan hangzik. De amiből hiányzik a tehetség, azt pótolja a lelkesedés! Kántálás után a professzortól kérdezhetnek a diákok. Ez a kedvenc részem.
 
 ### Professzor úr, mi a jóga?
-- kérdezi az egyik diák.
+kérdezi az egyik diák.
 
 ### A jóga 200%-ban áthatja az életed!
-- válaszolja.
+válaszolja.
 
-### Ohh! Ilyen egyszerű!
+**Ohh! Ilyen egyszerű!**
 
 ### Az életet 100%-osan meg kell élnünk belsőleg (önmagunkhoz kapcsolódva), és 100%-osan külsőleg (a külvilághoz kapcsolódva).
 
