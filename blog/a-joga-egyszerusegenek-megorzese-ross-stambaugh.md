@@ -54,6 +54,12 @@ Tehát a szútrákról az a véleményem, hogy egyszerűen megbeszélték őket 
 
 De mint tudjuk, ami egyszerű, nem könnyű!
 
+Ross - az astanga jóga első és második sorozatának tanítására -felhatalmazott tanár, aki közvetlenül Saraswathi Joistól tanulta az astanga jógát Mysore-ban (Indiában). Évente Indiába utazik, hogy folytassa tanulmányait, és számos alkalommal Saraswathi mellett segédtanárként is asszisztált. Célja, hogy segítsen az astanga hagyományos módszerének megőrzésében, azáltal, hogy folyamatosan fenntartja napi gyakorlását, és ugyanolyan tisztességgel és türelemmel tanítja tanítványait, mint tanárai. Ross nemzetközi szinten astanga jóga workshopokat tart, és szívesen él a lehetőséggel, hogy Veletek is együtt dolgozhasson (vagy együttműködhessen?) a jógagyakorlás során.
+Több mint 20 éves tapasztalattal rendelkezik az astanga tradícióban. A napi astanga gyakorlása mellett egyetemistaként úszó, judoka és hegymászó is volt. Jelenleg állami iskolai tanár, mesterfokú diplomával rendelkezik. Szívesen sétáltatja a kutyáit, Kalit és Brie-t, és lelkes motoros.
+
+Keresd őt az Instagramon az [@ashtanga.yoga.ross](https://www.instagram.com/ashtanga.yoga.ross/) címen!
+
+
 **Az írás szerzője:** [Ross Stambaugh](https://ashtangayogaross.com)
 
 **Az írás eredeti címe:** Trying to keep yoga simple – by Ross Stambaugh
