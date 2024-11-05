@@ -12,8 +12,7 @@ date: 2024-11-05T13:52:13.017Z
 thumbnail: /blogpostimages/ross_simple_blog.jpeg
 thumbnailMobil: /blogpostimages/ross_mobil.jpg
 ---
-Az alábbiakban három rövid történetet osztok meg, amelyek
-segítettek abban, hogy több mint 20 éve fenntartsam a jógagyakorlásomat. Ahogy múlnak az évek a gyakorlásomban, az ászanák apró részletei egyre kisebb hangsúlyt kapnak, és a rutin gyökeret ereszt. A gyakorlás adja meg a nap tempóját, ez lesz a napom vetülete, számomra igazából ez teszi relevánssá a jógát. Így töltöm el a gyakorlás utáni további 22 órát, ami olyan erőteljes értelmet ad az életemnek.
+Az alábbiakban három rövid történetet osztok meg, amelyek segítettek abban, hogy több mint 20 éve fenntartsam a jógagyakorlásomat. Ahogy múlnak az évek a gyakorlásomban, az ászanák apró részletei egyre kisebb hangsúlyt kapnak, és a rutin gyökeret ereszt. A gyakorlás adja meg a nap tempóját, ez lesz a napom vetülete, számomra igazából ez teszi relevánssá a jógát. Így töltöm el a gyakorlás utáni további 22 órát, ami olyan erőteljes értelmet ad az életemnek.
 
 ### A JÓGA 200%-BAN ÁTHATJA AZ ÉLETED!
 
