@@ -54,7 +54,7 @@ Tehát a szútrákról az a véleményem, hogy egyszerűen megbeszélték őket 
 
 De mint tudjuk, ami egyszerű, nem könnyű!
 
-**Az írás szerzője:** [Ross Stambaugh] (https://ashtangayogaross.com)
+**Az írás szerzője:** [Ross Stambaugh](https://ashtangayogaross.com)
 
 **Az írás eredeti címe:** Trying to keep yoga simple – by Ross Stambaugh
 
