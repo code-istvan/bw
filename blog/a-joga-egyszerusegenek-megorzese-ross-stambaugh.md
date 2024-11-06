@@ -29,9 +29,10 @@ válaszolja.**
 
 **Ohh! Ilyen egyszerű!**
 
-<div class="blog-island-section">Az életet 100%-osan meg kell élnünk belsőleg (önmagunkhoz kapcsolódva), és 100%-osan külsőleg (a külvilághoz kapcsolódva).</div>
+<div class="blog-island-section">Az életet 100%-osan meg kell élnünk belsőleg (önmagunkhoz kapcsolódva), és 100%-osan külsőleg (a külvilághoz kapcsolódva).
 
 Az egyensúly megtartása a legnehezebb. Tudsz zökkenőmentesen átváltani egyikből a másikba? Tudsz úgy lavírozni a kettő között, hogy az súrlódásmentes legyen? Én minden nap próbálkozom. És továbbra is próbálkozni fogok.
+</div>
 
 **Ilyen egyszerű.**
 
@@ -41,20 +42,21 @@ Vettem egy VHS kazettát, amit Richard Freeman adott ki az 1990-es években. Az 
 
 Folytattam a napi gyakorlást, és azt láttam, hogy a képességeim fejlődésével egyre több készségre van szükség a folytatáshoz. Ezeket a testhelyzeteket egy perfekcionista soha nem érné el. A lehető legjobb dolgot tettem. Elkezdtem hálás lenni a már meglévő képességeimért!
 
-A jártasság mindaz, ami hasznos lesz valamiképpen, és ki tudjuk hozni magunkból. Megéri rászánni az időt arra, hogy a készségeinket a legjobb tudásunk szerint csiszoljuk. Ez vonatkozik a spirituális képességekre is. Amikor az előnyök megmutatkoznak, az a jóga! A készség lehet olyan hétköznapi, mint vajjal megkenni a pirítóst, vagy olyan különleges, mint egy agyműtét. Ha segít az életed jobbá tételében, az a jóga!
+<div class="blog-island-section">A jártasság mindaz, ami hasznos lesz valamiképpen, és ki tudjuk hozni magunkból. Megéri rászánni az időt arra, hogy a készségeinket a legjobb tudásunk szerint csiszoljuk. Ez vonatkozik a spirituális képességekre is. Amikor az előnyök megmutatkoznak, az a jóga! A készség lehet olyan hétköznapi, mint vajjal megkenni a pirítóst, vagy olyan különleges, mint egy agyműtét. Ha segít az életed jobbá tételében, az a jóga!</div>
 
 **Ilyen egyszerű.**
 
 ### A JÓGA-SZÚTRÁK INKÁBB A FILOZÓFUSOK SZÁMÁRA VANNAK, NEM PEDIG AZ AKADÉMIKUSOK SZÁMÁRA
 
-Patandzsali szútráit az alapoktól kezdve a legalapvetőbb szinten kell tanítani. A jóga tapasztalaton alapul, nem könyveken. Látod, nem tudod kigondolni, mi a jóga. Sok tudós fantáziadús szójátékkal és utalásokkal próbálja leírni, hogy mi a jóga, illetve, sokszor azt, hogy mi nem. Ez csak összezavarja a hallgatóságot, így folytatni kell a beszélgetést; és beszélgetni, beszélgetni és beszélgetni. Ez választja el a tudóst a társaitól.
+<div class="blog-island-section">Patandzsali szútráit az alapoktól kezdve a legalapvetőbb szinten kell tanítani. A jóga tapasztalaton alapul, nem könyveken. Látod, nem tudod kigondolni, mi a jóga. Sok tudós fantáziadús szójátékkal és utalásokkal próbálja leírni, hogy mi a jóga, illetve, sokszor azt, hogy mi nem. Ez csak összezavarja a hallgatóságot, így folytatni kell a beszélgetést; és beszélgetni, beszélgetni és beszélgetni. Ez választja el a tudóst a társaitól.</div>
+
 Tehát a szútrákról az a véleményem, hogy egyszerűen megbeszélték őket egy fa alatt a barátaikkal, azon töprengve, hogy: „Miről is van szó?” Ez a beszélgetés egy retorikai „ping-pong” játék.
 
 **Ilyen egyszerű**.
 
 De mint tudjuk, ami egyszerű, nem könnyű!
 
-Ross - az astanga jóga első és második sorozatának tanítására -felhatalmazott tanár, aki közvetlenül Saraswathi Joistól tanulta az astanga jógát Mysore-ban (Indiában). Évente Indiába utazik, hogy folytassa tanulmányait, és számos alkalommal Saraswathi mellett segédtanárként is asszisztált. Célja, hogy segítsen az astanga hagyományos módszerének megőrzésében, azáltal, hogy folyamatosan fenntartja napi gyakorlását, és ugyanolyan tisztességgel és türelemmel tanítja tanítványait, mint tanárai. Ross nemzetközi szinten astanga jóga workshopokat tart, és szívesen él a lehetőséggel, hogy Veletek is együtt dolgozhasson (vagy együttműködhessen?) a jógagyakorlás során.
+**Ross** - az astanga jóga első és második sorozatának tanítására -felhatalmazott tanár, aki közvetlenül Saraswathi Joistól tanulta az astanga jógát Mysore-ban (Indiában). Évente Indiába utazik, hogy folytassa tanulmányait, és számos alkalommal Saraswathi mellett segédtanárként is asszisztált. Célja, hogy segítsen az astanga hagyományos módszerének megőrzésében, azáltal, hogy folyamatosan fenntartja napi gyakorlását, és ugyanolyan tisztességgel és türelemmel tanítja tanítványait, mint tanárai. Ross nemzetközi szinten astanga jóga workshopokat tart, és szívesen él a lehetőséggel, hogy Veletek is együtt dolgozhasson (vagy együttműködhessen?) a jógagyakorlás során.
 Több mint 20 éves tapasztalattal rendelkezik az astanga tradícióban. A napi astanga gyakorlása mellett egyetemistaként úszó, judoka és hegymászó is volt. Jelenleg állami iskolai tanár, mesterfokú diplomával rendelkezik. Szívesen sétáltatja a kutyáit, Kalit és Brie-t, és lelkes motoros.
 
 Keresd őt az Instagramon az [@ashtanga.yoga.ross](https://www.instagram.com/ashtanga.yoga.ross/) címen!
