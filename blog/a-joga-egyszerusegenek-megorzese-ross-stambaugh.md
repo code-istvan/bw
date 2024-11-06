@@ -21,15 +21,15 @@ Kis ember, kopott fehér dhotiban, fehér pólóban, cipő nélkül, a mellkasá
 
 A professzor elfoglalja helyét a kis kanapéján, és elkezdi énekelni a szútrákat. A kántálás semmiképpen sem „angyali”. Valójában nem is éneklés, az akcentusok és a nemzetiségek keveredése miatt borzasztóan hangzik. De amiből hiányzik a tehetség, azt pótolja a lelkesedés! Kántálás után a professzortól kérdezhetnek a diákok. Ez a kedvenc részem.
 
-### Professzor úr, mi a jóga?
+**Professzor úr, mi a jóga?**
 kérdezi az egyik diák.
 
-### A jóga 200%-ban áthatja az életed!
-válaszolja.
+**A jóga 200%-ban áthatja az életed!
+válaszolja.**
 
 **Ohh! Ilyen egyszerű!**
 
-### Az életet 100%-osan meg kell élnünk belsőleg (önmagunkhoz kapcsolódva), és 100%-osan külsőleg (a külvilághoz kapcsolódva).
+<div class="blog-island-section">Az életet 100%-osan meg kell élnünk belsőleg (önmagunkhoz kapcsolódva), és 100%-osan külsőleg (a külvilághoz kapcsolódva).</div>
 
 Az egyensúly megtartása a legnehezebb. Tudsz zökkenőmentesen átváltani egyikből a másikba? Tudsz úgy lavírozni a kettő között, hogy az súrlódásmentes legyen? Én minden nap próbálkozom. És továbbra is próbálkozni fogok.
 
@@ -58,7 +58,6 @@ Ross - az astanga jóga első és második sorozatának tanítására -felhatalm
 Több mint 20 éves tapasztalattal rendelkezik az astanga tradícióban. A napi astanga gyakorlása mellett egyetemistaként úszó, judoka és hegymászó is volt. Jelenleg állami iskolai tanár, mesterfokú diplomával rendelkezik. Szívesen sétáltatja a kutyáit, Kalit és Brie-t, és lelkes motoros.
 
 Keresd őt az Instagramon az [@ashtanga.yoga.ross](https://www.instagram.com/ashtanga.yoga.ross/) címen!
-
 
 **Az írás szerzője:** [Ross Stambaugh](https://ashtangayogaross.com)
 
