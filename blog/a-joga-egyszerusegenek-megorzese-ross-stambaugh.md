@@ -29,9 +29,7 @@ válaszolja.**
 
 **Ohh! Ilyen egyszerű!**
 
-<div class="blog-island-section">Az életet 100%-osan meg kell élnünk belsőleg (önmagunkhoz kapcsolódva), és 100%-osan külsőleg (a külvilághoz kapcsolódva).
-
-Az egyensúly megtartása a legnehezebb. Tudsz zökkenőmentesen átváltani egyikből a másikba? Tudsz úgy lavírozni a kettő között, hogy az súrlódásmentes legyen? Én minden nap próbálkozom. És továbbra is próbálkozni fogok.
+<div class="blog-island-section">Az életet 100%-osan meg kell élnünk belsőleg (önmagunkhoz kapcsolódva), és 100%-osan külsőleg (a külvilághoz kapcsolódva). Az egyensúly megtartása a legnehezebb. Tudsz zökkenőmentesen átváltani egyikből a másikba? Tudsz úgy lavírozni a kettő között, hogy az súrlódásmentes legyen? Én minden nap próbálkozom. És továbbra is próbálkozni fogok.
 </div>
 
 **Ilyen egyszerű.**
