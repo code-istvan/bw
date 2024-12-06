@@ -41,7 +41,6 @@ export default function Tanfolyam() {
       <div className="row mt-40px mb-40px">
         <h1 className="mb-20px">Egyéb programjaink</h1>
         <EventsTypeOfRoll typeOfEvents="Konferencia" />
-        <EventsTypeOfRoll typeOfEvents="SharathDzsi" />
       </div>
     </Layout>
   )
