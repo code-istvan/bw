@@ -66,6 +66,16 @@ const Orarend = ({ data }) => {
               Astanga tanfolyamok
             </Button>
           </div>
+          <div className="row mt-20px">
+            <Button
+              buttonStyle="btn--primary--solid--full"
+              href="https://shop.bandha.works/products/ujevi-108-napudvozlet"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Újévi 108 napüdvözlet
+            </Button>
+          </div>
         </>
       ) : null}
       <div className="mt-40px">
