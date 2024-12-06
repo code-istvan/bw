@@ -9,6 +9,11 @@
   line-height: 140%;
   border-radius: 2px;
   padding: 11px;
+  display: inline-flex; // Flexbox a tartalom középre helyezéséhez
+  align-items: center; // Vertikális középre igazítás
+  justify-content: center; // Horizontális középre igazítás
+  text-align: center; // Szöveg középre igazítása több sor esetén
+  text-decoration: none; // Aláhúzás eltüntetése
   // width: fit-content;
   // width: 100%;
 }
@@ -182,4 +187,11 @@
   transform: translateY(0px);
   background-color: $color-shades-lightGray;
   color: $color-shades-black;
+}
+
+a.btn {
+  text-decoration: none; // Aláhúzás eltüntetése az <a> elemeknél
+  display: inline-flex; // Flexbox beállítás az egységes stílusért
+  align-items: center;
+  justify-content: center;
 }
