@@ -44,7 +44,7 @@ export default function Szaznyolc() {
               Kezdd az Újévet 108 napüdvözlettel! Ez az intenzív mozgó
               meditációs technika kiváló módszert kínál, hogy elengedd az előző
               év feszültségeit, aggodalmait, problémáit és kitisztult testtel és
-              elmével vágj neki 2024-es évnek!
+              elmével vágj neki 2025-es évnek!
             </strong>
           </h2>
         </div>
@@ -108,15 +108,8 @@ export default function Szaznyolc() {
           <div className="szaznyolc-timings--wrapper">
             <p>
               <strong>Időpont</strong>
-              <br /> 2024. január 1. (hétfő) <strong>17:00-től</strong> és{" "}
-              <strong>19:00-tól</strong>. A nagy érdeklődésre való tekintettel
-              lesz egy második időpont is (19:00).{" "}
-              <span className="body clr-brand-orange">
-                <strong>
-                  A 17:00 időpontra a szabad helyek sajnos elfogytak a
-                  nagyteremben.{" "}
-                </strong>
-              </span>
+              <br /> 2025. január 1. (szerda) <strong>17:00-től</strong> és{" "}
+              <strong>19:00-tól</strong>.
               <div className="separator-horizontal mt-20px"></div>
               <strong>Oktató</strong> <br />
               <CustomLink
