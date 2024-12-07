@@ -68,10 +68,11 @@ const Orarend = ({ data }) => {
           </div>
           <div className="row mt-20px">
             <Button
+              type="button"
               buttonStyle="btn--primary--solid--full"
-              href="https://shop.bandha.works/products/ujevi-108-napudvozlet"
-              target="_blank"
-              rel="noopener noreferrer"
+              onClick={() => {
+                navigate("/108-napudvozlet")
+              }}
             >
               Újévi 108 napüdvözlet
             </Button>
