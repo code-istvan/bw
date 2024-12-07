@@ -44,7 +44,7 @@ export default function Szaznyolc() {
               Kezdd az Újévet 108 napüdvözlettel! Ez az intenzív mozgó
               meditációs technika kiváló módszert kínál, hogy elengedd az előző
               év feszültségeit, aggodalmait, problémáit és kitisztult testtel és
-              elmével vágj neki 2025-es évnek!
+              elmével vágj neki a 2025-ös évnek!
             </strong>
           </h2>
         </div>
