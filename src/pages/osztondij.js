@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { CustomHead } from "../components/CustomHead"
-// import Button from "../components/Buttons/Button"
+import Button from "../components/Buttons/Button"
 import { StaticImage } from "gatsby-plugin-image"
 import { getSrc } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
