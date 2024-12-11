@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layouts/Layout"
 import { CustomHead } from "../components/CustomHead"
-import Button from "../components/Buttons/Button"
+// import Button from "../components/Buttons/Button"
 import { StaticImage } from "gatsby-plugin-image"
 import { getSrc } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
@@ -195,7 +195,7 @@ export default function Osztondij() {
             </div>
           </div>
         </div>
-        <div>
+        {/* <div>
           <br />
           <Button
             type="button"
@@ -206,7 +206,7 @@ export default function Osztondij() {
           >
             Jelentkezés az ösztöndíjra
           </Button>
-        </div>
+        </div> */}
         <div className="separator-horizontal-full mt-40px"></div>
         <div className="row mt-40px">
           <h2 className="clr-brand-orange font-family-primary">
