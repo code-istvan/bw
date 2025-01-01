@@ -17,7 +17,7 @@ const MoondaysCard = ({
     <div className="holdnapok-card">
       <div className="holdnapok-card-content">
         <div className="holdnapok-card__header">
-          <p>2024.</p>
+          <p>2025.</p>
           <p>{month}</p>
         </div>
         <div className="holdnapok-card__body">
