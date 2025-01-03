@@ -66,7 +66,7 @@ const Orarend = ({ data }) => {
               Astanga tanfolyamok
             </Button>
           </div>
-          <div className="row mt-20px">
+          {/* <div className="row mt-20px">
             <Button
               type="button"
               buttonStyle="btn--primary--solid--full"
@@ -76,7 +76,7 @@ const Orarend = ({ data }) => {
             >
               Újévi 108 napüdvözlet
             </Button>
-          </div>
+          </div> */}
         </>
       ) : null}
       <div className="mt-40px">
