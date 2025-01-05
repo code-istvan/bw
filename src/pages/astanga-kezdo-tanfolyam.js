@@ -292,7 +292,7 @@ export default function AstangaKezdoTanfolyam() {
           courseNote={"Még két szabad helyünk van erre a tanfolyamra"}
         /> */}
 
-        <CourseApplication
+        {/* <CourseApplication
           courseName={"ASTANGA KEZDŐ TANFOLYAM"}
           courseDate={"2024. november 5."}
           courseLink={
@@ -303,7 +303,7 @@ export default function AstangaKezdoTanfolyam() {
           // courseNote={"Kevesebb mint 3 szabad hely"}
           courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
           // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
-        />
+        /> */}
         <CourseApplication
           courseName={"ASTANGA KEZDŐ TANFOLYAM"}
           courseDate={"2025. január 7."}
@@ -314,7 +314,6 @@ export default function AstangaKezdoTanfolyam() {
           courseTeacher={"Kisanna"}
           // courseNote={"Kevesebb mint 3 szabad hely"}
           courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
-          // courseNote={"Még 1 szabad helyünk van erre a tanfolyamra"}
         />
         <div className="row mt-20px">
           <div className="col-12-xs">
