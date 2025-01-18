@@ -166,6 +166,16 @@ export default function AstangaMysoreKurzus() {
           courseType={"kurzus"}
           courseTeacher={"Kisanna"}
         />
+        <CourseApplication
+          courseName={"ASTANGA MYSORE-KURZUS"}
+          courseDate={"2025. május 13. (kedd) 19:00"}
+          courseLink={
+            "https://shop.bandha.works/products/astanga-mysore-kurzus"
+          }
+          // courseNote={"Még egy szabad helyünk van erre a kurzusra!"}
+          courseType={"kurzus"}
+          courseTeacher={"Kisanna"}
+        />
         {/* <CourseApplication
           courseName={"HÉTVÉGI ASTANGA MYSORE-KURZUS"}
           courseDate={"2024. június 22. (szombat) 10:00"}
