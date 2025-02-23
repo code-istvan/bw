@@ -156,7 +156,7 @@ export default function AstangaMysoreKurzus() {
             Tanfolyami időpontok
           </h3>
         </div>
-        <CourseApplication
+        {/* <CourseApplication
           courseName={"ASTANGA MYSORE-KURZUS"}
           courseDate={"2025. február 4. (kedd) 19:00"}
           courseLink={
@@ -165,7 +165,7 @@ export default function AstangaMysoreKurzus() {
           // courseNote={"Még egy szabad helyünk van erre a kurzusra!"}
           courseType={"kurzus"}
           courseTeacher={"Kisanna"}
-        />
+        /> */}
         <CourseApplication
           courseName={"ASTANGA MYSORE-KURZUS"}
           courseDate={"2025. május 13. (kedd) 19:00"}
