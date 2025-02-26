@@ -58,7 +58,7 @@ export default function Konferencia() {
         </div>
         <div className="konferencia-event">
           <p>
-            <strong>Következő esemény időpontja:</strong> 2025. január 19.,
+            <strong>Következő esemény időpontja:</strong> 2025. április 13.,
             vasárnap, 16:00 - 18:00
           </p>
           {/* <p>
