@@ -11,7 +11,14 @@ import "../sass/pages/_oktatok.scss"
 const Csapatunk = () => {
   const teachers = useTeachers()
   // Meghatározott tanárok kiválasztása
-  const fixedTeachers = ["István", "Kisanna", "Janka", "Rózsa", "Andris"]
+  const fixedTeachers = [
+    "István",
+    "Kisanna",
+    "Janka",
+    "Rózsa",
+    "Andris",
+    "Vivien",
+  ]
 
   // Kiválasztott tanárok és a többiek szétválasztása
   const prioritizedTeachers = fixedTeachers
