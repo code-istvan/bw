@@ -31,5 +31,16 @@
     "thirdMoon": [],
     "moonPhase": "Telihold",
     "ekadashiThirdMoon": []
+  },
+  {
+    "monthValue": 4,
+    "month": "Április",
+    "fullMoon": "13. (vasárnap)",
+    "newMoon": "28. (hétfő)*",
+    "ekadashiNewMoon": "9. (szerda)",
+    "ekadashiFullMoon": "24. (csütörtök)",
+    "thirdMoon": [],
+    "moonPhase": "Telihold",
+    "ekadashiThirdMoon": []
   }
 ]

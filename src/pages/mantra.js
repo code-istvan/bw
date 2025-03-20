@@ -35,7 +35,7 @@ export default function Mantra() {
           />
         </div>
       </div>
-      <div className="mantra-wrapper tight--desktop--container">
+      <div className="tight--desktop--container">
         <div className="row mt-40px mb-20px">
           <h3 className="mb-20px">
             A <i>mantra</i> szanszkrit szó, a jelentése „túljutni az elmén”
